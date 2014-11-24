@@ -245,7 +245,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           dot: true,
-          cwd: '<%= yeoman.app %>',
+          cwd: 'app',
           src: [
             // Jekyll processes and moves HTML and text files.
             // Usemin moves CSS and javascript inside of Usemin blocks.
@@ -258,7 +258,6 @@ module.exports = function (grunt) {
             '_bower_components/jquery/jquery.js',
             'favicon.ico',
             'apple-touch*.png',
-            '../CNAME',
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -272,7 +271,13 @@ module.exports = function (grunt) {
           src: '**/*.css',
           dest: '.tmp/css'
         }]
-      }
+      },
+      cname: {
+        files:[{
+          src: 'CNAME',
+          dest: 'dist/CNAME',
+        }]
+      },
     },
     filerev: {
       options: {
@@ -329,7 +334,8 @@ module.exports = function (grunt) {
       ],
       dist: [
         'sass:dist',
-        'copy:dist'
+        'copy:dist',
+        'copy:cname',
       ]
     }
   });
