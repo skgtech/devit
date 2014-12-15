@@ -20,3 +20,16 @@
 .copyrights a:hover {
   color: #18467D;
 }
+
+.followit-ribbon {
+  background: url(/images/Followit.svg) no-repeat right top;
+  background-size: contain;
+  width: 320px;
+  height: 100px;
+}
+
+@media (max-width: 768px){
+  .followit-ribbon {
+    width: 290px;
+  }
+}
