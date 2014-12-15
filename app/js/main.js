@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    var venueAddress = "Grand Place, 1000, Brussels", // Venue Address
+    var venueAddress = "Thessaloniki Concert Hall", // Venue Address
         eventInfo = ["Thessaloniki, Greece", "15 May 2015"]; // Event Info
 
     var fn = {
