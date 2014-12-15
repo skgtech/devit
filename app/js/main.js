@@ -2,7 +2,7 @@
     "use strict";
 
     var venueAddress = "Grand Place, 1000, Brussels", // Venue Address
-        eventInfo = ["Brussels, Belgium", "18 December 2014"]; // Event Info
+        eventInfo = ["Thessaloniki, Greece", "15 May 2015"]; // Event Info
 
     var fn = {
 
@@ -112,7 +112,7 @@
         // Carousel
         Carousel: function () {
             var owl = $("#carousel");
-             
+
             owl.owlCarousel({
                 theme: "carousel",
                 navigation: true,
@@ -133,7 +133,7 @@
         // Slider
         Slider: function () {
             var owl = $("#slider");
-             
+
             owl.owlCarousel({
                 theme: "slider",
                 navigation : true,
@@ -178,7 +178,7 @@
 
         // Sticky Menu
         StickyMenu: function () {
-            var nav = $('#navigation-wrap'), 
+            var nav = $('#navigation-wrap'),
                 navOffset;
 
             function reCalc () {
