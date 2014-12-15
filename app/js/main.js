@@ -76,6 +76,7 @@
                     animation: "fade",
                     start: function () {
                         $('#preloader').addClass('ready');
+                        $('#header-background').removeClass('header-background-hide');
                     }
                 });
             });
