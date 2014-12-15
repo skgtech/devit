@@ -6,3 +6,17 @@
 .header .logo {
   margin-bottom: 20px;
 }
+
+#footer {
+  background: url(/images/FooterFold.svg) no-repeat right top;
+  background-size: contain;
+  background-color: #1169a7;
+}
+
+.copyrights {
+  color: #6AA7CE;
+}
+
+.copyrights a:hover {
+  color: #18467D;
+}
