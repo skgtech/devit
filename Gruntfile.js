@@ -290,7 +290,6 @@ module.exports = function (grunt) {
             '<%= yeoman.dist %>/js/**/*.js',
             '<%= yeoman.dist %>/css/**/*.css',
             '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
-            '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
       }
@@ -372,8 +371,6 @@ module.exports = function (grunt) {
     'clean:server',
     'jekyll:check',
     'sass:server',
-    'jshint:all',
-    'csslint:check'
   ]);
 
   grunt.registerTask('build', [
