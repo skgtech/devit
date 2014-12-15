@@ -52,7 +52,7 @@
 
         // Align Slider Images
         MainSliderAlign: function () {
-            var imageWidth, imageHeight, widthFix, heightFix, image = $('.header img');
+            var imageWidth, imageHeight, widthFix, heightFix, image = $('.header-background img');
             function centerImage() {
                 imageWidth = image.width();
                 imageHeight = image.height();
