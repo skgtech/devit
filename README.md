@@ -1,7 +1,7 @@
 # DEVit Conference Website Sources
 
-> WEBit the 360° Web Development Conference
-> http://webitconf.org 
+> DEVit the 360° Web Development Conference
+> http://devitconf.org
 
 [![Build Status](https://secure.travis-ci.org/skgtech/devit.png?branch=master)](http://travis-ci.org/skgtech/devit)
 
