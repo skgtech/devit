@@ -7,11 +7,14 @@
 
 ## Setup
 
-Checkout and npm install:
+You need `node`, `npm`, `Ruby` and `bundler` gem installed in order to build the site
+
+Checkout, bundle install and npm install:
 
 ```
 git clone git@github.com:skgtech/devit.git
 cd devit
+bundle install
 npm install
 ```
 
@@ -31,6 +34,15 @@ Pretty straightforward stuff here, the whole website is under the folder `app/`.
 
 - **v0.0.1**, *15 Dec 2014*
     - Big Bang
+
+## Troubleshooting
+
+If you get an error like the following
+
+> Warning: Please install Jekyll before running this task. Use --force to continue.
+
+Please make sure you have the `jekyll` gem installed.
+You can `bundle install` to install this and its dependencies.
 
 ## License
 
