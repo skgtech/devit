@@ -1,0 +1,19 @@
+language:
+  - node_js
+  - ruby
+node_js:
+  - "0.10"
+rvm:
+  - 1.9.3
+  - 2.0.0
+  - 2.1.2
+before_install:
+  - npm install -g grunt-cli
+  - npm install -g bower
+  - gem install bundler
+install:
+  - bundle install
+  - npm install
+  - bower install
+script:
+  - grunt
