@@ -41,3 +41,11 @@
     width: 290px;
   }
 }
+
+.no-p {
+  padding: 0 !important;
+}
+
+.venue-info {
+  padding: 5rem 6.5rem;
+}
