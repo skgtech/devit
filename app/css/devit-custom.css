@@ -49,3 +49,28 @@
 .venue-info {
   padding: 5rem 6.5rem;
 }
+
+.shareit {
+  float: left;
+}
+
+.share-box {
+  display: block;
+  float: left;
+  width: 66px;
+  height: 66px;
+  font-size: 3em;
+  margin-top: 14px;
+  margin-left: 2px;
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.share-box-fb {
+  background-color: #3b5998;
+}
+
+.share-box-tw {
+  background-color: #2daae1;
+}
