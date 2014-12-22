@@ -67,6 +67,10 @@
   color: #fff;
 }
 
+.share-box:hover {
+  color: #fff;
+}
+
 .share-box-fb {
   background-color: #3b5998;
 }
