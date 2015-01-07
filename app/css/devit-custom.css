@@ -56,15 +56,37 @@
 
 .share-box {
   display: block;
-  float: left;
   width: 66px;
-  height: 66px;
-  font-size: 3em;
+  min-height: 66px;
+  font-size: 2em;
   margin-top: 14px;
   margin-left: 2px;
   padding-top: 10px;
   text-align: center;
   color: #fff;
+}
+
+.share-box .fa {
+  padding: 0.8rem;
+}
+
+.share-box-count {
+  font-size: 0.5em;
+  font-weight: 700;
+  position: relative;
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}
+
+.share-box-count:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -1px;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.5;
 }
 
 .share-box:hover {

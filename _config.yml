@@ -28,3 +28,5 @@ markdown: maruku
 #   png_url:    /images/latex
 
 pygments: true
+
+encoding: utf-8
