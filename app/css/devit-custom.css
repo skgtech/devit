@@ -57,6 +57,7 @@
 .share-box {
   display: block;
   width: 66px;
+  min-height: 66px;
   font-size: 2em;
   margin-top: 14px;
   margin-left: 2px;
@@ -86,9 +87,6 @@
   bottom: 0;
   background: #fff;
   opacity: 0.5;
-}
-
-.fb-count {
 }
 
 .share-box:hover {
