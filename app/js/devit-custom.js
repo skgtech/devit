@@ -7,6 +7,7 @@
 
     init: function () {
       devit.getSocialCounts();
+      devit.setCurrentYear();
     },
 
     getSocialCounts: function () {
@@ -32,6 +33,11 @@
         return ('' + c)[0] + 'k';
       else
         return c;
+    },
+
+    setCurrentYear: function () {
+      var currentYear = new Date().getFullYear();
+      $('.js-current-year').text(currentYear);
     }
   };
 
