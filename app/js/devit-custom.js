@@ -14,25 +14,28 @@
       $.getJSON(
         "http://urls.api.twitter.com/1/urls/count.json?url=" + url + "&callback=?",
         function (json) {
-          $('.js-tw-count').text(devit._getK(json.count));
+          $('.js-tw-count').text(devit.siAbbrevCount(json.count));
         }
       );
 
       $.getJSON(
         "http://graph.facebook.com/" + url,
         function (json) {
-          $('.js-fb-count').text(devit._getK(json.shares));
+          $('.js-fb-count').text(devit.siAbbrevCount(json.shares));
         }
       );
     },
 
-    _getK: function(n) {
+    siAbbrevCount: function(n) {
       var c = parseInt(n);
 
-      if(c > 1000)
-        return ('' + c)[0] + 'k';
-      else
+      if (c > 9999 && c <= 999999) {
+        return parseFloat((c / 1000).toFixed(1)) + 'k';
+      } else if (c > 999999) {
+        return parseFloat((c / 1000000).toFixed(1)) + 'm';
+      } else {
         return c;
+      }
     },
 
     setCurrentYear: function () {
