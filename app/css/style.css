@@ -924,7 +924,7 @@ News
 Pricing Tables
 --------------------*/
 .pricing-table {
-  max-width: 280px;
+  /*max-width: 280px;*/
   margin: 0 auto 1.5rem auto;
 }
 
