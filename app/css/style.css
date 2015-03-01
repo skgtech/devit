@@ -837,7 +837,7 @@ Partners
   height: auto;
 }
 
-.premium-partners .partner > img {
+.premium-partners .partner > a > img {
   width: 100%;
 }
 
@@ -845,7 +845,7 @@ Partners
   background: #f4f6f7;
 }
 
-.partner > img {
+.partner > a > img {
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
