@@ -833,6 +833,14 @@ Partners
   box-shadow: -1px -1px 0px 0px #ebeef0;
 }
 
+.premium-partners .partner {
+  height: auto;
+}
+
+.premium-partners .partner > img {
+  width: 100%;
+}
+
 .partner:hover {
   background: #f4f6f7;
 }
@@ -840,6 +848,7 @@ Partners
 .partner > img {
   max-width: 100%;
   max-height: 100%;
+  margin: 0 auto;
 }
 
 
