@@ -1234,26 +1234,25 @@ Accordion
   width: 100%;
   overflow: hidden;
 
-  /* This and the :after goes for the down arrow */
-  /*padding-right: 8rem;*/
-  /*cursor: pointer;*/
+  padding-right: 8rem;
+  cursor: pointer;
 }
 
-/*.accordion-heading:after {*/
-  /*position: absolute;*/
-  /*top: 0;*/
-  /*right: 0;*/
-  /*display: block;*/
-  /*height: 100%;*/
-  /*padding: 2.7rem 0;*/
-  /*content: "\f0d7";*/
-  /*width: 8rem;*/
-  /*background: #f4f6f7;*/
-  /*text-align: center;*/
-  /*color: #222;*/
-  /*font-size: 2.8rem;*/
-  /*font-family: 'FontAwesome';*/
-/*}*/
+.accordion-heading:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  height: 100%;
+  padding: 2.7rem 0;
+  content: "\f0d7";
+  width: 8rem;
+  background: #f4f6f7;
+  text-align: center;
+  color: #222;
+  font-size: 2.8rem;
+  font-family: 'FontAwesome';
+}
 
 .break-heading .accordion-title,
 .break-heading .schedule-time {
