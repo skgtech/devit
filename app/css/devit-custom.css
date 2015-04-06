@@ -100,3 +100,11 @@
 .share-box-tw {
   background-color: #2daae1;
 }
+
+.early-bird-label {
+  text-decoration: line-through ;
+}
+
+.hotel-row {
+  margin-bottom: 25px;
+}
