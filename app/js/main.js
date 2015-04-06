@@ -319,16 +319,7 @@
           $(this).toggleClass("active");
         });
       });
-
-      // Typed
-      $(function () {
-        $(".typed").typed({
-          strings: eventInfo,
-          typeSpeed: 50,
-          backDelay: 2000,
-          loop: true
-        });
-      });
+      
     }
 
   };
