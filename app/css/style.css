@@ -833,12 +833,18 @@ Partners
   box-shadow: -1px -1px 0px 0px #ebeef0;
 }
 
+.partner:first-child {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 .premium-partners .partner {
   height: auto;
 }
 
 .premium-partners .partner > a > img {
-  width: 100%;
+  width: 250px;
 }
 
 .partner:hover {
