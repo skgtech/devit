@@ -108,3 +108,8 @@
 .hotel-row {
   margin-bottom: 25px;
 }
+
+.schedule-speaker small {
+  color: #000;
+  padding-right: 20px;
+}
