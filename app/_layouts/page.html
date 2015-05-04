@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:title" content="DEVit the 360° Web Development Conference">
+    <meta property="og:site_name" content="devitconf.org">
+    <meta property="og:url" content="http://devitconf.org">
+    <meta property="og:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Security! Meet all the cool people! We are 360° and proud of it!">
+    <meta property="og:image" content="http://devitconf.org/images/devit_profile_1280.png">
+    <meta property="og:type" content="website">
+
+
+    <!--== CSS Files ==-->
+
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+    <link href="/css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="/css/font-awesome.css" rel="stylesheet" media="screen">
+    <link href="/css/flexslider.css" rel="stylesheet" media="screen">
+    <link href="/css/fancySelect.css" rel="stylesheet" media="screen">
+    <link href="/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="/css/responsive.css" rel="stylesheet" media="screen">
+    <link href="/css/devit-custom.css" rel="stylesheet" media="screen">
+    <!-- endbuild -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header id="header" class="header" data-stellar-ratio="0.5">
+
+      <!--== Preloader ==-->
+      <div id="preloader">
+        <div class="preloader"></div>
+      </div>
+
+      <!--== Caption ==-->
+      <div class="header-caption" data-stellar-ratio="2">
+        <div class="container">
+          <div class="box">
+            <div class="logo">
+              <a href="/" title="Back to main page">
+                <img src="/images/DevitLogo.svg" alt="DEVit Conference" class="img-responsive"/>
+              </a>
+            </div>
+            <span class="">15 May 2015</span><br/><br/>
+            <span class="">Thessaloniki, Greece</span>
+          </div>
+        </div>
+      </div>
+
+      <!--== Header Background ==-->
+      <div id="header-background" class="header-background header-background-hide">
+        <ul class="slides">
+          <li><img src="/images/demo/bg-slide-01.jpg" alt="Slide 1"></li>
+          <li><img src="/images/demo/bg-slide-02.jpg" alt="Slide 2"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="navigation-wrap" class="navigation-wrap">
+      <div id="navigation" class="navigation">
+      </div>
+    </div>
+
+    <div class="container content">
+      <section class="wow">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <div>
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===============================-->
+      <!--== Footer =====================-->
+      <!--===============================-->
+      <footer id="footer" class="footer">
+        <div class="row">
+          <div class="col-sm-8">
+
+            <!--== Social Icons ==-->
+            <ul class="social-icons">
+              <li><a target="_blank" href="https://www.facebook.com/DEVitConf" class="fa fa-facebook"></a></li>
+              <li><a target="_blank" href="https://twitter.com/devitconf" class="fa fa-twitter"></a></li>
+              <li class="followit-ribbon">&nbsp;</li>
+            </ul>
+            <div class="copyrights">© <span class="js-current-year">2015</span>
+              <a href="https://github.com/skgtech/devit/graphs/contributors" target="_blank">SKGTech Contributors</a>, Licensed
+              under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons 4.0</a>
+            </div>
+
+          </div>
+          <div class="col-sm-4 footer-fold">
+          </div>
+        </div>
+      </footer>
+      <!--==========-->
+    </div>
+
+    {% include scripts.html %}
+    {% include googleanalytics.html %}
+
+  </body>
+</html>
