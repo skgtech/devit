@@ -52,6 +52,3 @@ DEPENDENCIES
   jekyll (~> 1.4.0)
   maruku
   sass (>= 3.2)
-
-BUNDLED WITH
-  1.10.0.pre
