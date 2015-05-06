@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+  <link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+
+  <style>
+
+    html,
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      background:  #fff;
+      padding:     0;
+      margin:      0;
+    }
+
+    h4 {
+      font-size: inherit;
+    }
+
+    .accordion,
+    .right-col {
+      width:    50%;
+      position: absolute;
+      top:      100px;
+      bottom:   0;
+      overflow: hidden;
+      height:   100%;
+    }
+
+    .right-col {
+      left:  50%;
+      right: 0;
+    }
+
+    .col-xs-3,
+    .col-xs-6 {
+      padding: 0;
+    }
+
+    .black-top {
+      position:   absolute;
+      top:        0;
+      bottom:     0;
+      right:      0;
+      left:       0;
+      width:      100%;
+      height:     100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .twitter-feed,
+    .accordion {
+      padding:    0;
+      list-style: none;
+    }
+
+    .twitter-feed {
+      position: absolute;
+      top:      0;
+    }
+
+    .twitter-feed > li {
+      padding:     50px;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    .twitter-feed > li > .twitter-feed-handle {
+      color: lightblue;
+    }
+
+    .twitter-feed > li > .twitter-feed-body {
+      line-height: 1em;
+      color:       white;
+    }
+
+    .accordion > li {
+      background: #f4f6f7;
+      height:     7.69%;
+      overflow:   hidden;
+    }
+
+    .accordion > li.conf-related {
+      background: #ebeef0;
+    }
+
+    .accordion > li + li {
+      border-top: 0.5rem solid #fff;
+    }
+
+    .accordion-heading {
+      position: relative;
+      display:  block;
+      width:    100%;
+      overflow: hidden;
+    }
+
+    .accordion-title {
+      margin:      0;
+      line-height: 2.5em;
+      color:       #222;
+      padding:     0 20px;
+    }
+
+    /*--------------------
+    Schedule
+    --------------------*/
+    .schedule-time {
+      font-weight:  700;
+      text-align:   center;
+      color:        #222;
+      padding-right: 20px;
+    }
+
+    .schedule-speaker > h4 {
+      display:     inline-block;
+      font-weight: 600;
+      line-height: 2rem;
+      margin-top:  1.5rem;
+    }
+
+    .header h1 {
+      color:         black;
+      padding-left:  50px;
+      padding-right: 50px;
+      line-height:   50px;
+      font-weight:   bold;
+    }
+
+    .header h1 .hashtag {
+      color: lightblue;
+    }
+
+    .header img {
+      padding-left: 50px;
+      padding-top:  20px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+<div class="header clearfix">
+  <img src="/images/DevitLogo.svg" alt="DEVit Conference" style="width: 200px;float:left"/>
+
+  <h1 style="float:left">Track: Spaceballs</h1>
+
+  <h1 class="pull-right" style="float:left"><span class="hashtag">#devitconf</span> on the Web</h1>
+</div>
+
+<ul class="accordion">
+  <li class="conf-related">
+    <a class="accordion-heading">
+
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    08:30
+                  </span>
+        Registration
+      </h4>
+    </a>
+  </li>
+
+  <li class="conf-related">
+    <a class="accordion-heading">
+
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    09:15
+                  </span>
+        Opening Ceremony
+      </h4>
+    </a>
+  </li>
+
+  <li>
+    <a class="accordion-heading">
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    09:30
+                  </span>
+        Integration Testing from the Trenches
+      </h4>
+    </a>
+  </li>
+
+  <li class="conf-related">
+    <a class="accordion-heading break-heading">
+      <h4 class="accordion-title">
+      <span class="schedule-time accent">
+                    10:30
+                  </span>
+        Coffee Break
+      </h4>
+    </a>
+  </li>
+
+  <li>
+    <a class="accordion-heading">
+
+      <h4 class="accordion-title"><span class="schedule-time accent">
+                    11:00
+                  </span>
+        The future of responsive web design: web component queries
+      </h4>
+    </a>
+
+  </li>
+
+  <li>
+    <a class="accordion-heading">
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    12:00
+                  </span>
+        iOS real time content modifications using websockets
+      </h4>
+    </a>
+
+  </li>
+
+  <li class="conf-related">
+    <a class="accordion-heading break-heading">
+
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    13:00
+                  </span>
+        Lunch Break
+      </h4>
+    </a>
+  </li>
+
+  <li>
+    <a class="accordion-heading">
+
+      <h4 class="accordion-title">
+         <span class="schedule-time accent">
+                    14:00
+                  </span>
+        Your Service is not Rest
+      </h4>
+
+    </a>
+
+  </li>
+
+  <li>
+    <a class="accordion-heading">
+
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    15:00
+                  </span>
+        Your Web Stack Would Betray You In An Instant
+      </h4>
+    </a>
+
+  </li>
+
+  <li class="conf-related">
+    <a class="accordion-heading break-heading">
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    16:00
+                  </span>
+        Coffee Break
+      </h4>
+    </a>
+  </li>
+
+  <li>
+    <a class="accordion-heading">
+
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    16:30
+                  </span>
+        Getting started with Meteor
+      </h4>
+    </a>
+
+  </li>
+
+  <li class="conf-related">
+    <a class="accordion-heading">
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    17:30
+                  </span>
+        Closing Ceremony - Socializing
+      </h4>
+    </a>
+  </li>
+
+  <li class="conf-related">
+    <a class="accordion-heading">
+      <h4 class="accordion-title">
+        <span class="schedule-time accent">
+                    19:00
+                  </span>
+        After Party
+      </h4>
+    </a>
+  </li>
+
+</ul>
+
+<div class="right-col">
+
+  <div id="instafeed"></div>
+
+  <div class="black-top"></div>
+  <ul class="twitter-feed">
+
+  </ul>
+
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/_bower_components/jquery.js"><\/script>')</script>
+
+<script src="/_bower_components/codebird-js/codebird.js"></script>
+<script src="/_bower_components/instafeed.js/instafeed.min.js"></script>
+<script src="/_bower_components/FlowType.JS/flowtype.js"></script>
+
+<script type="text/javascript">
+
+  $('.accordion, .right-col').height(window.innerHeight - 100);
+
+  $('body').flowtype({
+    minFont: 12,
+    maxFont: 30
+  });
+
+  var feed = new Instafeed({
+    clientId: '0bf9acacc332499f98c3c008221b2b9a',
+    get: 'tagged',
+    tagName: 'greece',
+    limit: 30,
+    links: false,
+    resolution: 'standard_resolution',
+    template: '<img src="{{image}}" class="col-xs-3"/></a>'
+  });
+  feed.run();
+  feed.next();
+
+  var cb = new Codebird;
+  cb.setConsumerKey("AyfxbZJjPsaRle1UK4qRxWw1l", "xe2MgxEGT2yx2ebvnxqNBFrdeArT6qt0TNQVXDX0XqxanunjPe");
+
+  cb.setBearerToken("420403581-fhk7XPcXzhYTRRMS52D7B9dxlmYF666ANwLjJhAj");
+
+  var params = {
+    q: "#devitconf"
+  };
+
+  setInterval(
+    cb.__call(
+      "search_tweets",
+      params,
+      function (reply) {
+
+        var statuses = reply.statuses.slice(0, 4);
+
+        statuses.map(function (i) {
+
+          console.log('refreshing');
+
+          $('.twitter-feed').append(
+            $('<li/>')
+              .append(
+              $('<div/>')
+                .addClass('twitter-feed-handle')
+                .text(i.user.screen_name)
+            )
+              .append(
+              $('<div/>')
+                .addClass('twitter-feed-body')
+                .text(i.text)
+            )
+          );
+
+        });
+
+      }
+    ), 5000);
+
+</script>
+
+</body>
+</html>
