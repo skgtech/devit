@@ -180,7 +180,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= yeoman.dist %>'
       },
-      html: '<%= yeoman.dist %>/index.html'
+      html: '<%= yeoman.dist %>/*.html'
     },
     usemin: {
       options: {
@@ -260,9 +260,6 @@ module.exports = function (grunt) {
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             '_bower_components/jquery/jquery.js',
-            '_bower_components/codebird-js/codebird.js',
-            '_bower_components/FlowType.JS/flowtype.js',
-            '_bower_components/instafeed.js/instafeed.min.js',
             'favicon.ico',
             'apple-touch*.png',
           ],
