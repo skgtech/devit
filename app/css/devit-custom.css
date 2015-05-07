@@ -113,3 +113,8 @@
   color: #000;
   padding-right: 20px;
 }
+
+.after-party-venue {
+  color: #2a6496;
+  cursor: pointer;
+}
