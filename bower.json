@@ -5,6 +5,9 @@
     "normalize-css": "~2.1.3",
     "jquery": "~1.10.2",
     "modernizr": "~2.7",
-    "bootstrap-sass-official": "~3.3.1"
+    "bootstrap-sass-official": "~3.3.1",
+    "instafeed.js": "~1.3.2",
+    "codebird-js": "~2.6.0",
+    "FlowType.JS": "~1.1.0"
   }
 }
