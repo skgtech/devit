@@ -6,7 +6,7 @@
   var feed = new Instafeed({
     clientId: '0bf9acacc332499f98c3c008221b2b9a',
     get: 'tagged',
-    tagName: 'greece',
+    tagName: 'devitconf',
     limit: 30,
     links: false,
     resolution: 'standard_resolution',
