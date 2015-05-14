@@ -66,8 +66,9 @@
 
         var statuses = reply.statuses.slice(0, 4);
 
-        statuses.map(function (i) {
+        $('.twitter-feed').html('');
 
+        statuses.map(function (i) {
           $('.twitter-feed').append(
             $('<li/>')
               .append(
