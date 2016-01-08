@@ -1,0 +1,120 @@
+#preloader {
+  background: none;
+}
+
+.header-background-hide {
+  right: 10000px;
+}
+
+.header-caption .box {
+  padding: 0 3rem;
+  border-color: #FFF;
+}
+
+.header .logo {
+  margin-bottom: 20px;
+}
+
+#footer {
+  background: url(/images/FooterFold.svg) no-repeat right top;
+  background-size: contain;
+  background-color: #1169a7;
+}
+
+.copyrights {
+  color: #6AA7CE;
+}
+
+.copyrights a:hover {
+  color: #18467D;
+}
+
+.followit-ribbon {
+  background: url(/images/Followit.svg) no-repeat right top;
+  background-size: contain;
+  width: 320px;
+  height: 100px;
+}
+
+@media (max-width: 768px){
+  .followit-ribbon {
+    width: 290px;
+  }
+}
+
+.no-p {
+  padding: 0 !important;
+}
+
+.venue-info {
+  padding: 4rem 6.5rem;
+}
+
+.shareit {
+  float: left;
+}
+
+.share-box {
+  display: block;
+  width: 66px;
+  min-height: 66px;
+  font-size: 2em;
+  margin-top: 14px;
+  margin-left: 2px;
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.share-box .fa {
+  padding: 0.8rem;
+}
+
+.share-box-count {
+  font-size: 0.5em;
+  font-weight: 700;
+  position: relative;
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}
+
+.share-box-count:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -1px;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.5;
+}
+
+.share-box:hover {
+  color: #fff;
+}
+
+.share-box-fb {
+  background-color: #3b5998;
+}
+
+.share-box-tw {
+  background-color: #2daae1;
+}
+
+.early-bird-label {
+  text-decoration: line-through ;
+}
+
+.hotel-row {
+  margin-bottom: 25px;
+}
+
+.schedule-speaker small {
+  color: #000;
+  padding-right: 20px;
+}
+
+.after-party-venue {
+  color: #2a6496;
+  cursor: pointer;
+}

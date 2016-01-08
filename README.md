@@ -50,11 +50,6 @@ bower install
 
 Pretty straightforward stuff here, the whole website is under the folder `app/`.
 
-## Release History
-
-- **v0.0.1**, *15 Dec 2014*
-    - Big Bang
-
 ## Troubleshooting
 
 1. If you get an error like the following

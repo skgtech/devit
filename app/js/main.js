@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  var venueAddress = "Leoforos Megalou Alexandrou 2, Thessaloniki, 546 40",
+  var venueAddress = "Leoforos Megalou Alexandrou 2, Thessaloniki, 546 40, Greece",
     luxembourgHotelAddress = "Komninon 6, 546 24 Thessaloniki Greece",
     metropolitanHotelAddress = "65, Vas. Olga's Avenue & Fleming , 546 42 Thessaloniki";
 
@@ -12,10 +12,10 @@
       fn.GoogleMaps();
       fn.MainSliderAlign();
       fn.MainSlider();
-      fn.Stellar();
+      //fn.Stellar();
       fn.Navigation();
       fn.Carousel();
-      fn.Slider();
+      //fn.Slider();
       fn.Menu();
       fn.Wow();
       fn.StickyMenu();
@@ -31,7 +31,7 @@
       $("#map-canvas").gmap3({
           map: {
             options: {
-              maxZoom: 15,
+              maxZoom: 8,
               streetViewControl: false,
               panControl: false,
               zoomControl: true,
@@ -41,46 +41,7 @@
             }
           },
           marker: {
-            address: venueAddress,
-            options: {icon: "images/pin.png"}
-          }
-        },
-        "autofit");
-
-      $("#luxembourgHotel").gmap3({
-          map: {
-            options: {
-              maxZoom: 15,
-              streetViewControl: false,
-              panControl: false,
-              zoomControl: true,
-              scrollwheel: false,
-              mapTypeControl: false
-
-            }
-          },
-          marker: {
-            address: luxembourgHotelAddress,
-            options: {icon: "images/pin.png"}
-          }
-        },
-        "autofit");
-
-      $("#metropolitanHotel").gmap3({
-          map: {
-            options: {
-              maxZoom: 15,
-              streetViewControl: false,
-              panControl: false,
-              zoomControl: true,
-              scrollwheel: false,
-              mapTypeControl: false
-
-            }
-          },
-          marker: {
-            address: metropolitanHotelAddress,
-            options: {icon: "images/pin.png"}
+            address: venueAddress
           }
         },
         "autofit");

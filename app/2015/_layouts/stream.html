@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- build:css({app,.tmp}) /css/stream.css -->
+  <link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+  <!-- endbuild -->
+
+  <style>
+
+    html,
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      background:  #fff;
+      padding:     0;
+      margin:      0;
+    }
+
+    .accordion,
+    .right-col {
+      width:    50%;
+      position: absolute;
+      top:      100px;
+      bottom:   0;
+      overflow: hidden;
+      height:   100%;
+
+      font-size: 2.5rem;
+    }
+
+    .right-col {
+      left:  50%;
+      right: 0;
+
+      border-left: 5px solid white;
+    }
+
+    .col-xs-3,
+    .col-xs-6 {
+      padding: 0;
+    }
+
+    .black-top {
+      position:   absolute;
+      top:        0;
+      bottom:     0;
+      right:      0;
+      left:       0;
+      width:      100%;
+      height:     100%;
+      background: rgba(0, 0, 0, 0.65);
+    }
+
+    .twitter-feed,
+    .accordion {
+      padding:    0;
+      list-style: none;
+    }
+
+    .twitter-feed {
+      position: absolute;
+      top:      0;
+    }
+
+    .twitter-feed > li {
+      padding:     50px 100px;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    .twitter-feed > li > .twitter-feed-handle {
+      color: lightblue;
+      padding-bottom: 10px;
+    }
+
+    .twitter-feed > li > .twitter-feed-body {
+      line-height: 3rem;
+      color:       white;
+    }
+
+    .accordion > li {
+      display: table;
+      width: 100%;
+      background: #f4f6f7;
+      height:     7.69%;
+      overflow:   hidden;
+    }
+
+    .accordion > li.conf-related {
+      background: #ebeef0;
+    }
+
+    .accordion > li.past {
+      opacity: 0.5;
+    }
+
+    .accordion > li.active {
+      background: #004b87;
+    }
+
+    .accordion > li.active .schedule-time,
+    .accordion > li.active .accordion-title {
+      color: white;
+    }
+
+    .accordion > li + li {
+      border-top: 0.5rem solid #fff;
+    }
+
+    .accordion-heading {
+      vertical-align: middle;
+      display: table-cell;
+    }
+
+    .accordion-title {
+      font-size: 2.5rem;
+      color:       #222;
+      padding:     0 20px;
+    }
+
+    /*--------------------
+    Schedule
+    --------------------*/
+    .schedule-time {
+      font-weight:  700;
+      text-align:   center;
+      color:        #222;
+      padding-right: 20px;
+    }
+
+    .schedule-speaker > h4 {
+      display:     inline-block;
+      font-weight: 600;
+      line-height: 2rem;
+      margin-top:  1.5rem;
+    }
+
+    .header {
+      color: #4b4b4b;
+      cursor: none;
+    }
+
+    .header h1 {
+      color:         #4b4b4b;
+      padding-left:  100px;
+      padding-right: 50px;
+      line-height:   50px;
+      font-weight:   bold;
+    }
+
+    .header h1 .hashtag {
+      color: #74abce;
+    }
+
+    .header img {
+      padding-left: 50px;
+      padding-top:  20px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+{{ content }}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/_bower_components/jquery.js"><\/script>')</script>
+
+{% raw %}
+<!-- build:js(app) /js/stream.script.js -->
+<script src="/_bower_components/codebird-js/codebird.js"></script>
+<script src="/_bower_components/instafeed.js/instafeed.min.js"></script>
+<script src="/_bower_components/FlowType.JS/flowtype.js"></script>
+<script src="/js/stream.js"></script>
+<!-- endbuild -->
+{% endraw %}
+
+</body>
+</html>

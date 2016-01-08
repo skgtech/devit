@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:title" content="DEVit the 360° Web Development Conference">
+    <meta property="og:site_name" content="devitconf.org">
+    <meta property="og:url" content="http://devitconf.org">
+    <meta property="og:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Security! Meet all the cool people! We are 360° and proud of it!">
+    <meta property="og:image" content="http://devitconf.org/images/devit_profile_1280.png">
+    <meta property="og:type" content="website">
+
+
+    <!--== CSS Files ==-->
+
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+    <link href="/css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="/css/font-awesome.css" rel="stylesheet" media="screen">
+    <link href="/css/flexslider.css" rel="stylesheet" media="screen">
+    <link href="/css/fancySelect.css" rel="stylesheet" media="screen">
+    <link href="/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="/css/responsive.css" rel="stylesheet" media="screen">
+    <link href="/css/devit-custom.css" rel="stylesheet" media="screen">
+    <!-- endbuild -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    {{ content }}
+
+    {% include scripts.html %}
+    {% include googleanalytics.html %}
+
+  </body>
+</html>
