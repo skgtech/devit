@@ -301,7 +301,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:skgtech/devit2016.git',
+          remote: 'git@github.com:skgtech/devit.git',
           branch: 'gh-pages',
           commit: true,
           push: true
