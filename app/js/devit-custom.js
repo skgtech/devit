@@ -6,7 +6,7 @@
   var devit = {
 
     init: function () {
-      devit.getSocialCounts();
+      // devit.getSocialCounts();
       devit.setCurrentYear();
     },
 
