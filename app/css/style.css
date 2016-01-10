@@ -501,6 +501,20 @@ a.register {
   color: #fff;
 }
 
+a.previous {
+  position: absolute;
+  right: 0;
+  display: block;
+  height: 8rem;
+  line-height: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3rem 4rem;
+  color: #fff;
+  background: #9fb33e;
+}
+
 a.register:before {
   position: absolute;
   content: "";
