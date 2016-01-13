@@ -102,7 +102,7 @@
 }
 
 .early-bird-label {
-  text-decoration: line-through ;
+  /*text-decoration: line-through ;*/
 }
 
 .hotel-row {
@@ -121,4 +121,8 @@
 
 .hashtag-section {
   margin-top: 50px;
+}
+
+#eventzilla-iframe {
+    height: 550px;
 }
