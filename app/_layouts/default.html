@@ -2,24 +2,28 @@
 <html lang="en" itemscope itemtype="http://schema.org/Article">
   <head>
     <title>{{ page.title }}</title>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="{{ page.metaDescription }}">
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="DEVit the 360° Web Development Conference">
-    <meta itemprop="description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
+    <meta itemprop="name" content="{{ page.metaTitle }}">
+    <meta itemprop="description" content="{{ page.metaDescription }}">
     <meta itemprop="image" content="http://devitconf.org/images/devit_profile_google.jpg">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@devitconf">
+    <meta name="twitter:title" content="{{ page.metaTitle }}">
     <meta name="twitter:image" content="http://devitconf.org/images/devit_profile_twitter.jpg">
+    <meta name="twitter:description" content="{{ page.metaDescription }}">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="DEVit the 360° Web Development Conference">
+    <meta property="og:title" content="{{ page.metaTitle }}">
     <meta property="og:site_name" content="devitconf.org">
     <meta property="og:url" content="http://devitconf.org">
-    <meta property="og:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
+    <meta property="og:description" content="{{ page.metaDescription }}">
     <meta property="og:image" content="http://devitconf.org/images/devit_profile_facebook.jpg">
     <meta property="og:type" content="website">
 
