@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  var venueAddress = "Leoforos Megalou Alexandrou 2, Thessaloniki, 546 40, Greece",
+  var venueAddress = '40.6256606,22.9546541',
     luxembourgHotelAddress = "Komninon 6, 546 24 Thessaloniki Greece",
     metropolitanHotelAddress = "65, Vas. Olga's Avenue & Fleming , 546 42 Thessaloniki";
 
@@ -31,13 +31,12 @@
       $("#map-canvas").gmap3({
           map: {
             options: {
-              maxZoom: 8,
-              streetViewControl: false,
+              maxZoom: 16,
+              streetViewControl: true,
               panControl: false,
               zoomControl: true,
               scrollwheel: false,
               mapTypeControl: false
-
             }
           },
           marker: {
