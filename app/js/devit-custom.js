@@ -6,13 +6,13 @@
   var devit = {
 
     init: function () {
-      // devit.getSocialCounts();
+       devit.getSocialCounts();
       devit.setCurrentYear();
     },
 
     getSocialCounts: function () {
       $.getJSON(
-        "http://urls.api.twitter.com/1/urls/count.json?url=" + url + "&callback=?",
+        "http://public.newsharecounts.com/count.json?url=" + url + "&callback=?",
         function (json) {
           $('.js-tw-count').text(devit.siAbbrevCount(json.count));
         }
