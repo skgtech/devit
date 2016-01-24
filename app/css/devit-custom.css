@@ -133,3 +133,6 @@
     margin: 0;
     width: 100%;
 }
+#coc-full {
+  display: none;
+}
