@@ -133,3 +133,18 @@
     margin: 0;
     width: 100%;
 }
+
+.buy-ticket {
+  display: block;
+  width: 100%;
+  line-height: 50px;
+  background-color: #6aa7cf;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.buy-ticket:hover {
+  background-color: #2a6496;
+  color: #fff;
+}
