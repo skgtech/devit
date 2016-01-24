@@ -134,6 +134,10 @@
     width: 100%;
 }
 
+#coc-full {
+  display: none;
+}
+
 .buy-ticket {
   display: block;
   width: 100%;
@@ -144,6 +148,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .buy-ticket:hover {
   background-color: #2a6496;
   color: #fff;
