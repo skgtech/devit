@@ -46,6 +46,10 @@
 
   $(document).ready(function () {
     devit.init();
+    $("#coc-full-toggle").on('click', function() {
+      $("#coc-full").slideToggle();
+      return false;
+    });
   });
 
 
