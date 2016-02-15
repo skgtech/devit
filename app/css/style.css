@@ -840,12 +840,17 @@ Partners
   box-shadow: none;
 }
 
+.platinum-partners .partner,
 .premium-partners .partner {
   height: auto;
 }
 
+.platinum-partners .partner > a > img {
+  width: 500px;
+}
+
 .premium-partners .partner > a > img {
-  width: 250px;
+  width: 350px;
 }
 
 .partner:hover {
