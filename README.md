@@ -23,8 +23,8 @@ We use [Bundler](http://bundler.io/) to manage the [Jekyll](http://jekyllrb.com/
 
 * Clone
 ```
-git clone git@github.com:skgtech/devit2016.git
-cd devit2016
+git clone git@github.com:skgtech/devit.git
+cd devit
 ```
 * Install Jekyll and its dependencies
 ```
@@ -74,4 +74,4 @@ Pretty straightforward stuff here, the whole website is under the folder `app/`.
 
 ## License
 
-Copyright ©2015 SKGTech. Licensed under the MIT license.
+Copyright ©2016 SKGTech. Licensed under the MIT license.
