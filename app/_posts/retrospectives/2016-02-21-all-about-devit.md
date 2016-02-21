@@ -24,7 +24,7 @@ Last year lineup was one of our weak points and it has been discussed thoroughly
 
 We offer to pay all the **traveling and accommodation** costs of the speakers except if their company wishes to sponsor any or all of their expenses and in that case we'd gladly add them as **sponsors of the DEVit conference**.
 
-## Hononarium
+## Honorarium
 
 Since we are a **community backed conference** a honorarium is something we can not currently afford. We hope from next year to be able to do that. What we do cover apart from the accommodation and travel expenses, are the **dinner on Thursday night** (May 19th), the **transportation** from/to the airport and a **mini city tour** with a guide (speakers and DEVit staff) that will take place prior to the speakers dinner.
 
