@@ -15,6 +15,10 @@ exclude: ['img', 'css', 'js', 'fonts',
 
 include: ['.htaccess']
 
+analytics:
+  google:
+    tracker: 'UA-41787746-8'
+
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
 show_drafts: true
