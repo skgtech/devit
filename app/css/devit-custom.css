@@ -175,14 +175,12 @@ p.cfp-moto {
     text-align: center;
     padding: 8px 15px;
     border-radius: 5px;
-
-    a {
-        font-weight: 700;
-        color: #fff;
-        margin-left: 10px;
-
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
-    }
+}
+.share-page a {
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+}
+.share-page  a:hover {
+  border-bottom: 1px dashed #fff;
 }
