@@ -19,16 +19,28 @@
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav">
 
-              <li><a href="/#home">Home</a></li>
+            {% if page.url == "/blog/index.html" %}
+              <li><a href="/">Home</a></li>
               <li><a href="/#venue">Venue</a></li>
               <li><a href="/#register">Engage</a></li>
               <li><a href="/#sponsors">Sponsors</a></li>
               <li><a href="/#codeofconduct">Code of Conduct</a></li>
-              {% if page.url == "/" %}
-                <li><a href="/blog">Blog</a></li>
-              {% else  %}
-                <li class="active"><a href="/blog">Blog</a></li>
-              {% endif %}
+              <li class="active" ><a href="/blog">Blog</a></li>
+            {% elsif page.url == "/index.html" %}
+              <li class="active"><a href="/#home">Home</a></li>
+              <li><a href="/#venue">Venue</a></li>
+              <li><a href="/#register">Engage</a></li>
+              <li><a href="/#sponsors">Sponsors</a></li>
+              <li><a href="/#codeofconduct">Code of Conduct</a></li>
+              <li><a href="/blog">Blog</a></li>
+            {% else %}
+              <li><a href="/">Home</a></li>
+              <li><a href="/#venue">Venue</a></li>
+              <li><a href="/#register">Engage</a></li>
+              <li><a href="/#sponsors">Sponsors</a></li>
+              <li><a href="/#codeofconduct">Code of Conduct</a></li>
+              <li><a href="/blog">Blog</a></li>
+            {% endif %}
               <li><a href="/2015/" class="previous">DEVit 2015</a></li>
           </ul>
         </div>
