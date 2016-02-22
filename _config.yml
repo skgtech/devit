@@ -6,6 +6,8 @@
 name: devit
 description: The Devit conference
 
+permalink: /:categories/:title
+
 authors:
   thanpolas:
     name: Thanasis Polychronakis
