@@ -101,8 +101,12 @@
   background-color: #2daae1;
 }
 
-.early-bird-label {
-  /*text-decoration: line-through ;*/
+h3.sold-out {
+  text-decoration: line-through ;
+}
+a.buy-ticket.sold-out {
+  opacity: 0.5;
+  cursor: default;
 }
 
 .hotel-row {
