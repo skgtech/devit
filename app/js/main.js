@@ -272,14 +272,6 @@
       // Placeholders
       $('input, textarea').placeholder();
 
-      // Speakers
-      $(function () {
-        var speaker = $(".speaker");
-        speaker.hover(function () {
-          $(this).toggleClass("active");
-        });
-      });
-
     }
 
   };
