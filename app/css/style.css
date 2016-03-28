@@ -766,7 +766,7 @@ Speakers
 .speaker-contacts {
   display: table;
   table-layout: fixed;
-  position: absolute;
+  position: !absolute;
   bottom: 50px;
   width: 100%;
   margin: 0;
@@ -815,8 +815,7 @@ Speakers
   z-index: 10;
 }
 
-.speaker.active .speaker-info { margin-bottom: 50px; margin-top: -50px; }
-.speaker.active .speaker-contacts { bottom: 0; }
+
 
 
 
