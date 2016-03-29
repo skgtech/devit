@@ -188,3 +188,7 @@ p.cfp-moto {
 .share-page  a:hover {
   border-bottom: 1px dashed #fff;
 }
+.press-photos {
+  text-align: center;
+  padding: 15px;
+}
