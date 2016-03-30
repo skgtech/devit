@@ -189,6 +189,7 @@ textarea:focus, input:focus{
 
 /*-- Buttons --*/
 .button {
+  text-align: center;
   position: relative;
   margin: 0 0 1.5rem 0;
   padding: 1.5rem 4rem;
