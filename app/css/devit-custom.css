@@ -148,6 +148,7 @@ a.button.sold-out:hover {
 }
 
 .btn-action {
+  display: inline-block;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #6aa7cf;
