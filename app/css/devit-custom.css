@@ -192,4 +192,7 @@ a.button.sold-out:hover {
     line-height: 26px;
     font-size: 14px;
   }
+  .navbar-custom .navbar-nav > li > a {
+        padding: 3rem 0.8rem;
+  }
 }
