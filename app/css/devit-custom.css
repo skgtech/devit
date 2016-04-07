@@ -186,3 +186,10 @@ a.button.sold-out:hover {
   text-align: center;
   padding: 15px;
 }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .speaker-info p {
+    line-height: 26px;
+    font-size: 14px;
+  }
+}
