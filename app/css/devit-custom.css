@@ -196,3 +196,19 @@ a.button.sold-out:hover {
         padding: 3rem 0.8rem;
   }
 }
+
+#slack-invite div.label {
+    text-align: center;
+    white-space: nowrap;
+    line-height: 60px;
+}
+#slack-invite div.label img {
+    width: 40px;
+}
+#slack-invite div.label label {
+    font-size: 18px;
+    padding-left: 10px;
+}
+#slack-invite button {
+    width: 100%;
+}
