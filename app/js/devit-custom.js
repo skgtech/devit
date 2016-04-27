@@ -8,6 +8,7 @@
     init: function () {
       devit.getSocialCounts();
       devit.setCurrentYear();
+      devit.initSlack();
     },
 
     getSocialCounts: function () {
@@ -41,6 +42,15 @@
     setCurrentYear: function () {
       var currentYear = new Date().getFullYear();
       $('.js-current-year').text(currentYear);
+    },
+
+    initSlack : function(){
+        var slackApp = new Slack();
+        slackApp.init({
+          email_container: '.slack-subscribe-email',
+          cta: '.slack-subscribe-button',
+          form: '.slack-form'
+        });
     }
   };
 
