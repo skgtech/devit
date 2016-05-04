@@ -194,6 +194,7 @@ a.button.sold-out:hover {
   }
   .navbar-custom .navbar-nav > li > a {
         padding: 3rem 0.8rem;
+        font-size: 1.4rem;
   }
 }
 
