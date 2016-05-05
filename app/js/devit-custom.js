@@ -138,7 +138,7 @@
 
 
   $('.after-party-venue').on('click', function(){
-    window.location.href = 'https://www.facebook.com/pages/Cantina-Tropicana/228214083888307';
+    window.location.href = $(this).data('href');
   });
 
 })(jQuery);
