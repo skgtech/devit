@@ -60,6 +60,18 @@
       $("#coc-full").slideToggle();
       return false;
     });
+
+    $(window).on('hashchange', function() {
+      switch (window.location.hash) {
+        case  "#endor":
+        case  "#caprica":
+        case  "#workshops":
+          $('a[href="'+window.location.hash+'"]').trigger("click");
+          document.getElementById("sessions").scrollIntoView(true);
+        break;
+      }
+    });
+    $(window).trigger('hashchange');
   });
 
 
