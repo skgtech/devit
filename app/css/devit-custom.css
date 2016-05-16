@@ -242,3 +242,15 @@ a.button.sold-out:hover {
     background-color: #f2dede;
     border-color: #ebccd1;
 }
+@media (min-width: 992px) {
+  .venue-map {
+    padding-right: 0px;
+    float: left;
+  }
+  #venue .venue-info {
+    float: right;
+  }
+  .party-map {
+    padding-left: 0px;
+  }
+}

@@ -2,8 +2,7 @@
   "use strict";
 
   var venueAddress = '40.6256606,22.9546541',
-    luxembourgHotelAddress = "Komninon 6, 546 24 Thessaloniki Greece",
-    metropolitanHotelAddress = "65, Vas. Olga's Avenue & Fleming , 546 42 Thessaloniki";
+    afterPartyAddress = "Leoforos 3hs Septemvriou & Gr. Lampraki, Thessaloniki, 546 36";
 
   var fn = {
 
@@ -41,6 +40,23 @@
           },
           marker: {
             address: venueAddress
+          }
+        },
+        "autofit");
+
+      $("#map-canvas-after-party").gmap3({
+          map: {
+            options: {
+              maxZoom: 16,
+              streetViewControl: true,
+              panControl: false,
+              zoomControl: true,
+              scrollwheel: false,
+              mapTypeControl: false
+            }
+          },
+          marker: {
+            address: afterPartyAddress
           }
         },
         "autofit");
