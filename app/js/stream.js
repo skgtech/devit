@@ -130,6 +130,6 @@
       updateTwitterFeed();
       updateInstagramFeed()
 
-    }, 5000);
+    }, 15000);
 
 })(jQuery);
