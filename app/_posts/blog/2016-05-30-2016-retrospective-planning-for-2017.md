@@ -18,21 +18,21 @@ We know we messed a few things up, I'll get to them one by one in a bit, but wha
 
 ## Your feedback
 
-As I said before we did mess a few things up... At registration we definitely dropped the ball, at our retrospective meeting we dived deep into all the various reasons why this happened, they were a lot and we had to deal with multiple failures even with some of our contingency plans. Be rest assured that we didn't take this lightly, we have already devised a new game plan and will work hard towards making the registration process as fast and seamless as possible.
+As I said before we did mess a few things up... At registration we definitely dropped the ball, at our retrospective meeting we dived deep into all the various reasons why this happened, they were a lot and we had to deal with multiple failures even on some of our contingency plans. Be rest assured that we didn't take this lightly, we have already devised a new game plan and will work hard towards making the registration process as fast and seamless as possible.
 
 We also know that most of you didn't get too excited with the talks we had... We hear you loud and clear and we'll make sure to have an even more strict vetting process for next year's speakers. We will leverage our, now even bigger, network of communities throughout Greece, speakers from the two previous DEVits and pick up every stone we can turn so we can book and verify the best and most challenging speakers for DEVit 2017.
 
-Other than those 2 major fails we have made over 50 bullet points on things that we should be improving, tweaking and fixing. You see, DEVit is a community organized event, everything that you see about DEVit comes out of our free time. However this community is not comprised by hobbyists, we are professionals with decades of experience in project management, web development, design, marketing and all the arts, crafts and sciences that can make this work. Combine that with our excess amounts of OCD and perfectionism and you can be rest assured that you are up for a big treat for 2017.
+Other than those 2 major fails we have made over 50 bullet points on things that we should be improving, tweaking and fixing. You see, DEVit is a community organized event and everything that you see about DEVit comes out of our free time. However this community is not comprised by hobbyists, we are professionals with decades of experience in project management, web development, design, marketing and all the arts, crafts and sciences that can make this work. Combine that with our excess amounts of OCD and perfectionism and you can be rest assured that you are up for a big treat for 2017.
 
 ## Looking ahead, 2017 here we come!
 
-One of the problems of DEVit 2016 was that we started planning too late, we only really got started in January 2016, barely 5 months before the event. That amount of time was ridiculously small considering everything that happens for DEVit happens at our free time... That will no longer be the case...
+One of the problems of DEVit 2016 was that we started planning too late, we practically got started mid January 2016, barely 4 months before the event. That amount of time was ridiculously small considering everything that happens for DEVit happens at our free time... That will no longer be the case...
 
 We have decided on the dates of DEVit for the next three years and have started planning for all of them from now, right the next day when DEVit 2016 finished.
 
 DEVit 2015 was an experiment, we didn't have any historical data, there was no other technological event of that scale organized anywhere in Greece, we had never organized such a big scale event before... We came through...
 
-DEVit 2016 was verification, we made sure that the numbers observed in 2015 were not a fluk and we could reliably verify them, attendees, sponsors, ticket price, venue, catering, all the major and minor parts that comprise a conference of that scale.
+DEVit 2016 was verification. We made sure that the numbers observed in 2015 were not a fluk and we could reliably verify them, attendees, sponsors, ticket price, venue, catering, all the major and minor parts that comprise a conference of that scale.
 
 DEVit 2017 will be all about scaling! Oh boy what do we have in store for you...
 
@@ -40,7 +40,8 @@ DEVit 2017 will be all about scaling! Oh boy what do we have in store for you...
 
 Oh yes, we're becoming a two day conference, holding the main event with 2 tracks on Saturday 20th of May and a full day of workshops on Sunday the 21st. We were amazed by your interest in workshops, challenging workshops, and how much you valued them. So we're dedicating a full day for workshops in a multi-stage environment, hosting everything from full-day workshops down to 3, 2, or 1 hour sessions; whatever and as much time the presenter will need to convey their experience to you.
 
-A two day conference will require a conference dedicated hotel as well, so we've already gotten started to book a whole hotel for the days of the conference so all you coming from out of town can stay along with your peers and speakers in where the DEVit's heart will beat.
+A two day conference will require a conference dedicated hotel as well, 
+so we have already started making the arrangements to fully book a hotel for the days of the conference so all of you coming from out of town can stay along with your peers and speakers where the DEVit's heart will beat.
 
 ### The DEVit Week
 
