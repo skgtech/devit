@@ -6,7 +6,7 @@ metaTitle: DEVit 2016 Retrospective, planning for the future
 metaDescription: In this article we go through the DEVit 2016 big moments, fails and all the excitement we experienced, and then we get a sneak peak into what 2017 has in hold for us.
 category : blog
 tags : [retrospective, devit2016, devit2017]
-author: Thanasis Polychronakis
+author: thanpolas
 ---
 
 
