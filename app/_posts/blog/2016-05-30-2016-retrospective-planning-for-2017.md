@@ -69,7 +69,7 @@ The teams behind the people are [SKGTech](http://skgtech.io) and [SHESHARP](http
 
 ## How you can help
 
-Like we said so many times, DEVit is a community organized event, you, me, everyone is the community! We do not have any entry procedures, the only thing you have to do is raise your hand and say "I want to help". You can then pick your working group based on your experience, passion or were you'd want to be trained on, operations, web design & development, corporate, sponsors, speakers, administration... DEVit has so many departments that you'll definitely find a fit.
+Like we said so many times, DEVit is a community organized event, you, me, everyone is the community! We do not have any entry procedures, the only thing you have to do is raise your hand and say "I want to help". You can then pick your working group based on your experience, passion or were you'd want to be trained on, operations, web design & development, corporate, sponsors, speakers, administration... We are looking for any kind of experience, from students up to established professionals to take the lead (hello marketing!). DEVit has so many departments that you'll definitely find a fit.
 
 So don't think this twice, hop in our [slack channel](http://devitconf.org/#slack-invite), [shoot us an email](mailto:info@devitconf.org) or just [wave at us on twitter](https://twitter.com/devitconf) and let's make history together.
 
