@@ -46,7 +46,7 @@ A two day conference will require a conference dedicated hotel as well, so we've
 
 DEVit is big, it's so big it needs it's own whole week of events, festivities and rock'n'roll! DEVit 2017 will start from the previous week with unique events organized by the local communities, accompanied by our international speakers who we will host for all of those days so they can imprint and share their experiences in the more intimate settings of small local meetups.
 
-We will also make sure there's enough parties, alcohol and fun so you can all claim that you lived through the DEVit experience and proudly survived! It won't be easy, beware!
+We will also make sure there's enough parties, drinks and fun so you can all claim that you lived through the DEVit experience and "proudly survived"! It won't be easy, beware!
 
 ### Opening up
 
