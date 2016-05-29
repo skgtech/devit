@@ -16,7 +16,7 @@ Oh what a blast DEVit 2016 was! No matter how exhausted we were we could not sto
 
 We know we messed a few things up, I'll get to them one by one in a bit, but what prevailed in the end was our amazing attitude, passion and determination to have a good time. Your amazing vibes gave us all the motivation we needed to continue with DEVit, scale it up and bring you an even more amazing experience.
 
-## Your feedback, the bad staff
+## Your feedback
 
 As I said before we did mess a few things up... At registration we definitely dropped the ball, at our retrospective meeting we dived deep into all the various reasons why this happened, they were a lot and we had to deal with multiple failures even with some of our contingency plans. Be rest assured that we didn't take this lightly, we have already devised a new game plan and will work hard towards making the registration process as fast and seamless as possible.
 
