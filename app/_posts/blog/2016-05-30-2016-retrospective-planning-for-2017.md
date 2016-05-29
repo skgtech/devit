@@ -12,7 +12,7 @@ author: thanpolas
 
 ## DEVit 2016 is over!
 
-Oh what a blast DEVit 2016 was! No matter how exhausted we were we could not stop the rush of endorphins that flooded our bodies for days after. You see, we, and by 'we' I'm referring to everyone that was at DEVit, managed to make a difference, we participated in making history for our community, for our country. We have successfully positioned Greece in the global landscape of international conferences, helped make DEVit a sustainable yearly conference and had such an amazing time!
+Oh what a blast DEVit 2016 was! No matter how exhausted we were we could not stop the rush of endorphins that flooded our bodies for days after. You see, we, and by 'we' I'm referring to everyone that was at DEVit, managed to make a difference, we participated in making history for our community, for our country. We have successfully [positioned Greece in the global landscape of international conferences](http://www.attheo.do/2016/05/14/How-Greece-Came-To-Make-It-To-Software-Development-Conferences-Map/), helped make DEVit a sustainable yearly conference and had such an amazing time!
 
 We know we messed a few things up, I'll get to them one by one in a bit, but what prevailed in the end was our amazing attitude, passion and determination to have a good time. Your amazing vibes gave us all the motivation we needed to continue on with DEVit, scale it and present you with an even more amazing experience.
 
