@@ -26,7 +26,7 @@ Other than those 2 major fails we have made over 50 bullet points on things that
 
 ### The good parts
 
-Enough with the ugly, let's dive into the good parts! First of we got bigger, this year we had more attendees, in total 420 people were at the conference compared to 350 for DEVit 2015! We managed to get top notch sponsors as well that honored us with their support and made such a demanding conference possible. Effectively bringing awareness to the fact that there is a tech community out there, active, strong, united.
+Enough with the ugly, let's dive into the good parts! First of all, we got bigger, this year we had more attendees, in total 420 people were at the conference compared to 350 for DEVit 2015! We managed to get top notch sponsors as well that honored us with their support and made such a demanding conference possible. Effectively bringing awareness to the fact that there is a tech community out there, active, strong, united.
 
 The networking was immense as well, having the most educated, passionate and curious developers in one place in big quantities gives ground for new friendships, partnerships and deals. Our speakers were extremely satisfied with the organization and will actively help us spread the word for DEVit and connecting us with even more world class speakers.
 
