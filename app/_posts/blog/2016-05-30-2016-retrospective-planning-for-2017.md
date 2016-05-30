@@ -24,6 +24,14 @@ We also know that most of you didn't get too excited with the talks we had... We
 
 Other than those 2 major fails we have made over 50 bullet points on things that we should be improving, tweaking and fixing. You see, DEVit is a community organized event and everything that you see about DEVit comes out of our free time. However this community is not comprised by hobbyists, we are professionals with decades of experience in project management, web development, design, marketing and all the arts, crafts and sciences that can make this work. Combine that with our excess amounts of OCD and perfectionism and you can be rest assured that you are up for a big treat for 2017.
 
+### The good parts
+
+Enough with the ugly, let's dive into the good parts! First of we got bigger, this year we had more attendees, in total 420 people were at the conference compared to 350 for DEVit 2015! We managed to get top notch sponsors as well that honored us with their support and made such a demanding conference possible. Effectively bringing awareness to the fact that there is a tech community out there, active, strong, united.
+
+The networking was immense as well, having the most educated, passionate and curious developers in one place in big quantities gives ground for new friendships, partnerships and deals. Our speakers were extremely satisfied with the organization and will actively help us by evangelizing for DEVit and connecting us with even more world class speakers.
+
+
+
 ## Looking ahead, 2017 here we come!
 
 One of the problems of DEVit 2016 was that we started planning too late, we practically got started mid January 2016, barely 4 months before the event. That amount of time was ridiculously small considering everything that happens for DEVit happens at our free time... That will no longer be the case...
