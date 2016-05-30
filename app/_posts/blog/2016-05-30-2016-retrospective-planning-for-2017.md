@@ -53,7 +53,7 @@ We will also make sure there are enough parties, drinks and fun so you can all c
 
 Open source is strong within us, as such, that's how we want DEVit to be. We want to share our knowledge, experience, know-how and most importantly numbers so you can pick it up and create an international conference of your own! It definitely won't be easy but if you know the average cost of an attendee or how much catering will cost you, we're confident you'll be one step ahead.
 
-So in the following weeks and months, we'll be releasing all our financial numbers, profit (thankfully we didn't loose any money) and how we plan on using it for next year's DEVit conferences... So aspired community leaders and conference organizers stay tuned as we'll open up everything...
+So in the following weeks and months, we'll be releasing all our financial numbers, profit (thankfully we didn't lose any money) and how we plan on using it for next year's DEVit conferences... So aspired community leaders and conference organizers stay tuned as we'll open up everything...
 
 ### New administration
 
