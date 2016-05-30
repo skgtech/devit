@@ -28,9 +28,11 @@ Other than those 2 major fails we have made over 50 bullet points on things that
 
 Enough with the ugly, let's dive into the good parts! First of we got bigger, this year we had more attendees, in total 420 people were at the conference compared to 350 for DEVit 2015! We managed to get top notch sponsors as well that honored us with their support and made such a demanding conference possible. Effectively bringing awareness to the fact that there is a tech community out there, active, strong, united.
 
-The networking was immense as well, having the most educated, passionate and curious developers in one place in big quantities gives ground for new friendships, partnerships and deals. Our speakers were extremely satisfied with the organization and will actively help us by evangelizing for DEVit and connecting us with even more world class speakers.
+The networking was immense as well, having the most educated, passionate and curious developers in one place in big quantities gives ground for new friendships, partnerships and deals. Our speakers were extremely satisfied with the organization and will actively help us spread the word for DEVit and connecting us with even more world class speakers.
 
+You got really excited with our workshops, we tried them as an experiment but didn't expect the kind of participation and interest you would show! This gave us a lot of ideas for what to prepare for you next year, but more on that in a little bit... 
 
+Finally, I'd like to close by thanking all the volunteers that made this year's DEVit a reality, the amazing [SHESHARP](http://www.shesharp.org/) team was integral to making things happen to the point were they are now co-organizers of the event! The awesome folks from SKGTech and everyone else that helped us this year, credits page coming soon, promise!
 
 ## Looking ahead, 2017 here we come!
 
