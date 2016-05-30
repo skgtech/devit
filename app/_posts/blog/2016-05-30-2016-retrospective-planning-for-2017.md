@@ -45,15 +45,15 @@ so we have already started making the arrangements to fully book a hotel for the
 
 ### The DEVit Week
 
-DEVit is big, it's so big it needs it's own whole week of events, festivities and rock'n'roll! DEVit 2017 will start from the previous week with unique events organized by the local communities, accompanied by our international speakers who we will host for all of those days so they can imprint and share their experiences in the more intimate settings of small local meetups.
+DEVit has grown big, it's so big it needs it's own whole week of events, festivities and rock'n'roll! DEVit 2017 will start from the previous week with unique events organized by local communities, accompanied by our international speakers who will stay with us all week so they can imprint and share their experiences in the more intimate environment of small local meetups.
 
-We will also make sure there's enough parties, drinks and fun so you can all claim that you lived through the DEVit experience and "proudly survived"! It won't be easy, beware!
+We will also make sure there are enough parties, drinks and fun so you can all claim that you lived through the DEVit experience and "proudly survived"! It won't be easy, beware!
 
 ### Opening up
 
 Open source is strong within us, as such, that's how we want DEVit to be. We want to share our knowledge, experience, know-how and most importantly numbers so you can pick it up and create an international conference of your own! It definitely won't be easy but if you know the average cost of an attendee or how much catering will cost you, we're confident you'll be one step ahead.
 
-So in the following weeks and months, we'll be releasing all our financial numbers, profit (thankfully we barely made a profit) and how we plan on using it for next year's DEVit conferences... So aspired community leaders and conference organizers stay tuned as we'll open up everything...
+So in the following weeks and months, we'll be releasing all our financial numbers, profit (thankfully we didn't loose any money) and how we plan on using it for next year's DEVit conferences... So aspired community leaders and conference organizers stay tuned as we'll open up everything...
 
 ### New administration
 
@@ -69,7 +69,7 @@ The teams behind the people are [SKGTech](http://skgtech.io) and [SHESHARP](http
 
 ## How you can help
 
-Like we said so many times, DEVit is a community organized event, you, me, everyone is the community! We do not have any entry procedures, the only thing you have to do is raise your hand and say "I want to help". You can then pick your working group based on your experience, passion or were you'd want to be trained on, operations, web design & development, corporate, sponsors, speakers, administration... We are looking for any kind of experience, from students up to established professionals to take the lead (hello marketing!). DEVit has so many departments that you'll definitely find a fit.
+Like we said, DEVit is a community organized event, you, me, everyone is the community! We do not have any entry procedures, the only thing you have to do is raise your hand and say "I want to help". You can then pick your working group based on your experience, passion or were you'd want to be trained on, operations, web design & development, corporate, sponsors, speakers, administration... We are looking for any kind of experience, from students up to established professionals to take the lead (hello marketing!). DEVit has so many departments that you'll definitely find a fit.
 
 So don't think this twice, hop in our [slack channel](http://devitconf.org/#slack-invite), [shoot us an email](mailto:info@devitconf.org) or just [wave at us on twitter](https://twitter.com/devitconf) and let's make history together.
 
