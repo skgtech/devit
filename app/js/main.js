@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  var venueAddress = '40.6256606,22.9546541',
+  var venueAddress = '40.6252233,22.9495758',
     afterPartyAddress = "Leoforos 3hs Septemvriou & Gr. Lampraki, Thessaloniki, 546 36";
 
   var fn = {
@@ -11,10 +11,8 @@
       fn.GoogleMaps();
       fn.MainSliderAlign();
       fn.MainSlider();
-      //fn.Stellar();
       fn.Navigation();
       fn.Carousel();
-      //fn.Slider();
       fn.Menu();
       fn.Wow();
       fn.StickyMenu();
@@ -96,19 +94,6 @@
       });
     },
 
-
-    // Stellar
-    Stellar: function () {
-      if (!(navigator.userAgent.match(/iPhone|iPad|iPod|Android|BlackBerry|IEMobile/i))) {
-        $.stellar({
-          horizontalScrolling: false,
-          positionProperty: 'transform',
-          hideDistantElements: false
-        });
-      }
-    },
-
-
     // One Page Navigation
     Navigation: function () {
       $('#navigation').onePageNav({
@@ -140,22 +125,6 @@
       });
     },
 
-
-    // Slider
-    Slider: function () {
-      var owl = $("#slider");
-
-      owl.owlCarousel({
-        theme: "slider",
-        navigation: true,
-        pagination: false,
-        singleItem: true,
-        slideSpeed: 400,
-        mouseDrag: false
-      });
-    },
-
-
     // Menu
     Menu: function () {
       var menuToggle = $("#menu-toggle");
@@ -169,20 +138,6 @@
       });
 
     },
-
-
-    // Wow
-    Wow: function () {
-      var wow = new WOW(
-        {
-          boxClass: 'wow',
-          offset: 0,
-          mobile: false
-        }
-      );
-      wow.init();
-    },
-
 
     // Sticky Menu
     StickyMenu: function () {

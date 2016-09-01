@@ -2,6 +2,10 @@
   background: none;
 }
 
+.header {
+  height: 450px;
+}
+
 .header-background-hide {
   right: 10000px;
 }
