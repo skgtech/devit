@@ -105,26 +105,6 @@
       });
     },
 
-
-    // Carousel
-    Carousel: function () {
-      var owl = $("#carousel");
-
-      owl.owlCarousel({
-        theme: "carousel",
-        navigation: true,
-        pagination: false,
-        itemsCustom: [
-          [970, 1],
-          [768, 2],
-          [240, 1]
-        ],
-        slideSpeed: 400,
-        autoPlay: 4000,
-        mouseDrag: false
-      });
-    },
-
     // Menu
     Menu: function () {
       var menuToggle = $("#menu-toggle");
