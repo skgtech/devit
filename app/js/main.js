@@ -12,9 +12,7 @@
       fn.MainSliderAlign();
       fn.MainSlider();
       fn.Navigation();
-      fn.Carousel();
       fn.Menu();
-      fn.Wow();
       fn.StickyMenu();
       fn.RegisterForm();
       fn.SubscribeForm();
@@ -214,11 +212,9 @@
 
     // Apps
     Apps: function () {
-      // Fancy Select
-      $('select').fancySelect();
 
       // Accordion
-      $('.accordion').accordion();
+      // $('.accordion').accordion();
 
       // Placeholders
       $('input, textarea').placeholder();
