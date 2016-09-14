@@ -63,6 +63,23 @@
   color: #18467D;
 }
 
+@media (max-width: 768px) {
+  .footer-menu li:before {
+    padding-left: 0;
+    text-indent: 0;
+  }
+
+  .footer-menu li:before {
+    content: "";
+  }
+
+  .footer-menu li a {
+    display: block;
+    padding: 5px;
+    width: 100%;
+  }
+}
+
 .followit-ribbon {
   background: url(/images/Followit.svg) no-repeat right top;
   background-size: contain;
