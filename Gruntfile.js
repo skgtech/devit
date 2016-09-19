@@ -262,7 +262,8 @@ module.exports = function (grunt) {
             '_bower_components/jquery/jquery.js',
             'favicon.ico',
             'apple-touch*.png',
-            '2015/**/*'
+            '2015/**/*',
+            '2016/**/*'
           ],
           dest: '<%= yeoman.dist %>'
         }]
