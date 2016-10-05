@@ -1,27 +1,28 @@
 (function($){
-  "use strict";
+  'use strict';
 
-  var url = "http://devitconf.org/";
+  var url = 'http://devitconf.org/';
 
   var devit = {
 
     init: function () {
       devit.getSocialCounts();
       devit.setCurrentYear();
+      devit.initSlack();
     },
 
     getSocialCounts: function () {
       $.getJSON(
-        "http://urls.api.twitter.com/1/urls/count.json?url=" + url + "&callback=?",
+        'http://public.newsharecounts.com/count.json?url=' + url + '&callback=?',
         function (json) {
           $('.js-tw-count').text(devit.siAbbrevCount(json.count));
         }
       );
 
       $.getJSON(
-        "http://graph.facebook.com/" + url,
+        'http://graph.facebook.com/' + url,
         function (json) {
-          $('.js-fb-count').text(devit.siAbbrevCount(json.shares));
+          $('.js-fb-count').text(devit.siAbbrevCount(json.share.share_count));
         }
       );
     },
@@ -41,30 +42,45 @@
     setCurrentYear: function () {
       var currentYear = new Date().getFullYear();
       $('.js-current-year').text(currentYear);
+    },
+
+    initSlack : function(){
+        var slackApp = new Slack();
+        slackApp.init({
+          email_container: '.slack-subscribe-email',
+          cta: '.slack-subscribe-button',
+          form: '.slack-form'
+        });
     }
   };
 
   $(document).ready(function () {
     devit.init();
+    $('#coc-full-toggle').on('click', function() {
+      $('#coc-full').slideToggle();
+      return false;
+    });
+
+    $(window).on('hashchange', function() {
+      switch (window.location.hash) {
+        case  '#endor':
+        case  '#caprica':
+        case  '#workshops':
+          $('a[href="'+window.location.hash+'"]').trigger("click");
+          document.getElementById("sessions").scrollIntoView(true);
+        break;
+      }
+    });
+    $(window).trigger('hashchange');
   });
 
-
-
-  //
-  //
-  // Signup Form
-  //
-  //
   var newsletter = {};
-  // mailchimp code
   newsletter.mceInit = function() {
     var options = {
       url: 'http://check-connectivity.us2.list-manage.com/subscribe/post-json?u=249dbe460c3c1857a489dde05&amp;id=faa2000c02&c=?',
-      // url: 'http://netscan.us2.list-manage2.com/subscribe/post',
       type: 'GET',
       dataType: 'json',
       contentType: 'application/json; charset=utf-8'
-
     };
 
     $('.mc-embed-signup form').submit(function(ev){
@@ -86,7 +102,6 @@
 
   newsletter.mceSuccess = function(resp) {
     if (resp.result === 'success'){
-      // Show thank
       $('.mc-embed-signup').hide();
       $('.thankyou').removeClass('hide');
       ga('send', 'pageview', {
@@ -124,7 +139,7 @@
 
 
   $('.after-party-venue').on('click', function(){
-    window.location.href = 'https://www.facebook.com/pages/Cantina-Tropicana/228214083888307';
+    window.location.href = $(this).data('href');
   });
 
 })(jQuery);

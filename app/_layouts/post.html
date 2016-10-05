@@ -1,6 +1,26 @@
 ---
 layout: default
 ---
-<article class="post">
-{{ content }}
-</article>
+{% assign author = site.authors[page.author] %}
+
+{% include blog-header.html %}
+
+{% include navigation.html %}
+
+
+<div class="container content">
+  <!--===============================-->
+  <!--== Post ======================-->
+  <!--===============================-->
+  {% include post.html %}
+  <!--==========-->
+
+  <!--===============================-->
+  <!--== Footer =====================-->
+  <!--===============================-->
+
+  {% include footer.html %}
+
+  <!--==========-->
+
+</div>

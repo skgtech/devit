@@ -3,10 +3,25 @@
 
   $('.accordion, .right-col').height(window.innerHeight - 100);
 
+
+  $(document).ready(function () {
+
+    $('.accordion li').on('click', function () {
+      var c = $(this).index();
+      if(QueryString.current == c) {
+        QueryString.current = -1;
+        clearCurrent();
+      } else {
+        QueryString.current = c;
+        activateCurrent($(this).index());
+      }
+    })
+  });
+
   var feed = new Instafeed({
     clientId: '0bf9acacc332499f98c3c008221b2b9a',
     get: 'tagged',
-    tagName: 'greece',
+    tagName: 'devitconf',
     limit: 30,
     links: false,
     resolution: 'standard_resolution',
@@ -47,11 +62,26 @@
 
   if (QueryString.current) {
     var c = QueryString.current;
+    activateCurrent(QueryString.current);
+  }
+
+  function activateCurrent(c) {
+    clearCurrent();
     var $el = $('.accordion li').eq(c);
 
     $el.addClass('active');
-    $el.find('.schedule-time').text('NOW');
+    var $timeEl = $el.find('.schedule-time');
+    $timeEl.data('time', $timeEl.text());
+    $timeEl.text('NOW');
     $el.prevAll().addClass('past');
+  }
+
+  function clearCurrent() {
+    var $el = $('.accordion li');
+    $el.removeClass('active past');
+    $el.find('.schedule-time').each(function(){
+      $(this).text($(this).data('time'));
+    });
   }
 
   function updateInstagramFeed() {
@@ -66,19 +96,20 @@
 
         var statuses = reply.statuses.slice(0, 4);
 
-        statuses.map(function (i) {
+        $('.twitter-feed').html('');
 
+        statuses.map(function (i) {
           $('.twitter-feed').append(
             $('<li/>')
-              .append(
+            .append(
               $('<div/>')
-                .addClass('twitter-feed-handle')
-                .text('@' + i.user.screen_name)
+              .addClass('twitter-feed-handle')
+              .text('@' + i.user.screen_name)
             )
-              .append(
+            .append(
               $('<div/>')
-                .addClass('twitter-feed-body')
-                .text(i.text)
+              .addClass('twitter-feed-body')
+              .text(i.text)
             )
           );
 
@@ -99,6 +130,6 @@
       updateTwitterFeed();
       updateInstagramFeed()
 
-    }, 5000);
+    }, 15000);
 
 })(jQuery);

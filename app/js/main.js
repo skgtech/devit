@@ -1,9 +1,8 @@
 (function ($) {
   "use strict";
 
-  var venueAddress = "Leoforos Megalou Alexandrou 2, Thessaloniki, 546 40",
-    luxembourgHotelAddress = "Komninon 6, 546 24 Thessaloniki Greece",
-    metropolitanHotelAddress = "65, Vas. Olga's Avenue & Fleming , 546 42 Thessaloniki";
+  var venueAddress = '40.6252233,22.9495758',
+    afterPartyAddress = "Leoforos 3hs Septemvriou & Gr. Lampraki, Thessaloniki, 546 36";
 
   var fn = {
 
@@ -12,12 +11,8 @@
       fn.GoogleMaps();
       fn.MainSliderAlign();
       fn.MainSlider();
-      fn.Stellar();
       fn.Navigation();
-      fn.Carousel();
-      fn.Slider();
       fn.Menu();
-      fn.Wow();
       fn.StickyMenu();
       fn.RegisterForm();
       fn.SubscribeForm();
@@ -31,56 +26,33 @@
       $("#map-canvas").gmap3({
           map: {
             options: {
-              maxZoom: 15,
-              streetViewControl: false,
+              maxZoom: 16,
+              streetViewControl: true,
               panControl: false,
               zoomControl: true,
               scrollwheel: false,
               mapTypeControl: false
-
             }
           },
           marker: {
-            address: venueAddress,
-            options: {icon: "images/pin.png"}
+            address: venueAddress
           }
         },
         "autofit");
 
-      $("#luxembourgHotel").gmap3({
+      $("#map-canvas-after-party").gmap3({
           map: {
             options: {
-              maxZoom: 15,
-              streetViewControl: false,
+              maxZoom: 16,
+              streetViewControl: true,
               panControl: false,
               zoomControl: true,
               scrollwheel: false,
               mapTypeControl: false
-
             }
           },
           marker: {
-            address: luxembourgHotelAddress,
-            options: {icon: "images/pin.png"}
-          }
-        },
-        "autofit");
-
-      $("#metropolitanHotel").gmap3({
-          map: {
-            options: {
-              maxZoom: 15,
-              streetViewControl: false,
-              panControl: false,
-              zoomControl: true,
-              scrollwheel: false,
-              mapTypeControl: false
-
-            }
-          },
-          marker: {
-            address: metropolitanHotelAddress,
-            options: {icon: "images/pin.png"}
+            address: afterPartyAddress
           }
         },
         "autofit");
@@ -120,19 +92,6 @@
       });
     },
 
-
-    // Stellar
-    Stellar: function () {
-      if (!(navigator.userAgent.match(/iPhone|iPad|iPod|Android|BlackBerry|IEMobile/i))) {
-        $.stellar({
-          horizontalScrolling: false,
-          positionProperty: 'transform',
-          hideDistantElements: false
-        });
-      }
-    },
-
-
     // One Page Navigation
     Navigation: function () {
       $('#navigation').onePageNav({
@@ -143,42 +102,6 @@
         easing: 'swing'
       });
     },
-
-
-    // Carousel
-    Carousel: function () {
-      var owl = $("#carousel");
-
-      owl.owlCarousel({
-        theme: "carousel",
-        navigation: true,
-        pagination: false,
-        itemsCustom: [
-          [970, 1],
-          [768, 2],
-          [240, 1]
-        ],
-        slideSpeed: 400,
-        autoPlay: 4000,
-        mouseDrag: false
-      });
-    },
-
-
-    // Slider
-    Slider: function () {
-      var owl = $("#slider");
-
-      owl.owlCarousel({
-        theme: "slider",
-        navigation: true,
-        pagination: false,
-        singleItem: true,
-        slideSpeed: 400,
-        mouseDrag: false
-      });
-    },
-
 
     // Menu
     Menu: function () {
@@ -193,20 +116,6 @@
       });
 
     },
-
-
-    // Wow
-    Wow: function () {
-      var wow = new WOW(
-        {
-          boxClass: 'wow',
-          offset: 0,
-          mobile: false
-        }
-      );
-      wow.init();
-    },
-
 
     // Sticky Menu
     StickyMenu: function () {
@@ -303,22 +212,12 @@
 
     // Apps
     Apps: function () {
-      // Fancy Select
-      $('select').fancySelect();
 
       // Accordion
-      $('.accordion').accordion();
+      // $('.accordion').accordion();
 
       // Placeholders
       $('input, textarea').placeholder();
-
-      // Speakers
-      $(function () {
-        var speaker = $(".speaker");
-        speaker.hover(function () {
-          $(this).toggleClass("active");
-        });
-      });
 
     }
 

@@ -1,0 +1,29 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="/_bower_components/jquery.js"><\/script>')</script>
+
+<!-- build:js(app) /js/single-script.js -->
+<script src="/js/bootstrap.min.js"></script>
+<!-- endbuild -->
+<script>
+var setCardHeight = function () {
+  var max = 0;
+  var speakers = $($('.row')[1]).find('> div');
+
+  speakers.each(function (i, speaker) {
+    var check = $(speaker).height() > max;
+    if (check) {
+      max = $(speaker).height();
+    }
+  });
+
+  speakers
+    .height(max)
+    .css('margin-bottom', '3rem')
+    .find('.speaker').css('height', '100%');
+};
+
+  $(function () {
+    setCardHeight();
+  });
+</script>

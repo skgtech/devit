@@ -37,6 +37,9 @@
 	.schedule-speaker-list { display: none; }
 	.schedule-time { width: 100%; padding-bottom: 0; text-align: left;  }
 
+	/* Speakers */
+	.speaker-info { height: auto; margin-bottom: 0; margin-top: 0; }
+	.speaker-contacts { position: initial; }
 }
 
 @media (max-width: 480px) {
