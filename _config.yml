@@ -51,10 +51,10 @@ defaults:
 
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+# exclude: ['img', 'css', 'js', 'fonts',
+#           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+exclude: ["node_modules", "gulpfile.js", "package.json"]
 
-include: ['.htaccess']
 
 analytics:
   google:
@@ -64,13 +64,7 @@ analytics:
 future: true
 show_drafts: true
 
-# Markdown library
 markdown: kramdown
-#   use_tex:    false
-#   use_divs:   false
-#   png_engine: blahtex
-#   png_dir:    images/latex
-#   png_url:    /images/latex
 
 highlighter: pygments
 
