@@ -2,8 +2,8 @@
 layout: post
 title: "DEVit 2016 Retrospective, planning for the future"
 description: In this article we go through the DEVit 2016 big moments, fails and all the excitement we experienced, and then we get a sneak peak into what 2017 has in hold for us.
-metaTitle: DEVit 2016 Retrospective, planning for the future
-metaDescription: In this article we go through the DEVit 2016 big moments, fails and all the excitement we experienced, and then we get a sneak peak into what 2017 has in hold for us.
+ogTitle: DEVit 2016 Retrospective, planning for the future
+ogDescription: In this article we go through the DEVit 2016 big moments, fails and all the excitement we experienced, and then we get a sneak peak into what 2017 has in hold for us.
 category : blog
 tags : [retrospective, devit2016, devit2017]
 author: thanpolas
@@ -30,7 +30,7 @@ Enough with the ugly, let's dive into the good parts! First of all, we got bigge
 
 The networking was immense as well, having the most educated, passionate and curious developers in one place in big quantities gives ground for new friendships, partnerships and deals. Our speakers were extremely satisfied with the organization and will actively help us spread the word for DEVit and connecting us with even more world class speakers.
 
-You got really excited with our workshops, we tried them as an experiment but didn't expect the kind of participation and interest you would show! This gave us a lot of ideas for what to prepare for you next year, but more on that in a little bit... 
+You got really excited with our workshops, we tried them as an experiment but didn't expect the kind of participation and interest you would show! This gave us a lot of ideas for what to prepare for you next year, but more on that in a little bit...
 
 Finally, I'd like to close by thanking all the volunteers that made this year's DEVit a reality, the amazing [SHESHARP](http://www.shesharp.org/) team was integral to making things happen to the point were they are now co-organizers of the event! The awesome folks from SKGTech and everyone else that helped us this year, credits page coming soon, promise!
 
@@ -50,7 +50,7 @@ DEVit 2017 will be all about scaling! Oh boy what do we have in store for you...
 
 Oh yes, we're becoming a two day conference, holding the main event with 2 tracks on Saturday 20th of May and a full day of workshops on Sunday the 21st. We were amazed by your interest in workshops, challenging workshops, and how much you valued them. So we're dedicating a full day for workshops in a multi-stage environment, hosting everything from full-day workshops down to 3, 2, or 1 hour sessions; whatever and as much time the presenter will need to convey their experience to you.
 
-A two day conference will require a conference dedicated hotel as well, 
+A two day conference will require a conference dedicated hotel as well,
 so we have already started making the arrangements to fully book a hotel for the days of the conference so all of you coming from out of town can stay along with your peers and speakers where the DEVit's heart will beat.
 
 ### The DEVit Week
@@ -82,6 +82,3 @@ The teams behind the people are [SKGTech](http://skgtech.io) and [SHESHARP](http
 Like we said, DEVit is a community organized event, you, me, everyone is the community! We do not have any entry procedures, the only thing you have to do is raise your hand and say "I want to help". You can then pick your working group based on your experience, passion or were you'd want to be trained on, operations, web design & development, corporate, sponsors, speakers, administration... We are looking for any kind of experience, from students up to established professionals to take the lead (hello marketing!). DEVit has so many departments that you'll definitely find a fit.
 
 So don't think this twice, hop in our [slack channel](http://devitconf.org/#slack-invite), [shoot us an email](mailto:info@devitconf.org) or just [wave at us on twitter](https://twitter.com/devitconf) and let's make history together.
-
-
-
