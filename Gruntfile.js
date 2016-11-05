@@ -263,7 +263,8 @@ module.exports = function (grunt) {
             'favicon.ico',
             'apple-touch*.png',
             '2015/**/*',
-            '2016/**/*'
+            '2016/**/*',
+            '2017/**/*'
           ],
           dest: '<%= yeoman.dist %>'
         }]
