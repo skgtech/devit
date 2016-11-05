@@ -2,8 +2,8 @@
 layout: post
 title: "What to expect from DEVit 2017"
 description: Let's steal a glance at what we've been working on for this year's DEVit
-metaTitle: What to expect from DEVit 2017
-metaDescription: Let's steal a glance at what we've been working on for this year's DEVit
+ogTitle: What to expect from DEVit 2017
+ogDescription: Let's steal a glance at what we've been working on for this year's DEVit
 category : blog
 tags : [devit2017, conferences, development]
 author: Amalia
