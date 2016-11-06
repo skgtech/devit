@@ -1,11 +1,14 @@
 window.jQuery = window.$ = require('jquery');
 require('bootstrap-sass/assets/javascripts/bootstrap.min');
+
+require('font-awesome/css/font-awesome.min.css');
+
+require('flexslider/flexslider.css');
 require('flexslider/jquery.flexslider-min');
+
 require('smoothscroll');
-require('jquery-ui/ui/widgets/accordion');
-require('jquery-ui/ui/widgets/placeholder');
+require('jquery-placeholder/jquery.placeholder');
 require('gmap3/dist/gmap3.min');
-// require('main');
 
 $(document).ready(function () {
 
@@ -71,10 +74,5 @@ $(document).ready(function () {
 });
 
 // <script src="/js/jquery.nav.js"></script>
-// <script src="/js/jquery.flexslider-min.js"></script>
-// <script src="/js/jquery.placeholder.js"></script>
-// <script src="/js/jquery.accordion.js"></script>
-// <script src="/js/gmap3.js"></script>
-// <script src="/js/main.js"></script>
 // <script src="/js/slack-invite.js"></script>
 // <script src="/js/devit-custom.js"></script>

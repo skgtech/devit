@@ -21,7 +21,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'jekyll-build', 'webpack',], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -44,6 +44,19 @@ gulp.task('sass', function () {
 gulp.task('webpack', function(done) {
     return gulp.src('js/entry.js')
         .pipe(webpack({
+              module: {
+                loaders: [
+                    {
+                      test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                      loader: "url-loader?limit=10000&mimetype=application/font-woff"
+                    },
+                    { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
+                    {
+                        test: /\.(sass|scss|css)?$/,
+                        loader: 'style!css!sass'
+                    }
+                ],
+            },
             resolve: {
                 modulesDirectories: [
                     path.resolve(__dirname, 'node_modules'),
