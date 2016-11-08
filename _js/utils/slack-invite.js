@@ -16,14 +16,15 @@ Slack.SUBSCRIBE_URL = 'https://wrywguckq5.execute-api.eu-west-1.amazonaws.com/pr
  */
 Slack.prototype.init = function (options) {
 
-  if (!options.email_container) {
+  if (!options.emailContainer) {
     throw 'Must set an input element selector';
   }
+
   if (!options.cta) {
     throw 'Must set a Call to Action element selector';
   }
 
-  this.$emailEl = $(options.email_container);
+  this.$emailEl = $(options.emailContainer);
   this.$ctaEl = $(options.cta);
   this.$formEl = $(options.form);
 
@@ -38,13 +39,13 @@ Slack.prototype.attachEvents = function () {
 
 Slack.prototype.handleFormSubmit = function (e) {
 
-  var that = this;
+  var _this = this;
 
   e.preventDefault();
-  var email = that.$emailEl.val();
-  that.$ctaEl.text(that.$ctaEl.data('loading-text'));
+  var email = _this.$emailEl.val();
+  _this.$ctaEl.text(_this.$ctaEl.data('loading-text'));
 
-  that.subscribe(email, function (err) {
+  _this.subscribe(email, function (err) {
     $('.slack-alert').addClass('hidden');
     if (err) {
       if (err === 'empty-email') {
@@ -57,13 +58,14 @@ Slack.prototype.handleFormSubmit = function (e) {
         $('.slack-form .field').addClass('has-error');
         $('.slack-alert.slack-already-subscribed').removeClass('hidden');
       }
-      that.$ctaEl.text(that.$ctaEl.data('reset-text'));
+
+      _this.$ctaEl.text(_this.$ctaEl.data('reset-text'));
     } else {
       $('.slack-alert.slack-welcome').removeClass('hidden');
-      that.$ctaEl.text(that.$ctaEl.data('complete-text'));
+      _this.$ctaEl.text(_this.$ctaEl.data('complete-text'));
     }
   });
-}
+};
 
 Slack.prototype.subscribe = function (email, cb) {
 
@@ -79,13 +81,13 @@ Slack.prototype.subscribe = function (email, cb) {
       method: 'GET',
       url: Slack.SUBSCRIBE_URL,
       headers: {
-        "x-api-key": Slack.X_API_KEY
+        'x-api-key': Slack.X_API_KEY,
       },
       data: {
-        email: email
-      }
+        email: email,
+      },
     })
-    .success(function (res) {
+    .done(function (res) {
       if (res.error) {
         if (res.error === 'already_in_team') {
           cb('already_in_team');
@@ -98,8 +100,10 @@ Slack.prototype.subscribe = function (email, cb) {
         cb(null);
       }
     })
-    .error(function (err) {
+    .fail(function () {
       cb('err');
     });
 
 };
+
+module.exports = Slack;

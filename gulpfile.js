@@ -3,8 +3,10 @@ const browserSync = require('browser-sync');
 const sass = require('gulp-sass');
 const prefix = require('gulp-autoprefixer');
 const cp = require('child_process');
-const webpack = require('webpack-stream');
+const webpackStream = require('webpack-stream');
+const webpack = require('webpack');
 const path = require('path');
+const fs = require('fs');
 
 const jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 const messages = {
@@ -41,38 +43,57 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'));
 });
 
-gulp.task('webpack', function(done) {
-    return gulp.src('js/entry.js')
-        .pipe(webpack({
-              module: {
-                loaders: [
-                    {
-                      test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-                      loader: "url-loader?limit=10000&mimetype=application/font-woff"
+  files.forEach(a => {
+    entry[a] = a;
+  });
+
+  return gulp.src('_js/entry.js')
+      .pipe(webpackStream({
+            entry: entry,
+            module: {
+              loaders: [
+                  {
+                    test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                    loader: 'url-loader?limit=10000&mimetype=application/font-woff&name=assets/js/[hash].[ext]',
+                  },
+                  {
+                    test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                    loader: 'file-loader?name=assets/js/[hash].[ext]',
+                  },
+                  {
+                      test: /\.(sass|scss)?$/,
+                      loader: 'style!css!sass',
                     },
-                    { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
-                    {
-                        test: /\.(sass|scss|css)?$/,
-                        loader: 'style!css!sass'
-                    }
-                ],
+                  {
+                      test: /\.(css)?$/,
+                      loader: 'style!css',
+                    },
+              ],
             },
             resolve: {
                 modulesDirectories: [
                     path.resolve(__dirname, 'node_modules'),
-                    path.resolve(__dirname, 'js')
+                    path.resolve(__dirname, '_js'),
                 ],
                 root: [
                     path.resolve(__dirname, 'node_modules'),
-                    path.resolve(__dirname, 'js')
-                ]
-            },
+                    path.resolve(__dirname, '_js'),
+                ],
+              },
             output: {
-                filename: '[name].bundle.js',
-            }
-        }))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('_site/js'));
+                path: path.join(__dirname, '_js'),
+                filename: 'assets/js/[name].bundle.js',
+                chunkFilename: 'assets/js/[id].chunk.js',
+              },
+            plugins: [
+              new webpack.optimize.CommonsChunkPlugin({
+                filename: 'assets/js/commons.js',
+                name: 'commons',
+              }),
+            ],
+          }))
+      .pipe(gulp.dest(path.resolve(__dirname, '')))
+      .on('close', done);
 });
 
 gulp.task('watch', function () {

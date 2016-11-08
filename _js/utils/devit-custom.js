@@ -1,5 +1,7 @@
-(function($){
+(function ($) {
   'use strict';
+
+  var Slack = require('./slack-invite.js');
 
   var url = 'http://devitconf.org/';
 
@@ -27,7 +29,7 @@
       );
     },
 
-    siAbbrevCount: function(n) {
+    siAbbrevCount: function (n) {
       var c = parseInt(n);
 
       if (c > 9999 && c <= 999999) {
@@ -44,53 +46,52 @@
       $('.js-current-year').text(currentYear);
     },
 
-    initSlack : function(){
+    initSlack: function () {
         var slackApp = new Slack();
         slackApp.init({
-          email_container: '.slack-subscribe-email',
+          emailContainer: '.slack-subscribe-email',
           cta: '.slack-subscribe-button',
-          form: '.slack-form'
+          form: '.slack-form',
         });
-    }
+      },
   };
 
-  $(document).ready(function () {
-    devit.init();
-    $('#coc-full-toggle').on('click', function() {
-      $('#coc-full').slideToggle();
-      return false;
-    });
-
-    $(window).on('hashchange', function() {
-      switch (window.location.hash) {
-        case  '#endor':
-        case  '#caprica':
-        case  '#workshops':
-          $('a[href="'+window.location.hash+'"]').trigger("click");
-          document.getElementById("sessions").scrollIntoView(true);
-        break;
-      }
-    });
-    $(window).trigger('hashchange');
+  devit.init();
+  $('#coc-full-toggle').on('click', function () {
+    $('#coc-full').slideToggle();
+    return false;
   });
 
+  $(window).on('hashchange', function () {
+    switch (window.location.hash) {
+      case '#endor':
+      case '#caprica':
+      case '#workshops':
+        $('a[href="' + window.location.hash + '"]').trigger('click');
+        document.getElementById('sessions').scrollIntoView(true);
+      break;
+    }
+  });
+
+  $(window).trigger('hashchange');
+
   var newsletter = {};
-  newsletter.mceInit = function() {
+  newsletter.mceInit = function () {
     var options = {
       url: 'http://check-connectivity.us2.list-manage.com/subscribe/post-json?u=249dbe460c3c1857a489dde05&amp;id=faa2000c02&c=?',
       type: 'GET',
       dataType: 'json',
-      contentType: 'application/json; charset=utf-8'
+      contentType: 'application/json; charset=utf-8',
     };
 
-    $('.mc-embed-signup form').submit(function(ev){
+    $('.mc-embed-signup form').submit(function (ev) {
       $('.response').hide();
       ev.preventDefault();
 
       // form position
       var email = this.EMAIL.value;
       options.data = $(this).serialize();
-      options.success = function(resp) {
+      options.success = function (resp) {
         newsletter.mceSuccess(resp, email);
       };
 
@@ -100,13 +101,13 @@
     });
   };
 
-  newsletter.mceSuccess = function(resp) {
-    if (resp.result === 'success'){
+  newsletter.mceSuccess = function (resp) {
+    if (resp.result === 'success') {
       $('.mc-embed-signup').hide();
       $('.thankyou').removeClass('hide');
       ga('send', 'pageview', {
-        'page': '/signup-frontpage',
-        'title': 'User Signup'
+        page: '/signup-frontpage',
+        title: 'User Signup',
       });
       return;
     }
@@ -114,12 +115,12 @@
     var index = -1;
     var msg;
     try {
-      var parts = resp.msg.split(' - ',2);
-      if (parts[1] === undefined){
+      var parts = resp.msg.split(' - ', 2);
+      if (parts[1] === undefined) {
         msg = resp.msg;
       } else {
         var i = parseInt(parts[0], 10);
-        if (i.toString() === parts[0]){
+        if (i.toString() === parts[0]) {
           index = parts[0];
           msg = parts[1];
         } else {
@@ -127,18 +128,18 @@
           msg = resp.msg;
         }
       }
-    } catch(e) {
+    } catch (e) {
       index = -1;
       msg = resp.msg;
     }
+
     $('.js-error').show();
     $('.js-error').html(msg);
   };
 
   newsletter.mceInit();
 
-
-  $('.after-party-venue').on('click', function(){
+  $('.after-party-venue').on('click', function () {
     window.location.href = $(this).data('href');
   });
 
