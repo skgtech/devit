@@ -1,0 +1,22 @@
+<script>
+var setCardHeight = function () {
+  var max = 0;
+  var speakers = $($('.row')[1]).find('> div');
+
+  speakers.each(function (i, speaker) {
+    var check = $(speaker).height() > max;
+    if (check) {
+      max = $(speaker).height();
+    }
+  });
+
+  speakers
+    .height(max)
+    .css('margin-bottom', '3rem')
+    .find('.speaker').css('height', '100%');
+};
+
+  $(function () {
+    setCardHeight();
+  });
+</script>

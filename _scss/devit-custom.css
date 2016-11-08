@@ -1,0 +1,317 @@
+#preloader {
+    background: none;
+}
+
+.header {
+    height: 450px;
+}
+
+.header-background-hide {
+    right: 10000px;
+}
+
+.header-caption .box {
+    padding: 0 3rem;
+    border-color: #FFF;
+}
+
+.header .logo {
+    margin-bottom: 20px;
+}
+
+.header .logo img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#footer {
+    background: url(/assets/images/FooterFold.svg) no-repeat right top;
+    background-size: contain;
+    background-color: #1169a7;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer a:focus,
+#footer a:active,
+#footer a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+.footer-menu li:before {
+    content: "• ";
+    color: #fff;
+}
+
+.copyrights {
+    color: #6AA7CE;
+}
+
+.copyrights a:hover {
+    color: #18467D;
+}
+
+@media (max-width: 768px) {
+    .footer-menu li:before {
+        padding-left: 0;
+        text-indent: 0;
+    }
+    .footer-menu li:before {
+        content: "";
+    }
+    .footer-menu li a {
+        display: block;
+        padding: 5px;
+        width: 100%;
+    }
+}
+
+.followit-ribbon {
+    background: url(/assets/images/Followit.svg) no-repeat right top;
+    background-size: contain;
+    width: 320px;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .followit-ribbon {
+        width: 290px;
+    }
+}
+
+.no-p {
+    padding: 0 !important;
+}
+
+.venue-info {
+    padding: 4rem 6.5rem;
+}
+
+.shareit {
+    float: left;
+}
+
+.share-box {
+    display: block;
+    width: 66px;
+    min-height: 66px;
+    font-size: 2em;
+    margin-top: 14px;
+    margin-left: 2px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.share-box .fa {
+    padding: 0.8rem;
+}
+
+.share-box-count {
+    font-size: 0.5em;
+    font-weight: 700;
+    position: relative;
+    margin-top: 0.8rem;
+    line-height: 2rem;
+}
+
+.share-box-count:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -1px;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.5;
+}
+
+.share-box:hover {
+    color: #fff;
+}
+
+.share-box-fb {
+    background-color: #3b5998;
+}
+
+.share-box-tw {
+    background-color: #2daae1;
+}
+
+.share-box-yt {
+    background-color: #cc181e;
+}
+
+h3.sold-out {
+    text-decoration: line-through;
+}
+
+a.button.sold-out {
+    opacity: 0.5;
+    cursor: default;
+}
+
+a.button.sold-out:hover {
+    background-color: #6aa7cf;
+}
+
+.hotel-row {
+    margin-bottom: 25px;
+}
+
+.schedule-speaker small {
+    color: #000;
+    padding-right: 20px;
+    line-height: 5rem;
+}
+
+.after-party-venue {
+    color: #2a6496;
+    cursor: pointer;
+}
+
+.hashtag-section {
+    margin-top: 50px;
+}
+
+#eventzilla-iframe {
+    height: 550px;
+}
+
+#eventzilla-iframe .container {
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+#coc-full {
+    display: none;
+}
+
+.btn-action {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #6aa7cf;
+    color: #fff;
+}
+
+.btn-action:hover,
+.btn-action:focus {
+    background-color: #2a6496;
+    color: #fff;
+}
+
+@media all and (max-width:480px) {
+    .btn-action {
+        width: 100%;
+        display: block;
+    }
+}
+
+.post h1 {
+    font-size: 6rem;
+}
+
+.share-page {
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.share-page a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.share-page a:hover {
+    border-bottom: 1px dashed #fff;
+}
+
+.press-photos {
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .speaker-info p {
+        line-height: 26px;
+        font-size: 14px;
+    }
+    .navbar-custom .navbar-nav > li > a {
+        padding: 3rem 0.8rem;
+        font-size: 1.4rem;
+    }
+}
+
+#slack-invite div.label {
+    color:  #777;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+#slack-invite div.label img {
+    width: 40px;
+}
+
+#slack-invite div.label label {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#slack-invite button {
+    width: 100%;
+    height: 55px;
+}
+
+.alert {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+@media (min-width: 992px) {
+    .venue-map {
+        padding-right: 0px;
+        float: left;
+    }
+    #venue .venue-info {
+        float: right;
+    }
+    .party-map {
+        padding-left: 0px;
+    }
+}

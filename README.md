@@ -9,13 +9,13 @@
 
 The site is made with [Jekyll](http://jekyllrb.com/).
 
-You need `node`, `npm`, `bower`, `Ruby` and `bundler` gem installed in order to build the site.
+You need `node`, `yarn`, `Ruby` and `bundler` gem installed in order to build the site.
+
+Please use Node v4 and above.
 
 ### Build Environment
 
-We use [Grunt](http://gruntjs.com) to manage the development workflow, build and deploy, if you don't have it installed:<br/> `npm install grunt-cli -g`
-
-We use [Bower](http://bower.io/) to manage client side libraries and frameworks, if you don't have it installed:<br/> `npm install -g bower`
+We use [Gulp](http://gulpjs.com) to manage the development workflow, build and deploy, if you don't have it installed:<br/> `npm install gulp-cli -g`
 
 We use [Bundler](http://bundler.io/) to manage the [Jekyll](http://jekyllrb.com/) dependencies, if you don't have it installed:<br/> `gem install bundler`
 
@@ -32,45 +32,47 @@ bundle install
 ```
 * Install node packages
 ```
-npm install
-```
-* Install bower packages
-```
-bower install
+yarn
 ```
 
 ## Build Commands
 
-* `grunt serve`: Launch the website locally, a development workflow with livereloads and watches.
-* `grunt build` Build the website, output will be in folder `dist/`.
-* `grunt deploy`: Build & Deploy the website using github pages.
-* `grunt --help`: See all available tasks.
+* `gulp`: Launch the website locally, a development workflow with livereloads and watches.
+* `gulp deploy`: Build & Deploy the website using github pages.
 
 ## Directory Structure
 
-Pretty straightforward stuff here, the whole website is under the folder `app/`.
+For the underscore prefixed (_*) directories, except `_js`, please refer to the Jekyll's documentation.
+
+* `_js`: This is where we keep all the Javascript source code.
+* `assets`: Those are all our assets. `css` and `js` folders are auto-generated, DO NOT edit those files directly.
+* `pages`: Separated Jekyll pages.
+* `2015`, `2016`: Legacy DEVit sites.
+
+## CSS
+
+We write CSS using SASS but with not a specific methodology. Hence, it is known that our current code is a bit messed up. 
+First step is to clean our current CSS codebase and then find a proper methodology to use. 
+
+Step up if you think you can help!
+
+### JS
+
+We use webpack to compile our Javascript. All assets/dependencies(except the critical ones, such as base CSS) 
+are being loading through JS files. 
+
+An example is the `_js/homepage.js` file, where:
+
+* `utils/common.js` is common for every page, so include it in your file
+* `require.ensure` will make sure that the dependencies are being load but not evaluated untill you say so.
+
+Webpack will then do it's thing, based on the configuration provided in `gulpfile.js`.
+
+Again, we could use some help from everyone, so step up!
 
 ## Troubleshooting
 
-1. If you get an error like the following
-
-  > Warning: Please install Jekyll before running this task. Use --force to continue.
-
-  Please make sure you have the `jekyll` gem installed.
-
-  You can `bundle install` to install this and its dependencies.
-
-2. If you get an error like the following
-
-  > Warning: Syntax error: File to import not found or unreadable: bootstrap-sass-official/assets/stylesheets/_bootstrap.scss.<br/>
-                  Load paths:<br/>
-            ...<br/>
-            on line 6 of app/_scss/main.scss<br/>
-      Use --trace for backtrace. Use --force to continue.
-
-  Please make sure you run `bower install` to install the packages needed.
-
-  If you don't have **bower** installed: `npm install -g bower`
+Nothing so far. YAY!
 
 ## License
 

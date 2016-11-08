@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% assign author = site.authors[page.author] %}
+
+{% include blog-header.html %}
+
+{% include navigation.html %}
+
+
+<div class="container content">
+
+  {% include post.html %}
+
+  {% include footer.html %}
+
+</div>
