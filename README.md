@@ -57,6 +57,7 @@ First step is to clean our current CSS codebase and then find a proper methodolo
 Step up if you think you can help!
 
 ### JS
+
 We use webpack to compile our Javascript. All assets/dependencies(except the critical ones, such as base CSS) 
 are being loading through JS files. 
 
