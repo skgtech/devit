@@ -2,8 +2,8 @@
 layout: post
 title: "How Greece has come to finally make it to the Software Development conferences map"
 description: Thanos Theodoridis depicts the tech evolution of Greece over the past years, how local communities turned into international conferences, how they managed to get sponsorships from top-notch companies and top reasons to attend a conference in Greece.
-metaTitle: How Greece has come to finally make it to the Software Development conferences map
-metaDescription: Thanos Theodoridis depicts the tech evolution of Greece over the past years, how local communities turned into international conferences, how they managed to get sponsorships from top-notch companies and top reasons to attend a conference in Greece.
+ogTitle: How Greece has come to finally make it to the Software Development conferences map
+ogDescription: Thanos Theodoridis depicts the tech evolution of Greece over the past years, how local communities turned into international conferences, how they managed to get sponsorships from top-notch companies and top reasons to attend a conference in Greece.
 category : blog
 tags : [greece, conferences, development]
 author: toubou91

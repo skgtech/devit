@@ -2,8 +2,8 @@
 layout: post
 title: "All about DEVit"
 description: A few words about DEVit, what to expect, honorarium and how we tackle diversity and inclusion
-metaTitle: All about DEVit the 360° Web Development Conference
-metaDescription: A few words about DEVit, what to expect, honorarium and how we tackle diversity and inclusion
+ogTitle: All about DEVit the 360° Web Development Conference
+ogTitle: A few words about DEVit, what to expect, honorarium and how we tackle diversity and inclusion
 category : blog
 tags : [retrospective, honorarium, inclusion, diversity, devit2015, about, mea culpa]
 author: marga
@@ -31,4 +31,3 @@ We offer to pay **traveling and accommodation** expenses for every speaker excep
 Since we are a **community backed conference** a honorarium is something, currently, not affordable for us. However, we hope it will be feasible to offer it from 2017 and onward. What we do cover apart from the accommodation and travel expenses is the **dinner on Thursday night** (May 19th), **transportation** from/to the airport and a **mini city tour** with a local guide (speakers and DEVit staff) that takes place prior to the speakers dinner.
 
 Grab your chance to be part of DEVit by applying to our [CFP](https://docs.google.com/forms/d/1WOPx_vhoXwR4HBYp3HVAkr5OkV-ysiYbWz4WINsCR_Q/viewform?c=0&w=1):
-

@@ -16,35 +16,13 @@
 
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav">
-
-            {% if page.url == "/blog/index.html" %}
-              <li><a href="/">Home</a></li>
+              <li {% if page.url == "/index.html" %}class="active"{% endif %}><a href="/">Home</a></li>
               <li><a href="/#speakers">Speakers</a></li>
               <li><a href="/#venue">Venue</a></li>
               <li><a href="/#hotels">Hotel</a></li>
-              <li class="active" ><a href="/blog">Blog</a></li>
-              <li><a href="/press">Press</a></li>
-            {% elsif page.url == "/press/index.html" %}
-              <li><a href="/">Home</a></li>
-              <li><a href="/#speakers">Speakers</a></li>
-              <li><a href="/#venue">Venue</a></li>
-              <li><a href="/#hotels">Hotel</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li class="active"><a href="/press">Press</a></li>
-            {% elsif page.url == "/index.html" %}
-              <li class="active"><a href="/#home">Home</a></li>
-              <li><a href="/#speakers">Speakers</a></li>
-              <li><a href="/#venue">Venue</a></li>
-              <li><a href="/#hotels">Hotel</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/press">Press</a></li>
-            {% else %}
-              <li><a href="/">Home</a></li>
-              <li><a href="/#speakers">Speakers</a></li>
-              <li><a href="/#venue">Venue</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/press">Press</a></li>
-            {% endif %}
+              <li {% if page.url == "/blog/index.html" %}class="active"{% endif %}><a href="/blog">Blog</a></li>
+              <li {% if page.url == "/coc/index.html" %}class="active"{% endif %}><a href="/coc">CoC</a></li>
+              <li {% if page.url == "/press/index.html" %}class="active"{% endif %}><a href="/press">Press</a></li>
               <li><a href="/2015/" class="previous" target="blank">DEVit 2015</a></li>
               <li><a href="/2016/" class="previous" target="blank">DEVit 2016</a></li>
           </ul>

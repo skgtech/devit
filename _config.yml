@@ -18,6 +18,10 @@ exclude: [
   "_js"
 ]
 
+og:
+  title: DEVit the 360° Web Development Conference
+  description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+
 analytics:
   google:
     tracker: 'UA-41787746-8'
