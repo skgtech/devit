@@ -44,10 +44,10 @@ yarn
 
 For the underscore prefixed (_*) directories, except `_js`, please refer to the Jekyll's documentation.
 
-`_js`: This is where we keep all the Javascript source code.
-`assets`: Those are all our assets. `css` and `js` folders are auto-generated, DO NOT edit those files directly.
-`pages`: Separated Jekyll pages.
-`2015`, `2016`: Legacy DEVit sites.
+* `_js`: This is where we keep all the Javascript source code.
+* `assets`: Those are all our assets. `css` and `js` folders are auto-generated, DO NOT edit those files directly.
+* `pages`: Separated Jekyll pages.
+* `2015`, `2016`: Legacy DEVit sites.
 
 ## CSS
 
