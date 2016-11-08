@@ -1,53 +1,53 @@
 #preloader {
-  background: none;
+    background: none;
 }
 
 .header {
-  height: 450px;
+    height: 450px;
 }
 
 .header-background-hide {
-  right: 10000px;
+    right: 10000px;
 }
 
 .header-caption .box {
-  padding: 0 3rem;
-  border-color: #FFF;
+    padding: 0 3rem;
+    border-color: #FFF;
 }
 
 .header .logo {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .header .logo img {
-  width: 300px;
-  margin: 0 auto;
+    width: 300px;
+    margin: 0 auto;
 }
 
 #footer {
-  background: url(/images/FooterFold.svg) no-repeat right top;
-  background-size: contain;
-  background-color: #1169a7;
+    background: url(/assets/images/FooterFold.svg) no-repeat right top;
+    background-size: contain;
+    background-color: #1169a7;
 }
 
 #footer a {
-  color: #fff;
+    color: #fff;
 }
 
 #footer a:focus,
 #footer a:active,
 #footer a:hover {
-  border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .footer-menu {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .footer-menu li {
-  padding-left: 1em;
-  text-indent: -.7em;
+    padding-left: 1em;
+    text-indent: -.7em;
 }
 
 .footer-menu li:before {
@@ -56,135 +56,134 @@
 }
 
 .copyrights {
-  color: #6AA7CE;
+    color: #6AA7CE;
 }
 
 .copyrights a:hover {
-  color: #18467D;
+    color: #18467D;
 }
 
 @media (max-width: 768px) {
-  .footer-menu li:before {
-    padding-left: 0;
-    text-indent: 0;
-  }
-
-  .footer-menu li:before {
-    content: "";
-  }
-
-  .footer-menu li a {
-    display: block;
-    padding: 5px;
-    width: 100%;
-  }
+    .footer-menu li:before {
+        padding-left: 0;
+        text-indent: 0;
+    }
+    .footer-menu li:before {
+        content: "";
+    }
+    .footer-menu li a {
+        display: block;
+        padding: 5px;
+        width: 100%;
+    }
 }
 
 .followit-ribbon {
-  background: url(/images/Followit.svg) no-repeat right top;
-  background-size: contain;
-  width: 320px;
-  height: 100px;
+    background: url(/assets/images/Followit.svg) no-repeat right top;
+    background-size: contain;
+    width: 320px;
+    height: 100px;
 }
 
-@media (max-width: 768px){
-  .followit-ribbon {
-    width: 290px;
-  }
+@media (max-width: 768px) {
+    .followit-ribbon {
+        width: 290px;
+    }
 }
 
 .no-p {
-  padding: 0 !important;
+    padding: 0 !important;
 }
 
 .venue-info {
-  padding: 4rem 6.5rem;
+    padding: 4rem 6.5rem;
 }
 
 .shareit {
-  float: left;
+    float: left;
 }
 
 .share-box {
-  display: block;
-  width: 66px;
-  min-height: 66px;
-  font-size: 2em;
-  margin-top: 14px;
-  margin-left: 2px;
-  padding-top: 10px;
-  text-align: center;
-  color: #fff;
+    display: block;
+    width: 66px;
+    min-height: 66px;
+    font-size: 2em;
+    margin-top: 14px;
+    margin-left: 2px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
 }
 
 .share-box .fa {
-  padding: 0.8rem;
+    padding: 0.8rem;
 }
 
 .share-box-count {
-  font-size: 0.5em;
-  font-weight: 700;
-  position: relative;
-  margin-top: 0.8rem;
-  line-height: 2rem;
+    font-size: 0.5em;
+    font-weight: 700;
+    position: relative;
+    margin-top: 0.8rem;
+    line-height: 2rem;
 }
 
 .share-box-count:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: -1px;
-  bottom: 0;
-  background: #fff;
-  opacity: 0.5;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -1px;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.5;
 }
 
 .share-box:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .share-box-fb {
-  background-color: #3b5998;
+    background-color: #3b5998;
 }
 
 .share-box-tw {
-  background-color: #2daae1;
+    background-color: #2daae1;
 }
+
 .share-box-yt {
-  background-color: #cc181e;
+    background-color: #cc181e;
 }
 
 h3.sold-out {
-  text-decoration: line-through ;
+    text-decoration: line-through;
 }
 
 a.button.sold-out {
-  opacity: 0.5;
-  cursor: default;
+    opacity: 0.5;
+    cursor: default;
 }
 
 a.button.sold-out:hover {
-  background-color: #6aa7cf;
+    background-color: #6aa7cf;
 }
 
 .hotel-row {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .schedule-speaker small {
-  color: #000;
-  padding-right: 20px;
-  line-height: 5rem;
+    color: #000;
+    padding-right: 20px;
+    line-height: 5rem;
 }
 
 .after-party-venue {
-  color: #2a6496;
-  cursor: pointer;
+    color: #2a6496;
+    cursor: pointer;
 }
 
 .hashtag-section {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 #eventzilla-iframe {
@@ -199,29 +198,32 @@ a.button.sold-out:hover {
 }
 
 #coc-full {
-  display: none;
+    display: none;
 }
 
 .btn-action {
-  display: inline-block;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: #6aa7cf;
-  color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #6aa7cf;
+    color: #fff;
 }
 
 .btn-action:hover,
 .btn-action:focus {
-  background-color: #2a6496;
-  color: #fff;
+    background-color: #2a6496;
+    color: #fff;
 }
 
 @media all and (max-width:480px) {
-  .btn-action { width: 100%; display:block; }
+    .btn-action {
+        width: 100%;
+        display: block;
+    }
 }
 
-.post h1{
-  font-size: 6rem;
+.post h1 {
+    font-size: 6rem;
 }
 
 .share-page {
@@ -229,42 +231,49 @@ a.button.sold-out:hover {
     padding: 8px 15px;
     border-radius: 5px;
 }
+
 .share-page a {
-  font-weight: 700;
-  color: #fff;
-  margin-left: 10px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
 }
-.share-page  a:hover {
-  border-bottom: 1px dashed #fff;
+
+.share-page a:hover {
+    border-bottom: 1px dashed #fff;
 }
+
 .press-photos {
-  text-align: center;
-  padding: 15px;
+    text-align: center;
+    padding: 15px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-  .speaker-info p {
-    line-height: 26px;
-    font-size: 14px;
-  }
-  .navbar-custom .navbar-nav > li > a {
+    .speaker-info p {
+        line-height: 26px;
+        font-size: 14px;
+    }
+    .navbar-custom .navbar-nav > li > a {
         padding: 3rem 0.8rem;
         font-size: 1.4rem;
-  }
+    }
 }
 
 #slack-invite div.label {
+    color:  #777;
     text-align: center;
     white-space: nowrap;
     line-height: 60px;
 }
+
 #slack-invite div.label img {
     width: 40px;
 }
+
 #slack-invite div.label label {
     font-size: 18px;
     padding-left: 10px;
 }
+
 #slack-invite button {
     width: 100%;
     height: 55px;
@@ -293,15 +302,16 @@ a.button.sold-out:hover {
     background-color: #f2dede;
     border-color: #ebccd1;
 }
+
 @media (min-width: 992px) {
-  .venue-map {
-    padding-right: 0px;
-    float: left;
-  }
-  #venue .venue-info {
-    float: right;
-  }
-  .party-map {
-    padding-left: 0px;
-  }
+    .venue-map {
+        padding-right: 0px;
+        float: left;
+    }
+    #venue .venue-info {
+        float: right;
+    }
+    .party-map {
+        padding-left: 0px;
+    }
 }

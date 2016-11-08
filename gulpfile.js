@@ -7,41 +7,47 @@ const webpackStream = require('webpack-stream');
 const webpack = require('webpack');
 const path = require('path');
 const fs = require('fs');
+const ghPages = require('gulp-gh-pages');
 
-const jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 const messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
-};
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
+  };
 
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
-});
+    cp.spawnSync(jekyll, ['build'], { stdio: 'inherit' });
+    done();
+  });
 
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-gulp.task('browser-sync', ['sass', 'jekyll-build', 'webpack',], function() {
+gulp.task('browser-sync', ['sass', 'webpack', 'jekyll-build'], function () {
     browserSync({
         server: {
-            baseDir: '_site'
-        }
-    });
-});
+            baseDir: '_site',
+          },
+      });
+  });
+
+gulp.task('browser-sync-reload', function () {
+    browserSync.reload();
+  });
 
 gulp.task('sass', function () {
+
     return gulp.src('_scss/main.scss')
-        .pipe(sass({
-            includePaths: ['scss', 'node_modules'],
-            onError: browserSync.notify
-        }))
+        .pipe(sass.sync({includePaths: ['scss', 'node_modules']}).on('error', sass.logError))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
-});
+        .pipe(gulp.dest('assets/css'));
+  });
+
+gulp.task('webpack', function (done) {
+
+  const files = fs.readdirSync('./_js/').filter(a => a.indexOf('.js') > -1).map(a => a.replace('.js', ''));
+  const entry = {};
 
   files.forEach(a => {
     entry[a] = a;
@@ -96,10 +102,15 @@ gulp.task('sass', function () {
       .on('close', done);
 });
 
+gulp.task('deploy', function() {
+    return gulp.src('./_site/**/*')
+      .pipe(ghPages());
+  });
+
 gulp.task('watch', function () {
-    gulp.watch('_scss/*.scss', ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
-    gulp.watch(['js/entry.js'], ['webpack']);
-});
+    gulp.watch(['_scss/*.scss', '_scss/*.css'], ['sass', 'jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], ['jekyll-build', 'jekyll-rebuild']);
+    gulp.watch(['_js/**/*.js'], ['webpack', 'jekyll-rebuild']);
+  });
 
 gulp.task('default', ['browser-sync', 'watch']);
