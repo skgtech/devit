@@ -20,7 +20,8 @@ Thumbs.db
 
 _site
 node_modules
-.tmp
+assets/js/
+assets/css/
 
 # Ignore for rbenv
 .gems
