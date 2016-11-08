@@ -2,7 +2,7 @@ language:
   - node_js
   - ruby
 node_js:
-  - "4.0"
+  - 6.9
 rvm:
   - 2.2.3
 before_install:
