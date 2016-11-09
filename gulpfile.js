@@ -80,6 +80,7 @@ gulp.task('webpack', function (done) {
 
   return gulp.src('_js/entry.js')
       .pipe(webpackStream({
+            context: __dirname + '/assets',
             entry: entry,
             module: {
               loaders: [
@@ -115,6 +116,7 @@ gulp.task('webpack', function (done) {
                 path: path.join(__dirname, '_js'),
                 filename: 'assets/js/[name].bundle.js',
                 chunkFilename: 'assets/js/[id].chunk.js',
+                publicPath: '/'
               },
             plugins: [
               new webpack.optimize.CommonsChunkPlugin({
