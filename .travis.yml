@@ -22,4 +22,4 @@ install:
 
 script:
   - gulp build
-  - htmlproofer ./_site --file-ignore "/2015/,/2016/" --assume-extension true
+  - htmlproofer ./_site --file-ignore "/2015/,/2016/" --assume-extension true --check-opengraph true --check-html true --url-ignore "/.+\.linkedin\.com/"
