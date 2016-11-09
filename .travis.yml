@@ -1,14 +1,25 @@
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
 language:
   - node_js
   - ruby
+
 node_js:
-  - 6.9
+  - 6
+
 rvm:
   - 2.2.3
+
 before_install:
   - gem install bundler
+  - npm install -g yarn
+
 install:
   - bundle install
-  - npm install
+  - yarn
+
 script:
-  - gulp
+  - gulp build
+  - htmlproofer ./_site --file-ignore "/2015/,/2016/"
