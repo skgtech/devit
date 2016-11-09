@@ -1,10 +1,1 @@
-webpackJsonp([4],[
-/* 0 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(1);
-
-
-
-/***/ }
-]);
+webpackJsonp([4],[function(n,c,o){o(1)}]);
