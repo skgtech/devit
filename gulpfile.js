@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const browserSync = require('browser-sync');
+const bs = require('browser-sync').create();
 const sass = require('gulp-sass');
 const prefix = require('gulp-autoprefixer');
 const cp = require('child_process');
@@ -21,7 +21,7 @@ gulp.task('deploy', ['jekyll-build'], function () {
 
 gulp.task('watch', function () {
     gulp.watch(['_scss/*.scss', '_scss/*.css'], ['rebuild-sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', '_pages/**/*.html'], ['jekyll-rebuild']);
     gulp.watch(['_js/**/*.js'], ['rebuild-webpack']);
   });
 
@@ -36,7 +36,7 @@ gulp.task('rebuild-webpack', ['webpack'], function () {
   });
 
 gulp.task('jekyll-build', function (done) {
-    browserSync.notify(messages.jekyllBuild);
+    bs.notify(messages.jekyllBuild);
     cp.spawnSync(jekyll, ['build'], { stdio: 'inherit' });
     done();
   });
@@ -46,19 +46,22 @@ gulp.task('build', ['sass', 'webpack'], function () {
   });
 
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-    browserSync.reload();
+    bs.reload();
   });
 
 gulp.task('browser-sync', ['build'], function () {
-    browserSync({
+    bs.init({
         server: {
-            baseDir: '_site',
-          },
+          baseDir: '_site',
+          serveStaticOptions: {
+            extensions: ['html']
+          }
+        },
       });
   });
 
 gulp.task('browser-sync-reload', function () {
-    browserSync.reload();
+    bs.reload();
   });
 
 gulp.task('sass', function () {
