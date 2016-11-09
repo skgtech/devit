@@ -64,7 +64,7 @@ gulp.task('browser-sync-reload', function () {
 gulp.task('sass', function () {
 
     return gulp.src('_scss/main.scss')
-        .pipe(sass.sync({ includePaths: ['scss', 'node_modules'] }).on('error', sass.logError))
+        .pipe(sass.sync({ outputStyle: 'compressed', includePaths: ['scss', 'node_modules'] }).on('error', sass.logError))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('assets/css'));
   });
@@ -94,11 +94,11 @@ gulp.task('webpack', function (done) {
                   },
                   {
                       test: /\.(sass|scss)?$/,
-                      loader: 'style!css!sass',
+                      loader: 'style!css?minimize!sass',
                     },
                   {
                       test: /\.(css)?$/,
-                      loader: 'style!css',
+                      loader: 'style!css?minimize',
                     },
               ],
             },
@@ -123,6 +123,11 @@ gulp.task('webpack', function (done) {
                 filename: 'assets/js/commons.js',
                 name: 'commons',
               }),
+              new webpack.optimize.UglifyJsPlugin({
+                  compress: {
+                    warnings: false
+                  }
+              })
             ],
           }))
       .pipe(gulp.dest(path.resolve(__dirname, '')))
