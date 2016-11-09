@@ -30,7 +30,7 @@
 /******/ 	// "0" means "already loaded"
 /******/ 	// Array means "loading", array contains callbacks
 /******/ 	var installedChunks = {
-/******/ 		3:0
+/******/ 		6:0
 /******/ 	};
 
 /******/ 	// The require function
@@ -88,7 +88,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/ })
 /************************************************************************/
 /******/ ([
