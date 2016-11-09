@@ -7,6 +7,8 @@ ogDescription: Let's steal a glance at what we've been working on for this year'
 category : blog
 tags : [devit2017, conferences, development]
 author: Amalia
+custom_js:
+- blog.bundle.js
 ---
 
 DEVit 2017 is already in the making. We are making a big shift this year and we are more than excited to share all the details with you! So let's dive in, what will we see this year.

@@ -7,6 +7,8 @@ ogDescription: Thanos Theodoridis depicts the tech evolution of Greece over the 
 category : blog
 tags : [greece, conferences, development]
 author: toubou91
+custom_js:
+- blog.bundle.js
 ---
 
 ## We made it!

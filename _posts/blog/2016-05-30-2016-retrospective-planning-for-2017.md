@@ -7,6 +7,8 @@ ogDescription: In this article we go through the DEVit 2016 big moments, fails a
 category : blog
 tags : [retrospective, devit2016, devit2017]
 author: thanpolas
+custom_js:
+- blog.bundle.js
 ---
 
 

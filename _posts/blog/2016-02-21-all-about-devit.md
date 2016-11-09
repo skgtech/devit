@@ -7,6 +7,8 @@ ogTitle: A few words about DEVit, what to expect, honorarium and how we tackle d
 category : blog
 tags : [retrospective, honorarium, inclusion, diversity, devit2015, about, mea culpa]
 author: marga
+custom_js:
+- blog.bundle.js
 ---
 
 
