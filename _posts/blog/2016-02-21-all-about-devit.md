@@ -18,7 +18,7 @@ custom_js:
 
 This is the second year for DEVit and we aim to make it, once again, an **unforgettable experience**! Last year's DEVit took place next to the sea at the awesome venue of [Makedonia Palace Hotel](http://www.makedoniapalace.com/) and attracted over **350** people. It was a blast for every speaker, attendee and DEVit volunteer. We had such a great time and highly valuable pieces of knowledge were disseminated towards all directions. You can have a look at last year's [site](http://devitconf.org/2015/) and awesome [photos](https://www.flickr.com/photos/131931106@N08/sets/72157653228840910/)!
 
-This year's DEVit is happening on **Friday the 20th of May, 2016**, in an even bigger venue, [Vellidio Conference Hall](http://profile.helexpo.gr/profile/en/thessaloniki%20vellidis). Thessaloniki is at its best during May and speakers can enjoy Greece's sunshine and the deep blue seas during the weekend following the event, they are just an hour away!
+This year's DEVit is happening on **Friday the 20th of May, 2016**, in an even bigger venue, [Vellidio Conference Hall](http://www.helexpo.gr/en/thessaloniki%20vellidis). Thessaloniki is at its best during May and speakers can enjoy Greece's sunshine and the deep blue seas during the weekend following the event, they are just an hour away!
 
 ## Absence of women speakers on 2015 lineup
 
