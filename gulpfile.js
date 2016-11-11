@@ -14,7 +14,7 @@ const messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
   };
 
-gulp.task('deploy', ['jekyll-build'], function () {
+gulp.task('deploy', ['build'], function () {
     return gulp.src('./_site/**/*')
       .pipe(ghPages());
   });
