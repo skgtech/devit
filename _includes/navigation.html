@@ -1,4 +1,5 @@
-{% assign url = page.url|remove:'index.html' %}
+{% assign current = page.url | downcase | split: '/' %}
+
 <div id="navigation-wrap" class="navigation-wrap">
 
   <div id="navigation" class="navigation">
@@ -16,13 +17,13 @@
 
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav">
-              <li {% if page.url == "/index.html" %}class="active"{% endif %}><a href="/">Home</a></li>
+              <li {% if current[1] == "index.html" %}class="active"{% endif %}><a href="/">Home</a></li>
               <li><a href="/#speakers">Speakers</a></li>
               <li><a href="/#venue">Venue</a></li>
               <li><a href="/#hotels">Hotel</a></li>
-              <li {% if page.url == "/blog/index.html" %}class="active"{% endif %}><a href="/blog">Blog</a></li>
-              <li {% if page.url == "/code-of-conduct/index.html" %}class="active"{% endif %}><a href="/code-of-conduct">CoC</a></li>
-              <li {% if page.url == "/press/index.html" %}class="active"{% endif %}><a href="/press">Press</a></li>
+              <li {% if current[1] == 'blog' %}class="active"{% endif %}><a href="/blog">Blog</a></li>
+              <li {% if current[1] == 'code-of-conduct' %}class="active"{% endif %}><a href="/code-of-conduct">CoC</a></li>
+              <li {% if current[1] == 'press' %}class="active"{% endif %}><a href="/press">Press</a></li>
               <li><a href="/2015/" class="previous" target="blank">DEVit 2015</a></li>
               <li><a href="/2016/" class="previous" target="blank">DEVit 2016</a></li>
           </ul>
