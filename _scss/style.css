@@ -876,7 +876,6 @@ Speakers
 .speaker-contacts {
     display: table;
     table-layout: fixed;
-    position: absolute;
     bottom: 50px;
     width: 100%;
     margin: 0;
