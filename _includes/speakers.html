@@ -1,4 +1,42 @@
+ {% assign speakers=site.data.speakers[include.year].speakers %}
+ {% assign mc=site.data.speakers[include.year].mc %}
+
 <section id="speakers">
+  {% if mc.size %}
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="section-header text-center">
+        <h2>Our
+          <b>Master of Ceremonies</b>
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    {% for speaker in mc %}
+    <div class="{% if mc.size > 1%}col-sm-6{% else %}col-sm-12{% endif %}">
+      <div class="speaker">
+        <a href="/mc/{{ include.year}}/{{speaker.url}}">
+          <img src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
+            class="img-circle img-responsive">
+        </a>
+        <div class="speaker-info">
+          <h3>
+            <b>{{ speaker.first_name }}</b>
+            <br />{{ speaker.last_name }}
+            {% if speaker.nickname %}
+              <br /><small>({{ speaker.nickname }})</small>
+            {% endif %}
+          </h3>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
   <div class="row">
     <div class="col-sm-12">
       <div class="section-header text-center">
@@ -12,65 +50,30 @@
     </div>
   </div>
 
-   <div class="row">
+  <div class="row">
+    {% for speaker in speakers %} {% if speaker.type != 'mc' %}
+    <div class="col-sm-6 col-md-3 col-lg-3 ">
+      <div class="speaker">
+        <a href="/speakers/{{ include.year}}/{{speaker.url}}">
+          <img src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
+            class="img-circle img-responsive">
+        </a>
+        <div class="speaker-info">
+          <h3>
+            <b>{{ speaker.first_name }}</b>
+            <br />{{ speaker.last_name }}
+            {% if speaker.nickname %}
+              <br /><small>({{ speaker.nickname }})</small>
+            {% endif %}
+          </h3>
+        </div>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
 
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
+    <div class="col-sm-6 col-md-3 col-lg-3 ">
       <div class="speaker">
-        <img src="/assets/images/speakers/Natasha_Murashev.png" alt="Natasha Murashev">
-        <div class="speaker-info">
-          <h3><b>Natasha</b> <small>(TheRobot)</small><br />Murashev</h3>
-          <p>
-            Natasha is an iOS developer by day and a robot by night.
-             She blogs about Swift, watchOS, and iOS development on her <a href="http://natashatherobot.com" target="_blank">blog</a>,
-             curates a fast-growing weekly Swift newsletter, <a href="https://swiftnews.curated.co" target="_blank">This Week in Swift</a>,
-             and organizes the <a href="http://www.tryswiftconf.com/en" target="_blank">try! Swift Conference</a>
-             around the world (the next one is in Tokyo!).
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/natashatherobot" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/NatashaTheRobot" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Hugo_Giraudel.png" alt="Hugo Giraudel">
-        <div class="speaker-info">
-          <h3><b>Hugo</b><br />Giraudel</h3>
-          <p>
-            Hugo is a Front-end developer at <a href="https://n26.com" target="_blank">n26</a> in Berlin.
-            CSS goblin, Sass hacker & serial writer.<br />OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
-            <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.<br />
-            Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>.<br />
-            <a href="https://thenetawards.com/longlist/developer/hugo-giraudel/" target="_blank">Net Awards nominee</a>
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/HugoGiraudel" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/HugoGiraudel" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/James_Halliday.png" alt="James Halliday">
-        <div class="speaker-info">
-          <h3>James&nbsp;<small>(substack)</small><br /><b>Halliday</b></h3>
-          <p>
-          James uses the web and the javascript ecosystem to build p2p offline tools, maps, and webgl visuals. He is the author of <a href="http://browserify.org/" target="_blank">browserify</a> and a prominent member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/substack" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/substack" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-4 col-md-offset-4">
-      <div class="speaker">
-        <img src="/assets/images/speakers/tba_woman.png" alt="TBA Speaker">
+        <img src="/assets/images/speakers/tba_woman.png" alt="TBA Speaker" class="img-circle img-responsive">
       </div>
       <div class="text-center"><b>More to follow</b></div>
     </div>

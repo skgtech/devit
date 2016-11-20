@@ -1,0 +1,53 @@
+mc:
+  - url: simona_cotin
+    type: mc
+    first_name: Simona
+    last_name: Cotin
+    social:
+      twitter: simona_cotin
+    bio: |
+      Simona is a enthusiastic full stack engineer building rich data visualization for network data in Openet.
+      Her passion for Angular led her co-organising the AngularJS meetup in Dublin and she's always passionately
+      talking about women in tech. Simona is now part of the DEVit team and we are working together to take the
+      conference to the next level!
+
+speakers:
+  - url: natasha_murashev
+    first_name: Natasha
+    last_name: Murashev
+    nickname: TheRobot
+    social:
+      twitter: natashatherobot
+      github: NatashaTheRobot
+    bio: |
+      Natasha is an iOS developer by day and a robot by night.<br />
+      She blogs about Swift, watchOS, and iOS development on her
+      <a href="http://natashatherobot.com" target="_blank">blog</a>, curates a fast-growing weekly Swift newsletter,
+      <a href="https://swiftnews.curated.co" target="_blank">This Week in Swift</a>, and organizes the
+      <a href="http://www.tryswiftconf.com/en" target="_blank">try! Swift Conference</a>
+      around the world (the next one is in Tokyo!).
+
+  - url: hugo_giraudel
+    first_name: Hugo
+    last_name: Giraudel
+    social:
+      twitter: HugoGiraudel
+      github: HugoGiraudel
+    bio : |
+      Hugo is a Front-end developer at <a href="https://n26.com" target="_blank">n26</a> in Berlin.
+      CSS goblin, Sass hacker & serial writer. OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
+      <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.
+      Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>.
+      <a href="https://thenetawards.com/longlist/developer/hugo-giraudel/" target="_blank">Net Awards nominee</a>
+
+  - url: james_halliday
+    first_name: James
+    last_name: Halliday
+    nickname: substack
+    social:
+      twitter: substack
+      github: substack
+    bio: |
+      James uses the web and the javascript ecosystem to build p2p offline tools, maps, and webgl visuals.
+      He is the author of <a href="http://browserify.org/" target="_blank">browserify</a> and a prominent
+      member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.

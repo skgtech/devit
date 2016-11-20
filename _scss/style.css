@@ -851,12 +851,17 @@ Speakers
     height: auto;
 }
 
+.speaker-image {
+  margin: auto;
+}
+
 .speaker-info {
     position: relative;
     padding: 2rem;
-    background: #f4f6f7;
+    /*background: #f4f6f7;*/
+    text-align: center;
     z-index: 10;
-    height: 330px;
+    min-height: 110px;
     transition: all 0.3s;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -877,18 +882,23 @@ Speakers
     display: table;
     table-layout: fixed;
     bottom: 50px;
-    width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
     z-index: 5;
     transition: all 0.3s;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
 
 .speaker-contacts > li {
+    width: 50px;
     position: relative;
     display: table-cell;
     text-align: center;
@@ -927,7 +937,7 @@ Speakers
     position: relative;
     display: block;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
     z-index: 10;
 }
