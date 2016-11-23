@@ -2,41 +2,6 @@
  {% assign mc=site.data.speakers[include.year].mc %}
 
 <section id="speakers">
-  {% if mc.size %}
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="section-header text-center">
-        <h2>Our
-          <b>Master of Ceremonies</b>
-        </h2>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="row">
-    {% for speaker in mc %}
-    <div class="{% if mc.size > 1%}col-sm-6{% else %}col-sm-12{% endif %}">
-      <div class="speaker">
-        <a href="/mc/{{ include.year}}/{{speaker.url}}">
-          <img src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
-            class="img-circle img-responsive">
-        </a>
-        <div class="speaker-info">
-          <h3>
-            <b>{{ speaker.first_name }}</b>
-            <br />{{ speaker.last_name }}
-            {% if speaker.nickname %}
-              <br /><small>({{ speaker.nickname }})</small>
-            {% endif %}
-          </h3>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
-
   <div class="row">
     <div class="col-sm-12">
       <div class="section-header text-center">
@@ -55,17 +20,21 @@
     <div class="col-sm-6 col-md-3 col-lg-3 ">
       <div class="speaker">
         <a href="/speakers/{{ include.year}}/{{speaker.url}}">
-          <img src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
+          <img
+            src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png"
+            alt="{{ speaker.first_name}} {{speaker.last_name }}"
             class="img-circle img-responsive">
         </a>
         <div class="speaker-info">
-          <h3>
-            <b>{{ speaker.first_name }}</b>
-            <br />{{ speaker.last_name }}
-            {% if speaker.nickname %}
-              <br /><small>({{ speaker.nickname }})</small>
-            {% endif %}
-          </h3>
+          <a href="/speakers/{{ include.year}}/{{speaker.url}}">
+            <h3>
+              <b>{{ speaker.first_name }}</b>
+              <br />{{ speaker.last_name }}
+              {% if speaker.nickname %}
+                <br /><small>({{ speaker.nickname }})</small>
+              {% endif %}
+            </h3>
+          </a>
         </div>
       </div>
     </div>
@@ -77,6 +46,44 @@
       </div>
       <div class="text-center"><b>More to follow</b></div>
     </div>
-
   </div>
+</section>
+<section id="mocs">
+  {% if mc.size %}
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="section-header text-center">
+          <h2>Our
+            <b>Master of Ceremonies</b>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {% for speaker in mc %}
+      <div class="{% if mc.size > 1%}col-sm-6{% else %}col-sm-12{% endif %}">
+        <div class="speaker">
+          <a href="/mc/{{ include.year}}/{{speaker.url}}">
+            <img
+              src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png"
+              alt="{{ speaker.first_name}} {{speaker.last_name }}"
+              class="img-circle img-responsive">
+          </a>
+          <div class="speaker-info">
+            <a href="/mc/{{ include.year}}/{{speaker.url}}">
+              <h3>
+                <b>{{ speaker.first_name }}</b>
+                <br />{{ speaker.last_name }}
+                {% if speaker.nickname %}
+                  <br /><small>({{ speaker.nickname }})</small>
+                {% endif %}
+              </h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>

@@ -1,33 +1,36 @@
 {% assign speaker = page.speaker %}
-<div class="container content">
 
-  <section>
-    <div class="row">
+<section>
+  <div class="row">
 
-      <div class="col-sm-12 text-center">
-        <img src="/assets/images/speakers/{{ page.year }}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
-            class="img-circle img-responsive speaker-image">
-      </div>
-      <div class="col-sm-12">
-        <div class="section-header text-center">
-          <h2>
-            <b>{{ speaker.first_name }}</b>
-            {{ speaker.last_name }}
-            {% if speaker.nickname %}
-              <br /><small>({{ speaker.nickname }})</small>
-            {% endif %}
-          </h2>
-          <ul class="speaker-contacts">
-            <li><a href="https://twitter.com/natashatherobot" target="_blank" class="fa fa-twitter"></a></li>
-            <li><a href="https://github.com/NatashaTheRobot" target="_blank" class="fa fa-github"></a></li>
-          </ul>
+    <div class="col-sm-12 text-center">
+      <img src="/assets/images/speakers/{{ page.year }}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
+          class="img-circle img-responsive speaker-image">
+    </div>
+    <div class="col-sm-12">
+      <div class="section-header text-center">
+        <h2>
+          <b>{{ speaker.first_name }}</b>
+          {{ speaker.last_name }}
+          {% if speaker.nickname %}
+            <br /><small>({{ speaker.nickname }})</small>
+          {% endif %}
+        </h2>
+        <ul class="speaker-contacts">
+          {% if speaker.social.twitter %}
+            <li><a href="https://twitter.com/{{speaker.social.twitter}}" target="_blank" class="fa fa-twitter"></a></li>
+          {% endif %}
+          {% if speaker.social.github %}
+            <li><a href="https://github.com/{{speaker.social.github}}" target="_blank" class="fa fa-github"></a></li>
+          {% endif %}
+        </ul>
 
-        </div>
-      </div>
-      <div class="col-lg-push-3 col-lg-6">
-        <p>
-          {{ speaker.bio }}
-        </p>
       </div>
     </div>
-  </section>
+    <div class="col-lg-push-3 col-lg-6">
+      <p>
+        {{ speaker.bio }}
+      </p>
+    </div>
+  </div>
+</section>
