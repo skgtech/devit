@@ -11,7 +11,9 @@ custom_js:
 - blog.bundle.js
 ---
 
-DEVit, as everyone knows, is a non-profit conference organized by members of the tech community using their free time. However, DEVit as an organization, is far from just a hobby... It is how, each and every one of us, makes an effort to move the tech industry in Greece one step further. Developers get educated and niche down to their field of expertise, founders make new deals, find new talent and get to appreciate the geek culture. The whole ecosystem benefits from such a major organization like DEVit and in this post we will see how each and everyone of you are a part of this.
+DEVit, as everyone knows, is a non-profit conference organized by members of the tech community using their free time. However, DEVit as an organization, is far from just a hobby... It is how, each and every one of us, makes an effort to move the tech industry in Greece one step further. Developers get educated and niche down to their field of expertise, founders make new deals, find new talent and get to appreciate the geek culture. 
+
+The whole ecosystem benefits from such a major organization like DEVit and in this post we will see how each and everyone of you are a part of this.
 
 ## The DEVit Economics
 
@@ -25,7 +27,9 @@ Some healthy growth there in gross income, however not the same picture in profi
 
 So what we learn from these numbers are basically two things. First one, is that conferences, especially in small markets like Greece is, are not that much profitable. Considering that we are a non-profit organization these nearly 2k of profit over two years would get diminished should we be a for-profit corporation, after taxes and insurance payments. 
 
-The second thing that we learn is that meaningful profit can only come from scale. At scale, you get economies of scale, which allow you to handle funds differently and in a more optimized way. By scale we basically mean attendees. Another way to be profitable with current attendee numbers is to raise the ticket 10x from what it is today. So on DEVit 2016, the "normal ticket", the most expensive ticket you could buy, sold at just €60. I've been to conferences that I paid for the ticket nearly €600, with this kind of ticket and 300 attendees you are sure to make a profit, however these kind of scenarios are not feasible for our market (Greece).
+The second thing that we learned is that meaningful profit can only come from scale. At scale, you get economies of scale, which allow you to handle funds differently and in a more optimized way. By scale we basically mean attendees. Another way to be profitable with current attendee numbers is to raise the ticket 10x from what it is today. So on DEVit 2016, the "normal ticket", the most expensive ticket you could buy, sold at just €60. I've been to conferences that I paid for the ticket nearly €600, with this kind of ticket and 300 attendees you are sure to make a profit, however these kind of scenarios are not feasible for our market (Greece).
+
+Being a non-profit organization gives us the flexibility to build budgets that only account for a minimal profit, allowing us to put even more resources in the total experience we offer. 
 
 ### Diving into expense and income sources
 
@@ -41,22 +45,15 @@ In very gross terms, in 2016 Catering and Venue represented 30.6% of the expense
 
 All numbers look good, they are on the plus side of growth, however you need to understand that it was only in 2016 that we were able to pay some of the people that worked professionally, you can see that as an 11.5% of the total expenses. These contractors where people that provided their work pro bono on DEVit 2015 so that it would become a reality. And we are still far from being able to pay everyone involved for their professional services.
 
-Like we've said before, DEVit is organized in our free time and while one of our goals is to make this a self sustainable organization that will create one or two full time positions, we are still far from getting there. The economics don't yet add up.
-
-Another crucial factor to take under consideration here is that DEVit's legal entity is a Non Profit Organization (NPO), so on whatever profit you see mentioned here there is no additional state tax nor there is any Value Added Tax (VAT) on the selling of the tickets or the sponsor packages. Should this be a for-profit venture the profits would definitely be diminished by tax and required legal and accounting upkeep.
+Like we've said before, DEVit is organized in our free time, however, one of our goals is to make this a self sustainable organization that will create one or two full time positions, we are still far from getting there. The economics don't yet add up.
 
 ## Looking ahead, planning for 2017
 
-Having established the DEVit experience and having a good understanding of the economics of organizing large scale conferences with international speakers we took a bold decision to move forward and grow the conference bigger. Two times bigger to be exact at an estimated budget of €50,000 for expenses of the conference. Our decision was based on upgrading workshops to a first class citizen and expanding DEVit to a second day dedicated to workshops.
+Having established the DEVit experience and having a good understanding of the economics of organizing large scale conferences with international speakers we took a bold decision to move forward and grow the conference bigger. Two times bigger to be exact. We are organizing a two-day conference, upgrading workshops to a first class citizen and dedicating a whole day to their execution. We are also bringing two times the speakers and make sure that most of them will be in our town since early the Week of DEVit establishing for the first time the "DEVit Week". More on that in another post...
 
-The bigger budget allows us for the first time ever to afford speakers from across the Atlantic and be able to host more speakers from many days before the event to participate in the "DEVit Week" and mingle with the locals.
+Another benefit of the bigger budget, is that for the first time ever, we can afford speakers from across the Atlantic. That was a major breakthrough for us, one which you can see today with the booking of [Natasha Murashev (Natasha the Robot)](https://www.natashatherobot.com/) and [James Halliday (Substack)](http://substack.net/).
 
+### We Are DEVit
 
-#### DEVit Income Stats & 2017 Projection
-
-![DEVit income stats and 2017 projection](/assets/images/blog/devit-2016-income-projection.png)
-
-### Relying on you
-
-We are putting a lot of effort into DEVit 2017, preparations started right after DEVit 2016 successfully concluded back in June. What we ask is simple, stay tuned to what we have in place for you and if you like what you see show us your support by getting a ticket for DEVit 2017!
+I guess it has become apparent by now... It is us all that make DEVit a reality. Even the smallest contribution makes a difference and allows us to enjoy the DEVit experience. This is a celebration of our profession, our culture, our achievements. And we should be proud of our achievements, we've come a long way and we can now rip the benefits of our commitment, DEVit 2017 will most definitely be a better, bigger, stronger DEVit.
 
