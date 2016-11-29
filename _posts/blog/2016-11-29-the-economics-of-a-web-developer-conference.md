@@ -26,7 +26,7 @@ So let's see how DEVit 2015 and 2016 did from an economic standpoint. In 2016 DE
 
 Some healthy growth there in gross income, but not the same picture in profits. In 2016 our profit after taxes was €1,527.10, which represents 6.88% of the gross income. The same profit index for 2015 was at 5.22% for €845.75.
 
-So what we learned from these numbers are two things. First one is that conferences, especially in small markets like Greece are, are not that much profitable. Considering that we are a non-profit organization, these nearly 2k of profit over two years would get diminished should we be a for-profit corporation, after taxes and insurance payments. 
+So what we learned from these numbers are two things. First one is that conferences, especially in small markets like Greece are not that much profitable. Considering that we are a non-profit organization, these nearly 2k of profit over two years would get diminished should we be a for-profit corporation, after taxes and insurance payments. 
 
 The second thing that we learned is that meaningful profit can only come from scale. At scale, you get economies of scale, which allow you to handle funds differently and in a more optimized way. By scale we basically mean attendees. Another way to be profitable with current attendee numbers is to raise the ticket 10x from what it is today. So, on DEVit 2016, the "normal ticket", the most expensive ticket you could buy, sold at just €60. I've been to conferences that I paid for the ticket nearly €600, with this kind of ticket and 300 attendees you are sure to make a profit, however, these kind of scenarios are not feasible for our market (Greece).
 
