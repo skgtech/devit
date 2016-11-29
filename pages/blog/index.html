@@ -6,8 +6,7 @@ permalink: /blog/ # DO NOT ALTER
 custom_js:
 - blog.bundle.js
 ---
-{% assign authors = site.authors %}
-
+{% assign authors = site.data.authors %}
 
 <div class="posts">
   {% for post in site.posts %}
