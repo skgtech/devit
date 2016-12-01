@@ -29,22 +29,6 @@
     <meta property="og:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
     <meta property="og:type" content="website">
 
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-    document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1262299197177637');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1262299197177637&ev=PageView&noscript=1"
-    alt="p"/></noscript>
-    <!-- DO NOT MODIFY -->
-    <!-- End Facebook Pixel Code -->
-
     <link href="/assets/css/main.css" rel="stylesheet" media="screen">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
@@ -56,7 +40,6 @@
     <link rel="manifest" href="/assets/images/favicon/manifest.json?v=GvJLOgvboj">
     <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg?v=GvJLOgvboj" color="#5bbad5">
     <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=GvJLOgvboj">
-
     <meta name="apple-mobile-web-app-title" content="DEVit Conf">
     <meta name="application-name" content="DEVit Conf">
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=GvJLOgvboj">
@@ -129,7 +112,7 @@
               <li><a href="/2016/" class="previous" target="blank">DEVit 2016</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="http://devit2017.eventzilla.net/" class="register" id="buy-tickets">Buy Tickets!</a></li>
+            <li><a href="http://devit2017.eventzilla.net/" class="register">Buy Tickets!</a></li>
           </ul>
         </div>
       </nav>
@@ -310,20 +293,6 @@ As a bonus, here are X reasons to attend at least one of the conferences taking 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_qdTHw4MLwyOxobTqE44X1IpS6bjf-ng"></script>
 
 <script src="/assets/js/commons.js"></script>
-<script type="text/javascript">
-  // Yea, what are you looking at? Can't figure out how to do a global js file
-  // with webpack... you figure it out, you tell me and send a PR!
-
-  var buyEl = document.getElementById('buy-tickets');
-  buyEl.addEventListener('click', function() {
-    if (typeof window.fbq !== 'function') {
-      return;
-    }
-
-    window.fbq('track', 'Lead', {location: 'topnav', type: 'buy-tickets'});
-  });
-
-</script>
 
   
   <script src='/assets/js/blog.bundle.js'></script>
