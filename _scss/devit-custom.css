@@ -158,6 +158,10 @@ h3.sold-out {
     text-decoration: line-through;
 }
 
+a.button:hover {
+  color: #fff;
+}
+
 a.button.sold-out {
     opacity: 0.5;
     cursor: default;
