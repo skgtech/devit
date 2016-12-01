@@ -1,20 +1,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_qdTHw4MLwyOxobTqE44X1IpS6bjf-ng"></script>
 
 <script src="/assets/js/commons.js"></script>
-<script type="text/javascript">
-  // Yea, what are you looking at? Can't figure out how to do a global js file
-  // with webpack... you figure it out, you tell me and send a PR!
-
-  var buyEl = document.getElementById('buy-tickets');
-  buyEl.addEventListener('click', function() {
-    if (typeof window.fbq !== 'function') {
-      return;
-    }
-
-    window.fbq('track', 'Lead', {location: 'topnav', type: 'buy-tickets'});
-  });
-
-</script>
 {% if page.custom_js %}
   {% for js_file in page.custom_js %}
   <script src='/assets/js/{{ js_file }}'></script>
