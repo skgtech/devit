@@ -8,7 +8,7 @@ When you do submit a Pull Request please make sure to update the files `CHANGELO
 
 The project adheres to a specific set of styling rules and guidelines.
 
-* [The JavaScript Style Guide](https://github.com/thanpolas/Practice/blob/master/JavaScript-Style-Guide.md) Based on [AirBnB's style guide](https://github.com/airbnb/javascript). Applies to both front and back end codebases.
+* [The JavaScript Style Guide](https://github.com/thanpolas/Practice/blob/master/Javascript-Style-Guide.md) Based on [AirBnB's style guide](https://github.com/airbnb/javascript). Applies to both front and back end codebases.
 * [The Node.js Style Guide](https://github.com/thanpolas/Practice/blob/master/Node.js.md) which apply to both the back and front end since we use [Browserify](http://browserify.org/) as our dependency manager for the frontend application. Take special notice of the [Document Blocks section](https://github.com/thanpolas/Practice/blob/master/Node.js.md#docblocks).
 * It is advisable that you [install a Live Linter and Editor Config](https://github.com/thanpolas/Practice#tldr-install-live-linter-and-editor-config) on your editor to help you with catching styling and linting issues early on.
 
