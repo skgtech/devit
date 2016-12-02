@@ -44,7 +44,7 @@ yarn
 
 For the underscore prefixed (_*) directories, except `_js`, please refer to the Jekyll's documentation.
 
-* `_js`: This is where we keep all the Javascript source code.
+* `_js`: This is where we keep all the JavaScript source code.
 * `assets`: Those are all our assets. `css` and `js` folders are auto-generated, DO NOT edit those files directly.
 * `pages`: Separated Jekyll pages.
 * `2015`, `2016`: Legacy DEVit sites.
@@ -58,7 +58,7 @@ Step up if you think you can help!
 
 ### JS
 
-We use webpack to compile our Javascript. All assets/dependencies(except the critical ones, such as base CSS) 
+We use webpack to compile our JavaScript. All assets/dependencies(except the critical ones, such as base CSS) 
 are being loading through JS files. 
 
 An example is the `_js/homepage.js` file, where:
