@@ -7,6 +7,7 @@ require('flexslider/flexslider.css');
 require('flexslider/jquery.flexslider-min');
 
 require('jquery-placeholder/jquery.placeholder');
+require('./metrics');
 
 var imageWidth;
 var imageHeight;
