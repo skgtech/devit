@@ -1,73 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Article">
-  <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}DEVit Conference - Thessaloniki 20-21 May 2017{% endif %}</title>
+<head>
+  <title>{% if page.title %}{{ page.title }}{% else %}DEVit Conference - Thessaloniki 20-21 May 2017{% endif %}</title>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
 
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-    <meta itemprop="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-    <meta itemprop="image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
+  <meta itemprop="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta itemprop="image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@devitconf">
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@devitconf">
 
-    <meta name="twitter:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-    <meta name="twitter:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
-    <meta name="twitter:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta name="twitter:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
+  <meta name="twitter:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
+  <meta name="twitter:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
 
-    <!-- Open Graph data -->
-    <meta property="og:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title }}{% endif %}">
-    <meta property="og:site_name" content="devitconf.org">
-    <meta property="og:url" content="http://devitconf.org{{ page.url }}">
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title }}{% endif %}">
+  <meta property="og:site_name" content="devitconf.org">
+  <meta property="og:url" content="http://devitconf.org{{ page.url }}">
 
-    <meta property="og:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-    <meta property="og:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
-    <meta property="og:type" content="website">
+  <meta property="og:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta property="og:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
+  <meta property="og:type" content="website">
 
-    <link href="/assets/css/main.css" rel="stylesheet" media="screen">
+  <link href="/assets/css/main.css" rel="stylesheet" media="screen">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=GvJLOgvboj">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png?v=GvJLOgvboj" sizes="32x32">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png?v=GvJLOgvboj" sizes="16x16">
-    <link rel="manifest" href="/assets/images/favicon/manifest.json?v=GvJLOgvboj">
-    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg?v=GvJLOgvboj" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=GvJLOgvboj">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=GvJLOgvboj">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png?v=GvJLOgvboj" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png?v=GvJLOgvboj" sizes="16x16">
+  <link rel="manifest" href="/assets/images/favicon/manifest.json?v=GvJLOgvboj">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg?v=GvJLOgvboj" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=GvJLOgvboj">
 
-    <meta name="apple-mobile-web-app-title" content="DEVit Conf">
-    <meta name="application-name" content="DEVit Conf">
-    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=GvJLOgvboj">
-    <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="DEVit Conf">
+  <meta name="application-name" content="DEVit Conf">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=GvJLOgvboj">
+  <meta name="theme-color" content="#ffffff">
 
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1071961509597865'); // Insert your pixel ID here.
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1071961509597865&ev=PageView&noscript=1" alt="p"/></noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
+</head>
+<body>
 
-  </head>
-  <body>
+  {{ content }}
 
-    {{ content }}
+  {% include scripts.html %}
+  {% include googleanalytics.html %}
 
-    {% include scripts.html %}
-    {% include googleanalytics.html %}
-
-  </body>
+</body>
 </html>
