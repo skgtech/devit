@@ -266,11 +266,8 @@ a.button.sold-out:hover {
     }
 }
 
-#slack-invite div.label {
-    color:  #777;
-    text-align: center;
-    white-space: nowrap;
-    line-height: 60px;
+#slack-invite img {
+    margin-top:  20px;
 }
 
 #slack-invite div.label img {
@@ -322,4 +319,9 @@ a.button.sold-out:hover {
     .party-map {
         padding-left: 0px;
     }
+}
+
+.flex-control-nav.flex-control-paging,
+.flex-direction-nav {
+  display: none;
 }
