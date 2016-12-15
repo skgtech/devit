@@ -18,7 +18,9 @@ let deployOptions = {
   string: ['config', 'branch'],
   default: {
    config: '_config.yml',
-   "gh-pages": 'gh-pages',
+   origin: "origin",
+   push: true,
+   'gh-pages': 'gh-pages'
   }
 };
 
@@ -27,7 +29,9 @@ let options = minimist(process.argv.slice(2), deployOptions);
 gulp.task('deploy', ['build'], function () {
     return gulp.src('./_site/**/*')
       .pipe(ghPages({
-        branch: options['gh-pages']
+        branch: options['gh-pages'],
+        origin: options['origin'],
+        push: options['push']
       }));
   });
 
