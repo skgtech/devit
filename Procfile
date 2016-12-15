@@ -1,1 +1,1 @@
-web:  bundle exec jekyll serve --no-watch --destination _site --config _config.yml --skip-initial-build
+web:  bundle exec jekyll serve --no-watch --source ./ --destination ./ --config _config.yml --skip-initial-build
