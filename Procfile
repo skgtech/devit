@@ -1,1 +1,1 @@
-web:  bundle exec jekyll serve --no-watch --source ./ --destination ./dist
+web:  bundle exec jekyll serve --no-watch --source ./ --destination ./dist --port $PORT
