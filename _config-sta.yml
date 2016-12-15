@@ -1,0 +1,34 @@
+name: devit
+description: The DEVit conference
+
+permalink: /:categories/:title
+
+disqus: devitconf
+
+exclude: [
+  "node_modules",
+  "gulpfile.js",
+  "package.json",
+  ".*",
+  "CONTRIBUTING.md",
+  "LICENSE",
+  "README.md",
+  "_js"
+]
+
+og:
+  title: DEVit the 360° Web Development Conference
+  description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+
+analytics:
+  google:
+    tracker: 'UA-41787746-8'
+
+future: true
+show_drafts: true
+
+markdown: kramdown
+
+highlighter: pygments
+
+encoding: utf-8
