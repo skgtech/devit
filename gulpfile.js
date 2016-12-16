@@ -8,15 +8,31 @@ const webpack = require('webpack');
 const path = require('path');
 const fs = require('fs');
 const ghPages = require('gulp-gh-pages');
-
+const minimist = require('minimist');
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 const messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
   };
 
+let deployOptions = {
+  string: ['config', 'branch'],
+  default: {
+   config: '_config.yml',
+   origin: "origin",
+   push: true,
+   'gh-pages': 'gh-pages'
+  }
+};
+
+let options = minimist(process.argv.slice(2), deployOptions);
+
 gulp.task('deploy', ['build'], function () {
     return gulp.src('./_site/**/*')
-      .pipe(ghPages());
+      .pipe(ghPages({
+        branch: options['gh-pages'],
+        origin: options['origin'],
+        push: options['push']
+      }));
   });
 
 gulp.task('watch', function () {
@@ -37,7 +53,7 @@ gulp.task('rebuild-webpack', ['webpack'], function () {
 
 gulp.task('jekyll-build', function (done) {
     bs.notify(messages.jekyllBuild);
-    cp.spawnSync(jekyll, ['build'], { stdio: 'inherit' });
+    cp.spawnSync(jekyll, ['build','--config',options.config], { stdio: 'inherit' });
     done();
   });
 
