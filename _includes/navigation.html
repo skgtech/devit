@@ -19,6 +19,7 @@
           <ul class="nav navbar-nav">
               <li {% if current[1] == "index.html" %}class="active"{% endif %}><a href="/">Home</a></li>
               <li {% if current[1] == 'speakers' %}class="active"{% endif %}><a href="/#speakers">Speakers</a></li>
+              <li><a href="/#cfp">CFP</a></li>
               <li><a href="/#venue">Venue</a></li>
               <li><a href="/#hotels">Hotel</a></li>
               <li {% if current[1] == 'blog' %}class="active"{% endif %}><a href="/blog">Blog</a></li>
@@ -28,7 +29,7 @@
               <li><a href="/2016/" class="previous" target="blank">DEVit 2016</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://devit2017.eventzilla.net/" class="register">Buy Tickets!</a></li>
+            <li><a target="_blank" href="http://devit2017.eventzilla.net/" class="register" id="register-cta">Buy Tickets!</a></li>
           </ul>
         </div>
       </nav>

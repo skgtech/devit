@@ -20,3 +20,4 @@ require.ensure(['gmap3/dist/gmap3.min', './utils/devit-custom.js'], function (re
     position: venueAddress,
   });
 });
+

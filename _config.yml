@@ -1,5 +1,5 @@
 name: devit
-description: The Devit conference
+description: The DEVit conference
 
 permalink: /:categories/:title
 
