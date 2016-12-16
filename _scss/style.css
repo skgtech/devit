@@ -836,7 +836,8 @@ Speakers
 
 .speaker {
     position: relative;
-    max-width: 280px;
+    max-width: 180px;
+    min-height: 300px;
     overflow: hidden;
     margin: 0 auto 3rem auto;
     z-index: 15;
@@ -861,7 +862,6 @@ Speakers
     /*background: #f4f6f7;*/
     text-align: center;
     z-index: 10;
-    min-height: 330px;
     transition: all 0.3s;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
