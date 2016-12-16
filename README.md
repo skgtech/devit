@@ -39,6 +39,7 @@ yarn
 
 * `gulp`: Launch the website locally, a development workflow with livereloads and watches.
 * `gulp deploy`: Build & Deploy the website using github pages.
+* `gulp deploy --config _config-sta.yml --gh-pages sta-gh-pages`: Build & Deploy the website to Heroku.
 
 ## Directory Structure
 
