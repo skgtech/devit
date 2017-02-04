@@ -1,0 +1,27 @@
+allDay:
+  - name: "James Halliday"
+    title: "Node.js streams"
+    description: "Streams are a powerful abstraction from node core for plumbing together IO."
+    skill: "Intermediate"
+    speakerPhoto: "/assets/images/speakers/2017/James_Halliday.png"
+    prerequisites: "javascript basics, familiarity with npm"
+    covers:
+      - Differences between readable, writable, transform, duplex.
+      - Streaming interfaces in core.
+      - Common streaming libraries and patterns in userland.
+      - Streaming transports: tcp, websockets, webrtc.
+      - Implementing our own streaming protocols with multiplex, rpc.
+  - name: "Harry Roberts"
+    title: "Front-end Performance"
+    description: "The Front-end Performance masterclass will help developers to deliver websites to users in record times."
+    skill: "Intermediate"
+    speakerPhoto: "/assets/images/speakers/2017/Harry_Roberts.png"
+    prerequisites: "html, css, javascript, basic networking knowledge"
+    covers:
+      - The moral and business impact of good performance;
+      - How the network really works, and how to play to its strengths and weaknesses;
+      - How to optimise our assets for most effective delivery;
+      - How to trick the browser into downloading things ahead of time;
+      - How to detect and troubleshoot performance issues;
+      - How to measure performance successes;
+      - How to prepare for the performance landscape of tomorrow.
