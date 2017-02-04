@@ -956,6 +956,10 @@ Partners
     height: auto;
     padding: 15px;
     text-align: center;
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
 }
 
 .partner:first-child {
