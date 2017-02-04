@@ -2,7 +2,7 @@
 
 <ol class="breadcrumb">
   <li><a href="/">Devit 2017</a></li>
-  <li><a href="/#speakers">Speakers</a></li>
+  <li><a href="/#speakers">{% if speaker.type == 'mc' %}Masters of Ceremonies{% else %}Speakers{% endif %}</a></li>
   <li class="active">{{ speaker.first_name }} {{ speaker.last_name }}</li>
 </ol>
 <section>
