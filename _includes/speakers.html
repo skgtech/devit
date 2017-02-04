@@ -1,176 +1,91 @@
+{% assign speakers=site.data.speakers[include.year].speakers %}
+{% assign mc=site.data.speakers[include.year].mc %}
+
 <section id="speakers">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="section-header text-center">
-        <h2>Our
-          <b>speakers</b>
-        </h2>
-        <p>
-          Awesome people you will listen to and meet.
-        </p>
-      </div>
-    </div>
-  </div>
+ <div class="row">
+   <div class="col-sm-12">
+     <div class="section-header text-center">
+       <h2>Our
+         <b>speakers</b>
+       </h2>
+       <p>
+         Awesome people you will listen to and meet.
+       </p>
+     </div>
+   </div>
+ </div>
 
-  <div class="row">
+ <div class="row">
+   {% for speaker in speakers %} {% if speaker.type != 'mc' %}
+   <div class="col-sm-6 col-md-3 col-lg-3 ">
+     <div class="speaker">
+       <a href="/speakers/{{ include.year}}/{{speaker.url}}" title="{{ speaker.first_name }} {{ speaker.last_name }}">
+         <img
+           src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png"
+           alt="{{ speaker.first_name}} {{speaker.last_name }}"
+           class="img-responsive">
+       </a>
+       <div class="speaker-info">
+         <a href="/speakers/{{ include.year}}/{{speaker.url}}">
+           <h3>
+             <b>{{ speaker.first_name }}</b>
+             <br />{{ speaker.last_name }}
+             {% if speaker.nickname %}
+               <br /><small>({{ speaker.nickname }})</small>
+             {% endif %}
+           </h3>
+         </a>
+       </div>
+     </div>
+   </div>
+   {% endif %} {% endfor %}
 
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Natasha_Murashev.png" alt="Natasha Murashev">
-        <div class="speaker-info">
-          <h3><b>Natasha</b> <small>(TheRobot)</small><br />Murashev</h3>
-          <p>
-            Natasha is an iOS developer by day and a robot by night.
-             She blogs about Swift, watchOS, and iOS development on her <a href="http://natashatherobot.com" target="_blank">blog</a>,
-             curates a fast-growing weekly Swift newsletter, <a href="https://swiftnews.curated.co" target="_blank">This Week in Swift</a>,
-             and organizes the <a href="http://www.tryswiftconf.com/en" target="_blank">try! Swift Conference</a>
-             around the world (the next one is in Tokyo!).
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/natashatherobot" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/NatashaTheRobot" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Hugo_Giraudel.png" alt="Hugo Giraudel">
-        <div class="speaker-info">
-          <h3><b>Hugo</b><br />Giraudel</h3>
-          <p>
-            Hugo is a Front-end developer at <a href="https://n26.com" target="_blank">n26</a> in Berlin.
-            CSS goblin, Sass hacker & serial writer.<br />OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
-            <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.<br />
-            Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>.<br />
-            <a href="https://thenetawards.com/longlist/developer/hugo-giraudel/" target="_blank">Net Awards nominee</a>
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/HugoGiraudel" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/HugoGiraudel" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/James_Halliday.png" alt="James Halliday">
-        <div class="speaker-info">
-          <h3>James&nbsp;<small>(substack)</small><br /><b>Halliday</b></h3>
-          <p>
-          James uses the web and the JavaScript ecosystem to build P2P offline tools, maps, and webgl visuals. He is the author of <a href="http://browserify.org/" target="_blank">browserify</a> and a prominent member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/substack" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/substack" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Harry_Roberts.png" alt="Harry Roberts">
-        <div class="speaker-info">
-          <h3>Harry&nbsp;<small>(CSS Wizardry)</small><br /><b>Roberts</b></h3>
-          <p>
-          With a client list including Google, Unilever, and the United Nations,
-          Harry is an award-winning Consultant Front-end Architect who helps organisations
-          and teams across the globe to plan, build, and maintain product-scale UIs.
-          A Google Developer Expert, he writes on the subjects of CSS architecture, performance,
-          and scalability at <a href="http://csswizardry.com" target="_blank">csswizardry.com</a>;
-          develops and maintains <a href="https://github.com/inuitcss" target="_blank">inuitcss</a>.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/csswizardry" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/csswizardry" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Zaharenia_Atzitzikaki.png" alt="Zaharenia Atzitzikaki">
-        <div class="speaker-info">
-          <h3>Zaharenia&nbsp;<small>(sugarenia)</small><br /><b>Atzitzikaki</b></h3>
-          <p>
-          Zaharenia cmd-tabs from Sketch to Sublime Text and vice versa all the time.
-          As the Lead Designer at <a href="http://www.workable.com" target="_blank">Workable</a>,
-          she mentors a team of talented designers and helps them design a recruiting tool hiring teams
-          actually like to use. She’s passionate about scalable design systems and has a secret agenda to
-          convert all developers to designers. She writes about design at her <a href="http://sugarenia.com" target="_blank">blog</a>.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/sugarenia" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/sugarenia" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Julien_Simon.png" alt="Julien Simon">
-        <div class="speaker-info">
-          <h3>Julien <br/><b>Simon</b></h3>
-          <p>
-          Principal Technical Evangelist at AWS. Before that, Julien served for 10 years as CTO/VP Engineering in top-tier web startups. He’s particularly interested in all things architecture, deployment, performance, scalability and data. Julien speaks very frequently at conferences and technical workshops, where he meets developers to help them bring their ideas to life thanks to the AWS infrastructure.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/julsimon" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/juliensimon" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4 ">
-      <div class="speaker">
-        <img src="/assets/images/speakers/Bodil_Stokke.png" alt="Bodil Stokke">
-        <div class="speaker-info">
-          <h3>Bodil <br/><b>Stokke</b></h3>
-          <p>
-          Bodil is a largely self-educated person. Her doctrines influenced the spread of Homotopy Type Theory in the West as well as the development of Western computer science currents like dependent types, blockchains and isomorphic JavaScript.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/bodil" target="_blank" class="fa fa-twitter"></a></li>
-          <li><a href="https://github.com/bodil" target="_blank" class="fa fa-github"></a></li>
-        </ul>
-      </div>
-    </div>
+   <div class="col-sm-6 col-md-3 col-lg-3 ">
+     <div class="speaker">
+       <img src="/assets/images/speakers/tba_woman.png" alt="TBA Speaker" class=" img-responsive">
+       <div class="speaker-info">
+         <div class="text-center"><b>More to follow</b></div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+<section id="mocs">
+ {% if mc.size %}
+   <div class="row">
+     <div class="col-sm-12">
+       <div class="section-header text-center">
+         <h2>Our
+           <b>Master of Ceremonies</b>
+         </h2>
+       </div>
+     </div>
+   </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-4">
-      <div class="speaker">
-        <img src="/assets/images/speakers/tba_woman.png" alt="TBA Speaker">
-      </div>
-      <div class="text-center"><b>More to follow</b></div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="section-header text-center">
-        <h2>Our
-          <b>Master of Ceremonies</b>
-        </h2>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="speaker">
-        <img src="/assets/images/speakers/simona-cotin.jpg" alt="Simona Cotin">
-        <div class="speaker-info">
-          <h3><b>Simona</b> <br />Cotin</h3>
-          <p>
-            Simona will be with us from Monday the 15th of May, actively participating in DEVit's week, mingling with all of us and sharing her experience and knowledge.
-          </p><p>
-            Simona organizes the AngulasJS meeetup in Dublin and is passionate with rich data visualizations at Openet where she works as a full stack engineer.
-          </p>
-        </div>
-        <ul class="speaker-contacts">
-          <li><a href="https://twitter.com/simona_cotin" target="_blank" class="fa fa-twitter"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
+   <div class="row">
+     {% for speaker in mc %}
+     <div class="{% if mc.size > 1%}col-sm-6{% else %}col-sm-12{% endif %}">
+       <div class="speaker">
+         <a href="/mc/{{ include.year}}/{{speaker.url}}">
+           <img
+             src="/assets/images/speakers/{{include.year}}/{{ speaker.first_name }}_{{ speaker.last_name }}.png"
+             alt="{{ speaker.first_name}} {{speaker.last_name }}"
+             class="img-responsive">
+         </a>
+         <div class="speaker-info">
+           <a href="/mc/{{ include.year}}/{{speaker.url}}">
+             <h3>
+               <b>{{ speaker.first_name }}</b>
+               <br />{{ speaker.last_name }}
+               {% if speaker.nickname %}
+                 <br /><small>({{ speaker.nickname }})</small>
+               {% endif %}
+             </h3>
+           </a>
+         </div>
+       </div>
+     </div>
+     {% endfor %}
+   </div>
+ {% endif %}
 </section>

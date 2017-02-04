@@ -325,3 +325,8 @@ a.button.sold-out:hover {
 .flex-direction-nav {
   display: none;
 }
+
+.breadcrumb {
+  border-radius: 0;
+  margin: 10px 0;
+}

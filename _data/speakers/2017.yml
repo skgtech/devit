@@ -1,0 +1,121 @@
+mc:
+  - url: simona_cotin
+    type: mc
+    first_name: Simona
+    last_name: Cotin
+    social:
+      twitter: simona_cotin
+    bio: |
+      Simona is a enthusiastic full stack engineer building rich data visualization for network data in Openet.
+      Her passion for Angular led her co-organising the AngularJS meetup in Dublin and she's always passionately
+      talking about women in tech. Simona is now part of the DEVit team and we are working together to take the
+      conference to the next level!
+
+speakers:
+  - url: natasha_murashev
+    first_name: Natasha
+    last_name: Murashev
+    nickname: TheRobot
+    social:
+      twitter: natashatherobot
+      github: NatashaTheRobot
+    bio: |
+      Natasha is an iOS developer by day and a robot by night.<br />
+      She blogs about Swift, watchOS, and iOS development on her
+      <a href="http://natashatherobot.com" target="_blank">blog</a>, curates a fast-growing weekly Swift newsletter,
+      <a href="https://swiftnews.curated.co" target="_blank">This Week in Swift</a>, and organizes the
+      <a href="http://www.tryswiftconf.com/en" target="_blank">try! Swift Conference</a>
+      around the world (the next one is in Tokyo!).
+
+  - url: hugo_giraudel
+    first_name: Hugo
+    last_name: Giraudel
+    nickname: CSS goblin
+    social:
+      twitter: HugoGiraudel
+      github: HugoGiraudel
+    bio : |
+      Hugo is a Front-end developer at <a href="https://n26.com" target="_blank">n26</a> in Berlin.
+      CSS goblin, Sass hacker & serial writer. OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
+      <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.
+      Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>.
+      <a href="https://thenetawards.com/longlist/developer/hugo-giraudel/" target="_blank">Net Awards nominee</a>
+
+  - url: james_halliday
+    first_name: James
+    last_name: Halliday
+    nickname: substack
+    social:
+      twitter: substack
+      github: substack
+    bio: |
+      James uses the web and the javascript ecosystem to build p2p offline tools, maps, and webgl visuals.
+      He is the author of <a href="http://browserify.org/" target="_blank">browserify</a> and a prominent
+      member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.
+
+  - url: harry_roberts
+    first_name: Harry
+    last_name: Roberts
+    nickname: CSS Wizardry
+    social:
+      twitter: csswizardry
+      github: csswizardry
+    bio: |
+      With a client list including Google, Unilever, and the United Nations,
+      Harry is an award-winning Consultant Front-end Architect who helps organisations
+      and teams across the globe to plan, build, and maintain product-scale UIs.
+      A Google Developer Expert, he writes on the subjects of CSS architecture, performance,
+      and scalability at <a href="http://csswizardry.com" target="_blank">csswizardry.com</a>;
+      develops and maintains <a href="https://github.com/inuitcss" target="_blank">inuitcss</a>;
+      authored <a href="http://cssguidelin.es" target="_blank">CSS Guidelines</a>; and Tweets at
+      <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.
+
+  - url: zaharenia_atzitzikaki
+    first_name: Zaharenia
+    last_name: Atzitzikaki
+    nickname: sugarenia
+    social:
+      twitter: sugarenia
+      github: sugarenia
+    bio: |
+      Zaharenia cmd-tabs from Sketch to Sublime Text and vice versa all the time.
+      As the Lead Designer at <a href="http://www.workable.com" target="_blank">
+      Workable</a>, she mentors a team of talented designers and helps them design
+      a recruiting tool hiring teams actually like to use. She’s passionate about scalable
+      design systems and has a secret agenda to convert all developers to designers.
+      She writes about design at her <a href="http://sugarenia.com" target="_blank">
+      blog</a> and rambles at Twitter as <a href="http://twitter.com/sugarenia"
+      target="_blank">@sugarenia</a>
+
+  - url: bodil_stokke
+    first_name: Bodil
+    last_name: Stokke
+    social:
+      twitter: bodil
+      github: bodil
+    bio: |
+      Born into an aristocratic Russian-German family, Bodil traveled widely around the
+      Soviet Union as a child. Largely self-educated, she developed an interest in
+      computer science during her teenage years. According to her later claims, in
+      1989 she embarked on a series of world travels, visiting Europe, the Americas,
+      and India. She alleged that during this period she encountered a group of
+      mathematical adepts, the "Haskell Language and Library Committee," who sent
+      her to Glasgow, Scotland, where they trained her to develop her powers of
+      category theory. Both contemporary critics and later biographers have argued
+      that some or all of these foreign visits were fictitious, and that she spent this
+      period writing JavaScript.
+
+  - url: julien_simon
+    first_name: Julien
+    last_name: Simon
+    social:
+      twitter: julsimon
+      github: juliensimon
+    bio: |
+      Principal Technical Evangelist at Amazon Web Services. Before joining AWS,
+      Julien served for 10 years as CTO/VP Engineering in top-tier web startups.
+      Thus, he’s particularly interested in all things architecture, deployment,
+      performance, scalability and data. As a Principal Technical Evangelist, Julien
+      speaks very frequently at conferences and technical workshops, where he
+      meets developers and enterprises to help them bring their ideas to life thanks to
+      the Amazon Web Services infrastructure.
