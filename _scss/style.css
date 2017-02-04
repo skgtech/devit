@@ -1478,21 +1478,26 @@ footer.footer {
   margin-bottom: 40px;
 }
 
+.workshop {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .workshop__title {
   font-weight: bold;
   font-size: 1.4em;
 }
 
 .workshop__img {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.workshop__img img {
-  width: 80%;
-  margin: 0 auto;
 }
 
 .workshop__actions {
   text-align:  center;
+  margin-top: 10px;
+}
+
+.workshop__price {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
 }

@@ -25,43 +25,52 @@ permalink: /workshops/2017/
     <li>Coffee and drinks during the day, lunch will be <b>all provided</b>.</li>
     <li>Please note that a computer will not be provided, so <b>please bring your </b>own laptop to the workshop.</li>
   </ul>
-  <div class="row workshops">
+  <div class="workshops">
 
     {% for workshop in workshops.allDay %}
 
-    <div class="col-md-4 workshop">
+    <div class="workshop">
       <div class="workshop__title">
         <h3>
           {{ workshop.title }}
         </h3>
       </div>
-      <div class="workshop__img">
-        <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="">
-      </div>
-      <div class="workshop__info">
-        <table class="table table-bordered">
-          <tr>
-            <th>Instructor</th>
-            <td>{{ workshop.name }}</td>
-          </tr>
-          <tr>
-            <th>Skill Level</th>
-            <td>{{ workshop.skill }}</td>
-          </tr>
-          <tr>
-            <th>Pre-requisites</th>
-            <td>{{ workshop.prerequisites }}</td>
-          </tr>
-
-        </table>
-        <p>{{ workshop.description }}
-        </p>
-        <p>
-          Only 25 seats available. Ticket Price: <b>250€</b>
-        </p>
-      </div>
-      <div class="workshop__actions">
-          <a href="#" class="button btn-block btn-action workshop__buy">Buy now</a>
+      <div class="row">
+        <div class="col-lg-3 workshop__img">
+          <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="">
+        </div>
+        <div class="col-lg-7 workshop__info">
+          <table class="table">
+            <tr>
+              <th>Instructor</th>
+              <td>{{ workshop.name }}</td>
+            </tr>
+            <tr>
+              <th>Skill Level</th>
+              <td>{{ workshop.skill }}</td>
+            </tr>
+            <tr>
+              <th>Pre-requisites</th>
+              <td>{{ workshop.prerequisites }}</td>
+            </tr>
+            <tr>
+              <th>Description</th>
+              <td>{{ workshop.description }}</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-2">
+          <div>
+            Ticket Price:<br/>
+            <div class="workshop__price">250€</div>
+          </div>
+          <small>
+            Only 25 seats available.
+          </small>
+          <div class="workshop__actions">
+            <a href="#" class="button btn-block btn-action workshop__buy">Buy now</a>
+          </div>
+        </div>
       </div>
     </div>
     {% endfor %}
