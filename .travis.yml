@@ -10,7 +10,7 @@ node_js:
   - 6
 
 rvm:
-  - 2.3.3
+  - 2.2.4
 
 before_install:
   - gem install bundler
