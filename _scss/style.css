@@ -1472,3 +1472,22 @@ footer.footer {
     line-height: 1em;
     margin-top: 4rem;
 }
+
+.workshop__title {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.workshop__img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.workshop__img img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.workshop__actions {
+  text-align:  center;
+}
