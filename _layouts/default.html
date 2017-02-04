@@ -10,14 +10,14 @@
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
   <meta itemprop="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-  <meta itemprop="image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
+  <meta itemprop="image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@devitconf">
 
   <meta name="twitter:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-  <meta name="twitter:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
+  <meta name="twitter:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
   <meta name="twitter:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
 
   <!-- Open Graph data -->
@@ -26,7 +26,7 @@
   <meta property="og:url" content="http://devitconf.org{{ page.url }}">
 
   <meta property="og:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-  <meta property="og:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1474393691">
+  <meta property="og:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
   <meta property="og:type" content="website">
 
   <link href="/assets/css/main.css" rel="stylesheet" media="screen">

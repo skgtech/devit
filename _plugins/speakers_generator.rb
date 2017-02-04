@@ -22,6 +22,10 @@ module Jekyll
       self.read_yaml(File.join(@base, '_layouts'), 'speaker.html')
       self.data['speaker'] = speaker
       self.data['year'] = year
+      self.data['title'] = "#{ speaker['first_name'] } #{speaker['last_name']} - DEVit"
+      self.data['ogTitle'] = "#{ speaker['first_name'] } #{speaker['last_name']} - DEVit"
+      self.data['ogDescription'] = "#{ speaker['bio'].gsub(/<\/?[^>]*>/, "")[0, 150] } ..."
+      self.data['ogImage'] = "/assets/images/speakers/#{year}/#{ speaker['first_name'] }_#{ speaker['last_name'] }.png"
     end
   end
 
