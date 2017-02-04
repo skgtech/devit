@@ -1,11 +1,15 @@
 {% assign speaker = page.speaker %}
 
+<ol class="breadcrumb">
+  <li><a href="/">Devit 2017</a></li>
+  <li><a href="/#speakers">Speakers</a></li>
+  <li class="active">{{ speaker.first_name }} {{ speaker.last_name }}</li>
+</ol>
 <section>
   <div class="row">
-
     <div class="col-sm-12 text-center">
       <img src="/assets/images/speakers/{{ page.year }}/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
-          class="img-circle img-responsive speaker-image">
+          class="img-responsive speaker-image">
     </div>
     <div class="col-sm-12">
       <div class="section-header text-center">
