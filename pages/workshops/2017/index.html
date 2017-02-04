@@ -28,34 +28,53 @@ permalink: /workshops/2017/
     </div>
   </div>
   <div class="row workshops">
+
+    {% for workshop in workshops.allDay %}
+
     <div class="col-md-4 workshop">
       <div class="workshop__title">
         <h3>
-          Introduction to modern techniques of web development for the masses
+          {{ workshop.title }}
         </h3>
       </div>
       <div class="workshop__img">
-        <img class="img-responsive" src="/assets/images/speakers/2017/Bodil_Stokke.png" alt="">
+        <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="">
       </div>
       <div class="workshop__info">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque molestias
-          sit commodi repellat, praesentium rem! Beatae, ipsam, iure. Voluptas mollitia
-          cupiditate, nulla ab similique, aliquid cumque! Illo, molestias, quis!
+        <table class="table table-bordered">
+          <tr>
+            <th>Instructor</th>
+            <td>{{ workshop.name }}</td>
+          </tr>
+          <tr>
+            <th>Skill Level</th>
+            <td>{{ workshop.skill }}</td>
+          </tr>
+          <tr>
+            <th>Pre-requisites</th>
+            <td>{{ workshop.prerequisites }}</td>
+          </tr>
+
+        </table>
+        <p>{{ workshop.description }}
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque molestias
-          sit commodi repellat, praesentium rem! Beatae, ipsam, iure. Voluptas mollitia
-          cupiditate, nulla ab similique, aliquid cumque! Illo, molestias, quis!
+          <h4>What you will learn:</h4>
+          <ul>
+            {% for cover in workshop.covers %}
+            <li>{{ cover }}</li>
+            {% endfor %}
+          </ul>
         </p>
         <p>
-          Lorem ipsum dolor sit amet: <b>250€</b>
+          Only 25 seats available. Ticket Price: <b>250€</b>
         </p>
       </div>
       <div class="workshop__actions">
           <a href="#" class="button btn-block btn-action workshop__buy">Buy now</a>
       </div>
     </div>
+    {% endfor %}
   </div>
   <div class="row">
     <div class="col-sm-12 text-center">
