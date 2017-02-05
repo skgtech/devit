@@ -32,11 +32,9 @@ custom_js:
     {% for workshop in workshops.allDay %}
 
     <div class="workshop">
-      <div class="workshop__title">
-        <h3>
-          {{ workshop.title }}
-        </h3>
-      </div>
+      <h3 class="workshop__title">
+        {{ workshop.title }}
+      </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
           <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="">
