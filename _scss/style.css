@@ -1476,3 +1476,22 @@ footer.footer {
     line-height: 1em;
     margin-top: 4rem;
 }
+
+.footer-menu {
+    margin-bottom: 40px;
+}
+.footer-menu__header {
+    color: white;
+    font-size: 1.4em;
+    border-bottom: 1px solid #6aa7ce;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer-menu__list {
+    list-style: none;
+}
+
+.footer-menu__list li {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
