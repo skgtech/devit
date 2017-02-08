@@ -1482,7 +1482,8 @@ footer.footer {
 }
 .footer-menu__header {
     color: white;
-    font-size: 1.4em;
+    font-size: 14px;
+    font-weight: bold;
     border-bottom: 1px solid #6aa7ce;
     padding-bottom: 10px;
     margin-bottom: 10px;
