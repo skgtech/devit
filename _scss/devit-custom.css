@@ -40,21 +40,6 @@
     border-bottom: 1px solid #fff;
 }
 
-.footer-menu {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-menu li {
-    padding-left: 1em;
-    text-indent: -.7em;
-}
-
-.footer-menu li:before {
-    content: "• ";
-    color: #fff;
-}
-
 .copyrights {
     color: #6AA7CE;
 }

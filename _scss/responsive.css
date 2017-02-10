@@ -38,6 +38,9 @@
     html {
         font-size: 50.5%
     }
+    #footer {
+      background:  #1169a7;
+  }
     .header-background {
         height: 500px;
     }
