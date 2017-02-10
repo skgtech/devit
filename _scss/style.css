@@ -1477,6 +1477,34 @@ footer.footer {
     margin-top: 4rem;
 }
 
+.workshops {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.workshop {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.workshop__title {
+  color: #2A9FD6;
+}
+
+.workshop__img {
+}
+
+.workshop__actions {
+  text-align:  center;
+  margin-top: 10px;
+}
+
+.workshop__price {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
 .footer-menu {
     margin-bottom: 40px;
 }

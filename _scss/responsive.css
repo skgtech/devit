@@ -21,6 +21,20 @@
 }
 
 @media (max-width: 767px) {
+    .workshop__img img {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .workshop__title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .workshop__cart-info {
+      text-align: center;
+    }
+
     html {
         font-size: 50.5%
     }

@@ -1,0 +1,31 @@
+allDay:
+  - name: "James Halliday"
+    title: "Cutting edge web technology whirlwind"
+    description: "In this workshop, you will get hands-on experience with emerging technologies for the web platform."
+    skill: "Intermediate"
+    speakerPhoto: "/assets/images/speakers/2017/James_Halliday.png"
+    prerequisites: "javascript basics, familiarity with npm"
+    covers:
+      - Core node.js and browser abstractions like streams
+      - Websockets
+      - How to stream data to peers over webrtc
+      - How to record and generate audio with the webaudio API
+      - How to connect to devices using web bluetooth
+      - How to sync data with p2p protocols
+      - How to write shaders with webgl to create performant 3d and 2d graphics
+      - Typed arrays in addition to some nifty workflow tricks
+      - A few dozen handy but lesser-known npm packages that will help you to glue everything together
+  - name: "Harry Roberts"
+    title: "Front-end Performance"
+    description: "The Front-end Performance masterclass will help developers to deliver websites to users in record times."
+    skill: "Intermediate"
+    speakerPhoto: "/assets/images/speakers/2017/Harry_Roberts.png"
+    prerequisites: "html, css, javascript, basic networking knowledge"
+    covers:
+      - The moral and business impact of good performance;
+      - How the network really works, and how to play to its strengths and weaknesses;
+      - How to optimise our assets for most effective delivery;
+      - How to trick the browser into downloading things ahead of time;
+      - How to detect and troubleshoot performance issues;
+      - How to measure performance successes;
+      - How to prepare for the performance landscape of tomorrow.
