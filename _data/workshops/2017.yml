@@ -29,3 +29,24 @@ allDay:
       - How to detect and troubleshoot performance issues;
       - How to measure performance successes;
       - How to prepare for the performance landscape of tomorrow.
+open:
+  - name: "Zaharenia Atzitzikaki"
+    title: "To Be Announced"
+    track: 1 # 1 to 3 or more if we add more
+    slot: 2 # 1 to 3
+    description: "TBA"
+    skill: "TBA"
+    speakerPhoto: "/assets/images/speakers/2017/Zaharenia_Atzitzikaki.png"
+    prerequisites: "TBA"
+    covers:
+      - TBA
+  - name: "Hugo Giraudel"
+    title: "To Be Announced"
+    track: 1 # 1 to 3 or more if we add more
+    slot: 2 # 1 to 3
+    description: "TBA"
+    skill: "TBA"
+    speakerPhoto: "/assets/images/speakers/2017/Hugo_Giraudel.png"
+    prerequisites: "TBA"
+    covers:
+      - TBA
