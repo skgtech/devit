@@ -1492,10 +1492,18 @@ footer.footer {
 }
 
 .workshop__img {
+
+}
+
+.workshop-open__img {
 }
 
 .workshop__actions {
   text-align:  center;
+  margin-top: 10px;
+}
+
+.workshop-open__info {
   margin-top: 10px;
 }
 
