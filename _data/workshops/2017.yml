@@ -31,7 +31,7 @@ allDay:
       - How to prepare for the performance landscape of tomorrow.
   - name: "Julien Simon"
     title: "Scaling  from 0 to millions of users with AWS"
-    description: "The goal of this workshop is to teach you how to build scalable web platforms on AWS."
+    description: "The goal of this workshop is to teach you how to build scalable web platforms on AWS. Along the way, we’ll play with a lot of AWS services and see how they can help us build better and faster."
     skill: "Intermediate"
     speakerPhoto: "/assets/images/speakers/2017/Julien_Simon.png"
     prerequisites: "basic Linux skills, basic infrastructure concepts, basic Python/SQL/JSON/YAML, AWS account, desire to learn and build"
