@@ -119,3 +119,20 @@ speakers:
       speaks very frequently at conferences and technical workshops, where he
       meets developers and enterprises to help them bring their ideas to life thanks to
       the Amazon Web Services infrastructure.
+      
+  - url: florian_schaffler
+    first_name: Florian
+    last_name: Schaffler
+    social:
+      github: fschaeffler
+    bio: |
+      Μy name is Florian and I grew up in a small town in Bavaria, Germany.
+      During and after my B.Sc. in Computer Networking, I started doing software development
+      in Cape Town and Munich. In the time following, I did a M.Eng. in Software Engineering
+      next to my job. This had also been when I started my own little company, with which I 
+      did e.g. build up the whole IT-infrastructure of a startup that recently got valued 
+      at 4.5M Euro. Right now I'm Head of IT for a startup (HiKey Resources / hikey.io), who is 
+      developing software for the mining industry. In addition to that, I'm a private lecturer 
+      on "Scalable Web-Applications in the Cloud" at a German university for a Master in Software 
+      Engineering. If I need to sum up my professional background in three expressions, it would be 
+      AWS Enthusiast, Software Lover, Process Coach.
