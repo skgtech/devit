@@ -18,6 +18,10 @@
     .hotel.pull-right {
         float: none !important;
     }
+    .breadcrumb {
+        border-radius: 0;
+        margin: 70px 0 10px 0;
+    }
 }
 
 @media (max-width: 767px) {

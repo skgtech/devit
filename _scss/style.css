@@ -578,23 +578,23 @@ Navigation
 }
 
 .navbar-custom .navbar-nav > li > a.register {
-    border: none;
+    border-color: #6aa7cf;
     position: absolute;
     right: 0;
     display: block;
-    height: 8rem;
-    line-height: 2rem;
+    /*height: 8rem;*/
+    /*line-height: 2rem;*/
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 3rem 4rem;
+    /*padding: 3rem 4rem;*/
     color: #fff;
 }
 
 .navbar-custom .navbar-nav > li > a.register:hover,
 .navbar-custom .navbar-nav > li > a.register:focus {
-    color: #222;
-    background: white;
+    color: #6aa7cf;
+    background-color: white;
 }
 
 .navbar-custom .navbar-nav > li > a.previous {
