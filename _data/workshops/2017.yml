@@ -17,18 +17,43 @@ allDay:
       - A few dozen handy but lesser-known npm packages that will help you to glue everything together
   - name: "Harry Roberts"
     title: "Front-end Performance"
-    description: "The Front-end Performance masterclass will help developers to deliver websites to users in record times."
+    description: "Every case-study, every report, and every bit of feedback always tells us the same thing: speed matters. It’s good for users, it’s good for accessibility, and it’s good for business. But why are modern browsing experiences so slow? If technology is getting better, why are websites getting worse?"
     skill: "Intermediate"
     speakerPhoto: "/assets/images/speakers/2017/Harry_Roberts.png"
-    prerequisites: "html, css, javascript, basic networking knowledge"
+    prerequisites: "html, css, javascript, basic networking knowledge, something for making **a lot** of notes."
     covers:
-      - The moral and business impact of good performance;
-      - How the network really works, and how to play to its strengths and weaknesses;
-      - How to optimise our assets for most effective delivery;
-      - How to trick the browser into downloading things ahead of time;
-      - How to detect and troubleshoot performance issues;
-      - How to measure performance successes;
-      - How to prepare for the performance landscape of tomorrow.
+      - How the network really works, and how to design around it;
+      - How to keep websites fast whilst keeping clients and stakeholders happy;
+      - How to optimise our assets for faster delivery;
+      - How to trick the browser into delivering assets with different priorities;
+      - How to measure and profile performance wins and losses;
+      - A whole host of tips, tricks, and techniques to help us deliver the same
+        experiences in record times;
+      - A bunch of fascinating little factoids and trivia which help shine a light on
+        what’s really going on under the hood;
+      - How to prepare for the web (and its users) of tomorrow;
+      - lots of naughty little micro-optimisations, just for fun;
+      - And a lot, lot more.
+  - name: "Julien Simon"
+    title: "Scaling  from 0 to millions of users with AWS"
+    description: "The goal of this workshop is to teach you how to build scalable web platforms on AWS. Along the way, we’ll play with a lot of AWS services and see how they can help us build better and faster."
+    skill: "Intermediate"
+    speakerPhoto: "/assets/images/speakers/2017/Julien_Simon.png"
+    prerequisites: "basic Linux skills, basic infrastructure concepts, basic Python/SQL/JSON/YAML, AWS account, desire to learn and build"
+    covers:
+      - Virtual private cloud (VPC)
+      - Elastic Compute Cloud (EC2)
+      - Elastic Block store (EBS)
+      - Relational Database Service (RDS)
+      - NoSQL Cloud Database Service (DynamoDB)
+      - Simple Storage Service (S3)
+      - CloudFront Content Delivery Network (CDN)
+      - Elastic Load Balancing (ELB)
+      - EC2 Container Registry (ECR)
+      - EC2 Container Service (ECS)
+      - Auto Scaling
+      - Automate infrastructure builds with CloudFormation
+      - Serverless compute (Lambda)
 open:
   - name: "Zaharenia Atzitzikaki"
     title: "To Be Announced"
