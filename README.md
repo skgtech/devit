@@ -35,6 +35,24 @@ bundle install
 yarn
 ```
 
+### Troubleshooting nokogiri
+
+nokogiri can be a big PITA, first try this:
+
+```shell
+bundle update nokogiri
+```
+
+And if that fails maybe try this:
+
+```shell
+brew unlink libxml2
+brew unlink libxslt
+brew unlink libiconv
+sudo xcode-select --install
+gem install nokogiri
+```
+
 ## Build Commands
 
 * `gulp`: Launch the website locally, a development workflow with livereloads and watches.
@@ -52,15 +70,15 @@ For the underscore prefixed (_*) directories, except `_js`, please refer to the 
 
 ## CSS
 
-We write CSS using SASS but with not a specific methodology. Hence, it is known that our current code is a bit messed up. 
-First step is to clean our current CSS codebase and then find a proper methodology to use. 
+We write CSS using SASS but with not a specific methodology. Hence, it is known that our current code is a bit messed up.
+First step is to clean our current CSS codebase and then find a proper methodology to use.
 
 Step up if you think you can help!
 
 ### JS
 
-We use webpack to compile our JavaScript. All assets/dependencies(except the critical ones, such as base CSS) 
-are being loading through JS files. 
+We use webpack to compile our JavaScript. All assets/dependencies(except the critical ones, such as base CSS)
+are being loading through JS files.
 
 An example is the `_js/homepage.js` file, where:
 

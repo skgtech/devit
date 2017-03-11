@@ -1,5 +1,11 @@
+# **BEWARE**
+# Although we separate the workshops to "all day" and "open"
+# their schemas must remain in parity because they get looped
+# on the same templates.
 allDay:
   - name: "James Halliday"
+    type: "allDay"
+    url: "james-halliday--cutting-edge-web-technology-whirlwind"
     title: "Cutting edge web technology whirlwind"
     description: "In this workshop, you will get hands-on experience with emerging technologies for the web platform."
     skill: "Intermediate"
@@ -16,6 +22,8 @@ allDay:
       - Typed arrays in addition to some nifty workflow tricks
       - A few dozen handy but lesser-known npm packages that will help you to glue everything together
   - name: "Harry Roberts"
+    type: "allDay"
+    url: "harry-roberts--front-end-performance"
     title: "Front-end Performance"
     description: "Every case-study, every report, and every bit of feedback always tells us the same thing: speed matters. It’s good for users, it’s good for accessibility, and it’s good for business. But why are modern browsing experiences so slow? If technology is getting better, why are websites getting worse?"
     skill: "Intermediate"
@@ -56,6 +64,7 @@ allDay:
       - Serverless compute (Lambda)
 open:
   - name: "Zaharenia Atzitzikaki"
+    type: "open"
     title: "To Be Announced"
     track: 1 # 1 to 3 or more if we add more
     slot: 2 # 1 to 3
@@ -66,6 +75,7 @@ open:
     covers:
       - TBA
   - name: "Hugo Giraudel"
+    type: "open"
     title: "To Be Announced"
     track: 1 # 1 to 3 or more if we add more
     slot: 2 # 1 to 3
