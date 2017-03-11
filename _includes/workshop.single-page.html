@@ -12,7 +12,7 @@ custom_js:
 
   <ol class="breadcrumb">
     <li><a href="/">DEVit 2017</a></li>
-    <li><a href="/workshops/2017/"></a>Workshops</li>
+    <li><a href="/workshops/2017/">Workshops</a></li>
     <li class="active">{{ workshop.title }}</li>
   </ol>
   <section>
@@ -25,7 +25,7 @@ custom_js:
   </section>
   <section>
     <ul class="list-unstyled">
-      {% if workshop.type == "allDay" }
+      {% if workshop.type == "allDay" %}
       <li>All day Workshop Ticket price: <b>€250</b></li>
       <li>Limited to <b>25 seats</b> / workshop.</li>
       <li>Schedule: <b>11:00 AM - 8:00 PM</b>. Registration will start at <b>10:00 AM</b>.</li>
@@ -72,6 +72,16 @@ custom_js:
           <div class="workshop__actions">
             <a target="blank" href="http://devit2017.eventzilla.net/" class="button btn-block btn-action workshop__buy">Buy now</a>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 style="margin-top:50px;">This workshop covers:</h3>
+          <ul>
+            {% for cover in workshop.covers %}
+            <li style="padding-top:10px;">{{ cover }}</li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
