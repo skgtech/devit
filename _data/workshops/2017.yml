@@ -43,7 +43,9 @@ allDay:
       - lots of naughty little micro-optimisations, just for fun;
       - And a lot, lot more.
   - name: "Julien Simon"
-    title: "Scaling  from 0 to millions of users with AWS"
+    type: "allDay"
+    url: "julien-simon--scaling-from-0-to-millions-of-users-with-aws"
+    title: "Scaling from 0 to millions of users with AWS"
     description: "The goal of this workshop is to teach you how to build scalable web platforms on AWS. Along the way, we’ll play with a lot of AWS services and see how they can help us build better and faster."
     skill: "Intermediate"
     speakerPhoto: "/assets/images/speakers/2017/Julien_Simon.png"
