@@ -26,5 +26,8 @@ assets/css/
 # Ignore for rbenv
 .gems
 
+# Ignore for rvm
+.ruby-gemset
+
 # git related
 .gitconfig
