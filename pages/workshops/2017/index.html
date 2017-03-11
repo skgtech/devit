@@ -40,7 +40,7 @@ custom_js:
 
     <div class="workshop">
       <h3 class="workshop__title">
-        {{ workshop.title }}
+        <a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
@@ -65,6 +65,7 @@ custom_js:
               <td>{{ workshop.description }}</td>
             </tr>
           </table>
+          <a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">More info...</a>
         </div>
         <div class="col-lg-2 workshop__cart-info">
           <div>
