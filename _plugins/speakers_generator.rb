@@ -19,7 +19,7 @@ module Jekyll
       @dir = type + "/" + year + "/" + speaker['url']
       @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(@base, '_layouts'), 'speaker.html')
+      self.read_yaml(File.join(@base, '_includes'), 'speaker.single-page.html')
       self.data['speaker'] = speaker
       self.data['year'] = year
       self.data['title'] = "#{ speaker['first_name'] } #{speaker['last_name']} - DEVit"
