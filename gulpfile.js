@@ -9,7 +9,7 @@ const path = require('path');
 const fs = require('fs');
 const ghPages = require('gulp-gh-pages');
 const minimist = require('minimist');
-const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'bundle';
 const messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
   };
@@ -53,7 +53,8 @@ gulp.task('rebuild-webpack', ['webpack'], function () {
 
 gulp.task('jekyll-build', function (done) {
     bs.notify(messages.jekyllBuild);
-    cp.spawnSync(jekyll, ['build','--config',options.config], { stdio: 'inherit' });
+    let o = null;
+    o = cp.spawnSync(jekyll, ['exec', 'jekyll', 'build', '--config', options.config], { stdio: 'inherit' });
     done();
   });
 
