@@ -1,0 +1,72 @@
+---
+layout: default
+title: LIVE DEVit Conference - Thessaloniki 20-21 May 2017
+metaTitle: DEVit the 360° Web Development Conference
+metaDescription: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+permalink: /live
+custom_js:
+- live.bundle.js
+---
+{% assign speakers=site.data.speakers.2017.speakers %}
+
+<script>
+  var speakers = [
+    {% for speaker in speakers %}
+      {
+        last_name: "{{speaker.last_name}}",
+        url: "{{speaker.url}}"
+      },
+    {% endfor %}
+  ];
+</script>
+
+<home data-page="true">
+  <header class="header-bar">
+    <div class="center">
+      <h1 class="title">Home</h1>
+    </div>
+  </header>
+  <div class="content">
+    <h1>Home</h1>
+  </div>
+  <nav class="tabs">
+    <div class="tab-items">
+      <a class="tab-item"><i class="icon icon-home"></i></a>
+      <a class="tab-item"><i class="icon icon-info-outline"></i></a>
+      <a class="tab-item"><i class="icon icon-settings"></i></a>
+      <a class="tab-item"><i class="icon icon-sync"></i></a>
+      <a class="tab-item"><i class="icon icon-menu"></i></a>
+    </div>
+  </nav>
+</home>
+
+<schedule data-page="true">
+  <header class="header-bar">
+    <div class="center">
+      <h1 class="title">Schedule</h1>
+    </div>
+  </header>
+  <div class="content">
+    <ul class="list">
+      {% for speaker in speakers %}
+        <li>
+          <img src="/assets/images/speakers/2017/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}" class="pull-left">
+          <a href="#!{{speaker.url}}" class="padded-list">{{speaker.last_name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</schedule>
+
+{% for speaker in speakers %}
+<{{speaker.url}} data-page="true">
+  <header class="header-bar">
+    <div class="center">
+      <h1 class="title">{{speaker.last_name}}</h1>
+    </div>
+  </header>
+  <div class="content">
+    <h1>{{speaker.last_name}}</h1>
+  </div>
+</{{speaker.url}}>
+{% endfor %}
