@@ -1,0 +1,41 @@
+header,
+.content,
+.header-bar,
+body {
+  background: #F8FCFF;
+}
+
+.header-bar .btn,
+.header-bar .title {
+  color: #003F74;
+}
+
+.speaker {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.speaker-page .speaker__img,
+.schedule .speaker__img {
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 50px
+}
+.schedule .speaker__img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.speaker-page .header-bar {
+  background: #00639F;
+  height: 250px;
+}
+.speaker-page .content {
+  margin-top: 250px;
+}
+.speaker-page .header-bar .btn,
+.speaker-page .header-bar .title {
+  color: white;
+}
