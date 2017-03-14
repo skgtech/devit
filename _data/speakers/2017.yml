@@ -1,5 +1,5 @@
 mc:
-  - url: simona_cotin
+  - url: simonacotin
     type: mc
     first_name: Simona
     last_name: Cotin
@@ -7,12 +7,12 @@ mc:
       twitter: simona_cotin
     bio: |
       Simona is a enthusiastic full stack engineer building rich data visualization for network data in Openet.
-      Her passion for Angular led her co-organising the AngularJS meetup in Dublin and she's always passionately
+      Her passion for Angular led her co-organising the AngularJS meetup in Dublin and she is always passionately
       talking about women in tech. Simona is now part of the DEVit team and we are working together to take the
       conference to the next level!
 
 speakers:
-  - url: natasha_murashev
+  - url: natashamurashev
     first_name: Natasha
     last_name: Murashev
     nickname: TheRobot
@@ -27,7 +27,7 @@ speakers:
       <a href="http://www.tryswiftconf.com/en" target="_blank">try! Swift Conference</a>
       around the world (the next one is in Tokyo!).
 
-  - url: hugo_giraudel
+  - url: hugogiraudel
     first_name: Hugo
     last_name: Giraudel
     nickname: CSS goblin
@@ -41,7 +41,7 @@ speakers:
       Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>.
       <a href="https://thenetawards.com/longlist/developer/hugo-giraudel/" target="_blank">Net Awards nominee</a>
 
-  - url: james_halliday
+  - url: jameshalliday
     first_name: James
     last_name: Halliday
     nickname: substack
@@ -53,7 +53,7 @@ speakers:
       He is the author of <a href="http://browserify.org/" target="_blank">browserify</a> and a prominent
       member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.
 
-  - url: harry_roberts
+  - url: harryroberts
     first_name: Harry
     last_name: Roberts
     nickname: CSS Wizardry
@@ -70,7 +70,7 @@ speakers:
       authored <a href="http://cssguidelin.es" target="_blank">CSS Guidelines</a>; and Tweets at
       <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.
 
-  - url: zaharenia_atzitzikaki
+  - url: zahareniaatzitzikaki
     first_name: Zaharenia
     last_name: Atzitzikaki
     nickname: sugarenia
@@ -87,7 +87,7 @@ speakers:
       blog</a> and rambles at Twitter as <a href="http://twitter.com/sugarenia"
       target="_blank">@sugarenia</a>
 
-  - url: bodil_stokke
+  - url: bodilstokke
     first_name: Bodil
     last_name: Stokke
     social:
@@ -105,7 +105,7 @@ speakers:
       that some or all of these foreign visits were fictitious, and that she spent this
       period writing JavaScript.
 
-  - url: julien_simon
+  - url: juliensimon
     first_name: Julien
     last_name: Simon
     social:
@@ -119,8 +119,8 @@ speakers:
       speaks very frequently at conferences and technical workshops, where he
       meets developers and enterprises to help them bring their ideas to life thanks to
       the Amazon Web Services infrastructure.
-      
-  - url: florian_schaffler
+
+  - url: florianschaffler
     first_name: Florian
     last_name: Schaffler
     social:
@@ -129,10 +129,10 @@ speakers:
       Μy name is Florian and I grew up in a small town in Bavaria, Germany.
       During and after my B.Sc. in Computer Networking, I started doing software development
       in Cape Town and Munich. In the time following, I did a M.Eng. in Software Engineering
-      next to my job. This had also been when I started my own little company, with which I 
-      did e.g. build up the whole IT-infrastructure of a startup that recently got valued 
-      at 4.5M Euro. Right now I'm Head of IT for a startup (HiKey Resources / hikey.io), who is 
-      developing software for the mining industry. In addition to that, I'm a private lecturer 
-      on "Scalable Web-Applications in the Cloud" at a German university for a Master in Software 
-      Engineering. If I need to sum up my professional background in three expressions, it would be 
+      next to my job. This had also been when I started my own little company, with which I
+      did e.g. build up the whole IT-infrastructure of a startup that recently got valued
+      at 4.5M Euro. Right now I am Head of IT for a startup (HiKey Resources / hikey.io), who is
+      developing software for the mining industry. In addition to that, I am a private lecturer
+      on "Scalable Web-Applications in the Cloud" at a German university for a Master in Software
+      Engineering. If I need to sum up my professional background in three expressions, it would be
       AWS Enthusiast, Software Lover, Process Coach.
