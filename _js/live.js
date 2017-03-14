@@ -3,9 +3,11 @@ require('./vendor/phonon/dist/js/phonon-core.js')
 require('./vendor/phonon/dist/css/phonon.css')
 require('./vendor/phonon/dist/css/theme.css')
 
+require('../_scss/live.css')
+
 phonon.options({
   navigator: {
-    defaultPage: 'home',
+    defaultPage: 'schedule',
     animatePages: true,
     enableBrowserBackButton: true
   },
