@@ -136,3 +136,13 @@ speakers:
       on "Scalable Web-Applications in the Cloud" at a German university for a Master in Software 
       Engineering. If I need to sum up my professional background in three expressions, it would be 
       AWS Enthusiast, Software Lover, Process Coach.
+   
+  - url: vladimir_grinenko
+    first_name: Vladimir
+    last_name: Grinenko
+    social:
+      twitter: tadatuta
+      github: tadatuta
+    bio: |
+      Team leader in Yandex, frontend developer, <a href="https://en.bem.info/" target="_blank">BEM</a> evangelist. 
+      Answers BEM questions 24/7, speaker at numerous international IT conferences.
