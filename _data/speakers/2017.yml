@@ -145,7 +145,7 @@ speakers:
     bio: |
       Team leader in Yandex, frontend developer, <a href="https://en.bem.info/" target="_blank">BEM</a> evangelist.
       Answers BEM questions 24/7, speaker at numerous international IT conferences.
-      
+     
   - url: rita_zhang
     first_name: Rita
     last_name: Zhang
@@ -155,3 +155,15 @@ speakers:
     bio: |
      Rita Zhang is an Open Source Engineer at Microsoft in San Francisco. She spends most of her days hacking 
      away on GitHub.
+
+  - url: antonio_peric
+    first_name: Antonio
+    last_name: Peric
+    social:
+      twitter: antonioperic
+      github: antonioperic
+    bio: |
+      Antonio is CEO at Locastic, a development agency based in Croatia. For the last 10 years he has been developing
+      web applications, and for more then 6 years he's been using Symfony as his main tool. During that time, he helped 
+      a lot of various clients to build amazing products and applications. In his free time he is working on a PhD in 
+      Computer Science. 
