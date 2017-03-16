@@ -146,3 +146,13 @@ speakers:
     bio: |
       Team leader in Yandex, frontend developer, <a href="https://en.bem.info/" target="_blank">BEM</a> evangelist. 
       Answers BEM questions 24/7, speaker at numerous international IT conferences.
+      
+  - url: rita_zhang
+    first_name: Rita
+    last_name: Zhang
+    social:
+      twitter: ritazzhang
+      github: ritazh
+    bio: |
+     Rita Zhang is an Open Source Engineer at Microsoft in San Francisco. She spends most of her days hacking 
+     away on GitHub.
