@@ -38,8 +38,7 @@ speakers:
       Hugo is a Front-end developer at <a href="https://n26.com" target="_blank">n26</a> in Berlin.
       CSS goblin, Sass hacker & serial writer. OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
       <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.
-      Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>.
-      <a href="https://thenetawards.com/longlist/developer/hugo-giraudel/" target="_blank">Net Awards nominee</a>
+      Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>. Net Awards nominee.
 
   - url: james_halliday
     first_name: James
@@ -119,7 +118,7 @@ speakers:
       speaks very frequently at conferences and technical workshops, where he
       meets developers and enterprises to help them bring their ideas to life thanks to
       the Amazon Web Services infrastructure.
-      
+
   - url: florian_schaffler
     first_name: Florian
     last_name: Schaffler
@@ -129,14 +128,14 @@ speakers:
       Μy name is Florian and I grew up in a small town in Bavaria, Germany.
       During and after my B.Sc. in Computer Networking, I started doing software development
       in Cape Town and Munich. In the time following, I did a M.Eng. in Software Engineering
-      next to my job. This had also been when I started my own little company, with which I 
-      did e.g. build up the whole IT-infrastructure of a startup that recently got valued 
-      at 4.5M Euro. Right now I'm Head of IT for a startup (HiKey Resources / hikey.io), who is 
-      developing software for the mining industry. In addition to that, I'm a private lecturer 
-      on "Scalable Web-Applications in the Cloud" at a German university for a Master in Software 
-      Engineering. If I need to sum up my professional background in three expressions, it would be 
+      next to my job. This had also been when I started my own little company, with which I
+      did e.g. build up the whole IT-infrastructure of a startup that recently got valued
+      at 4.5M Euro. Right now I'm Head of IT for a startup (HiKey Resources / hikey.io), who is
+      developing software for the mining industry. In addition to that, I'm a private lecturer
+      on "Scalable Web-Applications in the Cloud" at a German university for a Master in Software
+      Engineering. If I need to sum up my professional background in three expressions, it would be
       AWS Enthusiast, Software Lover, Process Coach.
-   
+
   - url: vladimir_grinenko
     first_name: Vladimir
     last_name: Grinenko
@@ -144,5 +143,5 @@ speakers:
       twitter: tadatuta
       github: tadatuta
     bio: |
-      Team leader in Yandex, frontend developer, <a href="https://en.bem.info/" target="_blank">BEM</a> evangelist. 
+      Team leader in Yandex, frontend developer, <a href="https://en.bem.info/" target="_blank">BEM</a> evangelist.
       Answers BEM questions 24/7, speaker at numerous international IT conferences.
