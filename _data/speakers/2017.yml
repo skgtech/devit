@@ -176,7 +176,7 @@ speakers:
       github: andygrunwald
     bio: |
       Software Engineer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>, organizer of <a href="https://twitter.com/webengdus" target="_blank">@WebEngDUS</a>, loves open source and working with motivated people
-      
+
   - url: mete_atamel
     first_name: Mete
     last_name: Atamel
@@ -184,6 +184,6 @@ speakers:
       twitter: meteatamel
       github: meteatamel
     bio: |
-      I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a 
-      long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at 
-      Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. 
+      I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a
+      long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at
+      Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms.
