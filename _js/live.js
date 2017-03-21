@@ -1,9 +1,4 @@
-require('./vendor/phonon/dist/js/phonon-core.js')
-
-require('./vendor/phonon/dist/css/phonon.css')
-require('./vendor/phonon/dist/css/theme.css')
-
-require('../_scss/live.css')
+require('phonon/dist/js/phonon-core.js')
 
 phonon.options({
   navigator: {
