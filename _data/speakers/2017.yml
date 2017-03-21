@@ -201,3 +201,13 @@ speakers:
       of Android, working on it since the 1.4 days :) Somewhere during that journey I decided to read for a PhD and along 
       the same time I shifted my professional career in gaming, especially mobile gaming and been working with Unity3D 
       ever since.
+      
+  - url: jason_poon
+    first_name: Jason
+    last_name: Poon
+    social:
+      twitter: jasonthepoon
+      github: jpoon
+    bio: |
+      Raised in the snowbanks of Canada, Jason feeds on code, satisfying that daily appetite as an open source developer 
+      at Microsoft.ions.
