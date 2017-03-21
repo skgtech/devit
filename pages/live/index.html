@@ -8,17 +8,8 @@ custom_js:
 - live.bundle.js
 ---
 {% assign speakers=site.data.speakers.2017.speakers %}
-
-<script>
-  var speakers = [
-    {% for speaker in speakers %}
-      {
-        last_name: "{{speaker.last_name}}",
-        url: "{{speaker.url}}"
-      },
-    {% endfor %}
-  ];
-</script>
+{% assign allDayWorkshops=site.data.workshops.2017.allDay %}
+{% assign openWorkshops=site.data.workshops.2017.open %}
 
 <schedule class="schedule" data-page="true">
   <header class="header-bar">
@@ -66,4 +57,40 @@ custom_js:
     <p>{{speaker.bio}}</p>
   </div>
 </{{speaker.url}}>
+{% endfor %}
+
+{% for workshop in allDayWorkshops %}
+<{{workshop.type}}-{{workshop.name | slugify}} class="speaker-page" data-page="true">
+  <header class="header-bar">
+    <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
+    <div class="center">
+      <img src="{{workshop.speakerPhoto}}" alt="{{ workshop.name }}"
+        class="speaker__img">
+      <h1 class="title">{{workshop.name}}</h1>
+      <span class="company">Facebook</span>
+    </div>
+  </header>
+  <div class="content">
+    <span>About {{workshop.title}}</span>
+    <p>{{workshop.description}}</p>
+  </div>
+</{{workshop.type}}-{{workshop.name | slugify}}>
+{% endfor %}
+
+{% for workshop in openWorkshops %}
+<{{workshop.type}}-{{workshop.name | slugify}} class="speaker-page" data-page="true">
+  <header class="header-bar">
+    <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
+    <div class="center">
+      <img src="{{workshop.speakerPhoto}}" alt="{{ workshop.name }}"
+        class="speaker__img">
+      <h1 class="title">{{workshop.name}}</h1>
+      <span class="company">Facebook</span>
+    </div>
+  </header>
+  <div class="content">
+    <span>About {{workshop.title}}</span>
+    <p>{{workshop.description}}</p>
+  </div>
+</{{workshop.type}}-{{workshop.name | slugify}}>
 {% endfor %}
