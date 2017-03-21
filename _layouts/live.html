@@ -51,7 +51,12 @@
 
   {{ content }}
 
-   {% include scripts.html %}
+  <script src="/assets/js/commons.js"></script>
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+      <script src='/assets/js/{{ js_file }}'></script>
+    {% endfor %}
+  {% endif %}
   {% include googleanalytics.html %}
 
 </body>

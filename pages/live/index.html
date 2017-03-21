@@ -19,19 +19,19 @@ custom_js:
   </header>
   <div class="content">
     <ul class="list">
-      {% for speaker in speakers %}
+      {% for workshop in allDayWorkshops %}
         <li class="speaker">
-          <a href="#!{{speaker.url}}" class="">
+          <a href="#!{{workshop.type | slugify}}-{{workshop.name | slugify}}" class="">
             <div class="pull-left">
               <span>19:00</span>
               <img
-                src="/assets/images/speakers/2017/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
+                src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}"
                 class="speaker__img">
             </div>
             <i class="icon icon-arrow-forward pull-right"></i>
             <div class="item-content">
-              <span class="title">{{speaker.last_name}}</span>
-              <span class="body">Small text</span>
+              <span class="title">{{ workshop.title }}</span>
+              <span class="body">{{ workshop.name }}</span>
             </div>
           </a>
         </li>
@@ -60,25 +60,30 @@ custom_js:
 {% endfor %}
 
 {% for workshop in allDayWorkshops %}
-<{{workshop.type}}-{{workshop.name | slugify}} class="speaker-page" data-page="true">
+<{{workshop.type | slugify}}-{{workshop.name | slugify}} class="talk-page" data-page="true">
   <header class="header-bar">
     <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
     <div class="center">
-      <img src="{{workshop.speakerPhoto}}" alt="{{ workshop.name }}"
-        class="speaker__img">
-      <h1 class="title">{{workshop.name}}</h1>
+      <h1 class="title">{{workshop.title}}</h1>
       <span class="company">Facebook</span>
     </div>
   </header>
   <div class="content">
-    <span>About {{workshop.title}}</span>
-    <p>{{workshop.description}}</p>
+    <div class="section">
+      <span>Description</span>
+      <p>{{workshop.description}}</p>
+    </div>
+    <div class="section">
+      <img src="{{workshop.speakerPhoto}}" alt="{{ workshop.name }}" class="pull-left speaker__img">
+      <p>{{workshop.name}}</p>
+      <a href="#!jameshalliday" class="btn pull-right icon icon-arrow-forward"></a>
+    </div>
   </div>
-</{{workshop.type}}-{{workshop.name | slugify}}>
+</{{workshop.type | slugify}}-{{workshop.name | slugify}}>
 {% endfor %}
 
 {% for workshop in openWorkshops %}
-<{{workshop.type}}-{{workshop.name | slugify}} class="speaker-page" data-page="true">
+<{{workshop.type | slugify}}-{{workshop.name | slugify}} class="speaker-page" data-page="true">
   <header class="header-bar">
     <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
     <div class="center">
@@ -92,5 +97,5 @@ custom_js:
     <span>About {{workshop.title}}</span>
     <p>{{workshop.description}}</p>
   </div>
-</{{workshop.type}}-{{workshop.name | slugify}}>
+</{{workshop.type | slugify}}-{{workshop.name | slugify}}>
 {% endfor %}
