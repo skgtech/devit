@@ -187,3 +187,17 @@ speakers:
       I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a
       long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at
       Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms.
+      
+  - url: ivo_neskovic
+    first_name: Ivo
+    last_name: Neskovic
+    social:
+      twitter: trumpets
+      github: trumpets
+    bio: |
+      A really passionate dev, dabbling in engineering since my early ages. After getting both my BSc and my MSc I 
+      immediately jumped into enterprise applications development, focusing on the full stack, from the back end to the 
+      front end. Throughout the years my focus shifted more towards the back end but also I was one of the early adopters 
+      of Android, working on it since the 1.4 days :) Somewhere during that journey I decided to read for a PhD and along 
+      the same time I shifted my professional career in gaming, especially mobile gaming and been working with Unity3D 
+      ever since.
