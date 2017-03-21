@@ -1,11 +1,12 @@
 @import "phonon/dist/css/phonon";
-@import "phonon/dist/css/theme";
+
+$blue: #003F74;
 
 header,
 .content,
 .header-bar,
 body {
-  background: #F8FCFF;
+  background: none;
 }
 
 .header-bar .btn,
@@ -13,33 +14,105 @@ body {
   color: #003F74;
 }
 
-.speaker {
+.header-bar .title {
+  font-weight: bold;
+  font-size: 26px;
+  color: $blue;
+
+  span {
+    opacity: 0.5;
+  }
+}
+
+.list li .item-content {
+  line-height: 25px;
+}
+.schedule-item {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.talk-page .speaker__img,
-.speaker-page .speaker__img,
-.schedule .speaker__img {
-  border-radius: 50%;
-  width: 100px;
-  margin-top: 50px
+.schedule-item__title {
+  font-weight: 500;
+  color: $blue;
+  font-size: 16px;
 }
-.schedule .speaker__img {
+.schedule-item__duration,
+.schedule-item__name {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.talk-page__speaker-img,
+.schedule-item__img {
   margin-left: 10px;
   margin-right: 10px;
   width: 35px;
   height: 35px;
+  border-radius: 50%;
 }
 
-.speaker-page .header-bar {
-  background: #00639F;
-  height: 250px;
+.section {
+  border-radius: 3px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+
+  &:after{
+    clear: both;
+    content: "";
+    display: block;
+  }
 }
+
+.speaker-page .speaker__img {
+  width: 100px;
+  margin-top: 50px
+}
+
+.talk-page,
+.speaker-page {
+  background: url(/assets/images/live/header.svg), #F7FCFF;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.talk-page .header-bar,
+.speaker-page .header-bar {
+  height: 250px;
+  padding-top: 50px;
+  color: white;
+
+  .center {
+    top: 50px;
+  }
+
+  .type {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.4;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .duration {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+}
+.talk-page .content,
 .speaker-page .content {
   margin-top: 250px;
 }
+.talk-page .header-bar .btn,
 .speaker-page .header-bar .btn,
+.talk-page .header-bar .title,
 .speaker-page .header-bar .title {
   color: white;
 }
