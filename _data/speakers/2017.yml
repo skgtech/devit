@@ -211,3 +211,12 @@ speakers:
     bio: |
       Raised in the snowbanks of Canada, Jason feeds on code, satisfying that daily appetite as an open source developer 
       at Microsoft.ions.
+      
+  - url: melanie_patrick
+    first_name: Melanie
+    last_name: Patrick
+    social:
+      twitter: mgapatrick
+    bio: |
+      Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about 
+      learning, travelling, and likes her steak medium rare.
