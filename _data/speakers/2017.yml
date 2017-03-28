@@ -225,8 +225,8 @@ speakers:
     first_name: Mike
     last_name: Smart
     social:
-      twitter: mgapatrick
-      github
+      twitter: smartmike
+      github: smartmike
     bio: |
       Mike is a digital designer turned frontend developer, from England, now based in Berlin, building the next bank 
       at <a href="https://n26.com/" target="_blank">N26</a>.
