@@ -220,3 +220,13 @@ speakers:
     bio: |
       Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about 
       learning, travelling, and likes her steak medium rare.
+      
+  - url: mike_smart
+    first_name: Mike
+    last_name: Smart
+    social:
+      twitter: mgapatrick
+      github
+    bio: |
+      Mike is a digital designer turned frontend developer, from England, now based in Berlin, building the next bank 
+      at <a href="https://n26.com/" target="_blank">N26</a>.
