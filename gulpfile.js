@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const bs = require('browser-sync').create();
 const sass = require('gulp-sass');
+const sourcemaps = require('gulp-sourcemaps');
 const prefix = require('gulp-autoprefixer');
 const cp = require('child_process');
 const webpackStream = require('webpack-stream');
@@ -81,8 +82,10 @@ gulp.task('browser-sync-reload', function () {
 
 gulp.task('sass', function () {
   return gulp.src(['_scss/main.scss', '_scss/live.scss'])
+    .pipe(sourcemaps.init())
     .pipe(sass.sync({ outputStyle: 'compressed', includePaths: ['scss', 'node_modules'] }).on('error', sass.logError))
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('assets/css'));
 });
 
