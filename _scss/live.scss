@@ -1,12 +1,21 @@
 @import "phonon/dist/css/phonon";
 
-$blue: #003F74;
+// Colors
+$color-gray-very-light: #C7C7CC;
+$color-gray-light: #929496;
+$color-gray-dark: #4D4E4D;
+$color-gray-darker: #303030;
+$color-blue-dark: #003F74;
+$color-blue-medium: #74ABCE;
+$color-blue-light: #E2EBF2;
+$color-blue-lightest: #F8FCFF;
+$color-orange: #FF751C;
 
+// Header
 header,
 .content,
 .header-bar,
 body {
-  background: none;
 }
 
 .header-bar .btn,
@@ -17,39 +26,87 @@ body {
 .header-bar .title {
   font-weight: bold;
   font-size: 26px;
-  color: $blue;
+  color: $color-blue-dark;
 
   span {
     opacity: 0.5;
   }
 }
 
-.list li .item-content {
-  line-height: 25px;
-}
-.schedule-item {
-  padding-top: 15px;
-  padding-bottom: 15px;
+// Schedule list
+.schedule-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.schedule-item__title {
-  font-weight: 500;
-  color: $blue;
+.schedule-list__item-link {
+  display: flex;
+  align-content: space-between;
+  padding: 20px 10px;
+  border-bottom: 1px solid $color-blue-light;
+}
+
+.schedule-list__item-col {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  overflow: hidden;
+
+  &:nth-child(2) {
+    padding-right: 20px;
+    margin-left: 50px;
+    flex-grow: 1;
+    max-width: 70%;
+  }
+}
+
+.schedule-list__item-time {
+  color: $color-gray-dark;
+}
+
+.schedule-list__item-avatar {
+  margin-top: 5px;
+  border: 3px solid $color-blue-medium;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.schedule-list__item-talk-title {
+  color: $color-blue-dark;
   font-size: 16px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.schedule-item__duration,
-.schedule-item__name {
+
+.schedule-list__item-speaker-name {
+  color: $color-gray-light;
+  margin-bottom: 5px;
   font-size: 14px;
-  font-weight: lighter;
 }
-.talk-page__speaker-img,
-.schedule-item__img {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+
+.schedule-list__item-talk-duration {
+  font-size: 12px;
+  color: $color-gray-darker;
+  margin-right: 5px;
 }
+
+.schedule-list__item-feedback-btn {
+  display: inline-block;
+  background-color: $color-orange;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+
 
 .section {
   border-radius: 3px;

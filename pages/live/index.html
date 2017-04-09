@@ -18,21 +18,24 @@ custom_js:
     </div>
   </header>
   <div class="content">
-    <ul class="list schedule">
+    <ul class="schedule-list">
       {% for workshop in allDayWorkshops %}
-        <li class="schedule-item">
-          <a href="#!{{workshop.type | slugify}}-{{workshop.name | slugify}}" class="">
-            <div class="pull-left">
-              <span>19:00</span>
-              <img
-                src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}"
-                class="schedule-item__img">
+        <li class="schedule-list__item">
+          <a class="schedule-list__item-link" href="#!{{workshop.type | slugify}}-{{workshop.name | slugify}}">
+            <div class="schedule-list__item-col">
+              <span class="schedule-list__item-time">19:00</span>
+              <img class="schedule-list__item-avatar" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
             </div>
-            <i class="icon icon-arrow-forward pull-right"></i>
-            <div class="item-content">
-              <div class="schedule-item__title">{{ workshop.title }}</div>
-              <div class="schedule-item__name">{{ workshop.name }}</div>
-              <div class="schedule-item__duration">40 min</div>
+            <div class="schedule-list__item-col">
+              <div class="schedule-list__item-talk-title">{{ workshop.title }}</div>
+              <div class="schedule-list__item-speaker-name">{{ workshop.name }}</div>
+              <div>
+                <span class="schedule-list__item-talk-duration">40 min</span>
+                <button class="schedule-list__item-feedback-btn">Give feedback</button>
+              </div>
+            </div>
+            <div class="schedule-list__item-col">
+              <i class="icon icon-arrow-forward"></i>
             </div>
           </a>
         </li>
