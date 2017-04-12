@@ -187,7 +187,7 @@ speakers:
       I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a
       long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at
       Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms.
-      
+
   - url: ivo_neskovic
     first_name: Ivo
     last_name: Neskovic
@@ -195,13 +195,13 @@ speakers:
       twitter: trumpets
       github: trumpets
     bio: |
-      A really passionate dev, dabbling in engineering since my early ages. After getting both my BSc and my MSc I 
-      immediately jumped into enterprise applications development, focusing on the full stack, from the back end to the 
-      front end. Throughout the years my focus shifted more towards the back end but also I was one of the early adopters 
-      of Android, working on it since the 1.4 days :) Somewhere during that journey I decided to read for a PhD and along 
-      the same time I shifted my professional career in gaming, especially mobile gaming and been working with Unity3D 
+      A really passionate dev, dabbling in engineering since my early ages. After getting both my BSc and my MSc I
+      immediately jumped into enterprise applications development, focusing on the full stack, from the back end to the
+      front end. Throughout the years my focus shifted more towards the back end but also I was one of the early adopters
+      of Android, working on it since the 1.4 days :) Somewhere during that journey I decided to read for a PhD and along
+      the same time I shifted my professional career in gaming, especially mobile gaming and been working with Unity3D
       ever since.
-      
+
   - url: jason_poon
     first_name: Jason
     last_name: Poon
@@ -209,18 +209,17 @@ speakers:
       twitter: jasonthepoon
       github: jpoon
     bio: |
-      Raised in the snowbanks of Canada, Jason feeds on code, satisfying that daily appetite as an open source developer 
+      Raised in the snowbanks of Canada, Jason feeds on code, satisfying that daily appetite as an open source developer
       at Microsoft.ions.
-      
+
   - url: melanie_patrick
     first_name: Melanie
     last_name: Patrick
     social:
       twitter: mgapatrick
     bio: |
-        Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about 
-      learning, travelling, and likes her steak medium rare.
-      
+      Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about learning, travelling, and likes her steak medium rare.
+
   - url: mike_smart
     first_name: Mike
     last_name: Smart
@@ -228,9 +227,9 @@ speakers:
       twitter: smartmike
       github: smartmike
     bio: |
-      Mike is a digital designer turned frontend developer, from England, now based in Berlin, building the next bank 
+      Mike is a digital designer turned frontend developer, from England, now based in Berlin, building the next bank
       at <a href="https://n26.com/" target="_blank">N26</a>.
-      
+
   - url: jason_lengstorf
     first_name: Jason
     last_name: Lengstorf
@@ -238,19 +237,19 @@ speakers:
       twitter: jlengstorf
       github: jlengstorf
     bio: |
-      Jason Lengstorf is a developer, designer, author, and friendly bear. He's worked in nearly every role in an agency 
-      and uses his 14+ years of experience to offer a unique, cross-functional approach to solving complex problems. He 
-      has written several books and dozens of tutorials about development, built and sold a successful web agency, and 
+      Jason Lengstorf is a developer, designer, author, and friendly bear. He's worked in nearly every role in an agency
+      and uses his 14+ years of experience to offer a unique, cross-functional approach to solving complex problems. He
+      has written several books and dozens of tutorials about development, built and sold a successful web agency, and
       created award-winning web projects for companies including PlayStation, Intel, and Precision Nutrition.
-      
-      Jason is passionate about building better careers by first focusing on building better lives. He focuses on work-life 
-      balance, efficiency, processes, and productivity to help people get more done in less time — so they can spend more 
-      time on the things that matter most. Jason recently joined IBM Design as a senior front-end developer and mentor to new 
+
+      Jason is passionate about building better careers by first focusing on building better lives. He focuses on work-life
+      balance, efficiency, processes, and productivity to help people get more done in less time — so they can spend more
+      time on the things that matter most. Jason recently joined IBM Design as a senior front-end developer and mentor to new
       hires, where he hopes to scale this philosophy throughout one of the largest companies in the world.
-      
-      He lives in Austin, TX, spends most of his disposable income on food and travel, and can often be spotted in the forest 
+
+      He lives in Austin, TX, spends most of his disposable income on food and travel, and can often be spotted in the forest
       foraging for nuts and berries.
-      
+
   - url: leonie_watson
     first_name: Leonie
     last_name: Watson
@@ -261,10 +260,10 @@ speakers:
       Léonie Watson (AKA Tink) began using the internet in 1993, turned it into a web design career in 1997, and (despite losing her
       eyesight along the way) has been enjoying herself thoroughly ever since. Léonie is Communications director and Principal engineer
       at <a href="http://paciellogroup.com/" target="_blank">The Paciello Group (TPG)</a>, and also works with <a href="http://gov.uk/" target="_blank">Government Digital Service (GDS)</a>
-      on the GOV.UK platform. As a member of the <a href="https://www.w3.org/2002/ab/" target="_blank">W3C Advisory Board</a>, 
+      on the GOV.UK platform. As a member of the <a href="https://www.w3.org/2002/ab/" target="_blank">W3C Advisory Board</a>,
       and co-chair of the <a href="https://www.w3.org/WebPlatform/WG/" target="_blank">W3C Web Platform WG</a> (working on specs like HTML5),
-      Léonie is closely involved with the web standards community. She is frequently asked to talk about web standards and/or accessibility 
-      at <a href="http://ljwatson.github.io/decks/" target="_blank">conferences</a>.In her spare time Léonie blogs on tink.uk, writes for 
-      tech journals like <a href="https://www.smashingmagazine.com/2015/03/web-accessibility-with-accessibility-api/">Smashing magazine</a>, 
-      <a href="https://www.sitepoint.com/tips-accessible-svg/">SitePoint.com</a> and <a href="http://www.creativebloq.com/netmag/l-onie-watson-giving-damn-about-what-youre-building-8135487">Net magazine</a>. 
+      Léonie is closely involved with the web standards community. She is frequently asked to talk about web standards and/or accessibility
+      at <a href="http://ljwatson.github.io/decks/" target="_blank">conferences</a>.In her spare time Léonie blogs on tink.uk, writes for
+      tech journals like <a href="https://www.smashingmagazine.com/2015/03/web-accessibility-with-accessibility-api/">Smashing magazine</a>,
+      <a href="https://www.sitepoint.com/tips-accessible-svg/">SitePoint.com</a> and <a href="http://www.creativebloq.com/netmag/l-onie-watson-giving-damn-about-what-youre-building-8135487">Net magazine</a>.
       She also loves cooking, dancing and drinking tequila (although not necessarily in that order).
