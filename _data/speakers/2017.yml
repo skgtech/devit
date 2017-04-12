@@ -218,7 +218,7 @@ speakers:
     social:
       twitter: mgapatrick
     bio: |
-      Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about 
+        Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about 
       learning, travelling, and likes her steak medium rare.
       
   - url: mike_smart
@@ -250,3 +250,21 @@ speakers:
       
       He lives in Austin, TX, spends most of his disposable income on food and travel, and can often be spotted in the forest 
       foraging for nuts and berries.
+      
+  - url: leonie_watson
+    first_name: Leonie
+    last_name: Watson
+    social:
+      twitter: LeonieWatson
+      github: LJWatson
+    bio: |
+      Léonie Watson (AKA Tink) began using the internet in 1993, turned it into a web design career in 1997, and (despite losing her
+      eyesight along the way) has been enjoying herself thoroughly ever since. Léonie is Communications director and Principal engineer
+      at <a href="http://paciellogroup.com/" target="_blank">The Paciello Group (TPG)</a>, and also works with <a href="http://gov.uk/" target="_blank">Government Digital Service (GDS)</a>
+      on the GOV.UK platform. As a member of the <a href="https://www.w3.org/2002/ab/" target="_blank">W3C Advisory Board</a>, 
+      and co-chair of the <a href="https://www.w3.org/WebPlatform/WG/" target="_blank">W3C Web Platform WG</a> (working on specs like HTML5),
+      Léonie is closely involved with the web standards community. She is frequently asked to talk about web standards and/or accessibility 
+      at <a href="http://ljwatson.github.io/decks/" target="_blank">conferences</a>.In her spare time Léonie blogs on tink.uk, writes for 
+      tech journals like <a href="https://www.smashingmagazine.com/2015/03/web-accessibility-with-accessibility-api/">Smashing magazine</a>, 
+      <a href="https://www.sitepoint.com/tips-accessible-svg/">SitePoint.com</a> and <a href="http://www.creativebloq.com/netmag/l-onie-watson-giving-damn-about-what-youre-building-8135487">Net magazine</a>. 
+      She also loves cooking, dancing and drinking tequila (although not necessarily in that order).
