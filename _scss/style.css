@@ -1289,11 +1289,10 @@ Accordion
     display: block;
     width: 100%;
     overflow: hidden;
-    padding-right: 8rem;
-    cursor: pointer;
+    padding-right: 2rem;
 }
 
-.accordion-heading:after {
+/*.accordion-heading:after {
     position: absolute;
     top: 0;
     right: 0;
@@ -1307,7 +1306,7 @@ Accordion
     color: #222;
     font-size: 2.8rem;
     font-family: 'FontAwesome';
-}
+}*/
 
 .conf-related .accordion-title,
 .conf-related .schedule-time {

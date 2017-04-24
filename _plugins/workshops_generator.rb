@@ -1,13 +1,8 @@
 module Jekyll
   class WorkshopsGenerator < Generator
     def generate(site)
-      site.data['workshops'].each do | year, data |
-        data['allDay'].each do | workshop |
-          site.pages << WorkshopPage.new(site, "workshops-all-day", year, workshop)
-        end
-        # data['open'].each do | openWorkshops |
-        #   site.pages << WorkshopPage.new(site, "workshops-open", year, openWorkshops)
-        # end
+      site.data['workshops']['2017'].each do | workshop |
+        site.pages << WorkshopPage.new(site, workshop['type'], '2017', workshop)
       end
     end
   end

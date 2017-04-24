@@ -48,6 +48,7 @@ talks:
 
   - type: talk
     title: UX Prototyping and Testing
+    speaker: marisa_morby
     time: TBA
 
   - type: coffee
@@ -71,3 +72,58 @@ talks:
   - type: ceremony
     title: Closing Ceremony
     time: TBA
+
+workshops:
+  - type: registration
+    title: Registration
+    hours: 10
+    mins: 00
+  - type: coffee
+    title: Coffee Break
+    hours: 10
+    mins: 30
+  - type: session
+    hours: 11
+    mins: 00
+    entries:
+      - "allDay01"
+      - "allDay02"
+      - "allDay03"
+      - "open01"
+      - "open02"
+      - "open03"
+      - "open04"
+  - type: lunch
+    title: Lunch Break
+    hours: 13
+    mins: 30
+  - type: session
+    hours: 14
+    mins: 30
+    entries:
+      - "allDay01"
+      - "allDay02"
+      - "allDay03"
+      - "open05"
+      - "open06"
+      - "open07"
+      - "open08"
+  - type: coffee
+    title: Coffee Break
+    hours: 17
+    mins: 00
+  - type: session
+    hours: 17
+    mins: 30
+    entries:
+      - "allDay01"
+      - "allDay02"
+      - "allDay03"
+      - "open09"
+      - "open10"
+      - "open11"
+      - "open12"
+  - type: party
+    title: After Party x2
+    hours: 20
+    mins: 00
