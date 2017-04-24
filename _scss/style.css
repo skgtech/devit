@@ -1260,7 +1260,6 @@ Tabs
 
 .tab-pane {
     background: #f4f6f7;
-    padding: 3rem;
 }
 
 
@@ -1271,10 +1270,6 @@ Accordion
 .accordion {
     padding: 0;
     list-style: none;
-}
-
-.tab-pane .accordion {
-    margin: -3rem;
 }
 
 .accordion > li {

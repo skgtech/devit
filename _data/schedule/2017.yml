@@ -1,0 +1,73 @@
+talks:
+  - type: registration
+    title: Registration
+    time: TBA
+
+  - type: ceremony
+    title: Opening Ceremony
+    time: TBA
+
+  - type: talk
+    title: Accessiblity - ARIA, Accessibility APIs and coding like you give a damn!
+    speaker: leonie_watson
+    time: TBA
+
+  - type: talk
+    title: Data collection, forms, inclusivity
+    speaker: hugo_giraudel
+    time: TBA
+
+  - type: coffee
+    title: Coffee Break
+    time: TBA
+
+  - type: talk
+    title: Functional programming (Frontend)
+    speaker: bodil_stokke
+    time: TBA
+
+  - type: talk
+    title: iOS & Swift
+    speaker: natasha_murashev
+    time: TBA
+
+  - type: lunch
+    title: Lunch Break
+    time: TBA
+
+  - type: talk
+    title: Learn Redis the hard way ... in production @Trivago
+    speaker: andy_grunwald
+    time: TBA
+
+  - type: talk
+    title: Deploying ElasticSearch clusters on Azure using SaltStack
+    speaker: rita_zhang
+    # speaker: rita_zhang, jason_poon
+    time: TBA
+
+  - type: talk
+    title: UX Prototyping and Testing
+    time: TBA
+
+  - type: coffee
+    title: Coffee
+    time: TBA
+
+  - type: talk
+    title: Node.js Cutting Edge
+    speaker: james_halliday
+    time: TBA
+
+  - type: talk
+    title: Machine Learning
+    speaker: julien_simon
+    time: TBA
+
+  - type: talk
+    title: Closing keynote - Panel
+    time: TBA
+
+  - type: ceremony
+    title: Closing Ceremony
+    time: TBA
