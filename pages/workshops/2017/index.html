@@ -97,19 +97,23 @@ custom_js:
   </ul>
   <div class="row workshops">
     {% for workshop in workshops.open %}
+    {% if workshop.url != "" %}
     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
       <div class="workshop-open">
         <h3 class="workshop__title">
-          {{ workshop.title }}
+          <a href="/workshops-open/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
         </h3>
+        {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %}
+        {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+        {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
         <div class="workshop-open__img text-center">
-            <img height="240px" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+            <img height="240px" src="{{ workshop.speakerPhoto }}" alt="{{ speakerName }}">
         </div>
         <div class="workshop-open__info">
           <table class="table">
             <tr>
               <th>Instructor</th>
-              <td>{{ workshop.name }}</td>
+              <td>{{ speakerName }}</td>
             </tr>
             <tr>
               <th>Skill Level</th>
@@ -127,6 +131,7 @@ custom_js:
         </div>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

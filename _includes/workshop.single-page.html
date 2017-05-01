@@ -9,7 +9,9 @@ custom_js:
 <div class="container content">
 
   {% assign workshop = page.workshop %}
-
+  {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %}
+  {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+  {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
   <ol class="breadcrumb">
     <li><a href="/">DEVit 2017</a></li>
     <li><a href="/workshops/2017/">Workshops</a></li>
@@ -19,7 +21,7 @@ custom_js:
     <header>
       <div class="text-center">
         <h1>{{ workshop.title }}</h1>
-        <h4><i>by {{ workshop.name }}</i></h4>
+        <h4><i>by {{ speakerName }}</i></h4>
       </div>
     </header>
   </section>
@@ -45,7 +47,7 @@ custom_js:
           <table class="table">
             <tr>
               <th>Instructor</th>
-              <td>{{ workshop.name }}</td>
+              <td>{{ speakerName }}</td>
             </tr>
             <tr>
               <th>Skill Level</th>

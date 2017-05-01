@@ -22,8 +22,7 @@ custom_js:
           {% if entry.type == 'talk' %}
             <li class="panel accordion">
               <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
-                <!--<a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">-->
-                <div class="accordion-heading collapsed">
+                <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
                   <span class="schedule-time accent">
                     TB<sup>A</sup>
                   </span>
@@ -38,15 +37,17 @@ custom_js:
                     </div>
                   {% endif %}
                   <h4 class="accordion-title">{{ entry.title }}</h4>
+                </a>
+              </div>
+              <div id="collapse{{ forloop.index }}" class="panel-collapse collapse accordion-body" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+                <div class="panel-body">
+                  {% if entry.description %}
+                  {{entry.description}}
+                  {% else %}
+                  TBA
+                  {% endif %}
                 </div>
               </div>
-              {% if entry.description %}
-                <div id="collapse{{ forloop.index }}" class="panel-collapse collapse accordion-body" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  </div>
-                </div>
-              {% endif %}
             </li>
           {% else %}
             <li class="panel accordion conf-related">
