@@ -14,10 +14,172 @@ custom_js:
       </div>
     </div>
   </div>
-  <div class="section-header text-center">
-    <h3><a href="/schedule/saturday">Saturday <b>20 May</b></a></h3>
-  </div>
-  <div class="section-header text-center">
-    <h3><a href="/schedule/sunday">Sunday <b>21 May</b></a></h3>
+  <div class="content-tabs">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#saturday" data-toggle="tab">Saturday 21/4</a></li>
+      <li><a href="#sunday" data-toggle="tab">Sunday 22/4</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane fade in active" id="saturday">
+        <ul class="accordion">
+          {% for entry in site.data.schedule['2017'].talks %} {% if entry.type == 'talk' %}
+          <li class="panel accordion">
+            <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+              <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}"
+                aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+                <span class="schedule-time accent">
+                            TB<sup>A</sup>
+                          </span> {% if entry.speaker %}
+                <div class="schedule-speaker">
+                  {% assign speaker = site.data.speakers.2017.speakers | where:"url", entry.speaker | first %} {% assign speakerName = speaker.first_name
+                  | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_' | append:
+                  speaker.last_name %}
+                  <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
+                  <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                </div>
+                {% endif %}
+                <h4 class="accordion-title">{{ entry.title }}</h4>
+              </a>
+            </div>
+            <div id="collapse{{ forloop.index }}" class="panel-collapse collapse accordion-body" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+              <div class="panel-body">
+                {% if entry.description %} {{entry.description}} {% else %} TBA {% endif %}
+              </div>
+            </div>
+          </li>
+          {% else %}
+          <li class="panel accordion conf-related">
+            <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+              <a class="accordion-heading collapsed" role="button">
+                <span class="schedule-time accent">
+                            TB<sup>A</sup>
+                          </span>
+                <h4 class="accordion-title">{{ entry.title }}</h4>
+              </a>
+            </div>
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
+      <div class="tab-pane fade in" id="sunday">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content-tabs">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#room0" data-toggle="tab">Room 1</a></li>
+                <li><a href="#room1" data-toggle="tab">Room 2</a></li>
+                <li><a href="#room2" data-toggle="tab">Room 3</a></li>
+                <li><a href="#room3" data-toggle="tab">Room 4</a></li>
+                <li><a href="#room4" data-toggle="tab">Room 5</a></li>
+                <li><a href="#room5" data-toggle="tab">Room 6</a></li>
+              </ul>
+
+              <div class="tab-content">
+                {% for roomIndex in (0..2) %}
+                <div class="tab-pane fade in {% if roomIndex == 0 %}active{% endif %}" id="room{{ roomIndex }}">
+                  <ul class="accordion">
+                    {% for entry in site.data.schedule['2017'].workshops %}
+                    {% if entry.type == 'session' %} {% assign workshop = site.data.workshops['2017'].allDay | where: "id", entry.entries[roomIndex]
+                    | first %}
+                    <li class="panel accordion">
+                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                        <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ workshop.id }}{{ forloop.index }}"
+                          aria-expanded="false" aria-controls="collapse{{ workshop.id }}{{ forloop.index }}">
+                          <span class="schedule-time accent">
+                                {{ entry.hours }}<sup>{{ entry.mins }}</sup>
+                              </span> {% if workshop.speaker %}
+                          <div class="schedule-speaker">
+                            {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %} {% assign speakerName = speaker.first_name
+                            | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_'
+                            | append: speaker.last_name %}
+                            <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
+                            <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                          </div>
+                          {% endif %}
+                          <h4 class="accordion-title">{{ workshop.title }}</h4>
+                        </a>
+                      </div>
+                      {% if workshop.description %}
+                      <div id="collapse{{ workshop.id }}{{ forloop.index }}" class="panel-collapse collapse accordion-body" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+                        <div class="panel-body">
+                          {{workshop.description}}
+                          <br/>
+                          <br/>
+                          <a href="/workshops-all-day/2017/{{workshop.url}}">More details about this workshop</a>
+                        </div>
+                      </div>
+                      {% endif %}
+                    </li>
+                    {% else %}
+                    <li class="panel accordion conf-related">
+                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                        <a class="accordion-heading collapsed" role="button">
+                          <span class="schedule-time accent">
+                                {{ entry.hours }}<sup>{{ entry.mins }}</sup>
+                              </span>
+                          <h4 class="accordion-title">{{ entry.title }}</h4>
+                        </a>
+                      </div>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% endfor %} {% for roomIndex in (3..5) %}
+                <div class="tab-pane fade in {% if roomIndex == 0 %}active{% endif %}" id="room{{ roomIndex }}">
+                  <ul class="accordion">
+                    {% for entry in site.data.schedule['2017'].workshops %}
+                    {% if entry.type == 'session' %} {% assign workshop = site.data.workshops['2017'].open | where: "id", entry.entries[roomIndex]
+                    | first %}
+                    <li class="panel accordion">
+                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                        <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ workshop.id }}{{ forloop.index }}"
+                          aria-expanded="false" aria-controls="collapse{{ workshop.id }}{{ forloop.index }}">
+                          <span class="schedule-time accent">
+                                {{ entry.hours }}<sup>{{ entry.mins }}</sup>
+                              </span> {% if workshop.speaker %}
+                          <div class="schedule-speaker">
+                            {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %} {% assign speakerName = speaker.first_name
+                            | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_'
+                            | append: speaker.last_name %}
+                            <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
+                            <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                          </div>
+                          {% endif %}
+                          <h4 class="accordion-title">{{ workshop.title }}</h4>
+                        </a>
+                      </div>
+                      <div id="collapse{{ workshop.id }}{{ forloop.index }}" class="panel-collapse collapse accordion-body" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+                        <div class="panel-body">
+                          {{ workshop.description}}
+                          <br/>
+                          <br/>
+                          <a href="/workshops-open/2017/{{workshop.url}}">More details about this workshop</a>
+                        </div>
+                      </div>
+                    </li>
+                    {% else %}
+                    <li class="panel accordion conf-related">
+                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                        <a class="accordion-heading collapsed" role="button">
+                          <span class="schedule-time accent">
+                                {{ entry.hours }}<sup>{{ entry.mins }}</sup>
+                              </span>
+                          <h4 class="accordion-title">{{ entry.title }}</h4>
+                        </a>
+                      </div>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
