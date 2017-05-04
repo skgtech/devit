@@ -1526,3 +1526,18 @@ footer.footer {
     padding-top: 5px;
     padding-bottom: 3px;
 }
+
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.workshop-open__link {
+  line-height: 30px;
+  min-height: 90px;
+  display: block;
+}
