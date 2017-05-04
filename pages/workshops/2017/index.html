@@ -37,20 +37,22 @@ custom_js:
   <div class="workshops">
 
     {% for workshop in workshops.allDay %}
-
+    {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %}
+    {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+    {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
     <div class="workshop">
       <h3 class="workshop__title">
         <a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
-          <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ workshop.name }}">
         </div>
         <div class="col-lg-7 workshop__info">
           <table class="table">
             <tr>
               <th>Instructor</th>
-              <td>{{ workshop.name }}</td>
+              <td>{{ speakerName }}</td>
             </tr>
             <tr>
               <th>Skill Level</th>
@@ -98,21 +100,21 @@ custom_js:
     <li>Coffee and drinks during the day, lunch will be <b>all provided.</b></li>
     <li>Please note that a computer will not be provided, so please <b>bring your own laptop</b> to the workshop.</li>
   </ul>
-  <div class="row workshops is-flex">
+  <div class="workshops">
     {% for workshop in workshops.open %}
     {% if workshop.url != "" %}
-    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-      <div class="workshop-open">
-        <h3 class="workshop__title">
-          <a class="workshop-open__link" href="/workshops-open/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
-        </h3>
-        {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %}
-        {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
-        {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
-        <div class="workshop-open__img text-center">
-            <img height="240px" src="{{ workshop.speakerPhoto }}" alt="{{ speakerName }}">
+    {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %}
+    {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+    {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
+    <div class="workshop">
+      <h3 class="workshop__title">
+        <a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
+      </h3>
+      <div class="row">
+        <div class="col-lg-3 workshop__img">
+          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ workshop.name }}">
         </div>
-        <div class="workshop-open__info">
+        <div class="col-lg-9 workshop__info">
           <table class="table">
             <tr>
               <th>Instructor</th>
@@ -132,7 +134,7 @@ custom_js:
             </tr>
             <tr>
               <th></th>
-              <td><a href="/workshops-open/2017/{{ workshop.url }}/" title="{{ workshop.title }}">More info</a></td>
+              <td><a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">More info</a></td>
             </tr>
           </table>
         </div>
