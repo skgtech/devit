@@ -41,9 +41,9 @@ custom_js:
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
-          <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ workshop.name }}">
         </div>
-        <div class="col-lg-7 workshop__info">
+        <div class="{% if workshop.type == 'allDay' %}col-lg-7{% else %}col-lg-9{% endif %} workshop__info">
           <table class="table">
             <tr>
               <th>Instructor</th>
@@ -63,6 +63,7 @@ custom_js:
             </tr>
           </table>
         </div>
+        {% if workshop.type == "allDay" %}
         <div class="col-lg-2 workshop__cart-info">
           <div>
             Ticket Price:<br/>
@@ -75,6 +76,7 @@ custom_js:
             <a target="blank" href="http://devit2017.eventzilla.net/" class="button btn-block btn-action workshop__buy">Buy now</a>
           </div>
         </div>
+        {% endif %}
       </div>
       <div class="row">
         <div class="col-lg-6">

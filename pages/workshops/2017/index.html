@@ -108,7 +108,7 @@ custom_js:
     {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
     <div class="workshop">
       <h3 class="workshop__title">
-        <a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
+        <a class="workshop-open__link" href="/workshops-open/2017/{{ workshop.url }}/" title="{{ workshop.title }}">{{ workshop.title }}</a>
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
@@ -134,7 +134,7 @@ custom_js:
             </tr>
             <tr>
               <th></th>
-              <td><a href="/workshops-all-day/2017/{{ workshop.url }}/" title="{{ workshop.title }}">More info</a></td>
+              <td><a href="/workshops-open/2017/{{ workshop.url }}/" title="{{ workshop.title }}">More info</a></td>
             </tr>
           </table>
         </div>
