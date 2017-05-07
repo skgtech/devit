@@ -319,3 +319,7 @@ a.button.sold-out:hover {
   border-radius: 0;
   margin: 10px 0;
 }
+
+.contact-info > em.color-blue {
+  color: #6aa7cf;
+}
