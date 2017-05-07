@@ -16,8 +16,8 @@ custom_js:
   </div>
   <div class="content-tabs">
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#saturday" data-toggle="tab">Saturday 20/4</a></li>
-      <li><a href="#sunday" data-toggle="tab">Sunday 21/4</a></li>
+      <li class="active"><a href="#saturday" data-toggle="tab">Saturday 20/5</a></li>
+      <li><a href="#sunday" data-toggle="tab">Sunday 21/5</a></li>
     </ul>
 
     <div class="tab-content">
@@ -29,7 +29,7 @@ custom_js:
               <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}"
                 aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
                 <span class="schedule-time accent">
-                            TB<sup>A</sup>
+                            {{ entry.hours }}<sup>{{ entry.mins }}</sup>
                           </span> {% if entry.speaker %}
                 <div class="schedule-speaker">
                   {% assign speaker = site.data.speakers.2017.speakers | where:"url", entry.speaker | first %} {% assign speakerName = speaker.first_name
@@ -53,7 +53,7 @@ custom_js:
             <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
               <a class="accordion-heading collapsed" role="button">
                 <span class="schedule-time accent">
-                            TB<sup>A</sup>
+                            {{ entry.hours }}<sup>{{ entry.mins }}</sup>
                           </span>
                 <h4 class="accordion-title">{{ entry.title }}</h4>
               </a>
@@ -66,13 +66,14 @@ custom_js:
         <div class="row">
           <div class="col-sm-12">
             <div class="content-tabs">
-              <ul class="nav nav-tabs">
+              <ul class="nav schedule nav-tabs">
                 <li class="active"><a href="#room0" data-toggle="tab">Room 1</a></li>
                 <li><a href="#room1" data-toggle="tab">Room 2</a></li>
                 <li><a href="#room2" data-toggle="tab">Room 3</a></li>
                 <li><a href="#room3" data-toggle="tab">Room 4</a></li>
                 <li><a href="#room4" data-toggle="tab">Room 5</a></li>
                 <li><a href="#room5" data-toggle="tab">Room 6</a></li>
+                <li><a href="#room6" data-toggle="tab">Room 7</a></li>
               </ul>
 
               <div class="tab-content">
@@ -93,8 +94,12 @@ custom_js:
                             {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %} {% assign speakerName = speaker.first_name
                             | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_'
                             | append: speaker.last_name %}
-                            <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
-                            <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                            {% if workshop.tba == true %}
+                              <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+                            {% else %}
+                              <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
+                                <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                            {% endif %}
                           </div>
                           {% endif %}
                           <h4 class="accordion-title">{{ workshop.title }}</h4>
@@ -106,7 +111,9 @@ custom_js:
                           {{workshop.description}}
                           <br/>
                           <br/>
-                          <a href="/workshops-all-day/2017/{{workshop.url}}">More details about this workshop</a>
+                          {% if workshop.tba != true  %}
+                            <a href="/workshops-all-day/2017/{{workshop.url}}">More details about this workshop</a>
+                          {% endif %}
                         </div>
                       </div>
                       {% endif %}
@@ -126,7 +133,7 @@ custom_js:
                     {% endfor %}
                   </ul>
                 </div>
-                {% endfor %} {% for roomIndex in (3..5) %}
+                {% endfor %} {% for roomIndex in (3..6) %}
                 <div class="tab-pane fade in {% if roomIndex == 0 %}active{% endif %}" id="room{{ roomIndex }}">
                   <ul class="accordion">
                     {% for entry in site.data.schedule['2017'].workshops %}
@@ -143,8 +150,12 @@ custom_js:
                             {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %} {% assign speakerName = speaker.first_name
                             | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_'
                             | append: speaker.last_name %}
-                            <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
-                            <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                            {% if workshop.tba == true %}
+                              <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+                            {% else %}
+                              <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
+                                <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+                            {% endif %}
                           </div>
                           {% endif %}
                           <h4 class="accordion-title">{{ workshop.title }}</h4>
@@ -155,7 +166,9 @@ custom_js:
                           {{ workshop.description}}
                           <br/>
                           <br/>
-                          <a href="/workshops-open/2017/{{workshop.url}}">More details about this workshop</a>
+                          {% if workshop.tba != true  %}
+                            <a href="/workshops-open/2017/{{ workshop.url }}/">More details about this workshop</a>
+                          {% endif %}
                         </div>
                       </div>
                     </li>

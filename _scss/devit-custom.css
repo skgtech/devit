@@ -319,3 +319,7 @@ a.button.sold-out:hover {
   border-radius: 0;
   margin: 10px 0;
 }
+
+.schedule.nav-tabs > li > a {
+    padding: 2rem 2.97rem;
+}
