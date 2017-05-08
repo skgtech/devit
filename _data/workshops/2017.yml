@@ -1,9 +1,6 @@
-# **BEWARE**
-# Although we separate the workshops to "all day" and "open"
-# their schemas must remain in parity because they get looped
-# on the same templates.
 allDay:
-  - name: "James Halliday"
+  - id: "allDay01"
+    speaker: "james_halliday"
     type: "allDay"
     url: "james-halliday--cutting-edge-web-technology-whirlwind"
     title: "Cutting edge web technology whirlwind"
@@ -21,7 +18,8 @@ allDay:
       - How to write shaders with webgl to create performant 3d and 2d graphics
       - Typed arrays in addition to some nifty workflow tricks
       - A few dozen handy but lesser-known npm packages that will help you to glue everything together
-  - name: "Harry Roberts"
+  - id: "allDay02"
+    speaker: "harry_roberts"
     type: "allDay"
     url: "harry-roberts--front-end-performance"
     title: "Front-end Performance"
@@ -42,7 +40,8 @@ allDay:
       - How to prepare for the web (and its users) of tomorrow;
       - lots of naughty little micro-optimisations, just for fun;
       - And a lot, lot more.
-  - name: "Julien Simon"
+  - id: "allDay03"
+    speaker: "julien_simon"
     type: "allDay"
     url: "julien-simon--scaling-from-0-to-millions-of-users-with-aws"
     title: "Scaling from 0 to millions of users with AWS"
@@ -65,25 +64,164 @@ allDay:
       - Automate infrastructure builds with CloudFormation
       - Serverless compute (Lambda)
 open:
-  - name: "Zaharenia Atzitzikaki"
+  - id: "open01"
+    speaker: "florian_schaffler"
     type: "open"
-    title: "To Be Announced"
-    track: 1 # 1 to 3 or more if we add more
-    slot: 2 # 1 to 3
-    description: "TBA"
-    skill: "TBA"
-    speakerPhoto: "/assets/images/speakers/2017/Zaharenia_Atzitzikaki.png"
+    title: "Serverless Web-Application on AWS with Claudia.js"
+    url: "florian-schaffler--serverless-web-application-on-aws-with-claudiajs"
+    description: With AWS Lambda and AWS API Gateway, we have the possibility to create serverless web-applications that can scale to whatever size we need. By going serverless, we take away all the management tasks that are involved in keeping a web-application up and running. During this workshop we'll build a Node.js web-application based on Claudia.js, which will run without a server. As the most interesting part is concerning the backend, we'll only have a very small and simple client.
+    skill: "Intermediate"
+    prerequisites: Have an AWS (Amazon Web Services) account. Have a properly set up Node.js environment.
+    covers:
+      - AWS API Gateway
+      - Claudia.js
+      - Serverless compute (Lambda)
+  - id: "open02"
+    speaker: "vladimir_grinenko"
+    type: "open"
+    title: "Dependencies in component web done right"
+    url: "vladimir-grinenko--dependencies-in-component-web-done-right"
+    description: We live in a component-based world. And complex components are based on simple once. This implies the need to express dependencies between them. Most existing methods have notable disadvantages, hardcode, refactoring complexity, large amount of manual work and so on. And there's a way to get rid of all these issues.
+    skill: "Intermediate"
     prerequisites: "TBA"
     covers:
       - TBA
-  - name: "Hugo Giraudel"
+  - id: "open03"
+    speaker: "antonio_peric"
     type: "open"
-    title: "To Be Announced"
-    track: 1 # 1 to 3 or more if we add more
-    slot: 2 # 1 to 3
-    description: "TBA"
-    skill: "TBA"
-    speakerPhoto: "/assets/images/speakers/2017/Hugo_Giraudel.png"
+    title: "PHP Symfony 7"
+    url: "antonio-peric-php-symfony-7"
+    description: "You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will love to share knowledge with you."
+    skill: "Intermediate"
     prerequisites: "TBA"
     covers:
       - TBA
+  - id: "open04"
+    speaker: "melanie_patrick"
+    type: "open"
+    title: "Git - How to Unfuck"
+    url: "melanie-patrick--git-how-to-unfuck"
+    description: Git is awesome, but sometimes it is just pure pain. With all those powerful features, screw-ups will happen from time to time. This talk is interesting for you if you are working with Git or planning to. It will also present the case for using Git on the command line, as well as showing you easy ways to handle typical situations that happen in your daily (working) life.
+    skill: "Beginner"
+    prerequisites: Basic understanding of what Git is and what it does – maybe even some practical experience. Have Git (>2.0) installed on your laptop. Bring some basic command line knowledge.
+    covers:
+      - Git
+  - id: "open05"
+    speaker: "mete_atamel"
+    type: "open"
+    title: "Take your ASP.NET Core apps to the next level with Docker and Kubernetes"
+    url: "mete-atamel--take-your-asp-net-apps-to-the-next-level-with-docker-and-kubernetes"
+    description: "In this session, we will take a look at how to wrap your ASP.NET Core app into a Docker container and pass that container to Kubernetes, an open-source container management platform. We will see how easy it is to automate deployment, how to scale up/down, how to create a resilient container cluster and much more with Kubernetes. Your ASP.NET apps will never be the same again!"
+    skill: "Intermediate"
+    prerequisites: "TBA"
+    covers:
+      - Docker
+      - Kubernetes
+  - id: "open06"
+    speaker: "hugo_giraudel"
+    type: "open"
+    title: "React is Undefined, a deep dive to React.js"
+    url: "hugo-giraudel--react-is-undefined"
+    description: "360 view of the React world"
+    skill: JavaScript knowledge, maybe React basics, not being an idiot :D
+    prerequisites: "laptop, internet connection, GitHub account"
+    covers:
+      - Isomorphic React apps , what is it, how does it work, what's the point & how to set it up?
+      - Webpack + Babel madness
+      - React on the server
+      - Store & routes
+      - Sync & async actions
+      - What are the catches and how to fix them?
+      - XSS vulnerabilities
+      - Possible flash of unstyled content
+      - CSS on the server"
+  - id: "open07"
+    speaker: "ivo_neskovic"
+    type: "open"
+    title: "Android - From Zero to Hero"
+    url: "ivo-neskovic--android-from-zero-to-hero"
+    description: The workshop deals with the design and implementation of applications for mobile devices using the Android operating system. Participants work at all stages of the development life-cycle from inception to deployment, whilst considering usability and device capabilities for a mobile application capable of meeting a functional specification. Participants are introduced to the programming environment for application development and have a hands-on approach to programming using the appropriate programming languages.
+    skill: Intermediate
+    prerequisites: Knowledge of the Java programming language and familiarity with XML, desire to learn and build
+    covers:
+      - Challenges of Mobile Development
+      - Introduction to the Android development environment
+      - Fundamental App components
+      - Basic UI Widgets
+      - Laying out UI components
+      - Multi-screen Apps with Intents
+  - id: "open08"
+    speaker: "zaharenia_atzitzikaki"
+    type: "open"
+    title: "Design for Developers"
+    url: "zaharenia-atzitzikaki--design-for-developers"
+    description: "Developers tend to believe that you have to be born with some kind of superhuman artistic gene that will magically make you a great designer, but this is not true. Design is a skill, and as a skill it can be taught. This workshop will help you apply basic design theory to come up with a fresh, modern design that can stand on its own, without any need for a designer."
+    prerequisites: We’ll start with a draft presentational site for a (fictional) SaaS and we’ll iteratively apply basic design principles to make it look awesome.
+      There are five main sections to the workshop and each section will last about 25-30 minutes. You can bring your laptop to follow the practical part, but it’s not mandatory. If you wish to follow along, basic CSS knowledge is required.
+    skill: "Beginner"
+    covers:
+      - "[Layout Theory] Grids & whitespace"
+      - "[Layout Practice] How to apply whitespace, how to use & break the grid"
+      - "[Typography Theory] Basic typeface classification, typographic scale"
+      - "[Typography Practice] How to find your workhorse typeface, how to combine typefaces, how to apply typographic scale on your design"
+      - "[Colour Theory] Intro to colour theory (colour wheel, classification), how to combine colours"
+      - "[Colour Practice] How to pick a colour palette, how to apply your colour palette on your design"
+      - "[Graphics & animation Theory] Icons & images, video & animation"
+      - "[Graphics & animation Practice] How to choose & use an icon set, how (and where) to add video or animation, how to spice up a pricing table"
+      - "[Copywriting Theory] Copywriting is design, clarity, voice & tone style guides"
+      - "[Copywriting Practice] How to write clear copy, how to avoid slang, how to ruthlessly edit, how to write clear forms"
+  - id: "open09"
+    speaker: ""
+    type: "open"
+    tba: true
+    title: "Azure Workshop"
+    url: ""
+    description: "TBA"
+    skill: "TBA"
+    prerequisites: "TBA"
+    speakerPhoto: "/assets/images/speakers/tba_woman.png"
+    covers:
+      - TBA
+  - id: "open10"
+    speaker: "forbes_lindesay"
+    type: "open"
+    tba: true
+    title: "Bulletproffing React Apps (jest, web drivers, flow)"
+    url: ""
+    description: Building a front end application for the web can feel like a constant battle against bugs.  Every time you add a feature, something else breaks.  Fortunately, there are lots of tools available now that can help you track down bugs, and make sure that once you've fixed them, they don't re-surface.
+    skill: "Intermediate"
+    prerequisites: "HTML & JavaScript. You should feel comfortable building a front end web-app.  At least some experience of React."
+    speakerPhoto: "/assets/images/speakers/tba_woman.png"
+    covers:
+      - How to configure static analysis (via flow & eslint) to prevent lots of common mistakes.
+      - How to set up automated JavaScript testing (via jest).
+      - How to balance the relative benefits of isolated unit tests and broad integration tests.
+      - How to make effective use of snapshots so you can test things even when they change frequently.
+      - How to setup truly end to end tests (using web driver).
+  - id: "open11"
+    speaker: "marisa_morby"
+    type: "open"
+    title: "Discover how iterative testing will help you create a winning design, every time"
+    url: "marisa-morby--iterative-testing-will-help-you-create-a-winning-design-every-time"
+    description: "Participants will learn how to successfully test and iterate their prototypes so they get the right design before going live. In this workshop, you'll create a design concept, validate it with real data (not guesswork or gut feelings) and walk away with a design you can feel confident will succeed. All without spending a single dollar on design or development."
+    skill: "Beginner to Intermediate (mainly people who are interested in user research and data)"
+    prerequisites: "Experience with design and the concept of iteration"
+    covers:
+      - Creating a design prototype
+      - Validating that design with real data
+      - Understanding the feedback you get
+      - Deciding when your prototype is ready to go out and have the best chance of succeeding
+      - Learn strategies for continually gathering user data to avoid costly design mistakes
+  - id: "open12"
+    speaker: "jason_lengstorf"
+    type: "open"
+    title: "Progressive Web Apps: Looks Like Vegetables; Tastes Like Victory"
+    url: "jason-lengstorf--progressive-web-apps-look-like-vegetables-tastes-like-victory"
+    description: "There's a big push for Offline First development, with a new buzzword — 'Progressive Web App', or PWA — making the rounds for the last year or two. But a lot of what's being said sounds like the coding equivalent of 'eat your vegetables!' What's in it for ME? Quite a bit, it turns out. In this workshop, you'll learn the surprising ways that online apps will see huge benefits when they're built to support offline users. Learn how to ace Google's progressive web app test, Lighthouse, with just a few simple changes, and how you can easily create Offline First apps with just a few lines of code. Learn how going Offline First will improve the connected experience, including: better performance, increased stability and reliability, improved user experience and more! So in addition to eating your vegetables — you know, making your web apps usable for people with slow and unreliable connections or whatever — you'll ALSO see your apps get even better for connected users. And all with minimal development effort required."
+    skill: "Intermediate"
+    prerequisites: "Basic command line skills, HTML/CSS skills, Node.js/NPM installed on the computer"
+    covers:
+      - How to use Service Worker
+      - Lazy loading resources for improved loading time
+      - Optimizing the UI for performance
+      - How to add offline-capable databases to your web apps with 8 lines of code

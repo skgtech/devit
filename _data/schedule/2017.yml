@@ -1,0 +1,147 @@
+talks:
+  - type: registration
+    title: Registration
+    hours: 09
+    mins: 30
+
+  - type: ceremony
+    title: Opening Ceremony
+    hours: 10
+    mins: 15
+
+  - type: talk
+    title: Accessiblity - ARIA, Accessibility APIs and coding like you give a damn!
+    speaker: leonie_watson
+    hours: 10
+    mins: 30
+
+  - type: talk
+    title: Data collection, forms, inclusivity
+    speaker: hugo_giraudel
+    hours: 11
+    mins: 10
+
+  - type: coffee
+    title: Coffee Break
+    hours: 11
+    mins: 50
+
+  - type: talk
+    title: Functional programming (Frontend)
+    speaker: bodil_stokke
+    hours: 12
+    mins: 20
+
+  - type: talk
+    title: iOS & Swift
+    speaker: natasha_murashev
+    hours: 13
+    mins: 00
+
+  - type: lunch
+    title: Lunch Break
+    hours: 13
+    mins: 40
+
+  - type: talk
+    title: Learn Redis the hard way ... in production @Trivago
+    speaker: andy_grunwald
+    description: For our products, like the trivago hotel search, we are using Redis a lot. The use cases vary, Caching, temporary storage of data before moving those into another storage or a typical database for hotel meta data including persistence. The main parts of the hotel search are build with PHP for the frontend (web) and Java for the backend part. In this talk we will focus on the combination of our PHP app and Redis. Both are running fine, but it was a long and hard way up to the current situation. We will tell you the story how we learned to use Redis. Including our failures and experience.
+    hours: 14
+    mins: 40
+
+  - type: talk
+    title: Deploying ElasticSearch clusters on Azure using SaltStack
+    speaker: rita_zhang
+    description: SaltStack is an Open Source project that aims to deliver infrastructure as code and configuration management with abstraction of the cloud provider selected. In this session, we will take a look at an end-to-end real world example of provisioning an ElasticSearch cluster on Azure using SaltStack configurations. The model of SaltStack is based on master and minions with each minion agent reaching back to the master; this makes the solution very scalable. The master holds the configuration of the minions in a set of configuration files. Those files provide an idempotent configuration that will be applied when the minion role is deployed or at any time the configuration is re-applied.
+    # speaker: rita_zhang, jason_poon
+    hours: 15
+    mins: 20
+
+  - type: talk
+    title: UX Prototyping and Testing
+    speaker: marisa_morby
+    hours: 16
+    mins: 00
+
+  - type: coffee
+    title: Coffee
+    hours: 16
+    mins: 40
+
+  - type: talk
+    title: Node.js Cutting Edge
+    speaker: james_halliday
+    hours: 17
+    mins: 10
+
+  - type: talk
+    title: Machine Learning
+    speaker: julien_simon
+    hours: 17
+    mins: 50
+
+  - type: talk
+    title: Closing keynote - Panel
+    hours: 18
+    mins: 30
+
+  - type: ceremony
+    title: Closing Ceremony
+    hours: 19
+    mins: 00
+
+workshops:
+  - type: registration
+    title: Registration
+    hours: 10
+    mins: 00
+  - type: coffee
+    title: Coffee Break
+    hours: 10
+    mins: 30
+  - type: session
+    hours: 11
+    mins: 00
+    entries:
+      - "allDay01"
+      - "allDay02"
+      - "allDay03"
+      - "open01"
+      - "open02"
+      - "open03"
+      - "open04"
+  - type: lunch
+    title: Lunch Break
+    hours: 13
+    mins: 30
+  - type: session
+    hours: 14
+    mins: 30
+    entries:
+      - "allDay01"
+      - "allDay02"
+      - "allDay03"
+      - "open05"
+      - "open06"
+      - "open07"
+      - "open08"
+  - type: coffee
+    title: Coffee Break
+    hours: 17
+    mins: 00
+  - type: session
+    hours: 17
+    mins: 30
+    entries:
+      - "allDay01"
+      - "allDay02"
+      - "allDay03"
+      - "open09"
+      - "open10"
+      - "open11"
+      - "open12"
+  - type: party
+    title: After Party x2
+    hours: 20
+    mins: 00

@@ -1215,7 +1215,6 @@ Tabs
     position: relative;
     margin: 0 0 5px 0;
     border: 0;
-    z-index: 20;
 }
 
 .nav-tabs > li {
@@ -1256,11 +1255,11 @@ Tabs
     margin-left: -10px;
     position: absolute;
     width: 0;
+    z-index: 20;
 }
 
 .tab-pane {
     background: #f4f6f7;
-    padding: 3rem;
 }
 
 
@@ -1271,10 +1270,6 @@ Accordion
 .accordion {
     padding: 0;
     list-style: none;
-}
-
-.tab-pane .accordion {
-    margin: -3rem;
 }
 
 .accordion > li {
@@ -1294,8 +1289,7 @@ Accordion
     display: block;
     width: 100%;
     overflow: hidden;
-    padding-right: 8rem;
-    cursor: pointer;
+    padding-right: 6rem;
 }
 
 .accordion-heading:after {
