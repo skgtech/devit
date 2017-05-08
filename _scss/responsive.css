@@ -67,13 +67,22 @@
         font-size: 4rem;
     }
     /* Schedule */
-    .schedule-speaker,
+    .accordion-heading {
+      padding-right: 0;
+    }
+    .accordion-heading:after {
+      display: none;
+    }
+    .schedule-speaker {
+      padding-top: 0;
+      margin-top: -6rem;
+    }
     .schedule-speaker-list {
         display: none;
     }
     .schedule-time {
         width: 100%;
-        padding-bottom: 0;
+        display: block;
         text-align: left;
     }
     /* Speakers */
