@@ -1215,7 +1215,6 @@ Tabs
     position: relative;
     margin: 0 0 5px 0;
     border: 0;
-    z-index: 20;
 }
 
 .nav-tabs > li {
@@ -1256,6 +1255,7 @@ Tabs
     margin-left: -10px;
     position: absolute;
     width: 0;
+    z-index: 20;
 }
 
 .tab-pane {

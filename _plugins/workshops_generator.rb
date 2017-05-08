@@ -5,8 +5,8 @@ module Jekyll
         data['allDay'].each do | workshop |
           site.pages << WorkshopPage.new(site, "workshops-all-day", year, workshop)
         end
-        data['open'].each do | openWorkshops |
-          site.pages << WorkshopPage.new(site, "workshops-open", year, openWorkshops)
+        data['open'].each do | workshop |
+          site.pages << WorkshopPage.new(site, "workshops-open", year, workshop)
         end
       end
     end
@@ -23,12 +23,18 @@ module Jekyll
       @name = 'index.html'
       self.process(@name)
       self.read_yaml(File.join(@base, '_includes'), 'workshop.single-page.html')
+
+      @speaker = site.data['speakers']['2017']['speakers'].find {|s| s['url'] == workshop['speaker'] }
+
       self.data['workshop'] = workshop
       self.data['year'] = year
-      self.data['title'] = "DEVit :: #{ workshop['name'] } - #{ workshop['title'] }"
-      self.data['ogTitle'] = "DEVit :: #{ workshop['name'] } - #{ workshop['title'] }"
+      self.data['title'] = "#{ workshop['title'] } - DEVit"
+      self.data['ogTitle'] = "#{ workshop['title'] } - DEVit"
       self.data['ogDescription'] = "#{ workshop['description'].gsub(/<\/?[^>]*>/, "")[0, 150] } ..."
-      self.data['ogImage'] = "#{ workshop['speakerPhoto'] }"
+
+      unless @speaker.nil?
+        self.data['ogImage'] = "/assets/images/speakers/2017/#{ @speaker['first_name'] }_#{ @speaker['last_name'] }.png"
+      end
     end
   end
 
