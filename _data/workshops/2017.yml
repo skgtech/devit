@@ -121,23 +121,23 @@ open:
       - Running ASP.NET Core on Google Cloud
       - Deploying containirised ASP.NET Core to Kubernetes on Google Container Engine
   - id: "open06"
-    speaker: "hugo_giraudel"
+    speaker: "mike_smart"
     type: "open"
-    title: "React is Undefined, a deep dive to React.js"
+    title: "React is Undefined"
     url: "hugo-giraudel--react-is-undefined"
-    description: "360 view of the React world"
-    skill: JavaScript knowledge, maybe React basics, not being an idiot :D
-    prerequisites: "laptop, internet connection, GitHub account"
+    description: "A crash course to React to learn what it is, when to use it and how."
+    skill: "HTML, CSS and JavaScript knowledge"
+    prerequisites: "Laptop, internet connection, GitHub account, npm setup."
     covers:
-      - Isomorphic React apps , what is it, how does it work, what's the point & how to set it up?
-      - Webpack + Babel madness
-      - React on the server
-      - Store & routes
-      - Sync & async actions
-      - What are the catches and how to fix them?
-      - XSS vulnerabilities
-      - Possible flash of unstyled content
-      - CSS on the server"
+      - What is React
+      - Hello world
+      - Playing with props
+      - Component lifecycle
+      - State
+      - Higher-order components
+      - Manipulating data
+      - Styling
+      - State management (Redux)
   - id: "open07"
     speaker: "ivo_neskovic"
     type: "open"
