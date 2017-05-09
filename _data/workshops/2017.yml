@@ -109,14 +109,17 @@ open:
   - id: "open05"
     speaker: "mete_atamel"
     type: "open"
-    title: "Take your ASP.NET Core apps to the next level with Docker and Kubernetes"
+    title: ".NET containers with Kubernetes and Google Container Engine (GKE)"
     url: "mete-atamel--take-your-asp-net-apps-to-the-next-level-with-docker-and-kubernetes"
-    description: "In this session, we will take a look at how to wrap your ASP.NET Core app into a Docker container and pass that container to Kubernetes, an open-source container management platform. We will see how easy it is to automate deployment, how to scale up/down, how to create a resilient container cluster and much more with Kubernetes. Your ASP.NET apps will never be the same again!"
-    skill: "Intermediate"
-    prerequisites: "TBA"
+    description: "Creating a single microservice is a well understood problem. Creating a cluster of load-balanced microservices that are resilient and self-healing is not so easy. Managing that cluster with rollouts and rollbacks, scaling individual services on demand, securely sharing secrets and configuration among services is even harder. Kubernetes, an open-source container management system, can help with this. In this workshop, we will start with a simple ASP.NET Core microservice, containerize it using Docker, and scale it to a cluster of resilient microservices managed by Kubernetes running on GKE. Along the way, we will learn what makes Kubernetes a great system for automating deployment, operations, and scaling of containerized applications."
+    skill: "Beginner"
+    prerequisites: " A little knowledge of .NET Core development and containers would be useful but not required."
     covers:
-      - Docker
-      - Kubernetes
+      - Intro to containers
+      - Intro to Kubernetes
+      - Intro to ASP.NET Core
+      - Running ASP.NET Core on Google Cloud
+      - Deploying containirised ASP.NET Core to Kubernetes on Google Container Engine
   - id: "open06"
     speaker: "hugo_giraudel"
     type: "open"
