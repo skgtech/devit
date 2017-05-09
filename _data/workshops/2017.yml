@@ -123,7 +123,7 @@ open:
   - id: "open06"
     speaker: "mike_smart"
     type: "open"
-    title: "React is Undefined"
+    title: "React is undefined"
     url: "hugo-giraudel--react-is-undefined"
     description: "A crash course to React to learn what it is, when to use it and how."
     skill: "HTML, CSS and JavaScript knowledge"
