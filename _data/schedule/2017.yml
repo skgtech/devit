@@ -37,6 +37,8 @@ talks:
   - type: talk
     title: iOS & Swift
     speaker: natasha_murashev
+    title: Build Features, Not Apps
+    description: "Most iPhone users don’t bother installing any apps per months. And worse, ~80% never use an app they’ve installed again. The future of mobile is clearly not apps, but features. Features that make the iPhone ecosystem still a native experience, but as open and flexible as the web. Learn how you could prepare for that future."
     hours: 13
     mins: 00
 
