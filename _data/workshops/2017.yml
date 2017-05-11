@@ -188,13 +188,11 @@ open:
   - id: "open10"
     speaker: "forbes_lindesay"
     type: "open"
-    tba: true
     title: "Bulletproffing React Apps (jest, web drivers, flow)"
-    url: ""
+    url: "forbes-lindesay--bulletproffing-react-apps"
     description: Building a front end application for the web can feel like a constant battle against bugs.  Every time you add a feature, something else breaks.  Fortunately, there are lots of tools available now that can help you track down bugs, and make sure that once you've fixed them, they don't re-surface.
     skill: "Intermediate"
     prerequisites: "HTML & JavaScript. You should feel comfortable building a front end web-app.  At least some experience of React."
-    speakerPhoto: "/assets/images/speakers/tba_woman.png"
     covers:
       - How to configure static analysis (via flow & eslint) to prevent lots of common mistakes.
       - How to set up automated JavaScript testing (via jest).
