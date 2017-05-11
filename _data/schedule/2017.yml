@@ -74,8 +74,9 @@ talks:
     mins: 40
 
   - type: talk
-    title: Node.js Cutting Edge
+    title: p2p on the web
     speaker: james_halliday
+    description: "In this talk, we will learn some simple tools and tricks to build p2p data replication and gossip networks on the web using websockets and webrtc."
     hours: 17
     mins: 10
 
