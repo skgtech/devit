@@ -9,7 +9,9 @@ custom_js:
 <div class="container content">
 
   {% assign workshop = page.workshop %}
-
+  {% assign speaker = site.data.speakers.2017.speakers | where:"url", workshop.speaker | first %}
+  {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+  {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
   <ol class="breadcrumb">
     <li><a href="/">DEVit 2017</a></li>
     <li><a href="/workshops/2017/">Workshops</a></li>
@@ -19,7 +21,7 @@ custom_js:
     <header>
       <div class="text-center">
         <h1>{{ workshop.title }}</h1>
-        <h4><i>by {{ workshop.name }}</i></h4>
+        <h4><i>by {{ speakerName }}</i></h4>
       </div>
     </header>
   </section>
@@ -39,13 +41,13 @@ custom_js:
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
-          <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ workshop.name }}">
         </div>
-        <div class="col-lg-7 workshop__info">
+        <div class="{% if workshop.type == 'allDay' %}col-lg-7{% else %}col-lg-9{% endif %} workshop__info">
           <table class="table">
             <tr>
               <th>Instructor</th>
-              <td>{{ workshop.name }}</td>
+              <td>{{ speakerName }}</td>
             </tr>
             <tr>
               <th>Skill Level</th>
@@ -61,6 +63,7 @@ custom_js:
             </tr>
           </table>
         </div>
+        {% if workshop.type == "allDay" %}
         <div class="col-lg-2 workshop__cart-info">
           <div>
             Ticket Price:<br/>
@@ -73,6 +76,7 @@ custom_js:
             <a target="blank" href="http://devit2017.eventzilla.net/" class="button btn-block btn-action workshop__buy">Buy now</a>
           </div>
         </div>
+        {% endif %}
       </div>
       <div class="row">
         <div class="col-lg-6">
