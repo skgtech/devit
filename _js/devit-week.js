@@ -1,14 +1,15 @@
 require('./utils/common.js');
 
-require.ensure(['gmap3/dist/gmap3.min', './utils/devit-custom.js'], function (require) {
+require.ensure(['gmap3/dist/gmap3.min'], function (require) {
 
-  require('./utils/devit-custom.js');
 
-  var venueAddress = [40.6252233, 22.9495758];
+
+  var cohoAddress = [40.6211786, 22.95508];
+  var cityHallAddress = [40.6233958, 22.9538091];
 
   require('gmap3/dist/gmap3.min');
-  $('#map-day-1').gmap3({
-    center: venueAddress,
+  $('#map-day-2').gmap3({
+    center: cohoAddress,
     zoom: 16,
     streetViewControl: true,
     panControl: false,
@@ -17,7 +18,20 @@ require.ensure(['gmap3/dist/gmap3.min', './utils/devit-custom.js'], function (re
     mapTypeControl: false,
   })
   .marker({
-    position: venueAddress,
+    position: cohoAddress,
+  });
+
+  $('#map-day-3').gmap3({
+    center: cityHallAddress,
+    zoom: 16,
+    streetViewControl: true,
+    panControl: false,
+    zoomControl: true,
+    scrollwheel: false,
+    mapTypeControl: false,
+  })
+  .marker({
+    position: cityHallAddress,
   });
 });
 
