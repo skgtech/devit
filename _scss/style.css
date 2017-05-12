@@ -858,7 +858,7 @@ Speakers
 
 .speaker-info {
     position: relative;
-    padding: 2rem;
+    padding: 2rem 0;
     /*background: #f4f6f7;*/
     text-align: center;
     z-index: 10;
