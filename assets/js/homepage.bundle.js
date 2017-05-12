@@ -1,1 +1,1 @@
-webpackJsonp([2],[function(o,n,e){e(1),e.e(3,function(o){e(27);var n=[40.6252233,22.9495758];e(26),$("#map-canvas").gmap3({center:n,zoom:16,streetViewControl:!0,panControl:!1,zoomControl:!0,scrollwheel:!1,mapTypeControl:!1}).marker({position:n})})}]);
+webpackJsonp([4],[function(o,n,e){e(1),e.e(5,function(o){e(26);var n=[40.6252233,22.9495758];e(25),$("#map-canvas").gmap3({center:n,zoom:16,streetViewControl:!0,panControl:!1,zoomControl:!0,scrollwheel:!1,mapTypeControl:!1}).marker({position:n})})}]);
