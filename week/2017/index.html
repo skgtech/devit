@@ -49,7 +49,42 @@
 </head>
 <body>
 
-  
+  <div id="home"></div>
+<header id="header" class="header">
+
+  <div id="preloader">
+    <div class="preloader"></div>
+  </div>
+
+  <div class="header-caption">
+    <div class="container">
+      <div class="box text-center">
+        <div class="logo">
+          <img src="/assets/images/DevitLogo.svg" alt="DEVit Conference" class="img-responsive"/>
+        </div>
+        <span class=""><strong>Sat 20 - Sun 21</strong> May 2017</span><br/>
+        <span class="">Thessaloniki, Greece</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="header-background" class="header-background header-background-hide">
+    <ul class="slides">
+      <li><img src="/assets/images/demo/01.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/02.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/03.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/04.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/05.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/06.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/07.jpg" alt="DEVit Conference 2016"/></li>
+      <li><img src="/assets/images/demo/08.jpg" alt="DEVit Conference 2016"/></li>
+    </ul>
+  </div>
+
+</header>
+
+
+
 
 <div id="navigation-wrap" class="navigation-wrap">
 
@@ -71,10 +106,12 @@
               <li ><a href="/">Home</a></li>
               <li ><a href="/#speakers">Speakers</a></li>
               <li ><a href="/workshops/2017">Workshops</a></li>
+              <li ><a href="/schedule">Schedule</a></li>
               <li><a href="/#sponsors">Sponsors</a></li>
               <li><a href="/#venue">Venue</a></li>
               <li><a href="/#hotels">Hotel</a></li>
               <li ><a href="/blog">Blog</a></li>
+              <li class="active"><a href="/week/2017">DEVit Week</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a target="_blank" href="http://devit2017.eventzilla.net/" class="register" id="register-cta">Buy Tickets</a></li>
@@ -86,176 +123,227 @@
 </div>
 
 
+
 <div class="container content">
+  <!--===============================-->
+  <!--== Posts ======================-->
+  <!--===============================-->
 
+  <section id="posts">
 
-  <section>
     <div class="row text-center">
-      <div class="col-sm-12">
-        <div class="section-header">
-          <img src="/assets/images/DEVit-week-logo.png" class="img-responsive img-center" alt="">
+  <div class="col-sm-12">
+    <div class="section-header">
+      <img src="/assets/images/DEVit-week-logo.png" class="img-responsive img-center" alt="">
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <h4 class="text-center">
+      Find out what we have for you the week before DEVit
+    </h4>
+    <br />
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="content-tabs">
+      <ul class="nav nav-tabs">
+        <li><a href="#monday" data-toggle="tab">Monday 15/5</a></li>
+        <li class="active"><a href="#tuesday" data-toggle="tab">Tuesday 16/5</a></li>
+        <li><a href="#wednesday" data-toggle="tab">Wednesday 17/5</a></li>
+        <li><a href="#thursday" data-toggle="tab">Thursday 18/5</a></li>
+        <li><a href="#friday" data-toggle="tab">Friday 19/5</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane fade" id="monday">
+          <ul class="accordion">
+            <li class="conf-related">
+              <div class="accordion-body row">
+                <p>TBA</p>
+              </div>
+
+            </li>
+
+
+          </ul>
         </div>
-      </div>
-      <div class="col-sm-12">
-        <h4 class="text-center">
-          Find out what we have for you the week before DEVit
-        </h4>
-        <br />
+
+
+        <div class="tab-pane fade in active" id="tuesday">
+          <ul class="accordion">
+            <li class="conf-related">
+              <div class="accordion-body row">
+
+                <div class="col-sm-12 col-md-6">
+                  <div class="map" id="tuesday-map"></div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                  <h3>
+                    <b>CocoaHeads SKG #15 <br/>
+                        The Bicameral Mind</b>
+                  </h3>
+                  <p>
+                    CocoaHeads couldn't just not be part of DEVit week!<br>
+                    A full week of tech gatherings, events, drinks and networking with
+                    like-minded people within a friendly atmosphere.
+                  </p>
+                  <p>
+                    Let's meet this Tuesday, 16th of May, for our ordinary Apple related
+                    get-together and let's all be there to welcome
+                    <a href="/speakers/2017/natasha_murashev">Natasha The Robot</a> to Thessaloniki!
+                  </p>
+
+                  <ul class="contact">
+                    <li class="contact-info">
+                      <em class="fa fa-ticket color-blue"></em>
+                      <a href="https://www.meetup.com/CocoaHeadsSKG/events/239871613/" target="_blank">
+                      RSVP</a>
+                    </li>
+                    <li class="contact-info">
+                      <em class="fa fa-map-marker color-blue"></em>
+                      <a href="http://www.coho.gr/home/en/" target="_blank">
+                      Coho</a>
+                      <span>Str. Napoleontos Zerva 10, Thessaloniki</span>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="tab-pane fade" id="wednesday">
+          <ul class="accordion">
+            <li class="conf-related">
+              <div class="accordion-body row">
+
+                <div class="col-sm-12 col-md-6">
+                  <div class="map" id="wednesday-map"></div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                  <h3>
+                    <b>We are Together III</b>
+                  </h3>
+                  <p>
+                    <a href="http://skgtech.io/together-2017/" target="_blank">"We are Together"</a>
+                    is an afternoon gathering where local techies
+                    come together to present their products, to listen to fresh ideas
+                    and to network. Participation is admission free and open to anyone
+                    interested into new technologies and business creation.
+                  </p>
+                  <p>
+                    The event is co-organised by <a href="http://skgtech.io" target="_blank">SKGTech</a>,
+                    <a href="https://www.facebook.com/groups/SKG.Startupers/" target="_blank">SKGStartuppers</a>
+                    and <a href="http://okthess.gr/eng/" target="_blank">OK!Thess</a> but it's
+                    made possible by all of the communities and startups participating.
+                  </p>
+                  <p>
+                    Do you have something exciting to share?
+                  </p>
+
+                  <ul class="contact">
+                    <li class="contact-info">
+                      <em class="fa fa-ticket color-blue"></em>
+                      <a href="https://www.facebook.com/events/1537344979617084/" target="_blank">
+                      RSVP</a>
+                    </li>
+                    <li class="contact-info">
+                      <em class="fa fa-map-marker color-blue"></em>
+                      <a href="https://goo.gl/maps/NoJvm3Nhgx92" target="_blank">
+                      Thessaloniki City Hall</a>
+                      <span>Leoforos Vasileos Georgiou, Thessaloniki</span>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="tab-pane fade" id="thursday">
+          <ul class="accordion">
+            <li class="conf-related">
+              <div class="accordion-body row">
+
+                <div class="col-sm-12 col-md-6">
+                  <div class="map" id="thursday-map"></div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                  <h3>
+                    <b>Nodejs/.NET Synergy Meetup + 3 free tickets for DEVit Conference</b>
+                  </h3>
+                  <p>
+                    May Nodejs Meetup is back! This time with our fellow .NET folks.
+                    The upcoming Node.js meetup is a special edition cause we will have many
+                    guests joining us including the awesome Toptal team.
+                    Our meetup lineup, Asia Lindsay from Toptal will present
+                    `How Remote Work and Freelancing is Changing the World`. James Halliday
+                    (<a href="/speakers/2017/james_halliday/">DEVit speaker</a>) will present
+                    'Live coding a webgl+webaudio demo from zero' and professors
+                    <a href="https://www.linkedin.com/in/alexanderchatzigeorgiou/?ppe=1" target="_blank">
+                    Alexander Chatzigeorgiou</a> & <a href="https://www.linkedin.com/in/apostolos-ampatzoglou-94a1711b/?ppe=1" target="_blank">
+                    Apostolos Ampatzoglou</a> will share their knowledge on Technical debt.
+                  </p>
+                  <p>
+                    This is like a mini-conference so <strong>DO NOT MISS IT</strong> by any chance. We'll have
+                  surprises (DEVit tickets anyone?) and this time the meetup will offer food
+                  and beverages, courtesy of <a href="https://www.toptal.com/" target="_blank">Toptal</a>
+                  who is joining our awesome sponsors. So, big thanks to them for the support!
+                  </p>
+
+                  <ul class="contact">
+                    <li class="contact-info">
+                      <em class="fa fa-ticket color-blue"></em>
+                      <a href="https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/239919094/" target="_blank">
+                      RSVP</a>
+                    </li>
+                    <li class="contact-info">
+                      <em class="fa fa-map-marker color-blue"></em>
+                      <a href="https://goo.gl/maps/YAFy7wX8HXF2" target="_blank">OK!Thess</a>
+                      <span>Komotinis 2, 54655, Thessaloniki</span>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="tab-pane fade" id="friday">
+          <ul class="accordion">
+            <li class="conf-related">
+              <div class="accordion-body row">
+                <p>TBA</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="content-tabs">
-          <ul class="nav nav-tabs">
-            <li><a href="#monday" data-toggle="tab">Monday 15/5</a></li>
-            <li class="active"><a href="#tuesday" data-toggle="tab">Tuesday 16/5</a></li>
-            <li><a href="#wednesday" data-toggle="tab">Wednesday 17/5</a></li>
-            <li><a href="#thursday" data-toggle="tab">Thursday 18/5</a></li>
-            <li><a href="#friday" data-toggle="tab">Friday 19/5</a></li>
-          </ul>
-
-          <div class="tab-content">
-            <div class="tab-pane fade" id="monday">
-              <ul class="accordion">
-                <li class="conf-related">
-                  <div class="accordion-body row">
-                    <p>TBA</p>
-                  </div>
-
-                </li>
+  </div>
 
 
-              </ul>
-            </div>
-
-
-            <div class="tab-pane fade in active" id="tuesday">
-              <ul class="accordion">
-                <li class="conf-related">
-                  <div class="accordion-body row">
-
-                    <div class="col-sm-12 col-md-6">
-                      <div class="map" id="tuesday-map"></div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6">
-                      <h3>
-                        <b>CocoaHeads SKG #15 <br/>
-                           The Bicameral Mind</b>
-                      </h3>
-                      <p>
-                        CocoaHeads couldn't just not be part of DEVit week!<br>
-                        A full week of tech gatherings, events, drinks and networking with
-                        like-minded people within a friendly atmosphere.
-                      </p>
-                      <p>
-                        Let's meet this Tuesday, 16th of May, for our ordinary Apple related
-                        get-together and let's all be there to welcome
-                        <a href="/speakers/2017/natasha_murashev">Natasha The Robot</a> to Thessaloniki!
-                      </p>
-
-                      <ul class="contact">
-                        <li class="contact-info">
-                          <em class="fa fa-ticket color-blue"></em>
-                          <a href="https://www.meetup.com/CocoaHeadsSKG/events/239871613/" target="_blank">
-                          RSVP</a>
-                        </li>
-                        <li class="contact-info">
-                          <em class="fa fa-map-marker color-blue"></em>
-                          <a href="http://www.coho.gr/home/en/" target="_blank">
-                          Coho</a>
-                          <span>Str. Napoleontos Zerva 10, Thessaloniki</span>
-                        </li>
-                      </ul>
-                    </div>
-
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-
-
-            <div class="tab-pane fade" id="wednesday">
-              <ul class="accordion">
-                <li class="conf-related">
-                  <div class="accordion-body row">
-
-                    <div class="col-sm-12 col-md-6">
-                      <div class="map" id="wednesday-map"></div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6">
-                      <h3>
-                        <b>We are Together III</b>
-                      </h3>
-                      <p>
-                        <a href="http://skgtech.io/together-2017/" target="_blank">"We are Together"</a>
-                        is an afternoon gathering where local techies
-                        come together to present their products, to listen to fresh ideas
-                        and to network. Participation is admission free and open to anyone
-                        interested into new technologies and business creation.
-                      </p>
-                      <p>
-                        The event is co-organised by <a href="http://skgtech.io" target="_blank">SKGTech</a>,
-                        <a href="https://www.facebook.com/groups/SKG.Startupers/" target="_blank">SKGStartuppers</a>
-                        and <a href="http://okthess.gr/eng/" target="_blank">OK!Thess</a> but it's
-                        made possible by all of the communities and startups participating.
-                      </p>
-                      <p>
-                        Do you have something exciting to share?
-                      </p>
-
-                      <ul class="contact">
-                        <li class="contact-info">
-                          <em class="fa fa-ticket color-blue"></em>
-                          <a href="https://www.facebook.com/events/1537344979617084/" target="_blank">
-                          RSVP</a>
-                        </li>
-                        <li class="contact-info">
-                          <em class="fa fa-map-marker color-blue"></em>
-                          <a href="https://goo.gl/maps/NoJvm3Nhgx92" target="_blank">
-                          Thessaloniki City Hall</a>
-                          <span>Leoforos Vasileos Georgiou, Thessaloniki</span>
-                        </li>
-                      </ul>
-                    </div>
-
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-
-
-            <div class="tab-pane fade" id="thursday">
-              <ul class="accordion">
-                <li class="conf-related">
-                  <div class="accordion-body">
-                    <p>TBA</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-
-
-            <div class="tab-pane fade" id="friday">
-              <ul class="accordion">
-                <li class="conf-related">
-                  <div class="accordion-body">
-                    <p>TBA</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
   </section>
 
+  <!--==========-->
+
+  <!--===============================-->
+  <!--== Footer =====================-->
+  <!--===============================-->
 
   <footer id="footer" class="footer">
   <div class="row">
@@ -273,6 +361,9 @@
           </li>
           <li>
             <a href="/code-of-conduct">Code of Conduct</a>
+          </li>
+          <li>
+            <a href="/week/2017">DEVit Week</a>
           </li>
         </ul>
       </div>
@@ -354,7 +445,10 @@
   </div>
 </footer>
 
-  </div>
+
+  <!--==========-->
+
+</div>
 
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_qdTHw4MLwyOxobTqE44X1IpS6bjf-ng"></script>
