@@ -30,13 +30,13 @@ speakers:
   - url: hugo_giraudel
     first_name: Hugo
     last_name: Giraudel
-    nickname: CSS goblin
+    nickname: CSS-in-JS kitten
     social:
       twitter: HugoGiraudel
       github: HugoGiraudel
     bio : |
-      Hugo is a Front-end developer at <a href="https://n26.com" target="_blank">n26</a> in Berlin.
-      CSS goblin, Sass hacker & serial writer. OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
+      Hugo is an accessibility advocate and front-end developer at <a href="https://n26.com" target="_blank">N26</a> in Berlin.
+      Open-source contributor and serial writer. OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
       <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.
       Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>. Net Awards nominee.
 
