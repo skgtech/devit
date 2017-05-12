@@ -46,7 +46,7 @@ custom_js:
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
-          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ workshop.name }}">
+          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
         </div>
         <div class="col-lg-7 workshop__info">
           <table class="table">
@@ -112,7 +112,11 @@ custom_js:
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
-          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ workshop.name }}">
+          {% if workshop.tba %}
+          <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.title }}">
+          {% else %}
+          <img class="img-responsive" src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
+          {% endif %}
         </div>
         <div class="col-lg-9 workshop__info">
           <table class="table">
