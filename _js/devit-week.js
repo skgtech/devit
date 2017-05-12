@@ -22,10 +22,12 @@ require.ensure(['gmap3/dist/gmap3.min'], function (require) {
 
   var cohoAddress = [40.6211786, 22.95508];
   var cityHallAddress = [40.6233958, 22.9538091];
+  var okThessAddress = [40.595075, 22.9512945];
 
   var mapInitState = {
     '#tuesday-map': { init: false, location: cohoAddress },
-    '#wednesday-map': { init: false, location: cityHallAddress }
+    '#wednesday-map': { init: false, location: cityHallAddress },
+    '#thursday-map': { init: false, location: okThessAddress }
   };
 
   $(document).ready(function () {
