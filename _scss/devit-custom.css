@@ -323,3 +323,12 @@ a.button.sold-out:hover {
 .schedule.nav-tabs > li > a {
     padding: 2rem 2.97rem;
 }
+
+.contact-info > em.color-blue {
+  color: #6aa7cf;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+}
