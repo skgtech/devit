@@ -18,7 +18,6 @@ talks:
   - type: talk
     title: Data collection, forms, inclusivity
     speaker: hugo_giraudel
-    title: Clever, stop being so
     description: "Asking for information online is hard. Users are cautious about the data they share. Companies are quite terrible at asking for the right piece of information, let alone phrasing it correctly. In this presentation, we’ll focus on two major pieces of information about a person: their name, and their gender. We’ll see how not to ask for them, and how we can ensure inclusivity and diversity on the web by asking the right thing in the right format."
     hours: 11
     mins: 10

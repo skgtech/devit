@@ -10,6 +10,7 @@ custom_js:
 {% assign speakers=site.data.speakers.2017.speakers %}
 {% assign allDayWorkshops=site.data.workshops.2017.allDay %}
 {% assign openWorkshops=site.data.workshops.2017.open %}
+{% assign talksDaySchedule=site.data.schedule.2017.talks %}
 
 <schedule class="schedule" data-page="true">
   <header class="header-bar">
@@ -19,22 +20,41 @@ custom_js:
   </header>
   <div class="content">
     <ul class="list schedule">
-      {% for workshop in allDayWorkshops %}
+      {% for talk in talksDaySchedule %}
+        {% if talk.speaker %}
+          {% assign speaker = site.data.speakers.2017.speakers | where:"url", talk.speaker | first %}
+          {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+          {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
+        {% endif %}
         <li class="schedule-item">
-          <a href="#!{{workshop.type | slugify}}-{{workshop.name | slugify}}" class="">
+          {% if talk.type == "talk" %}
+          <a href="#!{{talk.title | slugify}}" class="">
             <div class="pull-left">
-              <span>19:00</span>
-              <img
-                src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}"
-                class="schedule-item__img">
+              <span>{{talk.hours}}:{{talk.mins}}</span>
+              {% if talk.speaker %}
+                <img
+                  src="/assets/images/speakers/2017/{{speakerImg }}.png" alt="{{ workshop.name }}"
+                  class="schedule-item__img">
+              {% endif %}
             </div>
             <i class="icon icon-arrow-forward pull-right"></i>
             <div class="item-content">
-              <div class="schedule-item__title">{{ workshop.title }}</div>
-              <div class="schedule-item__name">{{ workshop.name }}</div>
+              <div class="schedule-item__title">{{ talk.title }}</div>
+              {% if talk.speaker %}
+                <div class="schedule-item__name">{{ workshop.name }}</div>
+              {% endif %}
               <div class="schedule-item__duration">40 min</div>
             </div>
           </a>
+          {% else %}
+          <div class="pull-left">
+            <span>{{talk.hours}}:{{talk.mins}}</span>
+          </div>
+          <div class="item-content">
+            <div class="schedule-item__title">{{ talk.title }}</div>
+            <div class="schedule-item__duration">40 min</div>
+          </div>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
@@ -43,63 +63,53 @@ custom_js:
 
 {% for speaker in speakers %}
 <{{speaker.url}} class="speaker-page" data-page="true">
-  <header class="header-bar">
-    <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
-    <div class="center">
-      <img
-        src="/assets/images/speakers/2017/{{ speaker.first_name }}_{{ speaker.last_name }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}"
-        class="speaker__img">
-      <h1 class="title">{{speaker.first_name}} {{speaker.last_name}}</h1>
-      <span class="company">Facebook</span>
-    </div>
-  </header>
+  {% assign speaker = site.data.speakers.2017.speakers | where:"url", talk.speaker | first %}
+  {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+  {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
   <div class="content">
+    <div class="content-header">
+      <a href="#!schedule" class="btn back-btn icon icon-arrow-back"></a>
+      <div class="center">
+        <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}" class="speaker__img">
+        <h1 class="title">{{ speakerName }}</h1>
+        <span class="company">Facebook</span>
+      </div>
+    </div>
     <div class="section">
-      <span>About {{speaker.first_name}}</span>
+      <span>About {{ speaker.first_name }}</span>
       <p>{{speaker.bio}}</p>
     </div>
   </div>
 </{{speaker.url}}>
 {% endfor %}
 
-{% for workshop in allDayWorkshops %}
-<{{workshop.type | slugify}}-{{workshop.name | slugify}} class="talk-page" data-page="true">
-  <header class="header-bar">
-    <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
-    <div class="center">
-      <div class="type">Workshop</div>
-      <h1 class="title">{{workshop.title}}</h1>
-      <div class="duration">40 min</div>
-    </div>
-  </header>
+{% for talk in talksDaySchedule %}
+{% if talk.type == "talk" %}
+<{{talk.title | slugify}} class="talk-page" data-page="true">
   <div class="content">
+    <div class="content-header">
+      <a href="#!schedule" class="btn back-btn icon icon-arrow-back"></a>
+      <div class="center">
+        <div class="type">Talk</div>
+        <h1 class="title">{{talk.title}}</h1>
+        <div class="duration">40 min</div>
+      </div>
+    </div>
     <div class="section">
       <span>Description</span>
-      <p>{{workshop.description}}</p>
+      <p>{{talk.description}}</p>
     </div>
     <div class="section">
-      <img src="{{workshop.speakerPhoto}}" alt="{{ workshop.name }}" class="pull-left talk-page__speaker-img">
-      <p class="pull-left">{{workshop.name}}</p>
-      <a href="#!jameshalliday" class="btn pull-right icon icon-arrow-forward"></a>
+      {% if talk.speaker %}
+        {% assign speaker = site.data.speakers.2017.speakers | where:"url", talk.speaker | first %}
+        {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+        {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
+        <img src="/assets/images/speakers/2017/{{speakerImg}}.png" alt="{{ speakerName }}" class="pull-left talk-page__speaker-img">
+        <p class="pull-left">{{speakerName}}</p>
+        <a href="#!{{ speaker.url }}" class="btn pull-right icon icon-arrow-forward"></a>
+      {% endif %}
     </div>
   </div>
-</{{workshop.type | slugify}}-{{workshop.name | slugify}}>
-{% endfor %}
-
-{% for workshop in openWorkshops %}
-<{{workshop.type | slugify}}-{{workshop.name | slugify}} class="talk-page" data-page="true">
-  <header class="header-bar">
-    <a href="#!schedule" class="btn pull-left icon icon-arrow-back"></a>
-    <div class="center">
-      <img src="{{workshop.speakerPhoto}}" alt="{{ workshop.name }}"
-        class="speaker__img">
-      <h1 class="title">{{workshop.name}}</h1>
-      <span class="company">Facebook</span>
-    </div>
-  </header>
-  <div class="content">
-    <span>About {{workshop.title}}</span>
-    <p>{{workshop.description}}</p>
-  </div>
-</{{workshop.type | slugify}}-{{workshop.name | slugify}}>
+{% endif %}
+</{{talk.title | slugify}}>
 {% endfor %}

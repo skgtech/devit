@@ -10,11 +10,14 @@ body {
 }
 
 .header-bar .btn,
-.header-bar .title {
+.header-bar .title,
+.content-header .btn,
+.content-header .title {
   color: #003F74;
 }
 
-.header-bar .title {
+.header-bar .title,
+.content-header .title {
   font-weight: bold;
   font-size: 26px;
   color: $blue;
@@ -26,6 +29,7 @@ body {
 
 .list li .item-content {
   line-height: 25px;
+  width: 250px;
 }
 .schedule-item {
   padding-top: 15px;
@@ -79,11 +83,17 @@ body {
   background-repeat: no-repeat;
 }
 
-.talk-page .header-bar,
-.speaker-page .header-bar {
-  height: 250px;
-  padding-top: 50px;
+.back-btn {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: none;
+}
+.talk-page .content-header,
+.speaker-page .content-header {
   color: white;
+  text-align: center;
+  margin-top: 50px;
 
   .center {
     top: 50px;
@@ -99,6 +109,8 @@ body {
   .title {
     font-weight: bold;
     font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .duration {
@@ -106,13 +118,17 @@ body {
     font-weight: lighter;
   }
 }
-.talk-page .content,
-.speaker-page .content {
-  margin-top: 250px;
-}
+.talk-page .content-header .btn,
+.speaker-page .content-header .btn,
+.talk-page .content-header .title,
+.speaker-page .content-header .title,
 .talk-page .header-bar .btn,
 .speaker-page .header-bar .btn,
 .talk-page .header-bar .title,
 .speaker-page .header-bar .title {
   color: white;
+}
+
+.section .btn {
+  background: none;
 }
