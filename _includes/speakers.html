@@ -29,7 +29,12 @@
          <a href="/speakers/{{ include.year}}/{{speaker.url}}">
            <h3>
              <b>{{ speaker.first_name }}</b>
-             <br />{{ speaker.last_name }}
+             <br/>
+             {% if speaker.small %}
+              <small style="color: #222;">{{ speaker.last_name }}</small>
+            {% else %}
+              {{ speaker.last_name }}
+            {% endif %}
              {% if speaker.nickname %}
                <br /><small>({{ speaker.nickname }})</small>
              {% endif %}

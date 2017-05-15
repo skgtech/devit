@@ -284,15 +284,16 @@ speakers:
       twitter: forbeslindesay
       github: ForbesLindesay
     bio: |
-      Open source JavaScript developer and Software Engineer at Facebook. Maintainer of pug (formerly jade), cabbie.js, browserify-middleware, 
+      Open source JavaScript developer and Software Engineer at Facebook. Maintainer of pug (formerly jade), cabbie.js, browserify-middleware,
       bicycle.js, open source enthusiast and fan of all things React.
-      
+
   - url: dennis_stavroyiannopoulos
     first_name: Dennis
     last_name: Stavroyiannopoulos
+    small: true
     social:
       twitter: DennisStav
     bio: |
-     Dionysis Stavroyiannopoulos joined IBM in 2006. He is currently a Senior Software Architect in IBM Greece, responsible for analyzing customers' 
-     needs and proposing appropriate solutions. He has worked in several technical positions in the software industry for the last 15 years and has 
+     Dionysis Stavroyiannopoulos joined IBM in 2006. He is currently a Senior Software Architect in IBM Greece, responsible for analyzing customers'
+     needs and proposing appropriate solutions. He has worked in several technical positions in the software industry for the last 15 years and has
      extensive experience in telecom and mobile solutions. He holds a MSc in Space Science from University College London.
