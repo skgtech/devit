@@ -15,7 +15,7 @@ custom_js:
 <schedule class="schedule" data-page="true">
   <header class="header-bar">
     <div class="center">
-      <h1 class="title">Session <span>workshops</span></h1>
+      <h1 class="title">Sessions</h1>
     </div>
   </header>
   <div class="content">
@@ -40,10 +40,7 @@ custom_js:
             <i class="icon icon-arrow-forward pull-right"></i>
             <div class="item-content">
               <div class="schedule-item__title">{{ talk.title }}</div>
-              {% if talk.speaker %}
-                <div class="schedule-item__name">{{ workshop.name }}</div>
-              {% endif %}
-              <div class="schedule-item__duration">40 min</div>
+              <div class="schedule-item__duration">{{ talk.duration }}&nbsp;min</div>
             </div>
           </a>
           {% else %}
@@ -52,7 +49,7 @@ custom_js:
           </div>
           <div class="item-content">
             <div class="schedule-item__title">{{ talk.title }}</div>
-            <div class="schedule-item__duration">40 min</div>
+            <div class="schedule-item__duration">{{ talk.duration }}&nbsp;min</div>
           </div>
           {% endif %}
         </li>
@@ -72,11 +69,10 @@ custom_js:
       <div class="center">
         <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speaker.first_name}} {{speaker.last_name }}" class="speaker__img">
         <h1 class="title">{{ speakerName }}</h1>
-        <span class="company">Facebook</span>
       </div>
     </div>
     <div class="section">
-      <span>About {{ speaker.first_name }}</span>
+      <div class="section-heading">About {{ speaker.first_name }}</div>
       <p>{{speaker.bio}}</p>
     </div>
   </div>
@@ -92,21 +88,25 @@ custom_js:
       <div class="center">
         <div class="type">Talk</div>
         <h1 class="title">{{talk.title}}</h1>
-        <div class="duration">40 min</div>
+        <div class="duration">{{ talk.duration }} &nbsp;min</div>
       </div>
     </div>
-    <div class="section">
-      <span>Description</span>
-      <p>{{talk.description}}</p>
-    </div>
+    {% if talk.description %}
+      <div class="section">
+        <div class="section-heading">Description</div>
+        <p>{{talk.description}}</p>
+      </div>
+    {% endif %}
     <div class="section">
       {% if talk.speaker %}
         {% assign speaker = site.data.speakers.2017.speakers | where:"url", talk.speaker | first %}
         {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
         {% assign speakerImg = speaker.first_name | append: '_' | append: speaker.last_name %}
-        <img src="/assets/images/speakers/2017/{{speakerImg}}.png" alt="{{ speakerName }}" class="pull-left talk-page__speaker-img">
-        <p class="pull-left">{{speakerName}}</p>
-        <a href="#!{{ speaker.url }}" class="btn pull-right icon icon-arrow-forward"></a>
+        <a href="#!{{ speaker.url }}">
+          <img src="/assets/images/speakers/2017/{{speakerImg}}.png" alt="{{ speakerName }}" class="pull-left talk-page__speaker-img">
+          <p class="pull-left">{{speakerName}}</p>
+          <i class="icon icon-arrow-forward pull-right"></i>
+        </a>
       {% endif %}
     </div>
   </div>

@@ -29,7 +29,11 @@ body {
 
 .list li .item-content {
   line-height: 25px;
-  width: 250px;
+}
+@media only screen and (max-width: 640px) {
+  .list li .item-content {
+    width: 250px;
+  }
 }
 .schedule-item {
   padding-top: 15px;
@@ -73,7 +77,8 @@ body {
 
 .speaker-page .speaker__img {
   width: 100px;
-  margin-top: 50px
+  margin-top: 50px;
+  border-radius: 50%;
 }
 
 .talk-page,
@@ -86,7 +91,7 @@ body {
 .back-btn {
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 25px;
   background: none;
 }
 .talk-page .content-header,
@@ -131,4 +136,9 @@ body {
 
 .section .btn {
   background: none;
+}
+
+.section-heading {
+  font-weight: bold;
+  margin-bottom: 10px;
 }

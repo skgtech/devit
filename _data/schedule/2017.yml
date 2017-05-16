@@ -3,17 +3,20 @@ talks:
     title: Registration
     hours: 09
     mins: 30
+    duration: 45
 
   - type: ceremony
     title: Opening Ceremony
     hours: 10
     mins: 15
+    duration: 15
 
   - type: talk
     title: Accessiblity - ARIA, Accessibility APIs and coding like you give a damn!
     speaker: leonie_watson
     hours: 10
     mins: 30
+    duration: 40
 
   - type: talk
     title: Data collection, forms, inclusivity
@@ -21,17 +24,20 @@ talks:
     description: "Asking for information online is hard. Users are cautious about the data they share. Companies are quite terrible at asking for the right piece of information, let alone phrasing it correctly. In this presentation, we’ll focus on two major pieces of information about a person: their name, and their gender. We’ll see how not to ask for them, and how we can ensure inclusivity and diversity on the web by asking the right thing in the right format."
     hours: 11
     mins: 10
+    duration: 40
 
   - type: coffee
     title: Coffee Break
     hours: 11
     mins: 50
+    duration: 30
 
   - type: talk
     title: Functional programming (Frontend)
     speaker: bodil_stokke
     hours: 12
     mins: 20
+    duration: 40
 
   - type: talk
     title: iOS & Swift
@@ -40,11 +46,13 @@ talks:
     description: "Most iPhone users don’t bother installing any apps per months. And worse, ~80% never use an app they’ve installed again. The future of mobile is clearly not apps, but features. Features that make the iPhone ecosystem still a native experience, but as open and flexible as the web. Learn how you could prepare for that future."
     hours: 13
     mins: 00
+    duration: 40
 
   - type: lunch
     title: Lunch Break
     hours: 13
     mins: 40
+    duration: 60
 
   - type: talk
     title: Learn Redis the hard way ... in production @Trivago
@@ -52,6 +60,7 @@ talks:
     description: For our products, like the trivago hotel search, we are using Redis a lot. The use cases vary, Caching, temporary storage of data before moving those into another storage or a typical database for hotel meta data including persistence. The main parts of the hotel search are build with PHP for the frontend (web) and Java for the backend part. In this talk we will focus on the combination of our PHP app and Redis. Both are running fine, but it was a long and hard way up to the current situation. We will tell you the story how we learned to use Redis. Including our failures and experience.
     hours: 14
     mins: 40
+    duration: 40
 
   - type: talk
     title: Deploying ElasticSearch clusters on Azure using SaltStack
@@ -60,6 +69,7 @@ talks:
     # speaker: rita_zhang, jason_poon
     hours: 15
     mins: 20
+    duration: 40
 
   - type: talk
     title: "What Big Data is Missing: Remembering Our Humanity"
@@ -78,6 +88,7 @@ talks:
     title: Coffee
     hours: 16
     mins: 40
+    duration: 30
 
   - type: talk
     title: p2p on the web
@@ -85,6 +96,7 @@ talks:
     description: "In this talk, we will learn some simple tools and tricks to build p2p data replication and gossip networks on the web using websockets and webrtc."
     hours: 17
     mins: 10
+    duration: 40
 
   - type: talk
     title: Machine Learning
@@ -93,16 +105,19 @@ talks:
     description: In recent months, Artificial Intelligence has become the hottest topic in the IT industry. In this session, we’ll explain how Deep Learning — a subset of AI — differs from traditional Machine Learning and how it can help you solve complex problems such as computer vision or natural language processing. We’ll introduce you to MXNet, an Open Source Deep Learning library and we’ll show you to run it on a Raspberry Pi. Then, using a camera and a pre-trained object detection model, we’ll show random objects to the Pi…and listen to what it thinks the objects are, thanks to the text-to-speech capabilities of Amazon Polly.
     hours: 17
     mins: 50
+    duration: 40
 
   - type: talk
     title: Closing keynote - Panel
     hours: 18
     mins: 30
+    duration: 30
 
   - type: ceremony
     title: Closing Ceremony
     hours: 19
     mins: 00
+    duration: 15
 
 workshops:
   - type: registration
