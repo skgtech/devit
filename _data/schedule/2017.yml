@@ -29,8 +29,9 @@ talks:
     mins: 50
 
   - type: talk
-    title: Functional programming (Frontend)
     speaker: bodil_stokke
+    title: "Pure Fun with PureScript"
+    description: "In which we explore how some of the core ideas from modern functional programming (like managing side effects with referential transparency and managing state with persistent data structures) can be used to make modern web development less of a mess by putting them into practice writing a single page web app with real moving parts (OK, it’s a game and it has dogs) while you watch in astonishment."
     hours: 12
     mins: 20
 
