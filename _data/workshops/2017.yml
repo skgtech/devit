@@ -250,7 +250,7 @@ open:
       - Developing on serverless frameworks such as OpenWhisk
   - id: "open14"
     type: "open"
-    title: "TBA"
+    title: "CLOSED"
     tba: true
     speaker: ""
     url: ""
@@ -258,7 +258,7 @@ open:
     speakerPhoto: "/assets/images/speakers/tba_woman.png"
   - id: "open15"
     type: "open"
-    title: "TBA"
+    title: "CLOSED"
     tba: true
     speaker: ""
     url: ""
