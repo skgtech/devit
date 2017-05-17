@@ -89,13 +89,18 @@ open:
   - id: "open03"
     speaker: "antonio_peric"
     type: "open"
-    title: "PHP Symfony 7"
+    title: "Symfony more in depth with events and services"
     url: "antonio-peric-php-symfony-7"
     description: "You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will love to share knowledge with you."
     skill: "Intermediate"
-    prerequisites: "TBA"
+    prerequisites: "basic Symfony knowledge, OOP"
     covers:
-      - TBA
+     - Registering and using services (Dependency Injection and Service Container)
+     - Registering and using Events
+     - Extending Forms with custom constrain validators
+     - Creating Custom Console Command
+     - Using Form Events
+     - Compiler Passes
   - id: "open04"
     speaker: "melanie_patrick"
     type: "open"
@@ -177,14 +182,17 @@ open:
     speaker: ""
     type: "open"
     tba: true
-    title: "Azure Workshop"
+    title: "Create an intelligent serverless application in Azure Cloud"
     url: ""
-    description: "TBA"
-    skill: "TBA"
-    prerequisites: "TBA"
+    description: " The workshop shows how you will create a totally serverless solution on processing binary data, such as pictures. We will learn the basics of a serverless architecture, and how we can benefit from its potential for endless scaling. Also, we will see how can add Microsoft Cognitive Services in order to provide a scalable, intelligent backend."
+    skill: "Intermediate"
+    prerequisites: "c#,    javascript basics"
     speakerPhoto: "/assets/images/speakers/tba_woman.png"
     covers:
-      - TBA
+      - How to work with Azure Functions
+      - How to connect to Azure service bus
+      - How to store and retrieve data from Azure Blob Storage
+      - How to use Microsoft Cognitive Services
   - id: "open10"
     speaker: "forbes_lindesay"
     type: "open"
@@ -226,3 +234,17 @@ open:
       - Lazy loading resources for improved loading time
       - Optimizing the UI for performance
       - How to add offline-capable databases to your web apps with 8 lines of code
+  - id: "open13"
+    speaker: "dennis_stavroyiannopoulos"
+    type: "open"
+    title: "Start your Cognitive Cloud Computing using IBM Bluemix"
+    url: "dennis-stavroyiannopoulos--start-your-cognitive-cloud-computing-using-IBM-Bluemix"
+    description: "This workshop is dedicated to all developers who want to discover the platform IBM Bluemix. In this short session we will create simple applications using a variety of services and DevOps tools."
+    skill: "Beginner"
+    prerequisites: "Basic cloud computing concepts, basic javascript"
+    covers:
+      - Developing applications on Bluemix
+      - Using Bluemix devops for Cloud Foundry applications
+      - Developing on NodeRed
+      - Using Watson services
+      - Developing on serverless frameworks such as OpenWhisk
