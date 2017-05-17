@@ -82,10 +82,15 @@ open:
     title: "Dependencies in component web done right"
     url: "vladimir-grinenko--dependencies-in-component-web-done-right"
     description: We live in a component-based world. And complex components are based on simple once. This implies the need to express dependencies between them. Most existing methods have notable disadvantages, hardcode, refactoring complexity, large amount of manual work and so on. And there's a way to get rid of all these issues.
-    skill: "Intermediate"
-    prerequisites: "TBA"
+    skill: "Basic to intermediate"
+    prerequisites: "Some knowledge of CSS, browser JS, any build tool for front-end (e.g.gulp/webpack) and some experience of node.js."
     covers:
-      - TBA
+      - Dependencies declaration in terms of components not files
+      - How to declare dependencies in much less verbose way
+      - How not to mix business logic with dependencies declaration and components implementation
+      - Make easy math on dependencies (find common deps, etc.)
+      - Build components by layers. E.g. redefine component library code on project level or move common part of component from specific platform implementation
+      - All the things described above implemented on top of React and BEM platform
   - id: "open03"
     speaker: "antonio_peric"
     type: "open"
