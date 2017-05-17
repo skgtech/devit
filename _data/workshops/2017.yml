@@ -248,3 +248,19 @@ open:
       - Developing on NodeRed
       - Using Watson services
       - Developing on serverless frameworks such as OpenWhisk
+  - id: "open14"
+    type: "open"
+    title: "TBA"
+    tba: true
+    speaker: ""
+    url: ""
+    description: ""
+    speakerPhoto: "/assets/images/speakers/tba_woman.png"
+  - id: "open15"
+    type: "open"
+    title: "TBA"
+    tba: true
+    speaker: ""
+    url: ""
+    description: ""
+    speakerPhoto: "/assets/images/speakers/tba_woman.png"
