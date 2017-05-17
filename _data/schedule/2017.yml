@@ -125,6 +125,7 @@ workshops:
       - "open02"
       - "open03"
       - "open04"
+      - "open13"
   - type: lunch
     title: Lunch Break
     hours: 13
@@ -140,6 +141,7 @@ workshops:
       - "open06"
       - "open07"
       - "open08"
+      - "open14"
   - type: coffee
     title: Coffee Break
     hours: 17
@@ -155,6 +157,7 @@ workshops:
       - "open10"
       - "open11"
       - "open12"
+      - "open15"
   - type: party
     title: After Party x2
     hours: 20
