@@ -297,3 +297,19 @@ speakers:
      Dionysis Stavroyiannopoulos joined IBM in 2006. He is currently a Senior Software Architect in IBM Greece, responsible for analyzing customers'
      needs and proposing appropriate solutions. He has worked in several technical positions in the software industry for the last 15 years and has
      extensive experience in telecom and mobile solutions. He holds a MSc in Space Science from University College London.
+  - url: constantinos_ziazios
+    first_name: Constantinos
+    last_name: Ziazios
+    small: true
+    social:
+      twitter: ziaziosk
+    bio: |
+      Long time C#/.NET developer with roots in C++. He has developed ASP.NET (WebForms and MVC) web apps for many years. He has recently started developing applications for Android and iPhone and has started to put a focus on mobile application development. Konstantinos has spent many years working as a consultant for many different projects and has deep ties to the agile community. He is also very interested in automated testing using tools like WatiN or Selenium. On any given day he could be programming in C#, Javascript, Objective-C, Java or all of them. (C# is his favorite language though.)
+  - url: panagiotis_tsilopoulos
+    first_name: Panagiotis
+    last_name: Tsilopoulos
+    small: true
+    social:
+      twitter: tsilopoulos
+    bio: |
+      Software Engineer, with a focus on design & implementation of applications. Passionate about software development methodologies and improvement of the software processes for the better use of people & resources within a group's disposal. Strong analytic skills, will strive to break down problems to simpler bits by using abstract layers. Natural leader and a team player, always looking to enhance project goals through team-work & cooperation. Highly intrigued by challenging problems, Panos strives to provide insightful views & sophisticated code. Industrious & resourceful, he is pursuing a career as a Software Engineer.
