@@ -184,11 +184,10 @@ open:
       - "[Copywriting Theory] Copywriting is design, clarity, voice & tone style guides"
       - "[Copywriting Practice] How to write clear copy, how to avoid slang, how to ruthlessly edit, how to write clear forms"
   - id: "open09"
-    speaker: ""
+    speaker: "constantinos_ziazios"
     type: "open"
-    tba: true
     title: "Create an intelligent serverless application in Azure Cloud"
-    url: ""
+    url: "constantinos-ziazios--create-an-intelligent-serverless-application-in-Azure-Cloud"
     description: " The workshop shows how you will create a totally serverless solution on processing binary data, such as pictures. We will learn the basics of a serverless architecture, and how we can benefit from its potential for endless scaling. Also, we will see how can add Microsoft Cognitive Services in order to provide a scalable, intelligent backend."
     skill: "Intermediate"
     prerequisites: "c#,    javascript basics"
