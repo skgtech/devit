@@ -10,8 +10,9 @@ talks:
     mins: 15
 
   - type: talk
-    title: Accessiblity - ARIA, Accessibility APIs and coding like you give a damn!
+    title: Technologic (Human Afterall): Accessibility mix
     speaker: leonie_watson
+    description: "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game."
     hours: 10
     mins: 30
 
