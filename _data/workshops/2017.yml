@@ -92,20 +92,20 @@ open:
       - Build components by layers. E.g. redefine component library code on project level or move common part of component from specific platform implementation
       - All the things described above implemented on top of React and BEM platform
   - id: "open03"
-    speaker: "antonio_peric"
+    speaker: "ivo_neskovic"
     type: "open"
-    title: "Symfony more in depth with events and services"
-    url: "antonio-peric-php-symfony-7"
-    description: "You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will love to share knowledge with you."
-    skill: "Intermediate"
-    prerequisites: "basic Symfony knowledge, OOP"
+    title: "Android - From Zero to Hero"
+    url: "ivo-neskovic--android-from-zero-to-hero"
+    description: The workshop deals with the design and implementation of applications for mobile devices using the Android operating system. Participants work at all stages of the development life-cycle from inception to deployment, whilst considering usability and device capabilities for a mobile application capable of meeting a functional specification. Participants are introduced to the programming environment for application development and have a hands-on approach to programming using the appropriate programming languages.
+    skill: Intermediate
+    prerequisites: Knowledge of the Java programming language and familiarity with XML, desire to learn and build
     covers:
-     - Registering and using services (Dependency Injection and Service Container)
-     - Registering and using Events
-     - Extending Forms with custom constrain validators
-     - Creating Custom Console Command
-     - Using Form Events
-     - Compiler Passes
+      - Challenges of Mobile Development
+      - Introduction to the Android development environment
+      - Fundamental App components
+      - Basic UI Widgets
+      - Laying out UI components
+      - Multi-screen Apps with Intents
   - id: "open04"
     speaker: "melanie_patrick"
     type: "open"
@@ -149,20 +149,20 @@ open:
       - Styling
       - State management (Redux)
   - id: "open07"
-    speaker: "ivo_neskovic"
+    speaker: "antonio_peric"
     type: "open"
-    title: "Android - From Zero to Hero"
-    url: "ivo-neskovic--android-from-zero-to-hero"
-    description: The workshop deals with the design and implementation of applications for mobile devices using the Android operating system. Participants work at all stages of the development life-cycle from inception to deployment, whilst considering usability and device capabilities for a mobile application capable of meeting a functional specification. Participants are introduced to the programming environment for application development and have a hands-on approach to programming using the appropriate programming languages.
-    skill: Intermediate
-    prerequisites: Knowledge of the Java programming language and familiarity with XML, desire to learn and build
+    title: "Symfony more in depth with events and services"
+    url: "antonio-peric-php-symfony-7"
+    description: "You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will love to share knowledge with you."
+    skill: "Intermediate"
+    prerequisites: "basic Symfony knowledge, OOP"
     covers:
-      - Challenges of Mobile Development
-      - Introduction to the Android development environment
-      - Fundamental App components
-      - Basic UI Widgets
-      - Laying out UI components
-      - Multi-screen Apps with Intents
+     - Registering and using services (Dependency Injection and Service Container)
+     - Registering and using Events
+     - Extending Forms with custom constrain validators
+     - Creating Custom Console Command
+     - Using Form Events
+     - Compiler Passes
   - id: "open08"
     speaker: "zaharenia_atzitzikaki"
     type: "open"
@@ -184,11 +184,10 @@ open:
       - "[Copywriting Theory] Copywriting is design, clarity, voice & tone style guides"
       - "[Copywriting Practice] How to write clear copy, how to avoid slang, how to ruthlessly edit, how to write clear forms"
   - id: "open09"
-    speaker: ""
+    speaker: "constantinos_ziazios"
     type: "open"
-    tba: true
     title: "Create an intelligent serverless application in Azure Cloud"
-    url: ""
+    url: "constantinos-ziazios--create-an-intelligent-serverless-application-in-Azure-Cloud"
     description: " The workshop shows how you will create a totally serverless solution on processing binary data, such as pictures. We will learn the basics of a serverless architecture, and how we can benefit from its potential for endless scaling. Also, we will see how can add Microsoft Cognitive Services in order to provide a scalable, intelligent backend."
     skill: "Intermediate"
     prerequisites: "c#,    javascript basics"
