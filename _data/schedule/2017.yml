@@ -10,7 +10,7 @@ talks:
     mins: 15
 
   - type: talk
-    title: Technologic (Human Afterall): Accessibility mix
+    title: "Technologic (Human Afterall): Accessibility mix"
     speaker: leonie_watson
     description: "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game."
     hours: 10
