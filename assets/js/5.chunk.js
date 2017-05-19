@@ -1,4 +1,4 @@
-webpackJsonp([5,3],{26:function(n,t){/*!
+webpackJsonp([5,3,12],{26:function(n,t){/*!
 	 *  GMAP3 Plugin for jQuery
 	 *  Version  : 7.1
 	 *  Date     : 2016/04/17
