@@ -78,6 +78,7 @@ custom_js:
                 <li><a href="#room4" data-toggle="tab">Room 5</a></li>
                 <li><a href="#room5" data-toggle="tab">Room 6</a></li>
                 <li><a href="#room6" data-toggle="tab">Room 7</a></li>
+                <li><a href="#room7" data-toggle="tab">Room 8</a></li>
               </ul>
 
               <div class="tab-content">
@@ -137,7 +138,7 @@ custom_js:
                     {% endfor %}
                   </ul>
                 </div>
-                {% endfor %} {% for roomIndex in (3..6) %}
+                {% endfor %} {% for roomIndex in (3..7) %}
                 <div class="tab-pane fade in {% if roomIndex == 0 %}active{% endif %}" id="room{{ roomIndex }}">
                   <ul class="accordion">
                     {% for entry in site.data.schedule['2017'].workshops %}

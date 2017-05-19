@@ -27,7 +27,7 @@ require.ensure(['gmap3/dist/gmap3.min'], function (require) {
   var mapInitState = {
     '#tuesday-map': { init: false, location: cohoAddress },
     '#wednesday-map': { init: false, location: cityHallAddress },
-    '#thursday-map': { init: false, location: okThessAddress }
+    '#thursday-map': { init: false, location: cohoAddress }
   };
 
   $(document).ready(function () {

@@ -29,7 +29,12 @@
          <a href="/speakers/{{ include.year}}/{{speaker.url}}">
            <h3>
              <b>{{ speaker.first_name }}</b>
-             <br />{{ speaker.last_name }}
+             <br/>
+             {% if speaker.small %}
+              <small style="color: #222;">{{ speaker.last_name }}</small>
+            {% else %}
+              {{ speaker.last_name }}
+            {% endif %}
              {% if speaker.nickname %}
                <br /><small>({{ speaker.nickname }})</small>
              {% endif %}
@@ -40,14 +45,6 @@
    </div>
    {% endif %} {% endfor %}
 
-   <div class="col-sm-6 col-md-3 col-lg-3 ">
-     <div class="speaker">
-       <img src="/assets/images/speakers/tba_woman.png" alt="TBA Speaker" class=" img-responsive">
-       <div class="speaker-info">
-         <div class="text-center"><b>More to follow</b></div>
-       </div>
-     </div>
-   </div>
  </div>
 </section>
 <section id="mocs">

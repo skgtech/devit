@@ -1160,6 +1160,7 @@ Location
 }
 
 #map-canvas,
+#map-workshop-canvas,
 #map-canvas-after-party {
     width: 100%;
     height: 100%;

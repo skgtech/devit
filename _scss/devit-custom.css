@@ -84,6 +84,7 @@ ul.normal-list li {
     padding: 0 !important;
 }
 
+.venue-info-no-pull,
 .venue-info {
     padding: 4rem 6.5rem;
 }
