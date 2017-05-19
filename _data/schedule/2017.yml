@@ -83,29 +83,29 @@ talks:
     mins: 40
 
   - type: talk
-    title: p2p on the web
-    speaker: james_halliday
-    description: "In this talk, we will learn some simple tools and tricks to build p2p data replication and gossip networks on the web using websockets and webrtc."
-    hours: 17
-    mins: 10
-
-  - type: talk
     title: Machine Learning
     speaker: julien_simon
     title: AI on a Pi
     description: In recent months, Artificial Intelligence has become the hottest topic in the IT industry. In this session, we’ll explain how Deep Learning — a subset of AI — differs from traditional Machine Learning and how it can help you solve complex problems such as computer vision or natural language processing. We’ll introduce you to MXNet, an Open Source Deep Learning library and we’ll show you to run it on a Raspberry Pi. Then, using a camera and a pre-trained object detection model, we’ll show random objects to the Pi…and listen to what it thinks the objects are, thanks to the text-to-speech capabilities of Amazon Polly.
     hours: 17
-    mins: 50
+    mins: 10
 
   - type: talk
-    title: Closing keynote - Panel
-    hours: 18
-    mins: 30
+    title: Closing keynote - p2p on the web
+    speaker: james_halliday
+    description: "In this talk, we will learn some simple tools and tricks to build p2p data replication and gossip networks on the web using websockets and webrtc."
+    hours: 17
+    mins: 40
 
   - type: ceremony
     title: Closing Ceremony
-    hours: 19
-    mins: 00
+    hours: 18
+    mins: 20
+
+  - type: ceremony
+    title: After Party
+    hours: 18
+    mins: 35
 
 workshops:
   - type: registration
