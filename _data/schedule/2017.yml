@@ -16,7 +16,7 @@ talks:
     speaker: leonie_watson
     description: "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game."
     hours: 11
-    mins: 00
+    mins: '00'
     duration: 40
 
   - type: talk
@@ -124,14 +124,14 @@ workshops:
   - type: registration
     title: Registration
     hours: 10
-    mins: 00
+    mins: '00'
   - type: coffee
     title: Coffee Break
     hours: 10
     mins: 30
   - type: session
     hours: 11
-    mins: 00
+    mins: '00'
     entries:
       - "allDay01"
       - "allDay02"
