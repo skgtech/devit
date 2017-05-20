@@ -70,7 +70,7 @@ talks:
     description: SaltStack is an Open Source project that aims to deliver infrastructure as code and configuration management with abstraction of the cloud provider selected. In this session, we will take a look at an end-to-end real world example of provisioning an ElasticSearch cluster on Azure using SaltStack configurations. The model of SaltStack is based on master and minions with each minion agent reaching back to the master; this makes the solution very scalable. The master holds the configuration of the minions in a set of configuration files. Those files provide an idempotent configuration that will be applied when the minion role is deployed or at any time the configuration is re-applied.
     # speaker: rita_zhang, jason_poon
     hours: 16
-    mins: 20
+    mins: 45
     duration: 40
 
   - type: talk
@@ -84,13 +84,13 @@ talks:
         <li>A checklist for identifying the gaps in your marketing — and how to fill them.</li>
         <li>Techniques for interviewing customers that will get them to tell you the words they want to hear in your marketing.</li></ul>"
     hours: 17
-    mins: '00'
+    mins: 25
     duration: 40
 
   - type: coffee
     title: Coffee
-    hours: 17
-    mins: 40
+    hours: 18
+    mins: 05
     duration: 30
 
   - type: talk
@@ -99,26 +99,26 @@ talks:
     title: AI on a Pi
     description: In recent months, Artificial Intelligence has become the hottest topic in the IT industry. In this session, we’ll explain how Deep Learning — a subset of AI — differs from traditional Machine Learning and how it can help you solve complex problems such as computer vision or natural language processing. We’ll introduce you to MXNet, an Open Source Deep Learning library and we’ll show you to run it on a Raspberry Pi. Then, using a camera and a pre-trained object detection model, we’ll show random objects to the Pi…and listen to what it thinks the objects are, thanks to the text-to-speech capabilities of Amazon Polly.
     hours: 18
-    mins: 10
+    mins: 35
     duration: 40
 
   - type: talk
     title: Closing keynote - p2p on the web
     speaker: james_halliday
     description: "In this talk, we will learn some simple tools and tricks to build p2p data replication and gossip networks on the web using websockets and webrtc."
-    hours: 18
-    mins: 40
+    hours: 19
+    mins: 05
     duration: 40
 
   - type: ceremony
     title: Closing Ceremony
     hours: 19
-    mins: 20
+    mins: 45
 
   - type: ceremony
     title: After Party
-    hours: 19
-    mins: 35
+    hours: 20
+    mins: 00
 
 workshops:
   - type: registration
