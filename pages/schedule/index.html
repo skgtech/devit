@@ -29,7 +29,7 @@ custom_js:
         <ul class="accordion">
           {% for entry in site.data.schedule['2017'].talks %} {% if entry.type == 'talk' %}
           <li class="panel accordion">
-            <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+            <div class="panel-heading" role="tab">
               <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}"
                 aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
                 <span class="schedule-time accent">
@@ -89,7 +89,7 @@ custom_js:
                     {% if entry.type == 'session' %} {% assign workshop = site.data.workshops['2017'].allDay | where: "id", entry.entries[roomIndex]
                     | first %}
                     <li class="panel accordion">
-                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                      <div class="panel-heading" role="tab">
                         <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ workshop.id }}{{ forloop.index }}"
                           aria-expanded="false" aria-controls="collapse{{ workshop.id }}{{ forloop.index }}">
                           <span class="schedule-time accent">
@@ -100,7 +100,7 @@ custom_js:
                             | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_'
                             | append: speaker.last_name %}
                             {% if workshop.tba == true %}
-                              <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+                              <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="TBA">
                             {% else %}
                               <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
                                 <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
@@ -125,7 +125,7 @@ custom_js:
                     </li>
                     {% else %}
                     <li class="panel accordion conf-related">
-                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                      <div class="panel-heading" role="tab">
                         <a class="accordion-heading collapsed" role="button">
                           <span class="schedule-time accent">
                                 {{ entry.hours }}<sup>{{ entry.mins }}</sup>
@@ -145,7 +145,7 @@ custom_js:
                     {% if entry.type == 'session' %} {% assign workshop = site.data.workshops['2017'].open | where: "id", entry.entries[roomIndex]
                     | first %}
                     <li class="panel accordion">
-                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                      <div class="panel-heading" role="tab">
                         <a class="accordion-heading collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ workshop.id }}{{ forloop.index }}"
                           aria-expanded="false" aria-controls="collapse{{ workshop.id }}{{ forloop.index }}">
                           <span class="schedule-time accent">
@@ -156,7 +156,7 @@ custom_js:
                             | append: ' ' | append: speaker.last_name %} {% assign speakerImg = speaker.first_name | append: '_'
                             | append: speaker.last_name %}
                             {% if workshop.tba == true %}
-                              <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="{{ workshop.name }}">
+                              <img class="img-responsive" src="{{ workshop.speakerPhoto }}" alt="TBA">
                             {% else %}
                               <small class="hidden-xs hidden-sm">{{ speakerName }}</small>
                                 <img src="/assets/images/speakers/2017/{{ speakerImg }}.png" alt="{{ speakerName }}">
@@ -179,7 +179,7 @@ custom_js:
                     </li>
                     {% else %}
                     <li class="panel accordion conf-related">
-                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                      <div class="panel-heading" role="tab">
                         <a class="accordion-heading collapsed" role="button">
                           <span class="schedule-time accent">
                                 {{ entry.hours }}<sup>{{ entry.mins }}</sup>
