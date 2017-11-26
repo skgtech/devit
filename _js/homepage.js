@@ -8,29 +8,29 @@ require.ensure(['gmap3/dist/gmap3.min', './utils/devit-custom.js'], function (re
   var workshopAddress = [40.6373756, 22.9370313];
 
   require('gmap3/dist/gmap3.min');
-  $('#map-canvas').gmap3({
-    center: venueAddress,
-    zoom: 16,
-    streetViewControl: true,
-    panControl: false,
-    zoomControl: true,
-    scrollwheel: false,
-    mapTypeControl: false,
-  })
-  .marker({
-    position: venueAddress,
-  });
-  $('#map-workshop-canvas').gmap3({
-    center: workshopAddress,
-    zoom: 16,
-    streetViewControl: true,
-    panControl: false,
-    zoomControl: true,
-    scrollwheel: false,
-    mapTypeControl: false,
-  })
-  .marker({
-    position: workshopAddress,
-  });
+  // $('#map-canvas').gmap3({
+  //   center: venueAddress,
+  //   zoom: 16,
+  //   streetViewControl: true,
+  //   panControl: false,
+  //   zoomControl: true,
+  //   scrollwheel: false,
+  //   mapTypeControl: false,
+  // })
+  // .marker({
+  //   position: venueAddress,
+  // });
+  // $('#map-workshop-canvas').gmap3({
+  //   center: workshopAddress,
+  //   zoom: 16,
+  //   streetViewControl: true,
+  //   panControl: false,
+  //   zoomControl: true,
+  //   scrollwheel: false,
+  //   mapTypeControl: false,
+  // })
+  // .marker({
+  //   position: workshopAddress,
+  // });
 });
 

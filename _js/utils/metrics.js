@@ -23,13 +23,15 @@ metrics.pixelTrack = function (eventType) {
  */
 metrics.attachBuyTicketsTrack = function () {
   var buyEl = document.getElementById('register-cta');
-  buyEl.addEventListener('click', function () {
-    if (typeof window.fbq !== 'function') {
-      return;
-    }
+  if (buyEl) {
+    buyEl.addEventListener('click', function () {
+      if (typeof window.fbq !== 'function') {
+        return;
+      }
 
-    window.fbq('track', 'Lead', { location: 'topnav', type: 'buy-tickets' });
-  });
+      window.fbq('track', 'Lead', { location: 'topnav', type: 'buy-tickets' });
+    });
+  }
 };
 
 metrics.attachBuyTicketsTrack();
