@@ -1,82 +1,94 @@
 speakers:
-  - first_name: "Mathias"
+  - url: mathias_bynens
+    first_name: "Mathias"
     last_name: "Bynens"
-    image: "/2015/images/speakers/mathias_bynens.jpg"
+    image_filename: "mathias_bynens.jpg"
     social:
       twitter: mathias
       github: mathiasbynens
     bio: Mathias is a Belgian web standards freak. He likes HTML, CSS, JavaScript, Unicode, performance, and security.
-  - first_name: "Christian"
+  - url: christian_heilmann
+    first_name: "Christian"
     last_name: "Heilmann"
-    image: "/2015/images/speakers/Christian_Heilmann.jpg"
+    image_filename: "Christian_Heilmann.jpg"
     social:
       twitter: codepo8
       github: codepo8
     bio: Chris Heilmann has dedicated a lot of his time making the web better. A true HTML5/Open Web Evangelist.
-  - first_name: "Dr.Heinz"
+  - url: dr_heinz_kabutz
+    first_name: "Dr.Heinz"
     last_name: "Kabutz"
-    image: "/2015/images/speakers/Heinz_Kabutz.jpg"
+    image_filename: "Heinz_Kabutz.jpg"
     social:
       twitter: heinzkabutz
       github: kabutz
     bio: Heinz is the mastermind behind The Java Specialists' Newsletter. He has a PhD in Computer Science.
-  - first_name: "Nicolas"
+  - url: nicolas_frankel
+    first_name: "Nicolas"
     last_name: "Frankel"
-    image: "/2015/images/speakers/Nicolas_Frankel.jpeg"
+    image_filename: "Nicolas_Frankel.jpeg"
     social:
       twitter: nicolas_frankel
       github: nfrankel
     bio: Nicolas Fränkel is focused on Java and JavaEE, but he's narrowed interests like Software Quality and Rich Internet Applications.
-  - first_name: "Tim"
+  - url: tim_perry
+    first_name: "Tim"
     last_name: "Perry"
-    image: "/2015/images/speakers/Tim_Perry.jpg"
+    image_filename: "Tim_Perry.jpg"
     social:
       twitter: pimterry
       github: pimterry
     bio: Tim Perry is a technical lead and the open-source champion at Softwire and a contributor on Mockito, Moment.js & Knockout.js.
-  - first_name: "Kostis"
+  - url: kostis_kapelonis
+    first_name: "Kostis"
     last_name: "Kapelonis"
-    image: "/2015/images/speakers/Kostis_Kapelonis.jpg"
+    image_filename: "Kostis_Kapelonis.jpg"
     social:
       github: kkapelon
     bio: Kostis is a Software Engineer who loves clean and compact code, simple solutions and modular distributed systems.
-  - first_name: "Forbes"
+  - url: forbes_lindesay
+    first_name: "Forbes"
     last_name: "Lindesay"
-    image: "/2015/images/speakers/Forbes_Lindesay.jpg"
+    image_filename: "Forbes_Lindesay.jpg"
     social:
       twitter: ForbesLindesay
       github: ForbesLindesay
     bio: Node.js developer with a passion for open source, maintainer of <a href=http://jade-lang.com target=_blank title="Jade Language">Jade Lang</a> and Promises/A+ spec evangelist.
-  - first_name: "Nikos"
+  - url: nikos_zinas
+    first_name: "Nikos"
     last_name: "Zinas"
-    image: "/2015/images/speakers/Nikos_Zinas.jpg"
+    image_filename: "Nikos_Zinas.jpg"
     social:
       twitter: nzinas
       github: nzinas
     bio: Nikos' focus is designing solutions for large teams, helping companies scale and setup frontend architectures.
-  - first_name: "Nick"
+  - url: nick_krassas
+    first_name: "Nick"
     last_name: "Krassas"
-    image: "/2015/images/speakers/Nick_Krassas.jpeg"
+    image_filename: "Nick_Krassas.jpeg"
     social:
       twitter: Dinosn
     bio: Nicolas is a security researcher passionate with all sort of things like security and system administration.
-  - first_name: "Benny"
+  - url: benny_weingarten_gabbay
+    first_name: "Benny"
     last_name: "Weingarten-Gabbay"
-    image: "/2015/images/speakers/Benny_Weingarten-Gabbay.jpg"
+    image_filename: "Benny_Weingarten-Gabbay.jpg"
     social:
       twitter: gardenofwine
       github: gardenofwine
     bio: Senior Software Engineer with 15 years of experience. Currently working at eBay.
-  - first_name: "Ian"
+  - url: ian_miell
+    first_name: "Ian"
     last_name: "Miell"
-    image: "/2015/images/speakers/Ian_Miell.jpg"
+    image_filename: "Ian_Miell.jpg"
     social:
       twitter: ianmiell
       github: ianmiell
     bio: Spent over a decade maintaining some of the biggest e-Commerce systems, now generally known as 'a Docker guy'.
-  - first_name: "Kuba"
+  - url: kuba_walinski
+    first_name: "Kuba"
     last_name: "Waliński"
-    image: "/2015/images/speakers/kuba.jpg"
+    image_filename: "kuba.jpg"
     social:
       twitter: kubawalinski
       github: kubawalinski
