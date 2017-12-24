@@ -1,21 +1,9 @@
-mc:
-  - url: simona_cotin
-    type: mc
-    first_name: Simona
-    last_name: Cotin
-    social:
-      twitter: simona_cotin
-    bio: |
-      Simona is a enthusiastic full stack engineer building rich data visualization for network data in Openet.
-      Her passion for Angular led her co-organising the AngularJS meetup in Dublin and she is always passionately
-      talking about women in tech. Simona is now part of the DEVit team and we are working together to take the
-      conference to the next level!
-
 speakers:
   - url: natasha_murashev
     first_name: Natasha
     last_name: Murashev
     nickname: TheRobot
+    image_filename: Natasha_Murashev.png
     social:
       twitter: natashatherobot
       github: NatashaTheRobot
@@ -31,6 +19,7 @@ speakers:
     first_name: Hugo
     last_name: Giraudel
     nickname: CSS-in-JS kitten
+    image_filename: Hugo_Giraudel.png
     social:
       twitter: HugoGiraudel
       github: HugoGiraudel
@@ -44,6 +33,7 @@ speakers:
     first_name: James
     last_name: Halliday
     nickname: substack
+    image_filename: James_Halliday.png
     social:
       twitter: substack
       github: substack
@@ -56,6 +46,7 @@ speakers:
     first_name: Harry
     last_name: Roberts
     nickname: CSS Wizardry
+    image_filename: Harry_Roberts.png
     social:
       twitter: csswizardry
       github: csswizardry
@@ -73,6 +64,7 @@ speakers:
     first_name: Zaharenia
     last_name: Atzitzikaki
     nickname: sugarenia
+    image_filename: Zaharenia_Atzitzikaki.png
     social:
       twitter: sugarenia
       github: sugarenia
@@ -89,6 +81,7 @@ speakers:
   - url: bodil_stokke
     first_name: Bodil
     last_name: Stokke
+    image_filename: Bodil_Stokke.png
     social:
       twitter: bodil
       github: bodil
@@ -107,6 +100,7 @@ speakers:
   - url: julien_simon
     first_name: Julien
     last_name: Simon
+    image_filename: Julien_Simon.png
     social:
       twitter: julsimon
       github: juliensimon
@@ -122,6 +116,7 @@ speakers:
   - url: florian_schaffler
     first_name: Florian
     last_name: Schaffler
+    image_filename: Florian_Schaffler.png
     social:
       github: fschaeffler
     bio: |
@@ -139,6 +134,7 @@ speakers:
   - url: vladimir_grinenko
     first_name: Vladimir
     last_name: Grinenko
+    image_filename: Vladimir_Grinenko.png
     social:
       twitter: tadatuta
       github: tadatuta
@@ -149,6 +145,7 @@ speakers:
   - url: rita_zhang
     first_name: Rita
     last_name: Zhang
+    image_filename: Rita_Zhang.png
     social:
       twitter: ritazzhang
       github: ritazh
@@ -159,6 +156,7 @@ speakers:
   - url: antonio_peric
     first_name: Antonio
     last_name: Peric
+    image_filename: Antonio_Peric.png
     social:
       twitter: antonioperic
       github: antonioperic
@@ -171,6 +169,7 @@ speakers:
   - url: andy_grunwald
     first_name: Andy
     last_name: Grunwald
+    image_filename: Andy_Grunwald.png
     social:
       twitter: andygrunwald
       github: andygrunwald
@@ -180,6 +179,7 @@ speakers:
   - url: mete_atamel
     first_name: Mete
     last_name: Atamel
+    image_filename: Mete_Atamel.png
     social:
       twitter: meteatamel
       github: meteatamel
@@ -191,6 +191,7 @@ speakers:
   - url: ivo_neskovic
     first_name: Ivo
     last_name: Neskovic
+    image_filename: Ivo_Neskovic.png
     social:
       twitter: trumpets
       github: trumpets
@@ -205,6 +206,7 @@ speakers:
   - url: jason_poon
     first_name: Jason
     last_name: Poon
+    image_filename: Jason_Poon.png
     social:
       twitter: jasonthepoon
       github: jpoon
@@ -215,6 +217,7 @@ speakers:
   - url: melanie_patrick
     first_name: Melanie
     last_name: Patrick
+    image_filename: Melanie_Patrick.png
     social:
       twitter: mgapatrick
     bio: |
@@ -223,6 +226,7 @@ speakers:
   - url: mike_smart
     first_name: Mike
     last_name: Smart
+    image_filename: Mike_Smart.png
     social:
       twitter: smartmike
       github: smartmike
@@ -233,6 +237,7 @@ speakers:
   - url: jason_lengstorf
     first_name: Jason
     last_name: Lengstorf
+    image_filename: Jason_Lengstorf.png
     social:
       twitter: jlengstorf
       github: jlengstorf
@@ -253,6 +258,7 @@ speakers:
   - url: leonie_watson
     first_name: Leonie
     last_name: Watson
+    image_filename: Leonie_Watson.png
     social:
       twitter: LeonieWatson
       github: LJWatson
@@ -271,6 +277,7 @@ speakers:
   - url: marisa_morby
     first_name: Marisa
     last_name: Morby
+    image_filename: Marisa_Morby.png
     social:
       twitter: marisamorby
     bio: |
@@ -280,6 +287,7 @@ speakers:
   - url: forbes_lindesay
     first_name: Forbes
     last_name: Lindesay
+    image_filename: Forbes_lindesay.png
     social:
       twitter: forbeslindesay
       github: ForbesLindesay
@@ -291,6 +299,7 @@ speakers:
     first_name: Dennis
     last_name: Stavroyiannopoulos
     small: true
+    image_filename: Dennis_Stavroyiannopoulos.png
     social:
       twitter: DennisStav
     bio: |
@@ -301,6 +310,7 @@ speakers:
     first_name: Constantinos
     last_name: Ziazios
     small: true
+    image_filename: Constantinos_Ziazios.png
     social:
       twitter: ziaziosk
     bio: |
@@ -309,6 +319,7 @@ speakers:
     first_name: Panagiotis
     last_name: Tsilopoulos
     small: true
+    image_filename: Panagiotis_Tsilopoulos.png
     social:
       twitter: tsilopoulos
     bio: |
