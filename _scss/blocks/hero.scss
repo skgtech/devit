@@ -1,0 +1,22 @@
+.hero {
+  background-image: url(/assets/images/new/hero.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero__container {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.hero__logo {
+  width: 250px;
+}
+
+.hero__headline {
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+}

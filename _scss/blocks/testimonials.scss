@@ -1,0 +1,45 @@
+.testimonials__row {
+  background-color:#00629E;
+  @include make-row();
+  margin: 0;
+}
+.testimonials__one {
+  @include make-sm-column(3);
+}
+.testimonials__two {
+  @include make-sm-column(6);
+}
+
+.testimonials__one,
+.testimonials__two {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonial {
+  padding: 40px;
+}
+
+.testimonial__quote {
+  color: white;
+  font-size: 30px;
+}
+
+.testimonial__text {
+  color: white;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.testimonial__name {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 22px;
+}

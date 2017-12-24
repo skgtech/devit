@@ -1,0 +1,8 @@
+.cfs {
+  background-color: #F4F3F4;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.cfs__container {
+  @extend .container;
+}
