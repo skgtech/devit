@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Article">
 <head>
-  <title>PHP Symfony 7 - DEVit</title>
+  <title>Symfony more in depth with events and services - DEVit</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will lov ...">
 
   <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="PHP Symfony 7 - DEVit">
+  <meta itemprop="name" content="Symfony more in depth with events and services - DEVit">
   <meta itemprop="description" content="You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will lov ...">
   <meta itemprop="image" content="/assets/images/speakers/2017/Antonio_Peric.png">
 
@@ -16,12 +16,12 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@devitconf">
 
-  <meta name="twitter:title" content="PHP Symfony 7 - DEVit">
+  <meta name="twitter:title" content="Symfony more in depth with events and services - DEVit">
   <meta name="twitter:image" content="/assets/images/speakers/2017/Antonio_Peric.png">
   <meta name="twitter:description" content="You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will lov ...">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="PHP Symfony 7 - DEVit">
+  <meta property="og:title" content="Symfony more in depth with events and services - DEVit">
   <meta property="og:site_name" content="devitconf.org">
   <meta property="og:url" content="http://devitconf.org/workshops-open/2017/antonio-peric-php-symfony-7/">
 
@@ -69,18 +69,17 @@
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav">
               <li ><a href="/">Home</a></li>
-              <li ><a href="/#speakers">Speakers</a></li>
-              <li ><a href="/workshops/2017">Workshops</a></li>
-              <li ><a href="/schedule">Schedule</a></li>
-              <li ><a href="/week/2017">DEVit Week</a></li>
-              <li><a href="/#sponsors">Sponsors</a></li>
-              <li><a href="/#venue">Venue</a></li>
-              <li><a href="/#hotels">Hotel</a></li>
               <li ><a href="/blog">Blog</a></li>
+              <li ><a href="/press">Press</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="http://devit2017.eventzilla.net/" class="register" id="register-cta">Buy Tickets</a></li>
+            <li><a href="/2017">2017</a></li>
+            <li><a href="/2016">2016</a></li>
+            <li><a href="/2015">2015</a></li>
           </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li><a target="_blank" href="http://devit2017.eventzilla.net/" class="register" id="register-cta">Buy Tickets</a></li>
+          </ul> -->
         </div>
       </nav>
     </div>
@@ -97,12 +96,12 @@
   <ol class="breadcrumb">
     <li><a href="/">DEVit 2017</a></li>
     <li><a href="/workshops/2017/">Workshops</a></li>
-    <li class="active">PHP Symfony 7</li>
+    <li class="active">Symfony more in depth with events and services</li>
   </ol>
   <section>
     <header>
       <div class="text-center">
-        <h1>PHP Symfony 7</h1>
+        <h1>Symfony more in depth with events and services</h1>
         <h4><i>by Antonio Peric</i></h4>
       </div>
     </header>
@@ -115,7 +114,7 @@
     </ul>
     <div class="workshop">
       <h3 class="workshop__title">
-        PHP Symfony 7
+        Symfony more in depth with events and services
       </h3>
       <div class="row">
         <div class="col-lg-3 workshop__img">
@@ -133,7 +132,7 @@
             </tr>
             <tr>
               <th>Prerequisites</th>
-              <td>TBA</td>
+              <td>basic Symfony knowledge, OOP</td>
             </tr>
             <tr>
               <th>Description</th>
@@ -148,7 +147,17 @@
           <h3 style="margin-top:50px;">This workshop covers:</h3>
           <ul>
             
-            <li style="padding-top:10px;">TBA</li>
+            <li style="padding-top:10px;">Registering and using services (Dependency Injection and Service Container)</li>
+            
+            <li style="padding-top:10px;">Registering and using Events</li>
+            
+            <li style="padding-top:10px;">Extending Forms with custom constrain validators</li>
+            
+            <li style="padding-top:10px;">Creating Custom Console Command</li>
+            
+            <li style="padding-top:10px;">Using Form Events</li>
+            
+            <li style="padding-top:10px;">Compiler Passes</li>
             
           </ul>
         </div>
@@ -172,13 +181,13 @@
           <li>
             <a href="/code-of-conduct">Code of Conduct</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/week/2017">DEVit Week</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
-    <div class="col-sm-2">
+    <!-- <div class="col-sm-2">
       <div class="footer-menu">
         <div class="footer-menu__header">
           UPCOMING
@@ -198,13 +207,16 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class="col-sm-2">
       <div class="footer-menu">
         <div class="footer-menu__header">
           PAST
         </div>
         <ul class="list-unstyled footer-menu__list">
+          <li>
+            <a href="http://devitconf.org/2017">2017</a>
+          </li>
           <li>
             <a href="http://devitconf.org/2016">2016</a>
           </li>
@@ -214,7 +226,7 @@
         </ul>
       </div>
     </div>
-    <div class="col-sm-2">
+    <!-- <div class="col-sm-2">
       <div class="footer-menu">
         <div class="footer-menu__header">
           ATTENDEES
@@ -228,7 +240,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="row">
     <div class="col-sm-8">
@@ -245,7 +257,7 @@
         <li class="followit-ribbon hidden-xs">&nbsp;</li>
       </ul>
       <div class="copyrights">
-        © <span class="js-current-year">2016</span>
+        © <span class="js-current-year">2017</span>
         <a href="https://github.com/skgtech/devit/graphs/contributors" target="_blank">SKGTech Contributors</a>,
         Licensed under
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons 4.0</a>
