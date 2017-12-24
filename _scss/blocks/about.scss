@@ -1,8 +1,8 @@
 .about-block {
   background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/team.jpg);
-  min-height: 432px;
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
