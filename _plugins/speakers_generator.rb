@@ -5,9 +5,6 @@ module Jekyll
         data['speakers'].each do | speaker |
           site.pages << SpeakerPage.new(site, "speakers", year, speaker)
         end
-        data['mc'].each do | mc |
-          site.pages << SpeakerPage.new(site, "mc", year, mc)
-        end
       end
     end
   end

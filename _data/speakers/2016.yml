@@ -1,0 +1,118 @@
+speakers:
+  - url: laura_kalbag
+    first_name: "Laura"
+    last_name: "Kalbag"
+    image_filename: "Laura_Kalbag.png"
+    social:
+      twitter: laurakalbag
+      homepage: http://laurakalbag.com/
+    bio: |
+      Laura is a designer / developer / activist working on social technology
+      that respects human rights. Co-founder of <a href="https://ind.ie/" target=_blank>Ind.ie.</a>
+  - url: soledad_penades
+    first_name: "Soledad"
+    last_name: "Penades"
+    image_filename: "Soledad_Penades.png"
+    social:
+      twitter: supersole
+      github: sole
+      homepage: http://soledadpenades.com/
+    bio: |
+      Devevangineer at <a href="https://www.mozilla.org/en-US/" target=_blank>Mozilla</a>.
+      Building real time audio+graphics experiments with JavaScript; breaking
+      half the browsers in the process. It's fun!
+  - url: hugo_giraudel
+    last_name: "Giraudel"
+    image_filename: "Hugo_Giraudel.png"
+    social:
+      twitter: HugoGiraudel
+      github: HugoGiraudel
+      homepage: http://hugogiraudel.com/
+    bio: |
+      Hugo is a Front-end developer at <a href="http://www.edenspiekermann.com/" target=_blank>Edenspiekermann</a> in Berlin. CSS goblin, Sass hacker & serial writer. OSS toolbelt <a href="http://sassdoc.com/" target=_blank>SassDoc</a> &
+      <a href="http://sass-guidelin.es/" target=_blank>Sass Guidelines</a>.
+      Co-author of <a href=http://howsass.works target=_blank>Jump Start Sass</a>.
+      <a href="https://thenetawards.com/vote/developer/hugo-giraudel/" target=_blank>Net Awards</a> nominee.
+  - url: forbes_lindesay
+    first_name: "Forbes"
+    last_name: "Lindesay"
+    image_filename: "Forbes_Lindesay.png"
+    social:
+      twitter: forbeslindesay
+      github: forbeslindesay
+      homepage: http://www.forbeslindesay.co.uk/
+    bio: |
+      Open source JavaScript developer, <a href="http://jade-lang.com/" target=_blank>Jade</a> maintainer and Software Engineer @ <a href="https://www.facebook.com/" target=_blank>Facebook</a>.
+  - url: michał_budzyński
+    first_name: "Michał"
+    last_name: "Budzyński"
+    image_filename: "Michal_Budzynski.png"
+    social:
+      twitter: michalbe
+      github: michalbe
+      homepage: http://michalbe.blogspot.com/
+    bio: |
+      Michał is a subway systems geek and ancient Roman coins collector from Poland. Organizer of <a href="http://ongamestart.com/" target=_blank>onGameStart</a> and <a href="http://antarcticjs.com/" target=_blank>AntarcticJS</a>. Former <a href=https://wiki.mozilla.org/B2G target=_blank>Boot2Gecko</a> developer at <a href="https://www.mozilla.org/en-US/" target=_blank>Mozilla</a>.
+  - url: alexandre_morgaut
+    first_name: "Alexandre"
+    last_name: "Morgaut"
+    image_filename: "Alexandre_Morgaut.png"
+    social:
+      twitter: amorgaut
+      github: amorgaut
+    bio: Alexandre is a Web Architect and Project manager at <a href="http://www.wiztivi.com/" target=_blank>Wiztivi</a>. Wakanda community manager & Speaker. Founded <a href="http://nantesjs.org/" target=_blank>NantesJS</a>. Former W3C member.
+  - url: etienne_margraff
+    first_name: "Etienne"
+    last_name: "Margraff"
+    image_filename: "Etienne_Margraff.png"
+    social:
+      twitter: meulta
+      github: meulta
+    bio: Etienne is a web evangelist at <a href=https://www.microsoft.com target=_blank>Microsoft</a>, <a href=https://www.microsoftventures.com/locations/paris target=_blank>MS Ventures Paris</a> CTO and co-creator of <a href="http://vorlonjs.io/" target=_blank>Vorlonjs</a> an OSS cross-platform tool to debug websites and node.js processes.
+  - url: yegor_bugayenko
+    first_name: "Yegor"
+    last_name: "Bugayenko"
+    image_filename: "Yegor_Bugayenko.png"
+    social:
+      twitter: yegor256
+      github: yegor256
+    bio: CTO and co-founder of <a href="http://www.teamed.io/" target=_blank>Teamed.io</a>; a regular blogger at <a href=http://www.yegor256.com>www.yegor256.com</a>; a hands-on Java developer at <a href="http://www.takes.org/" target=_blank>takes.org</a>
+  - url: dan_cuellar
+    first_name: "Dan"
+    last_name: "Cuellar"
+    image_filename: "Dan_Cuellar.png"
+    social:
+      twitter: thedancuellar
+      github: penguinho
+    bio: Dan Cuellar is the creator of the open source mobile automation framework <a href="http://appium.io/" target=_blank>Appium</a>, and Head of Software Testing at <a href="http://www.foodit.com/" target=_blank>FOODit</a> in London.
+  - url: carlo_sciolla
+    first_name: "Carlo"
+    last_name: "Sciolla"
+    image_filename: "Carlo_Sciolla.png"
+    social:
+      twitter: skuro
+      github: skuro
+    bio: Carlo is a travelling technologist passionate with OSS, CTO at <a href="http://www.sytac.nl/" target=_blank>Sytac IT Consulting</a> by day and Clojure fanboy by night. He runs the <a href="http://www.meetup.com/The-Amsterdam-Clojure-Meetup-Group/" target=_blank>Amsterdam Clojure meetup</a> since 2010.
+  - url: karina_popova
+    first_name: "Karina"
+    last_name: "Popova"
+    image_filename: "Karina_Popova.png"
+    social:
+      twitter: kary_key
+    bio: Karina is a DevOps/System Software Engineer at <a href="https://whatevermobile.com/" target=_blank>whatever mobile</a> incl. international professional interactions with representatives of government institutions & agile companies.
+  - url: kostas_pantos
+    first_name: "Kostas"
+    last_name: "Pantos"
+    image_filename: "Kostas_Pantos.png"
+    social:
+      twitter: kpantos
+      github: kpantos
+    bio: Cloud Architect at <a href=https://www.microsoft.com target=_blank>Microsoft</a> and advocate of Rich User experience. Regural <a href="http://blog.pantos.name/" target=_blank>blogger</a> and community builder at <a href="http://www.dotnetzone.gr/cs/" target=_blank>dotnetzone.gr</a>. Kostas has worked for many major Greek software companies.
+  - url: simona_cotin
+    first_name: "Simona"
+    last_name: "Cotin"
+    image_filename: "Simona_Cotin.png"
+    social:
+      twitter: simona_cotin
+    bio: Simona is a full stack engineer building rich data visualization for network data in <a href=http://corvil.com>Corvil</a>. She's very passionate about AngularJS and is part of the <a href="http://www.meetup.com/AngularJSDublin/">Dublin Meetup</a> team.
+
