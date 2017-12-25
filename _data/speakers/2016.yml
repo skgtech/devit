@@ -24,7 +24,8 @@ speakers:
       Building real time audio+graphics experiments with JavaScript; breaking
       half the browsers in the process. It's fun!
   - url: hugo_giraudel
-    last_name: "Hugo"
+    year: 2016
+    first_name: "Hugo"
     last_name: "Giraudel"
     image_filename: "Hugo_Giraudel.png"
     social:
