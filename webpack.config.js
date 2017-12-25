@@ -3,7 +3,9 @@ const fs = require('fs');
 const webpack = require('webpack');
 
 const files = fs.readdirSync('./_js/').filter(a => a.indexOf('.js') > -1);
-const entry = {};
+const entry = {
+  'layout': `${path.join(path.resolve(__dirname, '_js'), 'modules', 'layout.js')}`,
+};
 
 files.forEach(a => {
   entry[a.replace('.js', '')] = `${path.join(path.resolve(__dirname, '_js'), a)}`;
