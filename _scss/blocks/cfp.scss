@@ -24,9 +24,24 @@
   @include make-sm-column(8);
 }
 
+.cfp__row--top-left {
+  @include make-sm-column-pull(8);
+
+  @media (max-width: $screen-md-min) {
+    margin-top: 25px;
+  }
+}
+.cfp__row--top-right {
+  @include make-sm-column-push(4);
+}
+
 .cfp__row--top-right,
 .cfp__row--bottom-right {
   padding-left: 100px;
+
+  @media (max-width: $screen-md-min) {
+    padding-left: 10px;
+  }
 }
 
 .cfp__row--bottom-right {

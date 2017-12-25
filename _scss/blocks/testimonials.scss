@@ -4,10 +4,10 @@
   margin: 0;
 }
 .testimonials__one {
-  @include make-sm-column(3);
+  @include make-md-column(3);
 }
 .testimonials__two {
-  @include make-sm-column(6);
+  @include make-md-column(6);
 }
 
 .testimonials__one,
