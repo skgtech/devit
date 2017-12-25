@@ -28,10 +28,6 @@
   @extend .nav;
   @extend .navbar-nav;
   @extend .navbar-right;
-
-  li {
-    display: inline-block;
-  }
 }
 
 // Override bootstrap navbar
@@ -44,8 +40,8 @@
 
   &:hover,
   &:focus {
-    background: none;
-    color: rgba(255,255,255,1);
+    background: none !important;
+    color: rgba(255,255,255,1) !important;
   }
 }
 
@@ -56,4 +52,10 @@
   color: #57585A;
   font-weight: bold;
   line-height: 22px;
+
+  &:hover,
+  &:focus {
+    color: #FFFFFF !important;
+    background-color: #57585A !important;
+  }
 }
