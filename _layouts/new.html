@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{% if page.title %}{{ page.title }}{% else %}DEVit Conference - Thessaloniki 9 June 2018{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
 
   <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-  <meta itemprop="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-  <meta itemprop="image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
+  <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
+  <meta itemprop="image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@devitconf">
 
-  <meta name="twitter:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-  <meta name="twitter:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
-  <meta name="twitter:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
   <meta property="og:site_name" content="devitconf.org">
   <meta property="og:url" content="http://devitconf.org{{ page.url }}">
 
-  <meta property="og:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-  <meta property="og:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
   <meta property="og:type" content="website">
 
   <link href="/assets/css/new.css" rel="stylesheet" media="screen">
