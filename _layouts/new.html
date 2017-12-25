@@ -47,5 +47,16 @@
 <body>
 
   {{ content }}
+
+  <!-- DO NOT EDIT THIS  -->
+  <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
+  <script src="/assets/js/commons.js"></script>
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+    <script src='/assets/js/{{ js_file }}'></script>
+    {% endfor %}
+  {% endif %}
+  <!-- DO NOT EDIT THIS END -->
+
 </body>
 </html>

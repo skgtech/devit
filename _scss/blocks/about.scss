@@ -1,13 +1,11 @@
 .about-block {
+  @extend .block;
+
   background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-}
-
-.about-block {
-  @extend .block;
   color: white;
   padding-left: 15%;
   padding-right: 15%;
