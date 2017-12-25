@@ -1,7 +1,7 @@
 {% assign speaker = include.speaker %}
 
 <div class="speaker">
-  <a href="/speakers/2017/{{speaker.url}}">
+  <a href="/speakers/{{speaker.year}}/{{speaker.url}}">
     <img class="speaker__avatar" src="/assets/images/speakers/{{speaker.year}}/{{ speaker.image_filename }}" alt="{{ speaker.first_name }} {{ speaker.last_name }}">
   </a>
   <div class="speaker__name">

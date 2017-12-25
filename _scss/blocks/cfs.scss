@@ -6,3 +6,21 @@
 .cfs__container {
   @extend .container;
 }
+
+.cfs__sponsors {
+
+  ul > li {
+    text-align: center;
+
+    &:first-child {
+      text-align: left;
+    }
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  img {
+    max-height: 100px;
+  }
+}
