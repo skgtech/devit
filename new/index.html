@@ -10,23 +10,23 @@
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="DEVit the 360° Web Development Conference">
   <meta itemprop="description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
-  <meta itemprop="image" content="">
+  <meta itemprop="image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1511705959">
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@devitconf">
 
   <meta name="twitter:title" content="DEVit the 360° Web Development Conference">
-  <meta name="twitter:image" content="">
+  <meta name="twitter:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1511705959">
   <meta name="twitter:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="DEVit the 360° Web Development Conference">
   <meta property="og:site_name" content="devitconf.org">
-  <meta property="og:url" content="http://devitconf.org/new">
+  <meta property="og:url" content="http://devitconf.org/new/index.html">
 
   <meta property="og:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="http://devitconf.org/assets/images/devit-og-general.jpg?1511705959">
   <meta property="og:type" content="website">
 
   <link href="/assets/css/new.css" rel="stylesheet" media="screen">
@@ -47,15 +47,41 @@
 <body>
 
   <div class="hero">
-  <div class="hero__container">
-    <img class="hero__logo" src="/assets/images/DevitLogo.svg" alt="DEVit logo">
-    <h1 class="hero__headline">JUN 9, 2018</h1>
-  </div>
+  <nav class="hero-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="hero-menu">
+          <li>
+            <a class="hero-menu__link" href="#">About</a>
+          </li>
+          <li>
+            <a class="hero-menu__link" href="#">Speakers</a>
+          </li>
+          <li>
+            <a class="hero-menu__link" href="#">Venue</a>
+          </li>
+          <li>
+            <a class="hero-menu__link--cta" href="#" class="cta">Buy tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <img class="hero__logo" src="/assets/images/DevitLogo.svg" alt="DEVit logo">
+  <h1 class="hero__headline">JUN 9, 2018</h1>
 </div>
 
 <div class="early-birds">
   <div class="early-birds__left">
-    <img src="/assets/images/new/tickets.svg" alt="Early birds tickets">
+    <img class="early-birds__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
   </div>
   <div class="early-birds__right">
     <div class="block__heading--dark">
@@ -68,7 +94,7 @@
   </div>
 </div>
 
-<div class="about-block">
+<div class="about-block text-center">
   <h2 class="block__heading">What is DEVit</h2>
   <p class="about-block__paragraph">
     DEVit is the 360° Web Development Conference, frontend, UI/UX, backend, devops, mobile, we want to get you out of your comfort zone and cross pollinate all arts and crafts that make today’s World Wide Web possible.
@@ -134,14 +160,6 @@
 <div class="cfp">
   <div class="cfp__row">
     <div class="container">
-      <div class="cfp__row--top-left">
-        <div class="cfp__speaker-top">
-          <img class="speaker__avatar" src="/assets/images/speakers/2015/Christian_Heilmann.jpg" alt="Speaker one">
-          <div class="speaker__name">
-            Christian Heilmann
-          </div>
-        </div>
-      </div>
       <div class="cfp__row--top-right">
         <div class="block__heading--dark">
           DEVit speakers
@@ -151,6 +169,14 @@
           two adult children. Like Vera, everything seemed fine.
         </p>
         <button class="block__cta">All past speakers</button>
+      </div>
+      <div class="cfp__row--top-left">
+        <div class="cfp__speaker-top">
+          <img class="speaker__avatar" src="/assets/images/speakers/2015/Christian_Heilmann.jpg" alt="Speaker one">
+          <div class="speaker__name">
+            Christian Heilmann
+          </div>
+        </div>
       </div>
     </div>
   </div>
