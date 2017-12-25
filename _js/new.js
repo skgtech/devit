@@ -1,7 +1,3 @@
-window.jQuery = window.$ = require('jquery');
-
-require('lightslider/dist/js/lightslider.min');
-
 $(document).ready(function () {
   $('#autoWidth').lightSlider({
     // autoWidth: true,

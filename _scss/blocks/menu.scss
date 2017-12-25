@@ -4,6 +4,10 @@
   @extend .navbar;
   padding-top: 25px;
   padding-bottom: 25px;
+
+  .navbar-toggle .icon-bar {
+    background: #57585A;
+  }
 }
 
 .navigation-menu {
@@ -11,15 +15,10 @@
   @extend .navbar-nav;
   @extend .navbar-right;
 
-  li {
-    display: inline-block;
-  }
-
   li > a:hover,
   li > a:focus {
     background: none;
   }
-
 }
 .navigation-menu__link {
   color: #57585A;
