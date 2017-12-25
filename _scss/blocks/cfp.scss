@@ -4,9 +4,14 @@
 
 .cfp__row {}
 
+.cfp__container {}
+
 .cfp__row--orange {
   color: white;
   background-color: #F5A623;
+  background-image: url('/assets/images/new/bullhorn.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cfp__row--top-left,
@@ -101,6 +106,7 @@
   margin-right: 2px;
   margin-top: 4px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .speaker__social {

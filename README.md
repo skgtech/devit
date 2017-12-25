@@ -35,24 +35,6 @@ bundle install
 yarn
 ```
 
-### Troubleshooting nokogiri
-
-nokogiri can be a big PITA, first try this:
-
-```shell
-bundle update nokogiri
-```
-
-And if that fails maybe try this:
-
-```shell
-brew unlink libxml2
-brew unlink libxslt
-brew unlink libiconv
-sudo xcode-select --install
-gem install nokogiri
-```
-
 ## Build Commands
 
 * `gulp`: Launch the website locally, a development workflow with livereloads and watches.
@@ -91,7 +73,23 @@ Again, we could use some help from everyone, so step up!
 
 ## Troubleshooting
 
-Nothing so far. YAY!
+### nokogiri
+
+nokogiri can be a big PITA, first try this:
+
+```shell
+bundle update nokogiri
+```
+
+And if that fails maybe try this:
+
+```shell
+brew unlink libxml2
+brew unlink libxslt
+brew unlink libiconv
+sudo xcode-select --install
+gem install nokogiri
+```
 
 ## License
 

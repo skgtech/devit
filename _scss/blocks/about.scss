@@ -9,14 +9,21 @@
 .about-block {
   color: white;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .about-block__paragraph {
   @extend .block__paragraph;
   font-size: 24px;
   line-height: 29px;
+}
+
+@media (min-width: $screen-lg-min) {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 25%;
+  padding-right: 25%;
 }

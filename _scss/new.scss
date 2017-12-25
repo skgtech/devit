@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900');
+
 $grid-gutter-width: 20px;
 $container-large-desktop: 940px + $grid-gutter-width;
 
@@ -7,6 +9,12 @@ $container-large-desktop: 940px + $grid-gutter-width;
 @import "bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 @import "bootstrap-sass/assets/stylesheets/bootstrap/type";
 @import "bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
 @import "fontawesome";
 
 @import "blocks/common";
@@ -18,3 +26,7 @@ $container-large-desktop: 940px + $grid-gutter-width;
 @import "blocks/testimonials";
 @import "blocks/hero";
 @import "blocks/footer";
+
+body {
+  font-family: 'Lato', sans-serif;
+}

@@ -23,3 +23,7 @@
 .early-birds__right {
   @include make-sm-column(6);
 }
+
+.early-birds__img {
+  width: 100%;
+}

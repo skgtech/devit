@@ -3,15 +3,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.hero__container {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 150px;
 }
 
 .hero__logo {
+  padding-top: 120px;
   width: 250px;
 }
 
@@ -20,4 +18,28 @@
   font-weight: bold;
   font-size: 64px;
   line-height: 77px;
+}
+
+
+// Override bootstrap navbar
+.navbar-nav > li > a {
+  color: rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background: none;
+    color: rgba(255,255,255,1);
+  }
+
+  &.cta {
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #57585A;
+    font-weight: bold;
+    line-height: 22px;
+  }
 }
