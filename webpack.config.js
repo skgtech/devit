@@ -6,7 +6,7 @@ const files = fs.readdirSync('./_js/').filter(a => a.indexOf('.js') > -1);
 const entry = {};
 
 files.forEach(a => {
-  entry[a] = `${path.join(path.resolve(__dirname, '_js'), a)}`;
+  entry[a.replace('.js', '')] = `${path.join(path.resolve(__dirname, '_js'), a)}`;
 });
 
 module.exports = {
