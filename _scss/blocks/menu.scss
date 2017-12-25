@@ -1,0 +1,48 @@
+// Override bootstrap navbar
+
+.navigation-navbar {
+  @extend .navbar;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navigation-menu {
+  @extend .nav;
+  @extend .navbar-nav;
+  @extend .navbar-right;
+
+  li {
+    display: inline-block;
+  }
+
+}
+.navigation-menu__link {
+  color: #57585A;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background: none;
+    color: rgba(0,0,0,1);
+  }
+}
+
+.navigation-menu__link--cta {
+  @extend .navigation-menu__link;
+
+  border-radius: 24px;
+  background-color: #00629E;
+  color: #fff;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.navbar-brand {
+
+  img {
+    width: 100px;
+  }
+}

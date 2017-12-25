@@ -26,6 +26,8 @@ $container-large-desktop: 940px + $grid-gutter-width;
 @import "blocks/testimonials";
 @import "blocks/hero";
 @import "blocks/footer";
+@import "blocks/speakers";
+@import "blocks/menu";
 
 body {
   font-family: 'Lato', sans-serif;

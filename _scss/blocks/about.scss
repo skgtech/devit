@@ -7,10 +7,8 @@
 }
 
 .about-block {
+  @extend .block;
   color: white;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
   padding-left: 15%;
   padding-right: 15%;
 }

@@ -1,0 +1,17 @@
+.speakers-list {
+  // @include make-row();
+  @extend .block;
+  @extend .container;
+}
+.speakers-list__item {
+  @include make-md-column(4);
+  @include make-sm-column(6);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.speaker {
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 rgba(0,62,115,0.1);
+}

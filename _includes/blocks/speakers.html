@@ -1,0 +1,65 @@
+{% assign speakers = "" | split: "" %}
+{% for speaker in site.data.speakers['2017'].speakers %}
+  {% assign speakers = speakers | push: speaker %}
+{% endfor %}
+{% for speaker in site.data.speakers['2016'].speakers %}
+  {% assign speakers = speakers | push: speaker %}
+{% endfor %}
+{% for speaker in site.data.speakers['2015'].speakers %}
+  {% assign speakers = speakers | push: speaker %}
+{% endfor %}
+
+<div class="block">
+  <div class="container text-center">
+    <div class="block__heading--dark">
+      Our beloved speakers
+    </div>
+    <div class="block__paragraph--dark">
+      Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+      ipsum Lorem ipsum
+    </div>
+  </div>
+</div>
+<div class="speakers-list">
+  {% for speaker in speakers | sort: 'last_name' %}
+    <div class="speakers-list__item">
+      <div class="speaker">
+        <a href="/speakers/2017/{{speaker.url}}">
+          <img class="speaker__avatar" src="/assets/images/speakers/{{speaker.year}}/{{ speaker.image_filename }}" alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+        </a>
+        <div class="speaker__name">
+          {{ speaker.first_name }} {{ speaker.last_name }}
+        </div>
+        <div class="speaker__title">Founder and CEO</div>
+        <div class="speaker__tags">
+          {% for tag in speaker.tags %}
+            <span class="speaker__tag">
+              {{tag}}
+            </span>
+          {% endfor %}
+        </div>
+        <div class="speaker__social">
+          {% for social in speaker.social %}
+            {% if social[0] == "github" %}
+              {% assign icon = "fab fa-github" %}
+              {% assign link = "https://github.com/" | append: social[1] %}
+            {% endif %}
+            {% if social[0] == "twitter" %}
+              {% assign icon = "fab fa-twitter" %}
+              {% assign link = "https://twitter.com/" | append: social[1] %}
+            {% endif %}
+            {% if social[0] == "facebook" %}
+              {% assign icon = "fab fa-facebook-f" %}
+              {% assign link = "https://facebook.com/" | append: social[1] %}
+            {% endif %}
+            {% if social[0] == "homepage" %}
+              {% assign icon = "fas fa-link" %}
+              {% assign link = "https://facebook.com/" | append: social[1] %}
+            {% endif %}
+            <a href="{{ link }}" class="speaker__social__item {{icon}}"></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
