@@ -32,6 +32,7 @@ $container-large-desktop: 940px + $grid-gutter-width;
 @import "blocks/speakers";
 @import "blocks/menu";
 @import "blocks/tweets";
+@import "blocks/album";
 
 body {
   font-family: 'Lato', sans-serif;

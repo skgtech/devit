@@ -1,0 +1,57 @@
+.album__row {
+  @include make-row();
+  background-color:#00629E;
+  margin: 0;
+}
+.album__one {
+  @include make-sm-column(6);
+  @include make-md-column(3);
+}
+.album__two {
+  @include make-md-column(6);
+}
+
+.album__one,
+.album__two {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.album__img {
+  width: 100%;
+}
+
+.album__cta {
+  padding: 40px 40px 0 40px;
+  position: relative;
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 62, 115, 0.9);
+}
+
+.album__cta__heading {
+  @extend .block__heading;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+}
+.album__cta__paragraph {
+  @extend .block__paragraph;
+  opacity: 0.7;
+  font-size: 19px;
+  line-height: 23px;
+
+  @media (min-width: $screen-lg-min) {
+    max-width: 400px;
+  }
+}
+.album__cta__button {
+  @extend .block__cta;
+  border-radius: 40px;
+  background-color: #FFFFFF;
+  color: #003E73;
+}
