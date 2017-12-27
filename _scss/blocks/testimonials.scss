@@ -2,6 +2,11 @@
   background-color:#00629E;
   @include make-row();
   margin: 0;
+
+  @media (min-width: $screen-sm-max) {
+    max-height: 432px;
+    overflow: hidden;
+  }
 }
 .testimonials__one {
   @include make-md-column(3);
