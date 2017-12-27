@@ -23,6 +23,8 @@
 .hero-navbar {
   @extend .navbar;
 
+  border-radius: 0;
+
   .navbar-toggle .icon-bar {
     background: white;
   }
@@ -36,16 +38,19 @@
 
 // Override bootstrap navbar
 .hero-menu__link {
-  color: rgba(255,255,255,0.7);
-  font-size: 18px;
   font-weight: bold;
-  line-height: 22px;
   text-transform: uppercase;
+
+  color: rgba(255,255,255,0.7);
 
   &:hover,
   &:focus {
     background: none !important;
     color: rgba(255,255,255,1) !important;
+  }
+
+  .sticky-menu--clone & {
+    @extend .navigation-menu__link;
   }
 }
 
@@ -61,5 +66,9 @@
   &:focus {
     color: #FFFFFF !important;
     background-color: #57585A !important;
+  }
+
+  .sticky-menu--clone & {
+    @extend .navigation-menu__link--cta;
   }
 }

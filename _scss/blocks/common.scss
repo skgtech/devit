@@ -4,10 +4,10 @@
 }
 
 .block__heading {
+  @extend .h1;
+
   color: white;
   font-weight: bold;
-  line-height: 57px;
-  font-size: 48px;
   margin-bottom: 16px;
 }
 
@@ -22,8 +22,6 @@
 .block__paragraph {
   color: white;
   font-family: Lato;
-  font-size: 18px;
-  line-height: 22px;
   margin-bottom: 16px;
 }
 
@@ -49,8 +47,6 @@
 
 .block__more-cta {
   color: white;
-  font-size: 18px;
-  line-height: 22px;
   margin-top: 25px;
   display: block;
 }
