@@ -28,6 +28,12 @@
   .navbar-toggle .icon-bar {
     background: white;
   }
+
+  &.sticky--stick {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: white;
+  }
 }
 
 .hero-menu {
@@ -49,7 +55,7 @@
     color: rgba(255,255,255,1) !important;
   }
 
-  .sticky-menu--clone & {
+  .sticky--stick & {
     @extend .navigation-menu__link;
   }
 }
@@ -68,7 +74,7 @@
     background-color: #57585A !important;
   }
 
-  .sticky-menu--clone & {
+  .sticky--stick & {
     @extend .navigation-menu__link--cta;
   }
 }

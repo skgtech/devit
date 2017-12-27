@@ -1,4 +1,4 @@
-.sticky-menu--clone {
+.sticky--prepare {
   position: fixed;
   z-index: 1;
   top: 0;
@@ -18,10 +18,11 @@
   -webkit-transition: all 300ms ease-in-out;
      -moz-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out;
-
 }
 
-.sticky-menu--stick {
+.sticky--stick {
+
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
 
   /* Translate back to 0%; */
   -webkit-transform: translateY(0%);

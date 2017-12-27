@@ -8,20 +8,35 @@ function stickyMenu(className) {
     return;
   }
 
-  const header_height = getComputedStyle(header).height.split('px')[0];
-  const fix_class = className + '--sticky';
+  const headerHeight = getComputedStyle(header).height.split('px')[0];
+  const prepareClass = className + '--prepare';
+  const stickyClass = className + '--stick';
 
-  function stickyScroll(e) {
-    if (window.pageYOffset > header_height) {
-      header.classList.add(fix_class);
+  window.addEventListener('scroll', function stickyScroll(e) {
+
+    // if (window.screen.width < 767) {
+    //   return;
+    // }
+
+    const bottomLimit = parseInt(headerHeight)
+    const upperLimit = bottomLimit * 2
+
+    if (window.pageYOffset > bottomLimit) {
+      header.classList.add(prepareClass);
     }
 
-    if (window.pageYOffset < header_height) {
-      header.classList.remove(fix_class);
+    if (window.pageYOffset > upperLimit) {
+      header.classList.add(stickyClass);
     }
-  }
 
-  window.addEventListener('scroll', stickyScroll, false);
+    if (window.pageYOffset < upperLimit) {
+      header.classList.remove(stickyClass);
+    }
+
+    if (window.pageYOffset < bottomLimit) {
+      header.classList.remove(prepareClass);
+    }
+  }, false);
 
 }
 
