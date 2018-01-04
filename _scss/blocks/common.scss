@@ -34,6 +34,8 @@
 }
 
 .block__cta {
+  @extend .btn;
+
   border-radius: 36px;
   background-color: #00629E;
   text-transform: uppercase;
@@ -46,6 +48,8 @@
 }
 
 .block__more-cta {
+  @extend .btn-link;
+
   color: white;
   margin-top: 25px;
   display: block;
