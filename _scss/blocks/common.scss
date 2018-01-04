@@ -54,3 +54,13 @@
   margin-top: 25px;
   display: block;
 }
+
+.block__more-cta:hover,
+.block__more-cta:focus,
+.block__more-cta:active,
+.block__cta:hover,
+.block__cta:focus,
+.block__cta:active {
+  color: white;
+  text-decoration: underline;
+}
