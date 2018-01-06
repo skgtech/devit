@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="395px" height="31px" viewBox="0 0 395 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <filter id="grayscale">
+      <feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"/>
+    </filter>
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>Automattic</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Landing-B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-514.000000, -3223.000000)" opacity="0.699999988">
+    <g id="Landing-B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-514.000000, -3223.000000)" opacity="0.699999988" filter="url(#grayscale)">
         <g id="Sponsors" transform="translate(1.000000, 2823.000000)">
             <g id="Logos" style="mix-blend-mode: luminosity;" transform="translate(210.000000, 262.000000)">
                 <g id="Automattic" transform="translate(303.000000, 138.000000)">
