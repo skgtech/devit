@@ -12,8 +12,11 @@
 .speaker {
   text-align: center;
   padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px 0 rgba(0,62,115,0.1);
+
+  &:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0,62,115,0.1);
+  }
 }
 .speaker__avatar {
   width: 200px;
@@ -25,8 +28,15 @@
 .speaker__name {
   font-size: 20px;
   font-weight: 900;
-  line-height: 24px;
+  line-height: 60px;
+  height: 60px;
   padding-bottom: 10px;
+
+  span {
+    line-height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+  }
 }
 
 .speaker__title {
