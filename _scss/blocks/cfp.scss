@@ -17,23 +17,27 @@
 
 .cfp__row--top-left,
 .cfp__row--bottom-left {
-  @include make-sm-column(4);
+  @include make-md-column(4);
+  @extend .hidden-xs;
+  @extend .hidden-sm;
 }
 
 .cfp__row--top-right,
 .cfp__row--bottom-right {
-  @include make-sm-column(8);
+  @include make-md-column(8);
 }
 
 .cfp__row--top-left {
-  @include make-sm-column-pull(8);
+  @include make-md-column-pull(8);
 
-  @media (max-width: $screen-md-min) {
-    margin-top: 25px;
-  }
+  margin-top: 25px;
 }
 .cfp__row--top-right {
-  @include make-sm-column-push(4);
+  @include make-md-column-push(4);
+
+  @media (max-width: $screen-md-min) {
+    margin-bottom: 50px;
+  }
 }
 
 .cfp__row--top-right,

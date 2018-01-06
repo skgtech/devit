@@ -1,6 +1,6 @@
 .block {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .block__heading {
@@ -43,8 +43,13 @@
   font-weight: 900;
   line-height: 26px;
   color: white;
-  padding: 15px 20px;
+  padding: 23px 32px;
   margin-top: 16px;
+
+  @media (max-width: $screen-sm-min) {
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .block__more-cta {

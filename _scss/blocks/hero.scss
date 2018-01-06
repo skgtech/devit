@@ -15,7 +15,7 @@
 
 .hero__headline {
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 64px;
   line-height: 77px;
 }
@@ -30,8 +30,8 @@
   }
 
   &.sticky--stick {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     background: white;
   }
 }
@@ -48,6 +48,11 @@
   text-transform: uppercase;
 
   color: rgba(255,255,255,0.7);
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  margin: 0 12px;
 
   &:hover,
   &:focus {
@@ -67,6 +72,8 @@
   color: #57585A;
   font-weight: bold;
   line-height: 22px;
+
+  padding: 13px 32px !important;
 
   &:hover,
   &:focus {

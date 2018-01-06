@@ -37,6 +37,7 @@
 .speaker__tags {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 0;
 }
 
 .speaker__tag {
@@ -47,15 +48,14 @@
   font-weight: bold;
   line-height: 12px;
   padding: 6px 8px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 4px;
+  margin: 4px;
   display: inline-block;
   text-transform: uppercase;
 }
 
 .speaker__social {
   margin-top: 30px;
+  font-size: 0;
 }
 
 .speaker__social__item {
@@ -63,8 +63,20 @@
   height: 40px;
   border-radius: 50%;
   display: inline-block;
-  background-color: #E7E7E8;
+  background-color: rgba(217, 217, 217, 0.5);
   color: white;
-  font-size: 24px;
-  padding: 8px;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-align: center;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: rgba(217, 217, 217, 1);
+    color: white;
+    text-decoration: none;
+  }
+
 }

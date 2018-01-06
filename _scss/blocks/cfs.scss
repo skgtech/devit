@@ -7,8 +7,28 @@
   @extend .container;
 }
 
+.sponsors {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
 .sponsors__row {
   @include make-row();
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media (max-width: $screen-sm-min) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
 
   @media (min-width: $screen-sm-max) {
     display: flex;
@@ -18,13 +38,17 @@
   .sponsors__item {
     @include make-sm-column(4);
 
+    @media (max-width: $screen-sm-min) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
     @media (min-width: $screen-sm-max) {
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
     }
-    height: 100px;
 
     img {
       max-height: 100px;
