@@ -25,6 +25,7 @@
     "modernizr": "~3.3.1",
     "normalize.css": "~5.0.0",
     "phonon": "^1.4.8",
+    "picturefill": "^3.0.2",
     "sass-loader": "~6.0.6",
     "style-loader": "~0.19.1",
     "url-loader": "~0.6.2",

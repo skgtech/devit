@@ -5,11 +5,11 @@
 ##
 
 defaults:
-  title: June 9 2018, Thessaloniki
+  title: JUN 10-11, 2018, Thessaloniki
   description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
   image: http://devitconf.org/assets/images/devit-og-general.jpg?1511705959
 
-date: JUN 9, 2018
+date: JUN 10-11, 2018
 titlePostfix: " - DEVit Conference"
 
 # Info about the venue
