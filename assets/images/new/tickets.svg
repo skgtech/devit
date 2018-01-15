@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="238px" viewBox="0 0 384 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Tickets illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M354,16 L270.975,16 C270.979,16.167 271,16.331 271,16.5 C271,25.613 263.612,33 254.5,33 C245.388,33 238,25.613 238,16.5 C238,16.331 238.021,16.167 238.025,16 L24,16 C15.164,16 8,23.164 8,32 L8,182 C8,190.837 15.164,198 24,198 L238.025,198 C238.292,189.121 245.557,182 254.5,182 C263.443,182 270.708,189.121 270.975,198 L354,198 C362.837,198 370,190.837 370,182 L370,32 C370,23.164 362.837,16 354,16" id="path-1"></path>
+    </defs>
+    <g id="Landing-B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-211.000000, -691.000000)">
+        <g id="Tickets" transform="translate(198.000000, 672.000000)">
+            <g id="Tickets-illustration" transform="translate(204.709020, 138.193935) rotate(-10.000000) translate(-204.709020, -138.193935) translate(15.709020, 31.193935)">
+                <g id="Fill-1-Copy" transform="translate(189.000000, 107.000000) rotate(5.000000) translate(-189.000000, -107.000000) ">
+                    <use fill="#00629E" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.2" fill="#000000" xlink:href="#path-1"></use>
+                </g>
+                <path d="M354,16 L270.975,16 C270.979,16.167 271,16.331 271,16.5 C271,25.613 263.612,33 254.5,33 C245.388,33 238,25.613 238,16.5 C238,16.331 238.021,16.167 238.025,16 L24,16 C15.164,16 8,23.164 8,32 L8,182 C8,190.837 15.164,198 24,198 L238.025,198 C238.292,189.121 245.557,182 254.5,182 C263.443,182 270.708,189.121 270.975,198 L354,198 C362.837,198 370,190.837 370,182 L370,32 C370,23.164 362.837,16 354,16" id="Fill-1" fill="#00629E"></path>
+                <path d="M58,148 L204,148" id="Stroke-3" stroke="#FFFFFF" stroke-width="8" opacity="0.400000006" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M58,80 L134.5,80" id="Stroke-5" stroke="#000000" stroke-width="8" opacity="0.298913043" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M149,80 L176,80" id="Stroke-7" stroke="#000000" stroke-width="8" opacity="0.298913043" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M58,94 L154,94" id="Stroke-9" stroke="#FFFFFF" stroke-width="8" opacity="0.400000006" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M58,66 L82.5,66" id="Stroke-11" stroke="#000000" stroke-width="8" opacity="0.298913043" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Fill-13" fill="#FEFEFE" points="302.4102 94.0444 312.6342 100.1304 297.2052 93.3824 297.2052 138.0004 321.5902 138.0004 321.5902 105.4614 326.7952 108.5604 326.7952 76.0004 302.4102 76.0004"></polygon>
+                <path d="M254,44 L254,171" id="Stroke-15" stroke="#FEFEFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7,10"></path>
+            </g>
+        </g>
+    </g>
+</svg>

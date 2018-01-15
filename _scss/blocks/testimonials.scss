@@ -1,0 +1,46 @@
+.testimonials__row {
+  background-color:#00629E;
+  @include make-row();
+  margin: 0;
+
+  @media (min-width: $screen-sm-max) {
+    max-height: 432px;
+    overflow: hidden;
+  }
+}
+.testimonials__one {
+  @include make-md-column(3);
+}
+.testimonials__two {
+  @include make-md-column(6);
+}
+
+.testimonials__one,
+.testimonials__two {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonial {
+  padding: 40px;
+}
+
+.testimonial__quote {
+  color: white;
+  font-size: 30px;
+}
+
+.testimonial__text {
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.testimonial__name {
+  color: #FFFFFF;
+}

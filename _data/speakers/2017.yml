@@ -1,5 +1,6 @@
 speakers:
   - url: natasha_murashev
+    year: 2017
     first_name: Natasha
     last_name: Murashev
     nickname: TheRobot
@@ -16,6 +17,7 @@ speakers:
       around the world (the next one is in Tokyo!).
 
   - url: hugo_giraudel
+    year: 2017
     first_name: Hugo
     last_name: Giraudel
     nickname: CSS-in-JS kitten
@@ -30,6 +32,7 @@ speakers:
       Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>. Net Awards nominee.
 
   - url: james_halliday
+    year: 2017
     first_name: James
     last_name: Halliday
     nickname: substack
@@ -43,6 +46,7 @@ speakers:
       member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.
 
   - url: harry_roberts
+    year: 2017
     first_name: Harry
     last_name: Roberts
     nickname: CSS Wizardry
@@ -61,6 +65,7 @@ speakers:
       <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.
 
   - url: zaharenia_atzitzikaki
+    year: 2017
     first_name: Zaharenia
     last_name: Atzitzikaki
     nickname: sugarenia
@@ -79,6 +84,7 @@ speakers:
       target="_blank">@sugarenia</a>
 
   - url: bodil_stokke
+    year: 2017
     first_name: Bodil
     last_name: Stokke
     image_filename: Bodil_Stokke.png
@@ -98,6 +104,7 @@ speakers:
       period writing JavaScript.
 
   - url: julien_simon
+    year: 2017
     first_name: Julien
     last_name: Simon
     image_filename: Julien_Simon.png
@@ -114,6 +121,7 @@ speakers:
       the Amazon Web Services infrastructure.
 
   - url: florian_schaffler
+    year: 2017
     first_name: Florian
     last_name: Schaffler
     image_filename: Florian_Schaffler.png
@@ -132,6 +140,7 @@ speakers:
       AWS Enthusiast, Software Lover, Process Coach.
 
   - url: vladimir_grinenko
+    year: 2017
     first_name: Vladimir
     last_name: Grinenko
     image_filename: Vladimir_Grinenko.png
@@ -143,6 +152,7 @@ speakers:
       Answers BEM questions 24/7, speaker at numerous international IT conferences.
 
   - url: rita_zhang
+    year: 2017
     first_name: Rita
     last_name: Zhang
     image_filename: Rita_Zhang.png
@@ -154,6 +164,7 @@ speakers:
      away on GitHub.
 
   - url: antonio_peric
+    year: 2017
     first_name: Antonio
     last_name: Peric
     image_filename: Antonio_Peric.png
@@ -167,6 +178,7 @@ speakers:
       Computer Science.
 
   - url: andy_grunwald
+    year: 2017
     first_name: Andy
     last_name: Grunwald
     image_filename: Andy_Grunwald.png
@@ -177,6 +189,7 @@ speakers:
       Software Engineer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>, organizer of <a href="https://twitter.com/webengdus" target="_blank">@WebEngDUS</a>, loves open source and working with motivated people
 
   - url: mete_atamel
+    year: 2017
     first_name: Mete
     last_name: Atamel
     image_filename: Mete_Atamel.png
@@ -189,6 +202,7 @@ speakers:
       Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms.
 
   - url: ivo_neskovic
+    year: 2017
     first_name: Ivo
     last_name: Neskovic
     image_filename: Ivo_Neskovic.png
@@ -204,6 +218,7 @@ speakers:
       ever since.
 
   - url: jason_poon
+    year: 2017
     first_name: Jason
     last_name: Poon
     image_filename: Jason_Poon.png
@@ -215,6 +230,7 @@ speakers:
       at Microsoft.ions.
 
   - url: melanie_patrick
+    year: 2017
     first_name: Melanie
     last_name: Patrick
     image_filename: Melanie_Patrick.png
@@ -224,6 +240,7 @@ speakers:
       Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about learning, travelling, and likes her steak medium rare.
 
   - url: mike_smart
+    year: 2017
     first_name: Mike
     last_name: Smart
     image_filename: Mike_Smart.png
@@ -235,6 +252,7 @@ speakers:
       at <a href="https://n26.com/" target="_blank">N26</a>.
 
   - url: jason_lengstorf
+    year: 2017
     first_name: Jason
     last_name: Lengstorf
     image_filename: Jason_Lengstorf.png
@@ -256,6 +274,7 @@ speakers:
       foraging for nuts and berries.
 
   - url: leonie_watson
+    year: 2017
     first_name: Leonie
     last_name: Watson
     image_filename: Leonie_Watson.png
@@ -275,6 +294,7 @@ speakers:
       She also loves cooking, dancing and drinking tequila (although not necessarily in that order).
 
   - url: marisa_morby
+    year: 2017
     first_name: Marisa
     last_name: Morby
     image_filename: Marisa_Morby.png
@@ -285,6 +305,7 @@ speakers:
 
 
   - url: forbes_lindesay
+    year: 2017
     first_name: Forbes
     last_name: Lindesay
     image_filename: Forbes_lindesay.png
@@ -296,6 +317,7 @@ speakers:
       bicycle.js, open source enthusiast and fan of all things React.
 
   - url: dennis_stavroyiannopoulos
+    year: 2017
     first_name: Dennis
     last_name: Stavroyiannopoulos
     small: true
@@ -307,6 +329,7 @@ speakers:
      needs and proposing appropriate solutions. He has worked in several technical positions in the software industry for the last 15 years and has
      extensive experience in telecom and mobile solutions. He holds a MSc in Space Science from University College London.
   - url: constantinos_ziazios
+    year: 2017
     first_name: Constantinos
     last_name: Ziazios
     small: true
@@ -316,6 +339,7 @@ speakers:
     bio: |
       Long time C#/.NET developer with roots in C++. He has developed ASP.NET (WebForms and MVC) web apps for many years. He has recently started developing applications for Android and iPhone and has started to put a focus on mobile application development. Konstantinos has spent many years working as a consultant for many different projects and has deep ties to the agile community. He is also very interested in automated testing using tools like WatiN or Selenium. On any given day he could be programming in C#, Javascript, Objective-C, Java or all of them. (C# is his favorite language though.)
   - url: panagiotis_tsilopoulos
+    year: 2017
     first_name: Panagiotis
     last_name: Tsilopoulos
     small: true

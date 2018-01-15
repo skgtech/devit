@@ -1,0 +1,21 @@
+.about-block {
+  @extend .block;
+
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  color: white;
+}
+
+.about-block__paragraph {
+  @extend .block__paragraph;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media (min-width: $screen-lg-min) {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}

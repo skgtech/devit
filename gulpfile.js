@@ -35,9 +35,24 @@ gulp.task('deploy', ['build'], function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['_scss/*.scss', '_scss/*.css'], ['rebuild-sass']);
-  gulp.watch(['*.html', '_data/**/*.yml', '_layouts/*.html', '_includes/*.html', '_posts/**/*.md', 'pages/**/*.html'], ['jekyll-rebuild']);
-  gulp.watch(['_js/**/*.js'], ['rebuild-webpack']);
+  gulp.watch([
+    '_scss/*.scss',
+    '_scss/**/*.scss',
+    '_scss/*.css',
+    '_scss/**/*.css'
+  ], ['rebuild-sass']);
+  gulp.watch([
+    '*.html',
+    '_data/**/*.yml',
+    '_layouts/*.html',
+    '_includes/*.html',
+    '_includes/**/*.html',
+    '_posts/**/*.md',
+    'pages/**/*.html'
+  ], ['jekyll-rebuild']);
+  gulp.watch([
+    '_js/**/*.js'
+  ], ['rebuild-webpack']);
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
@@ -80,7 +95,7 @@ gulp.task('browser-sync-reload', function () {
 });
 
 gulp.task('sass', function () {
-  return gulp.src(['_scss/main.scss', '_scss/live.scss'])
+  return gulp.src(['_scss/main.scss', '_scss/live.scss', , '_scss/new.scss'])
     .pipe(sass.sync({ outputStyle: 'compressed', includePaths: ['scss', 'node_modules'] }).on('error', sass.logError))
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(gulp.dest('assets/css'));

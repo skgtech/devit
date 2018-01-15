@@ -1,0 +1,34 @@
+.tweets {
+  @extend .block;
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+.tweets__control {
+  color: white;
+  margin-top: 200px;
+  font-size: 32px;
+}
+
+.cS-hidden {
+  height: 1px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  overflow: hidden;
+}
+
+/**
+ * @see https://dev.twitter.com/web/embedded-tweets/css
+ */
+
+blockquote.twitter-tweet {}
+
+blockquote.twitter-tweet p {}
+
+blockquote.twitter-tweet a {}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {}

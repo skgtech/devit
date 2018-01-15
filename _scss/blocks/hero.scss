@@ -1,0 +1,87 @@
+.hero {
+  background-image: url(/assets/images/new/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.hero__logo {
+  padding-top: 120px;
+  width: 250px;
+}
+
+.hero__headline {
+  color: white;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.hero-navbar {
+  @extend .navbar;
+
+  border-radius: 0;
+
+  .navbar-toggle .icon-bar {
+    background: white;
+  }
+
+  &.sticky--stick {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: white;
+  }
+}
+
+.hero-menu {
+  @extend .nav;
+  @extend .navbar-nav;
+  @extend .navbar-right;
+}
+
+// Override bootstrap navbar
+.hero-menu__link {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: rgba(255,255,255,0.7);
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  margin: 0 12px;
+
+  &:hover,
+  &:focus {
+    background: none !important;
+    color: rgba(255,255,255,1) !important;
+  }
+
+  .sticky--stick & {
+    @extend .navigation-menu__link;
+  }
+}
+
+.hero-menu__link--cta {
+  @extend .hero-menu__link;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  color: #57585A;
+  font-weight: bold;
+  line-height: 22px;
+
+  padding: 13px 32px !important;
+
+  &:hover,
+  &:focus {
+    color: #FFFFFF !important;
+    background-color: #57585A !important;
+  }
+
+  .sticky--stick & {
+    @extend .navigation-menu__link--cta;
+  }
+}

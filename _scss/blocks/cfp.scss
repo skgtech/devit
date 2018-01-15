@@ -1,0 +1,78 @@
+.cfp {
+  padding-top: 50px;
+}
+
+.cfp__row {}
+
+.cfp__container {}
+
+.cfp__row--orange {
+  color: white;
+  background-color: #F5A623;
+  background-image: url('/assets/images/new/bullhorn.svg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cfp__row--top-left,
+.cfp__row--bottom-left {
+  @include make-md-column(4);
+  @extend .hidden-xs;
+  @extend .hidden-sm;
+}
+
+.cfp__row--top-right,
+.cfp__row--bottom-right {
+  @include make-md-column(8);
+}
+
+.cfp__row--top-left {
+  @include make-md-column-pull(8);
+
+  margin-top: 25px;
+}
+.cfp__row--top-right {
+  @include make-md-column-push(4);
+
+  @media (max-width: $screen-md-min) {
+    margin-bottom: 50px;
+  }
+}
+
+.cfp__row--top-right,
+.cfp__row--bottom-right {
+  padding-left: 100px;
+
+  @media (max-width: $screen-md-min) {
+    padding-left: 10px;
+  }
+}
+
+.cfp__row--bottom-right {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cfp__speaker-top,
+.cfp__speaker-bottom {
+  text-align: center;
+}
+
+.cfp__speaker-top {
+  padding: 30px 30px 0 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: none;
+  box-shadow: 0 -10px 25px 0 rgba(0,62,115,0.1);
+}
+
+.cfp__speaker-bottom {
+  padding: 0 30px 30px 30px;
+  background: white;
+  color: black;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: none;
+  box-shadow: 0 10px 25px 0 rgba(0,62,115,0.1);
+}

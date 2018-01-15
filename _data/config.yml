@@ -1,0 +1,19 @@
+##
+## The purpose of this configuration is to allow us to put
+## toggles on things that change regulary in order to be
+## switching them faster in the future
+##
+
+defaults:
+  title: June 9 2018, Thessaloniki
+  description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+  image: http://devitconf.org/assets/images/devit-og-general.jpg?1511705959
+
+date: JUN 9, 2018
+titlePostfix: " - DEVit Conference"
+
+# Info about the venue
+venue: blah blah
+
+# Current mode. Site will be modified based on this
+currentMode: "dday|nextday|nextblind|nextfull"

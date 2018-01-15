@@ -6,9 +6,9 @@
     "bootstrap-sass": "~3.3.7",
     "browser-sync": "~2.17.0",
     "codebird": "~2.6.0",
-    "css-loader": "~0.25.0",
+    "css-loader": "~0.28.7",
     "fancy-select": "~2.0.2",
-    "file-loader": "~0.9.0",
+    "file-loader": "~1.1.6",
     "flowtype": "~2.0.0",
     "font-awesome": "~4.7.0",
     "gmap3": "~7.1.0",
@@ -20,20 +20,18 @@
     "jquery": "~3.1.1",
     "jquery-placeholder": "~2.3.1",
     "jquery-ui": "~1.12.1",
+    "lightslider": "^1.1.6",
     "minimist": "^1.2.0",
     "modernizr": "~3.3.1",
     "normalize.css": "~5.0.0",
-    "phonon": "^1.4.3",
-    "picturefill": "^3.0.2",
-    "sass-loader": "~4.0.2",
-    "style-loader": "~0.13.1",
-    "url-loader": "~0.5.7",
-    "webpack-stream": "~3.2.0"
+    "phonon": "^1.4.8",
+    "sass-loader": "~6.0.6",
+    "style-loader": "~0.19.1",
+    "url-loader": "~0.6.2",
+    "webpack-stream": "~4.0.0"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "dependencies": {
-    "phonon": "^1.4.5"
-  }
+  "dependencies": {}
 }
