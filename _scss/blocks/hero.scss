@@ -1,11 +1,19 @@
 .hero {
-  background-image: url(/assets/images/new/hero.jpg);
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/mobile.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 150px;
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/tablet.jpg);
+  }
+
+  @media (min-width: 1126px) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
+  }
 }
 
 .hero__logo {
