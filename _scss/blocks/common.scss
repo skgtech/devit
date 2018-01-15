@@ -8,7 +8,7 @@
 
   color: white;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .block__heading--light {
@@ -22,7 +22,6 @@
 .block__paragraph {
   color: white;
   font-family: Lato;
-  margin-bottom: 16px;
 }
 
 .block__paragraph--light {
@@ -56,7 +55,7 @@
   @extend .btn-link;
 
   color: white;
-  margin-top: 25px;
+  margin-top: 40px;
   display: block;
 }
 

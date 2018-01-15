@@ -1,0 +1,75 @@
+.subscribe-block {
+  @extend .block;
+
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  color: white;
+}
+
+.subscribe-block__paragraph {
+  @extend .block__paragraph;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media (min-width: $screen-lg-min) {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.subscribe-form {
+  @extend .form-inline;
+  margin-top: 24px;
+}
+
+.subscribe-name-field,
+.subscribe-email-field {
+  @extend .form-control;
+  border: 0;
+  padding: 16px 24px;
+  height: 54px;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.subscribe-name-field {
+  border-radius: 36px;
+  background-color: #ffffff;
+  margin-right: 16px;
+}
+
+.subscribe-email-field {
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+	background-color: #ffffff;
+}
+
+.subscribe-submit {
+  @extend .btn;
+
+  color: #57585a;
+  border-top-right-radius: 36px;
+  border-bottom-right-radius: 36px;
+  padding: 16px 24px;
+  height: 54px;
+
+  &:active,
+  &:active:focus,
+  &:visited {
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+  }
+}
+
+.subscribe-result {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
