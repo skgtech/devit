@@ -52,10 +52,6 @@
   <div id="home"></div>
 <header id="header" class="header">
 
-  <div id="preloader">
-    <div class="preloader"></div>
-  </div>
-
   <div class="header-caption">
     <div class="container">
       <div class="box text-center">
@@ -68,18 +64,11 @@
     </div>
   </div>
 
-  <div id="header-background" class="header-background header-background-hide">
-    <ul class="slides">
-      <li><img src="/assets/images/demo/01.jpg" alt="DEVit Conference 2017"/></li>
-      <li><img src="/assets/images/demo/02.jpg" alt="DEVit Conference 2017"/></li>
-      <li><img src="/assets/images/demo/03.jpg" alt="DEVit Conference 2017"/></li>
-      <li><img src="/assets/images/demo/04.jpg" alt="DEVit Conference 2017"/></li>
-      <li><img src="/assets/images/demo/05.jpg" alt="DEVit Conference 2017"/></li>
-      <li><img src="/assets/images/demo/06.jpg" alt="DEVit Conference 2017"/></li>
-      <li><img src="/assets/images/demo/07.jpg" alt="DEVit Conference 2017"/></li>
-    </ul>
-  </div>
-
+  <picture>
+    <source srcset="/assets/images/header/screen.jpg" media="(min-width: 1126px)">
+    <source srcset="/assets/images/header/tablet.jpg" media="(min-width: 768px)">
+    <img class="header-img" srcset="/assets/images/header/mobile.jpg" alt="…">
+  </picture>
 </header>
 
 
