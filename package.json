@@ -9,7 +9,6 @@
     "css-loader": "~0.25.0",
     "fancy-select": "~2.0.2",
     "file-loader": "~0.9.0",
-    "flexslider": "~2.6.3",
     "flowtype": "~2.0.0",
     "font-awesome": "~4.7.0",
     "gmap3": "~7.1.0",
@@ -24,11 +23,12 @@
     "minimist": "^1.2.0",
     "modernizr": "~3.3.1",
     "normalize.css": "~5.0.0",
+    "phonon": "^1.4.3",
+    "picturefill": "^3.0.2",
     "sass-loader": "~4.0.2",
     "style-loader": "~0.13.1",
     "url-loader": "~0.5.7",
-    "webpack-stream": "~3.2.0",
-    "phonon": "^1.4.3"
+    "webpack-stream": "~3.2.0"
   },
   "engines": {
     "node": ">=6.0.0"
