@@ -1,55 +1,113 @@
-// Override bootstrap navbar
-
-.navigation-navbar {
+.main-navbar {
   @extend .navbar;
-  padding-top: 25px;
-  padding-bottom: 25px;
+
+  border-radius: 0;
 
   .navbar-toggle .icon-bar {
-    background: #57585A;
+    background: white;
+  }
+
+  &.sticky--stick {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: white;
   }
 }
 
-.navigation-menu {
+.main-menu {
   @extend .nav;
   @extend .navbar-nav;
   @extend .navbar-right;
-
-  li > a:hover,
-  li > a:focus {
-    background: none;
-  }
 }
-.navigation-menu__link {
-  color: #57585A;
+
+// Override bootstrap navbar
+.main-menu__link {
   font-weight: bold;
   text-transform: uppercase;
+
+  color: rgba(255,255,255,0.7);
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  margin: 0 12px;
 
   &:hover,
   &:focus {
     background: none !important;
-    color: rgba(0,0,0,1) !important;
+    color: rgba(255,255,255,1) !important;
+  }
+
+  .sticky--stick & {
+    color: rgba(87,88,90, 0.7);
+
+    &:hover,
+    &:focus {
+      color: black !important;
+    }
   }
 }
 
-.navigation-menu__link--cta {
-  @extend .navigation-menu__link;
-
+.main-menu__link--cta {
+  @extend .main-menu__link;
   border-radius: 24px;
-  background-color: #00629E;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #57585A;
   font-weight: bold;
+  line-height: 22px;
+
+  padding: 13px 32px !important;
 
   &:hover,
   &:focus {
-    color: #00629E !important;
-    background-color: #fff !important;
+    color: #FFFFFF !important;
+    background-color: #57585A !important;
+  }
+
+  .sticky--stick & {
+    background-color: #00629e;
+    color: white;
   }
 }
 
 .navbar-brand {
+  padding: 0 10px;
 
-  img {
-    width: 100px;
+  .main-navbar:not(.sticky--stick) &--hidden {
+    display: none;
+  }
+}
+
+.navbar-date {
+  color: white;
+  margin-left: 10px;
+  float: left;
+  line-height: 18px;
+
+  .navbar-date__date {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .navbar-date__place {
+    font-size: 14px;
+	  font-weight: bold;
+  }
+
+  .sticky--stick & {
+    color: black;
+  }
+}
+
+.navbar-logo {
+  width: 123px;
+  height: 52px;
+  float: left;
+
+  background-image: url(/assets/images/new/devit-logo-white.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .sticky--stick & {
+    background-image: url(/assets/images/DevitLogo.svg);
   }
 }

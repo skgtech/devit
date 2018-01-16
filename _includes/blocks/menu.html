@@ -1,30 +1,33 @@
-<nav class="navigation-navbar sticky">
-  <div class="container">
+<nav class="main-navbar sticky">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
-        aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
-        <img src="/assets/images/DevitLogo.svg" alt="DEVit Logo">
-      </a>
+      <div class="navbar-brand {% if page.url == "/new/index.html" %}navbar-brand--hidden{% endif %}">
+        <a href="/" class="navbar-logo"></a>
+        <div class="navbar-date">
+          <span class="navbar-date__date">{{site.data.config.date}}</span><br/>
+          <span class="navbar-date__place">Thessaloniki, Grece</span>
+        </div>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navigation-menu">
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="main-menu">
         <li>
-          <a class="navigation-menu__link" href="#">About</a>
+          <a class="main-menu__link" href="#">About</a>
         </li>
         <li>
-          <a class="navigation-menu__link" href="#">Speakers</a>
+          <a class="main-menu__link" href="#">Speakers</a>
         </li>
         <li>
-          <a class="navigation-menu__link" href="#">Venue</a>
+          <a class="main-menu__link" href="#">Venue</a>
         </li>
         <li>
-          <a class="navigation-menu__link--cta" href="#">Buy tickets</a>
+          <a class="main-menu__link--cta" href="#" class="cta">Buy tickets</a>
         </li>
       </ul>
     </div>
