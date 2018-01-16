@@ -93,8 +93,10 @@
 
 }
 
-.speaker-page {
-
+.speaker-page .speaker {
+  @media (min-width: $screen-sm-max) {
+    margin-top: -150px;
+  }
 }
 
 .talks__tabs {
