@@ -1,10 +1,14 @@
 speakers:
   - url: natasha_murashev
     year: 2017
+    tags:
+      - iOS
+      - Mobile
     first_name: Natasha
     last_name: Murashev
     nickname: TheRobot
     image_filename: Natasha_Murashev.png
+    tagline: Addicted to learning. iOS Engineer and robot
     social:
       twitter: natashatherobot
       github: NatashaTheRobot

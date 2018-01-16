@@ -20,7 +20,7 @@
 <div class="speakers-list">
   {% for speaker in speakers | sort: 'last_name' %}
     <div class="speakers-list__item">
-      {% include components/speaker.html speaker=speaker %}
+      {% include components/speaker.html speaker=speaker speaker_page=false %}
     </div>
   {% endfor %}
 </div>
