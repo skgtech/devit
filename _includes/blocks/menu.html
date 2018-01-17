@@ -26,9 +26,11 @@
         <li>
           <a class="main-menu__link" href="#">Venue</a>
         </li>
-        <li>
-          <a class="main-menu__link--cta" href="#" class="cta">Buy tickets</a>
-        </li>
+        {% if site.data.config.tickets.enabled %}
+          <li>
+            <a class="main-menu__link--cta" href="#" class="cta">Buy tickets</a>
+          </li>
+        {% endif %}
       </ul>
     </div>
   </div>

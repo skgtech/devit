@@ -17,3 +17,10 @@ venue: blah blah
 
 # Current mode. Site will be modified based on this
 currentMode: "dday|nextday|nextblind|nextfull"
+
+
+tickets:
+  enabled: true
+  early: true
+  blind: false
+  regular: false
