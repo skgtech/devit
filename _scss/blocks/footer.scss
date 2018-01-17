@@ -93,3 +93,59 @@
     }
   }
 }
+
+.slack-form {
+  margin-top: 8px;
+}
+
+.slack-field {
+  @extend .form-control;
+  border: 0;
+  padding: 9px 16px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ffffff;
+
+  font-weight: normal;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.slack-submit {
+  @extend .btn;
+  position: relative;
+
+  color: #57585a;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8px 16px;
+  height: 40px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    left: 0;
+    top: 7px;
+    background-color: #57585a;
+  }
+
+  &:active,
+  &:active:focus,
+  &:visited {
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+  }
+}
+
+.slack-result {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

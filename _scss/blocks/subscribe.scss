@@ -59,6 +59,10 @@
   padding: 16px 24px;
   height: 54px;
 
+  i {
+    margin-left: 8px;
+  }
+
   &:active,
   &:active:focus,
   &:visited {
