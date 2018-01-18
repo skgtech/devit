@@ -52,6 +52,7 @@
     - Encoding
     - Front end
   description: "<p>As new features are added to the Web platform, the kind of experiences we can build become amazingly interactive and immersive--a huge leap forward from the static document based web of yore!</p><p>Nowadays we can access webcams and play 3D audio and graphics, all in real time and in the browser, but there was a missing piece: capturing and encoding! Most solutions involved either sending data to servers or porting C++ encoders to JavaScript, none of which were particularly efficient or desirable for privacy or performance reasons.</p> <p>Thankfully there is a better way: the new and shiny MediaCapture API, and in this talk you will learn all about it. Streams will be no strangers to you anymore, and you might even be tempted to cross a few of them---just for fun!</p>"
+  youtube_url: D3_vbaZsb2o
 
 - speaker: yegor_bugayenko
   title: Need Robust Software? Make It Fragile
@@ -92,3 +93,12 @@
     - Tooling
     - SASS
   description: "<p>CSS is well known for being agressively global. This very behaviour makes it difficult to scale. Style isolation and dead code elimination are only two of the many problems encountered when working with CSS on large and long-lasting codebases.</p><p>That’s why a lot of clever people came up with a lot of clever ideas to make it easier to write locally-scoped, easy-to-test, composable and scalable CSS. Among these ideas, one seems to have gained a lot of traction lately: CSS Modules.</p><p>In this talk, we will see what are CSS Modules, what they intend to solve, and how to use them. I think you’ll be surprised how little difference there is between authoring CSS Modules, and preprocessor-powered stylesheets.</p>"
+
+- speaker: laura_kalbag
+  title: Ethical Design
+  tags:
+    - Design
+    - Accesibility
+    - Ethics
+  description: <p>Ad networks, analytics, social buttons; these are usually third party scripts. Some of us build them, and almost all of us use them on our sites. But what are these scripts doing? How do they affect our sites and the people who use them? What’s happening with the data they collect?</p><p>As developers, we are the gatekeepers for the web. We need to understand the tools we use and their impact on the people who interact with our work.</p><p>Laura will look at what the web has become, and how we can use the Ethical Design Manifesto to make it better.</p>
+  youtube_url: lZqfeVdjDt0

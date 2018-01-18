@@ -15,7 +15,12 @@
   @include make-row();
 }
 .footer-row__column {
-  @include make-sm-column(3);
+  @include make-md-column(6);
+  @include make-lg-column(3);
+
+  @media (min-width: $screen-md-min) and (max-width: $screen-lg-min) {
+    min-height: 350px;
+  }
 }
 .footer__logo {
   width: 100px;
@@ -36,7 +41,6 @@
 
   li {
     padding-top: 5px;
-    // padding-bottom: 3px;
 
     a {
       opacity: 0.7;

@@ -12,13 +12,7 @@
     </div>
     <div class="speaker__title">Founder and CEO</div>
   {% endif %}
-  <div class="speaker__tags">
-    {% for tag in speaker.tags %}
-    <span class="speaker__tag">
-      {{tag}}
-    </span>
-    {% endfor %}
-  </div>
+  {% include components/tags.html tags=speaker.tags %}
   <div class="speaker__social">
     {% for social in speaker.social %}
       {% if social[0] == "github" %}
