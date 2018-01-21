@@ -87,8 +87,6 @@
 }
 
 .speaker-page__header {
-  @include make-row();
-
   background-color: #f5f8fa;
   padding-top: 70px;
   padding-bottom: 70px;

@@ -58,7 +58,16 @@
 
 .organizers__logos {
   padding-top: 72px;
+
   p {
-    margin-bottom: 22px;
+    margin-bottom: 32px;
+  }
+
+  li {
+    line-height: 50px;
+  }
+
+  li + li {
+    margin-left: 40px;
   }
 }

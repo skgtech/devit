@@ -14,3 +14,27 @@
     background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
   }
 }
+
+.about-header {
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/about/mobile.jpg);
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/about/tablet.jpg);
+  }
+
+  @media (min-width: 1126px) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/about/screen.jpg);
+  }
+}
+
+.speaker-header {
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/speaker/mobile.jpg);
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/speaker/tablet.jpg);
+  }
+
+  @media (min-width: 1126px) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/speaker/screen.jpg);
+  }
+}

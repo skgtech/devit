@@ -1,3 +1,3 @@
-<header class="header">
+<header class="header {% if include.page %}{{ include.page | append: '-header'}}{% endif %}">
   {% include blocks/menu.html %}
 </header>
