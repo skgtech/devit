@@ -9,12 +9,6 @@
   color: white;
 }
 
-.subscribe-block__paragraph {
-  @extend .block__paragraph;
-  font-size: 24px;
-  line-height: 29px;
-}
-
 @media (min-width: $screen-lg-min) {
   padding-top: 150px;
   padding-bottom: 150px;

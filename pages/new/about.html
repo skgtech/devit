@@ -12,6 +12,75 @@ permalink: /new/about
     <div class="block__heading--dark">
       What is DEVit?
     </div>
+    <p class="block__lead--dark">
+      Each year we meticulously vet and select remarkable speakers to deliver the best talks on web development.
+    </p>
+    <p>
+      DEVit is the leading web developer conference in South East Europe. Organized once per year, DEVit has become known for its top speaking talent, a mixture of world-class and world-renowned developers, highly specialized technology niches and developers who are the edge of the technology frontiers.
+    </p>
+    <p>
+      The attendees of the conference are the most highly trained and most motivated web developers, representing the cream of the crop in talent South East Europe has to offer. DEVit, now in its fourth year, has become the defacto meeting point of all seasoned web development professionals.
+    </p>
+    <p>
+      Whether it's Frontend, UI/UX, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques.
+    </p>
+  </div>
+</div>
+<div class="organizers">
+  <div class="container">
+    <img src="/assets/images/new/a-truly-360-conference.svg" alt="DEVit">
+
+    <div class="organizers__logos">
+      <p>organised by</p>
+      <ul class="list-inline">
+        <li>
+          <img src="/assets/images/new/skgtech-logo.svg" alt="SKGTech">
+        </li>
+        <li>
+          <img src="/assets/images/new/shesharp-logo.svg" alt="SKGTech">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="block">
+    <div class="block__heading--dark">
+      Meat the squad
+    </div>
+    <p>
+      The Zodiac was split into twelve sections, each named after the specific constellation noted in that area. Elements: Many ancient philosophies used a set of classical elements to explain the way nature behaved. Each sign was connected to one of the classical elements (fire, earth, air, or water) and was also related to a region of focus; social, personal or universal.
+    </p>
+    <div class="team">
+      {% for member in site.data.team.core %}
+        <div class="team__item">
+          <img src="{{member.img}}" alt="Member 1">
+          <p>{{member.name}}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="block__lead--dark">
+      Special thanks to all our volunteers
+    </div>
+    <p>
+      {% for member in site.data.team.volunteers %}
+        {{ member.name }},
+      {% endfor %}
+    </p>
+  </div>
+</div>
+<div class="partners">
+  <div class="container">
+    <div class="block">
+      <div class="block__heading--dark">
+        Our partners
+      </div>
+      <p>
+        Where would human beings be without dreams? Would we have explored distant places or invented the means to travel to those
+        destinations.
+      </p>
+      {% include components/icons-stack.html items=site.data.team.partners %}
+    </div>
   </div>
 </div>
 {% include blocks/footer.html %}

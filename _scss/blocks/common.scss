@@ -19,16 +19,28 @@
   color: #57585A;
 }
 
-.block__paragraph {
+.leading {
   color: white;
+  font-size: 24px;
   font-family: Lato;
+  line-height: 29px;
+  margin-bottom: 8px;
 }
 
-.block__paragraph--light {
-  @extend .block__paragraph;
+.leading--light {
+  @extend .leading;
 }
-.block__paragraph--dark {
-  @extend .block__paragraph;
+.leading--dark {
+  @extend .leading;
+  font-weight: bold;
+  color: #57585A;
+}
+
+.light {
+  color: white;
+}
+
+.dark {
   color: #57585A;
 }
 

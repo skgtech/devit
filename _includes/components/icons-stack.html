@@ -1,0 +1,10 @@
+<div class="icons-stack">
+  {% for item in include.items %} {% cycle '
+  <div class="icons-stack__row">', '', '' %}
+    <div class="icons-stack__item">
+      <img src="{{ item.img }}" alt="{{ item.name }}">
+    </div>
+    {% cycle '', '', '</div>' %}
+  {% endfor %}
+  </div>
+</div><!-- This is needed for the cycle loop to work correctly  -->

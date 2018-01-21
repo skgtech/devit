@@ -9,13 +9,56 @@
   color: white;
 }
 
-.about-block__paragraph {
-  @extend .block__paragraph;
-  font-size: 24px;
-  line-height: 29px;
-}
-
 @media (min-width: $screen-lg-min) {
   padding-top: 150px;
   padding-bottom: 150px;
+}
+
+.team {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.team__item {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+
+  img {
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 16px;
+    font-weight: bold;
+  }
+}
+
+.partners {
+  background-color: #f5f8fa;
+}
+
+.organizers {
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  color: white;
+
+  padding-top: 72px;
+  padding-bottom: 72px;
+
+  text-align: center;
+}
+
+.organizers__logos {
+  padding-top: 72px;
+  p {
+    margin-bottom: 22px;
+  }
 }

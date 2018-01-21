@@ -40,7 +40,7 @@
   line-height: 44px;
 }
 .album__cta__paragraph {
-  @extend .block__paragraph;
+  @extend .leading;
   opacity: 0.7;
   font-size: 19px;
   line-height: 23px;
