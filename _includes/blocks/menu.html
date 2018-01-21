@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="main-menu">
         <li>
-          <a class="main-menu__link" href="#">About</a>
+          <a class="main-menu__link" href="/new/about">About</a>
         </li>
         <li>
           <a class="main-menu__link" href="#">Speakers</a>
@@ -28,7 +28,7 @@
         </li>
         {% if site.data.config.tickets.enabled %}
           <li>
-            <a class="main-menu__link--cta" href="#" class="cta">Buy tickets</a>
+            <a class="main-menu__link--cta" href="{{ site.data.config.tickets.url }}" class="cta">Buy tickets</a>
           </li>
         {% endif %}
       </ul>

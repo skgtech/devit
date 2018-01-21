@@ -18,8 +18,8 @@ venue: blah blah
 # Current mode. Site will be modified based on this
 currentMode: "dday|nextday|nextblind|nextfull"
 
-
 tickets:
+  url: https://www.eventora.com/en/Events/devit_conference_2018
   enabled: true
   early: true
   blind: false

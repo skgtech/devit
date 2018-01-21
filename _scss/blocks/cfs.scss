@@ -2,6 +2,13 @@
   background-color: #F4F3F4;
   padding-top: 70px;
   padding-bottom: 70px;
+
+  img {
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+  }
 }
 .cfs__container {
   @extend .container;

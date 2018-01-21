@@ -25,5 +25,13 @@
 - name: Workable
   img: /assets/images/sponsors/svg/workable.svg
 
+# Little hack to center the last image
+- name:
+  img:
+
 - name: E-food.gr
   img: /assets/images/sponsors/svg/efoodgr.svg
+
+# Little hack to center the last image
+- name:
+  img:

@@ -1,23 +1,22 @@
 $(document).ready(function () {
-  ajaxMailChimpForm($('.subscribe-form'), $('.subscribe-result'));
 
-  function ajaxMailChimpForm($form, $resultElement) {
+  var formEl = document.querySelector('.subscribe-form');
+  var resultEl = document.querySelector('.subscribe-result');
 
-    $form.submit(function (e) {
-      e.preventDefault();
-      if (!isValidEmail($form)) {
-        var error = 'A valid email address must be provided.';
-        $resultElement.html(error);
-        $resultElement.css('color', 'red');
-      } else {
-        $resultElement.html('Subscribing...');
-        submitSubscribeForm($form, $resultElement);
-      }
-    });
-  }
+  formEl.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!isValidEmail(formEl)) {
+      var error = 'A valid email address must be provided.';
+      resultEl.innerHTML = error;
+      resultEl.style.color = 'red';
+    } else {
+      resultEl.innerHTML = 'Subscribing...';
+      submitSubscribeForm(formEl, resultEl);
+    }
+  });
 
-  function isValidEmail($form) {
-    var email = $form.find('input[type=\'email\']').val();
+  function isValidEmail(formEl) {
+    var email = formEl.querySelector('input[type=\'email\']').value;
     if (!email || !email.length) {
       return false;
     } else if (email.indexOf('@') == -1) {
@@ -26,11 +25,27 @@ $(document).ready(function () {
     return true;
   }
 
-  function submitSubscribeForm($form, $resultElement) {
+  function toJSONString(form) {
+    var obj = {};
+    var elements = form.querySelectorAll("input, select, textarea");
+    for (var i = 0; i < elements.length; ++i) {
+      var element = elements[i];
+      var name = element.name;
+      var value = element.value;
+
+      if (name) {
+        obj[name] = value;
+      }
+    }
+
+    return JSON.stringify(obj);
+  }
+
+  function submitSubscribeForm(formEl, resultEl) {
     $.ajax({
       type: 'GET',
-      url: $form.attr('action'),
-      data: $form.serialize(),
+      url: formEl.action,
+      data: toJSONString(formEl),
       cache: false,
       dataType: 'jsonp',
       jsonp: 'c',
@@ -38,13 +53,13 @@ $(document).ready(function () {
       success: function (data) {
         if (data.result != 'success') {
           var message = data.msg || 'Sorry. Unable to subscribe. Please try again later.';
-          $resultElement.css('color', 'red');
+          resultEl.style.color = 'red';
           if (data.msg && data.msg.indexOf('already subscribed') >= 0) {
             message = 'You\'re already subscribed. Thank you.';
           }
-          $resultElement.html(message);
+          resultEl.innerHTML = message;
         } else {
-          $resultElement.html('Thank you!<br>You must confirm the subscription in your inbox.');
+          resultEl.innerHTML = 'Thank you!<br>You must confirm the subscription in your inbox.';
         }
       }
     });
