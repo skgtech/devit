@@ -1,19 +1,23 @@
 - name: COHO Coworking Space
   link: http://www.coho.gr/
-  img: /assets/images/affiliates/coho_logo_web_small.jpg
+  img: /assets/images/new/partners/coho-logo.svg
 
 - name: City College Thessaloniki
   link: http://www.citycollege.sheffield.eu/
-  img: /assets/images/affiliates/logo_city_sheffield.png
+  img: /assets/images/new/partners/city-college-logo.svg
 
-- name: HCN
-  link: http://hcn.gr
-  img: /assets/images/sponsors/hcn.png
-
-- name: Devastation Podcast
-  link: http://www.devastation.tv/
-  img: /assets/images/affiliates/devastation-podcast.png
+- name: OK!Thess
+  link: http://www.okthess.gr/
+  img: /assets/images/new/partners/okthess-logo.svg
 
 - name: Golden Gate Pro
   link: http://www.goldengatepro.com/
   img: /assets/images/affiliates/golden-gate-pro.png
+
+- name: HCN
+  link: http://hcn.gr
+  img: /assets/images/new/partners/hcn-logo.svg
+
+- name: Devastation
+  link: http://www.devastation.tv/
+  img: /assets/images/affiliates/devastation-podcast.png
