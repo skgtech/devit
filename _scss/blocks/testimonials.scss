@@ -1,9 +1,14 @@
 .testimonials__row {
-  background-color:#00629E;
   @include make-row();
+
+  background-color:#00629E;
   margin: 0;
 
   @media (min-width: $screen-sm-max) {
+    // Make equal heights columns
+    // @see: http://getbootstrap.com.vn/examples/equal-height-columns/
+    display: flex;
+
     max-height: 432px;
     overflow: hidden;
   }
@@ -27,6 +32,12 @@
 
 .testimonial {
   padding: 40px;
+  height: 100%;
+
+  background-image: url('/assets/images/new/wedge.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 60%;
 }
 
 .testimonial__quote {
