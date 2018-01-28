@@ -1,6 +1,11 @@
 .block {
   padding-top: 100px;
   padding-bottom: 100px;
+
+  @media (max-width: $screen-sm-min) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
 }
 
 .block__heading {

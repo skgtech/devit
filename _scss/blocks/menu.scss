@@ -2,6 +2,12 @@
   @extend .navbar;
 
   padding: 16px 56px 16px 56px;
+
+  @media (max-width: $screen-sm-min) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   margin-bottom: 0;
   border-radius: 0;
 
@@ -21,8 +27,10 @@
   @extend .navbar-nav;
   @extend .navbar-right;
 
-  li + li {
-    margin-left: 24px;
+  @media (min-width: $screen-sm-min) {
+    li + li {
+      margin-left: 24px;
+    }
   }
 }
 
@@ -84,6 +92,10 @@
   padding: 0 10px;
 
   .main-navbar:not(.sticky--stick) &--hidden {
+    display: none;
+  }
+
+  @media (max-width: $screen-sm-min) {
     display: none;
   }
 }
