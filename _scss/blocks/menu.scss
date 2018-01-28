@@ -1,6 +1,8 @@
 .main-navbar {
   @extend .navbar;
 
+  padding: 16px 56px 16px 56px;
+  margin-bottom: 0;
   border-radius: 0;
 
   .navbar-toggle .icon-bar {
@@ -18,6 +20,10 @@
   @extend .nav;
   @extend .navbar-nav;
   @extend .navbar-right;
+
+  li + li {
+    margin-left: 24px;
+  }
 }
 
 // Override bootstrap navbar
@@ -29,8 +35,6 @@
 
   padding-left: 0 !important;
   padding-right: 0 !important;
-
-  margin: 0 12px;
 
   &:hover,
   &:focus {
@@ -51,8 +55,8 @@
 .main-menu__link--cta {
   @extend .main-menu__link;
   border-radius: 24px;
-  background-color: #FFFFFF;
-  color: #57585A;
+  background-color: #00629e;
+  color: white;
   font-weight: bold;
   line-height: 22px;
 
@@ -61,12 +65,18 @@
   &:hover,
   &:focus {
     color: #FFFFFF !important;
-    background-color: #57585A !important;
+    background-color: #003E73 !important;
   }
 
   .sticky--stick & {
     background-color: #00629e;
     color: white;
+
+    &:hover,
+    &:focus {
+      color: #FFFFFF !important;
+      background-color: #003E73 !important;
+    }
   }
 }
 
@@ -110,6 +120,6 @@
   background-repeat: no-repeat;
 
   .sticky--stick & {
-    background-image: url(/assets/images/DevitLogo.svg);
+    background-image: url(/assets/images/new/devit-logo-blue.svg);
   }
 }

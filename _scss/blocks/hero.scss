@@ -4,8 +4,8 @@
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  padding-top: 50px;
   padding-bottom: 150px;
+  padding-top: 24px;
 
   @media (min-width: 768px) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/tablet.jpg);
@@ -21,9 +21,20 @@
   width: 250px;
 }
 
+.hero__headline,
+.hero__location {
+  margin: 0;
+}
 .hero__headline {
   color: white;
   font-weight: 900;
   font-size: 64px;
   line-height: 77px;
+  margin-bottom: 8px;
+  margin-top: 40px;
+}
+
+.hero__location {
+  color: white;
+  font-size: 30px;
 }

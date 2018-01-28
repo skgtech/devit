@@ -33,7 +33,7 @@ permalink: /new/speaker-example
             {% for talk in site.data.talks[year] %}
               {% if talk.speaker == speaker.url %}
                 <li role="{{ year }}" class="active">
-                  <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }}</a>
+                  <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }} Talk</a>
                 </li>
               {% endif %}
             {% endfor %}

@@ -118,6 +118,15 @@
 .talks {
   .nav-tabs {
     border: 0;
+
+    li > a {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    li:not(.active) > a {
+      color: #57585a;
+    }
   }
 
   .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {

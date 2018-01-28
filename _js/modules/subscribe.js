@@ -5,6 +5,8 @@ $(document).ready(function () {
 
   formEl.addEventListener('submit', function (e) {
     e.preventDefault();
+    resultEl.classList.remove('hidden');
+
     if (!isValidEmail(formEl)) {
       var error = 'A valid email address must be provided.';
       resultEl.innerHTML = error;

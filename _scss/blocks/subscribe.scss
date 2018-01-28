@@ -7,11 +7,9 @@
   background-position: top;
   position: relative;
   color: white;
-}
 
-@media (min-width: $screen-lg-min) {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
 
 .subscribe-form {
@@ -74,4 +72,5 @@
   color: white;
   padding: 20px 0;
   text-align: center;
+  margin: 0;
 }

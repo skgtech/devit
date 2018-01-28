@@ -48,3 +48,7 @@ $font-size-h1:            floor(($font-size-base * 2.7)) !default; // ~36px
 @import "blocks/sticky-menu";
 @import "blocks/header";
 @import "blocks/icons-stack";
+
+p {
+  margin: 16px 0 0 0;
+}
