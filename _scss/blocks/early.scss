@@ -14,6 +14,10 @@
 }
 .early-birds__right {
   @include make-sm-column(6);
+
+  @media (max-width: $screen-sm-min) {
+    margin-top: 35px;
+  }
 }
 
 .early-birds__img {

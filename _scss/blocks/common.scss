@@ -64,7 +64,8 @@
   margin-top: 32px;
 
   @media (max-width: $screen-sm-min) {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
   }
 

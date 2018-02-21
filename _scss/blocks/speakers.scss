@@ -128,6 +128,10 @@
   @media (min-width: $screen-sm-max) {
     padding-left: 50px;
   }
+
+  @media (max-width: $screen-sm-min) {
+    margin-top: 35px;
+  }
 }
 .speaker-page__name {
   @extend .block__heading--dark;
