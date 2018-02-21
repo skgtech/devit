@@ -1,12 +1,19 @@
 <div class="icons-stack">
-  {% for item in include.items %}
-    {% cycle '<div class="icons-stack__row">', '', '' %}
-    <div class="icons-stack__item">
-      {% if item.img %}
-        <img src="{{ item.img }}" alt="{{ item.name }}">
-      {% endif %}
+  {% for row in include.items %}
+    <div class="icons-stack__row">
+      {% for item in row %}
+        {% if row.size == 1 %}
+          <div class="icons-stack__item icons-stack__item--one">
+        {% elsif row.size == 2 %}
+          <div class="icons-stack__item icons-stack__item--two">
+        {% elsif row.size == 3 %}
+          <div class="icons-stack__item icons-stack__item--three">
+        {% endif %}
+        {% if item.img %}
+          <img src="{{ item.img }}" alt="{{ item.name }}">
+        {% endif %}
+      </div>
+      {% endfor %}
     </div>
-    {% cycle '', '', '</div>' %}
   {% endfor %}
-  </div>
-<!-- </div>This is needed for the cycle loop to close the extra opened row  -->
+</div>

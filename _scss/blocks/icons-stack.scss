@@ -1,7 +1,7 @@
 
 .icons-stack {
   margin-bottom: 70px;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .icons-stack__row {
@@ -28,8 +28,6 @@
   }
 
   .icons-stack__item {
-    @include make-sm-column(4);
-
     @media (max-width: $screen-sm-min) {
       padding-top: 30px;
       padding-bottom: 30px;
@@ -45,16 +43,29 @@
     img {
       max-height: 100px;
     }
-    &:last-child {
-      @media (min-width: $screen-sm-max) {
-        text-align: right;
-        justify-content: flex-end;
-      }
+
+    &--one {
+      @include make-sm-column(12);
     }
-    &:first-child {
-      @media (min-width: $screen-sm-max) {
-        text-align: left;
-        justify-content: flex-start;
+
+    &--two {
+      @include make-sm-column(6);
+    }
+
+    &--three {
+      @include make-sm-column(4);
+
+      &:last-child {
+        @media (min-width: $screen-sm-max) {
+          text-align: right;
+          justify-content: flex-end;
+        }
+      }
+      &:first-child {
+        @media (min-width: $screen-sm-max) {
+          text-align: left;
+          justify-content: flex-start;
+        }
       }
     }
   }
