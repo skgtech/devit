@@ -1,7 +1,9 @@
-.speakers-list {
-  // @include make-row();
+.speakers-container {
   @extend .block;
+}
+.speakers-list {
   @extend .container;
+  margin-top: 40px;
 }
 .speakers-list__item {
   @include make-sm-column(6);
@@ -145,4 +147,17 @@
 
 .talk__video {
   margin-top: 60px;
+}
+
+.speakers__cfp {
+  @extend .block;
+
+  text-align: center;
+
+  color: white;
+  background-color: #F5A623;
+  background-image: url('/assets/images/new/bullhorn.svg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
 }

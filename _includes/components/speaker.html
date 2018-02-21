@@ -10,30 +10,32 @@
         {{ speaker.first_name }} {{ speaker.last_name }}
       </span>
     </div>
-    <div class="speaker__title">Founder and CEO</div>
+    <div class="speaker__title">{{ speaker.tagline }}</div>
   {% endif %}
-  {% include components/tags.html tags=speaker.tags %}
-  <div class="speaker__social">
-    {% for social in speaker.social %}
-      {% if social[0] == "github" %}
-        {% assign icon = "fab fa-github" %}
-        {% assign link = "https://github.com/" | append: social[1] %}
-      {% endif %}
-      {% if social[0] == "twitter" %}
-        {% assign icon = "fab fa-twitter" %}
-        {% assign link = "https://twitter.com/" | append: social[1] %}
-      {% endif %}
-      {% if social[0] == "facebook" %}
-        {% assign icon = "fab fa-facebook-f" %}
-        {% assign link = "https://facebook.com/" | append: social[1] %}
-      {% endif %}
-      {% if social[0] == "homepage" %}
-        {% assign icon = "fas fa-link" %}
-        {% assign link = "https://facebook.com/" | append: social[1] %}
-      {% endif %}
+  <div class="speaker__hover">
+    {% include components/tags.html tags=speaker.tags %}
+    <div class="speaker__social">
+      {% for social in speaker.social %}
+        {% if social[0] == "github" %}
+          {% assign icon = "fab fa-github" %}
+          {% assign link = "https://github.com/" | append: social[1] %}
+        {% endif %}
+        {% if social[0] == "twitter" %}
+          {% assign icon = "fab fa-twitter" %}
+          {% assign link = "https://twitter.com/" | append: social[1] %}
+        {% endif %}
+        {% if social[0] == "facebook" %}
+          {% assign icon = "fab fa-facebook-f" %}
+          {% assign link = "https://facebook.com/" | append: social[1] %}
+        {% endif %}
+        {% if social[0] == "homepage" %}
+          {% assign icon = "fas fa-link" %}
+          {% assign link = "https://facebook.com/" | append: social[1] %}
+        {% endif %}
 
-      <a href="{{ link }}" class="speaker__social__item {{icon}}"></a>
+        <a href="{{ link }}" class="speaker__social__item {{icon}}"></a>
 
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>

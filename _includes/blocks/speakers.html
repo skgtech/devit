@@ -6,7 +6,7 @@
   {% endfor %}
 {% endfor %}
 
-<div class="block">
+<div class="speakers-container">
   <div class="container text-center">
     <div class="block__heading--dark">
       Our beloved speakers
@@ -16,11 +16,27 @@
       ipsum Lorem ipsum
     </p>
   </div>
-</div>
-<div class="speakers-list">
-  {% for speaker in speakers | sort: 'last_name' %}
+  <div class="speakers-list">
+    {% for speaker in speakers | sort: 'last_name' %}
     <div class="speakers-list__item">
       {% include components/speaker.html speaker=speaker speaker_page=false %}
     </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
+
+{% if site.data.config.isCFPOpen = true %}
+<div class="speakers__cfp">
+  <div class="block__heading">
+    Join the family
+  </div>
+  <p class="light">
+    We are always on the look for new, gifted speakers. Apply to speak at DEVit and become part of our cozy little family. We
+    can’t wait for you to blow our minds off!
+  </p>
+  <a href="#" class="block__more-cta">
+    Apply to speak
+    <i class="fas fa-long-arrow-alt-right"></i>
+  </a>
+</div>
+{% endif %}
