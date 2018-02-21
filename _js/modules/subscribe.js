@@ -1,3 +1,5 @@
+/* global $ */
+
 $(document).ready(function () {
 
   var formEl = document.querySelector('.subscribe-form');

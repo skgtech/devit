@@ -102,6 +102,12 @@
   margin-top: 8px;
 }
 
+.slack-form__results {
+  text-transform: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 .slack-field {
   @extend .form-control;
   border: 0;
