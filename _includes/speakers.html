@@ -17,7 +17,7 @@
 
  <div class="row">
    {% for speaker in speakers %} {% if speaker.type != 'mc' %}
-   <div class="col-sm-6 col-md-3 col-lg-3 ">
+   <div class="col-sm-6 col-md-3 col-lg-3">
      <div class="speaker">
        <a href="/speakers/{{ include.year}}/{{speaker.url}}" title="{{ speaker.first_name }} {{ speaker.last_name }}">
          <img

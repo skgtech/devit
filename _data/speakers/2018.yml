@@ -14,3 +14,20 @@ speakers:
     bio: |
       <p>As a world-class interaction designer, Cheryl's professional passions include natural user interfaces, design for scale and complexity, system design, and storytelling for product design. She is best known for her work on cutting-edge products including Amazon's Alexa, the Echo Look, Cortana, and Microsoft's Azure platform. Past employers include Microsoft, Amazon, Electronic Arts, Griptonite Games, MAYA Design, and Disney Parks. Ms. Platz holds a degree in Computer Science and Human-Computer Interaction from Carnegie Mellon University.</p><p>Ms. Platz is also founder and owner of <a target="blank" href="http://ideaplatz.com/">Ideaplatz</a>, a design education company through which she offers her well-received interaction design talks and workshops at major conferences and companies around the world. In her free time, Cheryl develops her own voice skills and conversational interfaces.</p><p>Her extensive professional experience in the performing arts also makes Ms. Platz a uniquely engaging speaker. She has performed improvisational theater, scripted theater, voice-over, livestreams, and video professionally for over a decade in Seattle - and she teaches as part of the widely renowned Unexpected Productions improv school faculty.</p>
 
+  - url: julien_simon
+    year: 2018
+    tags:
+      - AI
+      - Machine Learning
+      - AWS
+    first_name: Julien
+    last_name: Simon
+    image_filename: Julien_Simon.png
+    tagline: AI & Machine Learning Evangelist @ AWS
+    social:
+      twitter: julsimon
+      medium: julsimon
+      github: juliensimon
+    bio: |
+      <p>As the Artificial Intelligence & Machine Learning Evangelist for EMEA, Julien focuses on helping developers and enterprises bring their ideas to life. He's also actively blogging at https://medium.com/@julsimon.</p><p>Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in top-tier web startups where he led large Software and Ops teams in charge of thousands of servers worldwide. In the process, he fought his way through a wide range of technical, business and procurement issues, which helped him gain a deep understanding of physical infrastructure, its limitations and how cloud computing can help.</p><p>Last but not least, Julien holds all seven AWS certifications.</p>
+
