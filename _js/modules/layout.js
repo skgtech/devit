@@ -5,3 +5,4 @@ require('lightslider/dist/js/lightslider.min');
 
 require('./sticky-menu')('sticky');
 require('./slack');
+require('./venues');

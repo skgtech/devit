@@ -1,0 +1,61 @@
+.venues {
+  @extend .block;
+
+  padding-bottom: 0;
+}
+
+.venue__title {
+  font-size: 24px;
+  font-weight: bold;
+
+  margin: 72px 0 16px;
+}
+
+.venue__description {
+  margin-bottom: 72px;
+}
+
+.venue__container {
+  height: 420px;
+  overflow: hidden;
+}
+
+.venue__image {
+  @include make-sm-column(8);
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(/assets/images/new/royal_theatre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+}
+
+.venue__map {
+  padding-left: 0;
+  padding-right: 0;
+
+  height: 100%;
+  max-height: 420px;
+
+  @include make-sm-column(4);
+}
+
+.plan-block {
+  @extend .block;
+
+  background-image: linear-gradient(rgba(0, 62, 115, 0.5), rgba(0, 62, 115, 0.5)), url(/assets/images/new/thessaloniki.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+
+  .block__heading {
+    margin-bottom: 24px;
+  }
+
+  padding-top: 208px;
+  padding-bottom: 208px;
+}

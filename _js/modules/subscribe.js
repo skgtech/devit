@@ -5,6 +5,10 @@ $(document).ready(function () {
   var formEl = document.querySelector('.subscribe-form');
   var resultEl = document.querySelector('.subscribe-result');
 
+  if (!formEl) {
+    return;
+  }
+
   formEl.addEventListener('submit', function (e) {
     e.preventDefault();
     resultEl.classList.remove('hidden');
