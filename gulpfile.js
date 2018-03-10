@@ -9,6 +9,7 @@ const path = require('path');
 const ghPages = require('gulp-gh-pages');
 const minimist = require('minimist');
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'bundle';
+const sourcemaps = require('gulp-sourcemaps');
 const messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
 };
@@ -96,8 +97,10 @@ gulp.task('browser-sync-reload', function () {
 
 gulp.task('sass', function () {
   return gulp.src(['_scss/main.scss', '_scss/live.scss', , '_scss/new.scss'])
+    .pipe(sourcemaps.init())
     .pipe(sass.sync({ outputStyle: 'compressed', includePaths: ['scss', 'node_modules'] }).on('error', sass.logError))
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('assets/css'));
 });
 
