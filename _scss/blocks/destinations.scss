@@ -1,0 +1,29 @@
+.block-stay {
+  margin: 70px auto;
+  max-width: 624px;
+}
+
+.destinations {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5f8fa;
+}
+
+.destinations__panel {
+  height: 420px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 100%;
+
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 50%;
+  }
+}
+
+.destinations__image {
+  overflow: hidden;
+  background: url(https://placeimg.com/640/480/nature) no-repeat center center;
+  background-size: cover;
+}
