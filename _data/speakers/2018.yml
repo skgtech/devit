@@ -31,3 +31,18 @@ speakers:
     bio: |
       <p>As the Artificial Intelligence & Machine Learning Evangelist for EMEA, Julien focuses on helping developers and enterprises bring their ideas to life. He's also actively blogging at https://medium.com/@julsimon.</p><p>Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in top-tier web startups where he led large Software and Ops teams in charge of thousands of servers worldwide. In the process, he fought his way through a wide range of technical, business and procurement issues, which helped him gain a deep understanding of physical infrastructure, its limitations and how cloud computing can help.</p><p>Last but not least, Julien holds all seven AWS certifications.</p>
 
+  - url: dave_platt
+    year: 2018
+    tags:
+      - AI
+      - Machine Learning
+      - AWS
+    first_name: Dave
+    last_name: Platt
+    image_filename: Dave_Platt.png
+    tagline: President of Rolling Thunder Computing, Inc., instructor in Computer Science for the Harvard University Extension School
+    social:
+      linkedin: https://www.linkedin.com/in/plattdave/
+    bio: |
+      <p>David S. Platt teaches programming .NET at Harvard University Extension School and at companies all over the world. He’s the author of 11 programming books, including “Why Software Sucks” (Addison-Wesley Professional, 2006) and “Introducing Microsoft .NET” (Microsoft Press, 2002). He is the back page columnist for MSDN Magazine. Microsoft named him a Software Legend in 2002. He wonders whether he should tape down two of his daughter’s fingers so she learns how to count in octal. You can contact him at rollthunder.com.</p>
+
