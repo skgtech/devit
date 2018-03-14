@@ -1,6 +1,7 @@
 speakers:
   - url: cheryl_platz
     year: 2018
+    hearFor: Talk
     tags:
       - Design
       - UX
@@ -16,6 +17,7 @@ speakers:
 
   - url: julien_simon
     year: 2018
+    hearFor: Talk
     tags:
       - AI
       - Machine Learning
@@ -33,10 +35,10 @@ speakers:
 
   - url: dave_platt
     year: 2018
+    hearFor: Talk
     tags:
-      - AI
-      - Machine Learning
-      - AWS
+      - Software
+      - UX
     first_name: Dave
     last_name: Platt
     image_filename: Dave_Platt.png
@@ -46,3 +48,33 @@ speakers:
     bio: |
       <p>David S. Platt teaches programming .NET at Harvard University Extension School and at companies all over the world. He’s the author of 11 programming books, including “Why Software Sucks” (Addison-Wesley Professional, 2006) and “Introducing Microsoft .NET” (Microsoft Press, 2002). He is the back page columnist for MSDN Magazine. Microsoft named him a Software Legend in 2002. He wonders whether he should tape down two of his daughter’s fingers so she learns how to count in octal. You can contact him at rollthunder.com.</p>
 
+  - url: laurent_bugnion
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Mobile
+      - Azure
+    first_name: Laurent
+    last_name: Bugnion
+    image_filename: Laurent_Bugnion.png
+    tagline: Senior Global Azure Advocate @Microsoft
+    social:
+      twitter: LBugnion
+    bio: |
+      <p>Laurent works as Senior Global Azure Advocate for Microsoft after almost 10 years spent working for IdentityMine and Valorem, two leading firms in Microsoft technologies. He is one of the foremost experts for XAML and C# based development. He codes in Windows, WPF, Xamarin (iOS and Android), Unity, ASP.NET. On his free time, Laurent writes for technical publications such as MSDN Magazine, and his blog is on blog.galasoft.ch. </p><p>He is a frequent speaker at conferences such as Microsoft MIX, Build, TechEd, VSLive, TechDays and many other international events. Prior to joining Microsoft, Laurent was a Microsoft Most Valuable Professional for Windows development from 2007 to 2017, a Microsoft Regional Director from 2013 and a Xamarin Most Valuable Professional from 2015. </p><p>He is also the author of the well-known open source framework MVVM Light for Windows, WPF, Xamarin, and of the popular Pluralsight reference course about MVVM Light. </p>
+
+  - url: jim_bennet
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Mobile
+      - Azure
+    first_name: Jim
+    last_name: Bennet
+    image_filename: Jim_Bennet.png
+    tagline: Senior Cloud Developer Advocate @ Microsoft
+    social:
+      twitter: jimbobbennett
+      github: jimbobbennett
+    bio: |
+      <p>I am a Senior Cloud Developer Advocate working for Microsoft, and my area of speciality is cloud-connected Xamarin apps, with a passionate interest in the democratization of AI and how it can be used to create mobile apps that empower people. </p><p>Prior to working for Microsoft, I was a Xamarin and Microsoft MVP, and worked all around the world building desktop and mobile apps using .NET with C# and F#. I blog at https://jimbobbennett.io, and I am the author of Xamarin In Action from Manning publications.</p>
