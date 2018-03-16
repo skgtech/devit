@@ -24,6 +24,24 @@
 
 .destinations__image {
   overflow: hidden;
-  background: url(https://placeimg.com/640/480/nature) no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+}
+
+$dest-images:(
+  building1,
+  building2,
+  hotel1,
+  hotel2,
+  market1,
+  sea1,
+  sea2,
+  sea3
+);
+
+@each $image in $dest-images {
+  .destinations__image--#{$image} {
+    background-image: url(/assets/images/new/destinations/#{$image}.jpg);
+  }
 }
