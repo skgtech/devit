@@ -22,6 +22,22 @@
   }
 }
 
+.destinations__panel--25 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 25%;
+  }
+}
+
+.destinations__panel--75 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 75%;
+  }
+}
+
+.destinations__excerpt {
+  max-width: 375px;
+}
+
 .destinations__image {
   overflow: hidden;
   background-repeat: no-repeat;
