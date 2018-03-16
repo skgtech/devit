@@ -61,3 +61,26 @@ $dest-images:(
     background-image: url(/assets/images/new/destinations/#{$image}.jpg);
   }
 }
+
+.price-table {
+  width: 90%;
+  text-align: center;
+
+  tr {
+    border-bottom: 2px solid #d9d9d9;
+  }
+
+  th, td {
+    padding: 25px;
+  }
+
+  tbody tr:last-child() {
+    border-color: transparent;
+  }
+}
+
+.table-footnote {
+  margin-top: 30px;
+  font-size: 12px;
+  max-width: 50%;
+}
