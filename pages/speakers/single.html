@@ -1,12 +1,13 @@
 ---
+layout: default
 title: Speaker Example
 description: Explore all speakers that have talked to DEVit.
-permalink: /new/speaker-example
 ---
 
 {% include blocks/header.html page="speaker" %}
 
-{% assign speaker = site.data.speakers['2016'].speakers[0] %}
+<!-- {% assign speaker = site.data.speakers['2016'].speakers[0] %} -->
+{% assign speaker = page.speaker %}
 
 <div class="speaker-page">
   <div class="speaker-page__header">
@@ -26,12 +27,13 @@ permalink: /new/speaker-example
     <div class="talks__tabs">
       <div class="container">
         {% assign talks = "" | split: "" %}
-        {% assign years = '2015,2016,2017' | split: ',' %}
+        {% assign years = '2018,2017,2016,2015,' | split: ',' %}
         <ul class="nav nav-tabs" role="tablist">
           {% for year in years %}
+          {% assign first = forloop.first %}
             {% for talk in site.data.talks[year] %}
               {% if talk.speaker == speaker.url %}
-                <li role="{{ year }}" class="active">
+                <li role="{{ year }}" {% if first == true %} class="active" {% endif %}>
                   <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }} Talk</a>
                 </li>
               {% endif %}
@@ -44,9 +46,10 @@ permalink: /new/speaker-example
       <div class="container">
         <div class="tab-content">
           {% for year in years %}
+          {% assign first = forloop.first %}
             {% for talk in site.data.talks[year] %}
               {% if talk.speaker == speaker.url %}
-                <div role="tabpanel" class="tab-pane active" id="{{ year }}">
+                <div role="tabpanel" class="tab-pane {% if first == true %}active{% endif %}" id="{{ year }}">
                   <div class="talk">
                     <h1 class="talk__title">
                       {{ talk.title }}
@@ -55,10 +58,12 @@ permalink: /new/speaker-example
                       {{ talk.description }}
                       {% include components/tags.html tags=talk.tags %}
                     </p>
-                    <div class="talk__video">
-                      <iframe width="100%" height="531" src="https://www.youtube.com/embed/{{talk.youtube_url}}?rel=0&amp;showinfo=0" frameborder="0"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
+                    {% if talk.youtube_url %}
+                      <div class="talk__video">
+                        <iframe width="100%" height="531" src="https://www.youtube.com/embed/{{talk.youtube_url}}?rel=0&amp;showinfo=0" frameborder="0"
+                          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                    {% endif %}
                   </div>
                 </div>
               {% endif %}
