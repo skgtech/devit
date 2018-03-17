@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/Article">
+<html lang="en">
 <head>
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.og.title}}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
 
   <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-  <meta itemprop="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-  <meta itemprop="image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
+  <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
+  <meta itemprop="image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@devitconf">
 
-  <meta name="twitter:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
-  <meta name="twitter:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
-  <meta name="twitter:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
   <meta property="og:site_name" content="devitconf.org">
   <meta property="og:url" content="http://devitconf.org{{ page.url }}">
 
-  <meta property="og:description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-  <meta property="og:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
   <meta property="og:type" content="website">
 
   <link href="/assets/css/main.css" rel="stylesheet" media="screen">
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=GvJLOgvboj">
   <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png?v=GvJLOgvboj" sizes="32x32">
@@ -51,8 +48,16 @@
 
   {{ content }}
 
-  {% include scripts.html %}
-  {% include googleanalytics.html %}
+  <!-- DO NOT EDIT THIS  -->
+  <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
+  <script src="/assets/js/commons.js"></script>
+  <script src="/assets/js/layout.bundle.js"></script>
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+    <script src='/assets/js/{{ js_file }}'></script>
+    {% endfor %}
+  {% endif %}
+  <!-- DO NOT EDIT THIS END -->
 
 </body>
 </html>

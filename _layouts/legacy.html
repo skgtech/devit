@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Article">
 <head>
-  <title>{% if page.title %}{{ page.title }}{% else %}DEVit Conference - Thessaloniki 20-21 May 2017{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.og.title}}{% endif %}</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{% if page.ogDescription %}{{ page.ogDescription }}{% else %}{{ site.og.description}}{% endif %}">
-
-  <link href="/assets/css/live.css" rel="stylesheet" media="screen">
 
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="{% if page.ogTitle %}{{ page.ogTitle }}{% else %}{{ site.og.title}}{% endif %}">
@@ -31,6 +29,8 @@
   <meta property="og:image" content="{% if page.ogImage %}{{ page.ogImage }}{% else %}{{ site.og.image}}{% endif %}">
   <meta property="og:type" content="website">
 
+  <link href="/assets/css/legacy.css" rel="stylesheet" media="screen">
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
@@ -51,12 +51,7 @@
 
   {{ content }}
 
-  <script src="/assets/js/commons.js"></script>
-  {% if page.custom_js %}
-    {% for js_file in page.custom_js %}
-      <script src='/assets/js/{{ js_file }}'></script>
-    {% endfor %}
-  {% endif %}
+  {% include legacy/scripts.html %}
   {% include legacy/googleanalytics.html %}
 
 </body>

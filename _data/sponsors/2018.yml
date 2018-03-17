@@ -8,31 +8,12 @@ gold:
     - name: Intrasoft
       img: /assets/images/sponsors/svg/intrasoft.svg
 
-silver:
-  -
-    - name: Toptal
-      img: /assets/images/sponsors/svg/toptal.svg
-    - name: Workable
-      img: /assets/images/sponsors/svg/workable.svg
-  -
-    - name: Automattic
-      img: /assets/images/sponsors/svg/automattic.svg
-
-bronze:
-  -
-    - name: GitHub
-      img: /assets/images/sponsors/svg/github.svg
-    - name: Trivago
-      img: /assets/images/sponsors/svg/trivago.svg
-    - name: IBM
-      img: /assets/images/sponsors/svg/ibm.svg
-  -
-    - name: Taxibeat
-      img: /assets/images/sponsors/svg/taxibeat.svg
-    - name: Skroutz
-      img: /assets/images/sponsors/svg/skroutz.svg
-    - name: Workable
-      img: /assets/images/sponsors/svg/workable.svg
-  -
-    - name: E-food.gr
-      img: /assets/images/sponsors/svg/efoodgr.svg
+# silver:
+#   -
+#     - name: Toptal
+#       img: /assets/images/sponsors/svg/toptal.svg
+#     - name: Workable
+#       img: /assets/images/sponsors/svg/workable.svg
+#   -
+#     - name: Automattic
+#       img: /assets/images/sponsors/svg/automattic.svg

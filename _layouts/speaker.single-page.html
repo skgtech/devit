@@ -1,13 +1,15 @@
 ---
 layout: legacy
 custom_js:
-- workshop.bundle.js
+- speaker.bundle.js
 ---
 
 {% include legacy/navigation.html %}
 
 <div class="container content">
-  {{ content }}
+
+  {% include legacy/speaker_page.html %}
 
   {% include legacy/footer.html %}
 </div>
+

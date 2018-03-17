@@ -22,7 +22,7 @@ module Jekyll
       @dir = type + "/" + year + "/" + workshop['url']
       @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(@base, '_includes'), 'workshop.single-page.html')
+      self.read_yaml(File.join(@base, '_layouts'), 'workshop.single-page.html')
 
       @speaker = site.data['speakers']['2017']['speakers'].find {|s| s['url'] == workshop['speaker'] }
 

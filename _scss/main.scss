@@ -1,6 +1,70 @@
-@import "variables";
-@import "bootstrap-custom";
-@import "devit-custom";
-@import "style";
-@import "responsive";
-@import "sponsorship";
+// @TODO: Download font with ligatures
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900');
+
+$grid-gutter-width: 20px;
+$container-large-desktop: 940px + $grid-gutter-width;
+
+$font-family-sans-serif:  'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$font-size-base:          18px !default;
+
+$font-size-large:         ceil(($font-size-base * 1.30)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.7)) !default; // ~36px
+
+@import "bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+
+@import "lightslider/dist/css/lightslider.min";
+
+@import "fontawesome";
+
+@import "blocks/common";
+@import "blocks/about";
+@import "blocks/subscribe";
+@import "blocks/cfp";
+@import "blocks/cfs";
+@import "blocks/early";
+@import "blocks/about";
+@import "blocks/testimonials";
+@import "blocks/hero";
+@import "blocks/venues";
+@import "blocks/footer";
+@import "blocks/speakers";
+@import "blocks/tags";
+@import "blocks/menu";
+@import "blocks/tweets";
+@import "blocks/album";
+@import "blocks/sticky-menu";
+@import "blocks/header";
+@import "blocks/press";
+@import "blocks/icons-stack";
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+  hyphens: auto;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
+p {
+  margin: 16px 0 0 0;
+}

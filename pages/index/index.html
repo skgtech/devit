@@ -1,35 +1,16 @@
 ---
 layout: default
-metaDescription: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
 permalink: /index.html
 custom_js:
-- homepage.bundle.js
+- new.bundle.js
 ---
 
-{% include header.html %}
-
-{% include navigation.html %}
-
-<div class="container content">
-
-  {% include about.html %}
-
-  {% include cfp.html %}
-
-  {% include speakers.html year="2018" %}
-
-  {% include location.html %}
-
-  {% include hotels.html %}
-
-  {% include registration.html %}
-
-  {% include sponsors.html %}
-
-  {% include organizers.html %}
-
-  {% include slack-invite.html %}
-
-  {% include footer.html %}
-
-</div>
+{% include blocks/hero.html %}
+{% include blocks/early.html %}
+{% include blocks/about.html %}
+{% include blocks/testimonials.html %}
+{% include blocks/speakers.html years='2018' %}
+{% include blocks/venues.html %}
+{% include blocks/sponsors.html %}
+{% include blocks/subscribe.html %}
+{% include blocks/footer.html %}
