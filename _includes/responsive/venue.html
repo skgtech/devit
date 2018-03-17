@@ -1,0 +1,14 @@
+<!--
+  Work in progress to create responsive images
+ -->
+
+{% capture srcset %}
+  {% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+  {% endfor %}
+{% endcapture %}
+
+{% assign largest = resized | sort: 'width' | last %}
+
+<div class="lazy venue__image" data-src="/{{ largest.path }}"></div>
+<!-- <img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"> -->

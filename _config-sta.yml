@@ -31,3 +31,14 @@ markdown: kramdown
 highlighter: pygments
 
 encoding: utf-8
+
+responsive_image:
+  template: _includes/responsive-image.html
+
+  sizes:
+    - width: 800
+    - width: 1000
+
+  strip: true
+
+  cache: false
