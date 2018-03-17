@@ -13,6 +13,9 @@
     <div class="speaker__title">{{ speaker.tagline }}</div>
   {% endif %}
   <div class="speaker__hover">
+    <div class="speaker__type">
+        {{ speaker.hearFor }} day
+    </div>
     {% include components/tags.html tags=speaker.tags %}
     <div class="speaker__social">
       {% for social in speaker.social %}
