@@ -58,7 +58,7 @@ $dest-images:(
 
 @each $image in $dest-images {
   .destinations__image--#{$image} {
-    background-image: url(/assets/images/new/destinations/#{$image}.jpg);
+    background-image: url(/assets/images/destinations/#{$image}.jpg);
   }
 }
 
