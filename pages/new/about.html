@@ -37,10 +37,14 @@ permalink: /new/about
       <p>organised by</p>
       <ul class="list-inline">
         <li>
-          <img src="/assets/images/new/skgtech-logo.svg" alt="SKGTech">
+          <a href="https://skgtech.io/" target="_blank">
+            <img src="/assets/images/new/skgtech-logo.svg" alt="SKGTech">
+          </a>
         </li>
         <li>
-          <img src="/assets/images/new/shesharp-logo.svg" alt="SKGTech">
+          <a href="http://www.shesharp.org/" target="_blank">
+            <img src="/assets/images/new/shesharp-logo.svg" alt="SKGTech">
+          </a>
         </li>
       </ul>
     </div>
@@ -49,22 +53,17 @@ permalink: /new/about
 <div class="container">
   <div class="block">
     <div class="block__heading--dark">
-      Meat the squad
+      Meet the squad
     </div>
     <p>
       The Zodiac was split into twelve sections, each named after the specific constellation noted in that area. Elements: Many ancient philosophies used a set of classical elements to explain the way nature behaved. Each sign was connected to one of the classical elements (fire, earth, air, or water) and was also related to a region of focus; social, personal or universal.
     </p>
-    <div class="team">
-      {% for member in site.data.team.core %}
-        <div class="team__item">
-          <img src="{{member.img}}" alt="Member 1">
-          <p>{{member.name}}</p>
-        </div>
-      {% endfor %}
+     <div class="leading--dark">
+      Our volunteers
     </div>
-    <div class="leading--dark">
-      Special thanks to all our volunteers:
-    </div>
+    <p>
+      Without them, DEVit would never have happened. A big thank you to all the people that offer their time, their knowledge and their energy to help organizing and run DEVit.
+    </p>
     <p>
       {% for member in site.data.team.volunteers %}
         {{ member.name }},
@@ -79,7 +78,7 @@ permalink: /new/about
         Our partners
       </div>
       <p>
-        Where would human beings be without dreams? Would we have explored distant places or invented the means to travel to those destinations.
+        We are lucky to have partnered with a lot of organizations across Thessaloniki. We want to thank them for helping us with DEVit every year
       </p>
       {% include components/icons-stack.html items=site.data.team.partners %}
     </div>

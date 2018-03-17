@@ -1,7 +1,12 @@
-gold:
+platinum:
   -
     - name: Microsoft
       img: /assets/images/sponsors/svg/microsoft.svg
+
+gold:
+  -
+    - name: Intrasoft
+      img: /assets/images/sponsors/svg/intrasoft.svg
 
 silver:
   -
