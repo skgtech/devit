@@ -22,7 +22,7 @@
 }
 
 .venue__container {
-  @media (min-width: $screen-sm-max) {
+  @media (min-width: $screen-sm-min) {
     height: 420px;
     overflow: hidden;
   }
@@ -66,4 +66,17 @@
 
   padding-top: 11.5em;
   padding-bottom: 11.5em;
+}
+
+.venue__for {
+  border-radius: 24px;
+  background-color: #e7e7e8;
+  font-size: 0.55em;
+  font-weight: bold;
+  color: #57585a;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }

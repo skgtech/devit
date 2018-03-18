@@ -33,21 +33,7 @@ permalink: /about
   <div class="container">
     <img src="/assets/images/new/a-truly-360-conference.svg" alt="DEVit">
 
-    <div class="organizers__logos">
-      <p>organised by</p>
-      <ul class="list-inline">
-        <li>
-          <a href="https://skgtech.io/" target="_blank">
-            <img src="/assets/images/new/skgtech-logo.svg" alt="SKGTech">
-          </a>
-        </li>
-        <li>
-          <a href="http://www.shesharp.org/" target="_blank">
-            <img src="/assets/images/new/shesharp-logo.svg" alt="SKGTech">
-          </a>
-        </li>
-      </ul>
-    </div>
+    {% include blocks/organizers.html %}
   </div>
 </div>
 <div class="container">
@@ -71,18 +57,7 @@ permalink: /about
     </p>
   </div>
 </div>
-<div class="partners">
-  <div class="container">
-    <div class="block">
-      <div class="block__heading--dark">
-        Our partners
-      </div>
-      <p>
-        We are lucky to have partnered with a lot of organizations across Thessaloniki. We want to thank them for helping us with DEVit every year
-      </p>
-      {% include components/icons-stack.html items=site.data.team.partners %}
-    </div>
-  </div>
-</div>
+
+{% include blocks/partners.html %}
 
 {% include blocks/footer.html %}
