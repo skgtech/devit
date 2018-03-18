@@ -99,10 +99,6 @@
   .main-navbar:not(.sticky--stick) &--hidden {
     display: none;
   }
-
-  @media (max-width: $screen-sm-min) {
-    display: none;
-  }
 }
 
 .navbar-date {
