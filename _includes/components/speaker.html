@@ -23,6 +23,10 @@
           {% assign icon = "fab fa-github" %}
           {% assign link = "https://github.com/" | append: social[1] %}
         {% endif %}
+        {% if social[0] == "linkedin" %}
+          {% assign icon = "fab fa-linkedin" %}
+          {% assign link = social[1] %}
+        {% endif %}
         {% if social[0] == "twitter" %}
           {% assign icon = "fab fa-twitter" %}
           {% assign link = "https://twitter.com/" | append: social[1] %}
