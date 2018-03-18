@@ -27,6 +27,7 @@
 - title: Deploying ElasticSearch clusters on Azure using SaltStack
   speaker: rita_zhang
   description: SaltStack is an Open Source project that aims to deliver infrastructure as code and configuration management with abstraction of the cloud provider selected. In this session, we will take a look at an end-to-end real world example of provisioning an ElasticSearch cluster on Azure using SaltStack configurations. The model of SaltStack is based on master and minions with each minion agent reaching back to the master; this makes the solution very scalable. The master holds the configuration of the minions in a set of configuration files. Those files provide an idempotent configuration that will be applied when the minion role is deployed or at any time the configuration is re-applied.
+  youtube_url: ZAldcHmMh9Y
 
 - title: "What Big Data is Missing: Remembering Our Humanity"
   speaker: marisa_morby
