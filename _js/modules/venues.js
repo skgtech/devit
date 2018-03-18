@@ -8,7 +8,7 @@ $.gmap3({
 
 $(document).ready(function () {
 
-  const mapElements = document.querySelectorAll(".venue__map");
+  const mapElements = document.querySelectorAll(".map");
 
   mapElements.forEach(function (element) {
     $(element).gmap3({
