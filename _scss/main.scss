@@ -51,6 +51,7 @@ $font-size-h1:            floor(($font-size-base * 2.7)) !default; // ~36px
 @import "blocks/header";
 @import "blocks/press";
 @import "blocks/icons-stack";
+@import "blocks/destinations";
 
 html {
   -webkit-font-smoothing: antialiased;
