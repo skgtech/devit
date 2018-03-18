@@ -5,6 +5,9 @@ module Jekyll
         data['speakers'].each do | speaker |
           site.pages << SpeakerPage.new(site, "speakers", year, speaker)
         end
+        data['speakers'].each do | speaker |
+          site.pages << SpeakerRedirectPage.new(site, "speakers", year, speaker)
+        end
       end
     end
   end
@@ -13,7 +16,7 @@ module Jekyll
     def initialize(site, type, year, speaker)
       @site = site
       @base = "/"
-      @dir = type + "/" + year + "/" + speaker['url']
+      @dir = type + "/" + speaker['url']
       @name = 'index.html'
       self.process(@name)
       self.read_yaml(File.join(@base, 'pages'), 'speakers/single.html')
@@ -22,6 +25,18 @@ module Jekyll
       self.data['title'] = "#{ speaker['first_name'] } #{speaker['last_name']}"
       self.data['description'] = "#{ speaker['bio'].gsub(/<\/?[^>]*>/, "")[0, 150] } ..."
       self.data['image'] = "/assets/images/speakers/#{year}/#{ speaker['first_name'] }_#{ speaker['last_name'] }.png"
+    end
+  end
+
+  class SpeakerRedirectPage < Page
+    def initialize(site, type, year, speaker)
+      @site = site
+      @base = "/"
+      @dir = type + "/" + year + "/" + speaker['url']
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(@base, '_layouts'), 'redirect.html')
+      self.data['destination_path'] = @site.config['url'] + "/" + type + "/" + speaker['url']
     end
   end
 

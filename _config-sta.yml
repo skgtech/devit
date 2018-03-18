@@ -1,9 +1,7 @@
 name: devit
 description: The DEVit conference
 
-permalink: /:categories/:title
-
-disqus: devitconf
+url: http://devitconf.org
 
 exclude: [
   "node_modules",
@@ -22,13 +20,6 @@ og:
   image: http://devitconf.org/assets/images/devit-og-general.jpg?1516005203
 
 analytics:
-
-future: true
-show_drafts: true
-
-markdown: kramdown
-
-highlighter: pygments
 
 encoding: utf-8
 
