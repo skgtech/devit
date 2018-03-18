@@ -10,7 +10,9 @@
           <div class="icons-stack__item icons-stack__item--three">
         {% endif %}
         {% if item.img %}
-          <img src="{{ item.img }}" alt="{{ item.name }}">
+          <a href="{{item.url}}" target="_blank" rel="noopener">
+            <img src="{{ item.img }}" alt="{{ item.name }}">
+          </a>
         {% endif %}
       </div>
       {% endfor %}

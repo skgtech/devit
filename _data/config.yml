@@ -20,6 +20,10 @@ currentMode: "dday|nextday|nextblind|nextfull"
 
 isCFPOpen: false
 
+sponsors:
+  cfs: false
+  link_to_sponsorship: ""
+
 tickets:
   url: https://www.eventora.com/en/Events/devit_conference_2018
   enabled: true

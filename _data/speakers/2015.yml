@@ -1,6 +1,7 @@
 speakers:
   - url: mathias_bynens
     year: 2015
+    hearFor: Talk
     first_name: "Mathias"
     last_name: "Bynens"
     image_filename: "mathias_bynens.jpg"
@@ -10,6 +11,7 @@ speakers:
     bio: Mathias is a Belgian web standards freak. He likes HTML, CSS, JavaScript, Unicode, performance, and security.
   - url: christian_heilmann
     year: 2015
+    hearFor: Talk
     first_name: "Christian"
     last_name: "Heilmann"
     image_filename: "Christian_Heilmann.jpg"
@@ -19,6 +21,7 @@ speakers:
     bio: Chris Heilmann has dedicated a lot of his time making the web better. A true HTML5/Open Web Evangelist.
   - url: dr_heinz_kabutz
     year: 2015
+    hearFor: Talk
     first_name: "Dr.Heinz"
     last_name: "Kabutz"
     image_filename: "Heinz_Kabutz.jpg"
@@ -28,6 +31,7 @@ speakers:
     bio: Heinz is the mastermind behind The Java Specialists' Newsletter. He has a PhD in Computer Science.
   - url: nicolas_frankel
     year: 2015
+    hearFor: Talk
     first_name: "Nicolas"
     last_name: "Frankel"
     image_filename: "Nicolas_Frankel.jpeg"
@@ -37,6 +41,7 @@ speakers:
     bio: Nicolas Fränkel is focused on Java and JavaEE, but he's narrowed interests like Software Quality and Rich Internet Applications.
   - url: tim_perry
     year: 2015
+    hearFor: Talk
     first_name: "Tim"
     last_name: "Perry"
     image_filename: "Tim_Perry.jpg"
@@ -46,6 +51,7 @@ speakers:
     bio: Tim Perry is a technical lead and the open-source champion at Softwire and a contributor on Mockito, Moment.js & Knockout.js.
   - url: kostis_kapelonis
     year: 2015
+    hearFor: Talk
     first_name: "Kostis"
     last_name: "Kapelonis"
     image_filename: "Kostis_Kapelonis.jpg"
@@ -54,6 +60,7 @@ speakers:
     bio: Kostis is a Software Engineer who loves clean and compact code, simple solutions and modular distributed systems.
   - url: forbes_lindesay
     year: 2015
+    hearFor: Talk
     first_name: "Forbes"
     last_name: "Lindesay"
     image_filename: "Forbes_Lindesay.jpg"
@@ -63,6 +70,7 @@ speakers:
     bio: Node.js developer with a passion for open source, maintainer of <a href=http://jade-lang.com target=_blank title="Jade Language">Jade Lang</a> and Promises/A+ spec evangelist.
   - url: nikos_zinas
     year: 2015
+    hearFor: Talk
     first_name: "Nikos"
     last_name: "Zinas"
     image_filename: "Nikos_Zinas.jpg"
@@ -72,6 +80,7 @@ speakers:
     bio: Nikos' focus is designing solutions for large teams, helping companies scale and setup frontend architectures.
   - url: nick_krassas
     year: 2015
+    hearFor: Talk
     first_name: "Nick"
     last_name: "Krassas"
     image_filename: "Nick_Krassas.jpeg"
@@ -80,6 +89,7 @@ speakers:
     bio: Nicolas is a security researcher passionate with all sort of things like security and system administration.
   - url: benny_weingarten_gabbay
     year: 2015
+    hearFor: Talk
     first_name: "Benny"
     last_name: "Weingarten-Gabbay"
     image_filename: "Benny_Weingarten-Gabbay.jpg"
@@ -89,6 +99,7 @@ speakers:
     bio: Senior Software Engineer with 15 years of experience. Currently working at eBay.
   - url: ian_miell
     year: 2015
+    hearFor: Talk
     first_name: "Ian"
     last_name: "Miell"
     image_filename: "Ian_Miell.jpg"
@@ -98,6 +109,7 @@ speakers:
     bio: Spent over a decade maintaining some of the biggest e-Commerce systems, now generally known as 'a Docker guy'.
   - url: kuba_walinski
     year: 2015
+    hearFor: Talk
     first_name: "Kuba"
     last_name: "Waliński"
     image_filename: "kuba.jpg"

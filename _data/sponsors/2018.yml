@@ -2,11 +2,13 @@ platinum:
   -
     - name: Microsoft
       img: /assets/images/sponsors/svg/microsoft.svg
+      url: https://www.microsoft.com/el-gr
 
 gold:
   -
     - name: Intrasoft
       img: /assets/images/sponsors/svg/intrasoft.svg
+      url: https://www.intrasoft-intl.com/
 
 # silver:
 #   -

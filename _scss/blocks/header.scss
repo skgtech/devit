@@ -3,11 +3,13 @@
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  height: 300px;
+  min-height: 300px;
+  height: auto;
   padding-top: 40px;
 
   @media (max-width: $screen-sm-min) {
     height: auto;
+    min-height: auto;
     padding-top: 0;
   }
 }

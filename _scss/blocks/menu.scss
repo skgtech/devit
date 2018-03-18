@@ -1,6 +1,7 @@
 .main-navbar {
   @extend .navbar;
 
+  z-index: 999;
   padding: 16px 56px 16px 56px;
 
   @media (max-width: $screen-sm-min) {
@@ -19,6 +20,10 @@
     padding-top: 14px;
     padding-bottom: 14px;
     background: white;
+
+    .navbar-toggle .icon-bar {
+      background: black;
+    }
   }
 }
 

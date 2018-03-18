@@ -54,4 +54,9 @@
 }
 .testimonial__name {
   color: #FFFFFF;
+
+  &:hover,
+  &:active {
+    color: #FFFFFF;
+  }
 }

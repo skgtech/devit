@@ -1,5 +1,6 @@
 speakers:
   - url: natasha_murashev
+    hearFor: Talk
     year: 2017
     tags:
       - iOS
@@ -21,6 +22,7 @@ speakers:
       around the world (the next one is in Tokyo!).
 
   - url: hugo_giraudel
+    hearFor: Talk & Workshop
     year: 2017
     first_name: Hugo
     last_name: Giraudel
@@ -36,6 +38,7 @@ speakers:
       Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>. Net Awards nominee.
 
   - url: james_halliday
+    hearFor: Talk
     year: 2017
     first_name: James
     last_name: Halliday
@@ -50,6 +53,7 @@ speakers:
       member of the Node community with more than 750 packages at <a href="https://www.npmjs.com/~substack" target="_blank">npm</a>.
 
   - url: harry_roberts
+    hearFor: Workshop
     year: 2017
     first_name: Harry
     last_name: Roberts
@@ -69,6 +73,7 @@ speakers:
       <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.
 
   - url: zaharenia_atzitzikaki
+    hearFor: Workshop
     year: 2017
     first_name: Zaharenia
     last_name: Atzitzikaki
@@ -88,6 +93,7 @@ speakers:
       target="_blank">@sugarenia</a>
 
   - url: bodil_stokke
+    hearFor: Talk
     year: 2017
     first_name: Bodil
     last_name: Stokke
@@ -108,6 +114,7 @@ speakers:
       period writing JavaScript.
 
   - url: julien_simon
+    hearFor: Talk
     year: 2017
     first_name: Julien
     last_name: Simon
@@ -125,6 +132,7 @@ speakers:
       the Amazon Web Services infrastructure.
 
   - url: florian_schaffler
+    hearFor: Workshop
     year: 2017
     first_name: Florian
     last_name: Schaffler
@@ -144,6 +152,7 @@ speakers:
       AWS Enthusiast, Software Lover, Process Coach.
 
   - url: vladimir_grinenko
+    hearFor: Workshop
     year: 2017
     first_name: Vladimir
     last_name: Grinenko
@@ -156,6 +165,7 @@ speakers:
       Answers BEM questions 24/7, speaker at numerous international IT conferences.
 
   - url: rita_zhang
+    hearFor: Talk
     year: 2017
     first_name: Rita
     last_name: Zhang
@@ -168,6 +178,7 @@ speakers:
      away on GitHub.
 
   - url: antonio_peric
+    hearFor: Workshop
     year: 2017
     first_name: Antonio
     last_name: Peric
@@ -182,6 +193,7 @@ speakers:
       Computer Science.
 
   - url: andy_grunwald
+    hearFor: Talk
     year: 2017
     first_name: Andy
     last_name: Grunwald
@@ -193,6 +205,7 @@ speakers:
       Software Engineer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>, organizer of <a href="https://twitter.com/webengdus" target="_blank">@WebEngDUS</a>, loves open source and working with motivated people
 
   - url: mete_atamel
+    hearFor: Talk
     year: 2017
     first_name: Mete
     last_name: Atamel
@@ -206,6 +219,7 @@ speakers:
       Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms.
 
   - url: ivo_neskovic
+    hearFor: Workshop
     year: 2017
     first_name: Ivo
     last_name: Neskovic
@@ -222,6 +236,7 @@ speakers:
       ever since.
 
   - url: jason_poon
+    hearFor: Talk
     year: 2017
     first_name: Jason
     last_name: Poon
@@ -234,6 +249,7 @@ speakers:
       at Microsoft.ions.
 
   - url: melanie_patrick
+    hearFor: Talk
     year: 2017
     first_name: Melanie
     last_name: Patrick
@@ -244,6 +260,7 @@ speakers:
       Former secretary, now developer at <a href="http://tech.trivago.com/" target="_blank">trivago</a>. Passionate about learning, travelling, and likes her steak medium rare.
 
   - url: mike_smart
+    hearFor: Workshop
     year: 2017
     first_name: Mike
     last_name: Smart
@@ -256,6 +273,7 @@ speakers:
       at <a href="https://n26.com/" target="_blank">N26</a>.
 
   - url: jason_lengstorf
+    hearFor: Talk
     year: 2017
     first_name: Jason
     last_name: Lengstorf
@@ -278,6 +296,7 @@ speakers:
       foraging for nuts and berries.
 
   - url: leonie_watson
+    hearFor: Talk
     year: 2017
     first_name: Leonie
     last_name: Watson
@@ -298,6 +317,7 @@ speakers:
       She also loves cooking, dancing and drinking tequila (although not necessarily in that order).
 
   - url: marisa_morby
+    hearFor: Talk
     year: 2017
     first_name: Marisa
     last_name: Morby
@@ -309,6 +329,7 @@ speakers:
 
 
   - url: forbes_lindesay
+    hearFor: Workshop
     year: 2017
     first_name: Forbes
     last_name: Lindesay
@@ -321,6 +342,7 @@ speakers:
       bicycle.js, open source enthusiast and fan of all things React.
 
   - url: dennis_stavroyiannopoulos
+    hearFor: Workshop
     year: 2017
     first_name: Dennis
     last_name: Stavroyiannopoulos
@@ -334,6 +356,7 @@ speakers:
      extensive experience in telecom and mobile solutions. He holds a MSc in Space Science from University College London.
   - url: constantinos_ziazios
     year: 2017
+    hearFor: Workshop
     first_name: Constantinos
     last_name: Ziazios
     small: true
@@ -344,6 +367,7 @@ speakers:
       Long time C#/.NET developer with roots in C++. He has developed ASP.NET (WebForms and MVC) web apps for many years. He has recently started developing applications for Android and iPhone and has started to put a focus on mobile application development. Konstantinos has spent many years working as a consultant for many different projects and has deep ties to the agile community. He is also very interested in automated testing using tools like WatiN or Selenium. On any given day he could be programming in C#, Javascript, Objective-C, Java or all of them. (C# is his favorite language though.)
   - url: panagiotis_tsilopoulos
     year: 2017
+    hearFor: Workshop
     first_name: Panagiotis
     last_name: Tsilopoulos
     small: true

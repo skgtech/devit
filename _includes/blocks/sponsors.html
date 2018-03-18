@@ -41,8 +41,10 @@
       {% endif %}
     </div>
 
-    <a href="#" class="block__cta">
-      Apply to sponsor
-    </a>
+    {% if site.data.config.sponsors.cfs %}
+      <a href="{{ site.data.config.sponsors.link_to_sponsorship }}" class="block__cta">
+        Apply to sponsor
+      </a>
+    {% endif %}
   </div>
 </div>

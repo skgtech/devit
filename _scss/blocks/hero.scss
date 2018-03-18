@@ -1,5 +1,5 @@
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/mobile.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/screen.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,13 +7,13 @@
   padding-bottom: 150px;
   padding-top: 24px;
 
-  @media (min-width: 768px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/tablet.jpg);
-  }
+  // @media (min-width: 768px) {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/tablet.jpg);
+  // }
 
-  @media (min-width: 1126px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/screen.jpg);
-  }
+  // @media (min-width: 1126px) {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/screen.jpg);
+  // }
 }
 
 .hero__logo {

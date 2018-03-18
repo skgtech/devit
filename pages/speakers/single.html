@@ -30,10 +30,9 @@ description: Explore all speakers that have talked to DEVit.
         {% assign years = '2018,2017,2016,2015,' | split: ',' %}
         <ul class="nav nav-tabs" role="tablist">
           {% for year in years %}
-          {% assign first = forloop.first %}
             {% for talk in site.data.talks[year] %}
-              {% if talk.speaker == speaker.url %}
-                <li role="{{ year }}" {% if first == true %} class="active" {% endif %}>
+            {% if talk.speaker == speaker.url %}
+                <li role="{{ year }}">
                   <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }} Talk</a>
                 </li>
               {% endif %}
@@ -46,10 +45,9 @@ description: Explore all speakers that have talked to DEVit.
       <div class="container">
         <div class="tab-content">
           {% for year in years %}
-          {% assign first = forloop.first %}
             {% for talk in site.data.talks[year] %}
               {% if talk.speaker == speaker.url %}
-                <div role="tabpanel" class="tab-pane {% if first == true %}active{% endif %}" id="{{ year }}">
+                <div role="tabpanel" class="tab-pane" id="{{ year }}">
                   <div class="talk">
                     <h1 class="talk__title">
                       {{ talk.title }}
