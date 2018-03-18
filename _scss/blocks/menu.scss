@@ -94,7 +94,7 @@
 }
 
 .navbar-brand {
-  padding: 0 10px;
+  padding: 0;
 
   .main-navbar:not(.sticky--stick) &--hidden {
     display: none;
@@ -124,7 +124,7 @@
 }
 
 .navbar-logo {
-  width: 123px;
+  width: 4em;
   height: 52px;
   float: left;
 
