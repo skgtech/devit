@@ -2,7 +2,6 @@ window.jQuery = window.$ = require('jquery');
 require('bootstrap-sass/assets/javascripts/bootstrap/transition');
 require('bootstrap-sass/assets/javascripts/bootstrap/collapse');
 require('bootstrap-sass/assets/javascripts/bootstrap/tab');
-require('lightslider/dist/js/lightslider.min');
 
 var tabs = document.querySelectorAll('.talks__tabs ul li:first-child');
 var tabsContent = document.querySelectorAll('.talks__content .tab-pane:first-child');
