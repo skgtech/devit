@@ -96,6 +96,10 @@
 .navbar-brand {
   padding: 0;
 
+  @media (max-width: $screen-sm-min) {
+    font-size: 1.3em
+  }
+
   .main-navbar:not(.sticky--stick) &--hidden {
     display: none;
   }
