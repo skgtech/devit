@@ -27,6 +27,10 @@
           {% assign icon = "fab fa-linkedin" %}
           {% assign link = social[1] %}
         {% endif %}
+        {% if social[0] == "medium" %}
+          {% assign icon = "fab fa-medium" %}
+          {% assign link = "https://medium.com/@" | append: social[1] %}
+        {% endif %}
         {% if social[0] == "twitter" %}
           {% assign icon = "fab fa-twitter" %}
           {% assign link = "https://twitter.com/" | append: social[1] %}
@@ -37,9 +41,8 @@
         {% endif %}
         {% if social[0] == "homepage" %}
           {% assign icon = "fas fa-link" %}
-          {% assign link = "https://facebook.com/" | append: social[1] %}
+          {% assign link = social[1] %}
         {% endif %}
-
         <a href="{{ link }}" class="speaker__social__item {{icon}}"></a>
 
       {% endfor %}
