@@ -42,6 +42,14 @@
 
 .partners {
   background-color: #f5f8fa;
+
+  .icons-stack__row .icons-stack__item img {
+    max-height: 70px;
+  }
+
+  .partners__container {
+    margin-top: 72px;
+  }
 }
 
 .organizers {
