@@ -1,10 +1,10 @@
 .subscribe-block {
   @extend .block;
 
-  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/team.jpg);
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/new/subscribe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative;
   color: white;
 

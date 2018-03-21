@@ -1,8 +1,12 @@
 .early-birds {
-  @extend .container;
+  background: white;
   padding-top: 50px;
   padding-bottom: 50px;
   color: #57585A;
+}
+
+.early-birds__container {
+  @extend .container;
 }
 
 .early-birds__left {

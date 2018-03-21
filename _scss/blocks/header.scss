@@ -1,5 +1,4 @@
 .header {
-  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -11,6 +10,29 @@
     height: auto;
     min-height: auto;
     padding-top: 0;
+  }
+}
+
+video#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(0, 62, 115, 0.9);
+
+  @media (max-width: $screen-sm-min) {
+    display: none;
+  }
+}
+
+.home-header {
+  @media (max-width: $screen-sm-min) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
   }
 }
 
