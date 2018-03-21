@@ -1,4 +1,5 @@
 .header {
+  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -27,12 +28,6 @@ video#background-video {
 
   @media (max-width: $screen-sm-min) {
     display: none;
-  }
-}
-
-.home-header {
-  @media (max-width: $screen-sm-min) {
-    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
   }
 }
 
