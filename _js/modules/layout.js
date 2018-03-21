@@ -12,6 +12,10 @@ if (tabsContent.length) {
   tabsContent[0].classList.add('active');
 }
 
+$('.main-menu').on('click', '.main-menu__link', function () {
+  $('.collapse').collapse('hide')
+});
+
 var LazyLoad = require('vanilla-lazyload/dist/lazyload.min');
 
 new LazyLoad({
