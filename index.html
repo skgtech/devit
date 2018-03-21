@@ -46,7 +46,7 @@
 </head>
 <body>
 
-  <div class="hero">
+  <div class="hero home-header">
   <nav class="main-navbar sticky">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -56,12 +56,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="navbar-brand navbar-brand--hidden">
-        <a href="/" class="navbar-logo"></a>
-        <div class="navbar-date">
-          <span class="navbar-date__date">JUN 10-11, 2018</span><br/>
-          <span class="navbar-date__place">Thessaloniki, Greece</span>
-        </div>
+    </div>
+    <div class="navbar-brand navbar-brand--hidden">
+      <a href="/" class="navbar-logo"></a>
+      <div class="navbar-date">
+        <span class="navbar-date__date">JUN 10-11, 2018</span><br/>
+        <span class="navbar-date__place">Thessaloniki, Greece</span>
       </div>
     </div>
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -91,6 +91,10 @@
   </div>
 </nav>
 
+  <video playsinline autoplay muted loop poster="/assets/video-frame.jpg" id="background-video">
+    <source src="/assets/video.webm" type="video/webm">
+    <source src="/assets/video.mp4" type="video/mp4">
+  </video>
   <img class="hero__logo" src="/assets/images/new/devit-logo-white.svg" alt="DEVit logo">
   <h1 class="hero__headline">JUN 10-11, 2018</h1>
   <h2 class="hero__location">Thessaloniki, Greece</h2>
@@ -98,17 +102,19 @@
 
 
 <div class="early-birds">
-  <div class="early-birds__left">
-    <img class="early-birds__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
-  </div>
-  <div class="early-birds__right">
-    <div class="block__heading--dark">
-      Get your tickets now!
+  <div class="early-birds__container">
+    <div class="early-birds__left">
+      <img class="early-birds__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
     </div>
-    <p class="dark">
-      Whether it's Frontend, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques. Secure your ticket now, while there is still availability.
-    </p>
-    <a target="_blank" rel="noopener" href="https://www.eventora.com/en/Events/devit_conference_2018" class="block__cta">Buy tickets</a>
+    <div class="early-birds__right">
+      <div class="block__heading--dark">
+        Get your tickets now!
+      </div>
+      <p class="dark">
+        Whether it’s Frontend, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques. Secure your ticket now, while there is still availability.
+      </p>
+      <a target="_blank" rel="noopener" href="https://www.eventora.com/en/Events/devit_conference_2018" class="block__cta">Buy tickets</a>
+    </div>
   </div>
 </div>
 
@@ -117,8 +123,7 @@
   <div class="container">
     <h2 class="block__heading">What is DEVit</h2>
     <p class="leading">
-      DEVit is the leading web developer conference in South East Europe. Organized once per year, DEVit has become known for its top speaking talent, a
-      mixture of world-class and world-renowned developers, highly specialized technology niches and developers who are the edge of the technology frontiers.
+      DEVit is the leading web developer conference in South East Europe. Organized once per year, DEVit has become known for its top speaking talent, a mixture of world-class and world-renowned developers, highly specialized technology niches and developers who are on the edge of technology frontiers.
     </p>
 
     <div class="organizers__logos">
@@ -152,9 +157,9 @@
           <i class="fas fa-quote-left"></i>
         </div>
         <div class="testimonial__text">
-          It's wonderfull, lots of great people, great conversations and some really excellent talks!
+          It’s wonderful, lots of great people, great conversations and some really excellent talks!
         </div>
-        <a href="/speakers/2017/leonie_watson" class="testimonial__name">
+        <a href="/speakers/leonie_watson" class="testimonial__name">
           Leonie Watson 2017 <i class="fas fa-long-arrow-alt-right"></i>
         </a>
       </div>
@@ -170,7 +175,7 @@
         <div class="testimonial__text">
           There is mobile, there is front end, there is DevOps, databases. Very nice combination of everything.
         </div>
-        <a href="/speakers/2017/rita_zhang" class="testimonial__name">
+        <a href="/speakers/rita_zhang" class="testimonial__name">
           Rita Zhang 2017 <i class="fas fa-long-arrow-alt-right"></i>
         </a>
       </div>
@@ -186,9 +191,9 @@
           <i class="fas fa-quote-left"></i>
         </div>
         <div class="testimonial__text">
-          It's fantastic as every year, it's great!
+          It’s fantastic as every year, it’s great!
         </div>
-        <a href="/speakers/2017/hugo_giraudel" class="testimonial__name">
+        <a href="/speakers/hugo_giraudel" class="testimonial__name">
           Hugo Giraudel 2017 <i class="fas fa-long-arrow-alt-right"></i>
         </a>
       </div>
@@ -218,11 +223,11 @@
       
 
 <div class="speaker ">
-  <a class="speaker__avatar" href="/speakers/2018/cheryl_platz">
+  <a class="speaker__avatar" href="/speakers/cheryl_platz">
     <img src="/assets/images/speakers/2018/Cheryl_Platz.png" alt="Cheryl Platz">
   </a>
   
-    <a class="speaker__name" href="/speakers/2018/cheryl_platz">
+    <a class="speaker__name" href="/speakers/cheryl_platz">
       <span>
         Cheryl Platz
       </span>
@@ -279,11 +284,11 @@
       
 
 <div class="speaker ">
-  <a class="speaker__avatar" href="/speakers/2018/julien_simon">
+  <a class="speaker__avatar" href="/speakers/julien_simon">
     <img src="/assets/images/speakers/2018/Julien_Simon.png" alt="Julien Simon">
   </a>
   
-    <a class="speaker__name" href="/speakers/2018/julien_simon">
+    <a class="speaker__name" href="/speakers/julien_simon">
       <span>
         Julien Simon
       </span>
@@ -349,11 +354,11 @@
       
 
 <div class="speaker ">
-  <a class="speaker__avatar" href="/speakers/2018/dave_platt">
+  <a class="speaker__avatar" href="/speakers/dave_platt">
     <img src="/assets/images/speakers/2018/Dave_Platt.png" alt="Dave Platt">
   </a>
   
-    <a class="speaker__name" href="/speakers/2018/dave_platt">
+    <a class="speaker__name" href="/speakers/dave_platt">
       <span>
         Dave Platt
       </span>
@@ -406,11 +411,11 @@
       
 
 <div class="speaker ">
-  <a class="speaker__avatar" href="/speakers/2018/laurent_bugnion">
+  <a class="speaker__avatar" href="/speakers/laurent_bugnion">
     <img src="/assets/images/speakers/2018/Laurent_Bugnion.png" alt="Laurent Bugnion">
   </a>
   
-    <a class="speaker__name" href="/speakers/2018/laurent_bugnion">
+    <a class="speaker__name" href="/speakers/laurent_bugnion">
       <span>
         Laurent Bugnion
       </span>
@@ -454,11 +459,11 @@
       
 
 <div class="speaker ">
-  <a class="speaker__avatar" href="/speakers/2018/jim_bennett">
+  <a class="speaker__avatar" href="/speakers/jim_bennett">
     <img src="/assets/images/speakers/2018/Jim_Bennett.png" alt="Jim Bennett">
   </a>
   
-    <a class="speaker__name" href="/speakers/2018/jim_bennett">
+    <a class="speaker__name" href="/speakers/jim_bennett">
       <span>
         Jim Bennett
       </span>
@@ -533,7 +538,7 @@
       Workshops
     </div>
     <div class="venue__description">
-      Sunday, 10th of June will be a day dedicated to workshops, with at least 11 sessions of various topics to choose from. It will be hosted at at City College Thessaloniki, which offers multiple academic classrooms, an ideal space for the purpose of delivering a hands-on session.
+      Sunday, 10th of June will be a day dedicated to workshops, with at least 11 sessions of various topics to choose from. It will be hosted at City College Thessaloniki, which offers multiple academic classrooms, an ideal space for the purpose of delivering a hands-on session.
     </div>
     <div class="venue__container">
       <div class="venue__map">
@@ -584,7 +589,7 @@
   <div class="container">
     <h2 class="block__heading">Plan your stay at Thessaloniki</h2>
     <p class="">
-      Lonely planet has described Thessaloniki as "easy to fall in love with – it has beauty, chaos, history and culture, a remarkable cuisine and wonderful, vast sea views." Discover hotel options, attractions, things to do and combine your visit with a memorable experience.
+      Lonely Planet has described Thessaloniki as “easy to fall in love with – it has beauty, chaos, history and culture, a remarkable cuisine and wonderful, vast sea views.” Discover hotel options, attractions, things to do and combine your visit with a memorable experience.
     </p>
     <a href="/explore-thessaloniki" class="block__more-cta">Find out more
       <i class="fas fa-long-arrow-alt-right"></i>
@@ -657,14 +662,15 @@
 
 <div class="partners">
   <div class="container">
-    <div class="block">
+    <div class="block text-center">
       <div class="block__heading--dark">
         Our partners
       </div>
       <p>
         We are lucky to have partnered with a lot of organizations across Thessaloniki. We want to thank them for helping us with DEVit every year
       </p>
-      <div class="icons-stack">
+      <div class="partners__container">
+        <div class="icons-stack">
   
     <div class="icons-stack__row">
       
@@ -736,6 +742,7 @@
   
 </div>
 
+      </div>
     </div>
   </div>
 </div>
@@ -746,7 +753,7 @@
     <p class="leading">
       Register for our newsletter and stay informed about our latest news.
     </p>
-    <p class="">
+    <p>
       Special Offers are available exclusively to our newsletter subscribers.
     </p>
 
@@ -876,6 +883,24 @@
 
 
   <!-- DO NOT EDIT THIS  -->
+  
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1071961509597865');
+  fbq('track', "PageView");
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=<FB_PIXEL_ID>&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
   <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
   <script src="/assets/js/commons.js"></script>
   <script src="/assets/js/layout.bundle.js"></script>
