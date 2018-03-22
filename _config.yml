@@ -22,6 +22,8 @@ og:
   image: http://devitconf.org/assets/images/devit-og-general.jpg?1516005203
 
 analytics:
+  fb:
+    tracker: '1071961509597865'
   google:
     tracker: 'UA-41787746-8'
 

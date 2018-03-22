@@ -62,6 +62,7 @@
   {% endif %}
 
   <!-- Facebook Pixel Code -->
+  {% if site.analytics.fb %}
   <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -69,12 +70,13 @@
   t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
   document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-  fbq('init', '1071961509597865');
+  fbq('init', '{{ site.analytics.fb.tracker}}');
   fbq('track', "PageView");
   </script>
   <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=<FB_PIXEL_ID>&ev=PageView&noscript=1"
+  src="https://www.facebook.com/tr?id={{ site.analytics.fb.tracker}}&ev=PageView&noscript=1"
   /></noscript>
+  {% endif %}
   <!-- End Facebook Pixel Code -->
 
   <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
