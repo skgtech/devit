@@ -2,7 +2,11 @@
 
 <div class="speaker {% if include.speaker_page == true %}speaker--hover{% endif %}">
   <a class="speaker__avatar" href="/speakers/{{speaker.url}}">
-    <img src="/assets/images/speakers/{{speaker.year}}/{{ speaker.image_filename }}" alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/{{speaker.year}}/{{ speaker.image_filename }}"
+      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
   </a>
   {% if include.speaker_page == false %}
     <a class="speaker__name" href="/speakers/{{speaker.url}}">
