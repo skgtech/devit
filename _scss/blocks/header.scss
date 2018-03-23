@@ -31,6 +31,13 @@ video#background-video {
   }
 }
 
+.home-header {
+  @media (max-width: $screen-sm-min) {
+    background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/screen.jpg);
+    background-position: center;
+  }
+}
+
 .about-header {
   background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(/assets/images/header/about/screen.jpg);
 

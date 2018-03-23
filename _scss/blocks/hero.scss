@@ -1,13 +1,23 @@
 .hero {
-  background-image: linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9));
+  background-image: linear-gradient(rgba(0, 62, 115, 0.8), rgba(0, 62, 115, 0.8));
   text-align: center;
+
   padding-bottom: 8.33em;
   padding-top: 24px;
+
+  @media (max-width: $screen-sm-min) {
+    padding-bottom: 6em;
+    padding-top: 14px;
+  }
 }
 
 .hero__logo {
-  padding-top: 6.66em;
+  padding-top: 6em;
   width: 250px;
+
+  @media (max-width: $screen-sm-min) {
+    padding-top: 4em;
+  }
 }
 
 .hero__headline,
