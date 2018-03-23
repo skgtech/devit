@@ -1,7 +1,7 @@
 module Jekyll
   class SpeekersGenerator < Generator
     def generate(site)
-      site.data['speakers'].each do | year, data |
+      site.data['speakers'].reverse_each do | year, data |
         data['speakers'].each do | speaker |
           site.pages << SpeakerPage.new(site, "speakers", year, speaker)
         end
