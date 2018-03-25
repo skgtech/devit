@@ -1,4 +1,34 @@
 <header class="header ">
+
+  
+  
+
+  
+
+  <!--
+  Some blocks require background images. With this hack
+  we are injecting an image element with the srcset attribute
+  to make the browser load the appropriate image and then watch
+  for when the image is loaded and make it the background image
+  of its parent.
+
+  @see _js/modules/responsiveBackgroundImage.js
+-->
+
+
+
+
+
+<div
+  class="responsive-image"
+  style="background-image:linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(assets/resized/defaultHeader-800x400.jpg)">
+  <img
+    class="lazy"
+    data-src="/assets/images/header/defaultHeader.jpg"
+    data-srcset="      /assets/resized/defaultHeader-800x400.jpg 800w,  ">
+</div>
+
+
   <nav class="main-navbar sticky">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -65,7 +95,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/mathias_bynens">
-    <img src="/assets/images/speakers/2015/mathias_bynens.jpg" alt="Mathias Bynens">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/mathias_bynens.jpg"
+      alt="Mathias Bynens">
   </a>
   
     <a class="speaker__name" href="/speakers/mathias_bynens">
@@ -114,7 +148,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/christian_heilmann">
-    <img src="/assets/images/speakers/2015/Christian_Heilmann.jpg" alt="Christian Heilmann">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Christian_Heilmann.jpg"
+      alt="Christian Heilmann">
   </a>
   
     <a class="speaker__name" href="/speakers/christian_heilmann">
@@ -163,7 +201,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/dr_heinz_kabutz">
-    <img src="/assets/images/speakers/2015/Heinz_Kabutz.jpg" alt="Dr.Heinz Kabutz">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Heinz_Kabutz.jpg"
+      alt="Dr.Heinz Kabutz">
   </a>
   
     <a class="speaker__name" href="/speakers/dr_heinz_kabutz">
@@ -212,7 +254,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/nicolas_frankel">
-    <img src="/assets/images/speakers/2015/Nicolas_Frankel.jpeg" alt="Nicolas Frankel">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Nicolas_Frankel.jpeg"
+      alt="Nicolas Frankel">
   </a>
   
     <a class="speaker__name" href="/speakers/nicolas_frankel">
@@ -261,7 +307,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/tim_perry">
-    <img src="/assets/images/speakers/2015/Tim_Perry.jpg" alt="Tim Perry">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Tim_Perry.jpg"
+      alt="Tim Perry">
   </a>
   
     <a class="speaker__name" href="/speakers/tim_perry">
@@ -310,7 +360,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/kostis_kapelonis">
-    <img src="/assets/images/speakers/2015/Kostis_Kapelonis.jpg" alt="Kostis Kapelonis">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Kostis_Kapelonis.jpg"
+      alt="Kostis Kapelonis">
   </a>
   
     <a class="speaker__name" href="/speakers/kostis_kapelonis">
@@ -350,7 +404,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/forbes_lindesay">
-    <img src="/assets/images/speakers/2015/Forbes_Lindesay.jpg" alt="Forbes Lindesay">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Forbes_Lindesay.jpg"
+      alt="Forbes Lindesay">
   </a>
   
     <a class="speaker__name" href="/speakers/forbes_lindesay">
@@ -399,7 +457,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/nikos_zinas">
-    <img src="/assets/images/speakers/2015/Nikos_Zinas.jpg" alt="Nikos Zinas">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Nikos_Zinas.jpg"
+      alt="Nikos Zinas">
   </a>
   
     <a class="speaker__name" href="/speakers/nikos_zinas">
@@ -448,7 +510,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/nick_krassas">
-    <img src="/assets/images/speakers/2015/Nick_Krassas.jpeg" alt="Nick Krassas">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Nick_Krassas.jpeg"
+      alt="Nick Krassas">
   </a>
   
     <a class="speaker__name" href="/speakers/nick_krassas">
@@ -488,7 +554,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/benny_weingarten_gabbay">
-    <img src="/assets/images/speakers/2015/Benny_Weingarten-Gabbay.jpg" alt="Benny Weingarten-Gabbay">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Benny_Weingarten-Gabbay.jpg"
+      alt="Benny Weingarten-Gabbay">
   </a>
   
     <a class="speaker__name" href="/speakers/benny_weingarten_gabbay">
@@ -537,7 +607,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/ian_miell">
-    <img src="/assets/images/speakers/2015/Ian_Miell.jpg" alt="Ian Miell">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Ian_Miell.jpg"
+      alt="Ian Miell">
   </a>
   
     <a class="speaker__name" href="/speakers/ian_miell">
@@ -586,7 +660,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/kuba_walinski">
-    <img src="/assets/images/speakers/2015/kuba.jpg" alt="Kuba Waliński">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/kuba.jpg"
+      alt="Kuba Waliński">
   </a>
   
     <a class="speaker__name" href="/speakers/kuba_walinski">
@@ -635,7 +713,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/laura_kalbag">
-    <img src="/assets/images/speakers/2016/Laura_Kalbag.png" alt="Laura Kalbag">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Laura_Kalbag.png"
+      alt="Laura Kalbag">
   </a>
   
     <a class="speaker__name" href="/speakers/laura_kalbag">
@@ -684,7 +766,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/soledad_penades">
-    <img src="/assets/images/speakers/2016/Soledad_Penades.png" alt="Soledad Penades">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Soledad_Penades.png"
+      alt="Soledad Penades">
   </a>
   
     <a class="speaker__name" href="/speakers/soledad_penades">
@@ -742,7 +828,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/hugo_giraudel">
-    <img src="/assets/images/speakers/2016/Hugo_Giraudel.png" alt="Hugo Giraudel">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Hugo_Giraudel.png"
+      alt="Hugo Giraudel">
   </a>
   
     <a class="speaker__name" href="/speakers/hugo_giraudel">
@@ -800,7 +890,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/forbes_lindesay">
-    <img src="/assets/images/speakers/2016/Forbes_Lindesay.png" alt="Forbes Lindesay">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Forbes_Lindesay.png"
+      alt="Forbes Lindesay">
   </a>
   
     <a class="speaker__name" href="/speakers/forbes_lindesay">
@@ -858,7 +952,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/michał_budzyński">
-    <img src="/assets/images/speakers/2016/Michal_Budzynski.png" alt="Michał Budzyński">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Michal_Budzynski.png"
+      alt="Michał Budzyński">
   </a>
   
     <a class="speaker__name" href="/speakers/michał_budzyński">
@@ -916,7 +1014,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/alexandre_morgaut">
-    <img src="/assets/images/speakers/2016/Alexandre_Morgaut.png" alt="Alexandre Morgaut">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Alexandre_Morgaut.png"
+      alt="Alexandre Morgaut">
   </a>
   
     <a class="speaker__name" href="/speakers/alexandre_morgaut">
@@ -965,7 +1067,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/etienne_margraff">
-    <img src="/assets/images/speakers/2016/Etienne_Margraff.png" alt="Etienne Margraff">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Etienne_Margraff.png"
+      alt="Etienne Margraff">
   </a>
   
     <a class="speaker__name" href="/speakers/etienne_margraff">
@@ -1014,7 +1120,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/yegor_bugayenko">
-    <img src="/assets/images/speakers/2016/Yegor_Bugayenko.png" alt="Yegor Bugayenko">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Yegor_Bugayenko.png"
+      alt="Yegor Bugayenko">
   </a>
   
     <a class="speaker__name" href="/speakers/yegor_bugayenko">
@@ -1063,7 +1173,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/dan_cuellar">
-    <img src="/assets/images/speakers/2016/Dan_Cuellar.png" alt="Dan Cuellar">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Dan_Cuellar.png"
+      alt="Dan Cuellar">
   </a>
   
     <a class="speaker__name" href="/speakers/dan_cuellar">
@@ -1112,7 +1226,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/carlo_sciolla">
-    <img src="/assets/images/speakers/2016/Carlo_Sciolla.png" alt="Carlo Sciolla">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Carlo_Sciolla.png"
+      alt="Carlo Sciolla">
   </a>
   
     <a class="speaker__name" href="/speakers/carlo_sciolla">
@@ -1161,7 +1279,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/karina_popova">
-    <img src="/assets/images/speakers/2016/Karina_Popova.png" alt="Karina Popova">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Karina_Popova.png"
+      alt="Karina Popova">
   </a>
   
     <a class="speaker__name" href="/speakers/karina_popova">
@@ -1201,7 +1323,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/kostas_pantos">
-    <img src="/assets/images/speakers/2016/Kostas_Pantos.png" alt="Kostas Pantos">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Kostas_Pantos.png"
+      alt="Kostas Pantos">
   </a>
   
     <a class="speaker__name" href="/speakers/kostas_pantos">
@@ -1250,7 +1376,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/simona_cotin">
-    <img src="/assets/images/speakers/2016/Simona_Cotin.png" alt="Simona Cotin">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2016/Simona_Cotin.png"
+      alt="Simona Cotin">
   </a>
   
     <a class="speaker__name" href="/speakers/simona_cotin">
@@ -1290,7 +1420,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/natasha_murashev">
-    <img src="/assets/images/speakers/2017/Natasha_Murashev.png" alt="Natasha Murashev">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Natasha_Murashev.png"
+      alt="Natasha Murashev">
   </a>
   
     <a class="speaker__name" href="/speakers/natasha_murashev">
@@ -1347,7 +1481,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/hugo_giraudel">
-    <img src="/assets/images/speakers/2017/Hugo_Giraudel.png" alt="Hugo Giraudel">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Hugo_Giraudel.png"
+      alt="Hugo Giraudel">
   </a>
   
     <a class="speaker__name" href="/speakers/hugo_giraudel">
@@ -1396,7 +1534,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/james_halliday">
-    <img src="/assets/images/speakers/2017/James_Halliday.png" alt="James Halliday">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/James_Halliday.png"
+      alt="James Halliday">
   </a>
   
     <a class="speaker__name" href="/speakers/james_halliday">
@@ -1445,7 +1587,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/harry_roberts">
-    <img src="/assets/images/speakers/2017/Harry_Roberts.png" alt="Harry Roberts">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Harry_Roberts.png"
+      alt="Harry Roberts">
   </a>
   
     <a class="speaker__name" href="/speakers/harry_roberts">
@@ -1494,7 +1640,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/zaharenia_atzitzikaki">
-    <img src="/assets/images/speakers/2017/Zaharenia_Atzitzikaki.png" alt="Zaharenia Atzitzikaki">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Zaharenia_Atzitzikaki.png"
+      alt="Zaharenia Atzitzikaki">
   </a>
   
     <a class="speaker__name" href="/speakers/zaharenia_atzitzikaki">
@@ -1543,7 +1693,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/bodil_stokke">
-    <img src="/assets/images/speakers/2017/Bodil_Stokke.png" alt="Bodil Stokke">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Bodil_Stokke.png"
+      alt="Bodil Stokke">
   </a>
   
     <a class="speaker__name" href="/speakers/bodil_stokke">
@@ -1592,7 +1746,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/julien_simon">
-    <img src="/assets/images/speakers/2017/Julien_Simon.png" alt="Julien Simon">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Julien_Simon.png"
+      alt="Julien Simon">
   </a>
   
     <a class="speaker__name" href="/speakers/julien_simon">
@@ -1641,7 +1799,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/florian_schaffler">
-    <img src="/assets/images/speakers/2017/Florian_Schaffler.png" alt="Florian Schaffler">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Florian_Schaffler.png"
+      alt="Florian Schaffler">
   </a>
   
     <a class="speaker__name" href="/speakers/florian_schaffler">
@@ -1681,7 +1843,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/vladimir_grinenko">
-    <img src="/assets/images/speakers/2017/Vladimir_Grinenko.png" alt="Vladimir Grinenko">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Vladimir_Grinenko.png"
+      alt="Vladimir Grinenko">
   </a>
   
     <a class="speaker__name" href="/speakers/vladimir_grinenko">
@@ -1730,7 +1896,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/rita_zhang">
-    <img src="/assets/images/speakers/2017/Rita_Zhang.png" alt="Rita Zhang">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Rita_Zhang.png"
+      alt="Rita Zhang">
   </a>
   
     <a class="speaker__name" href="/speakers/rita_zhang">
@@ -1779,7 +1949,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/antonio_peric">
-    <img src="/assets/images/speakers/2017/Antonio_Peric.png" alt="Antonio Peric">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Antonio_Peric.png"
+      alt="Antonio Peric">
   </a>
   
     <a class="speaker__name" href="/speakers/antonio_peric">
@@ -1828,7 +2002,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/andy_grunwald">
-    <img src="/assets/images/speakers/2017/Andy_Grunwald.png" alt="Andy Grunwald">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Andy_Grunwald.png"
+      alt="Andy Grunwald">
   </a>
   
     <a class="speaker__name" href="/speakers/andy_grunwald">
@@ -1877,7 +2055,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/mete_atamel">
-    <img src="/assets/images/speakers/2017/Mete_Atamel.png" alt="Mete Atamel">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Mete_Atamel.png"
+      alt="Mete Atamel">
   </a>
   
     <a class="speaker__name" href="/speakers/mete_atamel">
@@ -1926,7 +2108,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/ivo_neskovic">
-    <img src="/assets/images/speakers/2017/Ivo_Neskovic.png" alt="Ivo Neskovic">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Ivo_Neskovic.png"
+      alt="Ivo Neskovic">
   </a>
   
     <a class="speaker__name" href="/speakers/ivo_neskovic">
@@ -1975,7 +2161,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/jason_poon">
-    <img src="/assets/images/speakers/2017/Jason_Poon.png" alt="Jason Poon">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Jason_Poon.png"
+      alt="Jason Poon">
   </a>
   
     <a class="speaker__name" href="/speakers/jason_poon">
@@ -2024,7 +2214,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/melanie_patrick">
-    <img src="/assets/images/speakers/2017/Melanie_Patrick.png" alt="Melanie Patrick">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Melanie_Patrick.png"
+      alt="Melanie Patrick">
   </a>
   
     <a class="speaker__name" href="/speakers/melanie_patrick">
@@ -2064,7 +2258,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/mike_smart">
-    <img src="/assets/images/speakers/2017/Mike_Smart.png" alt="Mike Smart">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Mike_Smart.png"
+      alt="Mike Smart">
   </a>
   
     <a class="speaker__name" href="/speakers/mike_smart">
@@ -2113,7 +2311,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/jason_lengstorf">
-    <img src="/assets/images/speakers/2017/Jason_Lengstorf.png" alt="Jason Lengstorf">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Jason_Lengstorf.png"
+      alt="Jason Lengstorf">
   </a>
   
     <a class="speaker__name" href="/speakers/jason_lengstorf">
@@ -2162,7 +2364,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/leonie_watson">
-    <img src="/assets/images/speakers/2017/Leonie_Watson.png" alt="Leonie Watson">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Leonie_Watson.png"
+      alt="Leonie Watson">
   </a>
   
     <a class="speaker__name" href="/speakers/leonie_watson">
@@ -2211,7 +2417,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/marisa_morby">
-    <img src="/assets/images/speakers/2017/Marisa_Morby.png" alt="Marisa Morby">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Marisa_Morby.png"
+      alt="Marisa Morby">
   </a>
   
     <a class="speaker__name" href="/speakers/marisa_morby">
@@ -2251,7 +2461,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/forbes_lindesay">
-    <img src="/assets/images/speakers/2017/Forbes_lindesay.png" alt="Forbes Lindesay">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Forbes_lindesay.png"
+      alt="Forbes Lindesay">
   </a>
   
     <a class="speaker__name" href="/speakers/forbes_lindesay">
@@ -2300,7 +2514,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/dennis_stavroyiannopoulos">
-    <img src="/assets/images/speakers/2017/Dennis_Stavroyiannopoulos.png" alt="Dennis Stavroyiannopoulos">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Dennis_Stavroyiannopoulos.png"
+      alt="Dennis Stavroyiannopoulos">
   </a>
   
     <a class="speaker__name" href="/speakers/dennis_stavroyiannopoulos">
@@ -2340,7 +2558,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/constantinos_ziazios">
-    <img src="/assets/images/speakers/2017/Constantinos_Ziazios.png" alt="Constantinos Ziazios">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Constantinos_Ziazios.png"
+      alt="Constantinos Ziazios">
   </a>
   
     <a class="speaker__name" href="/speakers/constantinos_ziazios">
@@ -2380,7 +2602,11 @@
 
 <div class="speaker ">
   <a class="speaker__avatar" href="/speakers/panagiotis_tsilopoulos">
-    <img src="/assets/images/speakers/2017/Panagiotis_Tsilopoulos.png" alt="Panagiotis Tsilopoulos">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2017/Panagiotis_Tsilopoulos.png"
+      alt="Panagiotis Tsilopoulos">
   </a>
   
     <a class="speaker__name" href="/speakers/panagiotis_tsilopoulos">

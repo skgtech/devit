@@ -72,6 +72,29 @@
 
 
 <div id="about" class="about-block text-center">
+  <!--
+  Some blocks require background images. With this hack
+  we are injecting an image element with the srcset attribute
+  to make the browser load the appropriate image and then watch
+  for when the image is loaded and make it the background image
+  of its parent.
+
+  @see _js/modules/responsiveBackgroundImage.js
+-->
+
+
+
+
+
+<div
+  class="responsive-image"
+  style="background-image:linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(assets/resized/teamBlock-800x351.jpg)">
+  <img
+    class="lazy"
+    data-src="/assets/images/new/teamBlock.jpg"
+    data-srcset="      /assets/resized/teamBlock-800x351.jpg 800w,      /assets/resized/teamBlock-1000x439.jpg 1000w,  ">
+</div>
+
   <div class="container">
     <h2 class="block__heading">What is DEVit</h2>
     <p class="leading">
@@ -355,6 +378,29 @@
 </div>
 
 <div class="subscribe-block text-center">
+  <!--
+  Some blocks require background images. With this hack
+  we are injecting an image element with the srcset attribute
+  to make the browser load the appropriate image and then watch
+  for when the image is loaded and make it the background image
+  of its parent.
+
+  @see _js/modules/responsiveBackgroundImage.js
+-->
+
+
+
+
+
+<div
+  class="responsive-image"
+  style="background-image:linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(assets/resized/subscribeBlock-800x451.jpg)">
+  <img
+    class="lazy"
+    data-src="/assets/images/new/subscribeBlock.jpg"
+    data-srcset="      /assets/resized/subscribeBlock-800x451.jpg 800w,      /assets/resized/subscribeBlock-1000x563.jpg 1000w,  ">
+</div>
+
   <div class="container">
     <h2 class="block__heading">Stay informed</h2>
     <p class="leading">

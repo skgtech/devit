@@ -47,6 +47,36 @@
 <body>
 
   <header class="header about-header">
+
+  
+  
+
+  
+
+  <!--
+  Some blocks require background images. With this hack
+  we are injecting an image element with the srcset attribute
+  to make the browser load the appropriate image and then watch
+  for when the image is loaded and make it the background image
+  of its parent.
+
+  @see _js/modules/responsiveBackgroundImage.js
+-->
+
+
+
+
+
+<div
+  class="responsive-image"
+  style="background-image:linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(assets/resized/aboutHeader-800x315.jpg)">
+  <img
+    class="lazy"
+    data-src="/assets/images/header/aboutHeader.jpg"
+    data-srcset="      /assets/resized/aboutHeader-800x315.jpg 800w,      /assets/resized/aboutHeader-1000x393.jpg 1000w,  ">
+</div>
+
+
   <nav class="main-navbar sticky">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -117,6 +147,29 @@
   </div>
 </div>
 <div class="organizers">
+  <!--
+  Some blocks require background images. With this hack
+  we are injecting an image element with the srcset attribute
+  to make the browser load the appropriate image and then watch
+  for when the image is loaded and make it the background image
+  of its parent.
+
+  @see _js/modules/responsiveBackgroundImage.js
+-->
+
+
+
+
+
+<div
+  class="responsive-image"
+  style="background-image:linear-gradient(rgba(0, 62, 115, 0.9), rgba(0, 62, 115, 0.9)), url(assets/resized/aboutBlock-800x488.jpg)">
+  <img
+    class="lazy"
+    data-src="/assets/images/new/aboutBlock.jpg"
+    data-srcset="      /assets/resized/aboutBlock-800x488.jpg 800w,      /assets/resized/aboutBlock-1000x610.jpg 1000w,  ">
+</div>
+
   <div class="container">
     <img src="/assets/images/new/a-truly-360-conference.svg" alt="DEVit">
 
@@ -410,19 +463,7 @@
   
 
   <!-- Facebook Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-  fbq('init', '1071961509597865');
-  fbq('track', "PageView");
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=<FB_PIXEL_ID>&ev=PageView&noscript=1"
-  /></noscript>
+  
   <!-- End Facebook Pixel Code -->
 
   <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
