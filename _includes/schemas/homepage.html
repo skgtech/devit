@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "{{ site.data.config.defaults.title }}",
+    "startDate": "{{ site.data.config.startDate }}",
+    "endDate": "{{ site.data.config.endDate }}",
+    "organizer": {
+      "@type": "Organization",
+      "name": "DEVit Conference"
+    },
+    "location": {
+      "@type": "City",
+      "name": "Thessaloniki"
+    },
+    "image": [
+      "{{ site.data.config.defaults.image }}",
+    ],
+    "description": "{{ site.data.config.defaults.description }}",
+    "offers": {
+      "@type": "Offer",
+      "lowPrice": "40.00",
+      "priceCurrency": "EUR",
+      "url": "{{ site.data.config.tickets.url }}"
+    }
+  }
+</script>
