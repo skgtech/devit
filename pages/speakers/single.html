@@ -33,7 +33,7 @@ description: Explore all speakers that have talked to DEVit.
             {% for talk in site.data.talks[year] %}
             {% if talk.speaker == speaker.url %}
                 <li role="{{ year }}">
-                  <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }} Talk</a>
+                  <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }} {{ talk.type }}</a>
                 </li>
               {% endif %}
             {% endfor %}

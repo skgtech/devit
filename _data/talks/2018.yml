@@ -1,14 +1,23 @@
 - title: "To be announced"
   speaker: cheryl_platz
+  type: Talk
 
 - title: "To be announced"
   speaker: julien_simon
+  type: Talk
 
 - title: "To be announced"
   speaker: dave_platt
+  type: Talk
 
 - title: "To be announced"
   speaker: laurent_bugnion
+  type: Workshop
 
 - title: "To be announced"
   speaker: jim_bennet
+  type: Workshop
+
+- title: "To be announced"
+  speaker: tim_perry
+  type: Workshop

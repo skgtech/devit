@@ -91,10 +91,10 @@ speakers:
     first_name: Tim
     last_name: Perry
     image_filename: Tim_Perry.png
-    tagline: Senior Software Engineer at http://Resin.io
+    tagline: Senior Software Engineer at Resin.io
     social:
       twitter: pimterry
       homepage: https://tim.fyi
       github: pimterry
     bio: |
-      <p>Tim Perry is a senior software engineer at http://Resin.io , writing JavaScript that runs everywhere from web frontends to command line tools to backend services to embedded systems. He's passionate about building valuable tools for the real world, effective testing, and the powers of modern JS.</p><p>Tim is a frequent technical speaker, an enthusiastic open-source contributor to a wide variety of tools across the JS, Java and C# ecosystems, and the maintainer of a long list of projects including Loglevel, notes, Git-Confirm & Mockttp.</p>
+      <p>Tim Perry is a senior software engineer at <a target="_blank" rel="noopenner" href="https://resin.io">Resin.io</a> , writing JavaScript that runs everywhere from web frontends to command line tools to backend services to embedded systems. He's passionate about building valuable tools for the real world, effective testing, and the powers of modern JS.</p><p>Tim is a frequent technical speaker, an enthusiastic open-source contributor to a wide variety of tools across the JS, Java and C# ecosystems, and the maintainer of a long list of projects including Loglevel, notes, Git-Confirm & Mockttp.</p>
