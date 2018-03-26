@@ -9,6 +9,9 @@ gold:
     - name: Intrasoft
       img: /assets/images/sponsors/svg/intrasoft.svg
       url: https://www.intrasoft-intl.com/
+    - name: Resin.io
+      img: /assets/images/sponsors/svg/resinio.svg
+      url: https://resin.io/
 
 # silver:
 #   -

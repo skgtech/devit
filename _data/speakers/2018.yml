@@ -80,3 +80,21 @@ speakers:
       github: jimbobbennett
     bio: |
       <p>I am a Senior Cloud Developer Advocate working for Microsoft, and my area of speciality is cloud-connected Xamarin apps, with a passionate interest in the democratization of AI and how it can be used to create mobile apps that empower people. </p><p>Prior to working for Microsoft, I was a Xamarin and Microsoft MVP, and worked all around the world building desktop and mobile apps using .NET with C# and F#. I blog at https://jimbobbennett.io, and I am the author of Xamarin In Action from Manning publications.</p>
+
+  - url: tim_perry
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - JavaScript
+      - IoT
+      - Web
+    first_name: Tim
+    last_name: Perry
+    image_filename: Tim_Perry.png
+    tagline: Senior Software Engineer at http://Resin.io
+    social:
+      twitter: pimterry
+      homepage: https://tim.fyi
+      github: pimterry
+    bio: |
+      <p>Tim Perry is a senior software engineer at http://Resin.io , writing JavaScript that runs everywhere from web frontends to command line tools to backend services to embedded systems. He's passionate about building valuable tools for the real world, effective testing, and the powers of modern JS.</p><p>Tim is a frequent technical speaker, an enthusiastic open-source contributor to a wide variety of tools across the JS, Java and C# ecosystems, and the maintainer of a long list of projects including Loglevel, notes, Git-Confirm & Mockttp.</p>
