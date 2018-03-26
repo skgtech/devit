@@ -35,3 +35,7 @@ markdown: kramdown
 highlighter: pygments
 
 encoding: utf-8
+
+url: "https://devitconf.org/" 
+gems:
+  - jekyll-sitemap

@@ -41,6 +41,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
+    jekyll-sitemap (1.2.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -83,9 +85,10 @@ DEPENDENCIES
   html-proofer
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
+  jekyll-sitemap
 
 RUBY VERSION
    ruby 2.4.2p198
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

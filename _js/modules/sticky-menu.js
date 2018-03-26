@@ -18,7 +18,7 @@ function stickyMenu(className) {
     //   return;
     // }
 
-    const bottomLimit = parseInt(headerHeight)
+    const bottomLimit = parseInt(headerHeight / 2)
     const upperLimit = bottomLimit * 2
 
     if (window.pageYOffset > bottomLimit) {
