@@ -18,7 +18,11 @@ venue: blah blah
 # Current mode. Site will be modified based on this
 currentMode: "dday|nextday|nextblind|nextfull"
 
-isCFPOpen: true
+isCFPOpen: false
+
+sponsors:
+  cfs: false
+  link_to_sponsorship: ""
 
 tickets:
   url: https://www.eventora.com/en/Events/devit_conference_2018

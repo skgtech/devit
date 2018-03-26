@@ -4,9 +4,9 @@
   "description": "DEVit conference official website",
   "devDependencies": {
     "bootstrap-sass": "~3.3.7",
-    "browser-sync": "~2.17.0",
+    "browser-sync": "~2.23.6",
     "codebird": "~2.6.0",
-    "css-loader": "~0.28.7",
+    "css-loader": "~0.28.8",
     "fancy-select": "~2.0.2",
     "file-loader": "~1.1.6",
     "flowtype": "~2.0.0",
@@ -15,7 +15,7 @@
     "gulp": "~3.9.1",
     "gulp-autoprefixer": "~5.0.0",
     "gulp-gh-pages": "~0.5.4",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.0",
     "gulp-sourcemaps": "^2.6.4",
     "instafeed.js": "~1.4.1",
     "jquery": "~3.1.1",
@@ -28,11 +28,14 @@
     "phonon": "^1.4.8",
     "picturefill": "^3.0.2",
     "sass-loader": "~6.0.6",
-    "style-loader": "~0.19.1",
-    "url-loader": "~0.6.2",
+    "style-loader": "~0.20.3",
+    "url-loader": "~1.0.1",
     "webpack-stream": "~4.0.0"
   },
   "engines": {
     "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "vanilla-lazyload": "^10.4.2"
   }
 }

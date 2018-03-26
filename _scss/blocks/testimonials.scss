@@ -42,16 +42,21 @@
 
 .testimonial__quote {
   color: white;
-  font-size: 30px;
+  font-size: 1.66em;
 }
 
 .testimonial__text {
   color: white;
-  font-size: 24px;
+  font-size: 1.33em;
   font-weight: 900;
   line-height: 29px;
   margin-bottom: 10px;
 }
 .testimonial__name {
   color: #FFFFFF;
+
+  &:hover,
+  &:active {
+    color: #FFFFFF;
+  }
 }

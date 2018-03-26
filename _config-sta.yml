@@ -1,9 +1,7 @@
 name: devit
 description: The DEVit conference
 
-permalink: /:categories/:title
-
-disqus: devitconf
+url: http://devitconf.org
 
 exclude: [
   "node_modules",
@@ -23,11 +21,15 @@ og:
 
 analytics:
 
-future: true
-show_drafts: true
-
-markdown: kramdown
-
-highlighter: pygments
-
 encoding: utf-8
+
+responsive_image:
+  template: _includes/responsive-image.html
+
+  sizes:
+    - width: 800
+    - width: 1000
+
+  strip: true
+
+  cache: false

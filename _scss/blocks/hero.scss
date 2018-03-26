@@ -1,24 +1,23 @@
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/mobile.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 62, 115, 0.8), rgba(0, 62, 115, 0.8));
   text-align: center;
-  padding-bottom: 150px;
+
+  padding-bottom: 8.33em;
   padding-top: 24px;
 
-  @media (min-width: 768px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/tablet.jpg);
-  }
-
-  @media (min-width: 1126px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/header/screen.jpg);
+  @media (max-width: $screen-sm-min) {
+    padding-bottom: 6em;
+    padding-top: 14px;
   }
 }
 
 .hero__logo {
-  padding-top: 120px;
+  padding-top: 6em;
   width: 250px;
+
+  @media (max-width: $screen-sm-min) {
+    padding-top: 4em;
+  }
 }
 
 .hero__headline,
@@ -28,7 +27,7 @@
 .hero__headline {
   color: white;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 3.55em;
   line-height: 77px;
   margin-bottom: 8px;
   margin-top: 40px;
@@ -36,5 +35,5 @@
 
 .hero__location {
   color: white;
-  font-size: 30px;
+  font-size: 1.66em;
 }

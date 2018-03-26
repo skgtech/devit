@@ -3,24 +3,17 @@
   padding-top: 70px;
   padding-bottom: 70px;
 
-  img {
-    -webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
-  }
+}
+.cfs__title {
+  opacity: 0.7;
+  font-size: 1.33em;
+  font-weight: 900;
+  text-align: center;
+  color: #57585a;
+}
 
-  .cfs__title {
-    opacity: 0.7;
-    font-size: 24px;
-    font-weight: 900;
-    text-align: center;
-    color: #57585a;
-  }
-
-  .cfs__sponsors {
-    margin-top: 72px;
-  }
+.cfs__sponsors {
+  margin-top: 72px;
 }
 .cfs__container {
   @extend .container;

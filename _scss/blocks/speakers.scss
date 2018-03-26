@@ -1,5 +1,6 @@
 .speakers-container {
   @extend .block;
+  background: white;
 }
 .speakers-list {
   @extend .container;
@@ -46,26 +47,31 @@
     margin: auto;
 
     .speaker-tba__title {
-      font-size: 27px;
+      font-size: 1.5em;
       font-weight: 900;
       line-height: 0.93;
     }
     .speaker-tba__text {
-      font-size: 18px;
+      font-size: 1em;
     }
   }
 }
 .speaker__avatar {
-  width: 100%;
-  height: 100%;
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+  display: block;
+
+  img {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
 }
 
 .speaker__name {
-  font-size: 20px;
+  color: #333;
+  font-size: 1.1em;
   font-weight: 900;
   line-height: 60px;
   height: 60px;
@@ -79,8 +85,15 @@
 }
 
 .speaker__title {
-  font-size: 14px;
+  font-size: 0.77em;
   line-height: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:after {
+    content: '...';
+  }
 }
 
 .speaker__social {
@@ -146,7 +159,7 @@
 }
 
 .speaker-page__title {
-  font-size: 24px;
+  font-size: 1.33em;
 	font-weight: bold;
 	color: #57585a;
 }
@@ -156,11 +169,11 @@
 
 .talks {
   .nav-tabs {
-    border: 0;
+    border: none;
 
     li > a {
       font-weight: bold;
-      font-size: 18px;
+      font-size: 1em;
     }
 
     li:not(.active) > a {
@@ -168,8 +181,13 @@
     }
   }
 
-  .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-    border :0
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:hover,
+  .nav-tabs>li.active>a:focus,
+  .nav-tabs>li>a,
+  .nav-tabs>li>a:hover,
+  .nav-tabs>li>a:focus {
+    border: none;
   }
 }
 
@@ -197,4 +215,16 @@
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.speaker__type {
+  border-radius: 24px;
+  background-color: #e7e7e8;
+  font-size: 0.55em;
+  font-weight: bold;
+  color: #57585a;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 8px;
 }

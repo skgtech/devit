@@ -1,0 +1,133 @@
+.block-stay {
+  margin: 3.8em auto;
+  max-width: 624px;
+}
+
+.destinations {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5f8fa;
+}
+
+.destinations__panel {
+  height: 420px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 100%;
+
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 50%;
+  }
+}
+
+.destinations__panel--25 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 25%;
+  }
+}
+
+.destinations__panel--75 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 75%;
+  }
+}
+
+.destinations__excerpt {
+  max-width: 350px;
+}
+
+.destinations__image {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+$dest-images:(
+  building1,
+  building2,
+  hotel1,
+  hotel2,
+  market1,
+  sea1,
+  sea2,
+  sea3
+);
+
+@each $image in $dest-images {
+  .destinations__image--#{$image} {
+    background-image: url(/assets/images/destinations/#{$image}.jpg);
+  }
+}
+
+// Price table
+.price-table {
+  width: 90%;
+  text-align: center;
+
+  tr {
+    border-bottom: 2px solid #d9d9d9;
+  }
+
+  th, td {
+    padding: 25px;
+  }
+
+  tbody tr:last-child() {
+    border-color: transparent;
+  }
+}
+
+.table-footnote {
+  margin-top: 30px;
+  font-size: 0.66em;
+  max-width: 55%;
+}
+
+// Testimonial block
+.block-testimonial {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #00629E;
+  background-image: url(/assets/images/new/wedge.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  .content {
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: $screen-sm-min) {
+      flex-direction: row;
+    }
+  }
+
+  .testimonial-avatar {
+    width: 180px;
+    height: 180px;
+    flex: 1 0 180px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+    }
+
+    @media (max-width: $screen-sm-min) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .testimonial-copy {
+    @media (min-width: $screen-sm-min) {
+      margin-left: 30px;
+    }
+  }
+}

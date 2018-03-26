@@ -1,5 +1,6 @@
 - speaker: brendan_forster
   title: What's It Like Being a Open Source Maintainer Anyway?
+  youtube_url: NQpkVdZMl0o
   tags:
     - Open Source
     - People
@@ -8,6 +9,7 @@
 
 - speaker: forbes_lindesay
   title: Server side rendering in React
+  youtube_url: EBy-oqqFPWk
   tags:
     - Back end
     - ReactJS
@@ -16,6 +18,7 @@
 
 - speaker: simona_cotin
   title: Scaling applications using Angular and TypeScript
+  youtube_url: AoNNUG4uDi4
   tags:
     - Front end
     - Angular
@@ -24,6 +27,7 @@
 
 - speaker: karina_popova
   title: SIM based connectivity solution for IoT
+  youtube_url: FOVQZDhlkP4
   tags:
     - Webservices
     - Messaging
@@ -32,6 +36,7 @@
 
 - speaker: michał_budzyński
   title: Pixel Adventure
+  youtube_url: 2LLLhq1-uhg
   tags:
     - Front end
     - Gaming
@@ -39,6 +44,7 @@
 
 - speaker: etienne_margraff
   title: Debug the web everywhere with Vorlon.js
+  youtube_url: wYRDkabIiE0
   tags:
     - Front end
     - JavaScript
@@ -47,6 +53,7 @@
 
 - speaker: soledad_penades
   title: "Real time front-end alchemy, or: capturing, playing, altering and encoding video and audio streams, without servers or plugins!"
+  youtube_url: D3_vbaZsb2o
   tags:
     - Video
     - Encoding
@@ -56,6 +63,7 @@
 
 - speaker: yegor_bugayenko
   title: Need Robust Software? Make It Fragile
+  youtube_url: WOy9zhzyMOE
   tags:
     - Testing
     - TDD
@@ -64,6 +72,7 @@
 
 - speaker: dan_cuellar
   title: "The Story of Appium: Lessons Learned Creating an Open Source Project, 0 to 100,000 Users"
+  youtube_url: Ssql7J6z08Y
   tags:
     - Mobile
     - Hybrid
@@ -72,6 +81,7 @@
 
 - speaker: kostas_pantos
   title: Professionaly searching your web site the easy way
+  youtube_url: 6nGZ0qh8FNM
   tags:
     - Back end
     - Scale
@@ -80,6 +90,7 @@
 
 - speaker: carlo_sciolla
   title: Grudging monkeys and microservices
+  youtube_url: X6Ho7DbbR6k
   tags:
     - Microservices
     - Devops
@@ -88,6 +99,7 @@
 
 - speaker: hugo_giraudel
   title: Understanding the CSS Modules Methodology
+  youtube_url: LIUdaegJi20
   tags:
     - Front end
     - Tooling
@@ -96,6 +108,7 @@
 
 - speaker: laura_kalbag
   title: Ethical Design
+  youtube_url: lZqfeVdjDt0
   tags:
     - Design
     - Accesibility

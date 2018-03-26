@@ -1,6 +1,7 @@
 .main-navbar {
   @extend .navbar;
 
+  z-index: 999;
   padding: 16px 56px 16px 56px;
 
   @media (max-width: $screen-sm-min) {
@@ -19,6 +20,10 @@
     padding-top: 14px;
     padding-bottom: 14px;
     background: white;
+
+    .navbar-toggle .icon-bar {
+      background: black;
+    }
   }
 }
 
@@ -89,13 +94,13 @@
 }
 
 .navbar-brand {
-  padding: 0 10px;
-
-  .main-navbar:not(.sticky--stick) &--hidden {
-    display: none;
-  }
+  padding: 0;
 
   @media (max-width: $screen-sm-min) {
+    font-size: 1.3em
+  }
+
+  .main-navbar:not(.sticky--stick) &--hidden {
     display: none;
   }
 }
@@ -109,11 +114,11 @@
   padding-top: 5px;
 
   .navbar-date__date {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 900;
   }
   .navbar-date__place {
-    font-size: 14px;
+    font-size: 0.77em;
 	  font-weight: bold;
   }
 
@@ -123,7 +128,7 @@
 }
 
 .navbar-logo {
-  width: 123px;
+  width: 4em;
   height: 52px;
   float: left;
 

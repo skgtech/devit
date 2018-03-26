@@ -12,20 +12,20 @@
     margin-bottom: 24px;
   }
 
-  padding-top: 128px;
-  padding-bottom: 128px;
+  padding-top: 7.11em;
+  padding-bottom: 7.11em;
 }
 
 .team {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
 }
 
 .team__item {
   display: inline-block;
   margin-left: 0;
-  margin-right: 40px;
-  margin-bottom: 40px;
+  margin-right: 2.2em;
+  margin-bottom: 2.2em;
 
   img {
     width: 144px;
@@ -42,6 +42,14 @@
 
 .partners {
   background-color: #f5f8fa;
+
+  .icons-stack__row .icons-stack__item img {
+    max-height: 70px;
+  }
+
+  .partners__container {
+    margin-top: 72px;
+  }
 }
 
 .organizers {
@@ -52,14 +60,18 @@
   position: relative;
   color: white;
 
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 4em;
+  padding-bottom: 4em;
 
   text-align: center;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 .organizers__logos {
-  padding-top: 72px;
+  padding-top: 2em;
 
   p {
     margin-bottom: 32px;
@@ -70,6 +82,8 @@
   }
 
   li + li {
-    margin-left: 40px;
+    @media (min-width: $screen-sm-min) {
+      margin-left: 40px;
+    }
   }
 }

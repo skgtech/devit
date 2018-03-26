@@ -1,24 +1,39 @@
 {% assign speaker = include.speaker %}
 
 <div class="speaker {% if include.speaker_page == true %}speaker--hover{% endif %}">
-  <a href="/speakers/{{speaker.year}}/{{speaker.url}}">
-    <img class="speaker__avatar" src="/assets/images/speakers/{{speaker.year}}/{{ speaker.image_filename }}" alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+  <a class="speaker__avatar" href="/speakers/{{speaker.url}}">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/{{speaker.year}}/{{ speaker.image_filename }}"
+      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
   </a>
   {% if include.speaker_page == false %}
-    <div class="speaker__name">
+    <a class="speaker__name" href="/speakers/{{speaker.url}}">
       <span>
         {{ speaker.first_name }} {{ speaker.last_name }}
       </span>
-    </div>
+    </a>
     <div class="speaker__title">{{ speaker.tagline }}</div>
   {% endif %}
   <div class="speaker__hover">
+    <div class="speaker__type">
+        {{ speaker.hearFor }}
+    </div>
     {% include components/tags.html tags=speaker.tags %}
     <div class="speaker__social">
       {% for social in speaker.social %}
         {% if social[0] == "github" %}
           {% assign icon = "fab fa-github" %}
           {% assign link = "https://github.com/" | append: social[1] %}
+        {% endif %}
+        {% if social[0] == "linkedin" %}
+          {% assign icon = "fab fa-linkedin" %}
+          {% assign link = social[1] %}
+        {% endif %}
+        {% if social[0] == "medium" %}
+          {% assign icon = "fab fa-medium" %}
+          {% assign link = "https://medium.com/@" | append: social[1] %}
         {% endif %}
         {% if social[0] == "twitter" %}
           {% assign icon = "fab fa-twitter" %}
@@ -30,9 +45,8 @@
         {% endif %}
         {% if social[0] == "homepage" %}
           {% assign icon = "fas fa-link" %}
-          {% assign link = "https://facebook.com/" | append: social[1] %}
+          {% assign link = social[1] %}
         {% endif %}
-
         <a href="{{ link }}" class="speaker__social__item {{icon}}"></a>
 
       {% endfor %}

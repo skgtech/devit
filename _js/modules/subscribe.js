@@ -51,13 +51,12 @@ $(document).ready(function () {
 
   function submitSubscribeForm(formEl, resultEl) {
     $.ajax({
+      url: 'http://check-connectivity.us2.list-manage.com/subscribe/post-json?u=249dbe460c3c1857a489dde05&amp;id=faa2000c02&c=?',
       type: 'GET',
-      url: formEl.action,
-      data: toJSONString(formEl),
-      cache: false,
-      dataType: 'jsonp',
-      jsonp: 'c',
+      dataType: 'json',
       contentType: 'application/json; charset=utf-8',
+      cache: false,
+      data: $(formEl).serialize(),
       success: function (data) {
         if (data.result != 'success') {
           var message = data.msg || 'Sorry. Unable to subscribe. Please try again later.';

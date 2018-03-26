@@ -1,35 +1,63 @@
 ---
 layout: default
-title: About - DEVit Conference
-metaTitle: DEVit the 360° Web Development Conference
-metaDescription: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+title: About DEVit
+description: Thank you for being part of DEVit. Learn here all about your favorite Web Development Conference.
 permalink: /about
 ---
 
-{% include header.html %}
+{% include blocks/header.html page="about" %}
 
-{% include navigation.html %}
-
-<div class="container content">
-  <section id="codeofconduct" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="section-header text-center">
-          <h2>About <b>DEVit</b></h2>
-          <p>Here are some facts about us</p>
-        </div>
-      </div>
+<div class="container">
+  <div class="block">
+    <div class="block__heading--dark">
+      What is DEVit?
     </div>
-    <div class="row">
-      <div class="col-xs-12">
-
-        <p>
-
-        </p>
-
-      </div>
-    </div>
-  </section>
-
-  {% include footer.html %}
+    <p class="leading--dark">
+      Every year we are setting the bar higher and deliver a world-class conference on web development.
+    </p>
+    <p>
+      DEVit started in 2015 and it takes place every year in Thessaloniki, Greece. It is known for its top speaking talent, a mixture of world-class and world-renowned developers, highly specialized technology niches and developers who are on the edge of technology frontiers.
+    </p>
+    <p>
+      The attendees of the conference are mostly highly trained and motivated web developers, representing the cream of the crop in talent South East Europe has to offer. DEVit, now in its fourth year, has become the defacto meeting point of all seasoned web development professionals.
+    </p>
+    <p>
+      Whether it’s Frontend, UI/UX, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques.
+    </p>
+    <p>
+      DEVit is a non-profit conference organized by volunteers. All proceeds are used to bringing top-tier speakers and organizing advanced workshops on all trending web technologies.
+    </p>
+  </div>
 </div>
+<div class="organizers">
+  <div class="container">
+    <img src="/assets/images/new/a-truly-360-conference.svg" alt="DEVit">
+
+    {% include blocks/organizers.html %}
+  </div>
+</div>
+<div class="container">
+  <div class="block">
+    <div class="block__heading--dark">
+      Meet the squad
+    </div>
+    <p>
+      DEVit is a collective effort of a number of people, professionals and students, technical and not.
+    </p>
+    <div class="leading--dark">
+      Our volunteers
+    </div>
+    <p>
+      Without them, DEVit would never have happened. A big thank you to all people that offer their time, their knowledge and their energy to help organizing and run DEVit.
+    </p>
+    <p>
+      {% for member in site.data.team.volunteers %}
+        {{ member.name }},
+      {% endfor %}
+    </p>
+  </div>
+</div>
+
+{% include blocks/partners.html %}
+
+{% include blocks/footer.html %}

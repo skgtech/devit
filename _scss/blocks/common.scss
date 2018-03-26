@@ -1,11 +1,6 @@
 .block {
-  padding-top: 100px;
-  padding-bottom: 100px;
-
-  @media (max-width: $screen-sm-min) {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
+  padding-top: 5.5em;
+  padding-bottom: 5.5em;
 }
 
 .block__heading {
@@ -27,7 +22,7 @@
 
 .leading {
   color: white;
-  font-size: 24px;
+  font-size: 1.33em;
   font-family: Lato;
   line-height: 29px;
   margin-top: 8px;
@@ -56,12 +51,12 @@
   border-radius: 36px;
   background-color: #00629E;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.33em;
   font-weight: 900;
-  line-height: 26px;
+  line-height: 1em;
   color: white;
-  padding: 23px 32px;
-  margin-top: 32px;
+  padding: 1em 1.33em;
+  margin-top: 1.77em;
 
   @media (max-width: $screen-sm-min) {
     margin-left: auto;

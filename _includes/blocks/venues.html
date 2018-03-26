@@ -1,39 +1,47 @@
-<div class="venues text-center">
+<div id="venue" class="venues text-center">
   <h2 class="block__heading--dark">The Venues</h2>
   <div class="venue">
     <div class="venue__title">
       City College, Sunday Jun 10
     </div>
+    <div class="venue__for">
+      Workshops
+    </div>
     <div class="venue__description">
-      Sunday, 10th of June will be a day dedicated to workshops, with at least 11 sessions of various topics to choose from. It will be hosted at at City College Thessaloniki, which offers multiple academic classrooms, an ideal space for the purpose of delivering a hands-on session.
+      Sunday, 10th of June will be a day dedicated to workshops, with at least 11 sessions of various topics to choose from. It will be hosted at City College Thessaloniki, which offers multiple academic classrooms, an ideal space for the purpose of delivering a hands-on session.
     </div>
     <div class="venue__container">
-      <div class="venue__map" data-long="40.6373756", data-lat="22.9370313"></div>
-      <div class="venue__image"></div>
+      <div class="venue__map">
+        <div class="map" data-long="40.6373756" data-lat="22.9370313"></div>
+      </div>
+      {% responsive_image path: assets/images/venues/citycollege.jpg template: _includes/responsive/venue.html %}
     </div>
   </div>
   <div class="venue">
     <div class="venue__title">
       Royal Theatre, Monday Jun 11
     </div>
+    <div class="venue__for">
+        Talks
+      </div>
     <div class="venue__description">
       Monday, 11th of June will be a day dedicated to presentations, with a single track of 8 speakers. It will be hosted at the iconic Royal Theater of Thessaloniki, a spacious theatrical venue with a capacity of 683 people located at the heart of Thessaloniki, right next to the historic White Tower by the seaside.
     </div>
     <div class="venue__container">
-      <div class="venue__image"></div>
-      <div class="venue__map" data-long="40.6252233", data-lat="22.9495758"></div>
+        {% responsive_image path: assets/images/venues/royal_theatre.jpg template: _includes/responsive/venue.html %}
+      <div class="venue__map">
+        <div class="map" data-long="40.6252233" data-lat="22.9495758"></div>
+      </div>
     </div>
   </div>
 </div>
 <div class="plan-block text-center">
   <div class="container">
     <h2 class="block__heading">Plan your stay at Thessaloniki</h2>
-    <p class="leading">
-      Lonely planet has described Thessaloniki as "easy to fall in love with – it has beauty, chaos, history and culture, a remarkable cuisine and wonderful, vast sea views." 
-      <br>
-      Discover hotel options, attractions, things to do and combine your visit with a memorable experience.
+    <p class="">
+      Lonely Planet has described Thessaloniki as “easy to fall in love with – it has beauty, chaos, history and culture, a remarkable cuisine and wonderful, vast sea views.” Discover hotel options, attractions, things to do and combine your visit with a memorable experience.
     </p>
-    <a href="/new/about" class="block__more-cta">Find our more
+    <a href="/explore-thessaloniki" class="block__more-cta">Find out more
       <i class="fas fa-long-arrow-alt-right"></i>
     </a>
   </div>

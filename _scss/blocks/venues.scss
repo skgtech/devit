@@ -1,11 +1,12 @@
 .venues {
   @extend .block;
 
+  background: white;
   padding-bottom: 0;
 }
 
 .venue__title {
-  font-size: 24px;
+  font-size: 1.33em;
   font-weight: bold;
 
   margin: 72px 0 16px;
@@ -13,33 +14,41 @@
 
 .venue__description {
   margin-bottom: 72px;
+
+  @media (min-width: $screen-sm-max) {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .venue__container {
-  height: 420px;
-  overflow: hidden;
+  @media (min-width: $screen-sm-min) {
+    height: 420px;
+    overflow: hidden;
+  }
 }
 
 .venue__image {
   @include make-sm-column(8);
+
   padding-left: 0;
   padding-right: 0;
-  background-image: url(/assets/images/new/royal_theatre.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100%;
-
+  height: 420px;
 }
 
 .venue__map {
+  @include make-sm-column(4);
+
   padding-left: 0;
   padding-right: 0;
 
-  height: 100%;
-  max-height: 420px;
-
-  @include make-sm-column(4);
+  .map {
+    height: 420px;
+  }
 }
 
 .plan-block {
@@ -56,6 +65,19 @@
     margin-bottom: 24px;
   }
 
-  padding-top: 208px;
-  padding-bottom: 208px;
+  padding-top: 11.5em;
+  padding-bottom: 11.5em;
+}
+
+.venue__for {
+  border-radius: 24px;
+  background-color: #e7e7e8;
+  font-size: 0.55em;
+  font-weight: bold;
+  color: #57585a;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
