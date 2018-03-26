@@ -40,10 +40,6 @@ responsive_image:
 
   cache: false
 
-
-encoding: utf-8
-
-url: "https://devitconf.org/" 
+url: "https://devitconf.org"
 gems:
   - jekyll-sitemap
-

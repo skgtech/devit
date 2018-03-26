@@ -86,9 +86,8 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (= 3.3.0)
-  jekyll-feed (~> 0.6)
-  jekyll-sitemap
   jekyll-responsive-image
+  jekyll-sitemap
 
 RUBY VERSION
    ruby 2.4.2p198
