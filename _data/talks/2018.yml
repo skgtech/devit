@@ -10,12 +10,46 @@
   speaker: dave_platt
   type: Talk
 
-- title: "To be announced"
+- title: "Xamarin and Azure - Build the mobile apps of tomorrow"
+  description: "<p>It’s hard to be a developer and not have heard of Xamarin. It’s now part of Microsoft’s
+    ‘Any developer, any platform’ strategy, and allows you to write C# and F# code that runs on iOS and
+    Android. Combined with the power of the cloud, you can easily build the mobile apps of tomorrow that
+    your users will love. In fact, we are so sure you are going to love Xamarin we're going to teach
+    you how build an app to share photos of happy Xamarin developers. </p><p>This workshop will take you from
+    0 to a fully working, cloud connected, AI powered mobile app. We'll get you setup with Visual Studio
+    and the Xamarin tooling on either Windows or Mac, and connect up your iPhone or Android device to
+    Xamarin Live Player ready to run an app. Once you are set up we'll cover the basics of Xamarin and
+    Xamarin.Forms, then it's heads down writing a cross-platform app - using one code base for a
+    fully-native app that runs on both iOS and Android.</p><p>The app we build will combine accessing device
+    hardware using Xamarin plugins, AI for face and emotion detection and cloud services like authentication
+    and blob storage, all built using a serverless architecture. Finally we'll go from code to production
+    ready, using Visual Studio App Center to build your app, monitor for crashes, gather analytics, and
+    prepare you app for distribution. We'll even look at wiring up push notifications so your app can be
+    notified when someone else uploads a photo. </p><p>By the end of the day you will have a production ready,
+    AI and cloud powered mobile app.</p>"
+  ticket: single
   speaker: laurent_bugnion
   type: Workshop
 
-- title: "To be announced"
-  speaker: jim_bennet
+- title: "Xamarin and Azure - Build the mobile apps of tomorrow"
+  description: "<p>It’s hard to be a developer and not have heard of Xamarin. It’s now part of Microsoft’s
+    ‘Any developer, any platform’ strategy, and allows you to write C# and F# code that runs on iOS and
+    Android. Combined with the power of the cloud, you can easily build the mobile apps of tomorrow that
+    your users will love. In fact, we are so sure you are going to love Xamarin we're going to teach
+    you how build an app to share photos of happy Xamarin developers. </p><p>This workshop will take you from
+    0 to a fully working, cloud connected, AI powered mobile app. We'll get you setup with Visual Studio
+    and the Xamarin tooling on either Windows or Mac, and connect up your iPhone or Android device to
+    Xamarin Live Player ready to run an app. Once you are set up we'll cover the basics of Xamarin and
+    Xamarin.Forms, then it's heads down writing a cross-platform app - using one code base for a
+    fully-native app that runs on both iOS and Android.</p><p>The app we build will combine accessing device
+    hardware using Xamarin plugins, AI for face and emotion detection and cloud services like authentication
+    and blob storage, all built using a serverless architecture. Finally we'll go from code to production
+    ready, using Visual Studio App Center to build your app, monitor for crashes, gather analytics, and
+    prepare you app for distribution. We'll even look at wiring up push notifications so your app can be
+    notified when someone else uploads a photo. </p><p>By the end of the day you will have a production ready,
+    AI and cloud powered mobile app.</p>"
+  speaker: jim_bennett
+  ticket: single
   type: Workshop
 
 - title: "To be announced"
