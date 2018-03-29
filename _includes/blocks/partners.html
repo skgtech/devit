@@ -10,9 +10,16 @@
       <div class="partners__container">
         {% include components/icons-stack.html items=site.data.team.partners %}
       </div>
-      <p>
-        We proudly support.
-      </p>
+    </div>
+  </div>
+</div>
+
+<div class="supporters">
+  <div class="container">
+    <div class="block {% if include.center == true %}text-center{% endif %}">
+      <div class="block__heading--dark">
+        We proudly support
+      </div>
       <div class="partners__container">
         {% include components/icons-stack.html items=site.data.team.weSupport %}
       </div>

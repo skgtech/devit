@@ -73,6 +73,13 @@ Again, we could use some help from everyone, so step up!
 
 ## Troubleshooting
 
+## rmagick
+
+For this error:
+> RMagick installation: Can't find MagickWand.h
+
+try out [this solution](https://stackoverflow.com/a/43035892/1955940).
+
 ### nokogiri
 
 nokogiri can be a big PITA, first try this:

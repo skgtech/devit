@@ -40,9 +40,15 @@
   }
 }
 
+.supporters {
+  background-color: #fff;
+}
 .partners {
   background-color: #f5f8fa;
+}
 
+.supporters,
+.partners {
   .icons-stack__row .icons-stack__item img {
     max-height: 70px;
   }
