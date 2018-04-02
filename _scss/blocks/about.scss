@@ -41,9 +41,11 @@
 }
 
 .supporters {
+  @extend .block;
   background-color: #fff;
 }
 .partners {
+  @extend .block;
   background-color: #f5f8fa;
 }
 
