@@ -87,13 +87,10 @@
 .speaker__title {
   font-size: 0.77em;
   line-height: 17px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-  &:after {
-    content: '...';
-  }
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .speaker__social {

@@ -2,6 +2,7 @@
   - name: COHO Coworking Space
     url: http://www.coho.gr/
     img: /assets/images/partners/coho-logo.svg
+    override_height: 80px
 
   - name: City College Thessaloniki
     url: http://www.citycollege.sheffield.eu/
@@ -10,6 +11,7 @@
   - name: OK!Thess
     url: http://www.okthess.gr/
     img: /assets/images/partners/okthess-logo.svg
+    override_height: 50px
 
 -
   - name: Golden Gate Pro
@@ -19,6 +21,7 @@
   - name: HCN
     url: http://hcn.gr
     img: /assets/images/partners/hcn-logo.svg
+    override_height: 50px
 
   - name: Devastation
     url: http://www.devastation.tv/
