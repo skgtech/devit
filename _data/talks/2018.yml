@@ -57,6 +57,13 @@
   ticket: single
   type: Workshop
 
-- title: "To be announced"
+- title: "Modern easy IoT with JS, Docker & Resin.io"
+  description: "<p>Are you curious about how IoT development works? Or are you already an experienced hardware
+    hacker, looking to take your skills to the next level? In this workshop you'll learn how to build IoT devices
+    using powerful development tools that will be familiar to anybody comfortable with modern web development.</p>
+    <p>We'll use Docker and <a target=\"_blank\" rel=\"noopenner\" href=\"https://resin.io\">Resin.io</a> to
+    write, build & deploy software for real Raspberry Pis in JavaScript, to control motion sensors,
+    LEDs and more.</p>"
+  ticket: single
   speaker: tim_perry
   type: Workshop
