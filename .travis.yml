@@ -35,4 +35,4 @@ script:
   - htmlproofer ./_site --file-ignore "/2015/,/2016/,/2017/,/legacy/,/working/" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999
   - git config --global user.email publish@travis.github && git config --global user.name "Travis"
   - cd node_modules/gulp-gh-pages/ && npm install --save gift@0.10.2 && cd ../../
-  - if [ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_BRANCH" != "gh-pages" && "$TRAVIS_BRANCH" != "gh-sta-pages" ]; then gulp deploy; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then gulp deploy; fi
