@@ -26,7 +26,7 @@ module Jekyll
       self.data['year'] = year
       self.data['title'] = "#{ speaker['first_name'] } #{speaker['last_name']}"
       self.data['description'] = "#{ speaker['bio'].gsub(/<\/?[^>]*>/, "")[0, 150] } ..."
-      self.data['image'] = "/assets/images/speakers/#{year}/#{ speaker['first_name'] }_#{ speaker['last_name'] }.png"
+      self.data['image'] = "/assets/images/speakers/#{year}/#{ speaker['url'] }.png"
     end
   end
 
