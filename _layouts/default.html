@@ -23,7 +23,7 @@
   <!-- Open Graph data -->
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
   <meta property="og:site_name" content="devitconf.org">
-  <meta property="og:url" content="http://devitconf.org{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
   <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
