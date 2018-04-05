@@ -10,14 +10,14 @@
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
   <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
-  <meta itemprop="image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
+  <meta itemprop="image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@devitconf">
 
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: site.data.config.titlePostfix }}{% else %}{{ site.data.config.defaults.title | append: site.data.config.titlePostfix}}{% endif %}">
-  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
 
   <!-- Open Graph data -->
@@ -26,7 +26,7 @@
   <meta property="og:url" content="http://devitconf.org{{ page.url }}">
 
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.config.defaults.description }}{% endif %}">
-  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
+  <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.data.config.defaults.image }}{% endif %}">
   <meta property="og:type" content="website">
 
   <link href="/assets/css/main.css" rel="stylesheet" media="screen">
@@ -75,7 +75,7 @@
   fbq('init', '{{ site.analytics.fb.tracker}}');
   fbq('track', "PageView");
   </script>
-  <noscript><img height="1" width="1" style="display:none"
+  <noscript><img alt="Facebook pixel" height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id={{ site.analytics.fb.tracker}}&ev=PageView&noscript=1"
   /></noscript>
   {% endif %}

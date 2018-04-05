@@ -1,32 +1,20 @@
 ---
-layout: legacy
-title: Success Purchase - DEVit Conference
-metaTitle: DEVit the 360° Web Development Conference
-metaDescription: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+layout: default
+title: Success Purchase
 permalink: /purchase/success.html
-custom_js:
-- purchase.bundle.js
 ---
 
-{% include legacy/header.html %}
+{% include blocks/header.html %}
 
-{% include legacy/navigation.html %}
-
-<div class="container content">
-  <section>
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="section-header text-center">
-          <h2>
-            Woohoo, your order has been <br/><b>completed successfully</b>!
-          </h2>
-          <br/>
-          <p>Can’t wait to see you in June!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% include legacy/footer.html %}
-
+<div class="block text-center">
+  <div class="block__heading--dark">
+    Woohoo, your order has been <br/><b>completed successfully</b>!
+  </div>
+  <div>
+    <p>Can’t wait to see you in June!</p>
+  </div>
 </div>
+
+{% include blocks/plan.html %}
+{% include blocks/subscribe.html %}
+{% include blocks/footer.html %}

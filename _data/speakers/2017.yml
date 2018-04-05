@@ -327,7 +327,6 @@ speakers:
     bio: |
       Marisa Morby has a background in User Experience copywriting, and marketing. She specializes in digital optimization, user research, and user experience flow for web and mobile applications.<br> She's worked with clients to create a more personal approach to marketing, used data to optimize businesses, and helped her clients connect with customers on a human level.<br> When she's not writing or reading about psychology, she can be found in the wild doing all sorts of things like eating her way around the world, perfecting a chocolate chip cookie recipe, or sitting in the park doing some serious people watching.
 
-
   - url: forbes_lindesay
     hearFor: Workshop
     year: 2017
@@ -362,7 +361,7 @@ speakers:
     small: true
     image_filename: Constantinos_Ziazios.png
     social:
-      twitter: ziaziosk
+      twitter: ziazios
     bio: |
       Long time C#/.NET developer with roots in C++. He has developed ASP.NET (WebForms and MVC) web apps for many years. He has recently started developing applications for Android and iPhone and has started to put a focus on mobile application development. Konstantinos has spent many years working as a consultant for many different projects and has deep ties to the agile community. He is also very interested in automated testing using tools like WatiN or Selenium. On any given day he could be programming in C#, Javascript, Objective-C, Java or all of them. (C# is his favorite language though.)
   - url: panagiotis_tsilopoulos
