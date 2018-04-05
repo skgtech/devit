@@ -33,4 +33,4 @@ addons:
 script:
   - gulp build
   - htmlproofer ./_site --file-ignore "/2015/,/2016/,/2017/,/legacy/,/working/" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999
-  - if [ "$TRAVIS_BRANCH" = "develop" ]; then gulp deploy; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then gulp deploy; fi
