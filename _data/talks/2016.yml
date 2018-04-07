@@ -6,6 +6,7 @@
     - People
     - Social
   description: <p>Open Source seems to be the way of the future for most software development, but what does the actual day to day look like for those people who are helping to shepherd projects both big and small. And why would you get involved?</p><p>In this talk, I will walk through my experiences - the ups and the downs - of being involved with a number of open source projects over the previous few years, as a maintainer, advisor and keen observer.</p><p>I will share things I've seen succeed on projects, things that cause projects to fail, and share some thoughts on what the future hold for creating sustainable open source projects might look like.</p>
+  type: Talk
 
 - speaker: forbes_lindesay
   title: Server side rendering in React
@@ -15,6 +16,7 @@
     - ReactJS
     - Progressive Enhancement
   description: <p>It can be really difficult to make sure your web app works on every device and every browser. One simple way to ensure great cross platform support is to make your site work even when JavaScript is not enabled.</p><p>In this talk I will cover some of the tips and tricks to successfully render a React application on the server side. I’ll also talk about when you should and when you shouldn’t render on the server.</p>
+  type: Talk
 
 - speaker: simona_cotin
   title: Scaling applications using Angular and TypeScript
@@ -24,6 +26,7 @@
     - Angular
     - Typescript
   description: <p>The future of web development is components based. Building your application in a modular way using decoupled components gives you the power to reuse code and increase testability - add types and cool things will happen.</p><p>This talk is going to walk you through features in Angular 2 and explain the benefits of using TypeScript when implementing your applications.</p>
+  type: Talk
 
 - speaker: karina_popova
   title: SIM based connectivity solution for IoT
@@ -33,6 +36,7 @@
     - Messaging
     - IoT
   description: <p>Mobile connectivity is becoming more and more a key success factor for many IoT projects.<br>But if mobile connectivity is bound to a single network you simply won’t always have the quality of network coverage that you need.<br>Therefore, whatever mobile offers the "wherever SIM". The IoT/M2M SIM card dynamically switches to the strongest network – integrating 400+ radio networks in 160+ countries all around the world.</p><p>SIM cards and endpoints can be easily managed in real-time via the intuitive user-interface web-service or directly from the customer’s software application via an easy-to-integrate API.<br>The set of advanced security and development features for our web-service will be discussed.</p>
+  type: Talk
 
 - speaker: michał_budzyński
   title: Pixel Adventure
@@ -41,6 +45,7 @@
     - Front end
     - Gaming
   description: <p>To be announced.</p>
+  type: Talk
 
 - speaker: etienne_margraff
   title: Debug the web everywhere with Vorlon.js
@@ -50,6 +55,7 @@
     - JavaScript
     - Debugging
   description: <p>Debugging has always been a challenge when it comes to remote cases.<br>For the web there is F12 tools but what about debugging your website on a phone? On a tablet? On a connected car?</p><p>This talk will be about Vorlon.js, a cross-platform, open source tool to remote debug websites and node.js process.</p>
+  type: Talk
 
 - speaker: soledad_penades
   title: "Real time front-end alchemy, or: capturing, playing, altering and encoding video and audio streams, without servers or plugins!"
@@ -60,6 +66,7 @@
     - Front end
   description: "<p>As new features are added to the Web platform, the kind of experiences we can build become amazingly interactive and immersive--a huge leap forward from the static document based web of yore!</p><p>Nowadays we can access webcams and play 3D audio and graphics, all in real time and in the browser, but there was a missing piece: capturing and encoding! Most solutions involved either sending data to servers or porting C++ encoders to JavaScript, none of which were particularly efficient or desirable for privacy or performance reasons.</p> <p>Thankfully there is a better way: the new and shiny MediaCapture API, and in this talk you will learn all about it. Streams will be no strangers to you anymore, and you might even be tempted to cross a few of them---just for fun!</p>"
   youtube_url: D3_vbaZsb2o
+  type: Talk
 
 - speaker: yegor_bugayenko
   title: Need Robust Software? Make It Fragile
@@ -68,7 +75,7 @@
     - Testing
     - TDD
   description: <p>In any software project, the goal is to create something stable.<br>We don't want it to break in front of a user. We also don't want our website to show an "internal application error" instead of a web page.<br>We want our software to work, not fail.</p><p>That's a perfectly valid and logical desire, but in order to achieve that, we have to make our software as fragile as possible. This may sound counter-intuitive, but that's the way it is.<br>The more fragile your app is in development, the more robust it is in production.</p><p>I will demonstrate, with practical Java examples, what Fail Fast means and how it helps us make software more stable.</p>
-
+  type: Talk
 
 - speaker: dan_cuellar
   title: "The Story of Appium: Lessons Learned Creating an Open Source Project, 0 to 100,000 Users"
@@ -78,6 +85,7 @@
     - Hybrid
     - Cordova
   description: <p>When I demo’ed what is now called Appium at the Selenium Conference in 2012 I had no idea what I was doing starting an open source project. I knew little about how open source operated and worked behind the scenes.<br>Thanks to the help of a great community and the advice of some seasoned open source contributors, Appium has quickly become the most popular open source mobile automation framework.<br>Along the way, mistakes were made, lessons were learned, and occasionally we got things right.<br>I’ve put together a collection of stories and lessons that I’d like to share with others to help everyone manage, contribute to, and consume open source software projects more effectively.</p>
+  type: Talk
 
 - speaker: kostas_pantos
   title: Professionaly searching your web site the easy way
@@ -87,6 +95,7 @@
     - Scale
     - Cloud
   description: <p>Want to add a great search experience to your apps and websites?<br>Find out how to give your users the level of availability and efficiency they expect.<br>Learn how searching, delivered as a service, can significantly reduce the complexity of search management and scale.<br>Investigate ways that customers can naturally and effectively explore and find data, and take a look at full-text search, multi language functionality, and geospatial search.<br>Plus, see how index tuning, scoring, and weighting can enhance search results and improve business objectives.</p>
+  type: Talk
 
 - speaker: carlo_sciolla
   title: Grudging monkeys and microservices
@@ -96,6 +105,7 @@
     - Devops
     - Architecture
   description: <p>Microservices are all the rage, as they promise to lower the complexity of your applications by slimming them down to the bare essentials of one single feature.<br>But as you enter the microservices world, there's a whole universe of extra details that you need to take into account.</p><p>This is a story of how to approach microservices from an architect perspective, with a bunch of monkeys.</p>
+  type: Talk
 
 - speaker: hugo_giraudel
   title: Understanding the CSS Modules Methodology
@@ -105,6 +115,7 @@
     - Tooling
     - SASS
   description: "<p>CSS is well known for being agressively global. This very behaviour makes it difficult to scale. Style isolation and dead code elimination are only two of the many problems encountered when working with CSS on large and long-lasting codebases.</p><p>That’s why a lot of clever people came up with a lot of clever ideas to make it easier to write locally-scoped, easy-to-test, composable and scalable CSS. Among these ideas, one seems to have gained a lot of traction lately: CSS Modules.</p><p>In this talk, we will see what are CSS Modules, what they intend to solve, and how to use them. I think you’ll be surprised how little difference there is between authoring CSS Modules, and preprocessor-powered stylesheets.</p>"
+  type: Talk
 
 - speaker: laura_kalbag
   title: Ethical Design
@@ -115,3 +126,4 @@
     - Ethics
   description: <p>Ad networks, analytics, social buttons; these are usually third party scripts. Some of us build them, and almost all of us use them on our sites. But what are these scripts doing? How do they affect our sites and the people who use them? What’s happening with the data they collect?</p><p>As developers, we are the gatekeepers for the web. We need to understand the tools we use and their impact on the people who interact with our work.</p><p>Laura will look at what the web has become, and how we can use the Ethical Design Manifesto to make it better.</p>
   youtube_url: lZqfeVdjDt0
+  type: Talk

@@ -2,32 +2,38 @@
   speaker: leonie_watson
   youtube_url: oeDzH3nskbg
   description: "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game."
+  type: Talk
 
 - title: Data collection, forms, inclusivity
   speaker: hugo_giraudel
   description: "Asking for information online is hard. Users are cautious about the data they share. Companies are quite terrible at asking for the right piece of information, let alone phrasing it correctly. In this presentation, we’ll focus on two major pieces of information about a person: their name, and their gender. We’ll see how not to ask for them, and how we can ensure inclusivity and diversity on the web by asking the right thing in the right format."
   youtube_url: yhK_LvD8WSg
+  type: Talk
 
 - speaker: bodil_stokke
   title: "Pure Fun with PureScript"
   youtube_url: bKXL-Q1UVww
   description: "In which we explore how some of the core ideas from modern functional programming (like managing side effects with referential transparency and managing state with persistent data structures) can be used to make modern web development less of a mess by putting them into practice writing a single page web app with real moving parts (OK, it’s a game and it has dogs) while you watch in astonishment."
+  type: Talk
 
 - title: iOS & Swift
   speaker: natasha_murashev
   title: Build Features, Not Apps
   youtube_url: OidUBZ4pqcM
   description: "Most iPhone users don’t bother installing any apps per months. And worse, ~80% never use an app they’ve installed again. The future of mobile is clearly not apps, but features. Features that make the iPhone ecosystem still a native experience, but as open and flexible as the web. Learn how you could prepare for that future."
+  type: Talk
 
 - title: Learn Redis the hard way ... in production @Trivago
   speaker: andy_grunwald
   description: For our products, like the trivago hotel search, we are using Redis a lot. The use cases vary, Caching, temporary storage of data before moving those into another storage or a typical database for hotel meta data including persistence. The main parts of the hotel search are build with PHP for the frontend (web) and Java for the backend part. In this talk we will focus on the combination of our PHP app and Redis. Both are running fine, but it was a long and hard way up to the current situation. We will tell you the story how we learned to use Redis. Including our failures and experience.
   youtube_url: PHsx0Fy-knA
+  type: Talk
 
 - title: Deploying ElasticSearch clusters on Azure using SaltStack
   speaker: rita_zhang
   description: SaltStack is an Open Source project that aims to deliver infrastructure as code and configuration management with abstraction of the cloud provider selected. In this session, we will take a look at an end-to-end real world example of provisioning an ElasticSearch cluster on Azure using SaltStack configurations. The model of SaltStack is based on master and minions with each minion agent reaching back to the master; this makes the solution very scalable. The master holds the configuration of the minions in a set of configuration files. Those files provide an idempotent configuration that will be applied when the minion role is deployed or at any time the configuration is re-applied.
   youtube_url: ZAldcHmMh9Y
+  type: Talk
 
 - title: "What Big Data is Missing: Remembering Our Humanity"
   speaker: marisa_morby
@@ -39,14 +45,253 @@
       <li>Strategies for analyzing and finding patterns in the data that show you what people want — even if they don't realize it yet.</li>
       <li>A checklist for identifying the gaps in your marketing — and how to fill them.</li>
       <li>Techniques for interviewing customers that will get them to tell you the words they want to hear in your marketing.</li></ul>"
+  type: Talk
 
 - title: Machine Learning
   speaker: julien_simon
   title: AI on a Pi
   youtube_url: LXhh_D9Zehc
   description: In recent months, Artificial Intelligence has become the hottest topic in the IT industry. In this session, we’ll explain how Deep Learning — a subset of AI — differs from traditional Machine Learning and how it can help you solve complex problems such as computer vision or natural language processing. We’ll introduce you to MXNet, an Open Source Deep Learning library and we’ll show you to run it on a Raspberry Pi. Then, using a camera and a pre-trained object detection model, we’ll show random objects to the Pi…and listen to what it thinks the objects are, thanks to the text-to-speech capabilities of Amazon Polly.
+  type: Talk
 
 - title: Closing keynote - p2p on the web
   speaker: james_halliday
   youtube_url: H56Ubfy4GwY
   description: "In this talk, we will learn some simple tools and tricks to build p2p data replication and gossip networks on the web using websockets and webrtc."
+  type: Talk
+
+- speaker: "james_halliday"
+  type: Workshop
+  title: "Cutting edge web technology whirlwind"
+  description: "In this workshop, you will get hands-on experience with emerging technologies for the web platform."
+  skill: "Intermediate"
+  prerequisites: "javascript basics, familiarity with npm"
+  covers:
+    - Core node.js and browser abstractions like streams
+    - Websockets
+    - How to stream data to peers over webrtc
+    - How to record and generate audio with the webaudio API
+    - How to connect to devices using web bluetooth
+    - How to sync data with p2p protocols
+    - How to write shaders with webgl to create performant 3d and 2d graphics
+    - Typed arrays in addition to some nifty workflow tricks
+    - A few dozen handy but lesser-known npm packages that will help you to glue everything together
+
+- speaker: "harry_roberts"
+  type: Workshop
+  title: "Front-end Performance"
+  description: "Every case-study, every report, and every bit of feedback always tells us the same thing: speed matters. It’s good for users, it’s good for accessibility, and it’s good for business. But why are modern browsing experiences so slow? If technology is getting better, why are websites getting worse?"
+  skill: "Intermediate"
+  prerequisites: "html, css, javascript, basic networking knowledge, something for making **a lot** of notes."
+  covers:
+    - How the network really works, and how to design around it;
+    - How to keep websites fast whilst keeping clients and stakeholders happy;
+    - How to optimise our assets for faster delivery;
+    - How to trick the browser into delivering assets with different priorities;
+    - How to measure and profile performance wins and losses;
+    - A whole host of tips, tricks, and techniques to help us deliver the same
+      experiences in record times;
+    - A bunch of fascinating little factoids and trivia which help shine a light on
+      what’s really going on under the hood;
+    - How to prepare for the web (and its users) of tomorrow;
+    - lots of naughty little micro-optimisations, just for fun;
+    - And a lot, lot more.
+
+- speaker: "julien_simon"
+  type: Workshop
+  title: "Scaling from 0 to millions of users with AWS"
+  description: "The goal of this workshop is to teach you how to build scalable web platforms on AWS. Along the way, we’ll play with a lot of AWS services and see how they can help us build better and faster."
+  skill: "Intermediate"
+  prerequisites: "basic Linux skills, basic infrastructure concepts, basic Python/SQL/JSON/YAML, AWS account, desire to learn and build"
+  covers:
+    - Virtual private cloud (VPC)
+    - Elastic Compute Cloud (EC2)
+    - Elastic Block store (EBS)
+    - Relational Database Service (RDS)
+    - NoSQL Cloud Database Service (DynamoDB)
+    - Simple Storage Service (S3)
+    - CloudFront Content Delivery Network (CDN)
+    - Elastic Load Balancing (ELB)
+    - EC2 Container Registry (ECR)
+    - EC2 Container Service (ECS)
+    - Auto Scaling
+    - Automate infrastructure builds with CloudFormation
+    - Serverless compute (Lambda)
+
+- speaker: "florian_schaffler"
+  type: Workshop
+  title: "Serverless Web-Application on AWS with Claudia.js"
+  description: With AWS Lambda and AWS API Gateway, we have the possibility to create serverless web-applications that can scale to whatever size we need. By going serverless, we take away all the management tasks that are involved in keeping a web-application up and running. During this workshop we'll build a Node.js web-application based on Claudia.js, which will run without a server. As the most interesting part is concerning the backend, we'll only have a very small and simple client.
+  skill: "Intermediate"
+  prerequisites: Have an AWS (Amazon Web Services) account. Have a properly set up Node.js environment.
+  covers:
+    - AWS API Gateway
+    - Claudia.js
+    - Serverless compute (Lambda)
+
+- speaker: "vladimir_grinenko"
+  type: Workshop
+  title: "Dependencies in component web done right"
+  description: We live in a component-based world. And complex components are based on simple once. This implies the need to express dependencies between them. Most existing methods have notable disadvantages, hardcode, refactoring complexity, large amount of manual work and so on. And there's a way to get rid of all these issues.
+  skill: "Basic to intermediate"
+  prerequisites: "Some knowledge of CSS, browser JS, any build tool for front-end (e.g.gulp/webpack) and some experience of node.js."
+  covers:
+    - Dependencies declaration in terms of components not files
+    - How to declare dependencies in much less verbose way
+    - How not to mix business logic with dependencies declaration and components implementation
+    - Make easy math on dependencies (find common deps, etc.)
+    - Build components by layers. E.g. redefine component library code on project level or move common part of component from specific platform implementation
+    - All the things described above implemented on top of React and BEM platform
+
+- speaker: "ivo_neskovic"
+  type: Workshop
+  title: "Android - From Zero to Hero"
+  description: The workshop deals with the design and implementation of applications for mobile devices using the Android operating system. Participants work at all stages of the development life-cycle from inception to deployment, whilst considering usability and device capabilities for a mobile application capable of meeting a functional specification. Participants are introduced to the programming environment for application development and have a hands-on approach to programming using the appropriate programming languages.
+  skill: Intermediate
+  prerequisites: Knowledge of the Java programming language and familiarity with XML, desire to learn and build
+  covers:
+    - Challenges of Mobile Development
+    - Introduction to the Android development environment
+    - Fundamental App components
+    - Basic UI Widgets
+    - Laying out UI components
+    - Multi-screen Apps with Intents
+
+- speaker: "melanie_patrick"
+  type: Workshop
+  title: "Git - How to Unfuck"
+  url: "melanie-patrick--git-how-to-unfuck"
+  description: Git is awesome, but sometimes it is just pure pain. With all those powerful features, screw-ups will happen from time to time. This talk is interesting for you if you are working with Git or planning to. It will also present the case for using Git on the command line, as well as showing you easy ways to handle typical situations that happen in your daily (working) life.
+  skill: "Beginner"
+  prerequisites: Basic understanding of what Git is and what it does – maybe even some practical experience. Have Git (>2.0) installed on your laptop. Bring some basic command line knowledge.
+  covers:
+    - Git
+
+- speaker: "mete_atamel"
+  type: Worhsop
+  title: "ASP.NET Core containers on Google App Engine and GKE/Kubernetes"
+  description: "In this workshop, we will start with an ASP.NET Core app runnning on Linux. We will then take a look at Docker and learn about how containers are changing the way we deploy code. Once our app is containerised with Docker, we will deploy our app to App Engine and look at versioning, traffic splitting and other features of App Engine that simplify running containers at scale. We will then deploy our app onto a Kubernetes cluster on Google Container Engine (GKE) and take a look at pods, volumes, replicasets, services and all other features that make Kubernetes a great system for automating deployment, operations and scaling of containerised apps."
+  skill: "Beginner"
+  prerequisites: " A little knowledge of .NET Core development and containers would be useful but not required."
+  covers:
+    - Intro to containers
+    - Intro to Kubernetes
+    - Intro to ASP.NET Core on Linux in Google Cloud
+    - Deploying containerised ASP.NET Core apps to Google App Engine
+    - Deploying containerised ASP.NET Core apps Kubernetes on Google Container Engine
+
+- speaker: "mike_smart"
+  type: Worhsop
+  title: "React is undefined"
+  description: "A crash course to React to learn what it is, when to use it and how."
+  skill: "HTML, CSS and JavaScript knowledge"
+  prerequisites: "Laptop, internet connection, GitHub account, npm setup."
+  covers:
+    - What is React
+    - Hello world
+    - Playing with props
+    - Component lifecycle
+    - State
+    - Higher-order components
+    - Manipulating data
+    - Styling
+    - State management (Redux)
+
+- speaker: "antonio_peric"
+  type: Workshop
+  title: "Symfony more in depth with events and services"
+  description: "You have already learn Symfony basics but want to know more about DIC, Events and Subscriber, Services, Forms? Meet me at this workshop and I will love to share knowledge with you."
+  skill: "Intermediate"
+  prerequisites: "basic Symfony knowledge, OOP"
+  covers:
+    - Registering and using services (Dependency Injection and Service Container)
+    - Registering and using Events
+    - Extending Forms with custom constrain validators
+    - Creating Custom Console Command
+    - Using Form Events
+    - Compiler Passes
+
+- speaker: "zaharenia_atzitzikaki"
+  type: Worhsop
+  title: "Design for Developers"
+  description: "Developers tend to believe that you have to be born with some kind of superhuman artistic gene that will magically make you a great designer, but this is not true. Design is a skill, and as a skill it can be taught. This workshop will help you apply basic design theory to come up with a fresh, modern design that can stand on its own, without any need for a designer."
+  prerequisites: We’ll start with a draft presentational site for a (fictional) SaaS and we’ll iteratively apply basic design principles to make it look awesome.
+    There are five main sections to the workshop and each section will last about 25-30 minutes. You can bring your laptop to follow the practical part, but it’s not mandatory. If you wish to follow along, basic CSS knowledge is required.
+  skill: "Beginner"
+  covers:
+    - "[Layout Theory] Grids & whitespace"
+    - "[Layout Practice] How to apply whitespace, how to use & break the grid"
+    - "[Typography Theory] Basic typeface classification, typographic scale"
+    - "[Typography Practice] How to find your workhorse typeface, how to combine typefaces, how to apply typographic scale on your design"
+    - "[Colour Theory] Intro to colour theory (colour wheel, classification), how to combine colours"
+    - "[Colour Practice] How to pick a colour palette, how to apply your colour palette on your design"
+    - "[Graphics & animation Theory] Icons & images, video & animation"
+    - "[Graphics & animation Practice] How to choose & use an icon set, how (and where) to add video or animation, how to spice up a pricing table"
+    - "[Copywriting Theory] Copywriting is design, clarity, voice & tone style guides"
+    - "[Copywriting Practice] How to write clear copy, how to avoid slang, how to ruthlessly edit, how to write clear forms"
+
+- speaker: "constantinos_ziazios"
+  type: Workshop
+  title: "Create an intelligent serverless application in Azure Cloud"
+  description: " The workshop shows how you will create a totally serverless solution on processing binary data, such as pictures. We will learn the basics of a serverless architecture, and how we can benefit from its potential for endless scaling. Also, we will see how can add Microsoft Cognitive Services in order to provide a scalable, intelligent backend."
+  skill: "Intermediate"
+  prerequisites: "c#,    javascript basics"
+  covers:
+    - How to work with Azure Functions
+    - How to connect to Azure service bus
+    - How to store and retrieve data from Azure Blob Storage
+    - How to use Microsoft Cognitive Services
+
+- speaker: "forbes_lindesay"
+  type: Workshop
+  title: "Bulletproffing React Apps (jest, web drivers, flow)"
+  description: Building a front end application for the web can feel like a constant battle against bugs.  Every time you add a feature, something else breaks.  Fortunately, there are lots of tools available now that can help you track down bugs, and make sure that once you've fixed them, they don't re-surface.
+  skill: "Intermediate"
+  prerequisites: "HTML & JavaScript. You should feel comfortable building a front end web-app.  At least some experience of React."
+  covers:
+    - How to configure static analysis (via flow & eslint) to prevent lots of common mistakes.
+    - How to set up automated JavaScript testing (via jest).
+    - How to balance the relative benefits of isolated unit tests and broad integration tests.
+    - How to make effective use of snapshots so you can test things even when they change frequently.
+    - How to setup truly end to end tests (using web driver).
+
+- speaker: "marisa_morby"
+  type: "Workshop"
+  title: "Discover how iterative testing will help you create a winning design, every time"
+  description: "Participants will learn how to successfully test and iterate their prototypes so they get the right design before going live. In this workshop, you'll create a design concept, validate it with real data (not guesswork or gut feelings) and walk away with a design you can feel confident will succeed. All without spending a single dollar on design or development."
+  skill: "Beginner to Intermediate (mainly people who are interested in user research and data)"
+  prerequisites: |
+    Sketch: https://www.sketchapp.com/,
+    Invision: https://www.invisionapp.com/,
+    Experience with design and the concept of iteration
+  covers:
+    - Creating a design prototype
+    - Validating that design with real data
+    - Understanding the feedback you get
+    - Deciding when your prototype is ready to go out and have the best chance of succeeding
+    - Learn strategies for continually gathering user data to avoid costly design mistakes
+
+- speaker: "jason_lengstorf"
+  type: "Workshop"
+  title: "Progressive Web Apps: Looks Like Vegetables; Tastes Like Victory"
+  description: "There's a big push for Offline First development, with a new buzzword — 'Progressive Web App', or PWA — making the rounds for the last year or two. But a lot of what's being said sounds like the coding equivalent of 'eat your vegetables!' What's in it for ME? Quite a bit, it turns out. In this workshop, you'll learn the surprising ways that online apps will see huge benefits when they're built to support offline users. Learn how to ace Google's progressive web app test, Lighthouse, with just a few simple changes, and how you can easily create Offline First apps with just a few lines of code. Learn how going Offline First will improve the connected experience, including: better performance, increased stability and reliability, improved user experience and more! So in addition to eating your vegetables — you know, making your web apps usable for people with slow and unreliable connections or whatever — you'll ALSO see your apps get even better for connected users. And all with minimal development effort required."
+  skill: "Intermediate"
+  prerequisites: "Basic command line skills, HTML/CSS skills, Node.js/NPM installed on the computer"
+  covers:
+    - How to use Service Worker
+    - Lazy loading resources for improved loading time
+    - Optimizing the UI for performance
+    - How to add offline-capable databases to your web apps with 8 lines of code
+
+- speaker: "dennis_stavroyiannopoulos"
+  type: Workshop
+  title: "Start your Cognitive Cloud Computing using IBM Bluemix"
+  description: "This workshop is dedicated to all developers who want to discover the platform IBM Bluemix. In this short session we will create simple applications using a variety of services and DevOps tools."
+  skill: "Beginner"
+  prerequisites: "Basic cloud computing concepts, basic javascript"
+  covers:
+    - Developing applications on Bluemix
+    - Using Bluemix devops for Cloud Foundry applications
+    - Developing on NodeRed
+    - Using Watson services
+    - Developing on serverless frameworks such as OpenWhisk

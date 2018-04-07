@@ -1,9 +1,3 @@
----
-layout: default
-title: Speaker Example
-description: Explore all speakers that have talked to DEVit.
----
-
 {% include blocks/header.html page="speaker" %}
 
 <!-- {% assign speaker = site.data.speakers['2016'].speakers[0] %} -->
@@ -17,8 +11,8 @@ description: Explore all speakers that have talked to DEVit.
       </div>
       <div class="speaker-page__header__right">
         <h1 class="speaker-page__name">{{ speaker.first_name }} {{ speaker.last_name }}</h1>
-        <p class="speaker-page__title">{{ speaker.tagline }}</p>
-        <p class="speaker-page__bio">{{ speaker.bio }}</p>
+        <div class="speaker-page__title">{{ speaker.tagline }}</div>
+        <div class="speaker-page__bio">{{ speaker.bio }}</div>
       </div>
     </div>
   </div>
@@ -32,8 +26,8 @@ description: Explore all speakers that have talked to DEVit.
           {% for year in years %}
             {% for talk in site.data.talks[year] %}
             {% if talk.speaker == speaker.url %}
-                <li role="{{ year }}">
-                  <a href="#{{ year }}" aria-controls="{{ year }}" role="tab" data-toggle="tab">{{ year }} {{ talk.type }}</a>
+                <li role="{{ talk.title | slugify }}">
+                  <a href="#{{ talk.title | slugify }}" aria-controls="{{ talk.title | slugify }}" role="tab" data-toggle="tab">{{ year }} {{ talk.type }}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -47,15 +41,34 @@ description: Explore all speakers that have talked to DEVit.
           {% for year in years %}
             {% for talk in site.data.talks[year] %}
               {% if talk.speaker == speaker.url %}
-                <div role="tabpanel" class="tab-pane" id="{{ year }}">
+                <div role="tabpanel" class="tab-pane" id="{{ talk.title | slugify }}">
                   <div class="talk">
                     <h1 class="talk__title">
                       {{ talk.title }}
                     </h1>
-                    <p class="talk__description">
+                    <div class="talk__description">
                       {{ talk.description }}
                       {% include components/tags.html tags=talk.tags %}
-                    </p>
+
+                    <!-- {% if talk.type == "Workshop" %}
+                      <div>
+                        <p>
+                          <b>Skill Level: </b>{{ talk.skill }}
+                        </p>
+                        <p>
+                          <b>Prerequisites: </b>{{ talk.prerequisites }}
+                        </p>
+                        <p>
+                          <b>Covers:</b>
+                          <ul>
+                          {% for item in talk.covers %}
+                          <li>{{ item }}</li>
+                          {% endfor %}
+                          </ul>
+                        </p>
+                      </div>
+                    {% endif %} -->
+                    </div>
                     {% if talk.youtube_url %}
                       <div class="talk__video">
                         <iframe width="100%" height="531" src="https://www.youtube.com/embed/{{talk.youtube_url}}?rel=0&amp;showinfo=0" frameborder="0"
@@ -68,6 +81,7 @@ description: Explore all speakers that have talked to DEVit.
             {% endfor %}
           {% endfor %}
         </div>
+        <hr>
       </div>
     </div>
   </div>

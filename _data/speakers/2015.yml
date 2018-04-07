@@ -76,7 +76,7 @@ speakers:
     image_filename: "Nikos_Zinas.jpg"
     social:
       twitter: nzinas
-      github: nzinas
+      github: zinas
     bio: Nikos' focus is designing solutions for large teams, helping companies scale and setup frontend architectures.
   - url: nick_krassas
     year: 2015
@@ -117,4 +117,3 @@ speakers:
       twitter: kubawalinski
       github: kubawalinski
     bio: Kuba has 7+ year career as an ASP.NET/C# developer but now he's doing his best to earn the title of a JS Ninja.
-

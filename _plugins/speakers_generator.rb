@@ -20,11 +20,13 @@ module Jekyll
       @name = 'index.html'
       self.process(@name)
       self.read_yaml(File.join(@base, 'pages'), 'speakers/single.html')
+      self.data['layout'] = 'default'
+      self.data['custom_js'] = ['speaker.bundle.js']
       self.data['speaker'] = speaker
       self.data['year'] = year
       self.data['title'] = "#{ speaker['first_name'] } #{speaker['last_name']}"
       self.data['description'] = "#{ speaker['bio'].gsub(/<\/?[^>]*>/, "")[0, 150] } ..."
-      self.data['image'] = "/assets/images/speakers/#{year}/#{ speaker['first_name'] }_#{ speaker['last_name'] }.png"
+      self.data['image'] = "/assets/images/speakers/#{year}/#{ speaker['image_filename'] ? speaker['image_filename'] : "#{speaker['first_name']}_#{speaker['last_name']}.png" }"
     end
   end
 

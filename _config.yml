@@ -1,7 +1,7 @@
 name: devit
 description: The DEVit conference
 
-url: http://devitconf.org
+url: https://devitconf.org
 
 exclude: [
   "node_modules",

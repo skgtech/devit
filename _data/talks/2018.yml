@@ -6,7 +6,12 @@
   speaker: julien_simon
   type: Talk
 
-- title: "To be announced"
+- title: "Why Software STILL Sucks"
+  description: "<p>It’s been over a decade since David S. Platt ripped the lid off the software industry sausage
+    factory with his blockbuster book Why Software Sucks. The industry has grown spectacularly in that time, with
+    the whole mobile sector, the IoT, artificial intelligence and now quantum computing. And yet it still falls far
+    short of our users’ needs, for the same reasons that it always has.</p><p>Come hear industry legend David Platt
+    describe the lessons that the industry still hasn’t learned, and needs to, even more desperately today.</p>"
   speaker: dave_platt
   type: Talk
 
@@ -52,6 +57,13 @@
   ticket: single
   type: Workshop
 
-- title: "To be announced"
+- title: "Modern easy IoT with JS, Docker & Resin.io"
+  description: "<p>Are you curious about how IoT development works? Or are you already an experienced hardware
+    hacker, looking to take your skills to the next level? In this workshop you'll learn how to build IoT devices
+    using powerful development tools that will be familiar to anybody comfortable with modern web development.</p>
+    <p>We'll use Docker and <a target=\"_blank\" rel=\"noopenner\" href=\"https://resin.io\">Resin.io</a> to
+    write, build & deploy software for real Raspberry Pis in JavaScript, to control motion sensors,
+    LEDs and more.</p>"
+  ticket: single
   speaker: tim_perry
   type: Workshop

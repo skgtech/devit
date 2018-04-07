@@ -11,7 +11,10 @@
         {% endif %}
         {% if item.img %}
           <a href="{{item.url}}" target="_blank" rel="noopener">
-            <img src="{{ item.img }}" alt="{{ item.name }}">
+            <img
+              src="{{ item.img }}"
+              alt="{{ item.name }}"
+              {% if item.override_height %}style={{"max-height:" | append: item.override_height | append: """ }}{% endif %}>
           </a>
         {% endif %}
       </div>
