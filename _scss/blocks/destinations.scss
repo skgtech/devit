@@ -53,7 +53,20 @@ $dest-images:(
   market1,
   sea1,
   sea2,
-  sea3
+  sea3,
+  thess1,
+  aristotelous,
+  kamara,
+  food,
+  vendor,
+  beachside,
+  beach,
+  park,
+  shops,
+  market2,
+  market_3,
+  boat,
+  museum
 );
 
 @each $image in $dest-images {
@@ -199,11 +212,11 @@ $dest-images:(
   background-color: #f5f8fa;
 }
 
-@each $image in $dest-images {
-  .visit__image--#{$image} {
-    background-image: url(/assets/images/visit/#{$image}.jpg);
-  }
-}
+//@each $image in $dest-images {
+//  .visit__image--#{$image} {
+//    background-image: url(/assets/images/visit/#{$image}.jpg);
+//  }
+//}
 
 //Experience blocks
 
