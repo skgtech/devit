@@ -131,3 +131,84 @@ $dest-images:(
     }
   }
 }
+
+
+//Visit block
+.visit__image {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.visit__mosaic_small {
+  height: 420px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 100%;
+
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 30%;
+  }
+}
+
+.visit__mosaic_small--25 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 25%;
+  }
+}
+
+.visit__mosaic_small--75 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 75%;
+  }
+}
+
+.visit__mosaic_big {
+  height: 420px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 100%;
+
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 70%;
+  }
+}
+
+
+.visit__mosaic_big--25 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 25%;
+  }
+}
+
+.visit__mosaic_big--75 {
+  @media (min-width: $screen-sm-min) {
+    flex: 1 0 75%;
+  }
+}
+
+.visit {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5f8fa;
+}
+
+@each $image in $dest-images {
+  .visit__image--#{$image} {
+    background-image: url(/assets/images/visit/#{$image}.jpg);
+  }
+}
+
+//Experience blocks
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5f8fa;
+}
