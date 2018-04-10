@@ -61,9 +61,44 @@
   description: "<p>Are you curious about how IoT development works? Or are you already an experienced hardware
     hacker, looking to take your skills to the next level? In this workshop you'll learn how to build IoT devices
     using powerful development tools that will be familiar to anybody comfortable with modern web development.</p>
-    <p>We'll use Docker and <a target=\"_blank\" rel=\"noopenner\" href=\"https://resin.io\">Resin.io</a> to
+    <p>We'll use Docker and <a target=\"_blank\" rel=\"noopener\" href=\"https://resin.io\">Resin.io</a> to
     write, build & deploy software for real Raspberry Pis in JavaScript, to control motion sensors,
     LEDs and more.</p>"
   ticket: single
   speaker: tim_perry
+  type: Workshop
+
+- title: "From good to SOLID: how to become a better PHP developer?"
+  description: "<p>PHP is undervalued in the world of web development. Yet, with the rise of PHP7,
+    modern frameworks, and design principles, PHP has grown far beyond the basic scripting language it
+    started as. In this presentation, we'll focus on what distinguishes a good PHP developer from a
+    strong one. We'll learn how we can become better developers and make use of the SOLID design
+    principles to deliver scalable and extendable solutions.</p><p> Prerequisites: good understanding of
+    Object Oriented Programming and PHP; working environment with MySQL, PHP and Apache;
+    text editor or IDE of your choosing;</p>"
+  ticket: single
+  speaker: katerina_trajchevska
+  type: Workshop
+
+- title: "Breaking the norm with creative CSS"
+  description: "<p>Feeling uninspired and tired of constantly building the same layouts? Let’s
+    leverage the CSS superpowers you might have heard about before, but haven’t already used.
+    Let’s explore new CSS features that give us a great set of tools and enable to do amazing
+    things on the web! The future of web graphics and CSS as a design language is bright, and
+    finally it will make us less dependent on the image editors. We’re entering the new era
+    with in-browser designing. Don’t stay behind and get some fresh air of creativity
+    directly in the web browser.</p>"
+  ticket: single
+  speaker: agnieszka_naplocha
+  type: Talk
+
+- title: "Delivering Serverless Experience"
+  description: "<p>Serverless has been a hot topic for years but not many companies use it to deliver
+    their main applications. Having worked with it in many different settings, I will explain on
+    practical examples how serverless architecture works for projects both small and large. You will
+    learn about its pros and cons and why a lot of companies hesitate to use it; is it safe enough,
+    efficient, cost-effective, easy to use? This talk will dispel a lot of common worries, help you
+    figure out if it is the right choice for you, and give you a few tips on how to get started.</p>"
+  ticket: single
+  speaker: anna_doubková
   type: Workshop
