@@ -150,7 +150,7 @@ speakers:
       github: pimterry
     bio: |
       <p>Tim Perry is a senior software engineer at <a target="_blank"
-      rel="noopenner" href="https://resin.io">Resin.io</a> , writing
+      rel="noopener" href="https://resin.io">Resin.io</a> , writing
       JavaScript that runs everywhere from web frontends to command
       line tools to backend services to embedded systems. He's passionate
       about building valuable tools for the real world, effective testing,
@@ -158,3 +158,74 @@ speakers:
       an enthusiastic open-source contributor to a wide variety of tools
       across the JS, Java and C# ecosystems, and the maintainer of a long
       list of projects including Loglevel, notes, Git-Confirm & Mockttp.</p>
+
+  - url: katerina_trajchevska
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Backend
+      - PHP
+      - OOP
+    first_name: Katerina
+    last_name: Trajchevska
+    image_filename: Katerina_Trajchevska.png
+    tagline: Backend Consultant & Remote Work Advocate. Co-founder and CEO of Adeva.
+    social:
+      twitter: ktrajchevska
+      github: trajchevska
+    bio: "<p>Katerina is an entrepreneur and software engineer. Professionally, her
+      passion is in the backend: developing for scalability and extensibility,
+      with a focus on design patterns and reusable code. At Adeva, she has the
+      opportunity to collaborate with world-class startups and enterprises where
+      she puts that passion into practice. Leading a tech startup gives Katerina
+      the chance to work with a passionate team, follow the latest trends in
+      tech and innovate. </p><p>The collaboration with various organizations worldwide
+      has brought her valuable insights in many industries and helped her master
+      the art of remote working. That experience has helped grow Adeva in an organization
+      trusted by Inc 5000 companies, recognized in the local tech community as
+      a place with a culture of sharing, care, and collaboration.</p></p>On both
+      personal and professional level, Katerina stands for equality, inclusion,
+      and giving back to the community. She actively takes part of initiatives
+      for women in tech, contributes to the local tech community, and volunteers
+      as a mentor in different programs and initiatives.</p>"
+
+  - url: agnieszka_naplocha
+    year: 2018
+    hearFor: Talk
+    tags:
+      - Frontend
+      - CSS
+    first_name: Agnieszka
+    last_name: Naplocha
+    image_filename: Agnieszka_Naplocha.png
+    tagline: Designer and front-end coder, currently working at Adobe in Warsaw, Poland.
+    social:
+      twitter: aganaplocha
+      homepage: http://aganaplocha.com
+    bio: |
+      <p>Aga Naplocha is a designer and front-end coder with a strong focus on
+      UX-related issues, currently working at Adobe. She's the co-founder of
+      <a href="http://theawwwesomes.org">The Awwwesomes</a> - a non-profit organization
+      teaching how to create awesome stuff on the Web, organizing coding (HTML & CSS)
+      workshops in Poland. She's keen on sharing her knowledge around the world,
+      giving talks on many international conferences. </p><p>Aga belongs to Google
+      Launchpad Mentors group, helping startups with solving UX issues. She's a
+      huge fan of Wes Anderson's movies and loves pink color (check out The
+      <a href="https://www.instagram.com/theawwwesomes/">Awwwesomes' instagram</a>).
+      She can not imagine her life without dark chocolate.</p>
+
+  - url: anna_doubková
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Backend
+      - Serverless
+    first_name: Anna
+    last_name: Doubková
+    image_filename: Anna_Doubková.png
+    tagline: React, Node and serverless developer
+    social:
+      twitter: lithinn
+      github: lithin
+      homepage: http://annalogical.com/
+    bio: ""

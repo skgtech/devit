@@ -14,8 +14,8 @@
         {{ speaker.first_name }} {{ speaker.last_name }}
       </span>
     </a>
-    {% if speaker.tagline.size > 40 %}
-      <div class="speaker__title">{{ speaker.tagline | truncate: 50 }}</div>
+    {% if speaker.tagline.size > 60 %}
+      <div class="speaker__title">{{ speaker.tagline | truncate: 60 }}</div>
     {% else %}
       <div class="speaker__title">{{ speaker.tagline }}</div>
     {% endif %}
@@ -51,7 +51,7 @@
           {% assign icon = "fas fa-link" %}
           {% assign link = social[1] %}
         {% endif %}
-        <a href="{{ link }}" class="speaker__social__item {{icon}}"></a>
+        <a href="{{ link }}" target="blank" rel="noopener" class="speaker__social__item {{icon}}"></a>
 
       {% endfor %}
     </div>
