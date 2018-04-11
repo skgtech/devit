@@ -13,12 +13,9 @@ gold:
       img: /assets/images/sponsors/svg/resinio.svg
       url: https://resin.io/
 
-# silver:
-#   -
-#     - name: Toptal
-#       img: /assets/images/sponsors/svg/toptal.svg
-#     - name: Workable
-#       img: /assets/images/sponsors/svg/workable.svg
-#   -
-#     - name: Automattic
-#       img: /assets/images/sponsors/svg/automattic.svg
+silver:
+  -
+    - name: Ellinair
+      img: /assets/images/sponsors/svg/ellinair.svg
+      url: https://ellinair.com
+      override_height: 80px
