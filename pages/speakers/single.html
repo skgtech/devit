@@ -1,6 +1,5 @@
 {% include blocks/header.html page="speaker" %}
 
-<!-- {% assign speaker = site.data.speakers['2016'].speakers[0] %} -->
 {% assign speaker = page.speaker %}
 
 <div class="speaker-page">
@@ -20,8 +19,7 @@
   <div class="talks">
     <div class="talks__tabs">
       <div class="container">
-        {% assign talks = "" | split: "" %}
-        {% assign years = '2018,2017,2016,2015,' | split: ',' %}
+        {% assign years = '2018,2017,2016,2015' | split: ',' %}
         <ul class="nav nav-tabs" role="tablist">
           {% for year in years %}
             {% for talk in site.data.talks[year] %}
@@ -36,12 +34,12 @@
       </div>
     </div>
     <div class="talks__content">
-      <div class="container">
-        <div class="tab-content">
-          {% for year in years %}
-            {% for talk in site.data.talks[year] %}
-              {% if talk.speaker == speaker.url %}
-                <div role="tabpanel" class="tab-pane" id="{{ talk.title | slugify }}">
+      <div class="tab-content">
+        {% for year in years %}
+          {% for talk in site.data.talks[year] %}
+            {% if talk.speaker == speaker.url %}
+              <div role="tabpanel" class="tab-pane" id="{{ talk.title | slugify }}">
+                <div class="container">
                   <div class="talk">
                     <h1 class="talk__title">
                       {{ talk.title }}
@@ -76,12 +74,12 @@
                       </div>
                     {% endif %}
                   </div>
+                  <hr>
                 </div>
-              {% endif %}
-            {% endfor %}
+              </div>
+            {% endif %}
           {% endfor %}
-        </div>
-        <hr>
+        {% endfor %}
       </div>
     </div>
   </div>
