@@ -19,11 +19,11 @@
     {% else %}
       <div class="speaker__title">{{ speaker.tagline }}</div>
     {% endif %}
-  {% endif %}
-  <div class="speaker__hover">
     <div class="speaker__type">
         {{ speaker.hearFor }}
     </div>
+  {% endif %}
+  <div class="speaker__hover">
     {% include components/tags.html tags=speaker.tags %}
     <div class="speaker__social">
       {% for social in speaker.social %}
@@ -51,8 +51,9 @@
           {% assign icon = "fas fa-link" %}
           {% assign link = social[1] %}
         {% endif %}
-        <a href="{{ link }}" target="blank" rel="noopener" class="speaker__social__item {{icon}}"></a>
-
+        <a href="{{link}}" class="speaker__social__item" target="blank" rel="noopener">
+          <i class="{{icon}}"></i>
+        </a>
       {% endfor %}
     </div>
   </div>

@@ -1,3 +1,8 @@
+// Notes:
+// (1) Used to add overlapping speakers cards effect in medium+ screens
+// (2) Used instead of z-index, but it’s animatable
+// (3) FIXME: This works only for static height speaker cards.
+
 .speakers-container {
   @extend .block;
   background: white;
@@ -5,22 +10,62 @@
 .speakers-list {
   @extend .container;
   margin-top: 40px;
+  transform-style: preserve-3d;
+
+  // (1)
+  @media (min-width: $screen-md-min) {
+    padding-top: 100px;
+  }
 }
 .speakers-list__item {
   @include make-sm-column(6);
   @include make-md-column(4);
   margin-top: 10px;
   margin-bottom: 10px;
+  transform: translate3d(0, 0, 0); // (2)
+  transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+
+  // (1)
+  @media (min-width: $screen-md-min) {
+    filter: grayscale(100%);
+    margin-top: -100px; // (3)
+
+    &:hover {
+      filter: grayscale(0%);
+      transform: translate3d(0, 0, 1px); // (2)
+
+      .speaker {
+        background-color: white;
+        box-shadow: 0 0 10px 0 rgba(0,62,115,0.1);
+        padding: 32px;
+      }
+
+      .speaker__hover {
+        opacity: 1;
+      }
+    }
+  }
 }
 .speaker {
+  height: auto;
   text-align: center;
-  padding: 30px;
-  background: white;
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  transition: all 0.4s cubic-bezier(.25,.8,.25,1);
 
-  &--hover,
-  &:hover {
-    border-radius: 15px;
-    box-shadow: 0 0 10px 0 rgba(0,62,115,0.1);
+  // (1)
+  @media (min-width: $screen-md-min) {
+    background-color: transparent;
+  }
+}
+
+.speaker--hover {
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0,62,115,0.1);
+
+  .speaker__hover {
+    opacity: 1;
   }
 }
 
@@ -62,10 +107,9 @@
   img {
     width: 100%;
     height: 100%;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 240px;
+    max-height: 240px;
     border-radius: 50%;
-    margin-bottom: 20px;
   }
 }
 
@@ -75,7 +119,7 @@
   font-weight: 900;
   line-height: 60px;
   height: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
 
   span {
     line-height: 24px;
@@ -93,28 +137,41 @@
   align-items: center;
 }
 
+// (1)
+.speaker__hover {
+  @media (min-width: $screen-md-min) {
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+  }
+}
+
 .speaker__social {
-  margin-top: 30px;
+  margin-top: 4px;
   font-size: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .speaker__social__item {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  display: inline-block;
-  background-color: rgba(217, 217, 217, 0.5);
+  display: inline-flex;
+  background-color: #e7e7e8;
   color: white;
-  font-size: 20px;
-  padding-top: 10px;
-  margin-right: 8px;
-  margin-left: 8px;
-  text-align: center;
+  font-size: 22px;
+  margin: 4px;
+
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
   &:hover,
   &:focus,
   &:active {
-    background-color: rgba(217, 217, 217, 1);
     color: white;
     text-decoration: none;
   }
@@ -222,6 +279,6 @@
   color: #57585a;
   text-transform: uppercase;
   display: inline-block;
-  padding: 8px;
+  padding: 6px 8px;
   margin-top: 8px;
 }

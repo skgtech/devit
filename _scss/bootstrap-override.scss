@@ -25,7 +25,7 @@ p {
 
 // Change Default Menu Collaplse breakpoint
 // @see https://stackoverflow.com/questions/28659556/change-navbar-breakpoint-in-bootstrap-3-3-2
-@media (max-width: 1000px) {
+@media (max-width: $screen-sm-max) {
   .navbar-header {
     float: right;
   }
