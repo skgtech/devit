@@ -214,7 +214,7 @@ speakers:
       <a href="https://www.instagram.com/theawwwesomes/">Awwwesomes' instagram</a>).
       She can not imagine her life without dark chocolate.</p>
 
-  - url: anna_doubková
+  - url: anna_doubkova
     year: 2018
     hearFor: Workshop
     tags:
@@ -222,7 +222,7 @@ speakers:
       - Serverless
     first_name: Anna
     last_name: Doubková
-    image_filename: Anna_Doubková.png
+    image_filename: Anna_Doubkova.png
     tagline: React, Node and serverless developer
     social:
       twitter: lithinn
