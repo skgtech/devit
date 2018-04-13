@@ -48,12 +48,10 @@ permalink: /about
       Our volunteers
     </div>
     <p>
-      Without them, DEVit would never have happened. A big thank you to all people that offer their time, their knowledge and their energy to help organizing and run DEVit.
+      Without them, DEVit would never have happened. A big thank you to all people that offer their time, their knowledge and their energy to help organizing and run DEVit. In alphabetical order:
     </p>
     <p>
-      {% for member in site.data.team.volunteers %}
-        {{ member.name }},
-      {% endfor %}
+      {{ site.data.team.volunteers | map: 'name' | join: ', ' }}
     </p>
   </div>
 </div>
