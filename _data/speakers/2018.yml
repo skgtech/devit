@@ -163,9 +163,9 @@ speakers:
     year: 2018
     hearFor: Workshop
     tags:
-      - Backend
-      - PHP
-      - OOP
+      - SOLID
+      - PHP7
+      - Design Principles
     first_name: Katerina
     last_name: Trajchevska
     image_filename: Katerina_Trajchevska.png
@@ -193,8 +193,9 @@ speakers:
     year: 2018
     hearFor: Talk
     tags:
-      - Frontend
+      - Creativity
       - CSS
+      - Web Design
     first_name: Agnieszka
     last_name: Naplocha
     image_filename: Agnieszka_Naplocha.png
@@ -218,8 +219,9 @@ speakers:
     year: 2018
     hearFor: Workshop
     tags:
-      - Backend
+      - DevOps
       - Serverless
+      - AWS
     first_name: Anna
     last_name: Doubková
     image_filename: Anna_Doubkova.png
@@ -229,3 +231,99 @@ speakers:
       github: lithin
       homepage: http://annalogical.com/
     bio: ""
+
+  - url: emii_khaos
+    year: 2018
+    hearFor: Talk
+    tags:
+      - DevOps
+      - Terraform
+      - Cloud
+    first_name: Emii
+    last_name: Khaos
+    image_filename: Emii_Khaos.png
+    tagline: Polyglot developer and DevOps specialist.
+    social:
+      twitter: emiikhaos
+      github: EmiiKhaos
+    bio: "<p>Emii is a polyglot developer from Austria, usually working with web technologies,
+      Linux and DevOps nerd specialized in content management systems, eCommerce, business
+      systems, APIs, and connecting all the different systems to work together. Loving PHP
+      and the web in general, and open source she is an enthusiast and an advocate of
+      modern development principles & standards. She notoriously automates everything
+      and if she could code her life, she would.</p><p>Debugging complex and legacy
+      systems and architectures is not a problem for her and maybe the outcome is
+      *puuuhff* magically automated and more cleaner than you've it ever seen.
+      Besides this, creating new and advanced architectures, and supporting developers
+      in their daily work pays her monthly bills.</p>"
+
+  - url: ivana_milicic
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Perception
+      - UX
+      - Product
+    first_name: Ivana
+    last_name: Milicic
+    image_filename: Ivana_Milicic.png
+    tagline: Digital Product Designer @ CLARA analytics
+    social:
+      twitter: ive77i
+    bio: "<p>Ivana is a product designer with a great passion for creating experiences
+      users will love. Powered with endless energy, always curious and eager to learn
+      something new. She finds daily inspiration and motivation in challenges,
+      problem-solving, and making users happy.</p><p>After graduating in product
+      design, she started a career in the publishing industry. Soon after, she founded
+      a small design studio and worked on numerous print and digital projects for all
+      types of clients. Some time down the career path, she fell in love with designing
+      for digital and interactions and it seems like that passion is here to stay.</p>
+      <p>She currently works as a remote product designer for CLARA analytics via
+      Toptal. When not designing Ivana is managing her design studio projects,
+      teaching Visual Design Communication and Multimedia Publishing at the university,
+      volunteering, traveling, and playing with her kids.</p>"
+
+  - url: danielle_reid
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Design
+      - UX
+      - Interaction Design
+    first_name: Danielle
+    last_name: Reid
+    image_filename: Danielle_Reid.png
+    tagline: Lead Director of Design @ Toptal
+    social:
+      twitter: moon_beamed
+      github: daniellereid
+      homepage: http://daniellereid.com/
+    bio: "<p>Danielle Reid is a designer and entrepreneur, currently working as the
+      Lead Director of Design at Toptal. At Toptal, Danielle helps world-class designers
+      from all over the world work with top-tier clients such as Airbnb, Hewlett Packard
+      and Zendesk. She previously co-founded Capsule.fm, number one selling iOS news App
+      in over 25 countries, which uses Natural Language Processing and Text-to-Speech
+      to turn online content and your social media updates into a personalised, live
+      audio stream.</p><p>Danielle is a contributing author for Springer Reference's
+      Handbook of Mobile Teaching and Learning (2016). She also actively mentors
+      design students and startups, as well as facilitates UX Design workshops. In
+      her free time, she is a big fan of photography and sells images via
+      EyeEmxGettyImages.</p>"
+
+  - url: ingrid_epure
+    year: 2018
+    hearFor: Talk
+    tags:
+      - Culture
+    first_name: Ingrid
+    last_name: Epure
+    image_filename: Ingrid_Epure.png
+    tagline: Software Engineer @ Intercom
+    social:
+      twitter: ingridepure
+      github: ingride
+    bio: "<p>Ingrid wants to make the world simpler, one production system at a time.
+      She talks and cares deeply about demystifying the tech culture, and wants to
+      make it more accessible and open. She is a DublinJs co-organizer and a mentor
+      for women in tech communities. It's not entirely clear if she's really a unicorn
+      whisperer or a vampire, but mentioning them makes bio's less awkward. </p>"

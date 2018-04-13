@@ -67,6 +67,9 @@
   ticket: single
   speaker: tim_perry
   type: Workshop
+  tags:
+    - IoT
+    - Docker
 
 - title: "From good to SOLID: how to become a better PHP developer?"
   description: "<p>PHP is undervalued in the world of web development. Yet, with the rise of PHP7,
@@ -79,6 +82,9 @@
   ticket: single
   speaker: katerina_trajchevska
   type: Workshop
+  tags:
+    - SOLID
+    - PHP7
 
 - title: "Breaking the norm with creative CSS"
   description: "<p>Feeling uninspired and tired of constantly building the same layouts? Let’s
@@ -91,6 +97,9 @@
   ticket: single
   speaker: agnieszka_naplocha
   type: Talk
+  tags:
+    - CSS
+    - Web Design
 
 - title: "Delivering Serverless Experience"
   description: "<p>Serverless has been a hot topic for years but not many companies use it to deliver
@@ -102,3 +111,59 @@
   ticket: single
   speaker: anna_doubková
   type: Workshop
+  tags:
+    - Serverless
+
+- title: "Terraform and Terragrunt - Code your cloud, don't click it together"
+  description: "<p>Nowadays you shouldn't click your cloud infrastructure together anymore.
+    Whether you only manage a few servers in startup or a big fleet of cloud instances, you
+    need to code your cloud. In this talk I will present you Terraform to do this exact
+    case and how you utilize their module system to create reusable infrastructure components.
+    In the second part I'll present you how to use Terragrunt as additional tool to use Terraform
+    modules over multiple environments and link your infrastructure components together."
+  ticket: single
+  speaker: emii_khaos
+  type: Talk
+  tags:
+    - Tarraform
+    - DevOps
+
+- title: "Attractive Things Work Better"
+  description: "<p>As human beings, we enjoy beautiful and attractive things. But we also have
+    a notion they work better since our emotional system has a significant impact on how our
+    cognitive system operates. What as designers can we do to use that fact on our behalf and
+    improve user experiences?</p><p>In this workshops, I'll show how emotions impact product
+    success, why is essential for product team members to know how human visual perception
+    works and why details matter. I'll walk you through series of screen examples by which
+    we will see how humans perceive objects and ways in which we can apply that knowledge
+    for designing better user interfaces.</p><p>Please have with you one of the following
+    installed together with the basic knowledge of Sketch, Adobe XD, Figma or
+    InVision Studio, something for sketching and making notes, passion
+    for learning</p>"
+  ticket: single
+  speaker: ivana_milicic
+  type: Workshop
+  tags:
+    - UX
+    - Culture
+
+- title: "The World is our Interface"
+  description: "<p>This workshop offers a hands-on exploratory playground where we
+    rapidly prototype what we think will be the next evolution in human interaction
+    with technology. It starts with a discussion about the history of interfaces and
+    human communication and follows with selected examples of how to design post-screen,
+    drawing some specific cases from Virtual and Augmented Reality.</p><p>The workshop will
+    be fun and interactive, so bring your imagination and use the world around you. At
+    the end of the workshop, you should be able to walk away with a low fidelity
+    prototype of your choice.</p><p>Please have with you, ideally, some kind of
+    device and a selected prototyping tool of choice (Marvel, InVision, POP etc.)</p>"
+  ticket: single
+  speaker: danielle_reid
+  type: Workshop
+  tags:
+    - UX
+    - Design
+
+- title: "To be announced"
+  speaker: ingrid_epure
+  type: Talk
