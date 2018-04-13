@@ -11,15 +11,16 @@
     },
     "location": {
       "@type": "City",
-      "name": "Thessaloniki"
+      "name": "Thessaloniki",
+      "address": "Thessaloniki"
     },
     "image": [
-      "{{ site.data.config.defaults.image }}",
+      "{{ site.url }}{{ site.data.config.defaults.image }}",
     ],
     "description": "{{ site.data.config.defaults.description }}",
     "offers": {
       "@type": "Offer",
-      "lowPrice": "40.00",
+      "price": "40.00",
       "priceCurrency": "EUR",
       "url": "{{ site.data.config.tickets.url }}"
     }
