@@ -43,12 +43,9 @@
   <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=GvJLOgvboj">
   <meta name="theme-color" content="#ffffff">
 
-  {% include schemas/homepage.html %}
-
-</head>
-<body>
-
-  {{ content }}
+  {% if page.schemaFile %}
+    {% include schemas/{{ page.schemaFile }}.html %}
+  {% endif %}
 
   <!-- DO NOT EDIT THIS  -->
   {% if site.analytics.google %}
@@ -80,6 +77,11 @@
   /></noscript>
   {% endif %}
   <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+
+  {{ content }}
 
   <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
   <script src="/assets/js/commons.js"></script>
