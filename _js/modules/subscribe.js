@@ -66,6 +66,9 @@ $(document).ready(function () {
           }
           resultEl.innerHTML = message;
         } else {
+          if (window.ga) {
+            ga('send', 'event', 'Forms', 'Subscribe', 'Newsletter');
+          }
           resultEl.innerHTML = 'Thank you!<br>You must confirm the subscription in your inbox.';
         }
       }

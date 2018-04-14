@@ -44,6 +44,10 @@ $(document).ready(function () {
         } else {
           resultsEl.style.color = "lightgreen";
           resultsEl.innerHTML = "Thank you!";
+
+          if (window.ga) {
+            ga('send', 'event', 'Forms', 'Subscribe', 'Slack');
+          }
         }
       })
       .fail(function() {
