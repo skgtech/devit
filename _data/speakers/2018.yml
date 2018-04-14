@@ -230,7 +230,18 @@ speakers:
       twitter: lithinn
       github: lithin
       homepage: http://annalogical.com/
-    bio: ""
+    bio: "<p>Anna is a software engineer who works mainly with javascript. She's
+      building applications from front-end to back-end, and does everything from
+      user-oriented development to operations. At the moment working at Hive,
+      she's responsible for delivering features for web, experiential layer of
+      the API, and mobile applications. She works with react,
+      react native, node, serverless, and occasionally elm and elixir. </p><p>Anna
+      has practical experience of developing for small and large projects and
+      companies of various shapes and forms. She is passionate about choosing
+      the right tools for the job, is keen on functional programming (simply
+      because it seems useful in all these settings), and likes exploring
+      great new ways of delivering the best product for the users and
+      business alike.</p>"
 
   - url: emii_khaos
     year: 2018

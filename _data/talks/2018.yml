@@ -102,17 +102,21 @@
     - Web Design
 
 - title: "Delivering Serverless Experience"
-  description: "<p>Serverless has been a hot topic for years but not many companies use it to deliver
-    their main applications. Having worked with it in many different settings, I will explain on
-    practical examples how serverless architecture works for projects both small and large. You will
-    learn about its pros and cons and why a lot of companies hesitate to use it; is it safe enough,
-    efficient, cost-effective, easy to use? This talk will dispel a lot of common worries, help you
-    figure out if it is the right choice for you, and give you a few tips on how to get started.</p>"
+  description: "<p>Serverless has been a hot topic for years but not many companies
+    use it to deliver their main applications. In this workshop, you will learn how to
+    set up a serverless project, configure it, and scale it. The practical experience
+    will show you how easy it is to use it and will also point out some common issues
+    you may run into. You'll be able to deploy your infrastructure in minutes and
+    decide if serverless is the right fit for your projects and work environment.</p>
+    <p>You will need: very basic unix skills, at least general knowledge of yaml,
+    javascript, and web infrastructure. Node in version 6 or higher, git, editor
+    of your choice. AWS account with environment variables set up on your machine.</p>"
   ticket: single
   speaker: anna_doubková
   type: Workshop
   tags:
     - Serverless
+    - AWS
 
 - title: "Terraform and Terragrunt - Code your cloud, don't click it together"
   description: "<p>Nowadays you shouldn't click your cloud infrastructure together anymore.
