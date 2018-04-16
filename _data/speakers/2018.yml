@@ -374,6 +374,7 @@ speakers:
     image_filename: Sofia_Terzi.jpg
     tagline: Blockchain Architecture Analyst - Trainer
     social:
+      linkedin: https://www.linkedin.com/in/sophiaterzi/
     bio: "<p>Sofia Terzi is a research associate at CERTH-ITI. She holds a BSc in Computer
       Science and a MSc in Information and Communication Technologies. She has worked
       as a Software and Database Developer for over a decade. In parallel she was
@@ -394,6 +395,7 @@ speakers:
     image_filename: Konstantinos_Votis.jpg
     tagline: Senior Technical Management
     social:
+      linkedin: https://www.linkedin.com/in/votis-konstantinos-563b647/
     bio: "<p>Dr. Votis Konstantinos is a computer engineer and a senior researcher
       (Researcher Grade C’) at Information Technologies Institute/Centre for Research
       and Technologies Hellas (CERTH/ITI) and Director of the Visual Analytics Laboratory

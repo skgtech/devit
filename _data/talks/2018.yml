@@ -182,6 +182,10 @@
     componentization. By the end of this talk you’ll have the tools to create and
     maintain a scalable UI codebase, spiced with the sweet taste of nostalgia.</p>"
   type: Talk
+  tags:
+    - React.js
+    - Javascript
+    - MobX
 
 - title: "Hyperledger Framework – Bringing blockchain technologies closer to tomorrow's businesses"
   speaker: konstantinos_votis
@@ -205,6 +209,8 @@
     running Ubuntu Linux</p><p><b>In cooperation with <a href=\"/speakers/sofia_terzi\">
     Sofia Terzi</a></b></p>"
   type: Workshop
+  tags:
+    - Hyperledger
 
 - title: "Hyperledger Framework – Bringing blockchain technologies closer to tomorrow’s businesses"
   speaker: sofia_terzi
@@ -228,3 +234,5 @@
     running Ubuntu Linux</p><p><b>In cooperation with: <a href=\"/speakers/konstantinos_votis\">
     Konstantinos Votis</a></b></p>"
   type: Workshop
+  tags:
+    - Hyperledger
