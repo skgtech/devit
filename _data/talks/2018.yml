@@ -171,3 +171,60 @@
 - title: "To be announced"
   speaker: ingrid_epure
   type: Talk
+
+- title: "Reliving the ‘80s with Borland Turbo-C: A test case for Atomic Design"
+  speaker: amit_zur
+  description: "<p>Anyone who got to write C in the 90's on MS-DOS knows this blue
+    screen - not the blue screen of death, the blue screen of Borland Turbo
+    C/C++/Pascal. 30 years after its birth, we are going to implement it using
+    React, MobX and Node.js.</p><p>I will show you how to implement a design language and
+    think in atomic design, as well as best practices for managing state and
+    componentization. By the end of this talk you’ll have the tools to create and
+    maintain a scalable UI codebase, spiced with the sweet taste of nostalgia.</p>"
+  type: Talk
+
+- title: "Hyperledger Framework – Bringing blockchain technologies closer to tomorrow's businesses"
+  speaker: konstantinos_votis
+  description: "<p>You might not have heard of Hyperledger or not know much about
+    it, but you must have heard of the Linux Foundation and IBM. Well the Linux
+    Foundation, in 2015, announced the creation of the Hyperledger Project. This was
+    the way they thought blockchain technologies and smart contracts can be better
+    adapted to business needs and tomorrow’s digital landscape. IBM has jump into
+    the opportunity with their contributions to the Hyperledger Fabric project
+    and has thus far met unprecedented acceptance by large corporations like
+    MAERSK and Walmart, whilst the Intel-contributed Hyperledger Sawtooth is now
+    used by Huawei and T-Mobile.</p><p>Our workshop is focused on the Hyperledger Sawtooth,
+    its versatility and the advantages it brings to businesses. We will go through
+    the basics of Hyperledger frameworks and the differences between Fabric and
+    Sawtooth. Then it is hands-on all the way starting with Docker & Sawtooth
+    installation, moving to the details and how things work and closing with two
+    case studies utilizing and working on transaction families (smart contracts).
+    Can you afford to miss it?</p><p>The minimum recommended available hardware -
+    4GB Ram, 2-core CPU, 10GB free HD space. The recommended operating system
+    in order to follow all the steps - Ubuntu Linux or a virtual machine
+    running Ubuntu Linux</p><p><b>In cooperation with <a href=\"/speakers/sofia_terzi\">
+    Sofia Terzi</a></b></p>"
+  type: Workshop
+
+- title: "Hyperledger Framework – Bringing blockchain technologies closer to tomorrow’s businesses"
+  speaker: sofia_terzi
+  description: "<p>You might not have heard of Hyperledger or not know much about
+    it, but you must have heard of the Linux Foundation and IBM. Well the Linux
+    Foundation, in 2015, announced the creation of the Hyperledger Project. This was
+    the way they thought blockchain technologies and smart contracts can be better
+    adapted to business needs and tomorrow’s digital landscape. IBM has jump into
+    the opportunity with their contributions to the Hyperledger Fabric project
+    and has thus far met unprecedented acceptance by large corporations like
+    MAERSK and Walmart, whilst the Intel-contributed Hyperledger Sawtooth is now
+    used by Huawei and T-Mobile.</p><p>Our workshop is focused on the Hyperledger Sawtooth,
+    its versatility and the advantages it brings to businesses. We will go through
+    the basics of Hyperledger frameworks and the differences between Fabric and
+    Sawtooth. Then it is hands-on all the way starting with Docker & Sawtooth
+    installation, moving to the details and how things work and closing with two
+    case studies utilizing and working on transaction families (smart contracts).
+    Can you afford to miss it?</p><p>The minimum recommended available hardware -
+    4GB Ram, 2-core CPU, 10GB free HD space. The recommended operating system
+    in order to follow all the steps - Ubuntu Linux or a virtual machine
+    running Ubuntu Linux</p><p><b>In cooperation with: <a href=\"/speakers/konstantinos_votis\">
+    Konstantinos Votis</a></b></p>"
+  type: Workshop

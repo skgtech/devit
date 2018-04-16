@@ -277,7 +277,7 @@ speakers:
       - Product
     first_name: Ivana
     last_name: Milicic
-    image_filename: Ivana_Milicic.png
+    image_filename: Ivana_Milicic.jpg
     tagline: Digital Product Designer @ CLARA analytics
     social:
       twitter: ive77i
@@ -338,3 +338,76 @@ speakers:
       make it more accessible and open. She is a DublinJs co-organizer and a mentor
       for women in tech communities. It's not entirely clear if she's really a unicorn
       whisperer or a vampire, but mentioning them makes bio's less awkward. </p>"
+
+  - url: amit_zur
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Atomic Design
+      - React
+      - Javascript
+    first_name: Amit
+    last_name: Zur
+    image_filename: Amit_Zur.jpg
+    tagline: Frontend consultant, developer & designer @ Happy Code
+    social:
+      twitter: amitzur
+      github: amitzur
+    bio: "<p>Amit has been developing for the web since the early days, and the passion
+      for clean and happy code and design sticks with him to this day. These days he's
+      helping companies scale their UI development process, from the design stage all
+      the way to deployment, through advocating for design systems.</p><p>He organizes Goodness
+      Squad, a monthly hacking event for developers to contribute to OSS, and takes part
+      in the organization of Reversim Summit, the largest conference for developers in
+      Israel. He's also a Mozilla Tech Speaker, active in the Mozilla community and
+      a contributor to Firefox devtools.Also, worth noting he rides a motorcycle and
+      enjoys Origami.</p>"
+
+  - url: sofia_terzi
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Blockchain
+      - Hyperledger
+    first_name: Sofia
+    last_name: Terzi
+    image_filename: Sofia_Terzi.jpg
+    tagline: Blockchain Architecture Analyst - Trainer
+    social:
+    bio: "<p>Sofia Terzi is a research associate at CERTH-ITI. She holds a BSc in Computer
+      Science and a MSc in Information and Communication Technologies. She has worked
+      as a Software and Database Developer for over a decade. In parallel she was
+      also occupied as a part time technical trainer for Microsoft SQL Server courses.
+      </p><p>She has experience on designing distributed systems and application implementations
+      using mainstream programming languages such as Java and Python. Her current research
+      interests include among others permissioned and permissionless Blockchain Technologies
+      applied on Internet of Things area.</p>"
+
+  - url: konstantinos_votis
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Blockchain
+      - Hyperledger
+    first_name: Dr. Konstantinos
+    last_name: Votis
+    image_filename: Konstantinos_Votis.jpg
+    tagline: Senior Technical Management
+    social:
+    bio: "<p>Dr. Votis Konstantinos is a computer engineer and a senior researcher
+      (Researcher Grade C’) at Information Technologies Institute/Centre for Research
+      and Technologies Hellas (CERTH/ITI) and Director of the Visual Analytics Laboratory
+      of CERTH/ITI. He is also a visiting professor at the De-Montfort University in
+      UK in the field of Human Computer Interaction, VR, AR. He received an MSc and a
+      Ph.D. degree in computer science and service oriented architectures from Computer
+      Engineering and Informatics department, University of Patras, Greece. In addition,
+      he holds an MBA from the Business School department in the University of Patras.
+      His research interests include Human Computer Interaction, information Visualisation
+      and management of big data, knowledge engineering and decision support systems,
+      as well as pervasive computing, with major application areas such as m-Health,
+      eHealth, and personalized healthcare. His PhD was in the domain of service
+      Oriented Architecture and Information management systems in e-inclusion and
+      healthcare. </p><p>Since 2001, he has published more than 80 international scientific
+      articles on eHealth, m-health, human-technology interaction visualisation (AR,
+      VR, information visualisation with visual analytics), mobile and ambient technologies
+      as well as human-centred design, etc.</p>"
