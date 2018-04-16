@@ -321,6 +321,27 @@ speakers:
       her free time, she is a big fan of photography and sells images via
       EyeEmxGettyImages.</p>"
 
+  - url: sofia_terzi
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Blockchain
+      - Hyperledger
+    first_name: Sofia
+    last_name: Terzi
+    image_filename: Sofia_Terzi.jpg
+    tagline: Blockchain Architecture Analyst - Trainer
+    social:
+      linkedin: https://www.linkedin.com/in/sophiaterzi/
+    bio: "<p>Sofia Terzi is a research associate at CERTH-ITI. She holds a BSc in Computer
+      Science and a MSc in Information and Communication Technologies. She has worked
+      as a Software and Database Developer for over a decade. In parallel she was
+      also occupied as a part time technical trainer for Microsoft SQL Server courses.
+      </p><p>She has experience on designing distributed systems and application implementations
+      using mainstream programming languages such as Java and Python. Her current research
+      interests include among others permissioned and permissionless Blockchain Technologies
+      applied on Internet of Things area.</p>"
+
   - url: ingrid_epure
     year: 2018
     hearFor: Talk
@@ -362,27 +383,6 @@ speakers:
       Israel. He's also a Mozilla Tech Speaker, active in the Mozilla community and
       a contributor to Firefox devtools.Also, worth noting he rides a motorcycle and
       enjoys Origami.</p>"
-
-  - url: sofia_terzi
-    year: 2018
-    hearFor: Workshop
-    tags:
-      - Blockchain
-      - Hyperledger
-    first_name: Sofia
-    last_name: Terzi
-    image_filename: Sofia_Terzi.jpg
-    tagline: Blockchain Architecture Analyst - Trainer
-    social:
-      linkedin: https://www.linkedin.com/in/sophiaterzi/
-    bio: "<p>Sofia Terzi is a research associate at CERTH-ITI. She holds a BSc in Computer
-      Science and a MSc in Information and Communication Technologies. She has worked
-      as a Software and Database Developer for over a decade. In parallel she was
-      also occupied as a part time technical trainer for Microsoft SQL Server courses.
-      </p><p>She has experience on designing distributed systems and application implementations
-      using mainstream programming languages such as Java and Python. Her current research
-      interests include among others permissioned and permissionless Blockchain Technologies
-      applied on Internet of Things area.</p>"
 
   - url: konstantinos_votis
     year: 2018
