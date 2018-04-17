@@ -1,6 +1,6 @@
 require('bootstrap-sass/assets/javascripts/bootstrap/tab');
 
-var tabs = document.querySelectorAll('.schedule__tabs ul li:first-child');
+var tabs = document.querySelectorAll('.schedule__tabs li:first-child');
 var tabsContent = document.querySelectorAll('.schedule__content .tab-pane:first-child');
 
 if (tabs.length) {
@@ -12,7 +12,7 @@ if (tabsContent.length) {
 
 ////////////////////////
 
-var tabs = document.querySelectorAll('.workshops__tabs ul li:first-child');
+var tabs = document.querySelectorAll('.workshops__tabs li:first-child');
 var tabsContent = document.querySelectorAll('.workshops__content .tab-pane:first-child');
 
 if (tabs.length) {
