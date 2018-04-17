@@ -60,13 +60,20 @@ $dest-images:(
   food,
   vendor,
   beachside,
-  beach,
+  beach, 
   park,
   shops,
   market2,
   market_3,
   boat,
-  museum
+  museum,
+  halkdiki1,
+  catacomb,
+  kamara2,
+  rotonta,
+  kamara3,
+  Untitled,
+  ladadika
 );
 
 @each $image in $dest-images {
