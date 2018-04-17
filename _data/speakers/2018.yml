@@ -413,3 +413,25 @@ speakers:
       articles on eHealth, m-health, human-technology interaction visualisation (AR,
       VR, information visualisation with visual analytics), mobile and ambient technologies
       as well as human-centred design, etc.</p>"
+
+  - url: pawel_dudek
+    year: 2018
+    hearFor: Talk
+    tags:
+      - iOS
+      - Mobile
+    first_name: Pawel
+    last_name: Dudek
+    image_filename: Pawel_Dudek.jpg
+    tagline: iOS developer with over 9 years of experience
+    social:
+      twitter: eldudi
+      github: paweldudek
+    bio: "<p>Paweł started tinkering with iOS in 2008 and since then he has built numerous
+      apps for both business and consumer markets. Currently leading Mobile Team at Toptal
+      where he helps out build mobile future of the company. He is driven by the passion
+      to share knowledge. Because of that, apart from working as a software developer, he is
+      the organiser of local mobile developers community called Mobile Warsaw and co-founder
+      of Mobile Academy - a company providing advanced workshops for iOS developers.</p><p>Apart
+      from programming Pawel is a freshly baked father. He enjoys third wave style coffee
+      and a good craft cocktail in the evening.</p>"
