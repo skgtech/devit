@@ -1,0 +1,101 @@
+---
+layout: default
+title: Schedule
+description: Here's the schedule
+permalink: /schedule
+custom_js:
+  - schedule.bundle.js
+---
+
+{% include blocks/header.html page="schedule" %}
+
+<div class="schedule-block">
+  <div class="block__heading--dark text-center">
+    Schedule
+  </div>
+  <div class="schedule">
+    <div class="schedule__header">
+      <ul class="schedule__tabs" role="tablist">
+        <li role="workshops">
+          <a href="#workshops" aria-controls="workshops" role="tab" data-toggle="tab">
+            Workshops
+          </a>
+        </li>
+        <li class="separator"></li>
+        <li role="talks">
+          <a href="#talks" aria-controls="talks" role="tab" data-toggle="tab">
+            Talks
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="schedule__content">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane" id="workshops">
+          <div class="workshops__header">
+            <ul class="workshops__tabs" role="tablist">
+              <li role="room1" class="active">
+                <a href="#room1" aria-controls="room1" role="tab" data-toggle="tab">
+                  Room 1
+                </a>
+              </li>
+              <li role="room2">
+                <a href="#room2" aria-controls="room2" role="tab" data-toggle="tab">
+                  Room 2
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="workshops__content">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="room1">
+                <div class="schedule-list">
+                  <div class="schedule-item">
+                    <div class="schedule-item__hour">9:30</div>
+                    <div class="schedule-item__image">
+                      <img src="/assets/images/speakers/2018/Amit_Zur.jpg" alt="Amit Zur">
+                    </div>
+                    <div class="schedule-item__main">
+                      <div class="schedule-item__subtitle">Melanie Patrick</div>
+                      <div class="schedule-item__title">Room 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="room2">
+                <div class="schedule-list">
+                  <div class="schedule-item">
+                    <div class="schedule-item__hour">9:30</div>
+                    <div class="schedule-item__image">
+                      <img src="/assets/images/speakers/2018/Amit_Zur.jpg" alt="Amit Zur">
+                    </div>
+                    <div class="schedule-item__main">
+                      <div class="schedule-item__subtitle">Room 2</div>
+                      <div class="schedule-item__title">Git - How to Unfuck</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="talks">
+          <div class="schedule-list">
+            <div class="schedule-item">
+              <div class="schedule-item__hour">9:30</div>
+              <div class="schedule-item__image">
+                <img src="/assets/images/speakers/2018/Amit_Zur.jpg" alt="Amit Zur">
+              </div>
+              <div class="schedule-item__main">
+                <div class="schedule-item__subtitle">Melanie Patrick</div>
+                <div class="schedule-item__title">Git - How to Unfuck</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include blocks/footer.html %}
