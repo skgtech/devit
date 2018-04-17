@@ -236,3 +236,16 @@
   type: Workshop
   tags:
     - Hyperledger
+
+- title: "Behavior Driven Development"
+  speaker: pawel_dudek
+  description: "<p>Building software systems is hard. But preserving existing functionality
+    when adding new one is even harder. In this talk you'll learn how you can avoid
+    breaking existing code by leveraging behavior driven development. This talk is
+    aimed at iOS developers, however first part is applicable to any development
+    platform.</p>"
+  type: Workshop
+  tags:
+    - BDD
+    - QA
+    - Mobile
