@@ -362,7 +362,7 @@ speakers:
 
   - url: amit_zur
     year: 2018
-    hearFor: Workshop
+    hearFor: Talk
     tags:
       - Atomic Design
       - React
