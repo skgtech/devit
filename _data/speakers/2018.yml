@@ -189,32 +189,6 @@ speakers:
       for women in tech, contributes to the local tech community, and volunteers
       as a mentor in different programs and initiatives.</p>"
 
-  - url: agnieszka_naplocha
-    year: 2018
-    hearFor: Talk
-    tags:
-      - Creativity
-      - CSS
-      - Web Design
-    first_name: Agnieszka
-    last_name: Naplocha
-    image_filename: Agnieszka_Naplocha.png
-    tagline: Designer and front-end coder, currently working at Adobe in Warsaw, Poland.
-    social:
-      twitter: aganaplocha
-      homepage: http://aganaplocha.com
-    bio: |
-      <p>Aga Naplocha is a designer and front-end coder with a strong focus on
-      UX-related issues, currently working at Adobe. She's the co-founder of
-      <a href="http://theawwwesomes.org">The Awwwesomes</a> - a non-profit organization
-      teaching how to create awesome stuff on the Web, organizing coding (HTML & CSS)
-      workshops in Poland. She's keen on sharing her knowledge around the world,
-      giving talks on many international conferences. </p><p>Aga belongs to Google
-      Launchpad Mentors group, helping startups with solving UX issues. She's a
-      huge fan of Wes Anderson's movies and loves pink color (check out The
-      <a href="https://www.instagram.com/theawwwesomes/">Awwwesomes' instagram</a>).
-      She can not imagine her life without dark chocolate.</p>
-
   - url: anna_doubkova
     year: 2018
     hearFor: Workshop
