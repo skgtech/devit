@@ -110,6 +110,33 @@ speakers:
       Windows, WPF, Xamarin, and of the popular Pluralsight reference course about
       MVVM Light. </p>
 
+  - url: danielle_reid
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Design
+      - UX
+      - Interaction Design
+    first_name: Danielle
+    last_name: Reid
+    image_filename: Danielle_Reid.png
+    tagline: Lead Director of Design @ Toptal
+    social:
+      twitter: moon_beamed
+      github: daniellereid
+      homepage: http://daniellereid.com/
+    bio: "<p>Danielle Reid is a designer and entrepreneur, currently working as the
+      Lead Director of Design at Toptal. At Toptal, Danielle helps world-class designers
+      from all over the world work with top-tier clients such as Airbnb, Hewlett Packard
+      and Zendesk. She previously co-founded Capsule.fm, number one selling iOS news App
+      in over 25 countries, which uses Natural Language Processing and Text-to-Speech
+      to turn online content and your social media updates into a personalised, live
+      audio stream.</p><p>Danielle is a contributing author for Springer Reference's
+      Handbook of Mobile Teaching and Learning (2016). She also actively mentors
+      design students and startups, as well as facilitates UX Design workshops. In
+      her free time, she is a big fan of photography and sells images via
+      EyeEmxGettyImages.</p>"
+
   - url: jim_bennett
     year: 2018
     hearFor: Workshop
@@ -189,6 +216,28 @@ speakers:
       for women in tech, contributes to the local tech community, and volunteers
       as a mentor in different programs and initiatives.</p>"
 
+  - url: pawel_dudek
+    year: 2018
+    hearFor: Talk
+    tags:
+      - iOS
+      - Mobile
+    first_name: Pawel
+    last_name: Dudek
+    image_filename: Pawel_Dudek.jpg
+    tagline: iOS developer with over 9 years of experience
+    social:
+      twitter: eldudi
+      github: paweldudek
+    bio: "<p>Paweł started tinkering with iOS in 2008 and since then he has built numerous
+      apps for both business and consumer markets. Currently leading Mobile Team at Toptal
+      where he helps out build mobile future of the company. He is driven by the passion
+      to share knowledge. Because of that, apart from working as a software developer, he is
+      the organiser of local mobile developers community called Mobile Warsaw and co-founder
+      of Mobile Academy - a company providing advanced workshops for iOS developers.</p><p>Apart
+      from programming Pawel is a freshly baked father. He enjoys third wave style coffee
+      and a good craft cocktail in the evening.</p>"
+
   - url: anna_doubkova
     year: 2018
     hearFor: Workshop
@@ -267,33 +316,6 @@ speakers:
       Toptal. When not designing Ivana is managing her design studio projects,
       teaching Visual Design Communication and Multimedia Publishing at the university,
       volunteering, traveling, and playing with her kids.</p>"
-
-  - url: danielle_reid
-    year: 2018
-    hearFor: Workshop
-    tags:
-      - Design
-      - UX
-      - Interaction Design
-    first_name: Danielle
-    last_name: Reid
-    image_filename: Danielle_Reid.png
-    tagline: Lead Director of Design @ Toptal
-    social:
-      twitter: moon_beamed
-      github: daniellereid
-      homepage: http://daniellereid.com/
-    bio: "<p>Danielle Reid is a designer and entrepreneur, currently working as the
-      Lead Director of Design at Toptal. At Toptal, Danielle helps world-class designers
-      from all over the world work with top-tier clients such as Airbnb, Hewlett Packard
-      and Zendesk. She previously co-founded Capsule.fm, number one selling iOS news App
-      in over 25 countries, which uses Natural Language Processing and Text-to-Speech
-      to turn online content and your social media updates into a personalised, live
-      audio stream.</p><p>Danielle is a contributing author for Springer Reference's
-      Handbook of Mobile Teaching and Learning (2016). She also actively mentors
-      design students and startups, as well as facilitates UX Design workshops. In
-      her free time, she is a big fan of photography and sells images via
-      EyeEmxGettyImages.</p>"
 
   - url: sofia_terzi
     year: 2018
@@ -387,25 +409,3 @@ speakers:
       articles on eHealth, m-health, human-technology interaction visualisation (AR,
       VR, information visualisation with visual analytics), mobile and ambient technologies
       as well as human-centred design, etc.</p>"
-
-  - url: pawel_dudek
-    year: 2018
-    hearFor: Talk
-    tags:
-      - iOS
-      - Mobile
-    first_name: Pawel
-    last_name: Dudek
-    image_filename: Pawel_Dudek.jpg
-    tagline: iOS developer with over 9 years of experience
-    social:
-      twitter: eldudi
-      github: paweldudek
-    bio: "<p>Paweł started tinkering with iOS in 2008 and since then he has built numerous
-      apps for both business and consumer markets. Currently leading Mobile Team at Toptal
-      where he helps out build mobile future of the company. He is driven by the passion
-      to share knowledge. Because of that, apart from working as a software developer, he is
-      the organiser of local mobile developers community called Mobile Warsaw and co-founder
-      of Mobile Academy - a company providing advanced workshops for iOS developers.</p><p>Apart
-      from programming Pawel is a freshly baked father. He enjoys third wave style coffee
-      and a good craft cocktail in the evening.</p>"
