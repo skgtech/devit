@@ -25,7 +25,14 @@
             {% for talk in site.data.talks[year] %}
             {% if talk.speaker == speaker.url %}
                 <li role="{{ talk.title | slugify }}">
-                  <a href="#{{ talk.title | slugify }}" aria-controls="{{ talk.title | slugify }}" role="tab" data-toggle="tab">{{ year }} {{ talk.type }}</a>
+                  <a
+                    id="#{{ talk.title | slugify }}"
+                    href="#{{ talk.title | slugify }}"
+                    aria-controls="{{ talk.title | slugify }}"
+                    role="tab"
+                    data-toggle="tab">
+                      {{ year }} {{ talk.type }}
+                  </a>
                 </li>
               {% endif %}
             {% endfor %}
