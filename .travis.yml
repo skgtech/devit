@@ -42,7 +42,7 @@ script:
   # Previous folders are HUGE. Remove them before deploying.
   - rm -rf ./_site/2017 ./_site/2016 ./_site/2015
   # Deploy a PR Preview
-  - if [ "$TRAVIS_BRANCH" != "master" ]; then netlify deploy -t $NETLIFY_ACCESS_TOKEN -s vigorous-wilson-121bb5 -p _site/; fi
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then netlify deploy -t $NETLIFY_ACCESS_TOKEN -s vigorous-wilson-121bb5 -p _site/; fi
 
   # Previous site folders are considered to be legacy.
   # Do not check on them.
