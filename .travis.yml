@@ -20,6 +20,7 @@ before_install:
   - rvm install 2.4.2
   - gem install bundler
   - npm install -g yarn
+  - npm install -g netlify-cli
 
 install:
   - bundle install
