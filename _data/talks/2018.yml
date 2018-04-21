@@ -234,3 +234,40 @@
     - BDD
     - QA
     - Mobile
+
+- title: "Code Reviews Gone Wild"
+  speaker: lauren_robinson
+  description: "<p>Making code review sessions a part of your team's
+    development process has many benefits - increased code quality,
+    fewer bugs and errors at production, skill improvement and greater
+    knowledge exchange.Many of us have the view that a code review
+    is a purely technical activity, with its main goal being to find
+    faults with the person requesting the view's implementation
+    of a particular solution. But a code review involves so
+    much more than that. There are social and cultural implications
+    to consider once you are involved in a code review that can
+    be seen in the way we communicate throughout the process of
+    a review. What, how and when we say things can directly
+    determine the success or failure of a code review and
+    prevent us from reaping the benefits that code reviews
+    provide. Forgetting the non-technical side of code reviews
+    can cause them to spiral out of control, giving them the
+    power to even destroy relationships within teams!</p>
+    <p>There are many techniques that can be used to save code
+    reviews and even prevent this from happening in the first
+    place. This hands-on workshop will give you practical
+    tips on how to make constructive code reviews while
+    avoiding common pitfalls throughout the process.</p>
+    <p><b>Agenda</b><ol><li>Communication (Social stuff)</li>
+    <li>The Anatomy of Code Reviews (Ooooo Anatomy…so fancy)</li>
+    <li>Writing reviewable code (What code can't be reviewed?)</li>
+    <li>The Code Review Process (Sigh…why does everything have to be a process?)</li>
+    <li>Dealing with difficult reviews (Help! Abort! ABORT!)</li>
+    <li>And a whole lot more!</li>
+    </ol>
+    </p>
+    <p>Be prepared to actually review some pull requests in this workshop =D</p>"
+  type: Workshop
+  tags:
+    - Code Reviews
+    - Culture
