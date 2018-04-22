@@ -15,15 +15,23 @@
   @media (min-width: $screen-sm-min) {
     padding-top: 35px;
   }
+
 }
 .early-birds__right {
   @include make-sm-column(6);
 
   @media (max-width: $screen-sm-min) {
     margin-top: 35px;
+    text-align: middle;
   }
 }
 
 .early-birds__img {
   width: 80%;
+
+  @media (max-width: $screen-sm-min) {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }

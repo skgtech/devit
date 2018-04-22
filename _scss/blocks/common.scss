@@ -19,6 +19,9 @@
 .block__heading--dark {
   @extend .block__heading;
   color: #57585A;
+  @media (max-width: $screen-sm-min) {
+    text-align: center;
+  }
 }
 
 .leading {
