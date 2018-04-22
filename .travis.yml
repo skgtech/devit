@@ -20,6 +20,7 @@ before_install:
   - rvm install 2.4.2
   - gem install bundler
   - npm install -g yarn
+  - npm install -g netlify-cli
 
 install:
   - bundle install
@@ -33,10 +34,6 @@ addons:
 script:
   - gulp build
 
-  # Previous site folders are considered to be legacy.
-  # Do not check on them
-  - htmlproofer ./_site --file-ignore "/2015/,/2016/,/2017/,/legacy/,/working/" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999
-
   # Deploy on Production. Needs some work.
   # - git config --global user.email publish@travis.github && git config --global user.name "Travis"
   # - cd node_modules/gulp-gh-pages/ && npm install --save gift@0.10.2 && cd ../../
@@ -45,4 +42,13 @@ script:
   # Previous folders are HUGE. Remove them before deploying.
   - rm -rf ./_site/2017 ./_site/2016 ./_site/2015
   # Deploy a PR Preview
-  - if [ "$TRAVIS_BRANCH" != "master" ]; then netlify deploy -t $NETLIFY_ACCESS_TOKEN -s vigorous-wilson-121bb5 -p _site/; fi
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+      curl -H "Authorization: token $GITHUB_COMMENT" \
+        -X POST https://api.github.com/repos/skgtech/devit/issues/$TRAVIS_PULL_REQUEST/comments \
+        --data '{"body":"$(netlify deploy -t $NETLIFY_ACCESS_TOKEN -s vigorous-wilson-121bb5 -p _site/)"}';
+    fi
+
+  # Previous site folders are considered to be legacy.
+  # Do not check on them.
+  # This is not very accurate, that's why it's at the bottom.
+  - htmlproofer ./_site --file-ignore "/2015/,/2016/,/2017/,/legacy/,/working/" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999

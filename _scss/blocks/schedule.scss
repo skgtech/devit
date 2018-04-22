@@ -1,0 +1,162 @@
+.schedule-block {
+  @extend .block;
+  background-color: #f5f8fa;
+  padding-bottom: 0;
+}
+
+.workshops__header,
+.schedule__header {
+  background-color: #f5f8fa;
+}
+
+.schedule {
+  .workshops__tabs {
+    @extend .list-inline;
+    @extend .container;
+
+    padding: 0;
+    margin-bottom: 0;
+
+    li {
+      padding: 16px 24px;
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: bold;
+      color: #57585a;
+
+      a {
+        color: #57585a;
+        opacity: 0.5;
+      }
+
+      &.active {
+        background-color: white;
+
+        a {
+          opacity: 1;
+          color: #57585a;
+        }
+      }
+    }
+  }
+
+  .schedule__tabs {
+    @extend .list-inline;
+
+    padding: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+
+    li {
+      padding: 16px 40px;
+      border-radius: 32px;
+      border: solid 2px #b1b2b4;
+      opacity: 0.5;
+
+      &.active {
+        opacity: 1;
+      }
+
+      &.separator {
+        border: 0;
+        padding: 0;
+        width: 32px;
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: -10px;
+          width: 32px;
+          height: 4px;
+          border-radius: 24px;
+          background-color: #d9d9d9;
+        }
+      }
+    }
+
+    li > a {
+      padding: 0;
+      line-height: 1em;
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: 900;
+      text-align: center;
+      color: #57585a;
+    }
+
+    li:not(.active) > a {
+      color: #57585a;
+    }
+  }
+
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:hover,
+  .nav-tabs>li.active>a:focus,
+  .nav-tabs>li>a,
+  .nav-tabs>li>a:hover,
+  .nav-tabs>li>a:focus {
+    border: none;
+  }
+}
+
+.schedule__content {
+  background: white;
+}
+
+
+.schedule-item {
+  @include make-row();
+
+  text-align: center;
+  background-color: #f5f8fa;
+  padding: 24px;
+
+  .schedule-item__hour {
+    @include make-md-column(1);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    color: #57585a;
+    padding-top: 25px;
+  }
+
+  .schedule-item__image {
+    @include make-md-column(2);
+
+    img {
+      width: 89px;
+      height: 89px;
+      border-radius: 50%;
+    }
+  }
+
+  .schedule-item__main {
+    @include make-md-column(9);
+
+    text-align: left;
+    padding-top: 15px;
+  }
+
+  .schedule-item__title {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    color: #57585a;
+  }
+
+  .schedule-item__subtitle {
+    font-family: Lato;
+    font-size: 18px;
+    color: #57585a;
+  }
+}
+
+.schedule-list {
+  @extend .container;
+  padding-top: 50px;
+  padding-bottom: 5.5em;
+}
