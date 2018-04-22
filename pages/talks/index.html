@@ -21,31 +21,30 @@ permalink: /talks
 
 <div class="block">
   <div class="container">
-    <ol>
-      {% for session in site.data.talks['2018'] %}
-        {% if session.type == "Talk" %}
-          {% for speaker in site.data.speakers['2018'].speakers %}
-            {% if speaker.url == session.speaker %}
-            <li class="sessions__item">
-              <div class="sessions__item-img">
-                <img
-                  src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
-                  alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
-              </div>
-              <div class="sessions__item-copy">
-                <div class="sessions__item-copy-small">{{ speaker.first_name }} {{ speaker.last_name }}</div>
-                <a
-                  class="sessions__item-copy-large"
-                  href="/speakers/{{ speaker.url }}#{{session.title | slugify}}">
-                  {{ session.title }}
-                </a>
-              </div>
-            </li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </ol>
+    {% for session in site.data.talks['2018'] %}
+      {% if session.type == "Talk" %}
+        {% for speaker in site.data.speakers['2018'].speakers %}
+          {% if speaker.url == session.speaker %}
+          <div class="sessions__item">
+            <div class="sessions__item-img">
+              <img
+                src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
+                alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
+            </div>
+            <div class="sessions__item-copy">
+              <div class="sessions__item-copy-small">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+              <a
+                class="sessions__item-copy-large"
+                href="/speakers/{{ speaker.url }}#{{session.title | slugify}}">
+                {{ session.title }}
+              </a>
+              {% include components/tags.html tags=session.tags %}
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
 

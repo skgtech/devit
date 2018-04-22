@@ -15,4 +15,8 @@
   margin: 4px;
   display: inline-block;
   text-transform: uppercase;
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
