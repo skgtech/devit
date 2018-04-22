@@ -37,9 +37,9 @@ yarn
 
 ## Build Commands
 
-* `gulp`: Launch the website locally, a development workflow with livereloads and watches.
-* `gulp deploy`: Build & Deploy the website using github pages.
-* `gulp deploy --config _config-sta.yml --gh-pages sta-gh-pages`: Build & Deploy the website to Heroku.
+* `npm run develop`: Launch the website locally, a development workflow with livereloads and watches.
+* `npm run deploy`: Build & Deploy the website using github pages.
+* `npm run deploy:staging`: Build & Deploy the website to Heroku.
 
 ## Directory Structure
 
