@@ -42,8 +42,7 @@ script:
   - rm -rf ./_site/2017 ./_site/2016 ./_site/2015
   # Deploy a PR Preview
   - export RESULT=$(netlify deploy -t $NETLIFY_ACCESS_TOKEN -s vigorous-wilson-121bb5 -p _site/)
-  - export RESULTS=$(node -pe 'JSON.stringify(process.argv[1])' '{ "body": "$RESULT" }')
-  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then curl -H "Authorization: token $GITHUB_COMMENT" -X POST -d $RESULTS "https://api.github.com/repos/skgtech/devit/issues/$TRAVIS_PULL_REQUEST/comments"; fi
+  # - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then curl -H "Authorization: token $GITHUB_COMMENT" -X POST -d $RESULTS "https://api.github.com/repos/skgtech/devit/issues/$TRAVIS_PULL_REQUEST/comments"; fi
 
   # Previous site folders are considered to be legacy.
   # Do not check on them.
