@@ -19,3 +19,7 @@ silver:
       img: /assets/images/sponsors/svg/ellinair.svg
       url: https://ellinair.com
       override_height: 80px
+    - name: WAES
+      img: /assets/images/sponsors/svg/waes.svg
+      url: https://www.wearewaes.com/
+      override_height: 40px
