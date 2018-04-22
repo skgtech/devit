@@ -2,11 +2,18 @@
   "name": "devit",
   "version": "0.0.0",
   "description": "DEVit conference official website",
+  "scripts": {
+    "deploy": "gulp build && gh-pages -d _site",
+    "deploy:staging": "gulp build --config _config-sta.yml && gh-pages -d _site -b sta-gh-pages",
+    "develop": "gulp",
+    "build": "gulp build",
+    "lint": "htmlproofer ./_site --file-ignore \"/2015/,/2016/,/2017/,/legacy/,/working/\" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999"
+  },
   "devDependencies": {
     "bootstrap-sass": "~3.3.7",
-    "browser-sync": "~2.23.6",
+    "browser-sync": "^2.23.7",
     "codebird": "~2.6.0",
-    "css-loader": "~0.28.8",
+    "css-loader": "^0.28.11",
     "fancy-select": "~2.0.2",
     "file-loader": "~1.1.6",
     "flowtype": "~2.0.0",
@@ -14,8 +21,7 @@
     "gmap3": "~7.1.0",
     "gulp": "~3.9.1",
     "gulp-autoprefixer": "~5.0.0",
-    "gulp-gh-pages": "~0.5.4",
-    "gulp-sass": "^3.2.0",
+    "gulp-sass": "^3.2.1",
     "gulp-sourcemaps": "^2.6.4",
     "instafeed.js": "~1.4.1",
     "jquery": "~3.1.1",
@@ -30,12 +36,13 @@
     "sass-loader": "~6.0.6",
     "style-loader": "~0.20.3",
     "url-loader": "~1.0.1",
-    "webpack-stream": "~4.0.0"
+    "webpack-stream": "^4.0.3"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "vanilla-lazyload": "^10.4.2"
+    "gh-pages": "^1.1.0",
+    "vanilla-lazyload": "^10.5.2"
   }
 }

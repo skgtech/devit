@@ -6,7 +6,6 @@ const cp = require('child_process');
 const webpackStream = require('webpack-stream');
 const webpackConfig = require('./webpack.config.js');
 const path = require('path');
-const ghPages = require('gulp-gh-pages');
 const minimist = require('minimist');
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'bundle';
 const sourcemaps = require('gulp-sourcemaps');
@@ -14,26 +13,14 @@ const messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
 };
 
-let deployOptions = {
+let defaultOptions = {
   string: ['config', 'branch'],
   default: {
-   config: '_config.yml',
-   origin: "origin",
-   push: true,
-   'gh-pages': 'gh-pages'
+   config: '_config.yml'
   }
 };
 
-let options = minimist(process.argv.slice(2), deployOptions);
-
-gulp.task('deploy', ['build'], function () {
-  return gulp.src('./_site/**/*')
-    .pipe(ghPages({
-      branch: options['gh-pages'],
-      origin: options['origin'],
-      push: options['push']
-    }));
-});
+let options = minimist(process.argv.slice(2), defaultOptions);
 
 gulp.task('watch', function () {
   gulp.watch([
