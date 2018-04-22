@@ -5,11 +5,6 @@ html {
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
   hyphens: auto;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
 }
 
 @media (max-width: $screen-sm-max) {
