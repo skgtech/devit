@@ -3,11 +3,9 @@
 }
 
 .sessions__item {
-  padding: 24px;
+  padding: 1.33em;
   display: flex;
   align-items: center;
-  font-size: 1.33em;
-  min-height: 136px;
   color: #57585a;
   background-color: #f5f8fa;
 
@@ -17,7 +15,7 @@
 }
 
 .sessions__item-time {
-  padding-left: 24px;
+  padding-left: 1.33em;
   flex-basis: 112px;
   flex-shrink: 0;
 }
@@ -25,7 +23,7 @@
 .sessions__item-img {
   width: 89px;
   height: 89px;
-  margin-right: 24px;
+  margin-right: 1.33em;
   border-radius: 50%;
   background-color: #00629e;
   overflow: hidden;
@@ -48,17 +46,25 @@
   display: flex;
   flex-direction: column;
   flex-grow: 100;
+  color: #57585a;
 }
 
 .sessions__item-copy-small {
-  font-size: 0.75em;
+  font-size: 1em;
+}
+
+.sessions__item-copy-large {
+  display: block;
+  font-size: 1.33em;
+  font-weight: 900;
+  color: #57585a;
 }
 
 .sessions__item-cta {
   margin: 0 24px;
   border-radius: 50px;
   padding: 10px 32px;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: normal;
   text-transform: uppercase;
 }

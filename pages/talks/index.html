@@ -28,16 +28,17 @@ permalink: /talks
             {% if speaker.url == session.speaker %}
             <li class="sessions__item">
               <div class="sessions__item-img">
-                <i class="fas fa-ticket-alt"></i>
                 <img
                   src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
                   alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
               </div>
               <div class="sessions__item-copy">
                 <div class="sessions__item-copy-small">{{ speaker.first_name }} {{ speaker.last_name }}</div>
-                <div class="sessions__item-copy-large">
-                  <strong>{{ session.title }}</strong>
-                </div>
+                <a
+                  class="sessions__item-copy-large"
+                  href="/speakers/{{ speaker.url }}#{{session.title | slugify}}">
+                  {{ session.title }}
+                </a>
               </div>
             </li>
             {% endif %}
