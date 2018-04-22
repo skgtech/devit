@@ -7,37 +7,43 @@ permalink: /talks
 
 {% include blocks/header.html page="talks" %}
 
-<div class="block block-schedule text-center">
+<div class="block block-sessions text-center">
   <div class="container">
     <h1 class="block__heading--dark">
-      Schedule
+      Talks
     </h1>
 
-    <div class="schedule__nav">
-      <a class="schedule__nav-btn btn" href="/workshops">Workshops</a>
-      <div class="schedule__nav-separator"></div>
-      <a class="schedule__nav-btn schedule__nav-btn--active btn" href="/talks">Talks</a>
-    </div>
+    <p>
+      Here are our talks
+    </p>
   </div>
 </div>
 
 <div class="block">
   <div class="container">
     <ol>
-      <li class="schedule__item">
-        <strong class="schedule__item-time">10:30</strong>
-        <div class="schedule__item-img">
-          <i class="fas fa-ticket-alt"></i>
-          <img src="https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82" alt="Speaker name" />
-        </div>
-        <div class="schedule__item-copy">
-          <div class="schedule__item-copy-small">Speaker name</div>
-          <div class="schedule__item-copy-large">
-            <strong>Talk title</strong>
-          </div>
-        </div>
-        <a target="_blank" rel="noopener" class="schedule__item-cta btn btn-primary" href="#">Buy now</a>
-      </li>
+      {% for session in site.data.talks['2018'] %}
+        {% if session.type == "Talk" %}
+          {% for speaker in site.data.speakers['2018'].speakers %}
+            {% if speaker.url == session.speaker %}
+            <li class="sessions__item">
+              <div class="sessions__item-img">
+                <i class="fas fa-ticket-alt"></i>
+                <img
+                  src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
+                  alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
+              </div>
+              <div class="sessions__item-copy">
+                <div class="sessions__item-copy-small">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+                <div class="sessions__item-copy-large">
+                  <strong>{{ session.title }}</strong>
+                </div>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
     </ol>
   </div>
 </div>
