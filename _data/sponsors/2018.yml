@@ -12,6 +12,9 @@ gold:
     - name: Resin.io
       img: /assets/images/sponsors/svg/resinio.svg
       url: https://resin.io/
+    - name: Toptal
+      img: /assets/images/sponsors/svg/toptal.svg
+      url: https://www.toptal.com/
 
 silver:
   -
