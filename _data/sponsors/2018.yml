@@ -15,7 +15,7 @@ gold:
     - name: Toptal
       img: /assets/images/sponsors/svg/toptal.svg
       url: https://www.toptal.com/
-      override_height: 150px
+      override_height: 50px
 
 silver:
   -
