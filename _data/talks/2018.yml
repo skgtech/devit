@@ -275,3 +275,20 @@
   tags:
     - Code Reviews
     - Culture
+
+- title: "Evolving Patterns in React"
+  speaker: alex_moldovan
+  description: "<p>Let’s take a closer look at some of the patterns
+  that are emerging in the React ecosystem. These patterns improve
+  readability, code clarity, and push your code towards composition
+  and reusability.</p><p>I recently wrote this article that is
+  covering some of <a href=\"https://medium.freecodecamp.org/evolving-patterns-in-react-116140e5fe8f\">
+  the patterns.</a></p><p>In the talk, we will tackle:</p><ul>
+  <li>Conditional Rendering</li><li>Pass-through Props</li><li>
+  Provider Pattern</li><li>High Order Components</li><li>Render
+  Props</li></ul></p>"
+  type: Workshop
+  tags:
+    - React
+    - Patterns
+    - Clean Code

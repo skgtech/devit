@@ -410,6 +410,29 @@ speakers:
       VR, information visualisation with visual analytics), mobile and ambient technologies
       as well as human-centred design, etc.</p>"
 
+  - url: alex_moldovan
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Javascript
+      - Clean Code
+    first_name: Alex
+    last_name: Moldovan
+    image_filename: Alex_Moldovan.jpg
+    tagline: Coder, blogger and tech enthusiast
+    social:
+      twitter: alexnmoldovan
+      github: alexnm
+    bio: "<p>Coder, blogger and tech enthusiast in general, Alex is
+      always eager to talk about web development, javascript and
+      programming overall. He believes that building knowledge is
+      similar to building Legos - which he does in his spare time -
+      one block at a time. </p><p>He dedicates a lot of time to teaching others,
+      through mentoring and coaching activities both at his current
+      company Fortech where he leads a department of JavaScript developers
+      and inside the local community from Cluj, where he organizes
+      JSHeroes, the biggest JS conference in Romania.</p>"
+
   - url: lauren_robinson
     year: 2018
     hearFor: Workshop
@@ -420,7 +443,7 @@ speakers:
     first_name: Lauren
     last_name: Robinson
     image_filename: Lauren_Robinson.jpg
-    tagline: Lauren Robinson - Backend Developer @ Trivago
+    tagline: Backend Developer @ Trivago
     social:
       twitter: lauren_robi
       linkedin: https://www.linkedin.com/in/lauren-robinson-043aa447/
