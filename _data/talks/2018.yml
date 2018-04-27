@@ -14,6 +14,7 @@
     describe the lessons that the industry still hasn’t learned, and needs to, even more desperately today.</p>"
   speaker: dave_platt
   type: Talk
+  talkId: id_01
 
 - title: "Xamarin and Azure - Build the mobile apps of tomorrow"
   description: "<p>It’s hard to be a developer and not have heard of Xamarin. It’s now part of Microsoft’s
@@ -116,6 +117,7 @@
   tags:
     - Tarraform
     - DevOps
+  talkId: id_02
 
 - title: "Attractive Things Work Better"
   description: "<p>As human beings, we enjoy beautiful and attractive things. But we also have
@@ -171,6 +173,7 @@
     - React.js
     - Javascript
     - MobX
+  talkId: id_03
 
 - title: "Hyperledger Framework – Bringing blockchain technologies closer to tomorrow's businesses"
   speaker: konstantinos_votis

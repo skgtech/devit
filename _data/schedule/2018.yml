@@ -1,0 +1,29 @@
+talks:
+  - type: talk
+    title: "Technologic (Human Afterall): Accessibility mix"
+    speaker: dave_platt
+    description: "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game."
+    hours: 11
+    mins: '00'
+    duration: 40
+    talkId: id_01
+
+
+  - type: talk
+    title: Data collection, forms, inclusivity
+    speaker: emii_khaos
+    description: "Asking for information online is hard. Users are cautious about the data they share. Companies are quite terrible at asking for the right piece of information, let alone phrasing it correctly. In this presentation, we’ll focus on two major pieces of information about a person: their name, and their gender. We’ll see how not to ask for them, and how we can ensure inclusivity and diversity on the web by asking the right thing in the right format."
+    hours: 11
+    mins: 40
+    duration: 40
+    talkId: id_02
+
+  - type: talk
+    title: iOS & Swift
+    speaker: amit_zur
+    title: Build Features, Not Apps
+    description: "Most iPhone users don’t bother installing any apps per months. And worse, ~80% never use an app they’ve installed again. The future of mobile is clearly not apps, but features. Features that make the iPhone ecosystem still a native experience, but as open and flexible as the web. Learn how you could prepare for that future."
+    hours: 13
+    mins: 30
+    duration: 40
+    talkId: id_03

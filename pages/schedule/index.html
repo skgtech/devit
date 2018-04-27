@@ -80,18 +80,35 @@ custom_js:
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="talks">
+         <div role="tabpanel" class="tab-pane" id="talks">
           <div class="schedule-list">
-            <div class="schedule-item">
-              <div class="schedule-item__hour">9:30</div>
-              <div class="schedule-item__image">
-                <img src="/assets/images/speakers/2018/Amit_Zur.jpg" alt="Amit Zur">
-              </div>
-              <div class="schedule-item__main">
-                <div class="schedule-item__subtitle">Melanie Patrick</div>
-                <div class="schedule-item__title">Git - How to Unfuck</div>
-              </div>
-            </div>
+            {% for talks in site.data.schedule.2018.talks %}
+              {% for talk2 in site.data.talks.2018 %}
+              <!-- <p> talks id: {{ talks.talkId }}</p>
+              <p> talk2 id: {{ talk2.talkId }}</p> -->
+                {% if talk2.talkId == talks.talkId %}
+                  {% for speaker in site.data.speakers.2018.speakers %}
+                    {% if speaker.url == talks.speaker %}
+
+                      <div class="schedule-item" style="margin-bottom: 8px;">
+                        <div class="schedule-item__hour">{{talks.hours}}:{{talks.mins}}</div>
+
+                        <div class="schedule-item__image">
+                          <img src="/assets/images/speakers/2018/{{speaker.image_filename}}" alt="{{speaker.first_name}} {{speaker.last_name}}">
+                        </div>
+
+                        <div class="schedule-item__main">
+                          <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
+                          <div class="schedule-item__title">{{talk2.title}}</div>
+                        </div>
+                      </div>
+
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+
           </div>
         </div>
       </div>
