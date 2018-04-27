@@ -82,12 +82,11 @@ custom_js:
         </div>
          <div role="tabpanel" class="tab-pane" id="talks">
           <div class="schedule-list">
-            {% for talks in site.data.schedule.2018.talks %}
-              {% for talk2 in site.data.talks.2018 %}
-              <!-- <p> talks id: {{ talks.talkId }}</p>
-              <p> talk2 id: {{ talk2.talkId }}</p> -->
+            {% assign year = '2018' %}
+            {% for talks in site.data.schedule[year] %}
+              {% for talk2 in site.data.talks[year] %}
                 {% if talk2.talkId == talks.talkId %}
-                  {% for speaker in site.data.speakers.2018.speakers %}
+                  {% for speaker in site.data.speakers[year].speakers %}
                     {% if speaker.url == talks.speaker %}
 
                       <div class="schedule-item" style="margin-bottom: 8px;">
