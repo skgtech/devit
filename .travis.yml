@@ -36,7 +36,7 @@ script:
   # Previous folders are HUGE. Remove them before deploying.
   - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then rm -rf ./_site/2017 ./_site/2016 ./_site/2015; fi
   # Deploy a PR Preview
-  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then export RESULT=$(netlify deploy -t $NETLIFY_ACCESS_TOKEN -s devitconf -p _site/ | grep -Eo 'http://[^ >]+'|head -1); fi
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then export RESULT=$(netlify deploy -t $NETLIFY_ACCESS_TOKEN -s vigorous-wilson-121bb5 -p _site/ | grep -Eo 'http://[^ >]+'|head -1); fi
   - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then curl -H "Authorization:token $GITHUB_COMMENT" -X POST -d "{\"body\":\"View your PR here $RESULT.\"}" "https://api.github.com/repos/skgtech/devit/issues/$TRAVIS_PULL_REQUEST/comments"; fi
 
   # Previous site folders are considered to be legacy.
@@ -47,7 +47,7 @@ script:
   - npm run lint
 
   # Deploy on Production
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then git config --global user.email publish@travis.github && git config --global user.name "Travis"; fi
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then git remote remove origin; fi
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then git remote add origin https://${GITHUB_COMMENT}@github.com/skgtech/devit.git > /dev/null 2>&1; fi
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run deploy; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then git config --global user.email publish@travis.github && git config --global user.name "Travis"; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then git remote remove origin; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then git remote add origin https://${GITHUB_COMMENT}@github.com/skgtech/devit.git > /dev/null 2>&1; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then npm run deploy; fi
