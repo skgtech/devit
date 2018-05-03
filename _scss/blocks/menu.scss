@@ -132,11 +132,11 @@
   height: 52px;
   float: left;
 
-  background-image: url(/assets/images/new/devit-logo-white.svg);
+  background-image: url(/assets/images/logo/white/logo.svg);
   background-size: 100%;
   background-repeat: no-repeat;
 
   .sticky--stick & {
-    background-image: url(/assets/images/new/devit-logo-blue.svg);
+    background-image: url(/assets/images/logo/blue/logo.svg);
   }
 }
