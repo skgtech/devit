@@ -6,3 +6,8 @@
   - name: Rails Girls Athens
     url: http://railsgirls.com/athens.html
     img: /assets/images/partners/rails-girls-logo.svg
+
+  - name: Intermediakt
+    url: http://intermediakt.org/
+    img: /assets/images/partners/intermediakt.png
+    override_height: 100px
