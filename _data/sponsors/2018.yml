@@ -27,3 +27,6 @@ silver:
       img: /assets/images/sponsors/svg/waes.svg
       url: https://www.wearewaes.com/
       override_height: 40px
+    - name: Nemetschek
+      img: /assets/images/sponsors/nemetschek.png
+      url: https://www.nemetschek.bg/
