@@ -6,7 +6,8 @@
 
   - name: City College Thessaloniki
     url: http://www.citycollege.sheffield.eu/
-    img: /assets/images/partners/city-college-logo.png
+    img: /assets/images/partners/city-college-logo.svg
+    override_height: 100px
 
   - name: OK!Thess
     url: http://www.okthess.gr/
