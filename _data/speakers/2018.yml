@@ -83,6 +83,27 @@ speakers:
       wonders whether he should tape down two of his daughter’s fingers so she
       learns how to count in octal. You can contact him at rollthunder.com.</p>
 
+  - url: joe_sepi
+    year: 2018
+    hearFor: Talk
+    tags:
+      - Web
+      - Node.js
+      - JavaScript
+    first_name: Joe Sepi
+    last_name: Crane-Messina
+    image_filename: Joe_Sepi.jpg
+    tagline: ⚡️ NYC City Leader Developer/Advocate at @IBM ⚡️ @nodejs Foundation Community Committee member ⚡️
+    social:
+      github: joesepi
+      twitter: joe_sepi
+    bio: "<p>Joe Sepi is passionate about advancing the web forward
+      through open source technologies and open communities. He has
+      held engineering leadership positions at companies such as The
+      New York Times, Adobe, Credit Suisse and Sears and currently
+      leads the developer advocacy mission in NYC for IBM. </p>
+      <p>He also plays in two punk rock bands. 🤘</p>"
+
   - url: laurent_bugnion
     year: 2018
     hearFor: Workshop
