@@ -401,36 +401,6 @@ speakers:
       a contributor to Firefox devtools.Also, worth noting he rides a motorcycle and
       enjoys Origami.</p>"
 
-  - url: konstantinos_votis
-    year: 2018
-    hearFor: Workshop
-    tags:
-      - Blockchain
-      - Hyperledger
-    first_name: Dr. Konstantinos
-    last_name: Votis
-    image_filename: Konstantinos_Votis.jpg
-    tagline: Senior Technical Management
-    social:
-      linkedin: https://www.linkedin.com/in/votis-konstantinos-563b647/
-    bio: "<p>Dr. Votis Konstantinos is a computer engineer and a senior researcher
-      (Researcher Grade C’) at Information Technologies Institute/Centre for Research
-      and Technologies Hellas (CERTH/ITI) and Director of the Visual Analytics Laboratory
-      of CERTH/ITI. He is also a visiting professor at the De-Montfort University in
-      UK in the field of Human Computer Interaction, VR, AR. He received an MSc and a
-      Ph.D. degree in computer science and service oriented architectures from Computer
-      Engineering and Informatics department, University of Patras, Greece. In addition,
-      he holds an MBA from the Business School department in the University of Patras.
-      His research interests include Human Computer Interaction, information Visualisation
-      and management of big data, knowledge engineering and decision support systems,
-      as well as pervasive computing, with major application areas such as m-Health,
-      eHealth, and personalized healthcare. His PhD was in the domain of service
-      Oriented Architecture and Information management systems in e-inclusion and
-      healthcare. </p><p>Since 2001, he has published more than 80 international scientific
-      articles on eHealth, m-health, human-technology interaction visualisation (AR,
-      VR, information visualisation with visual analytics), mobile and ambient technologies
-      as well as human-centred design, etc.</p>"
-
   - url: alex_moldovan
     year: 2018
     hearFor: Workshop
@@ -480,3 +450,33 @@ speakers:
       developing. Being a Jamaican makes her a natural raconteur,
       giving her the ability to bring any story to life. She loves
       cats, ice-cream and of late, Amigurumi crocheting.</p>"
+
+  - url: konstantinos_votis
+    year: 2018
+    hearFor: Workshop
+    tags:
+      - Blockchain
+      - Hyperledger
+    first_name: Dr. Konstantinos
+    last_name: Votis
+    image_filename: Konstantinos_Votis.jpg
+    tagline: Senior Technical Management
+    social:
+      linkedin: https://www.linkedin.com/in/votis-konstantinos-563b647/
+    bio: "<p>Dr. Votis Konstantinos is a computer engineer and a senior researcher
+      (Researcher Grade C’) at Information Technologies Institute/Centre for Research
+      and Technologies Hellas (CERTH/ITI) and Director of the Visual Analytics Laboratory
+      of CERTH/ITI. He is also a visiting professor at the De-Montfort University in
+      UK in the field of Human Computer Interaction, VR, AR. He received an MSc and a
+      Ph.D. degree in computer science and service oriented architectures from Computer
+      Engineering and Informatics department, University of Patras, Greece. In addition,
+      he holds an MBA from the Business School department in the University of Patras.
+      His research interests include Human Computer Interaction, information Visualisation
+      and management of big data, knowledge engineering and decision support systems,
+      as well as pervasive computing, with major application areas such as m-Health,
+      eHealth, and personalized healthcare. His PhD was in the domain of service
+      Oriented Architecture and Information management systems in e-inclusion and
+      healthcare. </p><p>Since 2001, he has published more than 80 international scientific
+      articles on eHealth, m-health, human-technology interaction visualisation (AR,
+      VR, information visualisation with visual analytics), mobile and ambient technologies
+      as well as human-centred design, etc.</p>"
