@@ -296,10 +296,16 @@
   readability, code clarity, and push your code towards composition
   and reusability.</p><p>I recently wrote this article that is
   covering some of <a href=\"https://medium.freecodecamp.org/evolving-patterns-in-react-116140e5fe8f\">
-  the patterns.</a></p><p>In the talk, we will tackle:</p><ul>
-  <li>Conditional Rendering</li><li>Pass-through Props</li><li>
-  Provider Pattern</li><li>High Order Components</li><li>Render
-  Props</li></ul></p>"
+  the patterns.</a></p><p>IThe workshop will cover:</p><ul><li>Advanced
+  Component Design<ul><li>Conditional Rendering</li><li>Using ESnext Class
+  Properties</li><li>Curried Event Handlers</li><li>Stateless Components</li>
+  <li>Pure Components</li></ul></li><li>Having Fun with Props <ul><li>Children
+  Props</li><li>Pass-through Props</li><li>Destructuring Props</li></ul></li>
+  <li>Reusing and Composing in React <ul><li>Mixins</li><li>High-Order
+  Components</li><li>Render Props</li></ul></li><li>Provider Pattern <ul>
+  <li>React Context</li><li>The new Context API</li></ul></li><li>State
+  Management <ul><li>State Lifting</li><li>When is Redux needed</li></ul></li>
+  </ul></p>"
   type: Workshop
   tags:
     - React
