@@ -1,29 +1,91 @@
+talks:
+  - type: 'fa-ticket-alt'
+    title: Registration
+    hours: 08
+    mins: 30
+    duration: 60
 
-  - type: talk
-    title: "Technologic (Human Afterall): Accessibility mix"
-    speaker: dave_platt
-    description: "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game."
-    hours: 11
+  - type: 'fa-bullhorn'
+    title: Opening Ceremony
+    hours: 09
     mins: '00'
-    duration: 40
-    talkId: id_01
-
+    duration: 45
 
   - type: talk
-    title: Data collection, forms, inclusivity
-    speaker: emii_khaos
-    description: "Asking for information online is hard. Users are cautious about the data they share. Companies are quite terrible at asking for the right piece of information, let alone phrasing it correctly. In this presentation, we’ll focus on two major pieces of information about a person: their name, and their gender. We’ll see how not to ask for them, and how we can ensure inclusivity and diversity on the web by asking the right thing in the right format."
+    speaker: dave_platt
+    hours: 09
+    mins: '45'
+    duration: 45
+
+  - type: talk
+    speaker: pawel_dudek
+    hours: 10
+    mins: 30
+    duration: 45
+
+  - type: 'fa-coffee'
+    title: Coffee
     hours: 11
-    mins: 40
-    duration: 40
-    talkId: id_02
+    mins: 15
+    duration: 30
+
+  - type: talk
+    speaker: cheryl_platz
+    hours: 11
+    mins: 45
+    duration: 45
+
+  - type: talk
+    speaker: joe_sepi
+    hours: 12
+    mins: 30
+    duration: 45
+
+  - type: 'fa-utensils'
+    title: Lunch
+    hours: 13
+    mins: 15
+    duration: 60
+
+  - type: talk
+    speaker: joe_sepi
+    hours: 14
+    mins: 15
+    duration: 45
 
   - type: talk
     title: iOS & Swift
+    speaker: ingrid_epure
+    hours: 15
+    mins: 00
+    duration: 45
+
+  - type: talk
     speaker: amit_zur
-    title: Build Features, Not Apps
-    description: "Most iPhone users don’t bother installing any apps per months. And worse, ~80% never use an app they’ve installed again. The future of mobile is clearly not apps, but features. Features that make the iPhone ecosystem still a native experience, but as open and flexible as the web. Learn how you could prepare for that future."
-    hours: 13
+    hours: 15
+    mins: 45
+    duration: 45
+
+  - type: 'fa-coffee'
+    title: Coffee
+    hours: 16
     mins: 30
-    duration: 40
-    talkId: id_03
+    duration: 30
+
+  - type: talk
+    speaker: emii_khaos
+    hours: 17
+    mins: 45
+    duration: 45
+
+  - type: talk
+    speaker: julien_simon
+    hours: 17
+    mins: 45
+    duration: 45
+
+  - type: 'fa-bullhorn'
+    title: Closing Ceremony
+    hours: 18
+    mins: 30
+    duration: 15
