@@ -1,6 +1,15 @@
-- title: "To be announced"
+- title: "Opti-pessimism: Design for the best case, build for the worst"
   speaker: cheryl_platz
   type: Talk
+  description: "<p>How can we design for the promise of the future AND build for the reality of today, 
+    all while in an Agile environment? Cheryl Platz turns her experience designing for products like 
+    Azure and Alexa into survival strategies for products at the cutting edge. From information 
+    architecture and accessibility to emerging tech like AI and conversational UI: we'll take 
+    a whirlwind tour to build a roadmap for \"opti-pessimistic\" product design.</p>"
+  tags:
+    - UX
+    - Design
+    - AI
 
 - title: "To be announced"
   speaker: joe_sepi
