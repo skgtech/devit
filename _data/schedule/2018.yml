@@ -57,7 +57,7 @@ talks:
     title: iOS & Swift
     speaker: ingrid_epure
     hours: 15
-    mins: 00
+    mins: '00'
     duration: 45
 
   - type: talk
@@ -75,7 +75,7 @@ talks:
   - type: talk
     speaker: emii_khaos
     hours: 17
-    mins: 45
+    mins: '00'
     duration: 45
 
   - type: talk
