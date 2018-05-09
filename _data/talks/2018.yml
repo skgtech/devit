@@ -39,6 +39,7 @@
   ticket: single
   speaker: laurent_bugnion
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=24265&ttQuantity=1&r
 
 - title: "Xamarin and Azure - Build the mobile apps of tomorrow"
   description: "<p>It’s hard to be a developer and not have heard of Xamarin. It’s now part of Microsoft’s
@@ -60,6 +61,7 @@
   speaker: jim_bennett
   ticket: single
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=24265&ttQuantity=1&r
 
 - title: "Modern easy IoT with JS, Docker & Resin.io"
   description: "<p>Are you curious about how IoT development works? Or are you already an experienced hardware
@@ -71,6 +73,7 @@
   ticket: single
   speaker: tim_perry
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25398&ttQuantity=1&r
   tags:
     - IoT
     - Docker
@@ -86,6 +89,7 @@
   ticket: single
   speaker: katerina_trajchevska
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25399&ttQuantity=1&r
   tags:
     - SOLID
     - PHP7
@@ -103,6 +107,7 @@
   ticket: single
   speaker: anna_doubková
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25400&ttQuantity=1&r
   tags:
     - Serverless
     - AWS
@@ -136,6 +141,7 @@
   ticket: single
   speaker: ivana_milicic
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25401&ttQuantity=1&r
   tags:
     - UX
     - Culture
@@ -153,6 +159,7 @@
   ticket: single
   speaker: danielle_reid
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25402&ttQuantity=1&r
   tags:
     - UX
     - Design
@@ -201,6 +208,7 @@
     Foundation project</a></p><p><b>In cooperation with <a href=\"/speakers/sofia_terzi\">
     Sofia Terzi</a></b></p>"
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25403&ttQuantity=1&r
   tags:
     - Hyperledger
 
@@ -229,6 +237,7 @@
     Foundation project</a></p><p><b>In cooperation with:
     <a href=\"/speakers/konstantinos_votis\">Konstantinos Votis</a></b></p>"
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25403&ttQuantity=1&r
   tags:
     - Hyperledger
 
@@ -276,6 +285,7 @@
     <li>And a whole lot more!</li></ol><p>Be prepared to actually
     review some pull requests in this workshop =D</p>"
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25404&ttQuantity=1&r
   tags:
     - Code Reviews
     - Culture
@@ -292,6 +302,7 @@
   Provider Pattern</li><li>High Order Components</li><li>Render
   Props</li></ul></p>"
   type: Workshop
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25405&ttQuantity=1&r
   tags:
     - React
     - Patterns

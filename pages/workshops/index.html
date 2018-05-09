@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Workshops
-description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+description: "The 10th of June will be a day dedicated on workshops. View all our sessions below along with their respective instructors and join us for a full day of hands-on experience."
 permalink: /workshops
 ---
 
@@ -14,7 +14,9 @@ permalink: /workshops
     </h1>
 
     <p>
-      Here are our workshops
+      The 10th of June will be a day dedicated on workshops. View all our sessions below
+      along with their respective instructors and join us for a full day of hands-on
+      experience.
     </p>
   </div>
 </div>
@@ -42,7 +44,13 @@ permalink: /workshops
               </a>
               {% include components/tags.html tags=session.tags %}
             </div>
-            <a target="_blank" rel="noopener" class="sessions__item-cta btn btn-primary" href="#">Buy now</a>
+            <a
+              target="_blank"
+              rel="noopener"
+              class="sessions__item-cta btn btn-primary"
+              href="{{ session.buyLink }}">
+              Buy now
+            </a>
           </div>
           {% endif %}
         {% endfor %}
@@ -51,4 +59,5 @@ permalink: /workshops
   </div>
 </div>
 
+{% include blocks/subscribe.html %}
 {% include blocks/footer.html %}
