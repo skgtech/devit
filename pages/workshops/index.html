@@ -1,0 +1,63 @@
+---
+layout: default
+title: Workshops
+description: "The 10th of June will be a day dedicated on workshops. View all our sessions below along with their respective instructors and join us for a full day of hands-on experience."
+permalink: /workshops
+---
+
+{% include blocks/header.html page="workshops" %}
+
+<div class="block block-sessions text-center">
+  <div class="container">
+    <h1 class="block__heading--dark">
+      Workshops
+    </h1>
+
+    <p>
+      The 10th of June will be a day dedicated on workshops. View all our sessions below
+      along with their respective instructors and join us for a full day of hands-on
+      experience.
+    </p>
+  </div>
+</div>
+
+<div class="block">
+  <div class="container">
+    {% for session in site.data.talks['2018'] %}
+      {% if session.type == "Workshop" %}
+        {% for speaker in site.data.speakers['2018'].speakers %}
+          {% if speaker.url == session.speaker %}
+          <div class="sessions__item">
+            <div class="sessions__item-img">
+              <img
+                src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
+                alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
+            </div>
+            <div class="sessions__item-copy">
+              <div class="sessions__item-copy-small">
+                {{ speaker.first_name }} {{ speaker.last_name }}
+              </div>
+              <a
+                class="sessions__item-copy-large"
+                href="/speakers/{{ speaker.url }}#{{ session.title | slugify }}">
+                {{ session.title }}
+              </a>
+              {% include components/tags.html tags=session.tags %}
+            </div>
+            <a
+              target="_blank"
+              rel="noopener"
+              class="sessions__item-cta btn btn-primary"
+              href="{{ session.buyLink }}">
+              Buy now
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include blocks/subscribe.html %}
+{% include blocks/footer.html %}

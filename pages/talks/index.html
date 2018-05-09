@@ -1,0 +1,54 @@
+---
+layout: default
+title: Talks
+description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+permalink: /talks
+---
+
+{% include blocks/header.html page="talks" %}
+
+<div class="block block-sessions text-center">
+  <div class="container">
+    <h1 class="block__heading--dark">
+      Talks
+    </h1>
+
+    <p>
+      Our main event will took place on 11th of June. This is a list of and the talks you will
+      have the opportunity to watch to and all the great speakers you will meat. The Talks day
+      is the heart of the DEVit conference and each year we strive to make it better. Join us.
+    </p>
+  </div>
+</div>
+
+<div class="block">
+  <div class="container">
+    {% for session in site.data.talks['2018'] %}
+      {% if session.type == "Talk" %}
+        {% for speaker in site.data.speakers['2018'].speakers %}
+          {% if speaker.url == session.speaker %}
+          <div class="sessions__item">
+            <div class="sessions__item-img">
+              <img
+                src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
+                alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
+            </div>
+            <div class="sessions__item-copy">
+              <div class="sessions__item-copy-small">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+              <a
+                class="sessions__item-copy-large"
+                href="/speakers/{{ speaker.url }}#{{session.title | slugify}}">
+                {{ session.title }}
+              </a>
+              {% include components/tags.html tags=session.tags %}
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include blocks/subscribe.html %}
+{% include blocks/footer.html %}
