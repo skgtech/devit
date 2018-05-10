@@ -14,7 +14,7 @@
   }
 
   @media (max-width: $screen-xs-min) {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
