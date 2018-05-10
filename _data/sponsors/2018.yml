@@ -31,9 +31,20 @@ silver:
       img: /assets/images/sponsors/nemetschek.png
       url: https://www.nemetschek.bg/
 
+  -
+    - name: Fieldscale
+      img: /assets/images/sponsors/svg/fieldscale.svg
+      url: https://fieldscale.com/
+      override_height: 60px
+
 bronze:
   -
     - name: Workable
       img: /assets/images/sponsors/svg/workable.svg
       url: https://workable.com
 
+media:
+  -
+    - name: Insomnia
+      img: /assets/images/sponsors/insomnia.png
+      url: https://insomnia.gr

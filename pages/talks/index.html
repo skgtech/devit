@@ -23,16 +23,16 @@ permalink: /talks
 
 <div class="block">
   <div class="container">
-    {% for session in site.data.talks['2018'] %}
+    {% for session in site.data.talks[site.data.config.currentYear] %}
       {% if session.type == "Talk" %}
-        {% for speaker in site.data.speakers['2018'].speakers %}
+        {% for speaker in site.data.speakers[site.data.config.currentYear].speakers %}
           {% if speaker.url == session.speaker %}
           <div class="sessions__item">
             <div class="sessions__item-img">
               <img
                 class="lazy"
                 src="/assets/images/new/placeholder-profile-photo.svg"
-                data-src="/assets/images/speakers/2018/{{ speaker.image_filename }}"
+                data-src="/assets/images/speakers/{{site.data.config.currentYear}}/{{ speaker.image_filename }}"
                 alt="{{ speaker.first_name }} {{ speaker.last_name }}">
             </div>
             <div class="sessions__item-copy">

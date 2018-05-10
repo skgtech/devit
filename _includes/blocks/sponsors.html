@@ -8,35 +8,51 @@
     </p>
 
     <div class="cfs__sponsors">
-      {% if site.data.sponsors.2018.platinum %}
+      {% assign year = site.data.config.currentYear %}
+
+      {% assign platinumSponsors = site.data.sponsors[year].platinum %}
+      {% if platinumSponsors %}
         <div class="cfs__title">Platinum</div>
         {% include
           components/icons-stack.html
-          items=site.data.sponsors.2018.platinum
+          items=platinumSponsors
         %}
       {% endif %}
 
-      {% if site.data.sponsors.2018.gold %}
+      {% assign goldSponsors = site.data.sponsors[year].gold %}
+      {% if goldSponsors %}
         <div class="cfs__title">Gold</div>
         {% include
           components/icons-stack.html
-          items=site.data.sponsors.2018.gold
+          items=goldSponsors
         %}
       {% endif %}
 
-      {% if site.data.sponsors.2018.silver %}
+      {% assign silverSponsors = site.data.sponsors[year].silver %}
+      {% if silverSponsors %}
         <div class="cfs__title">Silver</div>
         {% include
           components/icons-stack.html
-          items=site.data.sponsors.2018.silver
+          items=silverSponsors
         %}
       {% endif %}
 
-      {% if site.data.sponsors.2018.bronze %}
+      {% assign bronzeSponsors = site.data.sponsors[year].bronze %}
+      {% if bronzeSponsors %}
         <div class="cfs__title">Bronze</div>
         {% include
           components/icons-stack.html
-          items=site.data.sponsors.2018.bronze
+          items=bronzeSponsors
+        %}
+      {% endif %}
+
+      {% assign mediaSponsors = site.data.sponsors[year].media %}
+      {% if mediaSponsors %}
+
+        <div class="cfs__title">Media</div>
+        {% include
+          components/icons-stack.html
+          items=mediaSponsors
         %}
       {% endif %}
     </div>
