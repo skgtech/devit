@@ -1,10 +1,10 @@
 - title: "Opti-pessimism - Design for the best case, build for the worst"
   speaker: cheryl_platz
   type: Talk
-  description: "<p>How can we design for the promise of the future AND build for the reality of today, 
-    all while in an Agile environment? Cheryl Platz turns her experience designing for products like 
-    Azure and Alexa into survival strategies for products at the cutting edge. From information 
-    architecture and accessibility to emerging tech like AI and conversational UI - we'll take 
+  description: "<p>How can we design for the promise of the future AND build for the reality of today,
+    all while in an Agile environment? Cheryl Platz turns her experience designing for products like
+    Azure and Alexa into survival strategies for products at the cutting edge. From information
+    architecture and accessibility to emerging tech like AI and conversational UI - we'll take
     a whirlwind tour to build a roadmap for \"opti-pessimistic\" product design.</p>"
   tags:
     - UX
@@ -306,7 +306,7 @@
   readability, code clarity, and push your code towards composition
   and reusability.</p><p>I recently wrote this article that is
   covering some of <a href=\"https://medium.freecodecamp.org/evolving-patterns-in-react-116140e5fe8f\">
-  the patterns.</a></p><p>IThe workshop will cover:</p><ul><li>Advanced
+  the patterns.</a></p><p>The workshop will cover:</p><ul><li>Advanced
   Component Design<ul><li>Conditional Rendering</li><li>Using ESnext Class
   Properties</li><li>Curried Event Handlers</li><li>Stateless Components</li>
   <li>Pure Components</li></ul></li><li>Having Fun with Props <ul><li>Children
