@@ -12,6 +12,10 @@
   &:not(:last-child) {
     margin-bottom: 8px;
   }
+
+  @media (max-width: $screen-xs-min) {
+    flex-direction: column;
+  }
 }
 
 .sessions__item-time {
@@ -25,13 +29,16 @@
   height: 89px;
   margin-right: 1.33em;
   border-radius: 50%;
-  background-color: #00629e;
   overflow: hidden;
   position: relative;
   display: flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: $screen-xs-min) {
+    margin: auto;
+  }
 
   img {
     width: 100%;
@@ -46,6 +53,11 @@
   flex-direction: column;
   flex-grow: 100;
   color: #57585a;
+
+  @media (max-width: $screen-xs-min) {
+    text-align: center;
+    margin: 20px auto 0;
+  }
 }
 
 .sessions__item-copy-small {
@@ -66,4 +78,8 @@
   font-size: 1em;
   font-weight: normal;
   text-transform: uppercase;
+
+  @media (max-width: $screen-xs-min) {
+    margin: auto;
+  }
 }
