@@ -19,9 +19,14 @@
   speaker: julien_simon
   type: Talk
 
-- title: "TBA"
+- title: "To be announced"
   ticket: single
   speaker: julien_simon
+  type: Workshop
+
+- title: "To be announced"
+  ticket: single
+  speaker: joe_sepi
   type: Workshop
 
 

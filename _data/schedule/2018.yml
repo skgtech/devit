@@ -248,13 +248,13 @@ workshops:
     room: room_03
     day: workshops
 
-  # - type: workshop
-  #   speaker: julien_simon
-  #   hours: 16
-  #   mins: '30'
-  #   duration: 120
-  #   room: room_03
-  #   day: workshops
+  - type: workshop
+    speaker: joe_sepi
+    hours: 16
+    mins: '30'
+    duration: 120
+    room: room_03
+    day: workshops
 
 
 
