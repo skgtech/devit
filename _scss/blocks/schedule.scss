@@ -42,6 +42,7 @@
 
   .schedule__tabs {
     @extend .list-inline;
+    font-family: Lato;
 
     padding: 0;
     margin-bottom: 0;
@@ -50,9 +51,6 @@
     text-align: center;
 
     li {
-      padding: 16px 40px;
-      border-radius: 32px;
-      border: solid 2px #b1b2b4;
       opacity: 0.5;
 
       &.active {
@@ -61,7 +59,7 @@
 
       &.separator {
         border: 0;
-        padding: 0;
+        padding: 16px;
         width: 32px;
         position: relative;
 
@@ -78,14 +76,23 @@
       }
     }
 
+    li > div {
+      font-size: 14px;
+      text-align: center;
+      color: #57585a;
+    }
+
     li > a {
       padding: 0;
       line-height: 1em;
-      font-family: Lato;
       font-size: 24px;
       font-weight: 900;
       text-align: center;
       color: #57585a;
+      padding: 16px 40px;
+      border-radius: 32px;
+      border: solid 2px #b1b2b4;
+      display: inline-block;
     }
 
     li:not(.active) > a {
@@ -111,7 +118,6 @@
 .schedule-item {
   @include make-row();
 
-  // text-align: center;
   background-color: #f5f8fa;
   padding: 24px;
   margin-bottom: 8px;
