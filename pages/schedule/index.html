@@ -66,10 +66,10 @@ custom_js:
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="room1">
                 <div class="schedule-list">
-                  
+
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
-                    {% if entry.type == 'workshop' and  entry.room == 'room_01' and entry.day == 'workshops' %}
+                    {% if entry.type == 'workshop' and entry.room == 'room_01' and entry.day == 'workshops' %}
                       {% for talk in site.data.talks[year] %}
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
@@ -94,8 +94,8 @@ custom_js:
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-                    
-                    
+
+
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_01' and entry.day == 'workshops' %}
                       <div class="schedule-item" style="margin-bottom: 8px;">
                         <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
@@ -109,14 +109,14 @@ custom_js:
                         </div>
                       </div>
                       {% endif %}
-                    
+
                  {% endfor %}
                 </div>
               </div>
-      
+
               <div role="tabpanel" class="tab-pane " id="room2">
                 <div class="schedule-list">
-                  
+
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_02' and entry.day == 'workshops' %}
@@ -144,8 +144,8 @@ custom_js:
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-                    
-                    
+
+
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_02' and entry.day == 'workshops' %}
                       <div class="schedule-item" style="margin-bottom: 8px;">
                         <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
@@ -159,14 +159,14 @@ custom_js:
                         </div>
                       </div>
                       {% endif %}
-                    
+
                  {% endfor %}
                 </div>
               </div>
 
            <div role="tabpanel" class="tab-pane " id="room3">
                 <div class="schedule-list">
-                  
+
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_03' and entry.day == 'workshops' %}
@@ -194,8 +194,8 @@ custom_js:
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-                    
-                    
+
+
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_03' and entry.day == 'workshops' %}
                       <div class="schedule-item" style="margin-bottom: 8px;">
                         <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
@@ -209,14 +209,14 @@ custom_js:
                         </div>
                       </div>
                       {% endif %}
-                    
+
                  {% endfor %}
                 </div>
               </div>
 
               <div role="tabpanel" class="tab-pane " id="room4">
                 <div class="schedule-list">
-                  
+
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_04' and entry.day == 'workshops' %}
@@ -244,8 +244,8 @@ custom_js:
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-                    
-                    
+
+
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_04' and entry.day == 'workshops' %}
                       <div class="schedule-item" style="margin-bottom: 8px;">
                         <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
@@ -259,14 +259,14 @@ custom_js:
                         </div>
                       </div>
                       {% endif %}
-                    
+
                  {% endfor %}
                 </div>
               </div>
 
                      <div role="tabpanel" class="tab-pane " id="room5">
                 <div class="schedule-list">
-                  
+
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_05' and entry.day == 'workshops' %}
@@ -294,8 +294,8 @@ custom_js:
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-                    
-                    
+
+
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_05' and entry.day == 'workshops' %}
                       <div class="schedule-item" style="margin-bottom: 8px;">
                         <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
@@ -309,7 +309,7 @@ custom_js:
                         </div>
                       </div>
                       {% endif %}
-                    
+
                  {% endfor %}
                 </div>
               </div>

@@ -105,10 +105,9 @@ talks:
     duration: 15
     day: speaker_day
 
-
-workshops: 
+workshops:
   - type: 'fa-ticket-alt'
-    title: Registration & Coffee 
+    title: Registration & Coffee
     hours: 09
     mins: '00'
     duration: 60
@@ -155,10 +154,8 @@ workshops:
     room: room_01
     day: workshops
 
-
-
   - type: 'fa-ticket-alt'
-    title: Registration & Coffee 
+    title: Registration & Coffee
     hours: 09
     mins: '00'
     duration: 60
@@ -205,11 +202,8 @@ workshops:
     room: room_02
     day: workshops
 
-
-
-
   - type: 'fa-ticket-alt'
-    title: Registration & Coffee 
+    title: Registration & Coffee
     hours: 09
     mins: '00'
     duration: 60
@@ -256,10 +250,8 @@ workshops:
     room: room_03
     day: workshops
 
-
-
   - type: 'fa-ticket-alt'
-    title: Registration & Coffee 
+    title: Registration & Coffee
     hours: 09
     mins: '00'
     duration: 60
@@ -299,16 +291,15 @@ workshops:
     day: workshops
 
   - type: workshop
-    speaker: anna_doubková
+    speaker: anna_doubkova
     hours: 16
     mins: '30'
     duration: 120
     room: room_04
     day: workshops
 
-
   - type: 'fa-ticket-alt'
-    title: Registration & Coffee 
+    title: Registration & Coffee
     hours: 09
     mins: '00'
     duration: 60
