@@ -43,6 +43,10 @@ bronze:
       img: /assets/images/sponsors/svg/workable.svg
       url: https://workable.com
 
+    - name: IBM
+      img: /assets/images/sponsors/svg/ibm.svg
+      url: https://www.ibm.com/gr-el/
+
 media:
   -
     - name: Insomnia
