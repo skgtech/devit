@@ -75,7 +75,7 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
@@ -95,7 +95,7 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
@@ -115,7 +115,7 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
@@ -135,7 +135,7 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
@@ -155,7 +155,7 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
@@ -178,7 +178,7 @@ custom_js:
                   {% if entry.speaker == talk.speaker and talk.type == 'Talk' %}
                     {% for speaker in site.data.speakers[year].speakers %}
                       {% if speaker.url == entry.speaker %}
-                        {% include components/scheduleEntry.html speaker=speaker entry=entry %}
+                        {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
                       {% endif %}
                     {% endfor %}
                   {% endif %}

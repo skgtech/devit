@@ -1,5 +1,6 @@
 {% assign speaker = include.speaker %}
 {% assign entry = include.entry %}
+{% assign talk = include.talk %}
 
 <div class="schedule-item">
   <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
@@ -23,7 +24,11 @@
   <div class="schedule-item__main">
     {% if speaker %}
       <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-      <div class="schedule-item__title">{{talk.title}}</div>
+      <a
+        href="/speakers/{{ speaker.url }}#{{talk.title | slugify}}"
+        class="schedule-item__title">
+          {{talk.title}}
+      </a>
     {% else %}
       <div class="schedule-item__title">{{entry.title}}</div>
     {% endif %}
