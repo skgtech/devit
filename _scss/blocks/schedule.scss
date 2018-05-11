@@ -111,9 +111,10 @@
 .schedule-item {
   @include make-row();
 
-  text-align: center;
+  // text-align: center;
   background-color: #f5f8fa;
   padding: 24px;
+  margin-bottom: 8px;
 
   .schedule-item__hour {
     @include make-md-column(1);
@@ -128,6 +129,7 @@
 
   .schedule-item__image {
     @include make-md-column(2);
+    text-align: center;
 
     img {
       width: 89px;
@@ -135,13 +137,28 @@
       border-radius: 50%;
     }
 
-    i {
+    span {
       width: 89px;
       height: 89px;
       border-radius: 50%;
       background: #00629e;
+      display: inline-block;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -0.25em;
+      }
+    }
+
+    i {
+      margin: auto;
+      text-align: center;
+      vertical-align: middle;
+
       color: white;
-      padding: 25px;
       font-size: 2em;
     }
   }
@@ -149,7 +166,7 @@
   .schedule-item__main {
     @include make-md-column(9);
 
-    text-align: left;
+    // text-align: left;
     padding-top: 15px;
   }
 
@@ -164,6 +181,10 @@
     font-family: Lato;
     font-size: 18px;
     color: #57585a;
+  }
+
+  @media (max-width: $screen-md-min) {
+    text-align: center;
   }
 }
 
