@@ -66,7 +66,6 @@ custom_js:
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="room1">
                 <div class="schedule-list">
-
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and entry.room == 'room_01' and entry.day == 'workshops' %}
@@ -74,49 +73,19 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-
-                                <div class="schedule-item" style="margin-bottom: 8px;">
-                                  <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-                                  <div class="schedule-item__image">
-                                    <img
-                                      class="lazy"
-                                      src="/assets/images/new/placeholder-profile-photo.svg"
-                                      data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-                                      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-                                  </div>
-
-                                  <div class="schedule-item__main">
-                                    <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-                                    <div class="schedule-item__title">{{talk.title}}</div>
-                                  </div>
-                                </div>
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-
-
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_01' and entry.day == 'workshops' %}
-                      <div class="schedule-item" style="margin-bottom: 8px;">
-                        <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                        <div class="schedule-item__image">
-                          <i class="fas {{entry.type}}"></i>
-                        </div>
-
-                        <div class="schedule-item__main">
-                          <div class="schedule-item__title">{{entry.title}}</div>
-                        </div>
-                      </div>
-                      {% endif %}
-
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
                  {% endfor %}
                 </div>
               </div>
-
               <div role="tabpanel" class="tab-pane " id="room2">
                 <div class="schedule-list">
-
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_02' and entry.day == 'workshops' %}
@@ -124,49 +93,19 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-
-                                <div class="schedule-item" style="margin-bottom: 8px;">
-                                  <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-                                  <div class="schedule-item__image">
-                                    <img
-                                      class="lazy"
-                                      src="/assets/images/new/placeholder-profile-photo.svg"
-                                      data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-                                      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-                                  </div>
-
-                                  <div class="schedule-item__main">
-                                    <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-                                    <div class="schedule-item__title">{{talk.title}}</div>
-                                  </div>
-                                </div>
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-
-
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_02' and entry.day == 'workshops' %}
-                      <div class="schedule-item" style="margin-bottom: 8px;">
-                        <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                        <div class="schedule-item__image">
-                          <i class="fas {{entry.type}}"></i>
-                        </div>
-
-                        <div class="schedule-item__main">
-                          <div class="schedule-item__title">{{entry.title}}</div>
-                        </div>
-                      </div>
-                      {% endif %}
-
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
                  {% endfor %}
                 </div>
               </div>
-
            <div role="tabpanel" class="tab-pane " id="room3">
                 <div class="schedule-list">
-
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_03' and entry.day == 'workshops' %}
@@ -174,49 +113,19 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-
-                                <div class="schedule-item" style="margin-bottom: 8px;">
-                                  <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-                                  <div class="schedule-item__image">
-                                    <img
-                                      class="lazy"
-                                      src="/assets/images/new/placeholder-profile-photo.svg"
-                                      data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-                                      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-                                  </div>
-
-                                  <div class="schedule-item__main">
-                                    <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-                                    <div class="schedule-item__title">{{talk.title}}</div>
-                                  </div>
-                                </div>
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-
-
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_03' and entry.day == 'workshops' %}
-                      <div class="schedule-item" style="margin-bottom: 8px;">
-                        <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                        <div class="schedule-item__image">
-                          <i class="fas {{entry.type}}"></i>
-                        </div>
-
-                        <div class="schedule-item__main">
-                          <div class="schedule-item__title">{{entry.title}}</div>
-                        </div>
-                      </div>
-                      {% endif %}
-
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
                  {% endfor %}
                 </div>
               </div>
-
               <div role="tabpanel" class="tab-pane " id="room4">
                 <div class="schedule-list">
-
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_04' and entry.day == 'workshops' %}
@@ -224,49 +133,19 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-
-                                <div class="schedule-item" style="margin-bottom: 8px;">
-                                  <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-                                  <div class="schedule-item__image">
-                                    <img
-                                      class="lazy"
-                                      src="/assets/images/new/placeholder-profile-photo.svg"
-                                      data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-                                      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-                                  </div>
-
-                                  <div class="schedule-item__main">
-                                    <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-                                    <div class="schedule-item__title">{{talk.title}}</div>
-                                  </div>
-                                </div>
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-
-
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_04' and entry.day == 'workshops' %}
-                      <div class="schedule-item" style="margin-bottom: 8px;">
-                        <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                        <div class="schedule-item__image">
-                          <i class="fas {{entry.type}}"></i>
-                        </div>
-
-                        <div class="schedule-item__main">
-                          <div class="schedule-item__title">{{entry.title}}</div>
-                        </div>
-                      </div>
-                      {% endif %}
-
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
                  {% endfor %}
                 </div>
               </div>
-
-                     <div role="tabpanel" class="tab-pane " id="room5">
+              <div role="tabpanel" class="tab-pane " id="room5">
                 <div class="schedule-list">
-
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
                     {% if entry.type == 'workshop' and  entry.room == 'room_05' and entry.day == 'workshops' %}
@@ -274,51 +153,21 @@ custom_js:
                         {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
                           {% for speaker in site.data.speakers[year].speakers %}
                             {% if speaker.url == entry.speaker %}
-
-                                <div class="schedule-item" style="margin-bottom: 8px;">
-                                  <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-                                  <div class="schedule-item__image">
-                                    <img
-                                      class="lazy"
-                                      src="/assets/images/new/placeholder-profile-photo.svg"
-                                      data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-                                      alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-                                  </div>
-
-                                  <div class="schedule-item__main">
-                                    <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-                                    <div class="schedule-item__title">{{talk.title}}</div>
-                                  </div>
-                                </div>
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
                       {% endfor %}
-
-
                     {% elsif entry.type != 'talk'  and  entry.room == 'room_05' and entry.day == 'workshops' %}
-                      <div class="schedule-item" style="margin-bottom: 8px;">
-                        <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                        <div class="schedule-item__image">
-                          <i class="fas {{entry.type}}"></i>
-                        </div>
-
-                        <div class="schedule-item__main">
-                          <div class="schedule-item__title">{{entry.title}}</div>
-                        </div>
-                      </div>
-                      {% endif %}
-
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
                  {% endfor %}
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
-         <div role="tabpanel" class="tab-pane" id="talks">
+        <div role="tabpanel" class="tab-pane" id="talks">
           <div class="schedule-list">
             {% assign year = site.data.config.currentYear %}
             {% for entry in site.data.schedule[year].talks %}
@@ -327,39 +176,13 @@ custom_js:
                   {% if entry.speaker == talk.speaker and talk.type == 'Talk' %}
                     {% for speaker in site.data.speakers[year].speakers %}
                       {% if speaker.url == entry.speaker %}
-                        <div class="schedule-item" style="margin-bottom: 8px;">
-                          <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                          <div class="schedule-item__image">
-                            <img
-                              class="lazy"
-                              src="/assets/images/new/placeholder-profile-photo.svg"
-                              data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-                              alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-                          </div>
-
-                          <div class="schedule-item__main">
-                            <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-                            <div class="schedule-item__title">{{talk.title}}</div>
-                          </div>
-                        </div>
+                        {% include components/scheduleEntry.html speaker=speaker entry=entry %}
                       {% endif %}
                     {% endfor %}
                   {% endif %}
                 {% endfor %}
-              {% endif %}
-              {% if entry.type != 'talk' and entry.day == 'speaker_day' %}
-                <div class="schedule-item" style="margin-bottom: 8px;">
-                  <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
-
-                  <div class="schedule-item__image">
-                    <i class="fas {{entry.type}}"></i>
-                  </div>
-
-                  <div class="schedule-item__main">
-                    <div class="schedule-item__title">{{entry.title}}</div>
-                  </div>
-                </div>
+              {% elsif entry.type != 'talk' and entry.day == 'speaker_day' %}
+                {% include components/scheduleEntry.html entry=entry %}
               {% endif %}
             {% endfor %}
           </div>
