@@ -11,25 +11,6 @@
     - Design
     - AI
 
-- title: "To be announced"
-  speaker: joe_sepi
-  type: Talk
-
-- title: "To be announced"
-  speaker: julien_simon
-  type: Talk
-
-- title: "To be announced"
-  ticket: single
-  speaker: julien_simon
-  type: Workshop
-
-- title: "To be announced"
-  ticket: single
-  speaker: joe_sepi
-  type: Workshop
-
-
 - title: "Why Software STILL Sucks"
   description: "<p>It’s been over a decade since David S. Platt ripped the lid off the software industry sausage
     factory with his blockbuster book Why Software Sucks. The industry has grown spectacularly in that time, with
@@ -336,3 +317,21 @@
     - React
     - Patterns
     - Clean Code
+
+- title: "To be announced"
+  speaker: joe_sepi
+  type: Talk
+
+- title: "To be announced"
+  speaker: julien_simon
+  type: Talk
+
+- title: "To be announced"
+  ticket: single
+  speaker: julien_simon
+  type: Workshop
+
+- title: "To be announced"
+  ticket: single
+  speaker: joe_sepi
+  type: Workshop
