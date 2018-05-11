@@ -8,7 +8,7 @@ allDay:
     skill: "Intermediate"
     speakerPhoto: "/assets/images/speakers/2017/James_Halliday.png"
     prerequisites: "javascript basics, familiarity with npm"
-    covers:
+    covers: 
       - Core node.js and browser abstractions like streams
       - Websockets
       - How to stream data to peers over webrtc

@@ -19,6 +19,12 @@
   speaker: julien_simon
   type: Talk
 
+- title: "TBA"
+  ticket: single
+  speaker: julien_simon
+  type: Workshop
+
+
 - title: "Why Software STILL Sucks"
   description: "<p>It’s been over a decade since David S. Platt ripped the lid off the software industry sausage
     factory with his blockbuster book Why Software Sucks. The industry has grown spectacularly in that time, with
