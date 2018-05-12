@@ -44,7 +44,6 @@ silver:
   -
     - name: Niagara
       img: /assets/images/sponsors/niagara.png
-      url: ""
       override_height: 60px
 
     - name: Fieldscale
