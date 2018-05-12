@@ -21,7 +21,7 @@ gold:
 
   -
     - name: Synapsecom
-      img: /assets/images/sponsors/synapsecom.png
+      img: /assets/images/sponsors/svg/synapsecom.svg
       url: https://www.synapsecom.gr/
       override_height: 50px
 
@@ -43,7 +43,7 @@ silver:
 
   -
     - name: Niagara
-      img: /assets/images/sponsors/niagara.png
+      img: /assets/images/sponsors/svg/niagara.svg
       override_height: 60px
 
     - name: Fieldscale
@@ -52,7 +52,7 @@ silver:
       override_height: 60px
 
     - name: Trivago
-      img: /assets/images/sponsors/trivago.png
+      img: /assets/images/sponsors/svg/trivago.svg
       url: https://www.trivago.gr/
       override_height: 60px
 
@@ -69,7 +69,7 @@ bronze:
       override_height: 50px
 
     - name: Adeva
-      img: /assets/images/sponsors/adeva.png
+      img: /assets/images/sponsors/svg/adeva.svg
       url: https://adevait.com/
       override_height: 50px
 
