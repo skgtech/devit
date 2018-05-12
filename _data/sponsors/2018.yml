@@ -9,12 +9,20 @@ gold:
     - name: Intrasoft
       img: /assets/images/sponsors/svg/intrasoft.svg
       url: https://www.intrasoft-intl.com/
+
     - name: Resin.io
       img: /assets/images/sponsors/svg/resinio.svg
       url: https://resin.io/
+
     - name: Toptal
       img: /assets/images/sponsors/svg/toptal.svg
       url: https://www.toptal.com/
+      override_height: 50px
+
+  -
+    - name: Synapsecom
+      img: /assets/images/sponsors/svg/synapsecom.svg
+      url: https://www.synapsecom.gr/
       override_height: 50px
 
 silver:
@@ -23,18 +31,30 @@ silver:
       img: /assets/images/sponsors/svg/ellinair.svg
       url: https://ellinair.com
       override_height: 80px
+
     - name: WAES
       img: /assets/images/sponsors/svg/waes.svg
       url: https://www.wearewaes.com/
       override_height: 40px
+
     - name: Nemetschek
       img: /assets/images/sponsors/nemetschek.png
       url: https://www.nemetschek.bg/
 
   -
+    - name: Niagara
+      img: /assets/images/sponsors/svg/niagara.svg
+      url: ""
+      override_height: 60px
+
     - name: Fieldscale
       img: /assets/images/sponsors/svg/fieldscale.svg
       url: https://fieldscale.com/
+      override_height: 60px
+
+    - name: Trivago
+      img: /assets/images/sponsors/svg/trivago.svg
+      url: https://www.trivago.gr/
       override_height: 60px
 
 bronze:
@@ -42,10 +62,17 @@ bronze:
     - name: Workable
       img: /assets/images/sponsors/svg/workable.svg
       url: https://workable.com
+      override_height: 50px
 
     - name: IBM
       img: /assets/images/sponsors/svg/ibm.svg
       url: https://www.ibm.com/gr-el/
+      override_height: 50px
+
+    - name: Adeva
+      img: /assets/images/sponsors/svg/adeva.svg
+      url: https://adevait.com/
+      override_height: 50px
 
 media:
   -
