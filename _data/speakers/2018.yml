@@ -287,31 +287,6 @@ speakers:
       great new ways of delivering the best product for the users and
       business alike.</p>"
 
-  - url: emii_khaos
-    year: 2018
-    hearFor: Talk
-    tags:
-      - DevOps
-      - Terraform
-      - Cloud
-    first_name: Emii
-    last_name: Khaos
-    image_filename: Emii_Khaos.png
-    tagline: Polyglot developer and DevOps specialist.
-    social:
-      twitter: emiikhaos
-      github: EmiiKhaos
-    bio: "<p>Emii is a polyglot developer from Austria, usually working with web technologies,
-      Linux and DevOps nerd specialized in content management systems, eCommerce, business
-      systems, APIs, and connecting all the different systems to work together. Loving PHP
-      and the web in general, and open source she is an enthusiast and an advocate of
-      modern development principles & standards. She notoriously automates everything
-      and if she could code her life, she would.</p><p>Debugging complex and legacy
-      systems and architectures is not a problem for her and maybe the outcome is
-      *puuuhff* magically automated and more cleaner than you've it ever seen.
-      Besides this, creating new and advanced architectures, and supporting developers
-      in their daily work pays her monthly bills.</p>"
-
   - url: ivana_milicic
     year: 2018
     hearFor: Workshop

@@ -9,8 +9,8 @@ talks:
   - type: 'fa-bullhorn'
     title: Opening Ceremony
     hours: 09
-    mins: '00'
-    duration: 45
+    mins: '30'
+    duration: 15
     day: speaker_day
 
   - type: talk
@@ -85,7 +85,7 @@ talks:
     day: speaker_day
 
   - type: talk
-    speaker: emii_khaos
+    speaker: 'tba'
     hours: 17
     mins: '00'
     duration: 45
