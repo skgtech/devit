@@ -56,7 +56,7 @@ talks:
     day: speaker_day
 
   - type: talk
-    speaker: joe_sepi
+    speaker: 'tba'
     hours: 14
     mins: 15
     duration: 45

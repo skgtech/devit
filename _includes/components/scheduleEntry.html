@@ -7,11 +7,20 @@
 
   {% if speaker %}
     <div class="schedule-item__image">
-      <img
-        class="lazy"
-        src="/assets/images/new/placeholder-profile-photo.svg"
-        data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-        alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+      {% if speaker == "tba" %}
+        <img
+          class="lazy"
+          src="/assets/images/new/placeholder-profile-photo.svg"
+          alt="To be announced">
+      {% else %}
+        <div class="schedule-item__image">
+          <img
+            class="lazy"
+            src="/assets/images/new/placeholder-profile-photo.svg"
+            data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
+            alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+        </div>
+      {% endif %}
     </div>
   {% else %}
     <div class="schedule-item__image">
@@ -23,12 +32,18 @@
 
   <div class="schedule-item__main">
     {% if speaker %}
-      <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-      <a
-        href="/speakers/{{ speaker.url }}#{{talk.title | slugify}}"
-        class="schedule-item__title">
-          {{talk.title}}
-      </a>
+      {% if speaker == "tba" %}
+        <div class="schedule-item__title">
+          To Be Announced
+        </div>
+      {% else %}
+        <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
+        <a
+          href="/speakers/{{ speaker.url }}#{{talk.title | slugify}}"
+          class="schedule-item__title">
+            {{talk.title}}
+        </a>
+      {% endif %}
     {% else %}
       <div class="schedule-item__title">{{entry.title}}</div>
     {% endif %}

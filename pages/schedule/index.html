@@ -174,15 +174,19 @@ custom_js:
             {% assign year = site.data.config.currentYear %}
             {% for entry in site.data.schedule[year].talks %}
               {% if entry.type == 'talk' and entry.day == 'speaker_day' %}
-                {% for talk in site.data.talks[year] %}
-                  {% if entry.speaker == talk.speaker and talk.type == 'Talk' %}
-                    {% for speaker in site.data.speakers[year].speakers %}
-                      {% if speaker.url == entry.speaker %}
-                        {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
-                      {% endif %}
-                    {% endfor %}
-                  {% endif %}
-                {% endfor %}
+                {% if entry.speaker == 'tba' %}
+                  {% include components/scheduleEntry.html speaker="tba" %}
+                {% else %}
+                  {% for talk in site.data.talks[year] %}
+                    {% if entry.speaker == talk.speaker and talk.type == 'Talk' %}
+                      {% for speaker in site.data.speakers[year].speakers %}
+                        {% if speaker.url == entry.speaker %}
+                          {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
               {% elsif entry.type != 'talk' and entry.day == 'speaker_day' %}
                 {% include components/scheduleEntry.html entry=entry %}
               {% endif %}
