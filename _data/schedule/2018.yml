@@ -154,6 +154,13 @@ workshops:
     room: room_01
     day: workshops
 
+  - type: 'fa-hourglass-end'
+    title: End of Workshop
+    hours: 19
+    mins: '00'
+    room: room_01
+    day: workshops
+
   - type: 'fa-ticket-alt'
     title: Registration & Coffee
     hours: 09
@@ -199,6 +206,13 @@ workshops:
     hours: 16
     mins: '30'
     duration: 120
+    room: room_02
+    day: workshops
+
+  - type: 'fa-hourglass-end'
+    title: End of Workshop
+    hours: 19
+    mins: '00'
     room: room_02
     day: workshops
 
@@ -250,6 +264,13 @@ workshops:
     room: room_03
     day: workshops
 
+  - type: 'fa-hourglass-end'
+    title: End of Workshop
+    hours: 19
+    mins: '00'
+    room: room_03
+    day: workshops
+
   - type: 'fa-ticket-alt'
     title: Registration & Coffee
     hours: 09
@@ -298,6 +319,13 @@ workshops:
     room: room_04
     day: workshops
 
+  - type: 'fa-hourglass-end'
+    title: End of Workshop
+    hours: 19
+    mins: '00'
+    room: room_04
+    day: workshops
+
   - type: 'fa-ticket-alt'
     title: Registration & Coffee
     hours: 09
@@ -343,5 +371,12 @@ workshops:
     hours: 16
     mins: '30'
     duration: 120
+    room: room_05
+    day: workshops
+
+  - type: 'fa-hourglass-end'
+    title: End of Workshop
+    hours: 19
+    mins: '00'
     room: room_05
     day: workshops
