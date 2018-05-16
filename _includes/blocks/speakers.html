@@ -21,9 +21,11 @@
       {% include components/speaker.html speaker=speaker speaker_page=false %}
     </div>
     {% endfor %}
-    <div class="speakers-list__item">
-      {% include components/speaker-tba.html %}
-    </div>
+    {% if site.data.config.moreSpeakersToBeAnnounced %}
+      <div class="speakers-list__item">
+        {% include components/speaker-tba.html %}
+      </div>
+    {% endif %}
   </div>
 </div>
 

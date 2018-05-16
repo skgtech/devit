@@ -1,0 +1,201 @@
+---
+layout: default
+title: Schedule
+description: Upcomming DEVit' schedule
+permalink: /schedule
+custom_js:
+  - schedule.bundle.js
+---
+
+{% include blocks/header.html page="schedule" %}
+
+<div class="schedule-block">
+  <div class="block__heading--dark text-center">
+    Schedule
+  </div>
+
+  <div class="schedule">
+    <div class="schedule__header">
+      <ul class="schedule__tabs" role="tablist">
+        <li role="workshops">
+          <a href="#workshops" aria-controls="workshops" role="tab" data-toggle="tab">
+            Workshops
+          </a>
+          <div>June 10</div>
+        </li>
+        <li class="separator"></li>
+        <li role="talks">
+          <a href="#talks" aria-controls="talks" role="tab" data-toggle="tab">
+            Talks
+          </a>
+          <div>June 11</div>
+        </li>
+      </ul>
+    </div>
+    <div class="schedule__content">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane" id="workshops">
+          <div class="workshops__header">
+            <ul class="workshops__tabs" role="tablist">
+              <li role="room1" class="active">
+                <a href="#room1" aria-controls="room1" role="tab" data-toggle="tab">
+                  Room 1
+                </a>
+              </li>
+              <li role="room2">
+                <a href="#room2" aria-controls="room2" role="tab" data-toggle="tab">
+                  Room 2
+                </a>
+              </li>
+              <li role="room3">
+                <a href="#room3" aria-controls="room3" role="tab" data-toggle="tab">
+                  Room 3
+                </a>
+              </li>
+              <li role="room4">
+                <a href="#room4" aria-controls="room4" role="tab" data-toggle="tab">
+                  Room 4
+                </a>
+              </li>
+              <li role="room5">
+                <a href="#room5" aria-controls="room5" role="tab" data-toggle="tab">
+                  Room 5
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="workshops__content">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="room1">
+                <div class="schedule-list">
+                  {% assign year = site.data.config.currentYear %}
+                  {% for entry in site.data.schedule[year].workshops %}
+                    {% if entry.type == 'workshop' and entry.room == 'room_01' and entry.day == 'workshops' %}
+                      {% for talk in site.data.talks[year] %}
+                        {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
+                          {% for speaker in site.data.speakers[year].speakers %}
+                            {% if speaker.url == entry.speaker %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type != 'talk'  and  entry.room == 'room_01' and entry.day == 'workshops' %}
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane " id="room2">
+                <div class="schedule-list">
+                  {% assign year = site.data.config.currentYear %}
+                  {% for entry in site.data.schedule[year].workshops %}
+                    {% if entry.type == 'workshop' and  entry.room == 'room_02' and entry.day == 'workshops' %}
+                      {% for talk in site.data.talks[year] %}
+                        {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
+                          {% for speaker in site.data.speakers[year].speakers %}
+                            {% if speaker.url == entry.speaker %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type != 'talk'  and  entry.room == 'room_02' and entry.day == 'workshops' %}
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane " id="room3">
+                <div class="schedule-list">
+                  {% assign year = site.data.config.currentYear %}
+                  {% for entry in site.data.schedule[year].workshops %}
+                    {% if entry.type == 'workshop' and  entry.room == 'room_03' and entry.day == 'workshops' %}
+                      {% for talk in site.data.talks[year] %}
+                        {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
+                          {% for speaker in site.data.speakers[year].speakers %}
+                            {% if speaker.url == entry.speaker %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type != 'talk'  and  entry.room == 'room_03' and entry.day == 'workshops' %}
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane " id="room4">
+                <div class="schedule-list">
+                  {% assign year = site.data.config.currentYear %}
+                  {% for entry in site.data.schedule[year].workshops %}
+                    {% if entry.type == 'workshop' and  entry.room == 'room_04' and entry.day == 'workshops' %}
+                      {% for talk in site.data.talks[year] %}
+                        {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
+                          {% for speaker in site.data.speakers[year].speakers %}
+                            {% if speaker.url == entry.speaker %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type != 'talk'  and  entry.room == 'room_04' and entry.day == 'workshops' %}
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane " id="room5">
+                <div class="schedule-list">
+                  {% assign year = site.data.config.currentYear %}
+                  {% for entry in site.data.schedule[year].workshops %}
+                    {% if entry.type == 'workshop' and  entry.room == 'room_05' and entry.day == 'workshops' %}
+                      {% for talk in site.data.talks[year] %}
+                        {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
+                          {% for speaker in site.data.speakers[year].speakers %}
+                            {% if speaker.url == entry.speaker %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type != 'talk'  and  entry.room == 'room_05' and entry.day == 'workshops' %}
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="talks">
+          <div class="schedule-list">
+            {% assign year = site.data.config.currentYear %}
+            {% for entry in site.data.schedule[year].talks %}
+              {% if entry.type == 'talk' and entry.day == 'speaker_day' %}
+                {% if entry.speaker == 'tba' %}
+                  {% include components/scheduleEntry.html speaker="tba" %}
+                {% else %}
+                  {% for talk in site.data.talks[year] %}
+                    {% if entry.speaker == talk.speaker and talk.type == 'Talk' %}
+                      {% for speaker in site.data.speakers[year].speakers %}
+                        {% if speaker.url == entry.speaker %}
+                          {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% elsif entry.type != 'talk' and entry.day == 'speaker_day' %}
+                {% include components/scheduleEntry.html entry=entry %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include blocks/footer.html %}

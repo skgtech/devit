@@ -24,6 +24,7 @@ venue: blah blah
 currentMode: "dday|nextday|nextblind|nextfull"
 
 isCFPOpen: false
+moreSpeakersToBeAnnounced: false
 
 sponsors:
   cfs: false
