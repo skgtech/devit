@@ -336,10 +336,21 @@
   speaker: julien_simon
   type: Talk
 
-- title: "To be announced"
+- title: "Machine Learning and Deep Learning in Python"
   ticket: single
   speaker: julien_simon
   type: Workshop
+  description: "<p>Skill Level: intermediate</p><p>Prerequisites: familiarity with Linux CLI, 
+  familiarity with Python/JSON/YAML, AWS account (it takes 24 hours to validate new accounts, 
+  so please do this before the workshop).</p><p>Description: the goal of this coding workshop 
+  is to teach you the basics of Machine Learning (ML) and Deep Learning (DL) with the Python 
+  language and popular open source libraries.</p><p>The main topics we will cover:</p>
+  <ul><li>classic ML algorithms: linear regression, classification, clustering, dimensionality reduction.
+  </li><li>DL concepts: neural networks, activation functions, back propagation, optimisation.</li><li>
+  Open source libraries for ML/DL: sckit-learn, Apache MXNet, TensorFlow, Keras, Spark MLlib.</li><li>
+  Running ML/DL on AWS with Amazon SageMaker: each participant will receive $100 in AWS credits :)</li></ul>"
+  buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=26200&ttQuantity=1&r
+
 
 - title: "Zero to Swagger in Moments"
   ticket: single

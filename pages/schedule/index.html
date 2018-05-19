@@ -13,7 +13,7 @@ custom_js:
   <div class="block__heading--dark text-center">
     Schedule
   </div>
-
+ 
   <div class="schedule">
     <div class="schedule__header">
       <ul class="schedule__tabs" role="tablist">
@@ -37,6 +37,13 @@ custom_js:
         <div role="tabpanel" class="tab-pane" id="workshops">
           <div class="workshops__header">
             <ul class="workshops__tabs" role="tablist">
+              
+             <!--  <li role="all" class="active" style="margin-right: 50px;">
+                <a href="#all" aria-controls="all" role="tab" data-toggle="tab">
+                  All Workshops
+                </a>
+              </li> -->
+
               <li role="room1" class="active">
                 <a href="#room1" aria-controls="room1" role="tab" data-toggle="tab">
                   Room 1
@@ -66,7 +73,29 @@ custom_js:
           </div>
           <div class="workshops__content">
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="room1">
+
+              <div role="tabpanel" class="tab-pane active" id="all">
+                <div class="schedule-list">
+                  {% assign year = site.data.config.currentYear %}
+                  {% for entry in site.data.schedule[year].workshops %}
+                    {% if entry.type == 'workshop' and entry.room == 'room_01' and entry.day == 'workshops' %}
+                      {% for talk in site.data.talks[year] %}
+                        {% if entry.speaker == talk.speaker and talk.type == 'Workshop' %}
+                          {% for speaker in site.data.speakers[year].speakers %}
+                            {% if speaker.url == entry.speaker %}
+                              {% include components/scheduleEntry.html speaker=speaker entry=entry talk=talk %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type != 'talk'  and  entry.room == 'room_01' and entry.day == 'workshops' %}
+                      {% include components/scheduleEntry.html entry=entry %}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane" id="room1">
                 <div class="schedule-list">
                   {% assign year = site.data.config.currentYear %}
                   {% for entry in site.data.schedule[year].workshops %}
