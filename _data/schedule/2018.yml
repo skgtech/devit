@@ -113,12 +113,12 @@ talks:
     duration: 15
     day: speaker_day
 
-  # - type: 'fa-glass-martini'
-  #   title: 'After Party'
-  #   hours: 19
-  #   mins: '00'
-  #   duration: 120
-  #   day: speaker_day
+  - type: 'fa-glass-martini'
+    title: 'After Party'
+    hours: 19
+    mins: '00'
+    duration: 120
+    day: speaker_day
 
 workshops:
   - type: 'fa-ticket-alt'
