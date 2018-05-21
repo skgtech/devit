@@ -335,6 +335,15 @@
 - title: "To be announced"
   speaker: julien_simon
   type: Talk
+  description: "<p>
+    </p>"
+  tags:
+    - BDD
+    - QA
+    - Mobile
+
+
+  
 
 - title: "Machine Learning and Deep Learning in Python"
   ticket: single

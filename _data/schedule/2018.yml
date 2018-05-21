@@ -23,42 +23,42 @@ talks:
   - type: talk
     speaker: pawel_dudek
     hours: 10
-    mins: 30
+    mins: '30'
     duration: 45
     day: speaker_day
 
   - type: 'fa-coffee'
     title: Coffee
     hours: 11
-    mins: 15
+    mins: '15'
     duration: 30
     day: speaker_day
 
   - type: talk
     speaker: cheryl_platz
     hours: 11
-    mins: 45
+    mins: '45'
     duration: 45
     day: speaker_day
 
   - type: talk
     speaker: joe_sepi
     hours: 12
-    mins: 30
+    mins: '30'
     duration: 45
     day: speaker_day
 
   - type: 'fa-utensils'
     title: Lunch
     hours: 13
-    mins: 15
+    mins: '15'
     duration: 60
     day: speaker_day
 
-  - type: talk
-    speaker: 'tba'
+  - type: 'fa-comments'
+    title: 'Privacy in the online world: an open discussion panel'
     hours: 14
-    mins: 15
+    mins: '15'
     duration: 45
     day: speaker_day
 
@@ -66,43 +66,50 @@ talks:
     title: iOS & Swift
     speaker: ingrid_epure
     hours: 15
-    mins: '00'
+    mins: '15'
     duration: 45
     day: speaker_day
 
   - type: talk
     speaker: amit_zur
-    hours: 15
-    mins: 45
+    hours: 16
+    mins: '00'
     duration: 45
     day: speaker_day
 
   - type: 'fa-coffee'
     title: Coffee
     hours: 16
-    mins: 30
+    mins: '45'
     duration: 30
     day: speaker_day
 
   - type: talk
     speaker: 'tba'
     hours: 17
-    mins: '00'
+    mins: '15'
     duration: 45
     day: speaker_day
 
   - type: talk
     speaker: julien_simon
-    hours: 17
-    mins: 45
+    hours: 18
+    mins: '00'
     duration: 45
     day: speaker_day
 
   - type: 'fa-bullhorn'
     title: Closing Ceremony
     hours: 18
-    mins: 30
+    mins: '45'
     duration: 15
+    day: speaker_day
+
+  - type: 'fa-glass-martini'
+    title: 'After Party'
+    hours: 19
+    mins: '00'
+    duration: 120
     day: speaker_day
 
 workshops:
@@ -386,3 +393,106 @@ workshops:
     mins: '00'
     room: room_05
     day: workshops
+
+allworkshops:
+
+  - type: workshop
+    speaker: laurent_bugnion
+    hours: 10
+    mins: '00'
+    duration: 120
+    room: room_01
+    day: workshops
+    workshoptype: allday
+
+
+  - type: workshop
+    speaker: julien_simon
+    hours: 10
+    mins: '00'
+    duration: 120
+    room: room_02
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: danielle_reid
+    hours: 10
+    mins: '00'
+    duration: 120
+    room: room_03
+    day: workshops
+    workshoptype: morning
+
+  - type: workshop
+    speaker: tim_perry
+    hours: 10
+    mins: '00'
+    duration: 120
+    room: room_04
+    day: workshops
+    workshoptype: morning
+
+  - type: workshop
+    speaker: lauren_robinson
+    hours: 10
+    mins: '00'
+    duration: 120
+    room: room_05
+    day: workshops
+    workshoptype: morning
+
+
+  - type: workshop
+    speaker: ivana_milicic
+    hours: 13
+    mins: '30'
+    duration: 120
+    room: room_03
+    day: workshops
+    workshoptype: noon    
+
+  - type: workshop
+    speaker: konstantinos_votis
+    hours: 13
+    mins: '30'
+    duration: 120
+    room: room_04
+    day: workshops
+    workshoptype: noon    
+
+  - type: workshop
+    speaker: katerina_trajchevska
+    hours: 13
+    mins: '30'
+    duration: 120
+    room: room_05
+    day: workshops
+    workshoptype: noon    
+
+  - type: workshop
+    speaker: joe_sepi
+    hours: 16
+    mins: '30'
+    duration: 120
+    room: room_03
+    day: workshops
+    workshoptype: evening
+
+  - type: workshop
+    speaker: anna_doubkova
+    hours: 16
+    mins: '30'
+    duration: 120
+    room: room_04
+    day: workshops
+    workshoptype: evening
+
+  - type: workshop
+    speaker: alex_moldovan
+    hours: 16
+    mins: '30'
+    duration: 120
+    room: room_05
+    day: workshops
+    workshoptype: evening
