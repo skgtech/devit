@@ -331,10 +331,22 @@
     OpenWhisk serverless platform implementing a few example use cases. We'll all leave
     the workshop feeling confident and ready to go build serverless applications. #ftw</p>"
   type: Talk
+  tags:
+    - Serverless
 
-- title: "To be announced"
+- title: "AI for developers"
   speaker: julien_simon
   type: Talk
+  description: "<p>AI sounds incredibly complicated… and it can be.
+    However, using high level cloud services, it’s never been easier
+    to add AI capabilities to your applications. Speech, translation,
+    image and video analysis are just an API call away. In this
+    session, we’ll show how you can get started: writing a few lines
+    of code is all it takes!</p><p> I’ll have a robot friend on stage with
+    me, so expect the unexpected!"
+  tags:
+    - AI
+    - AWS
 
 - title: "Machine Learning and Deep Learning in Python"
   ticket: single
