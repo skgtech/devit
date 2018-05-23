@@ -10,9 +10,9 @@ if (tabsContent.length) {
 }
 
 var hash = window.location.hash;
-if (hash !== "" && hash != null) {
+if (hash) {
   $(document).ready(function() {
-    $('body').scrollTop($("div.talks").offset().top);
+    $('body').scrollTop($("div.talks").offset().top - $("nav.main-navbar").height() - $("div.talks__tabs").height());
   });
   $('ul.nav a[href="' + hash + '"]').tab('show');
 }
