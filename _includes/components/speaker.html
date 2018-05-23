@@ -19,9 +19,17 @@
     {% else %}
       <div class="speaker__title">{{ speaker.tagline }}</div>
     {% endif %}
+    {% if speaker.hearFor.first %}
+      {% for item in speaker.hearFor %}
+      <div class="speaker__type">
+          {{ item }}
+      </div>
+      {% endfor %}
+    {% else %}
     <div class="speaker__type">
-        {{ speaker.hearFor }}
+      {{ speaker.hearFor }}
     </div>
+    {% endif %}
   {% endif %}
   <div class="speaker__hover">
     {% include components/tags.html tags=speaker.tags %}
