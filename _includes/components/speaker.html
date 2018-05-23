@@ -21,14 +21,14 @@
     {% endif %}
     {% if speaker.hearFor.first %}
       {% for item in speaker.hearFor %}
-      <div class="speaker__type">
+        <div class="speaker__type">
           {{ item }}
-      </div>
+        </div>
       {% endfor %}
     {% else %}
-    <div class="speaker__type">
-      {{ speaker.hearFor }}
-    </div>
+      <div class="speaker__type">
+        {{ speaker.hearFor }}
+      </div>
     {% endif %}
   {% endif %}
   <div class="speaker__hover">
