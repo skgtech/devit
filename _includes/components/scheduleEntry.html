@@ -32,7 +32,7 @@
 
     <div class="schedule-item__main">
       {% if speaker %}
-        {% if speaker == "tba" %} 
+        {% if speaker == "tba" %}
           <div class="schedule-item__title">
             To Be Announced
           </div>
@@ -94,7 +94,7 @@
 
     <div class="schedule-item__buy">
       {% if speaker %}
-        {% if speaker == "tba" %} 
+        {% if speaker == "tba" %}
           <div class="schedule-item__title">
             To Be Announced
           </div>
@@ -110,23 +110,10 @@
                   {{talk.title}} Part 2
                 {% else %}
                   {{talk.title}} Part 3
-                {% endif %} 
+                {% endif %}
               {% else %}
-                {{talk.title}} 
+                {{talk.title}}
               {% endif %}
-
-                <!-- {{talk.title}} 
-              }
-              {% if entry.part == 'part_1' %}
-                {{talk.title}} Part 1
-              {% else if entry.part == 'part_2' %}
-                {{talk.title}} Part 2
-              {% else if entry.part == 'part_3' %}
-                {{talk.title}} Part 3
-              {% else %}
-                {{talk.title}} 
-              {% endif %} -->
-              
           </a>
 
           <div class="tags">
@@ -144,6 +131,16 @@
     </div>
 
      {% if talk.buyLink %}
+      {% if entry.workshoptype == 'allday' %}
+        <p class="workshopDescription">Full-day workshop</p>
+      {% elsif entry.workshoptype == 'morning' %}
+        <p class="workshopDescription">Morning workshop</p>
+      {% elsif entry.workshoptype == 'noon' %}
+        <p class="workshopDescription">Noon workshop</p>
+      {% else %}
+        <p class="workshopDescription">Evening workshop</p>
+      {% endif %}
+
       <a
         target="_blank"
         rel="noopener"
@@ -153,7 +150,7 @@
       </a>
     {% endif %}
 
-   
+
   </div>
 
 {% endif %}
