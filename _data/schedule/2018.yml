@@ -55,12 +55,12 @@ talks:
     duration: 60
     day: speaker_day
 
-  # - type: 'fa-comments'
-  #   title: 'Privacy in the online world: an open discussion panel'
-  #   hours: 14
-  #   mins: '15'
-  #   duration: 45
-  #   day: speaker_day
+  - type: 'fa-comments'
+    title: 'Privacy in the online world: an open discussion panel'
+    hours: 14
+    mins: '15'
+    duration: 45
+    day: speaker_day
 
   - type: talk
     speaker: 'tba'
@@ -113,12 +113,12 @@ talks:
     duration: 15
     day: speaker_day
 
-  # - type: 'fa-glass-martini'
-  #   title: 'After Party'
-  #   hours: 19
-  #   mins: '00'
-  #   duration: 120
-  #   day: speaker_day
+  - type: 'fa-glass-martini'
+    title: 'After Party'
+    hours: 19
+    mins: '00'
+    duration: 120
+    day: speaker_day
 
 workshops:
   - type: 'fa-ticket-alt'
