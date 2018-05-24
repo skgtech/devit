@@ -1,0 +1,25 @@
+{% assign speaker = include.speaker %}
+{% assign entry = include.entry %}
+
+{% if speaker %}
+  <div class="schedule-item__image">
+    {% if speaker == "tba" %}
+      <img
+        class="lazy"
+        src="/assets/images/new/placeholder-profile-photo.svg"
+        alt="To be announced">
+    {% else %}
+        <img
+          class="lazy"
+          src="/assets/images/new/placeholder-profile-photo.svg"
+          data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
+          alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+    {% endif %}
+  </div>
+{% else %}
+  <div class="schedule-item__image">
+    <span>
+      <i class="fas {{ entry.type }}"></i>
+    </span>
+  </div>
+{% endif %}

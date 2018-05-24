@@ -1,0 +1,21 @@
+{% assign entry = include.entry %}
+{% assign showspace = include.showspace | default: false %}
+
+  <div class="schedule-item__hour">
+    {{entry.hours}}:{{entry.mins}}
+    {% if showspace  %}
+      <div class="schedule-item__subtitle">
+        {% if entry.room == 'room_01' %}
+          Room 1
+        {% elsif entry.room == 'room_02' %}
+          Room 2
+        {% elsif entry.room == 'room_03' %}
+          Room 3
+        {% elsif entry.room == 'room_04' %}
+          Room 4
+        {% else %}
+          Room 5
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
