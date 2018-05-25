@@ -1,0 +1,26 @@
+{% assign event = include.event %}
+
+	<div class="left_sidebar">
+		<img
+            class="lazy img-responsive "
+            src="/assets/images/devitweek/ux_meetup.jpg"
+            alt="To be announced">
+        <div class="map" data-long="40.6373756" data-lat="22.9370313"></div>
+	</div>
+
+	<div class="right_sidebar">
+		<div class="block__heading--dark text-left">
+			{{event.title}}
+		</div>
+		<div>
+			<i class="fas fa-clock"></i>
+			{{event.datetime}}
+		<br>
+			{{event.venue}}
+		</div>
+
+		<div>
+			{{event.agenda}}
+		</div>
+	</div>
+</div>
