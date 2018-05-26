@@ -1,0 +1,17 @@
+{% if include.herefor %}
+  {% assign herefor = include.herefor %}
+{% endif %}
+
+<div class="herefor">
+  {% if herefor.first %}
+    {% for item in herefor %}
+      <div class="speaker__type">
+        {{ item }}
+      </div>
+    {% endfor %}
+  {% else %}
+    <span class="speaker__type">
+      {{ herefor }}
+    </span>
+  {% endif %}
+</div>

@@ -34,7 +34,9 @@ speakers:
 
   - url: julien_simon
     year: 2018
-    hearFor: Talk
+    hearFor:
+      - Talk
+      - Workshop
     tags:
       - AI
       - Machine Learning
@@ -84,7 +86,9 @@ speakers:
 
   - url: joe_sepi
     year: 2018
-    hearFor: Talk
+    hearFor:
+      - Talk
+      - Workshop
     tags:
       - Web
       - Node.js
