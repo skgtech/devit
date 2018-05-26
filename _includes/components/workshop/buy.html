@@ -1,7 +1,6 @@
 {% assign speaker = include.speaker %}
 {% assign talk = include.talk %}
 {% assign entry = include.entry %}
-{% assign usecase = include.usecase %}
 
 <div class="schedule-item__buy">
   {% if speaker %}
@@ -10,7 +9,7 @@
         To Be Announced
       </div>
     {% else %}
-      <div class="schedule-item__subtitle">{{ speaker.first_name }} {{ speaker.last_name }}</div>
+      {% include components/workshop/speakers.html talk=talk %}
       <a
         class="schedule-item__title"
         href="/speakers/{{ speaker.url }}#{{ talk.title | slugify }}">

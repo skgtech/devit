@@ -1,0 +1,11 @@
+{% assign speaker = include.speaker %}
+{% assign talk = include.talk %}
+{% assign currentYear = site.data.config.currentYear %}
+{% assign speakers = site.data.talks[currentYear] | where:"title", talk.title | map: "speaker" %}
+
+<div class="schedule-item__subtitle">
+{% for item in speakers %}
+  {% assign temp = site.data.speakers[currentYear].speakers | where: "url", item | first %}
+  <span>{{ temp.first_name }} {{ temp.last_name }}</span>
+{% endfor %}
+</div>

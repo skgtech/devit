@@ -405,7 +405,6 @@ allworkshops:
     day: workshops
     workshoptype: allday
 
-
   - type: workshop
     speaker: julien_simon
     hours: 10
