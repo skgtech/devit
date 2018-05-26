@@ -1,0 +1,73 @@
+---
+layout: default
+title: Devit Week
+description: Events during the Devit Week
+permalink: /devit-week
+custom_js:
+  - schedule.bundle.js
+---
+
+
+{% include blocks/header.html page="speaker" %}
+
+<div class="schedule-block">
+  <div class="block__heading--dark text-left">
+    DEVit Week
+  </div>
+ 
+  <div class="schedule">
+    <div class="schedule__content">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane" id="workshops">
+          <div class="workshops__header">
+            <ul class="workshops__tabs" role="tablist">
+
+              <li role="tue" class="active">
+                <a href="#tue" aria-controls="tue" role="tab" data-toggle="tab">
+                  Tuesday 5/6 @OK!Thess
+                </a>
+              </li>
+              <li role="wed">
+                <a href="#wed" aria-controls="wed" role="tab" data-toggle="tab">
+                  Wednesday 6/6 @OK!Thess
+                </a>
+              </li>
+              <li role="thur">
+                <a href="#thur" aria-controls="thur" role="tab" data-toggle="tab">
+                  Thursday 7/6 @OK!Thess
+                </a>
+              </li>
+               <li role="frid">
+                <a href="#frid" aria-controls="frid" role="tab" data-toggle="tab">
+                  Friday 8/6 @OK!Thess
+                </a>
+              </li>
+              <li role="satu">
+                <a href="#satu" aria-controls="satu" role="tab" data-toggle="tab">
+                  Saturday 9/6 @OK!Thess
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="workshops__content">
+            <div class="tab-content">
+
+              <div role="tabpanel" class="tab-pane active" id="tue">
+                <div class="schedule-list">
+                  {% for entry in site.data.devitweek.schedule.events %}
+                    {% if entry.day == 'tuesday' %}
+                      {% include components/devitWeekEvent.html event=entry%}
+                    {% endif %}
+                 {% endfor %}
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include blocks/footer.html %}
