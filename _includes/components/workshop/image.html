@@ -9,11 +9,21 @@
         src="/assets/images/new/placeholder-profile-photo.svg"
         alt="To be announced">
     {% else %}
-        <img
-          class="lazy"
-          src="/assets/images/new/placeholder-profile-photo.svg"
-          data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-          alt="{{ speaker.first_name }} {{ speaker.last_name }}">
+        <ul>
+          {% assign currentYear = site.data.config.currentYear %}
+          {% assign speakers = site.data.talks[currentYear] | where:"title", talk.title | map: "speaker" %}
+          {% for item in speakers %}
+            {% assign t = site.data.speakers[currentYear].speakers | where: "url", item | first %}
+            <li>
+              <a href="/speakers/{{ speaker.url }}"><img
+                class="lazy"
+                src="/assets/images/new/placeholder-profile-photo.svg"
+                data-src="/assets/images/speakers/{{year}}/{{ t.image_filename }}"
+                data-speaker-url="{{ t.url }}"
+                alt="{{ t.first_name }} {{ t.last_name }}"></a>
+            </li>
+          {% endfor %}
+        </ul>
     {% endif %}
   </div>
 {% else %}

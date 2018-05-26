@@ -6,6 +6,6 @@
 <div class="schedule-item__subtitle">
 {% for item in speakers %}
   {% assign temp = site.data.speakers[currentYear].speakers | where: "url", item | first %}
-  <span>{{ temp.first_name }} {{ temp.last_name }}</span>
+  <span data-speaker-url="{{temp.url}}">{{ temp.first_name }} {{ temp.last_name }}</span>
 {% endfor %}
 </div>

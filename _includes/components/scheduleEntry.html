@@ -6,7 +6,7 @@
   <div class="schedule-item">
 
     {% include components/workshop/spacetime.html entry=entry %}
-    {% include components/workshop/image.html speaker=speaker entry=entry %}
+    {% include components/workshop/image.html entry=entry speaker=speaker %}
 
     <div class="schedule-item__main">
       {% if speaker %}
@@ -39,8 +39,8 @@
   <div class="schedule-item">
 
     {% include components/workshop/spacetime.html entry=entry %}
-    {% include components/workshop/image.html speaker=speaker entry=entry %}
-    {% include components/workshop/buy.html speaker=speaker talk=talk entry=entry %}
+    {% include components/workshop/image.html entry=entry talk=talk speaker=speaker %}
+    {% include components/workshop/buy.html entry=entry talk=talk speaker=speaker %}
 
   </div>
 

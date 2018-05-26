@@ -31,3 +31,14 @@ $('.schedule__tabs a').click(function (e) {
   window.location.hash = this.hash;
   $('html,body').scrollTop(scrollmem);
 });
+
+$('.schedule-item li :not([data-speaker-url=""]').hover(function (event) {
+  var target = $(event.target);
+  var url = target.data('speakerUrl');
+  if(target.is('img') && url) {
+    var currentSchduleElement = target.parents('.schedule-item').first();
+    var speakerNameElement = currentSchduleElement.find('span[data-speaker-url="' + url + '"]').first();
+    if(event.type == "mouseenter") speakerNameElement.addClass("font-weight-bold");
+    else if(event.type == "mouseleave") speakerNameElement.removeClass("font-weight-bold");
+  }
+});
