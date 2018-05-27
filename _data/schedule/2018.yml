@@ -129,6 +129,7 @@ workshops:
     room: room_01
     day: workshops
     part: part_1
+    workshoptype: allday
 
   - type: 'fa-utensils'
     title: Lunch
@@ -146,6 +147,7 @@ workshops:
     room: room_01
     day: workshops
     part: part_2
+    workshoptype: allday
 
   - type: 'fa-coffee'
     title: Coffee Break
@@ -163,6 +165,7 @@ workshops:
     room: room_01
     day: workshops
     part: part_3
+    workshoptype: allday
 
   - type: 'fa-hourglass-end'
     title: End of Workshop Day
@@ -187,6 +190,7 @@ workshops:
     room: room_02
     day: workshops
     part: part_1
+    workshoptype: allday
 
   - type: 'fa-utensils'
     title: Lunch
@@ -204,6 +208,7 @@ workshops:
     room: room_02
     day: workshops
     part: part_2
+    workshoptype: allday
 
   - type: 'fa-coffee'
     title: Coffee Break
@@ -221,6 +226,7 @@ workshops:
     room: room_02
     day: workshops
     part: part_3
+    workshoptype: allday
 
   - type: 'fa-hourglass-end'
     title: End of Workshop Day
@@ -244,6 +250,7 @@ workshops:
     duration: 120
     room: room_03
     day: workshops
+    workshoptype: morning
 
   - type: 'fa-utensils'
     title: Lunch
@@ -260,6 +267,7 @@ workshops:
     duration: 120
     room: room_03
     day: workshops
+    workshoptype: noon
 
   - type: 'fa-coffee'
     title: Coffee Break
@@ -276,6 +284,7 @@ workshops:
     duration: 120
     room: room_03
     day: workshops
+    workshoptype: evening
 
   - type: 'fa-hourglass-end'
     title: End of Workshop Day
@@ -299,6 +308,7 @@ workshops:
     duration: 120
     room: room_04
     day: workshops
+    workshoptype: morning
 
   - type: 'fa-utensils'
     title: Lunch
@@ -315,6 +325,7 @@ workshops:
     duration: 120
     room: room_04
     day: workshops
+    workshoptype: noon
 
   - type: 'fa-coffee'
     title: Coffee Break
@@ -331,6 +342,7 @@ workshops:
     duration: 120
     room: room_04
     day: workshops
+    workshoptype: evening
 
   - type: 'fa-hourglass-end'
     title: End of Workshop Day
@@ -354,6 +366,7 @@ workshops:
     duration: 120
     room: room_05
     day: workshops
+    workshoptype: morning
 
   - type: 'fa-utensils'
     title: Lunch
@@ -370,6 +383,7 @@ workshops:
     duration: 120
     room: room_05
     day: workshops
+    workshoptype: noon
 
   - type: 'fa-coffee'
     title: Coffee Break
@@ -386,6 +400,7 @@ workshops:
     duration: 120
     room: room_05
     day: workshops
+    workshoptype: evening
 
   - type: 'fa-hourglass-end'
     title: End of Workshop Day

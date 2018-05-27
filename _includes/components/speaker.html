@@ -19,9 +19,7 @@
     {% else %}
       <div class="speaker__title">{{ speaker.tagline }}</div>
     {% endif %}
-    <div class="speaker__type">
-        {{ speaker.hearFor }}
-    </div>
+    {% include components/herefor.html herefor=speaker.hearFor %}
   {% endif %}
   <div class="speaker__hover">
     {% include components/tags.html tags=speaker.tags %}
