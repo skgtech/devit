@@ -65,9 +65,9 @@ custom_js:
 
               <div role="tabpanel" class="tab-pane active" id="tue">
                 <div class="schedule-list">
-                  {% for entry in site.data.devitweek.schedule.events %}
+                  {% for entry in site.data.devitweek.schedule.schedule %}
                     {% if entry.day == 'tuesday' %}
-                      {% include components/devitWeekEvent.html event=entry %}
+                      {% include components/devitWeekScheduleItems.html event=entry %}
                     {% endif %}
                   {% endfor %}
                 </div>
@@ -75,14 +75,44 @@ custom_js:
 
               <div role="tabpanel" class="tab-pane " id="wed">
                 <div class="schedule-list">
-                  {% for entry in site.data.devitweek.schedule.events %}
+                  {% for entry in site.data.devitweek.schedule.schedule %}
                     {% if entry.day == 'wednesday' %}
-                      {% include components/devitWeekEvent.html event=entry %}
+                      {% include components/devitWeekScheduleItems.html event=entry %}
                     {% endif %}
                   {% endfor %}
                 </div>
               </div>
 
+              <div role="tabpanel" class="tab-pane " id="thur">
+                <div class="schedule-list">
+                  {% for entry in site.data.devitweek.schedule.schedule %}
+                    {% if entry.day == 'thursday' %}
+                      {% include components/devitWeekScheduleItems.html event=entry %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane " id="frid">
+                <div class="schedule-list">
+                  {% for entry in site.data.devitweek.schedule.schedule %}
+                    {% if entry.day == 'friday' %}
+                      {% include components/devitWeekScheduleItems.html event=entry %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane " id="satu">
+                <div class="schedule-list">
+                  {% for entry in site.data.devitweek.schedule.schedule %}
+                    {% if entry.day == 'saturday' %}
+                      {% include components/devitWeekScheduleItems.html event=entry %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
