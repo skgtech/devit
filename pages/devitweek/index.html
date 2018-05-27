@@ -10,10 +10,21 @@ custom_js:
 
 {% include blocks/header.html page="speaker" %}
 
-<div class="schedule-block">
-  <div class="block__heading--dark text-left">
+<div class="schedule-block" style="padding-bottom: 88px;">
+  <div class="container text-center">
+    <div class="block__heading--dark text-left">
     DEVit Week
+    </div>
+    <div class="text-left">
+      <p>Each year we grow bigger. This year we introduce the DEVit week. Our local communities have grown strong and are
+      ready to celebrate the biggest technological event of the year with a full week of festivities. Each day there will be
+      multiple meetups, gatherings and events, accompanied by our international speakers. As the conference grows so do
+      our budgets, this allows us to host the international speakers for longer periods of time maximizing their impact on the
+      local community and creating new, international bonds that open up new opportunities and knowledge sharing on all the levels.
+      </p>
+    </div>
   </div>
+</div>
  
   <div class="schedule">
     <div class="schedule__content">
@@ -24,27 +35,27 @@ custom_js:
 
               <li role="tue" class="active">
                 <a href="#tue" aria-controls="tue" role="tab" data-toggle="tab">
-                  Tuesday 5/6 @OK!Thess
+                  Tue 5/6
                 </a>
               </li>
               <li role="wed">
                 <a href="#wed" aria-controls="wed" role="tab" data-toggle="tab">
-                  Wednesday 6/6 @OK!Thess
+                  Wed 6/6
                 </a>
               </li>
               <li role="thur">
                 <a href="#thur" aria-controls="thur" role="tab" data-toggle="tab">
-                  Thursday 7/6 @OK!Thess
+                  Thu 7/6
                 </a>
               </li>
                <li role="frid">
                 <a href="#frid" aria-controls="frid" role="tab" data-toggle="tab">
-                  Friday 8/6 @OK!Thess
+                  Fri 8/6
                 </a>
               </li>
               <li role="satu">
                 <a href="#satu" aria-controls="satu" role="tab" data-toggle="tab">
-                  Saturday 9/6 @OK!Thess
+                  Sat 9/6
                 </a>
               </li>
             </ul>
@@ -56,9 +67,19 @@ custom_js:
                 <div class="schedule-list">
                   {% for entry in site.data.devitweek.schedule.events %}
                     {% if entry.day == 'tuesday' %}
-                      {% include components/devitWeekEvent.html event=entry%}
+                      {% include components/devitWeekEvent.html event=entry %}
                     {% endif %}
-                 {% endfor %}
+                  {% endfor %}
+                </div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane " id="wed">
+                <div class="schedule-list">
+                  {% for entry in site.data.devitweek.schedule.events %}
+                    {% if entry.day == 'wednesday' %}
+                      {% include components/devitWeekEvent.html event=entry %}
+                    {% endif %}
+                  {% endfor %}
                 </div>
               </div>
 
@@ -68,6 +89,5 @@ custom_js:
       </div>
     </div>
   </div>
-</div>
 
 {% include blocks/footer.html %}

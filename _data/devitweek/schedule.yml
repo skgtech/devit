@@ -1,12 +1,23 @@
 events:
-  - day: 'tuesday'
+  - type: meetup
+    day: tuesday
     title: 'Node.JS Meetup'
     datetime: 'Tuesday, June 5, 2018, 18:30 to 22:00'
     venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
-    cover: 'nodejsmeetup'
-    agenda: '<a href="" target="_blank">Go to meetup page<i class="fas fa-long-arrow-alt-right"></i></a>
-            18:30           Welcome
-            18:30 - 19:15   dadas
-            details.....
+    agenda: '<a href="" target="_blank">Go to meetup page<i class="fas fa-long-arrow-alt-right"></i></a> <br><br>
+            18:30           Welcome <br>
+            18:30 - 19:15   dadas   <br>
+            details.....'
+    cover: nodejsmeetup
 
-            '
+
+  - type: meetup
+    day: wednesday
+    title: Thessaloniki UX Meetup
+    datetime: 'Tuesday, June 6, 2018, 18:30 to 22:00'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+    agenda: '<a href="" target="_blank">Go to meetup page<i class="fas fa-long-arrow-alt-right"></i></a> <br><br>
+            18:30           Welcome <br>
+            18:30 - 19:15   dadas   <br>
+            details.....'
+    cover: ux_meetup
