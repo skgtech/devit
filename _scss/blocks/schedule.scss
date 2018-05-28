@@ -156,8 +156,17 @@
       position: relative;
     }
 
+    li:first-child {
+      z-index: 2;
+    }
+
     li:nth-child(n+2) {
-      margin-left: -50px;
+      margin-left: -62px;
+    }
+
+    li:hover {
+      cursor: pointer;
+      z-index: 10;
     }
 
     span {
@@ -224,6 +233,7 @@
     color: #57585a;
 
     .font-weight-bold {
+      cursor: pointer;
       font-weight: bold;
     }
   }

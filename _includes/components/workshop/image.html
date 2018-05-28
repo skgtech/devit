@@ -14,14 +14,14 @@
           {% assign speakers = site.data.talks[currentYear] | where:"title", talk.title | map: "speaker" %}
           {% for item in speakers %}
             {% assign t = site.data.speakers[currentYear].speakers | where: "url", item | first %}
-            <li>
-              <a href="/speakers/{{ speaker.url }}"><img
+            <li><a href="/speakers/{{t.url}}">
+              <img
                 class="lazy"
                 src="/assets/images/new/placeholder-profile-photo.svg"
                 data-src="/assets/images/speakers/{{year}}/{{ t.image_filename }}"
                 data-speaker-url="{{ t.url }}"
-                alt="{{ t.first_name }} {{ t.last_name }}"></a>
-            </li>
+                alt="{{ t.first_name }} {{ t.last_name }}">
+                </a></li>
           {% endfor %}
         </ul>
     {% endif %}

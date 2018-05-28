@@ -38,7 +38,11 @@ $('.schedule-item li :not([data-speaker-url=""]').hover(function (event) {
   if(target.is('img') && url) {
     var currentSchduleElement = target.parents('.schedule-item').first();
     var speakerNameElement = currentSchduleElement.find('span[data-speaker-url="' + url + '"]').first();
-    if(event.type == "mouseenter") speakerNameElement.addClass("font-weight-bold");
-    else if(event.type == "mouseleave") speakerNameElement.removeClass("font-weight-bold");
+    if(event.type == "mouseenter") {
+      speakerNameElement.addClass("font-weight-bold");
+    }
+    else if(event.type == "mouseleave") {
+      speakerNameElement.removeClass("font-weight-bold");
+    }
   }
 });
