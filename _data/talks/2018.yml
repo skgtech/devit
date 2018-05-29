@@ -71,7 +71,9 @@
     using powerful development tools that will be familiar to anybody comfortable with modern web development.</p>
     <p>We'll use Docker and <a target=\"_blank\" rel=\"noopener\" href=\"https://resin.io\">Resin.io</a> to
     write, build & deploy software for real Raspberry Pis in JavaScript, to control motion sensors,
-    LEDs and more.</p>"
+    LEDs and more.</p><p>For this workshop you will be using a Raspberry Pi 3, with a Sense HAT. As an attendee 
+    you'll receive all the hardware required for the workshop, to use in the workshop and to keep for yourself 
+    afterwards, so you can continue with your projects later.</p>"
   ticket: single
   speaker: tim_perry
   type: Workshop
