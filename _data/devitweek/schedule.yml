@@ -95,7 +95,7 @@ schedule:
     day: wednesday
     hours: 20
     mins: '15'
-    title: 'A programming language of ideas: Swift'
+    title: 'A language of ideas: Swift'
     speaker: CocoaHeads Thessaloniki presents Dimitris Tsiflitzis & Thanos Theodoridis
     meetup: Cocoaheads
     meetup_link: https://www.meetup.com/CocoaHeadsSKG/
