@@ -1,0 +1,53 @@
+{% assign speaker = include.speaker %}
+{% assign talk = include.talk %}
+{% assign entry = include.entry %}
+
+<div class="schedule-item__buy">
+  {% if speaker %}
+    {% if speaker == "tba" %}
+      <div class="schedule-item__title">
+        To Be Announced
+      </div>
+    {% else %}
+      {% include components/workshop/speakers.html talk=talk %}
+      <a
+        class="schedule-item__title"
+        href="/speakers/{{ speaker.url }}#{{ talk.title | slugify }}">
+        {% if entry.part %}
+          {% if entry.part == 'part_1' %}
+            {{talk.title}} Part 1
+          {% elsif entry.part == 'part_2' %}
+            {{talk.title}} Part 2
+          {% else %}
+            {{talk.title}} Part 3
+          {% endif %}
+        {% else %}
+          {{talk.title}}
+        {% endif %}
+      </a>
+      {% include components/tags.html tags=talk.tags %}
+    {% endif %}
+  {% else %}
+    <div class="schedule-item__title">{{ entry.title }}</p></div>
+  {% endif %}
+</div>
+
+{% if talk.buyLink %}
+  {% if entry.workshoptype == 'allday' %}
+    <p class="workshopDescription">Full-day workshop</p>
+  {% elsif entry.workshoptype == 'morning' %}
+    <p class="workshopDescription">Morning workshop</p>
+  {% elsif entry.workshoptype == 'noon' %}
+    <p class="workshopDescription">Noon workshop</p>
+  {% else %}
+    <p class="workshopDescription">Evening workshop</p>
+  {% endif %}
+
+  <a
+    target="_blank"
+    rel="noopener"
+    class="schedule__item-cta btn btn-primary"
+    href="{{ talk.buyLink }}">
+    Buy now
+  </a>
+{% endif %}

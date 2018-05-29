@@ -2,97 +2,10 @@
 {% assign entry = include.entry %}
 {% assign talk = include.talk %}
 
-
-
   <div class="schedule-item">
-    <div class="schedule-item__hour">
-      {{entry.hours}}:{{entry.mins}}
-      <div class="schedule-item__subtitle">
-        {% if entry.room == 'room_01' %}
-          Room 1
-        {% elsif entry.room == 'room_02' %}
-          Room 2
-        {% elsif entry.room == 'room_03' %}
-          Room 3
-        {% elsif entry.room == 'room_04' %}
-          Room 4
-        {% else %}
-          Room 5
-        {% endif %} 
-        
-      </div>
-    </div>
 
-    {% if speaker %}
-      <div class="schedule-item__image">
-        {% if speaker == "tba" %}
-          <img
-            class="lazy"
-            src="/assets/images/new/placeholder-profile-photo.svg"
-            alt="To be announced">
-        {% else %}
-            <img
-              class="lazy"
-              src="/assets/images/new/placeholder-profile-photo.svg"
-              data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-              alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-        {% endif %}
-      </div>
-    {% else %}
-      <div class="schedule-item__image">
-        <span>
-          <i class="fas {{entry.type}}"></i>
-        </span>
-      </div>
-    {% endif %}
+    {% include components/workshop/spacetime.html entry=entry showspace=true %}
+    {% include components/workshop/image.html speaker=speaker %}
+    {% include components/workshop/buy.html entry=entry talk=talk speaker=speaker %}
 
-    <div class="schedule-item__buy">
-      {% if speaker %}
-        {% if speaker == "tba" %} 
-          <div class="schedule-item__title">
-            To Be Announced
-          </div>
-        {% else %}
-          <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-          <a
-            href="/speakers/{{ speaker.url }}#{{talk.title | slugify}}"
-            class="schedule-item__title">
-                {{talk.title}} 
-          </a>
-
-          <div class="tags">
-            {% for tag in talk.tags %}
-            <span class="tag">
-              {{tag}}
-            </span>
-            {% endfor %}
-          </div>
-
-        {% endif %}
-      {% else %}
-        <div class="schedule-item__title">{{entry.title}}</p></div>
-      {% endif %}
-    </div>
-
-     {% if talk.buyLink %}
-       {% if entry.workshoptype == 'allday' %}
-        <p class="workshopDescription">Full-day workshop</p>
-      {% elsif entry.workshoptype == 'morning' %}
-        <p class="workshopDescription">Morning workshop</p>
-      {% elsif entry.workshoptype == 'noon' %}
-        <p class="workshopDescription">Noon workshop</p>
-      {% else %}
-        <p class="workshopDescription">Evening workshop</p>
-      {% endif %}
-
-      <a
-        target="_blank"
-        rel="noopener"
-        class="schedule__item-cta btn btn-primary"
-        href="{{ talk.buyLink }}">
-        Buy now
-      </a>
-    {% endif %}
-
-   
   </div>

@@ -143,6 +143,32 @@
       border-radius: 50%;
     }
 
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      width: 89px;
+      height: 89px;
+      display: inline-block;
+      position: relative;
+    }
+
+    li:first-child {
+      z-index: 2;
+    }
+
+    li:nth-child(n+2) {
+      margin-left: -62px;
+    }
+
+    li:hover {
+      cursor: pointer;
+      z-index: 10;
+    }
+
     span {
       width: 89px;
       height: 89px;
@@ -205,6 +231,11 @@
     font-family: Lato;
     font-size: 18px;
     color: #57585a;
+
+    .font-weight-bold {
+      cursor: pointer;
+      font-weight: bold;
+    }
   }
 
   @media (max-width: $screen-md-min) {
@@ -225,7 +256,7 @@
 }
 
 //need to create a new scss file for devit week and
-// and put the below classes there, but I don't know 
+// and put the below classes there, but I don't know
 // where exactly to import the scss file
 
 .left_sidebar {

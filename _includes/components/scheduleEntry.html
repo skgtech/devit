@@ -4,31 +4,9 @@
 
 {% if talk.type != 'Workshop' %}
   <div class="schedule-item">
-    <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
 
-    {% if speaker %}
-      <div class="schedule-item__image">
-        {% if speaker == "tba" %}
-          <img
-            class="lazy"
-            src="/assets/images/new/placeholder-profile-photo.svg"
-            alt="To be announced">
-        {% else %}
-            <img
-              class="lazy"
-              src="/assets/images/new/placeholder-profile-photo.svg"
-              data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-              alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-
-        {% endif %}
-      </div>
-    {% else %}
-      <div class="schedule-item__image">
-        <span>
-          <i class="fas {{entry.type}}"></i>
-        </span>
-      </div>
-    {% endif %}
+    {% include components/workshop/spacetime.html entry=entry %}
+    {% include components/workshop/image.html entry=entry speaker=speaker %}
 
     <div class="schedule-item__main">
       {% if speaker %}
@@ -43,15 +21,7 @@
             class="schedule-item__title">
               {{talk.title}}
           </a>
-
-          <div class="tags">
-            {% for tag in talk.tags %}
-            <span class="tag">
-              {{tag}}
-            </span>
-            {% endfor %}
-          </div>
-
+          {% include components/tags.html tags=talk.tags %}
         {% endif %}
       {% else %}
         <div class="schedule-item__title" style="padding-top: 10px;">{{entry.title}}</div>
@@ -67,89 +37,10 @@
 {% else %}
 
   <div class="schedule-item">
-    <div class="schedule-item__hour">{{entry.hours}}:{{entry.mins}}</div>
 
-    {% if speaker %}
-      <div class="schedule-item__image">
-        {% if speaker == "tba" %}
-          <img
-            class="lazy"
-            src="/assets/images/new/placeholder-profile-photo.svg"
-            alt="To be announced">
-        {% else %}
-            <img
-              class="lazy"
-              src="/assets/images/new/placeholder-profile-photo.svg"
-              data-src="/assets/images/speakers/{{year}}/{{ speaker.image_filename }}"
-              alt="{{ speaker.first_name }} {{ speaker.last_name }}">
-        {% endif %}
-      </div>
-    {% else %}
-      <div class="schedule-item__image">
-        <span>
-          <i class="fas {{entry.type}}"></i>
-        </span>
-      </div>
-    {% endif %}
-
-    <div class="schedule-item__buy">
-      {% if speaker %}
-        {% if speaker == "tba" %}
-          <div class="schedule-item__title">
-            To Be Announced
-          </div>
-        {% else %}
-          <div class="schedule-item__subtitle">{{speaker.first_name}} {{speaker.last_name}}</div>
-          <a
-            href="/speakers/{{ speaker.url }}#{{talk.title | slugify}}"
-            class="schedule-item__title">
-              {% if entry.part %}
-                {% if entry.part == 'part_1' %}
-                  {{talk.title}} Part 1
-                {% elsif entry.part == 'part_2' %}
-                  {{talk.title}} Part 2
-                {% else %}
-                  {{talk.title}} Part 3
-                {% endif %}
-              {% else %}
-                {{talk.title}}
-              {% endif %}
-          </a>
-
-          <div class="tags">
-            {% for tag in talk.tags %}
-            <span class="tag">
-              {{tag}}
-            </span>
-            {% endfor %}
-          </div>
-
-        {% endif %}
-      {% else %}
-        <div class="schedule-item__title">{{entry.title}}</p></div>
-      {% endif %}
-    </div>
-
-     {% if talk.buyLink %}
-      {% if entry.workshoptype == 'allday' %}
-        <p class="workshopDescription">Full-day workshop</p>
-      {% elsif entry.workshoptype == 'morning' %}
-        <p class="workshopDescription">Morning workshop</p>
-      {% elsif entry.workshoptype == 'noon' %}
-        <p class="workshopDescription">Noon workshop</p>
-      {% else %}
-        <p class="workshopDescription">Evening workshop</p>
-      {% endif %}
-
-      <a
-        target="_blank"
-        rel="noopener"
-        class="schedule__item-cta btn btn-primary"
-        href="{{ talk.buyLink }}">
-        Buy now
-      </a>
-    {% endif %}
-
+    {% include components/workshop/spacetime.html entry=entry %}
+    {% include components/workshop/image.html entry=entry talk=talk speaker=speaker %}
+    {% include components/workshop/buy.html entry=entry talk=talk speaker=speaker %}
 
   </div>
 
