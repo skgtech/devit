@@ -1,0 +1,69 @@
+{% assign event = include.event %}
+
+{% if event.type == 'meetup' %}
+	
+	<div class="row" style=" margin-bottom: 30px;">
+		<div class="left_sidebar">
+	        <div class="map" data-long="40.5952865" data-lat="22.9511654"></div>
+		</div>
+
+		<div class="right_sidebar">
+			<div class="block__heading--dark text-left" style="hyphens: none;">
+				{{event.title}}
+			</div>
+			<div>
+				<i class="fas fa-clock" style="width: 24px; height: 24px;"></i>
+				{{event.datetime}}
+				<br>
+				<i class="fas fa-map-marker" style="width: 24px; height: 24px;"></i>
+				{{event.venue}}
+			</div>
+		</div>
+	</div>
+
+{% elsif event.type == 'just_text' %}
+	
+	<div class="schedule-item">
+    	<div class="schedule-item__hour" style="padding-top: 0px !important;">{{event.hours}}:{{event.mins}}</div>
+		<div class="schedule-item__main" style="padding-top: 0px !important;">
+			<div class="schedule-item__title">{{event.title}}</div>
+		</div>
+	</div>
+
+{% elsif event.type == 'talk_devit' %}
+	
+	<div class="schedule-item">
+    	<div class="schedule-item__hour" style="padding-top: 15px !important;">{{event.hours}}:{{event.mins}}</div>
+		<div class="schedule-item__main" style="padding-top: 0px !important;">
+			<div class="schedule-item__subtitle">{{event.speaker}}</div>
+			<div class="schedule-item__title">{{event.title}}</div>
+		</div>
+	</div>
+
+{% elsif event.type == 'talk_meetup' %}
+	
+	<div class="schedule-item">
+    	<div class="schedule-item__hour" style="padding-top: 25px !important;">{{event.hours}}:{{event.mins}}</div>
+		<div class="schedule-item__main" style="padding-top: 0px !important;">
+			<div class="schedule-item__subtitle">{{event.speaker}}</div>
+			<div class="schedule-item__title">{{event.title}}</div>
+			<div class="schedule-item__subtitle">
+				<a href="{{event.meetup_link}}" target="_blank">Go to meetup page</a> 
+				<i class="fas fa-long-arrow-alt-right" style="    color: #3884c0;"></i>
+			</div>
+		</div>
+	</div>	
+
+{% elsif event.type == 'drinks' %}
+	
+	<div class="schedule-item">
+    	<div class="schedule-item__hour" style="padding-top: 15px !important;">{{event.hours}}:{{event.mins}}</div>
+		<div class="schedule-item__main" style="padding-top: 0px !important;">
+			<div class="schedule-item__subtitle">
+				Sponsored by <a target="_blank" href="{{event.sponsor_text}}"> {{event.sponsor}} </a> 
+			</div>
+			<div class="schedule-item__title">{{event.title}}</div>
+		</div>
+	</div>	
+
+{% endif %}

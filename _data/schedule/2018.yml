@@ -465,7 +465,7 @@ allworkshops:
     duration: 120
     room: room_03
     day: workshops
-    workshoptype: noon
+    workshoptype: noon    
 
   - type: workshop
     speaker: konstantinos_votis
@@ -474,7 +474,7 @@ allworkshops:
     duration: 120
     room: room_04
     day: workshops
-    workshoptype: noon
+    workshoptype: noon    
 
   - type: workshop
     speaker: katerina_trajchevska
@@ -483,7 +483,7 @@ allworkshops:
     duration: 120
     room: room_05
     day: workshops
-    workshoptype: noon
+    workshoptype: noon    
 
   - type: workshop
     speaker: joe_sepi
