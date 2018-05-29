@@ -112,7 +112,7 @@ schedule:
 
   - type: meetup
     day: thursday
-    title: 'ReactJS and Wordpress Meetup'
+    title: 'ReactJS and WordPress Meetup'
     datetime: 'Thursday, June 7, 2018, 06:00 PM to 10:00 PM'
     venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
 
@@ -135,8 +135,8 @@ schedule:
     hours: 19
     mins: '15'
     title: How to use the new React context API
-    speaker: Thessaloníki ReactJS Meetup presents Pavlos Koutoglou
-    meetup: Thessaloníki ReactJS Meetup
+    speaker: Thessaloniki ReactJS Meetup presents Pavlos Koutoglou
+    meetup: Thessaloniki ReactJS Meetup
     meetup_link: https://www.meetup.com/Thessaloniki-ReactJS-Meetup/
 
   - type: just_text
@@ -150,8 +150,8 @@ schedule:
     hours: 20
     mins: '15'
     title: 'TBA'
-    speaker: Wordpress Meetup
-    meetup: Wordpress Meetup
+    speaker: WordPress Meetup
+    meetup: WordPress Meetup
     meetup_link: https://www.meetup.com/Wordpress_skg/
 
   - type: drinks
@@ -189,8 +189,8 @@ schedule:
     hours: 19
     mins: '15'
     title: 'Machine Learning for .NET'
-    speaker: Thessaloníki .NET Meetup presents Ziazios Konstantinos
-    meetup: Thessaloníki .NET Meetup
+    speaker: Thessaloniki .NET Meetup presents Ziazios Konstantinos
+    meetup: Thessaloniki .NET Meetup
     meetup_link: https://www.meetup.com/Thessaloniki-NET-Meetup/events/250835160/
 
   - type: just_text
@@ -219,7 +219,7 @@ schedule:
 
   - type: meetup
     day: saturday
-    title: 'WeAreTogether, DEVit editiion'
+    title: 'WeAreTogether, DEVit edition'
     datetime: 'Saturday, June 9, 2018, 06:00 PM to 10:00 PM'
     venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
 
