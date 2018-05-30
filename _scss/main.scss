@@ -54,5 +54,6 @@ $font-size-h1:            floor(($font-size-base * 2.7)) !default; // ~36px
 @import "blocks/destinations";
 @import "blocks/sessions";
 @import "blocks/schedule";
+@import "blocks/index-item";
 
 @import "bootstrap-override";

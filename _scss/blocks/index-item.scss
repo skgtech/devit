@@ -1,0 +1,32 @@
+.index-item {
+  background-color: #f5f8fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.index-item__left {
+  @include make-sm-column(6);
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 35px;
+  }
+
+}
+.index-item__right {
+  @include make-sm-column(6);
+
+  @media (max-width: $screen-sm-min) {
+    margin-top: 35px;
+    text-align: middle;
+  }
+}
+
+.index-item__img {
+  width: 80%;
+
+  @media (max-width: $screen-sm-min) {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

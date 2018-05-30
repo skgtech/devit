@@ -1,0 +1,20 @@
+{% assign title = include.title %}
+{% assign text = include.text %}
+{% assign image_url = include.image_url %}
+{% assign image_alt = include.image_alt %}
+
+<div class="index-item">
+  <div class="container">
+    <div class="index-item__left">
+      <img class="index-item__img" src="{{ image_url }}" alt=" {{ image_alt }}">
+    </div>
+    <div class="index-item__right">
+      <div class="block__heading--dark text-left">
+        {{ title }}
+      </div>
+      <p class="dark">
+        {{ text }}
+      </p>
+    </div>
+  </div>
+</div>
