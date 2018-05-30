@@ -57,6 +57,12 @@ silver:
       url: https://www.trivago.gr/
       override_height: 60px
 
+  -
+    - name: ITI
+      img: /assets/images/sponsors/iti.png
+      url: http://www.iti.gr/iti/index.html
+      override_height: 60px
+
 bronze:
   -
     - name: Workable
