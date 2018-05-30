@@ -24,8 +24,9 @@ if (tabsContent.length) {
 
 var hash = window.location.hash;
 hash && $('ul.schedule__tabs a[href="' + hash + '"]').tab('show');
+hash && $('ul.workshops__tabs a[href="' + hash + '"]').tab('show');
 
-$('.schedule__tabs a').click(function (e) {
+$('.schedule__tabs a, .workshops__tabs a').click(function (e) {
   $(this).tab('show');
   var scrollmem = $('body').scrollTop() || $('html').scrollTop();
   window.location.hash = this.hash;
