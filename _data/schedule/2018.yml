@@ -63,8 +63,7 @@ talks:
     day: speaker_day
 
   - type: talk
-    title: iOS & Swift
-    speaker: ingrid_epure
+    speaker: laurent_bugnion
     hours: 15
     mins: '15'
     duration: 45
@@ -85,7 +84,7 @@ talks:
     day: speaker_day
 
   - type: talk
-    speaker: 'tba'
+    speaker: ingrid_epure
     hours: 17
     mins: '15'
     duration: 45
@@ -464,7 +463,7 @@ allworkshops:
     duration: 120
     room: room_03
     day: workshops
-    workshoptype: noon    
+    workshoptype: noon
 
   - type: workshop
     speaker: konstantinos_votis
@@ -473,7 +472,7 @@ allworkshops:
     duration: 120
     room: room_04
     day: workshops
-    workshoptype: noon    
+    workshoptype: noon
 
   - type: workshop
     speaker: katerina_trajchevska
@@ -482,7 +481,7 @@ allworkshops:
     duration: 120
     room: room_05
     day: workshops
-    workshoptype: noon    
+    workshoptype: noon
 
   - type: workshop
     speaker: joe_sepi

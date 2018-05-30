@@ -1,5 +1,5 @@
 schedule:
-  
+
   - type: meetup
     day: tuesday
     title: 'Node.JS and Python Meetup'
@@ -12,14 +12,14 @@ schedule:
     hours: 18
     mins: '00'
     title: Doors open
-  
+
   - type: talk_devit
     day: tuesday
     hours: 18
     mins: '30'
     title: From Ethereum nodes to Dapp
     speaker: Devit presents Anastasia Theodouli and Kostas Moschou
-    
+
   - type: talk_meetup
     day: tuesday
     hours: 19
@@ -42,7 +42,7 @@ schedule:
     title: 'Developing with Flask: Writing REST APIs and working with Celery queues'
     speaker: PyThess presents John Balanos
     meetup: PyThess
-    meetup_link: https://www.meetup.com/PyThess/events/251026502/ 
+    meetup_link: https://www.meetup.com/PyThess/events/251026502/
 
   - type: drinks
     day: tuesday
@@ -55,7 +55,7 @@ schedule:
 
 
 
-  
+
   - type: meetup
     day: wednesday
     title: 'CocoaHeads and UX Meetup'
@@ -68,14 +68,14 @@ schedule:
     hours: 18
     mins: '00'
     title: Doors open
-  
+
   - type: talk_devit
     day: wednesday
     hours: 18
     mins: '30'
     title: 'Security and Usability: The Eternal Tension'
     speaker: Devit presents David Platt
-    
+
   - type: talk_meetup
     day: wednesday
     hours: 19
@@ -122,14 +122,14 @@ schedule:
     hours: 18
     mins: '00'
     title: Doors open
-  
+
   - type: talk_devit
     day: thursday
     hours: 18
     mins: '30'
     title: TBA
     speaker: Devit
-    
+
   - type: talk_meetup
     day: thursday
     hours: 19
@@ -149,10 +149,10 @@ schedule:
     day: thursday
     hours: 20
     mins: '15'
-    title: 'TBA'
-    speaker: WordPress Meetup
+    title: 'Gutenberg: the new WordPress editor'
+    speaker: Stefanos Togoulidis
     meetup: WordPress Meetup
-    meetup_link: https://www.meetup.com/Wordpress_skg/
+    meetup_link: https://www.meetup.com/Wordpress_skg/events/251199474/
 
   - type: drinks
     day: thursday
@@ -176,14 +176,14 @@ schedule:
     hours: 18
     mins: '00'
     title: Doors open
-  
+
   - type: talk_devit
     day: friday
     hours: 18
     mins: '30'
     title: 'Stop the ducks and f**ks - using AI to filter mobile app content'
     speaker: Devit presents Jim Bennett
-    
+
   - type: talk_meetup
     day: friday
     hours: 19
@@ -229,20 +229,20 @@ schedule:
     hours: 18
     mins: '00'
     title: Doors open
-  
+
   - type: talk_devit
     day: saturday
     hours: 18
     mins: '30'
     title: 'Open source projects & communities'
-    speaker: Joe Sepi 
-    
+    speaker: Joe Sepi
+
   - type: talk_devit
     day: saturday
     hours: 19
     mins: '15'
     title: 'Tech status @ SKG'
-    speaker: Stavros Korokithakis 
+    speaker: Stavros Korokithakis
 
 
   - type: drinks

@@ -180,6 +180,20 @@
     scars after each incident?</p>"
   type: Talk
 
+- title: "Azure, Windows and Xamarin: Using the cloud to power your cross-platform applications"
+  speaker: laurent_bugnion
+  description: "<p>Most mobile applications are connecting to a server at some point, either to
+    get data that needs to be shown to the user, or to save data collected by the mobile
+    device. This is where Microsoft Azure has the potential of making your life as a developer
+    much easier. The cloud came a long way, and you can now build cloud infrastructure very
+    easily and for a reasonable cost. New computing models like serverless functions or
+    cloud-based devops are changing the game. What was earlier reserved to large firms
+    with an army of IT pro consultants is now available for everyone with a web browser.</p>
+    <p>In this session, Microsoft's Cloud Developer Advocate Laurent Bugnion will guide you
+    through this journey and show you how Azure Functions, Visual Studio App Center,
+    Cognitive Services can be used in your cross-platform applications.</p>"
+  type: Talk
+
 - title: "Reliving the ‘80s with Borland Turbo-C: A test case for Atomic Design"
   speaker: amit_zur
   description: "<p>Anyone who got to write C in the 90's on MS-DOS knows this blue
