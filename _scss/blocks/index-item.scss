@@ -4,6 +4,10 @@
   padding-bottom: 50px;
 }
 
+.index-item__container {
+  @extend .container;
+}
+
 .index-item__left {
   @include make-sm-column(6);
 

@@ -2,9 +2,11 @@
 {% assign text = include.text %}
 {% assign image_url = include.image_url %}
 {% assign image_alt = include.image_alt %}
+{% assign link_url = include.link_url %}
+{% assign link_text = include.link_text %}
 
 <div class="index-item">
-  <div class="container">
+  <div class="index-item__container">
     <div class="index-item__left">
       <img class="index-item__img" src="{{ image_url }}" alt=" {{ image_alt }}">
     </div>
@@ -15,6 +17,7 @@
       <p class="dark">
         {{ text }}
       </p>
+      <a rel="noopener" href="{{ link_url }}" class="block__cta">{{ link_text }}</a>
     </div>
   </div>
 </div>
