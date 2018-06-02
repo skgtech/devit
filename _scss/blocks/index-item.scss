@@ -1,8 +1,12 @@
 .index-item {
-  background-color: white;
+  background-color: #f5f8fa;
   padding-top: 50px;
   padding-bottom: 50px;
   color: #57585A;
+}
+
+.index-item:nth-child(2n+1) {
+  background-color: white;
 }
 
 .index-item__container {
