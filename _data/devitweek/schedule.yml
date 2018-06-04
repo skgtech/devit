@@ -24,10 +24,10 @@ schedule:
     day: tuesday
     hours: 19
     mins: '15'
-    title: TBA
-    speaker: Node.JS
+    title: 'The way to Go'
+    speaker: Dimitris Dranidis
     meetup: Node.JS
-    meetup_link: https://www.meetup.com/Thessaloniki-Node-js-Meetup/
+    meetup_link: https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/251384706/
 
   - type: just_text
     day: tuesday
