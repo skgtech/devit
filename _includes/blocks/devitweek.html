@@ -1,17 +1,19 @@
-
-{% capture text %}
-  Each year we grow bigger. This year we introduce the DEVit week.
-  Our local communities have grown strong and are ready to celebrate the biggest technological event of the year with a full week of festivities.
-  Each day there will be multiple meetups, gatherings and events, accompanied by our international speakers.
-  As the conference grows so do our budgets, this allows us to host the international speakers for longer periods of time maximizing their impact
-  on the local community and creating new, international bonds that open up new opportunities and knowledge sharing on all the levels.
-{% endcapture %}
-
-
-{% include components/index-item.html
-    title="DEVit Week" text=text
-    image_url="/assets/images/new/devitweek.svg"
-    image_alt="DEVit week logo with two pints of beer and two pizza slices"
-    link_url="/devit-week"
-    link_text="DEVit week"
-%}
+<div class="index-item">
+  <div class="index-item__container">
+    <div class="index-item__left">
+      <img class="index-item__img" src="/assets/images/new/devitweek.svg" alt="DEVit week logo with two pints of beer and two pizza slices">
+    </div>
+    <div class="index-item__right">
+      <div class="block__heading--dark text-left">
+        DEVit Week
+      </div>
+      <p class="dark">
+        Each day there will be multiple meetups, gatherings and events, accompanied by our international speakers.
+      </p>
+      <a style="color: #57585A;" href="/devit-week" class="block__more-cta">
+        See the schedule
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
