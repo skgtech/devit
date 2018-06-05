@@ -93,10 +93,10 @@ speakers:
       - Web
       - Node.js
       - JavaScript
-    first_name: Joe Sepi
-    last_name: Crane-Messina
+    first_name: Joe
+    last_name: Sepi
     image_filename: Joe_Sepi.jpg
-    tagline: ⚡️ NYC City Leader Developer/Advocate at @IBM ⚡️ @nodejs Foundation Community Committee member ⚡️
+    tagline: Director Developer Advocacy @ IBM
     social:
       github: joesepi
       twitter: joe_sepi
