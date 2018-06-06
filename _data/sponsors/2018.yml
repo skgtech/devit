@@ -80,6 +80,12 @@ bronze:
       url: https://adevait.com/
       override_height: 50px
 
+  -
+    - name: SlashData
+      img: /assets/images/sponsors/slashdata.png
+      url: https://www.slashdata.co/
+      override_height: 50px
+
 media:
   -
     - name: Insomnia
