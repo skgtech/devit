@@ -128,7 +128,7 @@ schedule:
     hours: 18
     mins: '30'
     title: TBA
-    speaker: Devit
+    speaker: DEVit presents Lauren Robinson
 
   - type: talk_meetup
     day: thursday
