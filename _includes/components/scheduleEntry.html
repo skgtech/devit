@@ -1,6 +1,7 @@
 {% assign speaker = include.speaker %}
 {% assign entry = include.entry %}
 {% assign talk = include.talk %}
+{% assign subtitle = include.subtitle %}
 
 {% if talk.type != 'Workshop' %}
   <div class="schedule-item">
@@ -23,6 +24,11 @@
           </a>
           {% include components/tags.html tags=talk.tags %}
         {% endif %}
+      {% elsif subtitle %}
+        <div class="schedule-item__subtitle">{{subtitle}}</div>
+        <div class="schedule-item__title">
+          {{entry.title}}
+        </div>
       {% else %}
         <div class="schedule-item__title" style="padding-top: 10px;">{{entry.title}}</div>
         {% if entry.title == 'After Party' %}
@@ -37,7 +43,6 @@
 {% else %}
 
   <div class="schedule-item">
-
     {% include components/workshop/spacetime.html entry=entry %}
     {% include components/workshop/image.html entry=entry talk=talk speaker=speaker %}
     {% include components/workshop/buy.html entry=entry talk=talk speaker=speaker %}

@@ -213,7 +213,7 @@ custom_js:
                   {% endfor %}
                 {% endif %}
               {% elsif entry.type != 'talk' and entry.day == 'speaker_day' %}
-                {% include components/scheduleEntry.html entry=entry %}
+                {% include components/scheduleEntry.html entry=entry subtitle=entry.subtitle %}
               {% endif %}
             {% endfor %}
           </div>
