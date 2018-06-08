@@ -20,7 +20,9 @@
   speaker: dave_platt
   type: Talk
   talkId: id_01
-
+  tags:
+    - Software
+    
 - title: "Xamarin and Azure - Build the mobile apps of tomorrow"
   description: "<p>It’s hard to be a developer and not have heard of Xamarin. It’s now part of Microsoft’s
     ‘Any developer, any platform’ strategy, and allows you to write C# and F# code that runs on iOS and
@@ -42,7 +44,11 @@
   speaker: laurent_bugnion
   type: Workshop
   buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=24265&ttQuantity=1&r
-
+  tags:
+    - Xamarin
+    - Azure
+    - Mobile
+    
 - title: "Xamarin and Azure - Build the mobile apps of tomorrow"
   description: "<p>It’s hard to be a developer and not have heard of Xamarin. It’s now part of Microsoft’s
     ‘Any developer, any platform’ strategy, and allows you to write C# and F# code that runs on iOS and
@@ -64,7 +70,11 @@
   ticket: single
   type: Workshop
   buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=24265&ttQuantity=1&r
-
+  tags:
+    - Xamarin
+    - Azure
+    - Mobile
+    
 - title: "Modern easy IoT with JS, Docker & Resin.io"
   description: "<p>Are you curious about how IoT development works? Or are you already an experienced hardware
     hacker, looking to take your skills to the next level? In this workshop you'll learn how to build IoT devices
@@ -179,7 +189,9 @@
     operational risks? Are there more skills to be gained besides cool war stories and
     scars after each incident?</p>"
   type: Talk
-
+  tags:
+    - Culture
+    
 - title: "Azure, Windows and Xamarin: Using the cloud to power your cross-platform applications"
   speaker: laurent_bugnion
   description: "<p>Most mobile applications are connecting to a server at some point, either to
@@ -193,7 +205,10 @@
     through this journey and show you how Azure Functions, Visual Studio App Center,
     Cognitive Services can be used in your cross-platform applications.</p>"
   type: Talk
-
+  tags:
+    - Xamarin
+    - Azure
+    
 - title: "Reliving the ‘80s with Borland Turbo-C: A test case for Atomic Design"
   speaker: amit_zur
   description: "<p>Anyone who got to write C in the 90's on MS-DOS knows this blue
@@ -370,16 +385,19 @@
   speaker: julien_simon
   type: Workshop
   description: "<p>Skill Level: intermediate</p><p>Prerequisites: familiarity with Linux CLI,
-  familiarity with Python/JSON/YAML, AWS account (it takes 24 hours to validate new accounts,
-  so please do this before the workshop).</p><p>Description: the goal of this coding workshop
-  is to teach you the basics of Machine Learning (ML) and Deep Learning (DL) with the Python
-  language and popular open source libraries.</p><p>The main topics we will cover:</p>
-  <ul><li>classic ML algorithms: linear regression, classification, clustering, dimensionality reduction.
-  </li><li>DL concepts: neural networks, activation functions, back propagation, optimisation.</li><li>
-  Open source libraries for ML/DL: sckit-learn, Apache MXNet, TensorFlow, Keras, Spark MLlib.</li><li>
-  Running ML/DL on AWS with Amazon SageMaker: each participant will receive $100 in AWS credits :)</li></ul>"
+    familiarity with Python/JSON/YAML, AWS account (it takes 24 hours to validate new accounts,
+    so please do this before the workshop).</p><p>Description: the goal of this coding workshop
+    is to teach you the basics of Machine Learning (ML) and Deep Learning (DL) with the Python
+    language and popular open source libraries.</p><p>The main topics we will cover:</p>
+    <ul><li>classic ML algorithms: linear regression, classification, clustering, dimensionality reduction.
+    </li><li>DL concepts: neural networks, activation functions, back propagation, optimisation.</li><li>
+    Open source libraries for ML/DL: sckit-learn, Apache MXNet, TensorFlow, Keras, Spark MLlib.</li><li>
+    Running ML/DL on AWS with Amazon SageMaker: each participant will receive $100 in AWS credits :)</li></ul>"
   buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=26200&ttQuantity=1&r
-
+  tags:
+    - ML
+    - Python
+    - AWS
 
 - title: "Zero to Swagger in Moments"
   ticket: single
@@ -394,3 +412,7 @@
   buyLink: https://www.eventora.com/en/Events/devit_conference_2018/Order?ttId=25406&ttQuantity=1&r
   speaker: joe_sepi
   type: Workshop
+  tags:
+    - Swagger
+    - Node.js
+    - API
