@@ -312,7 +312,7 @@ workshops:
 
   - type: 'fa-utensils'
     title: Lunch
-    hours: 13
+    hours: 12
     mins: '30'
     duration: 60
     room: room_04
