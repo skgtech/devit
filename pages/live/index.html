@@ -1,0 +1,117 @@
+---
+layout: live
+title: LIVE - DEVit Conference
+metaTitle: DEVit the 360° Web Development Conference
+metaDescription: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
+permalink: /live
+custom_js:
+- live.bundle.js
+---
+
+{% assign speakers=site.data.speakers.2018.speakers %}
+{% assign allDayWorkshops=site.data.workshops.2018.allDay %}
+{% assign openWorkshops=site.data.workshops.2018.open %}
+{% assign talksDaySchedule=site.data.schedule.2018.talks %}
+
+<schedule class="schedule" data-page="true">
+  <header class="header-bar">
+    <div class="center">
+      <h1 class="title">Sessions</h1>
+    </div>
+  </header>
+  <div class="content">
+    <ul class="list schedule">
+        {% for talk in talksDaySchedule %}
+          {% if talk.speaker %}
+            {% assign speaker = site.data.speakers.2018.speakers | where:"url", talk.speaker | first %}
+            {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+          {% endif %}
+          <li class="schedule-item">
+            {% if talk.type == "talk" %}
+            {% assign talkDetails = site.data.talks.2018 | where:"speaker", talk.speaker | first %}
+            <a href="#!{{ talkDetails.title | slugify }}">
+              <div class="pull-left">
+                <span>{{ talk.hours }}:{{ talk.mins }}</span>
+                {% if talk.speaker %}
+                  <img
+                    src="/assets/images/speakers/2018/{{speaker.image_filename}}"
+                    class="schedule-item__img">
+                {% endif %}
+              </div>
+              <i class="icon icon-arrow-forward pull-right"></i>
+              <div class="item-content">
+                <div class="schedule-item__title">{{ talkDetails.title }}</div>
+                <div class="schedule-item__duration">{{ talk.duration }}&nbsp;min</div>
+              </div>
+            </a>
+            {% else %}
+            <div class="pull-left">
+              <span>{{ talk.hours }}:{{ talk.mins }}</span>
+            </div>
+            <div class="item-content">
+              <div class="schedule-item__title">{{ talk.title }}</div>
+              <div class="schedule-item__duration">{{ talk.duration }}&nbsp;min</div>
+            </div>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+</div>
+</schedule>
+
+
+{% for speaker in speakers %}
+  <{{ speaker.url }} class="speaker-page" data-page="true">
+    {% assign speaker = site.data.speakers.2018.speakers | where:"url", talk.speaker | first %}
+    {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+    <div class="content">
+      <div class="content-header">
+        <a href="#!schedule" class="btn back-btn icon icon-arrow-back"></a>
+        <div class="center">
+          <img src="/assets/images/speakers/2018/{{ speaker.image_filename }}" alt="{{ speakerName }}" class="speaker__img">
+          <h1 class="title">{{ speakerName }}</h1>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-heading">About {{ speaker.first_name }}</div>
+        <p>{{ speaker.bio }}</p>
+      </div>
+    </div>
+  </{{ speaker.url }}>
+{% endfor %}
+
+
+{% for talk in talksDaySchedule %}
+  {% if talk.type == "talk" %}
+    {% assign talkDetails = site.data.talks.2018 | where:"speaker", talk.speaker | first %}
+    <{{ talkDetails.title | slugify }} class="talk-page" data-page="true">
+      <div class="content">
+        <div class="content-header">
+          <a href="#!schedule" class="btn back-btn icon icon-arrow-back"></a>
+          <div class="center">
+            <div class="type">Talk</div>
+            <h1 class="title">{{ talkDetails.title }}</h1>
+            <div class="duration">{{ talk.duration }} &nbsp;min</div>
+          </div>
+        </div>
+        {% if talkDetails.description %}
+          <div class="section">
+            <div class="section-heading">Description</div>
+            <p>{{ talkDetails.description }}</p>
+          </div>
+        {% endif %}
+        <div class="section">
+          {% if talk.speaker %}
+            {% assign speaker = site.data.speakers.2018.speakers | where:"url", talk.speaker | first %}
+            {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
+            <a href="#!{{ speaker.url }}">
+              <img src="/assets/images/speakers/2018/{{ speaker.image_filename }}" alt="{{ speakerName }}" class="pull-left talk-page__speaker-img">
+              <p class="pull-left">{{ speakerName }}</p>
+              <i class="icon icon-arrow-forward pull-right"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </{{ talkDetails.title  | slugify }}>
+  {% endif %}
+{% endfor %}
