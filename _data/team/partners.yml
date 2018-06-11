@@ -32,3 +32,8 @@
     url: http://www.hcn.gr/
     img: /assets/images/partners/hcn-logo.svg
     override_height: 50px
+
+  - name: Stone Soup
+    url: http://www.stonesoup.io/
+    img: /2017/assets/images/sponsors/stonesoup.png
+    override_height: 50px
