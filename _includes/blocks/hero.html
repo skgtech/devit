@@ -5,6 +5,10 @@
     <source src="/assets/video.mp4" type="video/mp4">
   </video>
   <img class="hero__logo" src="/assets/images/logo/white/logo.svg" alt="DEVit logo">
-  <h1 class="hero__headline">{{site.data.config.date}}</h1>
-  <h2 class="hero__location">Thessaloniki, Greece</h2>
+  {% if site.data.config.currentMode == 'nextday' %}
+    <h1 class="hero__headline hero__headline--light">{{site.data.config.date}}</h1>
+  {% else %}
+    <h1 class="hero__headline">{{site.data.config.date}}</h1>
+    <h2 class="hero__location">Thessaloniki, Greece</h2>
+  {% endif %}
 </div>

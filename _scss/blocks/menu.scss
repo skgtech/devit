@@ -116,6 +116,12 @@
   .navbar-date__date {
     font-size: 1em;
     font-weight: 900;
+
+    &--light {
+      font-weight: 300;
+      padding-top: 10px;
+      display: block;
+    }
   }
   .navbar-date__place {
     font-size: 0.77em;

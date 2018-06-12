@@ -31,6 +31,10 @@
   line-height: 77px;
   margin-bottom: 8px;
   margin-top: 40px;
+
+  &--light {
+    font-weight: 300;
+  }
 }
 
 .hero__location {
