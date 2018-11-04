@@ -1,1 +1,23 @@
 -
+  - name: Microsoft
+    img: /assets/images/sponsors/svg/microsoft.svg
+    url: https://www.microsoft.com/el-gr
+
+  - name: Intrasoft
+    img: /assets/images/sponsors/svg/intrasoft.svg
+    url: https://www.intrasoft-intl.com/
+
+  - name: Resin.io
+    img: /assets/images/sponsors/svg/resinio.svg
+    url: https://resin.io/
+
+-
+  - name: IBM
+    img: /assets/images/sponsors/svg/ibm.svg
+    url: https://www.ibm.com/gr-el/
+    override_height: 50px
+
+  - name: Trivago
+    img: /assets/images/sponsors/svg/trivago.svg
+    url: https://www.trivago.gr/
+    override_height: 60px
