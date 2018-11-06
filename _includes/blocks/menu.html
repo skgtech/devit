@@ -21,6 +21,14 @@
     </div>
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="main-menu">
+        {% if site.data.config.currentMode == 'nextblind' %}
+          <li>
+            <a class="main-menu__link" target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
+          </li>
+          <li>
+            <a class="main-menu__link" href="/press">Press</a>
+          </li>
+        {% endif %}
         <li>
           <a class="main-menu__link" href="/about">About</a>
         </li>

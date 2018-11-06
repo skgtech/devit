@@ -23,41 +23,43 @@
           </ul>
         </div>
       </div>
-      <div class="footer-row__column">
-        <div class="footer-menu">
-          <div class="footer-menu__header">
-            DEVit {{site.data.config.currentYear}}
+      {% if site.data.config.currentMode != 'nextblind' %}
+        <div class="footer-row__column">
+          <div class="footer-menu">
+            <div class="footer-menu__header">
+              DEVit {{site.data.config.currentYear}}
+            </div>
+            <ul class="footer-menu__list">
+              {% if site.data.config.tickets.enabled %}
+              <li>
+                <a target="_blank" rel="noopener" href="{{ site.data.config.tickets.url }}">Buy tickets</a>
+              </li>
+              {% endif %}
+              <li>
+                <a href="/schedule">Schedule</a>
+              </li>
+              <li>
+                <a href="/devit-week">DEVit Week</a>
+              </li>
+              <li>
+                <a href="/#speakers">Speakers</a>
+              </li>
+              <li>
+                <a href="/#sponsors">Sponsors</a>
+              </li>
+              <li>
+                <a href="/#venue">Venue</a>
+              </li>
+              <li>
+                <a href="/talks">Talks</a>
+              </li>
+              <li>
+                <a href="/workshops">Workshops</a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-menu__list">
-            {% if site.data.config.tickets.enabled %}
-            <li>
-              <a target="_blank" rel="noopener" href="{{ site.data.config.tickets.url }}">Buy tickets</a>
-            </li>
-            {% endif %}
-            <li>
-              <a href="/schedule">Schedule</a>
-            </li>
-            <li>
-              <a href="/devit-week">DEVit Week</a>
-            </li>
-            <li>
-              <a href="/#speakers">Speakers</a>
-            </li>
-            <li>
-              <a href="/#sponsors">Sponsors</a>
-            </li>
-            <li>
-              <a href="/#venue">Venue</a>
-            </li>
-            <li>
-              <a href="/talks">Talks</a>
-            </li>
-            <li>
-              <a href="/workshops">Workshops</a>
-            </li>
-          </ul>
         </div>
-      </div>
+      {% endif %}
       <div class="footer-row__column">
         <div class="footer-menu">
           <div class="footer-menu__header">
