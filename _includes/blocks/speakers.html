@@ -6,6 +6,7 @@
   {% endfor %}
 {% endfor %}
 
+{% if speakers.size > 0 %}
 <div id="speakers" class="speakers-container">
   <div class="container text-center">
     <div class="block__heading--dark">
@@ -28,6 +29,7 @@
     {% endif %}
   </div>
 </div>
+{% endif %}
 
 {% if site.data.config.isCFPOpen == true %}
 <div class="speakers__cfp">
