@@ -1,0 +1,119 @@
+.ticketing {
+  width: 100%;
+  margin: 7.11em auto;
+  max-width: 1140px;
+
+  // pretix style overrides
+
+  .pretix-widget {
+    border: none;
+  }
+
+  .pretix-widget a,
+  .pretix-widget-alert-box a {
+    color: #00629e;
+  }
+  .pretix-widget a:hover,
+  .pretix-widget a:focus,
+  .pretix-widget-alert-box a:hover,
+  .pretix-widget-alert-box a:focus {
+    color: #003E73;
+  }
+
+  .pretix-widget button,
+  .pretix-widget input[type="button"],
+  .pretix-widget-alert-box button,
+  .pretix-widget-alert-box input[type="button"] {
+    background-color: #00629e;
+    border-color: #00629e;
+  }
+
+  .pretix-widget button:focus,
+  .pretix-widget button.focus,
+  .pretix-widget input[type="button"]:focus
+  ,.pretix-widget input[type="button"].focus,
+  .pretix-widget-alert-box button:focus,
+  .pretix-widget-alert-box button.focus,
+  .pretix-widget-alert-box input[type="button"]:focus,
+  .pretix-widget-alert-box input[type="button"].focus {
+    background-color: #003E73;
+    border-color: #003E73;
+  }
+
+  .pretix-widget button:hover,
+  .pretix-widget input[type="button"]:hover,
+  .pretix-widget-alert-box button:hover,
+  .pretix-widget-alert-box input[type="button"]:hover {
+    background-color: #003E73;
+    border-color: #003E73;
+  }
+  .pretix-widget button:active,
+  .pretix-widget button.active,
+  .open>.pretix-widget button.dropdown-toggle
+  ,.pretix-widget input[type="button"]:active,
+  .pretix-widget input[type="button"].active
+  ,.open>.pretix-widget input[type="button"].dropdown-toggle,
+  .pretix-widget-alert-box button:active
+  ,.pretix-widget-alert-box button.active,
+  .open>.pretix-widget-alert-box button.dropdown-toggle
+  ,.pretix-widget-alert-box input[type="button"]:active,
+  .pretix-widget-alert-box input[type="button"].active,.open>.pretix-widget-alert-box input[type="button"].dropdown-toggle {
+    background-color: #003E73;
+    border-color: #003E73;
+  }
+
+  .pretix-widget button.disabled:hover,
+  .pretix-widget button.disabled:focus,
+  .pretix-widget button.disabled.focus,
+  .pretix-widget button[disabled]:hover,
+  .pretix-widget button[disabled]:focus,
+  .pretix-widget button[disabled].focus,
+  fieldset[disabled] .pretix-widget button:hover,
+  fieldset[disabled] .pretix-widget button:focus,
+  fieldset[disabled] .pretix-widget button.focus,
+  .pretix-widget input[type="button"].disabled:hover,
+  .pretix-widget input[type="button"].disabled:focus,
+  .pretix-widget input[type="button"].disabled.focus,
+  .pretix-widget input[type="button"][disabled]:hover,
+  .pretix-widget input[type="button"][disabled]:focus,
+  .pretix-widget input[type="button"][disabled].focus,
+  fieldset[disabled] .pretix-widget input[type="button"]:hover,
+  fieldset[disabled] .pretix-widget input[type="button"]:focus,
+  fieldset[disabled] .pretix-widget input[type="button"].focus,
+  .pretix-widget-alert-box button.disabled:hover,
+  .pretix-widget-alert-box button.disabled:focus,
+  .pretix-widget-alert-box button.disabled.focus,
+  .pretix-widget-alert-box button[disabled]:hover,
+  .pretix-widget-alert-box button[disabled]:focus,
+  .pretix-widget-alert-box button[disabled].focus,
+  fieldset[disabled] .pretix-widget-alert-box button:hover,
+  fieldset[disabled] .pretix-widget-alert-box button:focus,
+  fieldset[disabled] .pretix-widget-alert-box button.focus,
+  .pretix-widget-alert-box input[type="button"].disabled:hover,
+  .pretix-widget-alert-box input[type="button"].disabled:focus,
+  .pretix-widget-alert-box input[type="button"].disabled.focus,
+  .pretix-widget-alert-box input[type="button"][disabled]:hover,
+  .pretix-widget-alert-box input[type="button"][disabled]:focus,
+  .pretix-widget-alert-box input[type="button"][disabled].focus,
+  fieldset[disabled] .pretix-widget-alert-box input[type="button"]:hover,
+  fieldset[disabled] .pretix-widget-alert-box input[type="button"]:focus,
+  fieldset[disabled] .pretix-widget-alert-box input[type="button"].focus {
+    background-color: #003E73;
+    border-color: #7f3da1;
+  }
+
+  .pretix-widget button .badge,
+  .pretix-widget input[type="button"] .badge,
+  .pretix-widget-alert-box button .badge,
+  .pretix-widget-alert-box input[type="button"] .badge {
+    color: #003E73;
+  }
+
+  .pretix-widget-frame-holder .pretix-widget-frame-close {
+    background: #00629e;
+  }
+
+  .pretix-widget-primary-color {
+    fill: #00629e;
+  }
+}
