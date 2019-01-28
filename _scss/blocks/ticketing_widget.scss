@@ -124,4 +124,18 @@
   .pretix-widget .pretix-widget-category {
     border-bottom: 1px dashed gray;
   }
+
+  .pretix-widget h3,
+  .pretix-widget-alert-box h3 {
+    font-size: 32px;
+    padding: 15px;
+  }
+
+  .pretix-widget-category-items {
+    margin: 24px 0;
+  }
+
+  .pretix-widget .pretix-widget-action {
+    margin-top: 24px;
+  }
 }
