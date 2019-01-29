@@ -7,7 +7,7 @@
     "deploy:staging": "gulp build --config _config-sta.yml && gh-pages -d _site -b sta-gh-pages",
     "develop": "gulp",
     "build": "gulp build",
-    "lint": "htmlproofer ./_site --file-ignore \"/2015/,/2016/,/2017/,/legacy/,/working/\" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999"
+    "lint": "htmlproofer ./_site --file-ignore \"/2015/,/2016/,/2017/,/2018/,/legacy/,/working/\" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999"
   },
   "devDependencies": {
     "bootstrap-sass": "~3.3.7",

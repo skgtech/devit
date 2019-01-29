@@ -5,17 +5,17 @@
 ##
 
 defaults:
-  # title: JUN 10-11, 2018, Thessaloniki
-  title: See you all next year!
+  title: JUN 09-10, 2019, Thessaloniki
+  # title: See you all next year!
   description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
-  image: /assets/images/devit-og-general.jpg?1524042961
+  image: /assets/images/devit-og-general.jpg?1542468627
 
-# date: JUN 10-11, 2018
-date: See you all next year!
-currentYear: "2018"
+date: JUN 09-10, 2019
+# date: See you all next year!
+currentYear: "2019"
 
-startDate: "2018-06-10"
-endDate: "2018-06-11"
+startDate: "2019-06-09"
+endDate: "2019-06-10"
 
 titlePostfix: " - DEVit Conference"
 
@@ -24,7 +24,7 @@ venue: blah blah
 
 # Current mode. Site will be modified based on this
 # values: "dday|nextday|nextblind|nextfull"
-currentMode: "nextday"
+currentMode: "nextblind"
 
 isCFPOpen: false
 moreSpeakersToBeAnnounced: false
@@ -34,7 +34,7 @@ sponsors:
   link_to_sponsorship: ""
 
 tickets:
-  url: https://www.eventora.com/en/Events/devit_conference_2018
+  url: https://www.eventora.com/en/Events/devit_conference_2019
   enabled: false
   early: false
   blind: false

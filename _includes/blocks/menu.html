@@ -21,18 +21,32 @@
     </div>
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="main-menu">
+        {% if site.data.config.currentMode == 'nextblind' %}
+          <li>
+            <a class="main-menu__link" target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
+          </li>
+          <li>
+            <a class="main-menu__link" href="/press">Press</a>
+          </li>
+        {% endif %}
         <li>
           <a class="main-menu__link" href="/about">About</a>
         </li>
+        {% if site.data.speakers.2019 > 0 %}
         <li>
           <a class="main-menu__link" href="/#speakers">Speakers</a>
         </li>
+        {% endif %}
+        {% if site.data.schedule.2019 > 0 %}
         <li>
           <a class="main-menu__link" href="/schedule">Schedule</a>
         </li>
+        {% endif %}
+        {% if site.data.sponsors.2019 > 0 %}
         <li>
           <a class="main-menu__link" href="/#sponsors">Sponsors</a>
         </li>
+        {% endif %}
         {% if site.data.config.tickets.enabled %}
           <li>
             <a target="_blank" rel="noopener" class="main-menu__link--cta cta" href="{{ site.data.config.tickets.url }}">Buy tickets</a>

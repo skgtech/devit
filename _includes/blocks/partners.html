@@ -1,3 +1,4 @@
+{% if site.data.team.partners.size > 0 %}
 <div class="partners {% if include.center == true %}text-center{% endif %}">
   <div class="container">
     <div class="block__heading--dark">
@@ -11,7 +12,9 @@
     </div>
   </div>
 </div>
+{% endif %}
 
+{% if site.data.team.weSupport.size > 0 %}
 <div class="supporters {% if include.center == true %}text-center{% endif %}">
   <div class="container">
     <div class="block__heading--dark">
@@ -22,3 +25,4 @@
     </div>
   </div>
 </div>
+{% endif %}

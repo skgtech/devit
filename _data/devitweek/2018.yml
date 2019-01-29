@@ -1,0 +1,254 @@
+schedule:
+
+  - type: meetup
+    day: tuesday
+    title: 'Node.JS and Python Meetup'
+    datetime: 'Tuesday, June 5, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+
+  - type: just_text
+    day: tuesday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_devit
+    day: tuesday
+    hours: 18
+    mins: '30'
+    title: From Ethereum nodes to Dapp
+    speaker: Devit presents Anastasia Theodouli and Kostas Moschou
+
+  - type: talk_meetup
+    day: tuesday
+    hours: 19
+    mins: '15'
+    title: 'The way to Go'
+    speaker: Dimitris Dranidis
+    meetup: Node.JS
+    meetup_link: https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/251384706/
+
+  - type: just_text
+    day: tuesday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: tuesday
+    hours: 20
+    mins: '15'
+    title: 'Developing with Flask: Writing REST APIs and working with Celery queues'
+    speaker: PyThess presents John Balanos
+    meetup: PyThess
+    meetup_link: https://www.meetup.com/PyThess/events/251026502/
+
+  - type: drinks
+    day: tuesday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+    sponsor_text: https://fieldscale.com
+    sponsor: Fieldscale
+
+
+
+
+
+  - type: meetup
+    day: wednesday
+    title: 'CocoaHeads and UX Meetup'
+    datetime: 'Wednesday, June 6, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+
+  - type: just_text
+    day: wednesday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_devit
+    day: wednesday
+    hours: 18
+    mins: '30'
+    title: 'Security and Usability: The Eternal Tension'
+    speaker: Devit presents David Platt
+
+  - type: talk_meetup
+    day: wednesday
+    hours: 19
+    mins: '15'
+    title: Designing Under Pressure
+    speaker: Thessaloniki UX Meetup presents Thanos Papavasileiou
+    meetup: Thessaloniki UX Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-UX-Meetup/
+
+  - type: just_text
+    day: wednesday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: wednesday
+    hours: 20
+    mins: '15'
+    title: 'A language of ideas: Swift'
+    speaker: CocoaHeads Thessaloniki presents Dimitris Tsiflitzis & Thanos Theodoridis
+    meetup: Cocoaheads
+    meetup_link: https://www.meetup.com/CocoaHeadsSKG/
+
+  - type: drinks
+    day: wednesday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+    sponsor_text: https://fieldscale.com
+    sponsor: Fieldscale
+
+
+
+  - type: meetup
+    day: thursday
+    title: 'ReactJS and WordPress Meetup'
+    datetime: 'Thursday, June 7, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+
+  - type: just_text
+    day: thursday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_devit
+    day: thursday
+    hours: 18
+    mins: '30'
+    title: TBA
+    speaker: DEVit presents Lauren Robinson
+
+  - type: talk_meetup
+    day: thursday
+    hours: 19
+    mins: '15'
+    title: How to use the new React context API
+    speaker: Thessaloniki ReactJS Meetup presents Pavlos Koutoglou
+    meetup: Thessaloniki ReactJS Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-ReactJS-Meetup/
+
+  - type: just_text
+    day: thursday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: thursday
+    hours: 20
+    mins: '15'
+    title: 'Gutenberg: the new WordPress editor'
+    speaker: Stefanos Togoulidis
+    meetup: WordPress Meetup
+    meetup_link: https://www.meetup.com/Wordpress_skg/events/251199474/
+
+  - type: drinks
+    day: thursday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+    sponsor_text: https://fieldscale.com
+    sponsor: Fieldscale
+
+
+
+  - type: meetup
+    day: friday
+    title: '.NET and Larissa Developers Meetup'
+    datetime: 'Friday, June 8, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+
+  - type: just_text
+    day: friday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_devit
+    day: friday
+    hours: 18
+    mins: '30'
+    title: 'Stop the ducks and f**ks - using AI to filter mobile app content'
+    speaker: Devit presents Jim Bennett
+
+  - type: talk_meetup
+    day: friday
+    hours: 19
+    mins: '15'
+    title: 'Machine Learning for .NET'
+    speaker: Thessaloniki .NET Meetup presents Ziazios Konstantinos
+    meetup: Thessaloniki .NET Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-NET-Meetup/events/250835160/
+
+  - type: just_text
+    day: friday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: friday
+    hours: 20
+    mins: '15'
+    title: 'Introduction to React Native'
+    speaker: Larissa Developers Meetup presents Dimitris Tsolis
+    meetup: Larissa Developers Meetup
+    meetup_link: https://www.meetup.com/Larissa-Developers-Meetup/
+
+  - type: drinks
+    day: friday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+    sponsor_text: https://fieldscale.com
+    sponsor: Fieldscale
+
+
+  - type: meetup
+    day: saturday
+    title: 'WeAreTogether, DEVit edition'
+    datetime: 'Saturday, June 9, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+
+  - type: just_text
+    day: saturday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_devit
+    day: saturday
+    hours: 18
+    mins: '30'
+    title: 'Open source projects & communities'
+    speaker: Joe Sepi
+
+  - type: talk_devit
+    day: saturday
+    hours: 19
+    mins: '15'
+    title: 'Tech status @ SKG'
+    speaker: Stavros Korokithakis
+
+
+  - type: drinks
+    day: saturday
+    hours: 20
+    mins: '00'
+    title: DEVit Warmup party
+    sponsor_text: https://fieldscale.com
+    sponsor: Fieldscale
