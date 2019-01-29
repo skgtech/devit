@@ -44,6 +44,7 @@
   "dependencies": {
     "browser-sync": "^2.26.3",
     "gh-pages": "^1.1.0",
+    "siema": "^1.5.1",
     "vanilla-lazyload": "^10.5.2"
   }
 }

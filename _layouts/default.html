@@ -43,6 +43,17 @@
   <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=GvJLOgvboj">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- slicker Slider CDN -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>  -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
+
+  
   {% if page.schemaFile %}
     {% include schemas/{{ page.schemaFile }}.html %}
   {% endif %}
@@ -95,6 +106,9 @@
     <script src='/assets/js/{{ js_file }}'></script>
     {% endfor %}
   {% endif %}
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
   <!-- DO NOT EDIT THIS END -->
 
 </body>
