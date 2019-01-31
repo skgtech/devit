@@ -26,8 +26,9 @@ venue: blah blah
 # values: "dday|nextday|nextblind|nextfull"
 currentMode: "nextblind"
 
-isCFPOpen: false
+isCFPOpen: true
 moreSpeakersToBeAnnounced: false
+CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
 sponsors:
   cfs: false
