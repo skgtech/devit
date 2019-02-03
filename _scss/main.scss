@@ -55,5 +55,6 @@ $font-size-h1:            floor(($font-size-base * 2.7)) !default; // ~36px
 @import "blocks/schedule";
 @import "blocks/index-item";
 @import "blocks/ticketing_widget";
+@import "blocks/cookie-consent";
 
 @import "bootstrap-override";
