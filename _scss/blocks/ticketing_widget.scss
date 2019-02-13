@@ -138,4 +138,27 @@
   .pretix-widget .pretix-widget-action {
     margin-top: 24px;
   }
+
+  // quick & dirty design
+  .pretix-widget-item {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: none;
+  }
+
+  .pretix-widget-item:last-child {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .pretix-widget .pretix-widget-item-price-col,
+  .pretix-widget .pretix-widget-item-availability-col {
+    float: right;
+    padding: 1em;
+  }
+  .pretix-widget .pretix-widget-item-availability-col {
+    max-width: 100px;
+  }
+
+  .pretix-widget .pretix-widget-item-price-col {
+    max-width: 185px;
+  }
 }
