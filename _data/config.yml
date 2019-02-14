@@ -35,8 +35,8 @@ sponsors:
   link_to_sponsorship: ""
 
 tickets:
-  url: https://www.eventora.com/en/Events/devit_conference_2019
-  enabled: false
-  early: false
+  url: /tickets
+  enabled: true
+  early: true
   blind: false
   regular: false
