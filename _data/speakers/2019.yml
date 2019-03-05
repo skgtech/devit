@@ -1,0 +1,18 @@
+speakers:
+  - url: jerry_nixon
+    year: 2019
+    hearFor: Talk
+    tags:
+      - .NET
+      - Machine Learning
+      - Cloud Computing
+    first_name: Jerry
+    last_name: Nixon
+    image_filename: Jerry_Nixon.jpg
+    tagline: Lead Architect, Commercial Software Engineering.
+    social:
+      twitter: jerrynixon
+      homepage: http://jerrynixon.com
+      linkedin: http://linkedin.com/in/jerrynixon
+    bio: |
+      <p>Jerry is a Lead Architect in Commercial Software Engineering at Microsoft. He has been developing and designing software for two decades. Speaker, organizer, teacher, and author, Jerry is also the host of the popular DevRadio.</p><p>Jerry has extensive experience in enterprise architecture, front-end design, data strategies, and library development - working with new a senior developers across industries. He focuses on Artificial Intelligence, design & development fundamentals, and team dynamics. But, most of Jerry’s days are spent teaching his three daughters Star Trek character backstories and episode plots.</p>

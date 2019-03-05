@@ -1,0 +1,8 @@
+- title: "Quantum Computing and the Future of Software Development"
+  speaker: jerry_nixon
+  type: Talk
+  description: "<p>The age of Silicon is ending, revealing we have hit a wall. Specifically, we cannot compute. Science cannot compute the massive-scale algorithms needed to reach humanity's goals: space travel, climate control, clean power, nanodevices, and even the cure to cancer. The brilliance and emerging scale of cloud computing is overshadowing our real problem. As we continue to celebrate our baby steps, the leaps and bounds necessary are so far out of reach, most scientists ignore the reality of it. But a new age is emerging. An age of multi-dimensional, unlimited parallel-universe quantum processing. Right out of Star Trek and the best science fiction, the quantum age is man's best hope to achieve our lofty goals. Tomorrow's software developers are today's software developers, evolved. They will enable us to reach the small and the stars. Humanity will answer questions we haven't even asked. But to get there, classical software developers - that's you - will need to understand what's happening and why, and the amazing opportunities breathing down our necks.</p>"
+  tags:
+    - .NET
+    - Machine Learning
+    - Cloud Computing
