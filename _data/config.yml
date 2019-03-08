@@ -27,7 +27,7 @@ venue: blah blah
 currentMode: "nextblind"
 
 isCFPOpen: true
-moreSpeakersToBeAnnounced: false
+moreSpeakersToBeAnnounced: true
 CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
 sponsors:
