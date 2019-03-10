@@ -24,10 +24,10 @@ venue: blah blah
 
 # Current mode. Site will be modified based on this
 # values: "dday|nextday|nextblind|nextfull"
-currentMode: "nextblind"
+currentMode: "nextfull"
 
-isCFPOpen: true
-moreSpeakersToBeAnnounced: false
+isCFPOpen: false
+moreSpeakersToBeAnnounced: true
 CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
 sponsors:
