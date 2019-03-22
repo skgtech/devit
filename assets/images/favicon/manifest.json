@@ -13,6 +13,6 @@
 		}
 	],
 	"theme_color": "#ffffff",
-	"start_url": "http:\/\/devitconf.org",
+	"start_url": "https:\/\/devitconf.org",
 	"display": "standalone"
 }
