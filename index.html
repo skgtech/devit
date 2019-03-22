@@ -45,35 +45,6 @@
 
   
     
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Event",
-    "name": "JUN 09-10, 2019, Thessaloniki",
-    "startDate": "2019-06-09",
-    "endDate": "2019-06-10",
-    "organizer": {
-      "@type": "Organization",
-      "name": "DEVit Conference"
-    },
-    "location": {
-      "@type": "City",
-      "name": "Thessaloniki",
-      "address": "Thessaloniki"
-    },
-    "image": [
-      "https://staging-devit.herokuapp.com//assets/images/devit-og-general.jpg?1542468627"
-    ],
-    "description": "Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!",
-    "offers": {
-      "@type": "Offer",
-      "price": "40.00",
-      "priceCurrency": "EUR",
-      "url": "/tickets"
-    }
-  }
-</script>
-
 
   
 
@@ -133,17 +104,13 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="main-menu">
         
-          <li>
-            <a class="main-menu__link" target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
-          </li>
-          <li>
-            <a class="main-menu__link" href="/press">Press</a>
-          </li>
-        
         <li>
-          <a class="main-menu__link" href="/about">About</a>
+          <!-- Read speakers size from data and decide to show this or not -->
+          <a class="main-menu__link" href="/#speakers">Speakers</a>
         </li>
-        
+        <li>
+          <a class="main-menu__link" href="/#venue">Venue</a>
+        </li>
         
         
         
@@ -341,17 +308,75 @@
 
 
 
-<div class="speakers__cfp">
-  <div class="block__heading">
-    Call for Papers
+
+<div id="venue" class="venues text-center">
+  <h2 class="block__heading--dark">The Venues</h2>
+  <div class="venue">
+    <div class="venue__title">
+      City College, Sunday Jun 09
+    </div>
+    <div class="venue__for">
+      Workshops
+    </div>
+    <div class="venue__description">
+      Sunday, 9th of June will be a day dedicated to workshops, with at least 11 sessions of various topics to choose from. It will be hosted at City College Thessaloniki, which offers multiple academic classrooms, an ideal space for the purpose of delivering a hands-on session.
+    </div>
+    <div class="venue__container">
+      <div class="venue__map">
+        <div class="map" data-long="40.6373756" data-lat="22.9370313"></div>
+      </div>
+      <!--
+  Work in progress to create responsive images
+ -->
+
+
+
+
+
+<div class="lazy venue__image" data-src="/assets/resized/citycollege-1000x750.jpg"></div>
+<!-- <img src="/assets/resized/citycollege-1000x750.jpg" alt="" srcset="      /assets/resized/citycollege-800x600.jpg 800w,      /assets/resized/citycollege-1000x750.jpg 1000w,  "> -->
+
+    </div>
   </div>
-  <p class="light">
-    Be a DEVit speaker, share your experience with hundreds of peers!
-  </p>
-  <a href="https://goo.gl/forms/FqDnffxTnlgYVDej1" class="block__more-cta">
-    Apply now
-    <i class="fas fa-long-arrow-alt-right"></i>
-  </a>
+  <div class="venue">
+    <div class="venue__title">
+      Royal Theatre, Monday Jun 10
+    </div>
+    <div class="venue__for">
+        Talks
+      </div>
+    <div class="venue__description">
+      Monday, 10th of June will be a day dedicated to presentations, with a single track of 8 speakers. It will be hosted at the iconic Royal Theater of Thessaloniki, a spacious theatrical venue with a capacity of 683 people located at the heart of Thessaloniki, right next to the historic White Tower by the seaside.
+    </div>
+    <div class="venue__container">
+        <!--
+  Work in progress to create responsive images
+ -->
+
+
+
+
+
+<div class="lazy venue__image" data-src="/assets/resized/royal_theatre-1000x666.jpg"></div>
+<!-- <img src="/assets/resized/royal_theatre-1000x666.jpg" alt="" srcset="      /assets/resized/royal_theatre-800x533.jpg 800w,      /assets/resized/royal_theatre-1000x666.jpg 1000w,  "> -->
+
+      <div class="venue__map">
+        <div class="map" data-long="40.6252233" data-lat="22.9495758"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="plan-block text-center">
+  <div class="container">
+    <h2 class="block__heading">Plan your stay in Thessaloniki</h2>
+    <p class="">
+      Lonely Planet has described Thessaloniki as “easy to fall in love with – it has beauty, chaos, history and culture, a remarkable cuisine and wonderful, vast sea views.” Discover hotel options, attractions, things to do and combine your visit with a memorable experience.
+    </p>
+    <a href="/explore-thessaloniki" class="block__more-cta">Find out more
+      <i class="fas fa-long-arrow-alt-right"></i>
+    </a>
+  </div>
 </div>
 
 
@@ -500,7 +525,42 @@
           </ul>
         </div>
       </div>
-      
+      <div class="footer-row__column">
+        <div class="footer-menu">
+          <div class="footer-menu__header">
+            DEVit 2019
+          </div>
+          <ul class="footer-menu__list">
+            
+            <li>
+              <a href="/tickets">Buy tickets</a>
+            </li>
+            
+            <li>
+              <a href="/#speakers">Speakers</a>
+            </li>
+            <!-- Below must be uncommented at will -->
+            <!-- <li>
+              <a href="/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/devit-week">DEVit Week</a>
+            </li>
+            <li>
+              <a href="/#sponsors">Sponsors</a>
+            </li>
+            <li>
+              <a href="/#venue">Venue</a>
+            </li>
+            <li>
+              <a href="/talks">Talks</a>
+            </li>
+            <li>
+              <a href="/workshops">Workshops</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
       <div class="footer-row__column">
         <div class="footer-menu">
           <div class="footer-menu__header">
