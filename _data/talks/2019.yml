@@ -7,3 +7,11 @@
     - Machine Learning
     - Cloud Computing
     - Quantum
+- title: "2 Years GraphQL in Production at Product Hunt"
+  speaker: radoslav_stankov
+  type: Talk
+  description: "<p>Show all mistakes and solution to problems, I have encountered during the last year and a half when replacing Product Hunt REST API with GraphQL. Show how GraphQL can improve the application structure of a Rails application. So it is effortless for backend developers to develop and maintain features.<ul><li>integrating GraphQL with Rails</li><li>GraphQL schema design</li><li>application structure</li><li>authorization</li><li>optimization and performance</li><li>monitoring</li></ul></p>"
+  tags:
+    - GraphQL
+    - Ruby on Rails
+    - Backend

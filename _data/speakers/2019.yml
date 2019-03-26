@@ -17,3 +17,20 @@ speakers:
       linkedin: http://linkedin.com/in/jerrynixon
     bio: |
       <p>Jerry is a Lead Architect in Commercial Software Engineering at Microsoft. He has been developing and designing software for two decades. Speaker, organizer, teacher, and author, Jerry is also the host of the popular DevRadio.</p><p>Jerry has extensive experience in enterprise architecture, front-end design, data strategies, and library development - working with new a senior developers across industries. He focuses on Artificial Intelligence, design & development fundamentals, and team dynamics. But, most of Jerry’s days are spent teaching his three daughters Star Trek character backstories and episode plots.</p>
+  - url: radoslav_stankov
+    year: 2019
+    hearFor: Talk
+    tags:
+      - Ruby
+      - Ruby on Rails
+      - Backend
+    first_name: Radoslav
+    last_name: Stankov
+    image_filename: Radoslav_Stankov.jpg
+    tagline: Head of engineering at Product Hunt
+    social:
+      twitter: rstankov
+      homepage: http://rstankov.com/
+      github: rstankov
+    bio: |
+      <p>Web developer with 15+ years of experience, currently is head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript, and Elixir projects, with the belief that it’s equally important to work both on the frontend and on the backend.</p><p>Organizer of React.Sofia meetup, React.NotAConf conference.</p>
