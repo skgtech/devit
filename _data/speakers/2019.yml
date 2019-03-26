@@ -27,10 +27,28 @@ speakers:
     first_name: Radoslav
     last_name: Stankov
     image_filename: Radoslav_Stankov.jpg
-    tagline: Head of engineering at Product Hunt
+    tagline: Head of engineering at Product Hunt.
     social:
       twitter: rstankov
       homepage: http://rstankov.com/
       github: rstankov
     bio: |
       <p>Web developer with 15+ years of experience, currently is head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript, and Elixir projects, with the belief that it’s equally important to work both on the frontend and on the backend.</p><p>Organizer of React.Sofia meetup, React.NotAConf conference.</p>
+  - url: luciano_mammino
+    year: 2019
+    hearFor: Workshop
+    tags:
+      - Node.js
+      - JavaScript
+      - Streams
+      - Performance
+    first_name: Luciano
+    last_name: Mammino
+    image_filename: Luciano_Mammino.png
+    tagline: Co-Author of Node.js Design Patterns & FullStack Bulletin. Cloud Architect.
+    social:
+      twitter: loige
+      homepage: https://loige.co
+      github: lmammino
+    bio: |
+      <p>Luciano was born in 1987, the same year Super Mario Bros was released in Europe, which, by chance is his favourite game!<br>He started coding at the age of 12, hacking away with his father's old i386 armed only with MS-DOS and the QBasic interpreter and since then he has been professionally a software developer for more than 10 years.<br>He is currently a Cloud Architect at Vectra AI in Dublin where he is automating the hunt for cyberattackers.<br>He loves the fullstack web, Node.js & Serverless and co-authored ""Node.js design patterns"" (http://amzn.to/1ZF279B), launched fstack.link and Serverlesslab.com</p>
