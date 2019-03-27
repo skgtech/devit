@@ -24,3 +24,38 @@
     - JavaScript
     - Streams
     - Performance
+- title: "DevOps ICU: Improving DevOps Results by (Correctly) Integrating UX"
+  speaker: debbie_levitt
+  type: Talk
+  description: "<p>Software development methodologies lack the details of how UX fits into organizations, teams, and projects. Some suggest that a Product Manager describing features is enough for developers, UX should train others to do their specialized jobs, or excluding UX experts solves them being “too siloed” and “not collaborative.” This happens with no other role in software development. It’s hurting culture, efficiency, and productivity, and creating poor products for customers.</p><p>Learn how the UX process fits into Lean and Agile; augments DevOps goals; increases customer satisfaction; and saves time, money, and sanity before developers write a line of code.</p>"
+  tags:
+    - UX
+    - Product
+    - Culture
+    - Processes
+- title: "Deep Dive in Asp Core"
+  speaker: irina_scurtu
+  type: Workshop
+  description: "<p>If you heard about all the fuss around .Net Core but you didn’t use it on a project, or you think you didn’t squeeze everything out of the platform, then this workshop is for you.</p><p>In this workshop you’ll learn about the latest improvements in 2.2 version and how to build APIs using them, as well as the upcoming changes in 3.0</p><p><b>Prerequisite</b>:<br>
+Familiarity with .Net and C#
+</p><p>
+<b>Topics covered</b>:
+<ul><li>Storing secrets in development and production</li>
+<li>Configuration options</li>
+<li>Middlewares</li>
+<li>Logging</li>
+<li>Input Formatters, Output Formatters</li>
+<li>Custom Media types</li>
+<li>Managing data using Entity Framework Core</li>
+<li>Running background tasks in your application</li>
+<li>HttpClientFactory</li>
+<li>Hosting Options</li>
+<li>HSTS, CSP, HPKP, Switching to HTTP/2, HealthChecks</li>
+<li>TagHelpers</li>
+<li>ViewComponents</li></ul></p><p><b>Requirements to attend the workshop</b>:
+<ul><li>Visual Studio</li>
+<li>.NET Core SDK <a href=\"https://dotnet.microsoft.com/download/dotnet-core/2.2\" target=\"_blank\">2.2</a> or later</li></p>"
+  tags:
+    - .NET
+    - Backend
+    - Backend
