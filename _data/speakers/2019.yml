@@ -5,8 +5,7 @@ speakers:
     tags:
       - .NET
       - Machine Learning
-      - Cloud Computing
-      - Quantum
+      - Cloud
     first_name: Jerry
     last_name: Nixon
     image_filename: Jerry_Nixon.jpg
@@ -34,22 +33,6 @@ speakers:
       github: rstankov
     bio: |
       <p>Web developer with 15+ years of experience, currently is head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript, and Elixir projects, with the belief that it’s equally important to work both on the frontend and on the backend.</p><p>Organizer of React.Sofia meetup, React.NotAConf conference.</p>
-  - url: luciano_mammino
-    year: 2019
-    hearFor: Workshop
-    tags:
-      - Node.js
-      - JavaScript
-    first_name: Luciano
-    last_name: Mammino
-    image_filename: Luciano_Mammino.png
-    tagline: Cloud Architect, Vectra AI
-    social:
-      twitter: loige
-      homepage: https://loige.co
-      github: lmammino
-    bio: |
-      <p>Luciano was born in 1987, the same year Super Mario Bros was released in Europe, which, by chance is his favourite game!</p><p>He started coding at the age of 12, hacking away with his father's old i386 armed only with MS-DOS and the QBasic interpreter and since then he has been professionally a software developer for more than 10 years.</p><p>He is currently a Cloud Architect at Vectra AI in Dublin where he is automating the hunt for cyberattackers.</p><p>He loves the fullstack web, Node.js & Serverless and <a href="http://amzn.to/1ZF279B" target="blank">co-authored “Node.js design patterns”</a>, launched <a target="blank" href="https://fstack.link">fstack.link</a> and <a target="blank" href="https://serverlesslab.com">Serverlesslab.com</a></p>
   - url: debbie_levitt
     year: 2019
     hearFor: Talk
@@ -67,6 +50,22 @@ speakers:
       homepage: https://pty.pe/blog
     bio: |
       <p>Debbie Levitt, CEO of Ptype UX & Product Design Agency, has been a UX strategist, designer, and trainer since the 1990s. As a “serial contractor” who lived in the Bay Area for most of this decade, Debbie has influenced interfaces at Sony, Wells Fargo, Constant Contact, Macys.com, Oracle, and a variety of Silicon Valley startups.</p><p>Debbie is a speaker and trainer who has delivered keynotes, sessions, and workshops at conferences on 3 continents (so far). She is an O’Reilly published author and one of few instructors on the planet recommended by Axure. Her newest training program is DevOps ICU, which teaches non-UX roles how to measurably improve DevOps results by correctly integrating UX practitioners and processes.</p>
+  - url: luciano_mammino
+    year: 2019
+    hearFor: Workshop
+    tags:
+      - Node.js
+      - JavaScript
+    first_name: Luciano
+    last_name: Mammino
+    image_filename: Luciano_Mammino.png
+    tagline: Cloud Architect, Vectra AI
+    social:
+      twitter: loige
+      homepage: https://loige.co
+      github: lmammino
+    bio: |
+      <p>Luciano was born in 1987, the same year Super Mario Bros was released in Europe, which, by chance is his favourite game!</p><p>He started coding at the age of 12, hacking away with his father's old i386 armed only with MS-DOS and the QBasic interpreter and since then he has been professionally a software developer for more than 10 years.</p><p>He is currently a Cloud Architect at Vectra AI in Dublin where he is automating the hunt for cyberattackers.</p><p>He loves the fullstack web, Node.js & Serverless and <a href="http://amzn.to/1ZF279B" target="blank">co-authored “Node.js design patterns”</a>, launched <a target="blank" href="https://fstack.link">fstack.link</a> and <a target="blank" href="https://serverlesslab.com">Serverlesslab.com</a></p>
   - url: irina_scurtu
     year: 2019
     hearFor: Workshop
