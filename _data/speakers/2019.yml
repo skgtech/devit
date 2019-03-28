@@ -83,3 +83,20 @@ speakers:
       github: irinascurtu
     bio: |
       <p>Software Architect, MCT and CompTIA Trainer, always in a quest for latest trends and best practices in the .NET world.</p>
+  - url: harry_roberts
+    year: 2019
+    hearFor: Talk
+    tags:
+      - resourcehints
+      - webperf
+      - perfmatters
+    first_name: Harry
+    last_name: Roberts
+    image_filename: Harry_Roberts.jpg
+    tagline: "Consultant Performance Engineer: @google, @UN, @Etsy, @kickstarter, @BBC, @Unilever, @Deloitte, and more • Speaker • Performance Ambassador for @shiftcommerce"
+    social:
+      twitter: csswizardry
+      homepage: https://csswizardry.com
+      github: csswizardry
+    bio: |
+      <p>Harry is an award-winning Consultant Performance Engineer from the UK. With a client list ranging from the United Nations to Google, the BBC to the Financial Times, he has helped some of the world’s largest organisations make their websites faster.</p><p>He also holds positions as a <a href="https://developers.google.com/programs/experts/" target="_blank">Google Developer Expert</a>, where he shares web performance research and findings, and as Performance Ambassador for <a href="https://www.shiftcommerce.com" target="_blank">SHIFT Commerce</a>, where he aims to make ecommerce faster from the inside out.</p><p>He writes about all things front-end performance at <a href="https://csswizardry.com" target="_blank">csswizardry.com</a>, speaks at tech events all across the globe, and regularly shares his insights at <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.</p>
