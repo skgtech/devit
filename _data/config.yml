@@ -30,6 +30,11 @@ isCFPOpen: false
 moreSpeakersToBeAnnounced: true
 CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
+venuesConfirmed:
+  workshop: false
+  talks: true
+  hotel: false
+
 sponsors:
   cfs: false
   link_to_sponsorship: ""
