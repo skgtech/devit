@@ -1,5 +1,7 @@
+{% if site.data.config.venuesConfirmed.workshop or site.data.config.venuesConfirmed.talks %}
 <div id="venue" class="venues text-center">
   <h2 class="block__heading--dark">The Venues</h2>
+  {% if site.data.config.venuesConfirmed.workshop %}
   <div class="venue">
     <div class="venue__title">
       City College, Sunday Jun 09
@@ -17,6 +19,8 @@
       {% responsive_image path: assets/images/venues/citycollege.jpg template: _includes/responsive/venue.html %}
     </div>
   </div>
+  {% endif %}
+  {% if site.data.config.venuesConfirmed.talks %}
   <div class="venue">
     <div class="venue__title">
       Royal Theatre, Monday Jun 10
@@ -34,6 +38,8 @@
       </div>
     </div>
   </div>
+  {% endif %}
 </div>
+{% endif %}
 
 {% include blocks/plan.html %}

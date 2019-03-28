@@ -1,13 +1,15 @@
 <!-- Stay -->
+{% if site.data.config.venuesConfirmed.hotel %}
 <div class="block-stay text-center">
   <h2 class="block__heading--dark">Stay</h2>
   <p class="dark">
     We have partnered with Park Hotel to offer you competitive room prices. Park Hotel is located in the center of the City with lots of cafes and restaurants at walking distance.
   </p>
 </div>
+{% endif %}
 
 <div class="destinations">
-
+  {% if site.data.config.venuesConfirmed.hotel %}
   <!-- Park Hotel -->
   <a href="http://www.parkhotel.com.gr/" title="Park Hotel Thessaloniki" target="_blank" class="destinations__panel destinations__image destinations__image--hotel1"></a>
   <div class="destinations__panel">
@@ -61,6 +63,7 @@
       </div>
     </div>
   </div>
+  {% endif %}
 
   <!-- Visit -->
   <!-- <div class="destinations__panel destinations__image destinations__image--sea1"></div>
