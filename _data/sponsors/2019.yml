@@ -1,0 +1,6 @@
+silver:
+  -
+    - name: iTechScope Recruitment
+      img: /assets/images/sponsors/itechscope.png
+      url: https://www.itechscope.com/el
+      override_height: 60px
