@@ -67,3 +67,26 @@ Familiarity with .Net and C#
     - resourcehints
     - webperf
     - perfmatters
+- title: "Make your React Native apps accessible"
+  speaker: ankita_kulkarni
+  type: Talk
+  description: "<p>Did you know React Native has accessibility rules?  In this talk, I will show you why accessibility matters, what those rules are, accessibility standards your app falls into, common patterns to follow and how to get over your fear of voice-over.  By making our apps accessible, we can provide a great experience for all our users. I promise that at the end of this talk, you will leave with actionable ways to make your apps accessible. Let’s make this Native world a more inclusive place for everyone!</p><p>Do you consider your React Native app accessible? A lot of developers care but aren’t sure about the best practices to follow. I have seen client developers and designers struggle to figure out the best practices for incorporating a11y. Unfortunately, accessibility does not often get business buy-in due to time constraints and deadlines. That being said,  we can still make small changes to that makes your apps accessible. In this talk, I'll go through the practices that are easy to follow and won't take much time along with some others that will take longer but are worth it. Accessibility needs to be followed during the design exploration phase so the right colours and touchable areas are already accessible than during development phase.
+</p><p>
+<b>Table of contents:</b>
+<ul>
+<li>What is A11y</li>
+<li>Mobile guidelines for A11y</li>
+<li>Business buy-in</li>
+<li>Get over your fear of voice-over</li>
+<li>React Native A11y rules</li>
+<li>Build common accessible components</li>
+<li>A11y design exploration</li>
+<li>Tools to help with A11y (eg: <a href=\"https://material.io/tools/color/#!/?view.left=1&view.right=0&primary.color=6D4C41\" target=\"_blank\">Material-UI color tool</a>)</li>
+</ul>
+</p>
+<p>
+Every accessibility property that will be used by react native elements will have a demo. It will also include a demo on how voice over would work too.</p>"
+  tags:
+    - ReactNative
+    - a11y
+    - Accessibility
