@@ -100,3 +100,20 @@ speakers:
       github: csswizardry
     bio: |
       <p>Harry is an award-winning Consultant Performance Engineer from the UK. With a client list ranging from the United Nations to Google, the BBC to the Financial Times, he has helped some of the world’s largest organisations make their websites faster.</p><p>He also holds positions as a <a href="https://developers.google.com/programs/experts/" target="_blank">Google Developer Expert</a>, where he shares web performance research and findings, and as Performance Ambassador for <a href="https://www.shiftcommerce.com" target="_blank">SHIFT Commerce</a>, where he aims to make ecommerce faster from the inside out.</p><p>He writes about all things front-end performance at <a href="https://csswizardry.com" target="_blank">csswizardry.com</a>, speaks at tech events all across the globe, and regularly shares his insights at <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.</p>
+  - url: ankita_kulkarni
+    year: 2019
+    hearFor: Talk
+    tags:
+      - ReactNative
+      - a11y
+      - Accessibility
+    first_name: Ankita
+    last_name: Kulkarni
+    image_filename: Ankita_Kulkarni.jpg
+    tagline: "Senior software developer, Web and mobile expertise! ✨"
+    social:
+      twitter: kulkarniankita9
+      homepage: https://medium.com/@kulkarniankita9
+      github: kulkarniankita
+    bio: |
+      <p>Ankita has over 5 years of Software Development experience that started with helping small businesses develop apps 🕸. Currently, she is a Senior Software Developer at Rangle.io based in Toronto where she builds web and mobile an applications for clients using modern JavaScript. Prior to that, Ankita worked at IBM, Canada, Cloud Garage for 4 years where she built several web and mobile applications using artificial intelligence, modern JavaScript, and native languages for about 4 years 🚀.</p><p>Outside of work, Ankita is a mentor at Lighthouse Labs as well as a software development instructor at Bridge School ✨. She loves public speaking 📣 and has spoken at several conferences, which has also allowed her to pursue her passion for travel ✈️.</p><p>When not behind a screen, Ankita enjoys swimming and has been playing Trampoline dodgeball since January 2015‍ 🙋.</p>
