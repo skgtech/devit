@@ -1,3 +1,9 @@
+gold:
+  -
+    - name: Microsoft
+      img: /assets/images/sponsors/svg/microsoft.svg
+      url: https://www.microsoft.com/el-gr
+      
 silver:
   -
     - name: iTechScope Recruitment
