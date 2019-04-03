@@ -1,0 +1,34 @@
+-
+  - name: COHO Coworking Space	
+    url: http://www.coho.gr/	
+    img: /assets/images/partners/coho-logo.svg	
+    override_height: 80px	
+
+   - name: City College Thessaloniki	
+    url: http://www.citycollege.sheffield.eu/	
+    img: /assets/images/partners/city-college-logo.svg	
+    override_height: 100px	
+
+   - name: OK!Thess	
+    url: http://www.okthess.gr/	
+    img: /assets/images/partners/okthess-logo.svg	
+    override_height: 50px	
+
+-	
+  - name: Golden Gate Pro	
+    url: http://www.goldengatepro.com/	
+    img: /assets/images/partners/goldengatepro-logo.svg	
+
+   - name: Geekbot	
+    url: http://geekbot.com/	
+    img: /assets/images/partners/geekbot-logo.svg	
+
+   - name: Devastation	
+    url: http://www.devastation.tv/	
+    img: /assets/images/partners/devastation-logo.svg	
+
+-	
+   - name: Stone Soup	
+    url: http://www.stonesoup.io/	
+    img: /assets/images/sponsors/stonesoup.png	
+    override_height: 50px
