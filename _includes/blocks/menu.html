@@ -36,16 +36,12 @@
         <li>
           <a class="main-menu__link" href="/#venue">Venue</a>
         </li>
-        {% if site.data.schedule[site.data.config.currentYear] > 0 %}
-        <li>
+        <!-- <li>
           <a class="main-menu__link" href="/schedule">Schedule</a>
-        </li>
-        {% endif %}
-        {% if site.data.sponsors[site.data.config.currentYear] > 0 %}
+        </li> -->
         <li>
           <a class="main-menu__link" href="/#sponsors">Sponsors</a>
         </li>
-        {% endif %}
         {% if site.data.config.tickets.enabled %}
           <li>
             <a class="main-menu__link--cta cta" href="{{ site.data.config.tickets.url }}">Buy tickets</a>
