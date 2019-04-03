@@ -36,12 +36,12 @@
         <li>
           <a class="main-menu__link" href="/#venue">Venue</a>
         </li>
-        {% if site.data.schedule[data.config.currentYear] > 0 %}
+        {% if site.data.schedule[site.data.config.currentYear] > 0 %}
         <li>
           <a class="main-menu__link" href="/schedule">Schedule</a>
         </li>
         {% endif %}
-        {% if site.data.sponsors[data.config.currentYear] > 0 %}
+        {% if site.data.sponsors[site.data.config.currentYear] > 0 %}
         <li>
           <a class="main-menu__link" href="/#sponsors">Sponsors</a>
         </li>
