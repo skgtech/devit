@@ -90,3 +90,12 @@ Every accessibility property that will be used by react native elements will hav
     - ReactNative
     - a11y
     - Accessibility
+- title: "Building an Every-Framework Component Library"
+  speaker: bonnie_zhou
+  type: Talk
+  description: "<p>There are a lot of JavaScript frameworks out there today: React, Angular, Polymer, Vue, etc. How do you build a robust, true-to-spec component library that's compatible with any framework? Learn how the Material Design team solves this problem by extracting component business logic from an interface to be wrapped in any framework.</p>"
+  tags:
+    - JavaScript
+    - Frontend
+    - Web
+    - Frameworks
