@@ -117,3 +117,21 @@ speakers:
       github: kulkarniankita
     bio: |
       <p>Ankita has over 5 years of Software Development experience that started with helping small businesses develop apps 🕸. Currently, she is a Senior Software Developer at Rangle.io based in Toronto where she builds web and mobile an applications for clients using modern JavaScript. Prior to that, Ankita worked at IBM, Canada, Cloud Garage for 4 years where she built several web and mobile applications using artificial intelligence, modern JavaScript, and native languages for about 4 years 🚀.</p><p>Outside of work, Ankita is a mentor at Lighthouse Labs as well as a software development instructor at Bridge School ✨. She loves public speaking 📣 and has spoken at several conferences, which has also allowed her to pursue her passion for travel ✈️.</p><p>When not behind a screen, Ankita enjoys swimming and has been playing Trampoline dodgeball since January 2015‍ 🙋.</p>
+  - url: bonnie_zhou
+    year: 2019
+    hearFor: Talk
+    tags:
+      - JavaScript
+      - Frontend
+      - Web
+      - Frameworks
+    first_name: Bonnie
+    last_name: Zhou
+    image_filename: Bonnie_Zhou.jpg
+    tagline: "Software Engineer at Google"
+    social:
+      twitter: bonniezzzhou
+      homepage: http://bonniezhou.com
+      github: bonniezhou
+    bio: |
+      <p>Bonnie Zhou is a software engineer blending the worlds of design and engineering at Google's Material Design.</p>
