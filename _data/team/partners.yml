@@ -1,4 +1,4 @@
-- 
+-
   - name: COHO Coworking Space
     url: http://www.coho.gr/
     img: /assets/images/partners/coho-logo.svg
@@ -21,9 +21,3 @@
   - name: Devastation
     url: http://www.devastation.tv/
     img: /assets/images/partners/devastation-logo.svg
--
-  - name: Stone Soup
-    url: http://www.stonesoup.io/
-    img: /assets/images/sponsors/stonesoup.png
-    override_height: 50px
-
