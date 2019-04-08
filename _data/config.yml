@@ -31,7 +31,7 @@ moreSpeakersToBeAnnounced: true
 CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
 venuesConfirmed:
-  workshop: false
+  workshop: true
   talks: true
   hotel: false
 
