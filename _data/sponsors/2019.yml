@@ -10,3 +10,9 @@ silver:
       img: /assets/images/sponsors/itechscope.png
       url: https://www.itechscope.com/el
       override_height: 60px
+    - name: Epignosis
+      img: /assets/images/sponsors/epignosis.png
+      url: https://www.epignosishq.com
+    - name: European Dynamics
+      img: /assets/images/sponsors/ed.png
+      url: https://www.eurodyn.com/
