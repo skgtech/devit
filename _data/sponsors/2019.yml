@@ -14,5 +14,6 @@ silver:
       img: /assets/images/sponsors/epignosis.png
       url: https://www.epignosishq.com
     - name: European Dynamics
-      img: /assets/images/sponsors/ed.png
+      img: /assets/images/sponsors/svg/ed.svg
       url: https://www.eurodyn.com/
+      override_height: 100px
