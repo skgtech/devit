@@ -16,7 +16,7 @@ silver:
     - name: European Dynamics
       img: /assets/images/sponsors/svg/ed.svg
       url: https://www.eurodyn.com/
-      override_height: 100px
+      override_height: 150px
 
 media:
   -
