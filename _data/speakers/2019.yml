@@ -100,6 +100,23 @@ speakers:
       github: csswizardry
     bio: |
       <p>Harry is an award-winning Consultant Performance Engineer from the UK. With a client list ranging from the United Nations to Google, the BBC to the Financial Times, he has helped some of the world’s largest organisations make their websites faster.</p><p>He also holds positions as a <a href="https://developers.google.com/programs/experts/" target="_blank">Google Developer Expert</a>, where he shares web performance research and findings, and as Performance Ambassador for <a href="https://www.shiftcommerce.com" target="_blank">SHIFT Commerce</a>, where he aims to make ecommerce faster from the inside out.</p><p>He writes about all things front-end performance at <a href="https://csswizardry.com" target="_blank">csswizardry.com</a>, speaks at tech events all across the globe, and regularly shares his insights at <a href="https://twitter.com/csswizardry" target="_blank">@csswizardry</a>.</p>
+  - url: orhan_celik
+    year: 2019
+    hearFor: Workshop
+    tags:
+      - AI
+      - ML
+      - Python
+      - Azure
+    first_name: Orhan
+    last_name: Celik
+    image_filename: Orhan_Celik.jpg
+    tagline: "Cloud Solution Architect"
+    social:
+      twitter: OrhanCelikTR
+      linkedin: https://www.linkedin.com/in/orhancelik/
+    bio: |
+      <p>Orhan is helping companies and organizations to use the power of Artificial Intelligence & Machine Learning technologies. He has more than 20 years of professional experience, and he helped clients across the globe on Customer Behavior Analytics and Financial Data Analytics projects, working closely with IT, BI, Data Science and Marketing teams.</p>
   - url: ankita_kulkarni
     year: 2019
     hearFor: Talk
