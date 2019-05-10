@@ -108,3 +108,21 @@ Every accessibility property that will be used by react native elements will hav
     - ML
     - Python
     - Azure
+- title: "Progressive Web Apps: Future of web development"
+  speaker: maciej_treder
+  type: Talk
+  description: "<p>Welcome to the web applications of 21st century! Give your users a native-like app experience: instant load, offline experience and push notifications. During this talk, you will get a high level overview of Progressive Web Application concept, how to get started with it in Angular CLI and WorkBox, potential pitfalls and how to address them.</p>"
+  tags:
+    - PWA
+    - Mobile
+    - JavaScript
+    - Angular
+- title: "Migrating a data intensive microservice from Python to Go"
+  speaker: nikolay_stoitsev
+  type: Talk
+  description: "<p>As Uber is hyper-growing as a company so does our need for scalable and resilient systems. In this talk, I’m going to tell the story of how my team migrated from Python to Go, a microservice that processes millions of events every day. First, we are going to start with the rationale behind the migration. Then we are going to go over the Python and Go tech stacks that we use. Last but not least, I’m also going to share our approach for migrating the service while running in production, adding new features and making sure there are no regressions.</p>"
+  tags:
+    - Micro Services
+    - Go
+    - Python
+    - BigData

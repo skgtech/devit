@@ -3,6 +3,11 @@ gold:
     - name: Microsoft
       img: /assets/images/sponsors/svg/microsoft.svg
       url: https://www.microsoft.com/el-gr
+    - name: Synapsecom
+      img: /assets/images/sponsors/svg/synapsecom.svg
+      url: https://www.synapsecom.gr/
+      override_height: 50px
+
 
 silver:
   -
@@ -17,6 +22,18 @@ silver:
       img: /assets/images/sponsors/svg/ed.svg
       url: https://www.eurodyn.com/
       override_height: 150px
+  -
+    - name: BETADVANCED
+      img: /assets/images/sponsors/svg/betadvanced.svg
+      url: https://www.betadvanced.com
+      override_height: 60px
+    - name: Niagara
+      img: /assets/images/sponsors/svg/niagara.svg
+      url: ""
+      override_height: 60px
+    - name: BETA CAE
+      img: /assets/images/sponsors/svg/beta.svg
+      url: https://www.beta-cae.com/
 
 media:
   -

@@ -152,3 +152,34 @@ speakers:
       github: bonniezhou
     bio: |
       <p>Bonnie Zhou is a software engineer blending the worlds of design and engineering at Google's Material Design.</p>
+  - url: maciej_treder
+    year: 2019
+    hearFor: Talk
+    tags:
+      - Mobile
+      - JavaScript
+    first_name: Maciej
+    last_name: Treder
+    image_filename: Maciej_Treder.jpg
+    tagline: "Senior Software Development Engineer at Akamai Technologies"
+    social:
+      twitter: maciejtreder
+      homepage: https://www.maciejtreder.com/
+      github: maciejtreder
+    bio: |
+      <p>Enthusiast of web technologies. Author of articles about JavaScript, NodeJS, and Angular. Founder of @ng-toolkit project.</p>
+  - url: nikolay_stoitsev
+    year: 2019
+    hearFor: Talk
+    tags:
+      - Go
+      - Python
+    first_name: Nikolay
+    last_name: Stoitsev
+    image_filename: Nikolay_Stoitsev.jpg
+    tagline: "Senior Software Engineer at Uber"
+    social:
+      twitter: stoitsev
+      github: stoitsev
+    bio: |
+      <p>Nikolay is a senior software engineer building big distributed systems at Uber.</p>
