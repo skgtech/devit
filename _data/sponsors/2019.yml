@@ -35,6 +35,14 @@ silver:
       img: /assets/images/sponsors/svg/beta.svg
       url: https://www.beta-cae.com/
 
+bronze:
+  -
+    - name: Workable
+      img: /assets/images/sponsors/svg/workable.svg
+      url: https://workable.com
+      override_height: 50px
+
+
 media:
   -
     - name: makthes
