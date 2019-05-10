@@ -1,12 +1,15 @@
+platinum:
+  -
+    - name: Synapsecom
+      img: /assets/images/sponsors/svg/synapsecom.svg
+      url: https://www.synapsecom.gr/
+      override_height: 50px
+
 gold:
   -
     - name: Microsoft
       img: /assets/images/sponsors/svg/microsoft.svg
       url: https://www.microsoft.com/el-gr
-    - name: Synapsecom
-      img: /assets/images/sponsors/svg/synapsecom.svg
-      url: https://www.synapsecom.gr/
-      override_height: 50px
 
 
 silver:
