@@ -126,3 +126,13 @@ Every accessibility property that will be used by react native elements will hav
     - Go
     - Python
     - BigData
+
+- title: "Serverless React PWA on AWS"
+  speaker: gianluca_casati
+  type: Workshop
+  description: "<p>How to create a serverless Progressive Web App, using React, Redux, React Router on frontend and AWS Lambda, Cloudfront, Amazon SES, API Gateway for a zero maintenance required backend.</p>"
+  tags:
+    - React
+    - AWS
+    - PWA
+    - serverless
