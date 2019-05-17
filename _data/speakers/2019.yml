@@ -196,7 +196,8 @@ speakers:
     image_filename: Gianluca_Casati.jpg
     tagline: "Fullstack Developer"
     social:
-      twitter: stoitsev
-      github: stoitsev
+      twitter: GianlucaCasati
+      github: fibo
+      homepage: http://g14n.info/
     bio: |
       <p>Italian mathematician working as a Fullstack developer. ❤ coding and open source. Plays guitar and percussions.</p>
