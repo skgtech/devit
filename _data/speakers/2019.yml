@@ -183,3 +183,20 @@ speakers:
       github: stoitsev
     bio: |
       <p>Nikolay is a senior software engineer building big distributed systems at Uber.</p>
+  - url: gianluca_casati
+    year: 2019
+    hearFor: Workshop
+    tags:
+      - React
+      - AWS
+      - PWA
+      - Serverless
+    first_name: Gianluca
+    last_name: Casati
+    image_filename: Gianluca_Casati.jpg
+    tagline: "Fullstack Developer"
+    social:
+      twitter: stoitsev
+      github: stoitsev
+    bio: |
+      <p>Italian mathematician working as a Fullstack developer. ❤ coding and open source. Plays guitar and percussions.</p>
