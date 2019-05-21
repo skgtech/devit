@@ -6,10 +6,6 @@
 
 .icons-stack__row {
   @include make-row();
-  
-  // vertically align children icons
-  display: flex;
-  align-items: center;
 
   padding-top: 30px;
   padding-bottom: 30px;
