@@ -29,17 +29,19 @@ silver:
     - name: Epignosis
       img: /assets/images/sponsors/epignosis.png
       url: https://www.epignosishq.com
-    - name: European Dynamics
-      img: /assets/images/sponsors/svg/ed.svg
-      url: https://www.eurodyn.com/
-      override_height: 150px
+    - name: Prodyna
+      img: /assets/images/sponsors/prodyna.png
+      url: https://www.prodyna.com/
+      override_height: 45px
   -
     - name: BETA CAE
       img: /assets/images/sponsors/svg/beta.svg
       url: https://www.beta-cae.com/
-    - name: Prodyna
-      img: /assets/images/sponsors/prodyna.png
-      url: https://www.prodyna.com/
+      override_height: 150px
+    - name: European Dynamics
+      img: /assets/images/sponsors/svg/ed.svg
+      url: https://www.eurodyn.com/
+      override_height: 150px
 
 bronze:
   -
