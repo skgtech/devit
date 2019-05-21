@@ -37,6 +37,9 @@ silver:
     - name: BETA CAE
       img: /assets/images/sponsors/svg/beta.svg
       url: https://www.beta-cae.com/
+    - name: Prodyna
+      img: /assets/images/sponsors/prodyna.png
+      url: https://www.prodyna.com/
 
 bronze:
   -
