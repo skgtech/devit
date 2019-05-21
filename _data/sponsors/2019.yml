@@ -37,9 +37,11 @@ silver:
     - name: BETA CAE
       img: /assets/images/sponsors/svg/beta.svg
       url: https://www.beta-cae.com/
+      override_height: 150px
     - name: Prodyna
       img: /assets/images/sponsors/prodyna.png
       url: https://www.prodyna.com/
+      override_height: 45px
 
 bronze:
   -
