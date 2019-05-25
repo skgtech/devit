@@ -130,7 +130,43 @@ Every accessibility property that will be used by react native elements will hav
 - title: "Serverless React PWA on AWS"
   speaker: gianluca_casati
   type: Workshop
-  description: "<p>How to create a serverless Progressive Web App, using React, Redux, React Router on frontend and AWS Lambda, Cloudfront, Amazon SES, API Gateway for a zero maintenance required backend.</p>"
+  description: "<p>How to create a serverless Progressive Web App, using React, Redux, React Router on frontend and AWS Lambda, Cloudfront, Amazon SES, API Gateway for a zero maintenance required backend.</p>
+  <h3>First part</h3>
+  <p>We are going to create a minimal Progressive Web App. We are going to create a GitHub organization or repository that will host it. The goal is to visit your website from a mobile phone and see the “Add it to your Home” prompt.</p>
+  <h4>Topics covered</h4>
+  <p>LightHouse and PWA requirements:
+    <ul>
+    <li>Create your brand</li>
+    <li>The app shell</li>
+    <li>Service Workers and Cache API</li>
+    <li>The manifest.json</li>
+    </ul></p>
+  <h4>Requirements</h4>
+  <p>
+    <ul>
+    <li>A GitHub account and your favourite editor</li>
+    </ul></p>
+  <h3>Second part</h3>
+  <p>We are going to create a React app with React Router and Redux. The app will be hosted on AWS using serverless architecture. We will setup an API, in particular for user registration/login via email.
+<br>Both client and server code will be written in TypeScript.</p>
+<h4>Topics covered</h4>
+  <p>
+    <ul>
+    <li>React & TypeScript boilerplate</li>
+    <li>AWS Lambda using no framework (just aws-cli and npm scripts)</li>
+    <li>S3 and Cloudfront</li>
+    <li>Route53 and SSL certificates setup</li>
+    <li>API Gateway</li>
+    <li>AWS SES</li>
+    <li>Cloudwatch an monitoring</li>
+    <li>Last but not least: The routing trick!</li>
+    </ul></p>
+  <h4>Requirements</h4>
+  <p>
+    <ul>
+    <li>Node.js</li>
+    <li>Optional but recommended: an AWS account and a domain name (possibly a dot com)</li>
+    </ul></p>"
   tags:
     - React
     - AWS
