@@ -15,7 +15,7 @@ schedule:
     day: tuesday
     hours: 19
     mins: '15'
-    title: Pretend you know Python using Machine Learning"
+    title: Pretend you know Python using Machine Learning
     speaker: Stavros Korokithakis
     meetup: PyThess
     meetup_link: https://www.meetup.com/PyThess/
@@ -46,7 +46,7 @@ schedule:
   - type: meetup
     day: wednesday
     title: 'Node.JS and CocoaHeads Meetup'
-    datetime: 'Wednesday, June 6, 2018, 06:00 PM to 10:00 PM'
+    datetime: 'Wednesday, June 6, 2019, 06:00 PM to 10:00 PM'
     venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
 
   - type: just_text
@@ -59,7 +59,7 @@ schedule:
     day: wednesday
     hours: 18
     mins: '30'
-    title: 'TBA'
+    title: 'NodeJS meetup'
     speaker: TBA
     meetup: Node.js Meetup
 
@@ -82,8 +82,8 @@ schedule:
     day: wednesday
     hours: 20
     mins: '15'
-    title: 'Title: Dealing with forms in React, without losing your sanity'
-    speaker: Radoslav Stankov
+    title: 'Get out from the async hell'
+    speaker: Maciej Treder
 
   - type: drinks
     day: wednesday
@@ -96,7 +96,7 @@ schedule:
   - type: meetup
     day: thursday
     title: 'UX and Digital Analytics Meetup'
-    datetime: 'Thursday, June 7, 2018, 06:30 PM to 10:00 PM'
+    datetime: 'Thursday, June 6, 2019, 06:30 PM to 10:00 PM'
     venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
 
   - type: just_text
@@ -112,7 +112,7 @@ schedule:
     title: 'If it ain’t broke, don’t fix it'
     speaker: Lena Lekkou
     meetup: UX Meetup
-    meetup_link: https://www.meetup.com/Thessaloniki-UX-Meetup/
+    meetup_link: https://www.meetup.com/Thessaloniki-UX-Meetup/events/261387131/
 
   - type: just_text
     day: thursday
@@ -127,7 +127,7 @@ schedule:
     title: 'CI/CD of online experiences using digital analytics'
     speaker: Panagiotis Tzamtzis, Despina Gkouva
     meetup: Digital Analytics
-    meetup_link: https://www.meetup.com/Digital-Analytics-Meetup-Thessaloniki/
+    meetup_link: https://www.meetup.com/Digital-Analytics-Meetup-Thessaloniki/events/261669819/
 
   - type: drinks
     day: thursday
@@ -140,7 +140,7 @@ schedule:
   - type: meetup
     day: friday
     title: 'React and .NET Meetup'
-    datetime: 'Friday, June 8, 2018, 06:00 PM to 10:00 PM'
+    datetime: 'Friday, June 8, 2019, 06:00 PM to 10:00 PM'
     venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
 
   - type: just_text
@@ -173,13 +173,12 @@ schedule:
     mins: '00'
     title: Break
 
-  - type: talk_meetup
+  - type: talk_devit
     day: friday
     hours: 20
     mins: '15'
-    title: 'TBA'
-    speaker: TBA
-    meetup: TBA
+    title: 'Title: Dealing with forms in React, without losing your sanity'
+    speaker: Radoslav Stankov
 
   - type: drinks
     day: friday
