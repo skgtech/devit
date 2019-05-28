@@ -16,11 +16,8 @@ custom_js:
     DEVit Week
     </div>
     <div class="text-left">
-      <p>Each year we grow bigger. This year we introduce the DEVit week. Our local communities have grown strong and are
-      ready to celebrate the biggest technological event of the year with a full week of festivities. Each day there will be
-      multiple meetups, gatherings and events, accompanied by our international speakers. As the conference grows so do
-      our budgets, this allows us to host the international speakers for longer periods of time maximizing their impact on the
-      local community and creating new, international bonds that open up new opportunities and knowledge sharing on all the levels.
+      <p>Our local communities have grown strong and are ready to celebrate the biggest technological event of the year with a full week of festivities. Each day there will be multiple meetups, gatherings and events, accompanied by our international speakers.</p>
+      <p>As the conference grows so do our budgets, this allows us to host the international speakers for longer periods of time maximizing their impact on the local community and creating new, international bonds that open up new opportunities and knowledge sharing on all the levels.
       </p>
     </div>
   </div>
@@ -32,30 +29,24 @@ custom_js:
         <div role="tabpanel" class="tab-pane" id="workshops">
           <div class="workshops__header">
             <ul class="workshops__tabs" role="tablist">
-
               <li role="tue" class="active">
                 <a href="#tue" aria-controls="tue" role="tab" data-toggle="tab">
-                  Tue 5/6
+                  Tue 4/6
                 </a>
               </li>
               <li role="wed">
                 <a href="#wed" aria-controls="wed" role="tab" data-toggle="tab">
-                  Wed 6/6
+                  Wed 5/6
                 </a>
               </li>
               <li role="thur">
                 <a href="#thur" aria-controls="thur" role="tab" data-toggle="tab">
-                  Thu 7/6
+                  Thu 6/6
                 </a>
               </li>
                <li role="frid">
                 <a href="#frid" aria-controls="frid" role="tab" data-toggle="tab">
-                  Fri 8/6
-                </a>
-              </li>
-              <li role="satu">
-                <a href="#satu" aria-controls="satu" role="tab" data-toggle="tab">
-                  Sat 9/6
+                  Fri 7/6
                 </a>
               </li>
             </ul>
@@ -97,16 +88,6 @@ custom_js:
                 <div class="schedule-list">
                   {% for entry in site.data.devitweek.schedule.schedule %}
                     {% if entry.day == 'friday' %}
-                      {% include components/devitWeekScheduleItems.html event=entry %}
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </div>
-
-              <div role="tabpanel" class="tab-pane " id="satu">
-                <div class="schedule-list">
-                  {% for entry in site.data.devitweek.schedule.schedule %}
-                    {% if entry.day == 'saturday' %}
                       {% include components/devitWeekScheduleItems.html event=entry %}
                     {% endif %}
                   {% endfor %}

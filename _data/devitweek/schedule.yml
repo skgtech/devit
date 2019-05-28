@@ -1,1 +1,188 @@
 schedule:
+  - type: meetup
+    day: tuesday
+    title: 'Python and Machine Learning Meetup'
+    datetime: 'Tuesday, June 4, 2019, 06:30 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+  - type: just_text
+    day: tuesday
+    hours: 18
+    mins: '30'
+    title: Doors open
+
+  - type: talk_meetup
+    day: tuesday
+    hours: 19
+    mins: '15'
+    title: Pretend you know Python using Machine Learning"
+    speaker: Stavros Korokithakis
+    meetup: PyThess
+    meetup_link: https://www.meetup.com/PyThess/
+
+  - type: just_text
+    day: tuesday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: tuesday
+    hours: 20
+    mins: '15'
+    title: 'Pretend you know Machine Learning using Python'
+    speaker: Nikolaos Passalis
+    meetup: Thessaloniki Machine Learning Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-Machine-Learning-Meetup/
+
+  - type: drinks
+    day: tuesday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+
+
+
+  - type: meetup
+    day: wednesday
+    title: 'Node.JS and CocoaHeads Meetup'
+    datetime: 'Wednesday, June 6, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+  - type: just_text
+    day: wednesday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_meetup
+    day: wednesday
+    hours: 18
+    mins: '30'
+    title: 'TBA'
+    speaker: TBA
+    meetup: Node.js Meetup
+
+  - type: talk_meetup
+    day: wednesday
+    hours: 19
+    mins: '15'
+    title: Advanced Screen Transitions on iOS
+    speaker: Dimitris Tsiflitzis
+    meetup: Cocoaheads Meetup
+    meetup_link: https://www.meetup.com/CocoaHeadsSKG/
+
+  - type: just_text
+    day: wednesday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_devit
+    day: wednesday
+    hours: 20
+    mins: '15'
+    title: 'Title: Dealing with forms in React, without losing your sanity'
+    speaker: Radoslav Stankov
+
+  - type: drinks
+    day: wednesday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+
+
+
+  - type: meetup
+    day: thursday
+    title: 'UX and Digital Analytics Meetup'
+    datetime: 'Thursday, June 7, 2018, 06:30 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+  - type: just_text
+    day: thursday
+    hours: 18
+    mins: '30'
+    title: Doors open
+
+  - type: talk_meetup
+    day: thursday
+    hours: 19
+    mins: '00'
+    title: 'If it ain’t broke, don’t fix it'
+    speaker: Lena Lekkou
+    meetup: UX Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-UX-Meetup/
+
+  - type: just_text
+    day: thursday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: thursday
+    hours: 20
+    mins: '15'
+    title: 'CI/CD of online experiences using digital analytics'
+    speaker: Panagiotis Tzamtzis, Despina Gkouva
+    meetup: Digital Analytics
+    meetup_link: https://www.meetup.com/Digital-Analytics-Meetup-Thessaloniki/
+
+  - type: drinks
+    day: thursday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
+
+
+
+  - type: meetup
+    day: friday
+    title: 'React and .NET Meetup'
+    datetime: 'Friday, June 8, 2018, 06:00 PM to 10:00 PM'
+    venue: 'At OK!Thess, Komotinis 2, 54655, Thessaloniki'
+
+  - type: just_text
+    day: friday
+    hours: 18
+    mins: '00'
+    title: Doors open
+
+  - type: talk_meetup
+    day: friday
+    hours: 18
+    mins: '30'
+    title: 'React Native – Expo'
+    speaker: Pavlos Koutoglou
+    meetup: React Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-ReactJS-Meetup/
+
+  - type: talk_meetup
+    day: friday
+    hours: 19
+    mins: '15'
+    title: 'Whats the deal with CosmosDB?'
+    speaker: Giorge Anthopoulos
+    meetup: Thessaloniki .NET Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-NET-Meetup/
+
+  - type: just_text
+    day: friday
+    hours: 20
+    mins: '00'
+    title: Break
+
+  - type: talk_meetup
+    day: friday
+    hours: 20
+    mins: '15'
+    title: 'TBA'
+    speaker: TBA
+    meetup: TBA
+
+  - type: drinks
+    day: friday
+    hours: 21
+    mins: '00'
+    title: Social Hour! Pizzas and beers
