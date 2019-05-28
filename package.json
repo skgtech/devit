@@ -6,43 +6,54 @@
     "deploy": "gulp build && gh-pages -d _site",
     "deploy:staging": "gulp build --config _config-sta.yml && gh-pages -d _site -b sta-gh-pages",
     "develop": "gulp",
+    "sass": "gulp sass",
     "build": "gulp build",
     "lint": "htmlproofer ./_site --file-ignore \"/2015/,/2016/,/2017/,/2018/,/legacy/,/working/\" --assume-extension true --check-opengraph true --check-html true --http_status_ignore 999"
   },
   "devDependencies": {
-    "bootstrap-sass": "~3.3.7",
-    "browser-sync": "^2.23.7",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "bootstrap-sass": "^3.4.1",
+    "browser-sync": "^2.26.5",
     "codebird": "~2.6.0",
-    "css-loader": "^0.28.11",
-    "fancy-select": "~2.0.2",
-    "file-loader": "~1.1.6",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
     "flowtype": "~2.0.0",
     "font-awesome": "~4.7.0",
-    "gmap3": "~7.1.0",
-    "gulp": "~3.9.1",
-    "gulp-autoprefixer": "~5.0.0",
-    "gulp-sass": "^3.2.1",
-    "gulp-sourcemaps": "^2.6.4",
+    "gmap3": "^7.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
     "instafeed.js": "~1.4.1",
-    "jquery": "~3.1.1",
+    "jquery": "^3.4.1",
     "jquery-placeholder": "~2.3.1",
     "jquery-ui": "~1.12.1",
     "lightslider": "^1.1.6",
     "minimist": "^1.2.0",
-    "modernizr": "~3.3.1",
-    "normalize.css": "~5.0.0",
+    "modernizr": "^3.7.1",
+    "normalize.css": "^8.0.1",
     "phonon": "^1.4.8",
-    "picturefill": "^3.0.2",
-    "sass-loader": "~6.0.6",
-    "style-loader": "~0.20.3",
-    "url-loader": "~1.0.1",
-    "webpack-stream": "^4.0.3"
+    "picturefill": "^3.0.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack-stream": "^5.2.1"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "gh-pages": "^1.1.0",
-    "vanilla-lazyload": "^10.5.2"
+    "gh-pages": "^2.0.1",
+    "vanilla-lazyload": "^12.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }
