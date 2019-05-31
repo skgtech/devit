@@ -1,0 +1,461 @@
+talks:
+  - type: 'fa-ticket-alt'
+    title: Registration
+    hours: 08
+    mins: 30
+    duration: 60
+    day: speaker_day
+
+  - type: 'fa-bullhorn'
+    title: Opening Ceremony
+    hours: 09
+    mins: '30'
+    duration: 15
+    day: speaker_day
+
+  - type: talk
+    speaker: jerry_nixon
+    hours: 9
+    mins: '45'
+    duration: 45
+    day: speaker_day
+
+  - type: talk
+    speaker: maciej_treder
+    hours: 10
+    mins: '30'
+    duration: 45
+    day: speaker_day
+
+  - type: 'fa-coffee'
+    title: Coffee
+    hours: 11
+    mins: '15'
+    duration: 30
+    day: speaker_day
+
+  - type: talk
+    speaker: nikolay_stoitzev
+    hours: 11
+    mins: '45'
+    duration: 45
+    day: speaker_day
+
+  - type: talk
+    speaker: debbie_levvit
+    hours: 12
+    mins: '30'
+    duration: 45
+    day: speaker_day
+
+  - type: 'fa-utensils'
+    title: Lunch
+    hours: 13
+    mins: '15'
+    duration: 60
+    day: speaker_day
+
+  - type: talk
+    speaker: radoslav_stankov
+    hours: 14
+    mins: '30'
+    duration: 45
+    day: speaker_day
+
+  - type: talk
+    speaker: bonnie_zhou
+    hours: 15
+    mins: '15'
+    duration: 45
+    day: speaker_day
+
+  - type: 'fa-user'
+    title: Talk TBA
+    hours: 16
+    mins: '00'
+    duration: 45
+    day: speaker_day
+
+  - type: 'fa-coffee'
+    title: Coffee
+    hours: 16
+    mins: '45'
+    duration: 30
+    day: speaker_day
+
+  - type: 'fa-user'
+    title: Talk TBA
+    hours: 17
+    mins: '15'
+    duration: 45
+    day: speaker_day
+
+  - type: talk
+    speaker: harry_roberts
+    hours: 18
+    mins: '00'
+    duration: 45
+    day: speaker_day
+
+  - type: 'fa-bullhorn'
+    title: Closing Ceremony
+    hours: 18
+    mins: '45'
+    duration: 15
+    day: speaker_day
+
+  - type: 'fa-glass-martini'
+    title: 'After Party'
+    hours: 19
+    mins: '00'
+    duration: 120
+    day: speaker_day
+
+workshops:
+  - type: 'fa-ticket-alt'
+    title: Registration & Coffee
+    hours: 09
+    mins: '00'
+    duration: 60
+    room: room_01
+    day: workshops
+
+  - type: workshop
+    speaker: irina_scurtu
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_01
+    day: workshops
+    part: part_1
+    workshoptype: allday
+
+  - type: 'fa-utensils'
+    title: Lunch
+    hours: 12
+    mins: '30'
+    duration: 60
+    room: room_01
+    day: workshops
+
+  - type: workshop
+    speaker: irina_scurtu
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_01
+    day: workshops
+    part: part_2
+    workshoptype: allday
+
+  - type: 'fa-coffee'
+    title: Coffee Break
+    hours: 16
+    mins: '00'
+    duration: 30
+    room: room_01
+    day: workshops
+
+  - type: workshop
+    speaker: irina_scurtu
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_01
+    day: workshops
+    part: part_3
+    workshoptype: allday
+
+  - type: 'fa-hourglass-end'
+    title: End of Workshop Day
+    hours: 19
+    mins: '00'
+    room: room_01
+    day: workshops
+
+  - type: 'fa-ticket-alt'
+    title: Registration & Coffee
+    hours: 09
+    mins: '00'
+    duration: 60
+    room: room_02
+    day: workshops
+
+  - type: workshop
+    speaker: luciano_mammino
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_02
+    day: workshops
+    part: part_1
+    workshoptype: allday
+
+  - type: 'fa-utensils'
+    title: Lunch
+    hours: 12
+    mins: '30'
+    duration: 60
+    room: room_02
+    day: workshops
+
+  - type: workshop
+    speaker: luciano_mammino
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_02
+    day: workshops
+    part: part_2
+    workshoptype: allday
+
+  - type: 'fa-coffee'
+    title: Coffee Break
+    hours: 16
+    mins: '00'
+    duration: 30
+    room: room_02
+    day: workshops
+
+  - type: workshop
+    speaker: luciano_mammino
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_02
+    day: workshops
+    part: part_3
+    workshoptype: allday
+
+  - type: 'fa-hourglass-end'
+    title: End of Workshop Day
+    hours: 19
+    mins: '00'
+    room: room_02
+    day: workshops
+
+  - type: 'fa-ticket-alt'
+    title: Registration & Coffee
+    hours: 09
+    mins: '00'
+    duration: 60
+    room: room_03
+    day: workshops
+
+  - type: workshop
+    speaker: orhan_celik
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_03
+    day: workshops
+    workshoptype: morning
+
+  - type: 'fa-utensils'
+    title: Lunch
+    hours: 12
+    mins: '30'
+    duration: 60
+    room: room_03
+    day: workshops
+
+  - type: workshop
+    speaker: orhan_celik
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_03
+    day: workshops
+    workshoptype: noon
+
+  - type: 'fa-coffee'
+    title: Coffee Break
+    hours: 16
+    mins: '00'
+    duration: 30
+    room: room_03
+    day: workshops
+
+  - type: workshop
+    speaker: orhan_celik
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_03
+    day: workshops
+    workshoptype: evening
+
+  - type: 'fa-hourglass-end'
+    title: End of Workshop Day
+    hours: 19
+    mins: '00'
+    room: room_03
+    day: workshops
+
+  - type: 'fa-ticket-alt'
+    title: Registration & Coffee
+    hours: 09
+    mins: '00'
+    duration: 60
+    room: room_04
+    day: workshops
+
+  - type: workshop
+    speaker: gianluca_casati
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_04
+    day: workshops
+    workshoptype: morning
+
+  - type: 'fa-utensils'
+    title: Lunch
+    hours: 12
+    mins: '30'
+    duration: 60
+    room: room_04
+    day: workshops
+
+  - type: workshop
+    speaker: gianluca_casati
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_04
+    day: workshops
+    workshoptype: noon
+
+  - type: 'fa-coffee'
+    title: Coffee Break
+    hours: 16
+    mins: '00'
+    duration: 30
+    room: room_04
+    day: workshops
+
+  - type: workshop
+    speaker: gianluca_casati
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_04
+    day: workshops
+    workshoptype: evening
+
+  - type: 'fa-hourglass-end'
+    title: End of Workshop Day
+    hours: 19
+    mins: '00'
+    room: room_04
+    day: workshops
+
+allworkshops:
+
+  - type: workshop
+    speaker: irina_scurtu
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_01
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: luciano_mammino
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_02
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: orhan_celik
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_03
+    day: workshops
+    workshoptype: morning
+
+  - type: workshop
+    speaker: gianluca_casati
+    hours: 10
+    mins: '00'
+    duration: 150
+    room: room_04
+    day: workshops
+    workshoptype: morning
+
+  - type: workshop
+    speaker: irina_scurtu
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_01
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: luciano_mammino
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_02
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: orhan_celik
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_03
+    day: workshops
+    workshoptype: noon
+
+  - type: workshop
+    speaker: gianluca_casati
+    hours: 13
+    mins: '30'
+    duration: 150
+    room: room_04
+    day: workshops
+    workshoptype: noon
+
+  - type: workshop
+    speaker: irina_scurtu
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_01
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: luciano_mammino
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_02
+    day: workshops
+    workshoptype: allday
+
+  - type: workshop
+    speaker: orhan_celik
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_03
+    day: workshops
+    workshoptype: evening
+
+  - type: workshop
+    speaker: gianluca_casati
+    hours: 16
+    mins: '30'
+    duration: 150
+    room: room_04
+    day: workshops
+    workshoptype: evening
