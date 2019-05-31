@@ -117,23 +117,6 @@ speakers:
       linkedin: https://www.linkedin.com/in/orhancelik/
     bio: |
       <p>Orhan is helping companies and organizations to use the power of Artificial Intelligence & Machine Learning technologies. He has more than 20 years of professional experience, and he helped clients across the globe on Customer Behavior Analytics and Financial Data Analytics projects, working closely with IT, BI, Data Science and Marketing teams.</p>
-  - url: ankita_kulkarni
-    year: 2019
-    hearFor: Talk
-    tags:
-      - ReactNative
-      - a11y
-      - Accessibility
-    first_name: Ankita
-    last_name: Kulkarni
-    image_filename: Ankita_Kulkarni.jpg
-    tagline: "Senior software developer, Web and mobile expertise!"
-    social:
-      twitter: kulkarniankita9
-      homepage: https://medium.com/@kulkarniankita9
-      github: kulkarniankita
-    bio: |
-      <p>Ankita has over 5 years of Software Development experience that started with helping small businesses develop apps 🕸. Currently, she is a Senior Software Developer at Rangle.io based in Toronto where she builds web and mobile an applications for clients using modern JavaScript. Prior to that, Ankita worked at IBM, Canada, Cloud Garage for 4 years where she built several web and mobile applications using artificial intelligence, modern JavaScript, and native languages for about 4 years 🚀.</p><p>Outside of work, Ankita is a mentor at Lighthouse Labs as well as a software development instructor at Bridge School ✨. She loves public speaking 📣 and has spoken at several conferences, which has also allowed her to pursue her passion for travel ✈️.</p><p>When not behind a screen, Ankita enjoys swimming and has been playing Trampoline dodgeball since January 2015‍ 🙋.</p>
   - url: bonnie_zhou
     year: 2019
     hearFor: Talk
