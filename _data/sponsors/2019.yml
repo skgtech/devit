@@ -50,9 +50,20 @@ bronze:
       url: https://workable.com
       override_height: 50px
 
-
 media:
   -
     - name: makthes
       url: https://www.makthes.gr
       img: /assets/images/partners/makthes.svg
+
+drinks:
+  -
+    - name: heineken
+      url: https://www.heineken.com/gr
+      img: /assets/images/sponsors/heineken2019.jpg
+    - name: heineken0
+      url: https://www.heineken.com/gr/heineken00
+      img: /assets/images/sponsors/heinekenzero2019.jpg
+    - name: milokleftis
+      url: https://milokleftis.gr/
+      img: /assets/images/sponsors/milokleftis.png

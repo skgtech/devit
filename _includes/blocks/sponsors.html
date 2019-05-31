@@ -55,6 +55,16 @@
           items=mediaSponsors
         %}
       {% endif %}
+
+      {% assign drinksSponsors = site.data.sponsors[year].drinks %}
+      {% if drinksSponsors %}
+
+        <div class="cfs__title">drinks</div>
+        {% include
+          components/icons-stack.html
+          items=drinksSponsors
+        %}
+      {% endif %}
     </div>
 
     {% if site.data.config.sponsors.cfs %}
