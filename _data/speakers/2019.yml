@@ -117,24 +117,6 @@ speakers:
       linkedin: https://www.linkedin.com/in/orhancelik/
     bio: |
       <p>Orhan is helping companies and organizations to use the power of Artificial Intelligence & Machine Learning technologies. He has more than 20 years of professional experience, and he helped clients across the globe on Customer Behavior Analytics and Financial Data Analytics projects, working closely with IT, BI, Data Science and Marketing teams.</p>
-  - url: bonnie_zhou
-    year: 2019
-    hearFor: Talk
-    tags:
-      - JavaScript
-      - Frontend
-      - Web
-      - Frameworks
-    first_name: Bonnie
-    last_name: Zhou
-    image_filename: Bonnie_Zhou.jpg
-    tagline: "Software Engineer at Google"
-    social:
-      twitter: bonniezzzhou
-      homepage: http://bonniezhou.com
-      github: bonniezhou
-    bio: |
-      <p>Bonnie Zhou is a software engineer blending the worlds of design and engineering at Google's Material Design.</p>
   - url: maciej_treder
     year: 2019
     hearFor: Talk
@@ -184,3 +166,21 @@ speakers:
       homepage: http://g14n.info/
     bio: |
       <p>Italian mathematician working as a Fullstack developer. ❤ coding and open source. Plays guitar and percussions.</p>
+  - url: bonnie_zhou
+    year: 2019
+    hearFor: Talk
+    tags:
+      - JavaScript
+      - Frontend
+      - Web
+      - Frameworks
+    first_name: Bonnie
+    last_name: Zhou
+    image_filename: Bonnie_Zhou.jpg
+    tagline: "Software Engineer at Google"
+    social:
+      twitter: bonniezzzhou
+      homepage: http://bonniezhou.com
+      github: bonniezhou
+    bio: |
+      <p>Bonnie Zhou is a software engineer blending the worlds of design and engineering at Google's Material Design.</p>
