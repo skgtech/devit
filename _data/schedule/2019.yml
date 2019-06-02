@@ -35,14 +35,14 @@ talks:
     day: speaker_day
 
   - type: talk
-    speaker: nikolay_stoitzev
+    speaker: nikolay_stoitsev
     hours: 11
     mins: '45'
     duration: 45
     day: speaker_day
 
   - type: talk
-    speaker: debbie_levvit
+    speaker: debbie_levitt
     hours: 12
     mins: '30'
     duration: 45
