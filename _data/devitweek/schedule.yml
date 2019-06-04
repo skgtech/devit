@@ -18,7 +18,7 @@ schedule:
     title: Pretend you know Python using Machine Learning
     speaker: Stavros Korokithakis
     meetup: PyThess
-    meetup_link: https://www.meetup.com/PyThess/
+    meetup_link: https://www.meetup.com/PyThess/events/261764472/
 
   - type: just_text
     day: tuesday
@@ -33,7 +33,7 @@ schedule:
     title: 'Pretend you know Machine Learning using Python'
     speaker: Nikolaos Passalis
     meetup: Thessaloniki Machine Learning Meetup
-    meetup_link: https://www.meetup.com/Thessaloniki-Machine-Learning-Meetup/
+    meetup_link: https://www.meetup.com/Thessaloniki-Machine-Learning-Meetup/events/261798970/
 
   - type: drinks
     day: tuesday
@@ -157,7 +157,7 @@ schedule:
     title: 'React Native – Expo'
     speaker: Pavlos Koutoglou
     meetup: React Meetup
-    meetup_link: https://www.meetup.com/Thessaloniki-ReactJS-Meetup/
+    meetup_link: https://www.meetup.com/Thessaloniki-ReactJS-Meetup/events/261975479/
 
   - type: talk_meetup
     day: friday
@@ -166,7 +166,7 @@ schedule:
     title: 'Whats the deal with CosmosDB?'
     speaker: Giorge Anthopoulos
     meetup: Thessaloniki .NET Meetup
-    meetup_link: https://www.meetup.com/Thessaloniki-NET-Meetup/
+    meetup_link: https://www.meetup.com/Thessaloniki-NET-Meetup/events/261540832/
 
   - type: just_text
     day: friday
