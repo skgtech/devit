@@ -5,5 +5,4 @@
   - name: Intermediakt
     url: http://intermediakt.org/
     img: /assets/images/partners/intermediakt.png
-    override_height: 100px
-
+    override_height: 90px
