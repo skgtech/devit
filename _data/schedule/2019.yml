@@ -83,8 +83,8 @@ talks:
     duration: 30
     day: speaker_day
 
-  - type: 'fa-user'
-    title: Talk TBA
+  - type: talk
+    speaker: irina_scurtu
     hours: 17
     mins: '15'
     duration: 45

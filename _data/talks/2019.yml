@@ -7,6 +7,7 @@
     - Machine Learning
     - Cloud Computing
     - Quantum
+
 - title: "2 Years GraphQL in Production at Product Hunt"
   speaker: radoslav_stankov
   type: Talk
@@ -15,6 +16,7 @@
     - GraphQL
     - Ruby on Rails
     - Backend
+
 - title: "It’s about time to embrace Streams"
   speaker: luciano_mammino
   type: Workshop
@@ -24,6 +26,7 @@
     - JavaScript
     - Streams
     - Performance
+
 - title: "DevOps ICU: Improving DevOps Results by (Correctly) Integrating UX"
   speaker: debbie_levitt
   type: Talk
@@ -33,6 +36,7 @@
     - Product
     - Culture
     - Processes
+
 - title: "Deep Dive in Asp Core"
   speaker: irina_scurtu
   type: Workshop
@@ -58,7 +62,8 @@ Familiarity with .Net and C#
   tags:
     - .NET
     - Backend
-    - Backend
+    - API
+
 - title: "More Than You Ever Wanted to Know About Resource Hints"
   speaker: harry_roberts
   type: Talk
@@ -67,6 +72,7 @@ Familiarity with .Net and C#
     - resourcehints
     - webperf
     - perfmatters
+
 - title: "Building an Every-Framework Component Library"
   speaker: bonnie_zhou
   type: Talk
@@ -76,6 +82,7 @@ Familiarity with .Net and C#
     - Frontend
     - Web
     - Frameworks
+
 - title: "Data Science is not Rocket Science: Creating Machine Learning Models with Python on Azure"
   speaker: orhan_celik
   type: Workshop
@@ -85,6 +92,17 @@ Familiarity with .Net and C#
     - ML
     - Python
     - Azure
+
+- title: "Forget about HTTP requests"
+  speaker: irina_scurtu
+  type: Talk
+  description: "<p>Microservices should be autonomous and independent, but what happens when your business domain doesn’t allow it, and you need to get data from other microservices? You’ll soon realize that simple HTTP calls are not enough anymore, or that your app is more brittle than ever and then you switch to messaging. With messaging you need to have a different mindset and be willing to embrace new challenges.</p>"
+  tags:
+    - Micro Services
+    - Queues
+    - NOHTTP
+    - ASP.NET
+
 - title: "Progressive Web Apps: Future of web development"
   speaker: maciej_treder
   type: Talk
@@ -94,6 +112,7 @@ Familiarity with .Net and C#
     - Mobile
     - JavaScript
     - Angular
+
 - title: "Migrating a data intensive microservice from Python to Go"
   speaker: nikolay_stoitsev
   type: Talk
