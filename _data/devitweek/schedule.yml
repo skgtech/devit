@@ -59,9 +59,10 @@ schedule:
     day: wednesday
     hours: 18
     mins: '30'
-    title: 'NodeJS meetup'
-    speaker: TBA
+    title: 'Design Smells'
+    speaker: Dimitris Dranidis
     meetup: Node.js Meetup
+    meetup_link: https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/262003861
 
   - type: talk_meetup
     day: wednesday
@@ -70,7 +71,7 @@ schedule:
     title: Advanced Screen Transitions on iOS
     speaker: Dimitris Tsiflitzis
     meetup: Cocoaheads Meetup
-    meetup_link: https://www.meetup.com/CocoaHeadsSKG/
+    meetup_link: https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/262003861
 
   - type: just_text
     day: wednesday
