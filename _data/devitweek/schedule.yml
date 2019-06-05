@@ -39,7 +39,7 @@ schedule:
     day: tuesday
     hours: 21
     mins: '00'
-    title: Social Hour! Pizzas and beers
+    title: Social Hour! Snacks and beers
 
 
 
@@ -90,7 +90,7 @@ schedule:
     day: wednesday
     hours: 21
     mins: '00'
-    title: Social Hour! Pizzas and beers
+    title: Social Hour! Snacks and beers
 
 
 
@@ -134,7 +134,7 @@ schedule:
     day: thursday
     hours: 21
     mins: '00'
-    title: Social Hour! Pizzas and beers
+    title: Social Hour! Snacks and beers
 
 
 
@@ -185,4 +185,4 @@ schedule:
     day: friday
     hours: 21
     mins: '00'
-    title: Social Hour! Pizzas and beers
+    title: Social Hour! Snacks and beers
