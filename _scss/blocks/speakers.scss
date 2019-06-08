@@ -17,9 +17,11 @@
     padding-top: 100px;
   }
 }
+
 .speakers-list__item {
   @include make-sm-column(6);
   @include make-md-column(4);
+
   margin-top: 10px;
   margin-bottom: 10px;
   transform: translate3d(0, 0, 0); // (2)
@@ -46,6 +48,12 @@
     }
   }
 }
+
+.speakers-list__item--center {
+  @include make-sm-column-push(3);
+  @include make-md-column-push(4);
+}
+
 .speaker {
   height: auto;
   text-align: center;

@@ -184,3 +184,16 @@ speakers:
       github: bonniezhou
     bio: |
       <p>Bonnie Zhou is a software engineer blending the worlds of design and engineering at Google's Material Design.</p>
+  - url: maria_kalafatis
+    year: 2019
+    hearFor: Master of Ceremonies
+    tags:
+    first_name: Maria
+    last_name: Kalafatis
+    image_filename: Maria_Kalafatis.jpg
+    tagline: Co-Founder at The Cube Athens
+    social:
+      twitter: CubeAthens
+      linkedin: https://www.linkedin.com/in/maria-calafatis-frsa-9375a167/
+    bio: |
+      <p>Maria is the Co - Founder at The Cube Workspace. </p><p>Athens’ largest co-working community, which hosts some of Greece’s best experts in technology. </p><p>The Cube is also home to most of Athens’ technology events, hackathons, innovation sessions and training events. </p><p>Through coding and business bootcamps, The Cube is creating the next generation of top tier coders and businessmakers.</p><p>Prior to this Maria had cofounded Greece’s first coworking community, coLab Athens with her partner Stavros Messinis. </p>
