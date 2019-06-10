@@ -9,49 +9,49 @@ talks:
   - type: 'fa-bullhorn'
     title: Opening Ceremony
     hours: 09
-    mins: '30'
+    mins: '45'
     duration: 15
     day: speaker_day
 
   - type: talk
     speaker: jerry_nixon
-    hours: 9
-    mins: '45'
+    hours: 10
+    mins: '00'
     duration: 45
     day: speaker_day
 
   - type: talk
     speaker: maciej_treder
     hours: 10
-    mins: '30'
+    mins: '45'
     duration: 45
     day: speaker_day
 
   - type: 'fa-coffee'
     title: Coffee
     hours: 11
-    mins: '15'
+    mins: '30'
     duration: 30
     day: speaker_day
 
   - type: talk
     speaker: nikolay_stoitsev
-    hours: 11
-    mins: '45'
+    hours: 12
+    mins: '00'
     duration: 45
     day: speaker_day
 
   - type: talk
     speaker: debbie_levitt
     hours: 12
-    mins: '30'
+    mins: '45'
     duration: 45
     day: speaker_day
 
   - type: 'fa-utensils'
     title: Lunch
     hours: 13
-    mins: '15'
+    mins: '30'
     duration: 60
     day: speaker_day
 
