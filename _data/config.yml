@@ -27,7 +27,6 @@ venue: blah blah
 currentMode: "nextfull"
 
 isCFPOpen: false
-moreSpeakersToBeAnnounced: false
 CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
 venuesConfirmed:
@@ -41,7 +40,7 @@ sponsors:
 
 tickets:
   url: /tickets
-  enabled: true
+  enabled: false
   early: true
   blind: false
   regular: false
