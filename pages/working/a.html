@@ -1,10 +1,13 @@
 ---
-permalink: /working/a.html
+layout: default
+title: Mode A
+description: Test
+permalink: /modeA
 custom_js:
-- new.bundle.js
----
+  - schedule.bundle.js
+--- 
 
-{% include blocks/menu.html %}
+{% include blocks/header.html %}
 {% include blocks/photo-album.html %}
 {% include blocks/tweets.html %}
 {% include blocks/footer.html %}
