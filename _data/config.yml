@@ -24,7 +24,7 @@ venue: blah blah
 
 # Current mode. Site will be modified based on this
 # values: "dday|nextday|nextblind|nextfull"
-currentMode: "nextfull"
+currentMode: "nextday"
 
 isCFPOpen: false
 CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"

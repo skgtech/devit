@@ -11,9 +11,7 @@
     <div class="navbar-brand {% if page.url == "/index.html" %}navbar-brand--hidden{% endif %}">
       <a href="/" class="navbar-logo"></a>
       <div class="navbar-date">
-        {% if site.data.config.currentMode == 'nextday' %}
-          <span class="navbar-date__date navbar-date__date--light">{{site.data.config.date}}</span><br/>
-        {% else %}
+        {% if site.data.config.currentMode != 'nextday' %}
           <span class="navbar-date__date">{{site.data.config.date}}</span><br/>
           <span class="navbar-date__place">Thessaloniki, Greece</span>
         {% endif %}
@@ -33,12 +31,12 @@
           <!-- Read speakers size from data and decide to show this or not -->
           <a class="main-menu__link" href="/#speakers">Speakers</a>
         </li>
-        <li>
+        <!-- <li>
           <a class="main-menu__link" href="/#venue">Venue</a>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
           <a class="main-menu__link" href="/devit-week">DEVit Week</a>
-        </li>
+        </li> -->
         <li>
           <a class="main-menu__link" href="/schedule">Schedule</a>
         </li>

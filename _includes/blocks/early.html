@@ -1,35 +1,37 @@
-{% if site.data.config.tickets.enabled %}
-<div class="index-item buy-tickets">
-  <div class="index-item__container">
-    <div class="index-item__left">
-      <img class="index-item__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
-    </div>
-    <div class="index-item__right">
-      <div class="block__heading--dark">
-        Get your tickets now!
+{% if site.data.config.currentMode != 'nextday' %}
+  {% if site.data.config.tickets.enabled %}
+    <div class="index-item buy-tickets">
+      <div class="index-item__container">
+        <div class="index-item__left">
+          <img class="index-item__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
+        </div>
+        <div class="index-item__right">
+          <div class="block__heading--dark">
+            Get your tickets now!
+          </div>
+          <p class="dark">
+            Whether it’s Frontend, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques. Secure your ticket now, while there is still availability.
+          </p>
+          <a href="{{ site.data.config.tickets.url }}" class="block__cta">Buy tickets</a>
+        </div>
       </div>
-      <p class="dark">
-        Whether it’s Frontend, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques. Secure your ticket now, while there is still availability.
-      </p>
-      <a href="{{ site.data.config.tickets.url }}" class="block__cta">Buy tickets</a>
     </div>
-  </div>
-</div>
-{% else %}
-<div class="index-item buy-tickets">
-  <div class="index-item__container">
-    <div class="index-item__left">
-      <img class="index-item__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
-    </div>
-    <div class="index-item__right">
-      <div class="block__heading--dark">
-        Tickets soon to open!
+    {% else %}
+    <div class="index-item buy-tickets">
+      <div class="index-item__container">
+        <div class="index-item__left">
+          <img class="index-item__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
+        </div>
+        <div class="index-item__right">
+          <div class="block__heading--dark">
+            Tickets soon to open!
+          </div>
+          <p class="dark">
+            Tickets are soon to be announced. Subscribe to our mailing list to be the first to hear when they are open.
+          </p>
+          <a href="#subscribe" class="block__cta">Stay tuned</a>
+        </div>
       </div>
-      <p class="dark">
-        Tickets are soon to be announced. Subscribe to our mailing list to be the first to hear when they are open.
-      </p>
-      <a href="#subscribe" class="block__cta">Stay tuned</a>
     </div>
-  </div>
-</div>
+  {% endif %}
 {% endif %}
