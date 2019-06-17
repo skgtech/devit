@@ -41,3 +41,16 @@
     </div>
   </div>
 </div>
+{% if site.data.previous[year].video %}
+<div class="video-moments">
+  <div class="container">
+    <div class="block__heading--light">
+      {{year}} moment videos
+    </div>
+    <p class="light">
+      We have released the photos of the last DEVit. We have released the photos of the last DEVit. We have released the photos of the last DEVit.
+    </p>
+    <a href="{{ site.data.previous[year].video }}" target="_blank" rel="noopener noreferrer" class="watch__cta__button">Watch it now!</a>
+  </div>
+</div>
+{% endif %}

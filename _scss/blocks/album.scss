@@ -59,3 +59,15 @@
   background-color: #FFFFFF;
   color: #003E73;
 }
+.watch__cta__button {
+  @extend .block__cta;
+  border-radius: 40px;
+  background-color: #FFFFFF;
+  color: red;
+}
+
+.video-moments {
+  @extend .block;
+  text-align: center;
+  background: red;
+}
