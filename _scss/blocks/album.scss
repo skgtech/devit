@@ -1,3 +1,7 @@
+.album {
+  background: white;
+}
+
 .album__row {
   @include make-row();
   background-color:#00629E;

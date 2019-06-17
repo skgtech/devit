@@ -1,10 +1,12 @@
 ---
+layout: default
 permalink: /working/a.html
 custom_js:
 - new.bundle.js
 ---
 
-{% include blocks/menu.html %}
-{% include blocks/photo-album.html %}
-{% include blocks/tweets.html %}
+{% include blocks/hero.html %}
+{% include blocks/photo-album.html year='2017' %}
+{% include blocks/speakers.html years='2019' %}
+{% include blocks/subscribe.html %}
 {% include blocks/footer.html %}
