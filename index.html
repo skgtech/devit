@@ -55,6 +55,17 @@
   
   <!-- End Facebook Pixel Code -->
 
+  <!-- Twitter universal website tag code -->
+  <script>
+  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+  // Insert Twitter Pixel ID and Standard Event data below
+  twq('init','o1rvs');
+  twq('track','PageView');
+  </script>
+  <!-- End Twitter universal website tag code -->
+
   <!-- Cookie consent -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
   <script>
@@ -80,7 +91,6 @@
   </script>
 </head>
 <body>
-
   <div class="hero home-header">
   <nav class="main-navbar sticky">
   <div class="container-fluid">
@@ -96,9 +106,6 @@
       <a href="/" class="navbar-logo"></a>
       <div class="navbar-date">
         
-          <span class="navbar-date__date">JUN 09-10, 2019</span><br/>
-          <span class="navbar-date__place">Thessaloniki, Greece</span>
-        
       </div>
     </div>
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -108,15 +115,18 @@
           <!-- Read speakers size from data and decide to show this or not -->
           <a class="main-menu__link" href="/#speakers">Speakers</a>
         </li>
-        <li>
+        <!-- <li>
           <a class="main-menu__link" href="/#venue">Venue</a>
+        </li> -->
+        <!-- <li>
+          <a class="main-menu__link" href="/devit-week">DEVit Week</a>
+        </li> -->
+        <!-- <li>
+          <a class="main-menu__link" href="/schedule">Schedule</a>
+        </li> -->
+        <li>
+          <a class="main-menu__link" href="/#sponsors">Sponsors</a>
         </li>
-        
-        
-        
-          <li>
-            <a class="main-menu__link--cta cta" href="/tickets">Buy tickets</a>
-          </li>
         
       </ul>
     </div>
@@ -129,59 +139,55 @@
   </video>
   <img class="hero__logo" src="/assets/images/logo/white/logo.svg" alt="DEVit logo">
   
-    <h1 class="hero__headline">JUN 09-10, 2019</h1>
-    <h2 class="hero__location">Thessaloniki, Greece</h2>
+    <h1 class="hero__headline hero__headline--light">Thank you for being part of DEVit 2019.</h1>
   
 </div>
 
 
-<div class="index-item buy-tickets">
-  <div class="index-item__container">
-    <div class="index-item__left">
-      <img class="index-item__img" src="/assets/images/new/tickets.svg" alt="Early birds tickets">
-    </div>
-    <div class="index-item__right">
-      <div class="block__heading--dark">
-        Get your tickets now!
-      </div>
-      <p class="dark">
-        Whether it’s Frontend, Backend, DevOps or Mobile that you care about, join us to learn about the most modern practices and techniques. Secure your ticket now, while there is still availability.
-      </p>
-      <a href="/tickets" class="block__cta">Buy tickets</a>
-    </div>
-  </div>
-</div>
 
-
-<div id="about" class="about-block text-center">
-  <div class="container">
-    <h2 class="block__heading">What is DEVit</h2>
-    <p class="leading">
-      DEVit is the leading web developer conference in South East Europe. Organized once per year, DEVit has become known for its top speaking talent, a mixture of world-class and world-renowned developers, highly specialized technology niches and developers who are on the edge of technology frontiers.
+<div class="album" id="photos">
+  <div class="block container text-center">
+    <div class="block__heading--dark">
+      The photo album
+    </div>
+    <p class="dark">
+      We have released the photos of the last DEVit. We have released the photos of the last DEVit. We have released the photos of the last DEVit.
     </p>
-
-    <div class="organizers__logos">
-  <p>organised by</p>
-  <ul class="list-inline">
-    <li>
-      <a href="https://skgtech.io/" target="_blank">
-        <img src="/assets/images/new/skgtech-logo.svg" alt="SKGTech">
-      </a>
-    </li>
-    <li>
-      <a href="http://www.shesharp.org/" target="_blank">
-        <img src="/assets/images/new/shesharp-logo.svg" alt="SKGTech">
-      </a>
-    </li>
-  </ul>
-</div>
-
-
-    <a href="/about" class="block__more-cta">About us
-      <i class="fas fa-long-arrow-alt-right"></i>
-    </a>
+  </div>
+  <div class="album__row">
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2019/ph-342x342-1.jpg" alt="">
+    </div>
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2019/ph-342x342-4.jpg" alt="">
+    </div>
+    <div class="album__two">
+      <div class="album__cta">
+        <div class="album__cta__heading">
+          Tag you very much
+        </div>
+        <div class="album__cta__paragraph">
+          Spot your face and tag your friends Spot your face and tag your friends Spot your.
+        </div>
+        <a href="" target="_blank" rel="noopener noreferrer" class="album__cta__button">Go</a>
+      </div>
+      <img class="album__img" src="/assets/images/albums/2019/ph-683x342-1.jpg" alt="">
+    </div>
+  </div>
+  <div class="album__row">
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2019/ph-342x342-3.jpg" alt="">
+    </div>
+    <div class="album__two">
+      <img class="album__img" src="/assets/images/albums/2019/ph-683x342-2.jpg" alt="">
+    </div>
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2019/ph-342x342-2.jpg" alt="">
+    </div>
   </div>
 </div>
+
+
 
 
 
@@ -624,83 +630,626 @@
 
     </div>
     
-    
-      <div class="speakers-list__item">
-        <div class="speaker-tba-no-hover speaker-tba">
-  <div class="speaker__avatar">
-    <img src="/assets/images/new/placeholder-profile-photo.svg" alt="DEVit Speaker"/>
-  </div>
-  <div class="speaker-tba__center">
-    <div class="speaker-tba__title">More Speakers <br/>to be announced</div>
-  </div>
-</div>
+    <div class="speakers-list__item">
+      
 
-      </div>
-    
-  </div>
-</div>
-
-
-
-
-
-<div id="venue" class="venues text-center">
-  <h2 class="block__heading--dark">The Venues</h2>
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/harry_roberts">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Harry_Roberts.jpg"
+      alt="Harry Roberts">
+  </a>
   
-  
-  <div class="venue">
-    <div class="venue__title">
-      Royal Theatre, Monday Jun 10
-    </div>
-    <div class="venue__for">
-        Talks
-      </div>
-    <div class="venue__description">
-      Monday, 10th of June will be a day dedicated to presentations, with a single track of 8 speakers. It will be hosted at the iconic Royal Theater of Thessaloniki, a spacious theatrical venue with a capacity of 683 people located at the heart of Thessaloniki, right next to the historic White Tower by the seaside.
-    </div>
-    <div class="venue__container">
-        <!--
-  Work in progress to create responsive images
- -->
-
-
-
-
-
-<div class="lazy venue__image" data-src="/assets/resized/royal_theatre-1000x666.jpg"></div>
-<!-- <img src="/assets/resized/royal_theatre-1000x666.jpg" alt="" srcset="      /assets/resized/royal_theatre-800x533.jpg 800w,      /assets/resized/royal_theatre-1000x666.jpg 1000w,  "> -->
-
-      <div class="venue__map">
-        <div class="map" data-long="40.6252233" data-lat="22.9495758"></div>
-      </div>
-    </div>
-  </div>
-  
-</div>
-
-
-<div class="plan-block text-center">
-  <div class="container">
-    <h2 class="block__heading">Plan your stay in Thessaloniki</h2>
-    <p class="">
-      Lonely Planet has described Thessaloniki as “easy to fall in love with – it has beauty, chaos, history and culture, a remarkable cuisine and wonderful, vast sea views.” Discover hotel options, attractions, things to do and combine your visit with a memorable experience.
-    </p>
-    <a href="/explore-thessaloniki" class="block__more-cta">Find out more
-      <i class="fas fa-long-arrow-alt-right"></i>
+    <a class="speaker__name" href="/speakers/harry_roberts">
+      <span>
+        Harry Roberts
+      </span>
     </a>
+    
+      <div class="speaker__title">Consultant Performance Engineer: @google, @UN, @Etsy, @ki...</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+  <span class="tag">
+    resourcehints
+  </span>
+  
+  <span class="tag">
+    webperf
+  </span>
+  
+  <span class="tag">
+    perfmatters
+  </span>
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/csswizardry" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://csswizardry.com" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fas fa-link"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/csswizardry" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/orhan_celik">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Orhan_Celik.jpg"
+      alt="Orhan Celik">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/orhan_celik">
+      <span>
+        Orhan Celik
+      </span>
+    </a>
+    
+      <div class="speaker__title">Cloud Solution Architect</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Workshop
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+  <span class="tag">
+    AI
+  </span>
+  
+  <span class="tag">
+    ML
+  </span>
+  
+  <span class="tag">
+    Python
+  </span>
+  
+  <span class="tag">
+    Azure
+  </span>
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/OrhanCelikTR" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/in/orhancelik/" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/maciej_treder">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Maciej_Treder.jpg"
+      alt="Maciej Treder">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/maciej_treder">
+      <span>
+        Maciej Treder
+      </span>
+    </a>
+    
+      <div class="speaker__title">Senior Software Development Engineer at Akamai Technologies</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+  <span class="tag">
+    Mobile
+  </span>
+  
+  <span class="tag">
+    JavaScript
+  </span>
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/maciejtreder" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://www.maciejtreder.com/" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fas fa-link"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/maciejtreder" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/nikolay_stoitsev">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Nikolay_Stoitsev.jpg"
+      alt="Nikolay Stoitsev">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/nikolay_stoitsev">
+      <span>
+        Nikolay Stoitsev
+      </span>
+    </a>
+    
+      <div class="speaker__title">Senior Software Engineer at Uber</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+  <span class="tag">
+    Go
+  </span>
+  
+  <span class="tag">
+    Python
+  </span>
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/stoitsev" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/stoitsev" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/gianluca_casati">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Gianluca_Casati.jpg"
+      alt="Gianluca Casati">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/gianluca_casati">
+      <span>
+        Gianluca Casati
+      </span>
+    </a>
+    
+      <div class="speaker__title">Fullstack Developer</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Workshop
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+  <span class="tag">
+    React
+  </span>
+  
+  <span class="tag">
+    AWS
+  </span>
+  
+  <span class="tag">
+    PWA
+  </span>
+  
+  <span class="tag">
+    Serverless
+  </span>
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/GianlucaCasati" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/fibo" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="http://g14n.info/" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fas fa-link"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/bonnie_zhou">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Bonnie_Zhou.jpg"
+      alt="Bonnie Zhou">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/bonnie_zhou">
+      <span>
+        Bonnie Zhou
+      </span>
+    </a>
+    
+      <div class="speaker__title">Software Engineer at Google</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+  <span class="tag">
+    JavaScript
+  </span>
+  
+  <span class="tag">
+    Frontend
+  </span>
+  
+  <span class="tag">
+    Web
+  </span>
+  
+  <span class="tag">
+    Frameworks
+  </span>
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/bonniezzzhou" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="http://bonniezhou.com" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fas fa-link"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/bonniezhou" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/maria_kalafatis">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2019/Maria_Kalafatis.jpg"
+      alt="Maria Kalafatis">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/maria_kalafatis">
+      <span>
+        Maria Kalafatis
+      </span>
+    </a>
+    
+      <div class="speaker__title">Co-Founder at The Cube Athens</div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Master of Ceremonies
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/CubeAthens" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/in/maria-calafatis-frsa-9375a167/" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    
   </div>
 </div>
 
 
-<div class="cfs">
+
+
+<div id="sponsors" class="cfs">
   <div class="cfs__container text-center">
     <div class="block__heading--dark">
-      Sponsors through the years
+      Our sponsors
     </div>
     <p class="dark">
-      We want to say a big thank you to all those who have supported us over the years and helped us grow into one of the leading tech conferences in South East Europe.
+      Thanks to all our sponsors for supporting us.
     </p>
-    <div class="icons-stack">
+
+    <div class="cfs__sponsors">
+      
+
+      
+      
+        <div class="cfs__title">Platinum</div>
+        <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--one">
+        
+        
+          <a href="https://www.synapsecom.gr/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/svg/synapsecom.svg"
+              alt="Synapsecom"
+              style=max-height:50px>
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+      
+
+      
+      
+        <div class="cfs__title">Gold</div>
+        <div class="icons-stack">
   
     <div class="icons-stack__row">
       
@@ -721,10 +1270,62 @@
           <div class="icons-stack__item icons-stack__item--three">
         
         
-          <a href="https://www.intrasoft-intl.com/" target="_blank" rel="noopener">
+          <a href="https://www.betadvanced.com" target="_blank" rel="noopener">
             <img
-              src="/assets/images/sponsors/svg/intrasoft.svg"
-              alt="Intrasoft"
+              src="/assets/images/sponsors/svg/betadvanced.svg"
+              alt="BETADVANCED"
+              style=max-height:60px>
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/svg/niagara.svg"
+              alt="Niagara"
+              style=max-height:60px>
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+      
+
+      
+      
+        <div class="cfs__title">Silver</div>
+        <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="https://www.itechscope.com/el" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/itechscope.png"
+              alt="iTechScope Recruitment"
+              style=max-height:60px>
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="https://www.epignosishq.com" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/epignosis.png"
+              alt="Epignosis"
               >
           </a>
         
@@ -734,11 +1335,11 @@
           <div class="icons-stack__item icons-stack__item--three">
         
         
-          <a href="https://resin.io/" target="_blank" rel="noopener">
+          <a href="https://www.prodyna.com/" target="_blank" rel="noopener">
             <img
-              src="/assets/images/sponsors/svg/resinio.svg"
-              alt="Resin.io"
-              >
+              src="/assets/images/sponsors/prodyna.png"
+              alt="Prodyna"
+              style=max-height:45px>
           </a>
         
       </div>
@@ -751,11 +1352,11 @@
           <div class="icons-stack__item icons-stack__item--two">
         
         
-          <a href="https://www.ibm.com/gr-el/" target="_blank" rel="noopener">
+          <a href="https://www.beta-cae.com/" target="_blank" rel="noopener">
             <img
-              src="/assets/images/sponsors/svg/ibm.svg"
-              alt="IBM"
-              style=max-height:50px>
+              src="/assets/images/sponsors/svg/beta.svg"
+              alt="BETA CAE"
+              style=max-height:150px>
           </a>
         
       </div>
@@ -764,11 +1365,11 @@
           <div class="icons-stack__item icons-stack__item--two">
         
         
-          <a href="https://www.trivago.gr/" target="_blank" rel="noopener">
+          <a href="https://www.eurodyn.com/" target="_blank" rel="noopener">
             <img
-              src="/assets/images/sponsors/svg/trivago.svg"
-              alt="Trivago"
-              style=max-height:60px>
+              src="/assets/images/sponsors/svg/ed.svg"
+              alt="European Dynamics"
+              style=max-height:150px>
           </a>
         
       </div>
@@ -777,14 +1378,268 @@
   
 </div>
 
-    <a href="mailto:hello@devitconf.org?Subject=We%20would%20like%20to%20sponsor%20DEVit" class="block__cta">
-      Contact us
-    </a>
+      
+
+      
+      
+        <div class="cfs__title">Bronze</div>
+        <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--one">
+        
+        
+          <a href="https://workable.com" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/svg/workable.svg"
+              alt="Workable"
+              style=max-height:50px>
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+      
+
+      
+      
+
+        <div class="cfs__title">Media</div>
+        <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--one">
+        
+        
+          <a href="https://www.makthes.gr" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/makthes.svg"
+              alt="makthes"
+              >
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+      
+
+      
+      
+
+        <div class="cfs__title">drinks</div>
+        <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="https://www.heineken.com/gr" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/heineken2019.jpg"
+              alt="heineken"
+              >
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="https://www.heineken.com/gr/heineken00" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/heinekenzero2019.jpg"
+              alt="heineken0"
+              >
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="https://milokleftis.gr/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/sponsors/milokleftis.png"
+              alt="milokleftis"
+              >
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+      
+    </div>
+
+    
+  </div>
+</div>
+
+
+<div class="partners text-center">
+  <div class="container">
+    <div class="block__heading--dark">
+      Our partners
+    </div>
+    <p>
+      We are lucky to have partnered with a lot of organizations across Thessaloniki. We want to thank them for helping us with DEVit every year.
+    </p>
+    <div class="partners__container">
+      <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="http://www.coho.gr/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/coho-logo.svg"
+              alt="COHO Coworking Space"
+              style=max-height:80px>
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="http://www.citycollege.sheffield.eu/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/city-college-logo.svg"
+              alt="CITY College, International Faculty of the University of Sheffield"
+              style=max-height:100px>
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="http://www.okthess.gr/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/okthess-logo.svg"
+              alt="OK!Thess"
+              style=max-height:50px>
+          </a>
+        
+      </div>
+      
+    </div>
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="http://www.goldengatepro.com/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/goldengatepro-logo.svg"
+              alt="Golden Gate Pro"
+              >
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="http://geekbot.com/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/geekbot-logo.svg"
+              alt="Geekbot"
+              >
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--three">
+        
+        
+          <a href="http://www.devastation.tv/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/devastation-logo.svg"
+              alt="Devastation"
+              >
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+    </div>
   </div>
 </div>
 
 
 
+<div class="supporters text-center">
+  <div class="container">
+    <div class="block__heading--dark">
+      We proudly support
+    </div>
+    <div class="partners__container">
+      <div class="icons-stack">
+  
+    <div class="icons-stack__row">
+      
+        
+          <div class="icons-stack__item icons-stack__item--two">
+        
+        
+          <a href="https://socialhackersacademy.org" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/social-hackers-academy-logo.svg"
+              alt="Social Hackers Academy"
+              >
+          </a>
+        
+      </div>
+      
+        
+          <div class="icons-stack__item icons-stack__item--two">
+        
+        
+          <a href="http://intermediakt.org/" target="_blank" rel="noopener">
+            <img
+              src="/assets/images/partners/intermediakt.png"
+              alt="Intermediakt"
+              style=max-height:90px>
+          </a>
+        
+      </div>
+      
+    </div>
+  
+</div>
+
+    </div>
+  </div>
+</div>
 
 
 <div id="subscribe" class="subscribe-block text-center">
@@ -845,19 +1700,16 @@
           <ul class="footer-menu__list">
             
             <li>
-              <a href="/tickets">Buy tickets</a>
-            </li>
-            
-            <li>
               <a href="/#speakers">Speakers</a>
             </li>
             <!-- Below must be uncommented at will -->
             <!-- <li>
               <a href="/schedule">Schedule</a>
-            </li>
+            </li> -->
             <li>
               <a href="/devit-week">DEVit Week</a>
             </li>
+            <!--
             <li>
               <a href="/#sponsors">Sponsors</a>
             </li>
@@ -882,16 +1734,16 @@
           </div>
           <ul class="footer-menu__list">
             <li>
-              <a href="http://devitconf.org/2018">DEVit 2018</a>
+              <a href="/2018">DEVit 2018</a>
             </li>
             <li>
-              <a href="http://devitconf.org/2017">DEVit 2017</a>
+              <a href="/2017">DEVit 2017</a>
             </li>
             <li>
-              <a href="http://devitconf.org/2016">DEVit 2016</a>
+              <a href="/2016">DEVit 2016</a>
             </li>
             <li>
-              <a href="http://devitconf.org/2015">DEVit 2015</a>
+              <a href="/2015">DEVit 2015</a>
             </li>
           </ul>
         </div>
