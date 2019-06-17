@@ -16,7 +16,7 @@ gold:
       override_height: 60px
     - name: Niagara
       img: /assets/images/sponsors/svg/niagara.svg
-      url: ""
+      url: "https://www.niagarasky.com"
       override_height: 60px
 
 
