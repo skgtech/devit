@@ -5,8 +5,8 @@
 ##
 
 defaults:
-  title: JUN 09-10, 2019, Thessaloniki
-  # title: See you all next year!
+  # title: JUN 09-10, 2019, Thessaloniki
+  title: See you all next year!
   description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
   image: /assets/images/devit-og-general.jpg?1542468627
 
@@ -31,7 +31,7 @@ CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
 
 venuesConfirmed:
   workshop: true
-  talks: true
+  talks: false
   hotel: false
 
 sponsors:
@@ -41,6 +41,6 @@ sponsors:
 tickets:
   url: /tickets
   enabled: false
-  early: true
+  early: false
   blind: false
   regular: false
