@@ -1,1065 +1,1179 @@
 <!DOCTYPE html>
-<html lang=en>
-
+<html lang="en">
 <head>
-  <title>DEVit Conference - Thessaloniki 15 May 2015</title>
-  <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-  <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property=og:title content="DEVit the 360° Web Development Conference">
-  <meta property=og:site_name content=devitconf.org>
-  <meta property=og:url content=http://devitconf.org>
-  <meta property=og:description content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Security! Meet all the cool people! We are 360° and proud of it!">
-  <meta property=og:image content=http://devitconf.org/2015/images/devit_profile_1280.png>
-  <meta property=og:type content=website>
-  <!--== CSS Files ==-->
-  <link rel=stylesheet href=css/main.af94.css media=screen>
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic" rel=stylesheet type=text/css>
-  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel=stylesheet type=text/css>
-</head>
+  <title>DEVit 2015 - DEVit Conference</title>
 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="DEVit 2015 - DEVit Conference">
+  <meta itemprop="description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
+  <meta itemprop="image" content="https://devitconf.org/assets/images/devit-og-general.jpg?1542468627">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@devitconf">
+
+  <meta name="twitter:title" content="DEVit 2015 - DEVit Conference">
+  <meta name="twitter:image" content="https://devitconf.org/assets/images/devit-og-general.jpg?1542468627">
+  <meta name="twitter:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="DEVit 2015 - DEVit Conference">
+  <meta property="og:site_name" content="devitconf.org">
+  <meta property="og:url" content="https://devitconf.org/2015/">
+
+  <meta property="og:description" content="Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!">
+  <meta property="og:image" content="https://devitconf.org/assets/images/devit-og-general.jpg?1542468627">
+  <meta property="og:type" content="website">
+
+  <link href="/assets/css/main.css" rel="stylesheet" media="screen">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=GvJLOgvboj">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png?v=GvJLOgvboj" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png?v=GvJLOgvboj" sizes="16x16">
+  <link rel="manifest" href="/assets/images/favicon/manifest.json?v=GvJLOgvboj">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg?v=GvJLOgvboj" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=GvJLOgvboj">
+
+  <meta name="apple-mobile-web-app-title" content="DEVit Conf">
+  <meta name="application-name" content="DEVit Conf">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=GvJLOgvboj">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  <!-- DO NOT EDIT THIS  -->
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41787746-8', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    // Temporary Cross domain config
+    ga('linker:autoLink', ['eventora.com']);
+
+    ga('send', 'pageview');
+  </script>
+  
+
+  <!-- Facebook Pixel Code -->
+  
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1071961509597865');
+  fbq('track', "PageView");
+  </script>
+  <noscript><img alt="Facebook pixel" height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1071961509597865&ev=PageView&noscript=1"
+  /></noscript>
+  
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Twitter universal website tag code -->
+  <script>
+  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+  // Insert Twitter Pixel ID and Standard Event data below
+  twq('init','o1rvs');
+  twq('track','PageView');
+  </script>
+  <!-- End Twitter universal website tag code -->
+
+  <!-- Cookie consent -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f4f3f4",
+        "text": "#57585a"
+      },
+      "button": {
+        "background": "#00629e",
+        "text": "#ffffff"
+      }
+    },
+    "theme": "classic",
+    "content": {
+      "message": "🍪 We’re using cookies to understand our audience better.",
+      "link": "More info",
+      "href": "/privacy"
+    }
+  })});
+  </script>
+</head>
 <body>
-  <div class="alert alert-info text-center alert-old-version">Check out <a href="/"  name="DEVit 2019">DEVit 2019.</a> ;)</div>
-  <div id=home></div>
-  <header id=header class=header data-stellar-ratio=0.5>
-    <!--== Preloader ==-->
-    <div id=preloader>
-      <div class=preloader></div>
+  
+
+
+
+<div class="hero home-header" style="background-image: linear-gradient(rgba(0, 62, 115, 0.8), rgba(0, 62, 115, 0.8)), url(/assets/images/albums/2015/header.jpg);">
+  <nav class="main-navbar sticky">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-    <!--== Caption ==-->
-    <div class=header-caption data-stellar-ratio=2>
-      <div class=container>
-        <div class=box>
-          <div class=logo>
-            <img src=/2015/images/DevitLogo.svg alt="DEVit Conference" class=img-responsive>
-          </div>
-          <span class="">15 May 2015</span>
-          <br>
-          <br>
-          <span class="">Thessaloniki, Greece</span>
-        </div>
-      </div>
+    <div class="navbar-brand ">
+      <a href="/" class="navbar-logo"></a>
     </div>
-    <!--== Header Background ==-->
-    <div id=header-background class="header-background header-background-hide">
-      <ul class=slides>
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="main-menu">
         <li>
-          <img src=/2015/images/demo/bg-slide-01.jpg alt="Slide 1">
+          <a class="main-menu__link" target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
         </li>
         <li>
-          <img src=/2015/images/demo/bg-slide-02.jpg alt="Slide 2">
+          <a class="main-menu__link" href="/#photos">Photos</a>
+        </li>
+        <li>
+          <a class="main-menu__link" href="/#speakers">Speakers</a>
+        </li>
+        <li>
+          <a class="main-menu__link" href="/#sponsors">Sponsors</a>
         </li>
       </ul>
     </div>
-  </header>
-  <div id=navigation-wrap class=navigation-wrap>
-    <div id=navigation class=navigation>
-      <div class=container>
-        <nav class="navbar navbar-custom" role=navigation>
-          <div class=navbar-header>
-            <button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#menu>
-              <span class=sr-only>Toggle navigation</span>
-              <span class=icon-bar></span>
-              <span class=icon-bar></span>
-              <span class=icon-bar></span>
-            </button> <a href="http://devitconf.org" class=register>BACK TO CURRENT</a></div>
-          <!--== Site Menu ==-->
-          <div class="collapse navbar-collapse" id=menu>
-            <ul class="nav navbar-nav">
-              <li class=active><a href=#home>Home</a></li>
-              <li><a href=#speakers>Speakers</a></li>
-              <li><a href=#sessions>Sessions</a></li>
-              <li><a href=#shareit>Share</a></li>
-              <li><a href=#venue>Venue</a></li>
-              <li><a href=#register>Engage</a></li>
-              <li><a href=#sponsors>Sponsors</a></li>
-              <li><a href=#hotels>Hotels</a></li>
-              <li><a href=#codeofconduct>Code of conduct</a></li>
-            </ul>
-          </div>
-        </nav>
+  </div>
+</nav>
+
+  <img class="hero__logo" src="/assets/images/logo/white/logo.svg" alt="DEVit logo">
+  <h1 class="hero__headline hero__headline--light">DEVit 2015</h1>
+</div>
+
+
+
+<div class="album" id="photos">
+  <div class="block container text-center">
+    <div class="block__heading--dark">
+      The photo album
+    </div>
+    <p class="dark">
+      We have released the photos of DEVit 2015.
+    </p>
+  </div>
+  <div class="album__row">
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2015/ph-342x342-1.jpg" alt="">
+    </div>
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2015/ph-342x342-4.jpg" alt="">
+    </div>
+    <div class="album__two">
+      <div class="album__cta">
+        <div class="album__cta__heading">
+          Tag you very much
+        </div>
+        <div class="album__cta__paragraph">
+          Tag your self and your friends.
+        </div>
+        <a href="https://www.facebook.com/pg/DEVitConf/photos/?tab=albums&ref=page_internal" target="_blank" rel="noopener noreferrer" class="album__cta__button">Go</a>
+      </div>
+      <img class="album__img" src="/assets/images/albums/2015/ph-683x342-1.jpg" alt="">
+    </div>
+  </div>
+  <div class="album__row">
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2015/ph-342x342-3.jpg" alt="">
+    </div>
+    <div class="album__two">
+      <img class="album__img" src="/assets/images/albums/2015/ph-683x342-2.jpg" alt="">
+    </div>
+    <div class="album__one">
+      <img class="album__img" src="/assets/images/albums/2015/ph-342x342-2.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe
+          class="moments-video"
+          width="100%"
+          height="500px"
+          src="https://www.youtube.com/embed/?enablejsapi=1&version=3&playerapiid=ytplayer"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
     </div>
   </div>
-  <div class="container content">
-    <!--===============================-->
-    <!--== About ======================-->
-    <!--===============================-->
-    <section id=about>
-      <div class=row>
-        <div class="col-sm-12 col-md-2">
-          <div class="section-header text-left">
-            <h2><b>About</b> DEVit</h2>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <h4>DEVit is a 360° Web Development Conference</h4>
-          <p>Get ready to step out of your comfort zone! Learn about the latest trends and techniques for <b>Frontend</b>, <b>Backend</b>, <b>DevOps</b> and <b>Security</b>! Meet the experts, the evangelists, the masterminds! We are 360° and proud of it!</p>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <div class="number wow bounceIn" data-wow-duration=0.8s data-wow-delay=0.5s><b class=accent>12</b> Speakers</div>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <div class="number wow bounceIn" data-wow-duration=0.8s data-wow-delay=0.8s><b class=accent>2</b> Tracks</div>
-        </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="speakers" class="speakers-container">
+  <div class="container text-center">
+    <div class="block__heading--dark">
+      Meet our speakers
+    </div>
+    <p class="dark">
+      Each year we meticulously vet and select remarkable speakers to deliver the best talks on web development.
+    </p>
+  </div>
+  <div class="speakers-list">
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/mathias_bynens">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/mathias_bynens.jpg"
+      alt="Mathias Bynens">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/mathias_bynens">
+      <span>
+        Mathias Bynens
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/mathias" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/mathiasbynens" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/christian_heilmann">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Christian_Heilmann.jpg"
+      alt="Christian Heilmann">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/christian_heilmann">
+      <span>
+        Christian Heilmann
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/codepo8" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/codepo8" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/dr_heinz_kabutz">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Heinz_Kabutz.jpg"
+      alt="Dr.Heinz Kabutz">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/dr_heinz_kabutz">
+      <span>
+        Dr.Heinz Kabutz
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/heinzkabutz" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/kabutz" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/nicolas_frankel">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Nicolas_Frankel.jpeg"
+      alt="Nicolas Frankel">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/nicolas_frankel">
+      <span>
+        Nicolas Frankel
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/nicolas_frankel" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/nfrankel" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/tim_perry">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Tim_Perry.jpg"
+      alt="Tim Perry">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/tim_perry">
+      <span>
+        Tim Perry
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/pimterry" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/pimterry" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/kostis_kapelonis">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Kostis_Kapelonis.jpg"
+      alt="Kostis Kapelonis">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/kostis_kapelonis">
+      <span>
+        Kostis Kapelonis
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/kkapelon" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/forbes_lindesay">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Forbes_Lindesay.jpg"
+      alt="Forbes Lindesay">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/forbes_lindesay">
+      <span>
+        Forbes Lindesay
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/ForbesLindesay" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/ForbesLindesay" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/nikos_zinas">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Nikos_Zinas.jpg"
+      alt="Nikos Zinas">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/nikos_zinas">
+      <span>
+        Nikos Zinas
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/nzinas" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/zinas" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/nick_krassas">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Nick_Krassas.jpeg"
+      alt="Nick Krassas">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/nick_krassas">
+      <span>
+        Nick Krassas
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/Dinosn" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/benny_weingarten_gabbay">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Benny_Weingarten-Gabbay.jpg"
+      alt="Benny Weingarten-Gabbay">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/benny_weingarten_gabbay">
+      <span>
+        Benny Weingarten-Gabbay
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/gardenofwine" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/gardenofwine" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/ian_miell">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/Ian_Miell.jpg"
+      alt="Ian Miell">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/ian_miell">
+      <span>
+        Ian Miell
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/ianmiell" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/ianmiell" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    <div class="speakers-list__item">
+      
+
+<div class="speaker ">
+  <a class="speaker__avatar" href="/speakers/kuba_walinski">
+    <img
+      class="lazy"
+      src="/assets/images/new/placeholder-profile-photo.svg"
+      data-src="/assets/images/speakers/2015/kuba.jpg"
+      alt="Kuba Waliński">
+  </a>
+  
+    <a class="speaker__name" href="/speakers/kuba_walinski">
+      <span>
+        Kuba Waliński
+      </span>
+    </a>
+    
+      <div class="speaker__title"></div>
+    
+    
+
+<div class="herefor">
+  
+    <span class="speaker__type">
+      Talk
+    </span>
+  
+</div>
+
+  
+  <div class="speaker__hover">
+    <div class="tags">
+  
+</div>
+
+    <div class="speaker__social">
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://twitter.com/kubawalinski" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/kubawalinski" class="speaker__social__item" target="blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+  
+</div>
+
+  </div>
+</div>
+
+    </div>
+    
+    
+  </div>
+</div>
+
+
+
+
+<div id="subscribe" class="subscribe-block text-center">
+  <div class="container">
+    <h2 class="block__heading">Stay informed</h2>
+    <p class="leading">
+      Register for our newsletter and stay informed about our latest news.
+    </p>
+    <p>
+      Special Offers are available exclusively to our newsletter subscribers.
+    </p>
+
+    <form class="subscribe-form" action="#" method="get">
+      <input type="hidden" value="signup" name="SOURCE">
+      <input type="hidden" value="" name="REF_SOURCE" class="js-signup-ref-source">
+      <input name="FNAME" type="text" class="subscribe-name-field" placeholder="First name">
+      <div class="input-group">
+        <input name="EMAIL" type="email" class="subscribe-email-field" placeholder="Email">
+        <span class="input-group-btn">
+          <button class="subscribe-submit" type="submit">Submit <i class="fas fa-long-arrow-alt-right"></i></button>
+        </span>
       </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Speakers ===================-->
-    <!--===============================-->
-    <section id=speakers class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class="section-header text-center">
-            <h2>Our
-              <b>speakers</b>
-            </h2>
-            <p>Awesome people you will listen to and meet.</p>
+      <p class="subscribe-result hidden"></p>
+    </form>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer__container">
+    <img class="footer__logo" src="/assets/images/logo/white/logo.svg" alt="DEVit logo">
+    <div class="footer-row">
+      <div class="footer-row__column">
+        <div class="footer-menu">
+          <div class="footer-menu__header">
+            ABOUT US
           </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/mathias_bynens.jpg alt="Mathias Bynens">
-            <div class=speaker-info>
-              <h3>
-                <b>Mathias</b>
-                <br>Bynens</h3>
-              <p>Mathias is a Belgian web standards freak. He likes HTML, CSS, JavaScript, Unicode, performance, and security.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/mathias target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/mathiasbynens target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Christian_Heilmann.jpg alt="Christan Heilmann">
-            <div class=speaker-info>
-              <h3>
-                <b>Christian</b>
-                <br>Heilmann</h3>
-              <p>Chris Heilmann has dedicated a lot of his time making the web better. A true HTML5/Open Web Evangelist.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=http://twitter.com/codepo8 target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/codepo8 target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Heinz_Kabutz.jpg alt="Heinz Kabutz">
-            <div class=speaker-info>
-              <h3>
-                <b>Dr.Heinz</b>
-                <br>Kabutz</h3>
-              <p>Heinz is the mastermind behind The Java Specialists' Newsletter. He has a PhD in Computer Science.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/heinzkabutz target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/kabutz target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Nicolas_Frankel.jpeg alt="Nicolas Frankel">
-            <div class=speaker-info>
-              <h3>
-                <b>Nicolas</b>
-                <br>Frankel</h3>
-              <p>Nicolas Fränkel is focused on Java and JavaEE, but he's narrowed interests like Software Quality and Rich Internet
-                Applications.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/nicolas_frankel target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/nfrankel target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Tim_Perry.jpg alt="Tim Perry">
-            <div class=speaker-info>
-              <h3>
-                <b>Tim</b>
-                <br>Perry</h3>
-              <p>Tim Perry is a technical lead and the open-source champion at Softwire and a contributor on Mockito, Moment.js
-                & Knockout.js.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/pimterry target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/pimterry target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Kostis_Kapelonis.jpg alt="Kostis Kapelonis">
-            <div class=speaker-info>
-              <h3>
-                <b>Kostis</b>
-                <br>Kapelonis</h3>
-              <p>Kostis is a Software Engineer who loves clean and compact code, simple solutions and modular distributed systems.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://github.com/kkapelon target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Forbes_Lindesay.jpg alt="Forbes Lindesay">
-            <div class=speaker-info>
-              <h3>
-                <b>Forbes</b>
-                <br>Lindesay</h3>
-              <p>Node.js developer with a passion for open source, maintainer of
-                <a href=http://jade-lang.com target=_blank title="Jade Language">Jade Lang</a> and Promises/A+ spec evangelist.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/ForbesLindesay target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href="https://github.com/ForbesLindesay/" target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Nikos_Zinas.jpg alt="Nikos Zinas">
-            <div class=speaker-info>
-              <h3>
-                <b>Nikos</b>
-                <br>Zinas</h3>
-              <p>Nikos' focus is designing solutions for large teams, helping companies scale and setup frontend architectures.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/nzinas target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/zinas target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Nick_Krassas.jpeg alt="Nick Krassas">
-            <div class=speaker-info>
-              <h3>
-                <b>Nick</b>
-                <br>Krassas</h3>
-              <p>Nicolas is a security researcher passionate with all sort of things like security and system administration.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/Dinosn target=_blank class="fa fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Benny_Weingarten-Gabbay.jpg alt="Benny Weingarten-Gabbay">
-            <div class=speaker-info>
-              <h3>
-                <b>Benny</b>
-                <br>Weingarten-Gabbay</h3>
-              <p>Senior Software Engineer with 15 years of experience. Currently working at eBay.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/gardenofwine target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/gardenofwine target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/Ian_Miell.jpg alt="Ian Miell">
-            <div class=speaker-info>
-              <h3>
-                <b>Ian</b>
-                <br>Miell</h3>
-              <p>Spent over a decade maintaining some of the biggest e-Commerce systems, now generally known as 'a Docker guy'.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/ianmiell target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/ianmiell target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class=speaker>
-            <img src=/2015/images/speakers/kuba.jpg alt="Kuba Waliński">
-            <div class=speaker-info>
-              <h3>
-                <b>Kuba</b>
-                <br>Waliński</h3>
-              <p>Kuba has 7+ year career as an ASP.NET/C# developer but now he's doing his best to earn the title of a JS Ninja.</p>
-            </div>
-            <ul class=speaker-contacts>
-              <li>
-                <a href=https://twitter.com/kubawalinski target=_blank class="fa fa-twitter"></a>
-              </li>
-              <li>
-                <a href=https://github.com/kubawalinski target=_blank class="fa fa-github"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Schedule ===================-->
-    <!--===============================-->
-    <section id=sessions class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class="section-header text-center">
-            <h2>The <b>sessions</b></h2>
-            <p>Two tracks of continuous talks.</p>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class=content-tabs>
-            <ul class="nav nav-tabs">
-              <li class=active><a href=#tab1 data-toggle=tab>SpaceBalls</a></li>
-              <li><a href=#tab2 data-toggle=tab>FairLight</a></li>
-            </ul>
-            <div class=tab-content>
-              <div class="tab-pane fade in active" id=tab1>
-                <ul class=accordion>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">08<sup>30</sup></span>
-                      <h4 class=accordion-title>Registration</h4>
-                    </a>
-                  </li>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">09<sup>15</sup></span>
-                      <h4 class=accordion-title>Opening Ceremony</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">09<sup>30</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Nicolas Frankel</small>
-                        <img src=/2015/images/speakers/Nicolas_Frankel.jpeg alt="Nicolas Frankel">
-                      </div>
-                      <h4 class=accordion-title>Integration Testing from the Trenches</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>When one uses Test-Driven Development, has more then 90% test coverage and the best Sonar metrics ever seen, and still finds regular bugs in his application, it is time for something more. Unit Testing is like testing a car's every
-                        nuts and bolts while Integration Testing is like leading it on a test drive: one cannot achieve high internal quality without the other.</p>
-                      <p>However, Integration Testing might seem very complex when put in place for the first several times; I have made many mistakes and have lost much time. In this presentation, I will present tools that helped me tremendously in Integration
-                        Testing, as well as proven tactics to get the best out of your tests.</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class="accordion-heading break-heading">
-                      <span class="schedule-time accent">10<sup>30</sup></span>
-                      <h4 class=accordion-title>Coffee Break</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">11<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Nikos Zinas</small>
-                        <img src=/2015/images/speakers/Nikos_Zinas.jpg alt="Nikos Zinas">
-                      </div>
-                      <h4 class=accordion-title>The future of responsive web design: web component queries</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>Change your way of thinking about responsive web design, put your focus on components.</p>
-                      <p>Web components are becoming a part of our mainstream developer toolset, and the future is all about reusing and sharing components. To take the next big step in responsive web design though, we need to make sure that these components
-                        adapt to different scenarios and different layouts.</p>
-                      <p>In this talk we will see how we can combine web components with the concept of element queries and create responsive components that can adapt to their environment.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">12<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Benny Weingarten-Gabbay</small>
-                        <img src=/2015/images/speakers/Benny_Weingarten-Gabbay.jpg alt="Benny Weingarten-Gabbay">
-                      </div>
-                      <h4 class=accordion-title>iOS real time content modifications using websockets</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>When developing web apps, one can open FireBug and make changes to texts and images on the spot, immediately seeing the effect. When developing mobile applications, each change requires code modification, recompile and a reinstall.
-                        This makes the development cycle of mobile application longer and more tedious.</p>
-                      <p>In this talk I present BetterContent, a tool that allows editing of an iOS mobile app in runtime, in a fun and easy way. I'll talk about:
-                        <br>- Motivation and need for a proper DevTools for iOS and Android application
-                        <br>- Current solutions that exist out there (such as Flipboard FLEX)
-                        <br>- Coding techniques I use on the native side (iOS, cocoapods)
-                        <br>- Websokets and how I implemented them using open source tools and free hosting on Heroku using node.js.
-                        <br>
-                      </p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class="accordion-heading break-heading">
-                      <span class="schedule-time accent">13<sup>00</sup></span>
-                      <h4 class=accordion-title>Lunch Break</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">14<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Kostis Kapelonis</small>
-                        <img src=/2015/images/speakers/Kostis_Kapelonis.jpg alt="Kostis Kapelonis">
-                      </div>
-                      <h4 class=accordion-title>Your Service is not Rest</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>Rest services are now everywhere. Most big companies (facebook,amazon, linke-in) offer programmatic API to external developers. However developing a REST API on your own is very hard if you don't avoid some common pitfalls. In this
-                        talk we will defind what REST is, what REST isn't and the good values of a rest API</p>
-                    </div>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">15<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Tim Perry</small>
-                        <img src=/2015/images/speakers/Tim_Perry.jpg alt="Tim Perry">
-                      </div>
-                      <h4 class=accordion-title>Your Web Stack Would Betray You In An Instant</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>Securely setting up a web stack today is a tricky balancing act, as you g ingerly balance frameworks and services and tools all atop one another, ever higher, to get all mod cons happily running together safely and correctly. One
-                        security flaw though, and the whole pile tumbles down on you to throw your customer passwords to the world.</p>
-                      <p>In this talk we take a stroll down through a modern web stack and examine some recent major security breakages in each layer to see how they work and why. With any luck we can work out how to avoid this sort of thing in future too,
-                        when either using or building such tools, but if all else fails we can at least relax from all the careful balancing with a little schadenfreude.</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class="accordion-heading break-heading">
-                      <span class="schedule-time accent">16<sup>00</sup></span>
-                      <h4 class=accordion-title>Coffee Break</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">16<sup>30</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Kuba Waliński</small>
-                        <img src=/2015/images/speakers/kuba.jpg alt="Kuba Waliński">
-                      </div>
-                      <h4 class=accordion-title>Getting started with Meteor</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>The world of JavaScript Frameworks is constantly evolving. It seems that almost every month there is a brand new thing that will revolutionise web development. However, having a closer look you don’t really see much revolutionary
-                        stuff in those new frameworks - they are usually just a small step forward from the previous thing.</p>
-                      <p>At least that’s how I felt in the past few years of doing JavaScript. Until I discovered Meteor, that is. It was enough to complete the getting started tutorial to realise that I’m dealing with a potential game-changer. First imagine
-                        that all communications happen via web sockets (way faster than REST API calls over HTTP). Then realise that you have a full blown MongoDB implementation accessible on the client side. Finally, remember that from now on you just
-                        need one programming language - JavaScript - to implement the whole application - from the client-side through to the back-end and all the way down to the database.</p>
-                      <p>In this talk you will see all this goodness brought together in one great package that is called Meteor.</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">17<sup>30</sup></span>
-                      <h4 class=accordion-title>Closing Ceremony - Socializing</h4>
-                    </a>
-                  </li>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">20<sup>00</sup></span>
-                      <h4 class=accordion-title>After Party (@
-                        <span class=after-party-venue data-href=https://www.facebook.com/pages/Cantina-Tropicana/228214083888307>Cantina Tropicana</span>)</h4>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="tab-pane fade" id=tab2>
-                <ul class=accordion>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">08<sup>30</sup></span>
-                      <h4 class=accordion-title>Registration</h4>
-                    </a>
-                  </li>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">09<sup>15</sup></span>
-                      <h4 class=accordion-title>Opening Ceremony</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">09<sup>30</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Christian Heilman</small>
-                        <img src=/2015/images/speakers/Christian_Heilmann.jpg alt="Christian Heilman">
-                      </div>
-                      <h4 class=accordion-title>Crack, Train, Fix, Release</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>The way we deal with new technologies of the web is changing and many new developers start in a world where they use and discard off-the-shelf open source solutions without much analysis. Releasing things quickly is paramount and
-                        there are not many repercussions - it seems.</p>
-                      <p>In this talk Chris Heilmann of Microsoft will talk about problems we bring to the web by being too quick and assuming too much and he'll show how old-school quality thinking can help us deliver and be proud of what we do.</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class="accordion-heading break-heading">
-                      <span class="schedule-time accent">10<sup>30</sup></span>
-                      <h4 class=accordion-title>Coffee Break</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">11<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Mathias Bynens</small>
-                        <img src=/2015/images/speakers/mathias_bynens.jpg alt="Mathias Bynens">
-                      </div>
-                      <h4 class=accordion-title>JavaScript ♥ Unicode</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>In this talk we’ll take a look at the various ways JavaScript relies on Unicode, what the consequences are for JavaScript developers wishing to support full Unicode, and how the upcoming ECMAScript 6 (or ES 2015 as it’s being called
-                        nowadays) will improve this.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">12<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Heinz Kabutz</small>
-                        <img src=/2015/images/speakers/Heinz_Kabutz.jpg alt="Heinz Kabutz">
-                      </div>
-                      <h4 class=accordion-title>Live Productive Coder</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>What makes some coders so much more productive than others? Good coders have to be lazy. The right amount of lazy. Not too lazy, where everything is copy and pasted also not to eager, where every new feature also requires brand-new
-                        implementation. In this talk, Heinz Kabutz will demonstrate some of the techniques that he uses to avoid reinventing the wheel.</p>
-                      <p>We start by looking at the IDE and show how shortcuts and a bit of automation can save us a lot of work. Smart templates produce consistent code, but even better is the use of Java 8 lambas, which we can use to define our coding
-                        idioms. We will also talk about refactoring and hear some of the interesting stories of the finance industry, where refactoring is often not an option or severely restricted.</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class="accordion-heading break-heading">
-                      <span class="schedule-time accent">13<sup>00</sup></span>
-                      <h4 class=accordion-title>Lunch Break</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">14<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Ian Miell</small>
-                        <img src=/2015/images/speakers/Ian_Miell.jpg alt="Ian Miell">
-                      </div>
-                      <h4 class=accordion-title>Introduction to Docker: What is it and why should I care?</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">15<sup>00</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Nick Krassas</small>
-                        <img src=/2015/images/speakers/Nick_Krassas.jpeg alt="Nick Krassas">
-                      </div>
-                      <h4 class=accordion-title>Fun with XXE</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>An XML External Entity attack is a type of attack against an application that parses XML input. This attack occurs when XML input containing a reference to an external entity is processed by a weakly configured XML parser. This attack
-                        may lead to the disclosure of confidential data, denial of service, port scanning from the perspective of the machine where the parser is located, and other system impacts</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class="accordion-heading break-heading">
-                      <span class="schedule-time accent">16<sup>00</sup></span>
-                      <h4 class=accordion-title>Coffee Break</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">16<sup>30</sup></span>
-                      <div class=schedule-speaker>
-                        <small class="hidden-xs hidden-sm">Forbes Lindesay</small>
-                        <img src=/2015/images/speakers/Forbes_Lindesay.jpg alt="Forbes Lindesay">
-                      </div>
-                      <h4 class=accordion-title>GitHub Automation</h4>
-                    </a>
-                    <div class=accordion-body>
-                      <p>GitHub has one of the best REST APIs you'll ever see. Pretty much any task in GitHub can be automated. Tired of updating code after a feature gets deprecated? Write a bot for that. Need to add the repository field to all your package.json
-                        files? Script it. You can even use GitHub as the backend for an entire application to take advantage of its built in collaboration features. This talk will take you through how to write you own GitHub automation code in JavaScript
-                        and give you some ideas on how to use your new-found powers for good.</p>
-                    </div>
-                  </li>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">17<sup>30</sup></span>
-                      <h4 class=accordion-title>Closing Ceremony - Socializing</h4>
-                    </a>
-                  </li>
-                  <li class=conf-related>
-                    <a class=accordion-heading>
-                      <span class="schedule-time accent">20<sup>00</sup></span>
-                      <h4 class=accordion-title>After Party (@
-                        <span class=after-party-venue data-href=https://www.facebook.com/pages/Cantina-Tropicana/228214083888307>Cantina Tropicana</span>)</h4>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== SHARE IT ===================-->
-    <!--===============================-->
-    <section id=shareit class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-md-6>
-          <div class=section-header>
-            <h2><b>Stay in</b> the loop</h2>
-          </div>
-          <div class="row text-left">
-            <div class=col-xs-12>
-              <div class=pull-left>
-                <img class=shareit src=/2015/images/shareit.png>
-              </div>
-              <div class=pull-left>
-                <a target=_blank href="https://www.facebook.com/sharer/sharer.php?u=http://devitconf.org" class="share-box share-box-fb">
-                  <span class="fa fa-facebook"></span>
-                  <div class="share-box-count fb-count js-fb-count"></div>
-                </a>
-              </div>
-              <div class=pull-left>
-                <a target=_blank href="https://twitter.com/home?status=Join%20%23DEVitConf%20the%20360%C2%B0%20Web%20Development%20Conference%2015%20May%202015%20Thessaloniki%20Greece%20http://devitconf.org" class="share-box share-box-tw">
-                  <span class="fa fa-twitter"></span>
-                  <div class="share-box-count tw-count js-tw-count"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class=col-md-6>
-          <div class=section-header>
-            <h2><b>Use the</b> hashtag</h2>
-          </div>
-          <h3><a href="http://twitter.com/search?q=devitconf">#devitconf</a></h3>
-        </div>
-      </div>
-    </section>
-    <!--===============================-->
-    <!--== Location ===================-->
-    <!--===============================-->
-    <section id=venue class="wow bounceInUp no-p" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class="col-sm-12 col-md-7">
-          <div class=map>
-            <div id=map-canvas></div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-5 venue-info">
-          <h3>The <b>Venue</b></h3>
-          <h2>Makedonia Palace</h2>
-          <ul class=contact>
-            <li class=contact-info>
-              <em class="fa fa-map-marker"></em>
-              <span>Leoforos Megalou Alexandrou 2,
-                <br>Thessaloniki, 546 40</span>
+          <ul class="footer-menu__list">
+            <li>
+              <a href="/about">About</a>
             </li>
-            <li class="contact-info telephone">
-              <em class="fa fa-phone"></em>
-              <span>(+30) 2310 897197</span>
+            <li>
+              <a target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
             </li>
-            <li class=contact-info>
-              <em class="fa fa-home"></em>
-              <span><a href=http://makedoniapalace.com title="Makedonia Palace Homepage" target=blank>makedoniapalace.com</a></span>
+            <li>
+              <a href="/press">Press</a>
+              </li>
+            <li>
+              <a href="/code-of-conduct">Code of Conduct</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-row__column">
+        <div class="footer-menu">
+          <div class="footer-menu__header">
+            DEVit 2019
+          </div>
+          <ul class="footer-menu__list">
+            
+            <li>
+              <a href="/#speakers">Speakers</a>
+            </li>
+            <li>
+              <a href="/#photos">Photos</a>
+            </li>
+            <!-- <li>
+              <a href="/#speakers">Speakers</a>
+            </li>
+            <li>
+              <a href="/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/devit-week">DEVit Week</a>
+            </li>
+            <li>
+              <a href="/#sponsors">Sponsors</a>
+            </li>
+            <li>
+              <a href="/#venue">Venue</a>
+            </li>
+            <li>
+              <a href="/talks">Talks</a>
+            </li>
+            <li>
+              <a href="/workshops">Workshops</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="footer-row__column">
+        <div class="footer-menu">
+          <div class="footer-menu__header">
+            PAST
+          </div>
+          <ul class="footer-menu__list">
+            <li>
+              <a href="/2018">DEVit 2018</a>
+            </li>
+            <li>
+              <a href="/2017">DEVit 2017</a>
+            </li>
+            <li>
+              <a href="/2016">DEVit 2016</a>
+            </li>
+            <li>
+              <a href="/2015">DEVit 2015</a>
             </li>
           </ul>
         </div>
       </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Subscribe & Register =======-->
-    <!--===============================-->
-    <section id=register class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class="col-md-offset-3 col-md-6">
-          <div class="section-header text-center">
-            <h2><b>Stay</b> Connected!</h2>
+      <div class="footer-row__column">
+        <div class="footer-menu">
+          <div class="footer-menu__header">
+            Social
           </div>
-          <div class=mc-embed-signup>
-            <form method=post class=form name=mc-embedded-subscribe-form target=_blank novalidate action="//datablaster.us2.list-manage.com/subscribe/post?u=249dbe460c3c1857a489dde05&amp;id=faa2000c02">
-              <div class="cta validate"></div>
-              <fieldset class=mc-field-group>
-                <div class=form-group>
-                  <label for=mce-FNAME>First Name</label>
-                  <input id=mce-FNAME name=FNAME placeholder="First Name">
-                </div>
-                <div class=form-group>
-                  <label for=email-list>Your Email</label>
-                  <input id=email-list type=email placeholder=Email value="" name=EMAIL size=30 class=required>
-                </div>
-                <div class=form-group>
-                  <input type=hidden value=signup name=SOURCE>
-                  <input type=hidden value="" name=REF_SOURCE class=js-signup-ref-source>
-                  <button type=submit class="button button-active pull-right">Keep me in the loop!</button>
-                </div>
-                <div class="mce-responses clear">
-                  <div style=display:none class="response js-error error"></div>
-                  <div style=display:none class="response js-success success"></div>
-                </div>
-              </fieldset>
+          <ul class="social-icons">
+            <li>
+              <a target="_blank" rel="noopener" href="https://www.facebook.com/DEVitConf" class="fab fa-facebook-f"></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://twitter.com/devitconf" class="fab fa-twitter"></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCrKmMv6c6oqZPYC7zzbP-RQ" class="fab fa-youtube"></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://www.instagram.com/devitconf/" class="fab fa-instagram"></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/11399285/" class="fab fa-linkedin"></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://www.medium.com/@devitconf" class="fab fa-medium"></a>
+            </li>
+          </ul>
+          <div class="footer-menu__header">
+            <i class="fab fa-slack"></i> Slack
+            <form class="slack-form" method="post" action="#">
+              <div class="input-group">
+                <input name="email" type="email" class="slack-field" placeholder="Enter your email">
+                <span class="input-group-btn">
+                  <button class="slack-submit" type="submit">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </button>
+                </span>
+              </div>
+              <div class="slack-form__results"></div>
             </form>
           </div>
-          <div class="thankyou hide">
-            <h3><b>Thank</b> you!</h3>
-            <p>Please confirm your subscription from the email we sent you...</p>
-          </div>
         </div>
       </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Sponsors ===================-->
-    <!--===============================-->
-    <section id=sponsors class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class="section-header text-center">
-            <h2>Our <b>sponsors</b></h2>
-            <p>We must thank these guys for their support. If you don’t want to miss this opportunity and you are willing to offer your support as a sponsor please see our <a href=https://docs.google.com/document/d/1Yp9kTlxmmbLqbIhiEQFUbJ8n1ndXLmPKHj5H-8az88I/edit
-              title="DEVit Sponsorship Proposal">sponsorship proposal.</a></p>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class="section-header text-center">
-          <h3><b>Platinum</b></h3>
-        </div>
-      </div>
-      <div class=row>
-        <div class="partners premium-partners">
-          <div class="col-md-offset-4 col-sm-6 col-md-4 partner">
-            <a href="http://www.amdtelecom.net/" target=_blank>
-              <img src=/2015/images/sponsors/amd-telecom_logo.jpg alt="AMD Telecom" class=img-responsive>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class="section-header text-center">
-          <h3>Premium</h3>
-        </div>
-      </div>
-      <div class=row>
-        <div class="partners premium-partners">
-          <div class="col-sm-6 col-md-4 partner">
-            <a href=http://ots.gr target=_blank>
-              <img src=/2015/images/sponsors/ots.jpg alt=OTS class=img-responsive>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4 partner">
-            <a href=http://skroutz.gr target=_blank>
-              <img src=/2015/images/sponsors/skroutz.jpg alt=Skroutz.gr class=img-responsive>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4 partner">
-            <a href="http://miipharos.com/" target=_blank>
-              <img src=/2015/images/sponsors/miipharos_logo.jpg alt=Miipharos class=img-responsive>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class="section-header text-center">
-          <h3>Standard</h3>
-        </div>
-      </div>
-      <div class=row>
-        <div class=partners>
-          <div class="col-sm-6 partner">
-            <a href=http://trasys.be target=_blank>
-              <img src=/2015/images/sponsors/trasys.gif alt=Trasys class=img-responsive>
-            </a>
-          </div>
-          <div class="col-sm-6 partner">
-            <a href="http://www.intrasoft-intl.com/" target=_blank>
-              <img src=/2015/images/sponsors/instrasoft.jpg alt=Intrasoft class=img-responsive>
-            </a>
-          </div>
-          <div class="col-sm-6 partner">
-            <a href="http://citycollege.sheffield.eu/" target=_blank>
-              <img src=/2015/images/sponsors/citycollege.jpg alt="City College of Sheffield" class=img-responsive>
-            </a>
-          </div>
-          <div class="col-sm-6 partner">
-            <a href="http://www.netstudio.gr/" target=_blank>
-              <img src=/2015/images/sponsors/netstudiologo.jpg alt=Netstudio class=img-responsive>
-            </a>
-          </div>
-          <div class="col-sm-6 partner">
-            <a href="http://www.i4g.gr/" target=_blank>
-              <img src=/2015/images/sponsors/i4G_logo.jpg alt=i4G class=img-responsive>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class="section-header text-center">
-          <h3>Media</h3>
-        </div>
-      </div>
-      <div class=row>
-        <div class=partners>
-          <div class="col-md-offset-4 col-sm-6 col-md-4 partner">
-            <a href="http://www.teiserron.gr/" target=_blank>
-              <img src=/2015/images/sponsors/teiserron-logo.jpg alt=TeiSerron class=img-responsive>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class="section-header text-center">
-          <h3>Auspices</h3>
-        </div>
-      </div>
-      <div class=row>
-        <div class=partners>
-          <div class="col-md-offset-4 col-sm-6 col-md-4 partner">
-            <a href=http://www.thessaloniki.gr/portal/page/portal/DimosThessalonikis target=_blank>
-              <img src=/2015/images/sponsors/thessaloniki-municipality.jpg alt="Municipality of Thessaloniki" class=img-responsive>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Hotels =====================-->
-    <!--===============================-->
-    <section id=hotels class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class="section-header text-center">
-            <h2>A place <b>to stay</b></h2>
-            <p>Engineers do surfing, not couch surfing.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row hotel-row">
-        <div class="col-md-6 hotel">
-          <div class=row>
-            <div class=col-xs-6>
-              <a href="http://www.metropolitan.gr/" target=_blank>
-                <img src=/2015/images/hotels/metropolitan.jpg alt="Hotel Metropolitan" class=img-responsive>
-              </a>
-            </div>
-            <div class=col-xs-6>
-              <ul class=contact>
-                <li class=contact-info>
-                  <em class="fa fa-map-marker"></em>
-                  <span>Vas. Olga's Avenue & Fleming 65, 546 42 Thessaloniki</span>
-                </li>
-                <li class=contact-info>
-                  <em class="fa fa-phone"></em>
-                  <span>+30 2310 824221-8</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 hotel" id=metropolitanHotel style="height: 230px"></div>
-      </div>
-      <div class=row>
-        <div class="col-md-6 hotel">
-          <div class=row>
-            <div class=col-xs-6>
-              <a href="http://www.hotelluxembourg.gr/" target=_blank>
-                <img src=/2015/images/hotels/luxembourg_.gif alt="Hotel Luxembourg" class=img-responsive>
-              </a>
-            </div>
-            <div class=col-xs-6>
-              <ul class=contact>
-                <li class=contact-info>
-                  <em class="fa fa-map-marker"></em>
-                  <span>Komninon 6, 546 24 Thessaloniki Greece</span>
-                </li>
-                <li class=contact-info>
-                  <em class="fa fa-phone"></em>
-                  <span>+30 2310 252605</span>
-                </li>
-                <li class=contact-info>
-                  <em class="fa fa-home"></em>
-                  <small>
-                    <span>Where speakers will stay.</span>
-                  </small>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 hotel" id=luxembourgHotel style="height: 230px"></div>
-      </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Code of Conduct ============-->
-    <!--===============================-->
-    <section id=codeofconduct class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class="section-header text-center">
-            <h2><b>Code of</b> Conduct</h2>
-            <p>tl;dr: Be excellent with each other</p>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class=col-xs-12>
-          <p>Harassment includes offensive verbal comments related to gender, age, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography
-            or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
-          <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
-          <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise
-            create a sexualised environment.</p>
-          <p>If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
-          <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded t-shirts.</p>
-          <p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
-          <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
-        </div>
-      </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Tickets ====================-->
-    <!--===============================-->
-    <section id=tickets class="wow bounceInUp" data-wow-duration=0.8s data-wow-delay=0.1s>
-      <div class=row>
-        <div class=col-sm-12>
-          <div class="section-header text-center">
-            <h2>We are officially <b>SOLD OUT ;)</b></h2>
-          </div>
-        </div>
-      </div>
-      <div class=row>
-        <div class=col-md-6>
-          <div class=pricing-table>
-            <div class=table-header>
-              <h3 class=early-bird-label><a title="Get your ticket now for DEVit Conf 2015">Early Bird (Ends 15/03/2015)</a></h3><b class=accent>40<sup>€</sup></b>
-              <small>Both Tracks included</small>
-            </div>
-            <ul class=table-features>
-              <li class=on>Entrance</li>
-              <li class=on>Coffee Break</li>
-              <li class=on>Lunch</li>
-            </ul>
-          </div>
-        </div>
-        <div class=col-md-6>
-          <div class=pricing-table>
-            <div class=table-header>
-              <h3 class=early-bird-label><a href="http://devitconf2015.eventzilla.net/" title="Get your ticket now for DEVit Conf 2015">Normal</a></h3><b class=accent>60<sup>€</sup></b>
-              <small>Both Tracks included</small>
-            </div>
-            <ul class=table-features>
-              <li class=on>Entrance</li>
-              <li class=on>Coffee Break</li>
-              <li class=on>Lunch</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--==========-->
-    <!--===============================-->
-    <!--== Footer =====================-->
-    <!--===============================-->
-    <footer id=footer class=footer>
-      <div class=row>
-        <div class=col-sm-8>
-          <!--== Social Icons ==-->
-          <ul class=social-icons>
-            <li>
-              <a target=_blank href=https://www.facebook.com/DEVitConf class="fa fa-facebook"></a>
-            </li>
-            <li>
-              <a target=_blank href=https://twitter.com/devitconf class="fa fa-twitter"></a>
-            </li>
-            <li class=followit-ribbon>&nbsp;</li>
-          </ul>
-          <div class=copyrights>©
-            <span class=js-current-year>2015</span> <a href=https://github.com/skgtech/devit/graphs/contributors target=_blank>SKGTech Contributors</a>, Licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target=_blank>Creative Commons 4.0</a></div>
-        </div>
-        <div class="col-sm-4 footer-fold"></div>
-      </div>
-    </footer>
-    <!--==========-->
+    </div>
+    <div class="copyrights">
+      <span class="copyrights__text">© 2019</span>
+      <a class="copyrights__link" href="https://github.com/skgtech/devit/graphs/contributors" target="_blank" rel="noopener">SKGTech Contributors</a><span class="copyrights__text">, Licensed under</span>
+      <a class="copyrights__link" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">Creative Commons 4.0</a>
+    </div>
   </div>
-  <script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script>
-  <script>
-    window.jQuery || document.write('<script src="/_bower_components/jquery.js"><\/script>')
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script src=js/script.5531.js></script>
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+</footer>
 
-    ga('create', 'UA-41787746-8', 'auto');
-    ga('send', 'pageview');
-  </script>
+
+
+  <!-- Add your custom script for a page in the front-matter `custom_js` attribute -->
+  <script src="/assets/js/commons.js"></script>
+  <script src="/assets/js/layout.bundle.js"></script>
+  
+    
+    <script src='/assets/js/previous-landing.bundle.js'></script>
+    
+  
+  <!-- DO NOT EDIT THIS END -->
+
 </body>
-
 </html>
