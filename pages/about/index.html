@@ -53,6 +53,12 @@ permalink: /about
     <p>
       {{ site.data.team.volunteers | map: 'name' | join: ', ' }}
     </p>
+    <p>
+      And even a bigger thanks to our past volunteers! In alphabetical order:
+    </p>
+    <p>
+      {{ site.data.team.volunteers | map: 'nameold' | join: ', ' }}
+    </p>
   </div>
 </div>
 
