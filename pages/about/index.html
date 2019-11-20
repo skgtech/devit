@@ -51,13 +51,13 @@ permalink: /about
       Without them, DEVit would never have happened. A big thank you to all people that offer their time, their knowledge and their energy to help organizing and run DEVit. In alphabetical order:
     </p>
     <p>
-      {{ site.data.team.volunteers | map: 'name' | join: ', ' }}
+      {{ site.data.team.volunteers.current | map: 'name' | join: ', ' }}
     </p>
     <p>
       And even a bigger thanks to our past volunteers! In alphabetical order:
     </p>
     <p>
-      {{ site.data.team.volunteers | map: 'nameold' | join: ', ' }}
+      {{ site.data.team.volunteers.old | map: 'name' | join: ', ' }}
     </p>
   </div>
 </div>

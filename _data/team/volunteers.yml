@@ -1,46 +1,49 @@
-- name: Altiparmaki Vasiliki
-- name: Antoniou Orfeas
-- name: Angelakidou Sofi
-- name: Anastasiou Konstantinos
-- name: Bariotis Kostas
-- name: Bolari Aggeliki
-- name: Economidou Christina
-- name: Economou John
-- name: Feneris Ioannis
-- name: Kakoulidis Adonis
-- name: Karampinis Vaios
-- name: Keloglou Theodore
-- name: Kostopoulos George
-- name: Kourtzanidis Stratos
-- name: Margaritis Konstantinos
-- name: Natsios Alex-P.
-- name: Ntempos Dimitri
-- name: Pavlidou Kiki
-- name: Perhanidis Christos
-- name: Peristerianou Konstantina
-- name: Polychronakis Thanasis
-- name: Ralli Jenny
-- name: Rigopoulos George
-- name: Theodoridis Thanos
-- name: Tryfou Margarita
-- name: Tsiamanta Georgia
-- name: Zafeiropoulos Sakis
-- name: Zaras Dimitris
-- name: Zinas Nikos
-- name: Zouros-Elenidis George
-- nameold: Chatsatrian Annie
-- nameold: Cotin Simona
-- nameold: Founta Antigoni
-- nameold: Kaffes Modestos
-- nameold: Karras Stelios Joseph
-- nameold: Mallini Nelly
-- nameold: Oikonomou Andreas
-- nameold: Papadimitriou Angeliki
-- nameold: Papadopoulos Aristotelis
-- nameold: Papapetrou Patroklos
-- nameold: Poulakas Ioannis
-- nameold: Solari Anastasia
-- nameold: Spyropoulos Alexandros
-- nameold: Tsompanis Athanasios
-- nameold: Tzibonis Nikos
-- nameold: Vradi Amalia
+current:
+  - name: Altiparmaki Vasiliki
+  - name: Antoniou Orfeas
+  - name: Angelakidou Sofi
+  - name: Anastasiou Konstantinos
+  - name: Bariotis Kostas
+  - name: Bolari Aggeliki
+  - name: Economidou Christina
+  - name: Economou John
+  - name: Feneris Ioannis
+  - name: Kakoulidis Adonis
+  - name: Karampinis Vaios
+  - name: Keloglou Theodore
+  - name: Kostopoulos George
+  - name: Kourtzanidis Stratos
+  - name: Margaritis Konstantinos
+  - name: Natsios Alex-P.
+  - name: Ntempos Dimitri
+  - name: Pavlidou Kiki
+  - name: Perhanidis Christos
+  - name: Peristerianou Konstantina
+  - name: Polychronakis Thanasis
+  - name: Ralli Jenny
+  - name: Rigopoulos George
+  - name: Theodoridis Thanos
+  - name: Tryfou Margarita
+  - name: Tsiamanta Georgia
+  - name: Zafeiropoulos Sakis
+  - name: Zaras Dimitris
+  - name: Zinas Nikos
+  - name: Zouros-Elenidis George
+
+old:
+  - name: Chatsatrian Annie
+  - name: Cotin Simona
+  - name: Founta Antigoni
+  - name: Kaffes Modestos
+  - name: Karras Stelios Joseph
+  - name: Mallini Nelly
+  - name: Oikonomou Andreas
+  - name: Papadimitriou Angeliki
+  - name: Papadopoulos Aristotelis
+  - name: Papapetrou Patroklos
+  - name: Poulakas Ioannis
+  - name: Solari Anastasia
+  - name: Spyropoulos Alexandros
+  - name: Tsompanis Athanasios
+  - name: Tzibonis Nikos
+  - name: Vradi Amalia
