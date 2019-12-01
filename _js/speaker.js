@@ -10,7 +10,12 @@ if (tabsContent.length) {
 }
 
 var hash = window.location.hash;
-hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+if (hash) {
+  $(document).ready(function() {
+    $('body').scrollTop($("div.talks").offset().top - $("nav.main-navbar").height() - $("div.talks__tabs").height());
+  });
+  $('ul.nav a[href="' + hash + '"]').tab('show');
+}
 
 $('.nav-tabs a').click(function (e) {
   $(this).tab('show');
