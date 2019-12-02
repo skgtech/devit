@@ -28,10 +28,12 @@ cd devit
 ```
 * Install Jekyll and its dependencies
 ```
+brew install imagemagick@6 && brew link imagemagick@6 --force // latest is not working on MacOS
 bundle install
 ```
 * Install node packages
 ```
+nvm use
 yarn
 ```
 
