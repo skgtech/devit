@@ -33,3 +33,5 @@ assets/css/
 .gitconfig
 
 assets/resized
+
+vendor/
