@@ -8,10 +8,10 @@ custom_js:
 - live.bundle.js
 ---
 
-{% assign speakers=site.data.speakers.2019.speakers %}
-{% assign allDayWorkshops=site.data.workshops.2019.allDay %}
-{% assign openWorkshops=site.data.workshops.2019.open %}
-{% assign talksDaySchedule=site.data.schedule.2019.talks %}
+{% assign speakers=site.data.speakers.2020.speakers %}
+{% assign allDayWorkshops=site.data.workshops.2020.allDay %}
+{% assign openWorkshops=site.data.workshops.2020.open %}
+{% assign talksDaySchedule=site.data.schedule.2020.talks %}
 
 <schedule class="schedule" data-page="true">
   <header class="header-bar">
@@ -23,18 +23,18 @@ custom_js:
     <ul class="list schedule">
         {% for talk in talksDaySchedule %}
           {% if talk.speaker %}
-            {% assign speaker = site.data.speakers.2019.speakers | where:"url", talk.speaker | first %}
+            {% assign speaker = site.data.speakers.2020.speakers | where:"url", talk.speaker | first %}
             {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
           {% endif %}
           <li class="schedule-item">
             {% if talk.type == "talk" %}
-            {% assign talkDetails = site.data.talks.2019 | where:"speaker", talk.speaker | first %}
+            {% assign talkDetails = site.data.talks.2020 | where:"speaker", talk.speaker | first %}
             <a href="#!{{ talkDetails.title | slugify }}">
               <div class="pull-left">
                 <span>{{ talk.hours }}:{{ talk.mins }}</span>
                 {% if talk.speaker %}
                   <img
-                    src="/assets/images/speakers/2019/{{speaker.image_filename}}"
+                    src="/assets/images/speakers/2020/{{speaker.image_filename}}"
                     class="schedule-item__img">
                 {% endif %}
               </div>
@@ -62,13 +62,13 @@ custom_js:
 
 {% for speaker in speakers %}
   <{{ speaker.url }} class="speaker-page" data-page="true">
-    {% assign speaker = site.data.speakers.2019.speakers | where:"url", talk.speaker | first %}
+    {% assign speaker = site.data.speakers.2020.speakers | where:"url", talk.speaker | first %}
     {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
     <div class="content">
       <div class="content-header">
         <a href="#!schedule" class="btn back-btn icon icon-arrow-back"></a>
         <div class="center">
-          <img src="/assets/images/speakers/2019/{{ speaker.image_filename }}" alt="{{ speakerName }}" class="speaker__img">
+          <img src="/assets/images/speakers/2020/{{ speaker.image_filename }}" alt="{{ speakerName }}" class="speaker__img">
           <h1 class="title">{{ speakerName }}</h1>
         </div>
       </div>
@@ -83,7 +83,7 @@ custom_js:
 
 {% for talk in talksDaySchedule %}
   {% if talk.type == "talk" %}
-    {% assign talkDetails = site.data.talks.2019 | where:"speaker", talk.speaker | first %}
+    {% assign talkDetails = site.data.talks.2020 | where:"speaker", talk.speaker | first %}
     <{{ talkDetails.title | slugify }} class="talk-page" data-page="true">
       <div class="content">
         <div class="content-header">
@@ -102,10 +102,10 @@ custom_js:
         {% endif %}
         <div class="section">
           {% if talk.speaker %}
-            {% assign speaker = site.data.speakers.2019.speakers | where:"url", talk.speaker | first %}
+            {% assign speaker = site.data.speakers.2020.speakers | where:"url", talk.speaker | first %}
             {% assign speakerName = speaker.first_name | append: ' ' | append: speaker.last_name %}
             <a href="#!{{ speaker.url }}">
-              <img src="/assets/images/speakers/2019/{{ speaker.image_filename }}" alt="{{ speakerName }}" class="pull-left talk-page__speaker-img">
+              <img src="/assets/images/speakers/2020/{{ speaker.image_filename }}" alt="{{ speakerName }}" class="pull-left talk-page__speaker-img">
               <p class="pull-left">{{ speakerName }}</p>
               <i class="icon icon-arrow-forward pull-right"></i>
             </a>
