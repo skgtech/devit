@@ -17,7 +17,7 @@ exclude: [
 og:
   title: MAY 31 - JUN 01, 2020 - DEVit the 360° Web Development Conference
   description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
-  image: https://staging-devit.herokuapp.com/assets/images/devit-og-general.jpg?1516005203
+  image: https://staging-devit.herokuapp.com/assets/images/devit-og-general.png?1516005203
 
 analytics:
 
