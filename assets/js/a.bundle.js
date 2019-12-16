@@ -1,1 +1,0 @@
-webpackJsonp([6],{10:function(i,n){$(document).ready(function(){$("#lightSlider").lightSlider()})}},[10]);
