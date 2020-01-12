@@ -14,7 +14,7 @@ module Jekyll
       @dir = year
       @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(@base, 'pages'), 'previous/index.html')
+      self.read_yaml(File.join(@base, '_layouts'), 'previous.html')
       self.data['layout'] = 'default'
       self.data['custom_js'] = ['previous-landing.bundle.js']
       self.data['album'] = data['album']

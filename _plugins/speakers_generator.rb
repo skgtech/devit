@@ -19,7 +19,7 @@ module Jekyll
       @dir = type + "/" + speaker['url']
       @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(@base, 'pages'), 'speakers/single.html')
+      self.read_yaml(File.join(@base, '_layouts'), 'speaker.html')
       self.data['layout'] = 'default'
       self.data['custom_js'] = ['speaker.bundle.js']
       self.data['speaker'] = speaker

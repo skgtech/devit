@@ -48,7 +48,9 @@ For the underscore prefixed (_*) directories, except `_js`, please refer to the 
 * `_js`: This is where we keep all the JavaScript source code.
 * `assets`: Those are all our assets. `css` and `js` folders are auto-generated, DO NOT edit those files directly.
 * `pages`: Separated Jekyll pages.
-* `2015`, `2016`: Legacy DEVit sites.
+* `_layouts`: Layouts that templates in `pages` are using. Mostly the default one.
+* `_includes`: Various components. `blocks` and `components` will be merged eventually.
+* `_data`: All data of the site in YAML format.
 
 ## CSS
 

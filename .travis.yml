@@ -39,10 +39,6 @@ script:
   - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then export RESULT=$(netlify deploy -t $NETLIFY_ACCESS_TOKEN -s devitconf -p _site/ | grep -Eo 'http://[^ >]+'|head -1); fi
   - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then curl -H "Authorization:token $GITHUB_COMMENT" -X POST -d "{\"body\":\"View your PR here $RESULT.\"}" "https://api.github.com/repos/skgtech/devit/issues/$TRAVIS_PULL_REQUEST/comments"; fi
 
-  # Previous site folders are considered to be legacy.
-  # Do not check on them.
-  # This is not very accurate, that's why it's at the bottom.
-  #
   # @See: See package.json scripts
   - npm run lint
 
