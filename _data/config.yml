@@ -26,8 +26,8 @@ venue: blah blah
 # values: "dday|nextday|nextblind|nextfull"
 currentMode: "nextblind"
 
-isCFPOpen: false
-CFPlink: "https://goo.gl/forms/FqDnffxTnlgYVDej1"
+isCFPOpen: true
+CFPlink: "https://forms.gle/yBNULb8EjG1JZBGQ6"
 
 venuesConfirmed:
   workshop: true

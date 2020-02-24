@@ -87,9 +87,7 @@ speakers:
     year: 2019
     hearFor: Talk
     tags:
-      - resourcehints
-      - webperf
-      - perfmatters
+      - Web Performance
     first_name: Harry
     last_name: Roberts
     image_filename: Harry_Roberts.jpg
