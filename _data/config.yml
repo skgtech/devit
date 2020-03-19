@@ -5,17 +5,17 @@
 ##
 
 defaults:
-  title: MAY 31 - JUN 01 2020, Thessaloniki
+  title: MAY 31 - JUN 01 2019, Thessaloniki
   # title: See you all next year!
   description: Find out the latest trends and techniques for Frontend, Backend, DevOps and Mobile! Meet all the cool people! We are 360° and proud of it!
   image: /assets/images/devit-og-general.png?1542468627
 
-date: MAY 31 - JUN 01, 2020
+date: MAY 31 - JUN 01, 2019
 # date: See you all next year!
-currentYear: "2020"
+currentYear: "2019"
 
-startDate: "2020-05-31"
-endDate: "2020-06-01"
+startDate: "2019-05-31"
+endDate: "2019-06-01"
 
 titlePostfix: " - DEVit Conference"
 
@@ -24,14 +24,14 @@ venue: blah blah
 
 # Current mode. Site will be modified based on this
 # values: "dday|nextday|nextblind|nextfull"
-currentMode: "nextblind"
+currentMode: "nextday"
 
-isCFPOpen: true
+isCFPOpen: false
 CFPlink: "https://forms.gle/yBNULb8EjG1JZBGQ6"
 
 venuesConfirmed:
-  workshop: true
-  talks: true
+  workshop: false
+  talks: false
   hotel: false
 
 sponsors:
@@ -40,7 +40,7 @@ sponsors:
 
 tickets:
   url: /tickets
-  enabled: true
+  enabled: false
   early: false
-  blind: true
+  blind: false
   regular: false

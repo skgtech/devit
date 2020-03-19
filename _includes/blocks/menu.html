@@ -26,12 +26,12 @@
         <!-- <li>
           <a class="main-menu__link" href="/#photos">Photos</a>
         </li> -->
-        <li>
+        <!-- <li>
           <a class="main-menu__link" href="/#venue">Venue</a>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
           <a class="main-menu__link" href="/#call-for-papers">Call for Papers</a>
-        </li>
+        </li> -->
         <!-- <li>
           <a class="main-menu__link" href="/devit-week">DEVit Week</a>
         </li> -->
@@ -44,14 +44,12 @@
         <li>
           <a class="main-menu__link" href="/about">About</a>
         </li>
-        {% if site.data.config.currentMode == 'nextblind' %}
-          <li>
-            <a class="main-menu__link" target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
-          </li>
-          <li>
-            <a class="main-menu__link" href="/press">Press</a>
-          </li>
-        {% endif %}
+        <li>
+          <a class="main-menu__link" target="_blank" rel="noopener" href="https://medium.com/devitconf">Blog</a>
+        </li>
+        <li>
+          <a class="main-menu__link" href="/press">Press</a>
+        </li>
         {% if site.data.config.tickets.enabled %}
           <li>
             <a class="main-menu__link--cta cta" href="{{ site.data.config.tickets.url }}">Buy tickets</a>

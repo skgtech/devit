@@ -19,7 +19,7 @@
   <div class="talks">
     <div class="talks__tabs">
       <div class="container">
-        {% assign years = '2020,2019,2018,2017,2016,2015' | split: ',' %}
+        {% assign years = '2019,2018,2017,2016,2015' | split: ',' %}
         <ul class="nav nav-tabs" role="tablist">
           {% for year in years %}
             {% for talk in site.data.talks[year] %}
