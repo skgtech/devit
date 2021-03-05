@@ -25,23 +25,17 @@ speakers:
       Devevangineer at <a href="https://www.mozilla.org/en-US/" target=_blank>Mozilla</a>.
       Building real time audio+graphics experiments with JavaScript; breaking
       half the browsers in the process. It's fun!
-  - url: hugo_giraudel
+  - url: kitty_giraudel
     year: 2016
     hearFor: Talk
-    first_name: "Hugo"
-    last_name: "Giraudel"
-    image_filename: "Hugo_Giraudel.png"
+    first_name: Kitty
+    last_name: Giraudel
+    image_filename: Kitty_Giraudel.jpg
     social:
-      twitter: HugoGiraudel
-      github: HugoGiraudel
-      homepage: http://hugogiraudel.com/
-    bio: |
-      Hugo is a Front-end developer at <a href="http://www.edenspiekermann.com/"
-      target=_blank>Edenspiekermann</a> in Berlin. CSS goblin, Sass hacker & serial
-      writer. OSS toolbelt <a href="http://sassdoc.com/" target=_blank>SassDoc</a> &
-      <a href="http://sass-guidelin.es/" target=_blank>Sass Guidelines</a>.
-      Co-author of <a href=http://howsass.works target=_blank>Jump Start Sass</a>.
-      <a href="https://thenetawards.com/vote/developer/hugo-giraudel/" target=_blank>Net Awards</a> nominee.
+      twitter: KittyGiraudel
+      github: KittyGiraudel
+      homepage: https://kittygiraudel.com/
+    bio: Kitty is a non-binary accessibility & diversity advocate, frontend developer and author.
   - url: forbes_lindesay
     year: 2016
     hearFor: Talk
@@ -120,7 +114,8 @@ speakers:
     social:
       twitter: thedancuellar
       github: penguinho
-    bio: Dan Cuellar is the creator of the open source mobile automation framework
+    bio:
+      Dan Cuellar is the creator of the open source mobile automation framework
       <a href="http://appium.io/" target=_blank>Appium</a>, and Head of Software Testing
       at <a href="http://www.foodit.com/" target=_blank>FOODit</a> in London.
   - url: carlo_sciolla

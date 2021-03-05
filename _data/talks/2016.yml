@@ -107,7 +107,7 @@
   description: <p>Microservices are all the rage, as they promise to lower the complexity of your applications by slimming them down to the bare essentials of one single feature.<br>But as you enter the microservices world, there's a whole universe of extra details that you need to take into account.</p><p>This is a story of how to approach microservices from an architect perspective, with a bunch of monkeys.</p>
   type: Talk
 
-- speaker: hugo_giraudel
+- speaker: kitty_giraudel
   title: Understanding the CSS Modules Methodology
   youtube_url: LIUdaegJi20
   tags:
