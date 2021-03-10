@@ -1,3 +1,3 @@
-const PDFObject = require("pdfobject");
+// const PDFObject = require("pdfobject");
 
-PDFObject.embed("/assets/sponsorship.pdf", "#pdf-sponsorship-embed");
+// PDFObject.embed("/assets/sponsorship.pdf", "#pdf-sponsorship-embed");
