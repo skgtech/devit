@@ -11,13 +11,13 @@ language:
   - ruby
 
 node_js:
-  - 6
+  - 6.9
 
 rvm:
-  - 2.4.2
+  - 2.7.2
 
 before_install:
-  - rvm install 2.4.2
+  - rvm install 2.7.2
   - gem install bundler
   - npm install -g yarn netlify-cli
 
