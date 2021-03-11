@@ -21,21 +21,18 @@ speakers:
       <a href="http://www.tryswiftconf.com/en" target="_blank">try! Swift Conference</a>
       around the world (the next one is in Tokyo!).
 
-  - url: hugo_giraudel
+  - url: kitty_giraudel
     hearFor: Talk & Workshop
     year: 2017
-    first_name: Hugo
+    first_name: Kitty
     last_name: Giraudel
     nickname: CSS-in-JS kitten
-    image_filename: Hugo_Giraudel.png
+    image_filename: Kitty_Giraudel.jpg
     social:
-      twitter: HugoGiraudel
-      github: HugoGiraudel
-    bio : |
-      Hugo is an accessibility advocate and front-end developer at <a href="https://n26.com" target="_blank">N26</a> in Berlin.
-      Open-source contributor and serial writer. OSS toolbelt: <a href="http://sassdoc.com" target="_blank">SassDoc</a> &
-      <a href="https://sass-guidelin.es" target="_blank">Sass Guidelines</a>.
-      Co-author of <a href="https://www.sitepoint.com/premium/books/jump-start-sass" target="_blank">Jump Start Sass</a>. Net Awards nominee.
+      twitter: KittyGiraudel
+      github: KittyGiraudel
+      homepage: https://kittygiraudel.com/
+    bio: Kitty is a non-binary accessibility & diversity advocate, frontend developer and author.
 
   - url: james_halliday
     hearFor: Talk
@@ -174,8 +171,8 @@ speakers:
       twitter: ritazzhang
       github: ritazh
     bio: |
-     Rita Zhang is an Open Source Engineer at Microsoft in San Francisco. She spends most of her days hacking
-     away on GitHub.
+      Rita Zhang is an Open Source Engineer at Microsoft in San Francisco. She spends most of her days hacking
+      away on GitHub.
 
   - url: antonio_peric
     hearFor: Workshop
@@ -350,9 +347,9 @@ speakers:
     social:
       twitter: DennisStav
     bio: |
-     Dionysis Stavroyiannopoulos joined IBM in 2006. He is currently a Senior Software Architect in IBM Greece, responsible for analyzing customers'
-     needs and proposing appropriate solutions. He has worked in several technical positions in the software industry for the last 15 years and has
-     extensive experience in telecom and mobile solutions. He holds a MSc in Space Science from University College London.
+      Dionysis Stavroyiannopoulos joined IBM in 2006. He is currently a Senior Software Architect in IBM Greece, responsible for analyzing customers'
+      needs and proposing appropriate solutions. He has worked in several technical positions in the software industry for the last 15 years and has
+      extensive experience in telecom and mobile solutions. He holds a MSc in Space Science from University College London.
   - url: constantinos_ziazios
     year: 2017
     hearFor: Workshop
