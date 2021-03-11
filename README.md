@@ -22,11 +22,24 @@ We use [Bundler](http://bundler.io/) to manage the [Jekyll](http://jekyllrb.com/
 ### Setup Commands
 
 * Clone
+
 ```
 git clone git@github.com:skgtech/devit.git
 cd devit
 ```
+
+* "imagemagick" is required before you can install Jekyll and its dependencies:
+
+```
+# Ubuntu
+sudo apt-get install libmagick++-dev
+
+# OSX
+brew install imagemagick
+```
+
 * Install Jekyll and its dependencies
+
 ```
 bundle install
 ```
